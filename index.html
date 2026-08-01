@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Passe le Relai</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+
+<style>
+  :root{
+    --ink: #1c1a17;
+    --paper: #faf7f2;
+    --line: #e3ddd2;
+    --red: #c8202f;
+    --accent: #2f5d50;
+    --accent-soft: #e4ede9;
+    --muted: #7a7268;
+  }
+
+  * { box-sizing: border-box; }
+
+  body{
+    margin:0;
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+  }
+
+  .hero{
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 20px;
+    text-align: center;
+  }
+
+  .hero h1{
+    margin: 0;
+    font-size: 3.2rem;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: -0.02em;
+    color: var(--red);
+    text-transform: lowercase;
+  }
+
+  .hero h1 span{ text-transform: none; }
+
+  .subtitle{
+    margin: 14px 0 24px;
+    font-size: 1.05rem;
+    color: #4a4640;
+  }
+
+  .city-picker{
+    display:inline-flex;
+    align-items:center;
+    gap: 10px;
+  }
+
+  .city-picker select{
+    font-size: 1rem;
+    padding: 9px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+    background: white;
+    color: var(--ink);
+    cursor: pointer;
+  }
+
+  .why{
+    max-width: 680px;
+    margin: 10px auto 40px;
+    padding: 24px 28px;
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+  }
+
+  .why h2{
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+  }
+
+  .why p{
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #3a352e;
+  }
+
+  .why a{
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+  }
+  .why a:hover{ opacity: 0.75; }
+
+  .why sup a{
+    border-bottom: none;
+    font-size: 0.75rem;
+  }
+
+  #map-section{
+    display:none;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    padding: 0 24px;
+  }
+
+  #map-section.visible{ display:block; }
+
+  #map-section h2{
+    font-size: 1.1rem;
+    margin: 0 0 14px;
+  }
+
+  .map-layout{
+    display:flex;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow:hidden;
+    height: 520px;
+  }
+
+  #map{
+    flex: 1 1 65%;
+    height: 100%;
+  }
+
+  aside{
+    flex: 1 1 35%;
+    max-width: 340px;
+    overflow-y: auto;
+    background: white;
+    border-left: 1px solid var(--line);
+  }
+
+  .station-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+
+  .station-list li{
+    padding: 13px 18px;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+    font-size: 0.92rem;
+  }
+
+  .station-list li:hover, .station-list li.active{
+    background: var(--accent-soft);
+  }
+
+  .leaflet-popup-content h3{
+    margin: 0;
+    font-size: 0.9rem;
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>passe le <span>relai</span></h1>
+  <p class="subtitle">Découvre les alternatives autour de ta gare</p>
+  <div class="city-picker">
+    <label for="city-select">Ville :</label>
+    <select id="city-select">
+      <option value="">Choisis une ville</option>
+      <option value="paris">Paris</option>
+      <option value="montpellier">Montpellier</option>
+    </select>
+  </div>
+</div>
+
+<div class="why">
+  <h2>Pourquoi ?</h2>
+  <p>
+    En 2022, le groupe <a href="https://fr.wikipedia.org/wiki/Vivendi" target="_blank" rel="noopener">Vivendi</a>,
+    contrôlé par le milliardaire <a href="https://fr.wikipedia.org/wiki/Vincent_Bollor%C3%A9" target="_blank" rel="noopener">Vincent Bolloré</a>,
+    est devenu actionnaire majoritaire du <a href="https://fr.wikipedia.org/wiki/Lagard%C3%A8re_(entreprise)" target="_blank" rel="noopener">groupe Lagardère</a>,
+    propriétaire de l'enseigne Relay<sup><a href="https://fr.wikipedia.org/wiki/Relay#cite_note-6" target="_blank" rel="noopener">[6]</a></sup>.
+    Depuis cette prise de contrôle, plusieurs observateurs relèvent une place grandissante accordée à des titres de presse et des ouvrages
+    proches de l'extrême droite dans les points de vente du réseau<sup><a href="https://fr.wikipedia.org/wiki/Relay#cite_note-7" target="_blank" rel="noopener">[7]</a></sup><sup>,</sup><sup><a href="https://fr.wikipedia.org/wiki/Relay#cite_note-8" target="_blank" rel="noopener">[8]</a></sup>.
+  </p>
+</div>
+
+<div id="map-section">
+  <h2 id="map-title"></h2>
+  <div class="map-layout">
+    <div id="map"></div>
+    <aside>
+      <ul class="station-list" id="station-list"></ul>
+    </aside>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+  // ---- City & station data ----
+  // Only mainline / grandes lignes stations for now — add more cities/stations here.
+  const cities = {
+    paris: {
+      label: "Paris",
+      center: [48.8566, 2.3522],
+      zoom: 12,
+      stations: [
+        { name: "Gare de Lyon",        lat: 48.8443, lng: 2.3743 },
+        { name: "Gare du Nord",        lat: 48.8809, lng: 2.3553 },
+        { name: "Gare de l'Est",       lat: 48.8768, lng: 2.3590 },
+        { name: "Gare Montparnasse",   lat: 48.8412, lng: 2.3210 },
+        { name: "Gare Saint-Lazare",   lat: 48.8757, lng: 2.3244 },
+        { name: "Gare d'Austerlitz",   lat: 48.8425, lng: 2.3648 }
+      ]
+    },
+    montpellier: {
+      label: "Montpellier",
+      center: [43.6100, 3.9060],
+      zoom: 13,
+      stations: [
+        { name: "Gare de Montpellier Saint-Roch",     lat: 43.6047, lng: 3.8807 },
+        { name: "Gare de Montpellier Sud de France",  lat: 43.6157, lng: 3.9325 }
+      ]
+    }
+  };
+
+  let map = null;
+  let markersLayer = null;
+
+  function renderCity(key) {
+    const section = document.getElementById('map-section');
+    const listEl = document.getElementById('station-list');
+    const titleEl = document.getElementById('map-title');
+
+    if (!key) {
+      section.classList.remove('visible');
+      return;
+    }
+
+    const city = cities[key];
+    section.classList.add('visible');
+    titleEl.textContent = `Gares grandes lignes — ${city.label}`;
+    listEl.innerHTML = '';
+
+    if (!map) {
+      map = L.map('map');
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors',
+        maxZoom: 19
+      }).addTo(map);
+    }
+
+    if (markersLayer) markersLayer.clearLayers();
+    markersLayer = L.layerGroup().addTo(map);
+
+    map.setView(city.center, city.zoom);
+
+    // Leaflet needs a nudge to redraw correctly after being hidden/shown
+    setTimeout(() => map.invalidateSize(), 50);
+
+    const markersByName = {};
+
+    city.stations.forEach(station => {
+      const marker = L.marker([station.lat, station.lng]).addTo(markersLayer);
+      marker.bindPopup(`<h3>${station.name}</h3>`);
+      markersByName[station.name] = marker;
+
+      const li = document.createElement('li');
+      li.textContent = station.name;
+      li.addEventListener('click', () => {
+        map.setView([station.lat, station.lng], 15, { animate: true });
+        marker.openPopup();
+        document.querySelectorAll('.station-list li').forEach(el => el.classList.remove('active'));
+        li.classList.add('active');
+      });
+      listEl.appendChild(li);
+    });
+  }
+
+  document.getElementById('city-select').addEventListener('change', (e) => {
+    renderCity(e.target.value);
+  });
+</script>
+
+</body>
+</html>
