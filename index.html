@@ -365,7 +365,7 @@
       legendEl.classList.add('visible');
 
       // Use the 10-minute ring (the larger one) to search for shops
-      const tenMinFeature = isoGeojson.features[0];
+      const tenMinFeature = isoGeojson.features.find(f => f.properties.value === 600);
       const ring = tenMinFeature.geometry.coordinates[0];
       const polyStr = ringToOverpassPoly(ring);
 
