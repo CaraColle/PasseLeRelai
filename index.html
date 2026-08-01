@@ -426,13 +426,14 @@
   }
 
   function drawIsochrones(geojson) {
-    const colors = ["#d98c2b", "#2f5d50"]; // 10 min (amber), 5 min (teal) — kept far apart on the color wheel
-    geojson.features.forEach((feature, i) => {
-      L.geoJSON(feature, {
-        style: { color: colors[i], weight: 1, fillColor: colors[i], fillOpacity: 0.25 }
-      }).addTo(isoLayer);
-    });
-  }
+  const colorByValue = { 600: "#d98c2b", 300: "#2f5d50" }; // 10 min (amber), 5 min (teal)
+  geojson.features.forEach(feature => {
+    const color = colorByValue[feature.properties.value] || "#999";
+    L.geoJSON(feature, {
+      style: { color, weight: 1, fillColor: color, fillOpacity: 0.25 }
+    }).addTo(isoLayer);
+  });
+}
 
   // ---- Overpass: shops within the isochrone ----
   function ringToOverpassPoly(ring) {
