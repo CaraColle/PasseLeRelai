@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Passe le Relai.</title>
+<title>Passe le Relai</title>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 
@@ -229,8 +229,12 @@
   // Add your free openrouteservice key here (openrouteservice.org/dev)
   // Needed only for the Gare de Lyon detail view (isochrones).
   // =========================================================
+  
   const ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjA5MGRkMzRiOGIwZTQ0ZWM5NTZkYTEyZDVjMGVlNjc3IiwiaCI6Im11cm11cjY0In0=";
-  const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
+  const OVERPASS_URLS = [
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter"
+  ];
 
   const CATEGORIES = {
     kiosk:     { emoji: "📰", label: "Kiosque",     color: "#c8202f" },
@@ -548,10 +552,13 @@
       drawIsochrones(isoGeojson);
       legendEl.classList.add('visible');
 
-      // Use the 10-minute ring (the larger one) to search for shops
-      const tenMinFeature = isoGeojson.features[0];
-      const ring = tenMinFeature.geometry.coordinates[0];
-      const polyStr = ringToOverpassPoly(ring);
+      // Look up rings by their actual time value, not array position
+      const tenMinFeature = isoGeojson.features.find(f => f.properties.value === 600);
+      const fiveMinFeature = isoGeojson.features.find(f => f.properties.value === 300);
+
+      const tenMinRing = tenMinFeature.geometry.coordinates[0];
+      const fiveMinPolygon = fiveMinFeature.geometry.coordinates[0].map(c => [c[1], c[0]]); // [lng,lat] -> [lat,lon]
+      const polyStr = ringToOverpassPoly(tenMinRing);
 
       const [shopsData, buildingData] = await Promise.all([
         overpassQuery(buildShopQuery(polyStr)),
@@ -562,7 +569,7 @@
         .filter(el => el.type === 'way' && el.geometry && el.geometry.length > 2)
         .map(el => el.geometry.map(pt => [pt.lat, pt.lon]));
 
-      let count = 0;
+      let count5 = 0, count10 = 0;
       shopsData.elements.forEach(el => {
         const lat = el.type === 'node' ? el.lat : (el.center && el.center.lat);
         const lon = el.type === 'node' ? el.lon : (el.center && el.center.lon);
@@ -575,11 +582,12 @@
         if (!category) return;
 
         addShopMarker(lat, lon, el, category);
-        count++;
+        if (pointInPolygon(lat, lon, fiveMinPolygon)) count5++; else count10++;
       });
 
-      statusEl.textContent = count > 0
-        ? `${count} commerce(s) trouvé(s) dans les 10 minutes de marche (hors gare).`
+      const total = count5 + count10;
+      statusEl.textContent = total > 0
+        ? `${count5} commerce(s) à moins de 5 min à pied, ${count10} de plus à moins de 10 min.`
         : "Aucun commerce trouvé dans ce périmètre pour l'instant.";
     } catch (err) {
       console.error(err);
@@ -610,10 +618,11 @@
   }
 
   function drawIsochrones(geojson) {
-    const colors = ["#d98c2b", "#2f5d50"]; // 10 min (amber), 5 min (teal) — kept far apart on the color wheel
-    geojson.features.forEach((feature, i) => {
+    const colorByValue = { 300: "#2f5d50", 600: "#d98c2b" }; // 5 min = teal, 10 min = amber
+    geojson.features.forEach(feature => {
+      const color = colorByValue[feature.properties.value] || "#999";
       L.geoJSON(feature, {
-        style: { color: colors[i], weight: 1, fillColor: colors[i], fillOpacity: 0.25 }
+        style: { color, weight: 1, fillColor: color, fillOpacity: 0.25 }
       }).addTo(isoLayer);
     });
   }
@@ -643,12 +652,21 @@ out geom;`;
   }
 
   async function overpassQuery(query) {
-    const res = await fetch(OVERPASS_URL, {
-      method: "POST",
-      body: "data=" + encodeURIComponent(query)
-    });
-    if (!res.ok) throw new Error(`Overpass request failed: ${res.status}`);
-    return res.json();
+    let lastError;
+    for (const url of OVERPASS_URLS) {
+      try {
+        const res = await fetch(url, {
+          method: "POST",
+          body: "data=" + encodeURIComponent(query)
+        });
+        if (!res.ok) throw new Error(`Overpass request failed: ${res.status}`);
+        return await res.json();
+      } catch (err) {
+        console.warn(`Overpass endpoint failed (${url}):`, err);
+        lastError = err;
+      }
+    }
+    throw lastError;
   }
 
   function categoryFromTags(tags) {
