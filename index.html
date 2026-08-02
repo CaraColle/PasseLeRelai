@@ -238,6 +238,35 @@
     bakery:    { emoji: "🥖", label: "Boulangerie", color: "#b3792c" }
   };
 
+  const CACHE_TTL_MS = 1000 * 60 * 60 * 24 * 30; // 30 days
+
+function cacheKey(station) {
+  return `station_${station.lat.toFixed(4)}_${station.lng.toFixed(4)}`;
+}
+
+function getCached(station) {
+  try {
+    const raw = localStorage.getItem(cacheKey(station));
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    if (Date.now() - parsed.timestamp > CACHE_TTL_MS) return null;
+    return parsed.data;
+  } catch {
+    return null;
+  }
+}
+
+function setCached(station, data) {
+  try {
+    localStorage.setItem(cacheKey(station), JSON.stringify({
+      timestamp: Date.now(),
+      data
+    }));
+  } catch {
+    // storage full or unavailable — just skip caching silently
+  }
+}
+
   // ---- City & station data ----
   // Metropolitan French cities with 100k+ inhabitants AND their own long-distance
   // ("grandes lignes") station. A few 100k+ communes are left out on purpose because
@@ -522,74 +551,94 @@
   document.getElementById('back-btn').addEventListener('click', () => renderCity(currentCityKey));
 
   // ---- Station detail view: isochrones + shops around a station ----
-  async function enterStationDetail(station) {
-    const titleEl = document.getElementById('map-title');
-    const statusEl = document.getElementById('poi-status');
-    const legendEl = document.getElementById('legend');
-    const backBtn = document.getElementById('back-btn');
-
-    titleEl.textContent = station.name;
-    backBtn.classList.add('visible');
-    legendEl.classList.remove('visible');
-    isoLayer.clearLayers();
-    poiLayer.clearLayers();
-    statusEl.textContent = 'Chargement des isochrones et des commerces…';
-
-    map.setView([station.lat, station.lng], 16, { animate: true });
-    setTimeout(() => map.invalidateSize(), 50);
-
-    if (ORS_API_KEY === "YOUR_API_KEY_HERE") {
-      statusEl.textContent = "Ajoute ta clé openrouteservice (voir le code) pour afficher les isochrones et les commerces.";
-      return;
-    }
-
-    try {
-      const isoGeojson = await fetchIsochrones(station.lat, station.lng);
-      drawIsochrones(isoGeojson);
-      legendEl.classList.add('visible');
-
-      // Look up rings by their actual time value, not array position
-      const tenMinFeature = isoGeojson.features.find(f => f.properties.value === 600);
-      const fiveMinFeature = isoGeojson.features.find(f => f.properties.value === 300);
-
-      const tenMinRing = tenMinFeature.geometry.coordinates[0];
-      const fiveMinPolygon = fiveMinFeature.geometry.coordinates[0].map(c => [c[1], c[0]]); // [lng,lat] -> [lat,lon]
-      const polyStr = ringToOverpassPoly(tenMinRing);
-
-      const [shopsData, buildingData] = await Promise.all([
-        overpassQuery(buildShopQuery(polyStr)),
-        overpassQuery(buildStationBuildingQuery(station.lat, station.lng))
-      ]);
-
-      const buildingPolygons = buildingData.elements
-        .filter(el => el.type === 'way' && el.geometry && el.geometry.length > 2)
-        .map(el => el.geometry.map(pt => [pt.lat, pt.lon]));
-
-      let count5 = 0, count10 = 0;
-      shopsData.elements.forEach(el => {
-        const lat = el.type === 'node' ? el.lat : (el.center && el.center.lat);
-        const lon = el.type === 'node' ? el.lon : (el.center && el.center.lon);
-        if (lat == null || lon == null) return;
-
-        // Skip anything mapped inside the station building itself
-        if (isPointInsideAnyPolygon(lat, lon, buildingPolygons)) return;
-
-        const category = categoryFromTags(el.tags);
-        if (!category) return;
-
-        addShopMarker(lat, lon, el, category);
-        if (pointInPolygon(lat, lon, fiveMinPolygon)) count5++; else count10++;
-      });
-
-      const total = count5 + count10;
-      statusEl.textContent = total > 0
-        ? `${count5} commerce(s) à moins de 5 min à pied, ${count10} de plus à moins de 10 min.`
-        : "Aucun commerce trouvé dans ce périmètre pour l'instant.";
-    } catch (err) {
-      console.error(err);
-      statusEl.textContent = "Erreur lors du chargement des isochrones ou des commerces.";
-    }
+  function renderStationData(isoGeojson, shopsData, buildingData, statusEl, legendEl, skipIsoDraw = false) {
+  if (!skipIsoDraw) {
+    drawIsochrones(isoGeojson);
+    legendEl.classList.add('visible');
   }
+
+  const fiveMinFeature = isoGeojson.features.find(f => f.properties.value === 300);
+  const fiveMinPolygon = fiveMinFeature.geometry.coordinates[0].map(c => [c[1], c[0]]);
+
+  const buildingPolygons = buildingData.elements
+    .filter(el => el.type === 'way' && el.geometry && el.geometry.length > 2)
+    .map(el => el.geometry.map(pt => [pt.lat, pt.lon]));
+
+  let count5 = 0, count10 = 0;
+  shopsData.elements.forEach(el => {
+    const lat = el.type === 'node' ? el.lat : (el.center && el.center.lat);
+    const lon = el.type === 'node' ? el.lon : (el.center && el.center.lon);
+    if (lat == null || lon == null) return;
+    if (isPointInsideAnyPolygon(lat, lon, buildingPolygons)) return;
+
+    const category = categoryFromTags(el.tags);
+    if (!category) return;
+
+    addShopMarker(lat, lon, el, category);
+    if (pointInPolygon(lat, lon, fiveMinPolygon)) count5++; else count10++;
+  });
+
+  const total = count5 + count10;
+  statusEl.textContent = total > 0
+    ? `${count5} commerce(s) à moins de 5 min à pied, ${count10} de plus à moins de 10 min.`
+    : "Aucun commerce trouvé dans ce périmètre pour l'instant.";
+}
+  
+async function enterStationDetail(station) {
+  const titleEl = document.getElementById('map-title');
+  const statusEl = document.getElementById('poi-status');
+  const legendEl = document.getElementById('legend');
+  const backBtn = document.getElementById('back-btn');
+
+  titleEl.textContent = station.name;
+  backBtn.classList.add('visible');
+  legendEl.classList.remove('visible');
+  isoLayer.clearLayers();
+  poiLayer.clearLayers();
+
+  map.setView([station.lat, station.lng], 16, { animate: true });
+  setTimeout(() => map.invalidateSize(), 50);
+
+  // 1. Try cache first — instant if this station was viewed before
+  const cached = getCached(station);
+  if (cached) {
+    statusEl.textContent = 'Chargement depuis le cache…';
+    renderStationData(cached.isoGeojson, cached.shopsData, cached.buildingData, statusEl, legendEl);
+    return;
+  }
+
+  statusEl.textContent = 'Chargement des isochrones et des commerces…';
+
+  if (ORS_API_KEY === "YOUR_API_KEY_HERE") {
+    statusEl.textContent = "Ajoute ta clé openrouteservice pour afficher les isochrones et les commerces.";
+    return;
+  }
+
+  try {
+    // 2. Fetch isochrones and the station building query in parallel
+    const [isoGeojson, buildingData] = await Promise.all([
+      fetchIsochrones(station.lat, station.lng),
+      overpassQuery(buildStationBuildingQuery(station.lat, station.lng))
+    ]);
+
+    // 3. Draw isochrones immediately, before shops arrive (perceived speed)
+    drawIsochrones(isoGeojson);
+    legendEl.classList.add('visible');
+    statusEl.textContent = 'Recherche des commerces à proximité…';
+
+    // 4. Fetch shops using a fast radius query instead of the polygon
+    const shopsData = await overpassQuery(buildShopQueryAround(station.lat, station.lng));
+
+    // 5. Cache everything for next time
+    setCached(station, { isoGeojson, shopsData, buildingData });
+
+    // 6. Now do the actual marker placement + counts
+    renderStationData(isoGeojson, shopsData, buildingData, statusEl, legendEl, true);
+  } catch (err) {
+    console.error(err);
+    statusEl.textContent = "Erreur lors du chargement des isochrones ou des commerces.";
+  }
+}
 
   // ---- openrouteservice isochrones ----
   async function fetchIsochrones(lat, lng) {
@@ -647,23 +696,36 @@
 out geom;`;
   }
 
+  function buildShopQueryAround(lat, lng, radiusMeters = 800) {
+  const tags = ['kiosk', 'books', 'bakery'];
+  const clauses = tags.map(t =>
+    `node["shop"="${t}"](around:${radiusMeters},${lat},${lng});\n  way["shop"="${t}"](around:${radiusMeters},${lat},${lng});`
+  ).join('\n  ');
+  return `[out:json][timeout:25];\n(\n  ${clauses}\n);\nout center tags;`;
+}
+
   async function overpassQuery(query) {
-    let lastError;
-    for (const url of OVERPASS_URLS) {
-      try {
-        const res = await fetch(url, {
-          method: "POST",
-          body: "data=" + encodeURIComponent(query)
-        });
-        if (!res.ok) throw new Error(`Overpass request failed: ${res.status}`);
-        return await res.json();
-      } catch (err) {
-        console.warn(`Overpass endpoint failed (${url}):`, err);
-        lastError = err;
-      }
-    }
-    throw lastError;
+  const controllers = OVERPASS_URLS.map(() => new AbortController());
+
+  const attempts = OVERPASS_URLS.map((url, i) =>
+    fetch(url, {
+      method: "POST",
+      body: "data=" + encodeURIComponent(query),
+      signal: controllers[i].signal
+    }).then(res => {
+      if (!res.ok) throw new Error(`Overpass request failed: ${res.status}`);
+      return res.json();
+    })
+  );
+
+  try {
+    const result = await Promise.any(attempts);
+    controllers.forEach(c => c.abort()); // cancel whichever mirror is still pending
+    return result;
+  } catch {
+    throw new Error('All Overpass endpoints failed');
   }
+}
 
   function categoryFromTags(tags) {
     if (!tags) return null;
