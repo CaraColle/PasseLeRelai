@@ -678,13 +678,6 @@ async function enterStationDetail(station) {
     return ring.map(coord => `${coord[1]} ${coord[0]}`).join(' ');
   }
 
-  function buildShopQuery(polyStr) {
-    const tags = ['kiosk', 'books', 'bakery'];
-    const clauses = tags.map(t =>
-      `node["shop"="${t}"](poly:"${polyStr}");\n  way["shop"="${t}"](poly:"${polyStr}");`
-    ).join('\n  ');
-    return `[out:json][timeout:25];\n(\n  ${clauses}\n);\nout center tags;`;
-  }
 
   function buildStationBuildingQuery(lat, lng) {
     return `[out:json][timeout:25];
