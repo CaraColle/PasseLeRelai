@@ -1,392 +1,412 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Isochrones & Commerces — Gares de Paris</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Passe le Relai.</title>
 
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 
-  <style>
-    :root {
-      --ink:        #1c1a17;
-      --paper:      #faf7f2;
-      --line:       #e3ddd2;
-      --red:        #c8202f;
-      --accent:     #2f5d50;
-      --accent-soft:#e4ede9;
-      --muted:      #7a7268;
-      --bakery:     #b3792c;
-    }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      font-family: 'Segoe UI', system-ui, sans-serif;
-      background: var(--paper);
-      color: var(--ink);
-      display: flex;
-      flex-direction: column;
-      height: 100dvh;
-    }
-
-    /* ── Header ── */
-    header {
-      background: var(--ink);
-      color: var(--paper);
-      padding: 12px 20px;
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-
-    header h1 {
-      font-size: 1rem;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      white-space: nowrap;
-    }
-
-    .controls {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    label {
-      font-size: 0.85rem;
-      color: var(--line);
-    }
-
-    select {
-      padding: 6px 10px;
-      border-radius: 4px;
-      border: 1px solid var(--accent);
-      background: var(--accent-soft);
-      color: var(--ink);
-      font-size: 0.9rem;
-      cursor: pointer;
-    }
-
-    #status {
-      margin-left: auto;
-      font-size: 0.78rem;
-      color: var(--muted);
-      max-width: 320px;
-      text-align: right;
-    }
-
-    #status.err   { color: var(--red); }
-    #status.warn  { color: var(--bakery); }
-    #status.ok    { color: #6aaa7c; }
-
-    /* ── Map ── */
-    #map {
-      flex: 1;
-      min-height: 0;
-    }
-
-    /* Leaflet control overrides */
-    .leaflet-control-attribution {
-      font-size: 0.7rem;
-    }
-
-    /* ── Legend panel ── */
-    .legend {
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      padding: 10px 14px;
-      font-size: 0.78rem;
-      line-height: 1.8;
-      box-shadow: 0 2px 8px rgba(28,26,23,0.12);
-    }
-
-    .legend h3 {
-      font-size: 0.78rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--muted);
-      margin-bottom: 6px;
-    }
-
-    .legend-item {
-      display: flex;
-      align-items: center;
-      gap: 7px;
-    }
-
-    .swatch {
-      width: 14px;
-      height: 14px;
-      border-radius: 50%;
-      flex-shrink: 0;
-      border: 1.5px solid rgba(0,0,0,0.15);
-    }
-
-    /* Isochrone swatches — approximate opacity fills */
-    .swatch-300 { background: rgba(47, 93, 80, 0.55); }
-    .swatch-600 { background: rgba(47, 93, 80, 0.35); }
-    .swatch-900 { background: rgba(47, 93, 80, 0.15); }
-
-    .swatch-bakery  { background: var(--bakery); }
-    .swatch-other   { background: var(--accent); }
-  </style>
+<style>
+  :root{
+    --ink: #1c1a17;
+    --paper: #faf7f2;
+    --line: #e3ddd2;
+    --red: #c8202f;
+    --accent: #2f5d50;
+    --accent-soft: #e4ede9;
+    --muted: #7a7268;
+    --bakery: #b3792c;
+  }
+  * { box-sizing: border-box; }
+  body{ margin:0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--paper); color: var(--ink); }
+  .hero{ max-width: 720px; margin: 0 auto; padding: 56px 24px 20px; text-align: center; }
+  .hero h1 .tilt{ display: inline-block; transform: rotate(-15deg); transform-origin: left bottom; }
+  .subtitle{ margin: 14px 0 24px; font-size: 1.05rem; color: #4a4640; }
+  .city-picker{ display:inline-flex; align-items:center; gap: 10px; }
+  .city-picker select{ font-size: 1rem; padding: 9px 14px; border-radius: 8px; border: 1px solid var(--line); background: white; cursor: pointer; }
+  .why{ max-width: 680px; margin: 10px auto 40px; padding: 24px 28px; background: white; border: 1px solid var(--line); border-radius: 10px; }
+  .why h2{ margin: 0 0 10px; font-size: 1.1rem; }
+  .why p{ margin: 0; font-size: 0.95rem; line-height: 1.6; color: #3a352e; }
+  .why a{ color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
+  .why a:hover{ opacity: 0.75; }
+  .why sup a{ border-bottom: none; font-size: 0.75rem; }
+  #map-section{ display:none; max-width: 1100px; margin: 0 auto 60px; padding: 0 24px; }
+  #map-section.visible{ display:block; }
+  .map-header{ display:flex; align-items:baseline; justify-content: space-between; margin-bottom: 12px; }
+  .map-header h2{ font-size: 1.1rem; margin: 0; }
+  #back-btn{ display:none; border: none; background: none; color: var(--accent); font-size: 0.85rem; cursor: pointer; padding: 0; }
+  #back-btn.visible{ display:inline; }
+  .map-layout{ display:flex; border: 1px solid var(--line); border-radius: 10px; overflow:hidden; height: 560px; }
+  .map-wrap{ position: relative; flex: 1 1 65%; height: 100%; }
+  #map{ height: 100%; }
+  aside{ flex: 1 1 35%; max-width: 340px; overflow-y: auto; background: white; border-left: 1px solid var(--line); }
+  .station-list{ list-style:none; margin:0; padding:0; }
+  .station-list li{ padding: 13px 18px; border-bottom: 1px solid var(--line); cursor: pointer; font-size: 0.92rem; }
+  .station-list li:hover, .station-list li.active{ background: var(--accent-soft); }
+  #poi-status{ padding: 14px 18px; font-size: 0.82rem; color: var(--muted); border-bottom: 1px solid var(--line); }
+  .stale-warning{ padding: 10px 18px; font-size: 0.76rem; color: #8a5a10; background: #fff6e6; border-bottom: 1px solid var(--line); }
+  .legend{ position:absolute; z-index: 500; bottom: 16px; left: 16px; background: white; border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; font-size: 0.78rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display:none; }
+  .legend.visible{ display:block; }
+  .legend div{ display:flex; align-items:center; gap: 7px; margin: 3px 0; }
+  .legend .swatch{ width: 13px; height: 13px; border-radius: 3px; display:inline-block; }
+  .legend .dot{ width: 16px; height:16px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:10px; color:white; }
+  .poi-marker{ width: 28px; height: 28px; border-radius: 50%; display:flex; align-items:center; justify-content:center; font-size: 15px; border: 2px solid white; box-shadow: 0 1px 4px rgba(0,0,0,0.35); }
+  .leaflet-popup-content h3{ margin: 0 0 4px; font-size: 0.92rem; }
+  .leaflet-popup-content p{ margin: 2px 0; font-size: 0.82rem; }
+  .leaflet-popup-content a{ font-size: 0.8rem; }
+</style>
 </head>
 <body>
 
-<header>
-  <h1>Isochrones & Commerces — Gares de Paris</h1>
-
-  <div class="controls">
-    <label for="station-select">Gare :</label>
-    <select id="station-select">
-      <option value="">— Chargement… —</option>
+<div class="hero">
+  <h1>passe le <span class="tilt">relai</span></h1>
+  <p class="subtitle">Découvre les alternatives autour de ta gare</p>
+  <div class="city-picker">
+    <label for="city-select">Ville :</label>
+    <select id="city-select">
+      <option value="">Choisis une ville</option>
     </select>
   </div>
+</div>
 
-  <span id="status" class="ok">Chargement de l'index des gares…</span>
-</header>
+<div class="why">
+  <h2>Pourquoi ?</h2>
+  <p>
+    En 2022, le groupe <a href="https://fr.wikipedia.org/wiki/Vivendi" target="_blank" rel="noopener">Vivendi</a>,
+    contrôlé par le milliardaire <a href="https://fr.wikipedia.org/wiki/Vincent_Bollor%C3%A9" target="_blank" rel="noopener">Vincent Bolloré</a>,
+    est devenu actionnaire majoritaire du <a href="https://fr.wikipedia.org/wiki/Lagard%C3%A8re_(entreprise)" target="_blank" rel="noopener">groupe Lagardère</a>,
+    propriétaire de l'enseigne Relay<sup><a href="https://fr.wikipedia.org/wiki/Relay#cite_note-6" target="_blank" rel="noopener">[6]</a></sup>.
+    Depuis cette prise de contrôle, plusieurs observateurs relèvent une place grandissante accordée à des titres de presse et des ouvrages
+    proches de l'extrême droite dans les points de vente du réseau<sup><a href="https://fr.wikipedia.org/wiki/Relay#cite_note-7" target="_blank" rel="noopener">[7]</a></sup><sup>,</sup><sup><a href="https://fr.wikipedia.org/wiki/Relay#cite_note-8" target="_blank" rel="noopener">[8]</a></sup>.
+  </p>
+</div>
 
-<div id="map"></div>
+<div id="map-section">
+  <div class="map-header">
+    <h2 id="map-title"></h2>
+    <button id="back-btn">← Retour à la vue d'ensemble</button>
+  </div>
+  <div class="map-layout">
+    <div class="map-wrap">
+      <div id="map"></div>
+      <div class="legend" id="legend">
+        <div><span class="swatch" style="background:#2f5d50;"></span> 5 min à pied</div>
+        <div><span class="swatch" style="background:#d98c2b;"></span> 10 min à pied</div>
+        <div><span class="swatch" style="background:#8a3fc8;"></span> 15 min à pied</div>
+        <div><span class="dot" style="background:#c8202f;">📰</span> Kiosque</div>
+        <div><span class="dot" style="background:#2f5d50;">📚</span> Librairie</div>
+        <div><span class="dot" style="background:#b3792c;">🥖</span> Boulangerie</div>
+      </div>
+    </div>
+    <aside>
+      <div id="stale-warning" class="stale-warning" style="display:none;"></div>
+      <div id="poi-status"></div>
+      <ul class="station-list" id="station-list"></ul>
+    </aside>
+  </div>
+</div>
 
-<!-- Leaflet JS -->
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-'use strict';
-
-/* ─────────────────────────────────────────
-   Station data cache (slug → station JSON)
-   ───────────────────────────────────────── */
-const stationCache = {};
-
-/* ─────────────────────────────────────────
-   Map initialisation
-   ───────────────────────────────────────── */
-const map = L.map('map', { zoomControl: true }).setView([48.8566, 2.3522], 13);
-
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  maxZoom: 19,
-}).addTo(map);
-
-/* ─────────────────────────────────────────
-   Layer groups
-   ───────────────────────────────────────── */
-let isochroneLayer = L.layerGroup().addTo(map);
-let shopLayer      = L.layerGroup().addTo(map);
-
-/* ─────────────────────────────────────────
-   Helpers
-   ───────────────────────────────────────── */
-
-/**
- * Colour for a GeoJSON isochrone feature.
- * Uses feature.properties.group_index (0, 1, 2) for 300/600/900 s ranges.
- */
-function isochroneColor(groupIndex) {
-  // accent #2f5d50 with varying opacity baked in via style function below
-  const opacities = [0.55, 0.35, 0.15];
-  return `rgba(47, 93, 80, ${opacities[groupIndex ?? 0]})`;
-}
-
-function isochroneStyle(feature) {
-  return {
-    color: '#2f5d50',
-    weight: 1.5,
-    opacity: 1,
-    fillColor: '#2f5d50',
-    fillOpacity: (feature.properties?.group_index === 0) ? 0.55
-                 : (feature.properties?.group_index === 1) ? 0.35
-                 : 0.15,
+  const CATEGORIES = {
+    kiosk:     { emoji: "📰", label: "Kiosque",     color: "#c8202f" },
+    bookstore: { emoji: "📚", label: "Librairie",   color: "#2f5d50" },
+    bakery:    { emoji: "🥖", label: "Boulangerie", color: "#b3792c" }
   };
-}
 
-/** Render shop markers onto shopLayer. */
-function renderShops(shopData) {
-  shopLayer.clearLayers();
+  // City groupings — used only to organize the picker & the map center/zoom.
+  // Station list membership is matched against stations-index.json by name.
+  const cities = {
+    paris: {
+      label: "Paris",
+      center: [48.8566, 2.3522],
+      zoom: 12,
+      stationNames: [
+        "Gare de Lyon", "Gare du Nord", "Gare de l'Est",
+        "Gare Montparnasse", "Gare Saint-Lazare", "Gare d'Austerlitz"
+      ]
+    }
+    // Add more cities here as your prefetch script covers more stations.
+  };
 
-  const elements = shopData?.elements ?? [];
-  if (!elements.length) return;
+  let map = null;
+  let stationMarkersLayer = null;
+  let isoLayer = null;
+  let poiLayer = null;
+  let currentCityKey = null;
 
-  const stationIcon = L.icon({
-    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/markers/marker-icon-violet.png',
-    iconSize: [25, 41],
-    iconAnchor: [12, 41],
-    popupAnchor: [1, -34],
-  });
+  let stationsIndex = null; // loaded once from data/stations-index.json
+  const stationDataCache = new Map(); // slug -> full station JSON
 
-  elements.forEach(node => {
-    const tags = node.tags ?? {};
-    const name = tags.name ?? tags.shop ?? 'Commerce';
-    const shop = tags.shop ?? '';
+  let requestToken = 0;
 
-    const color = (shop === 'bakery') ? '#b3792c' : '#2f5d50';
-
-    const icon = L.divIcon({
-      html: `<svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
-               <circle cx="9" cy="9" r="7" fill="${color}" stroke="white" stroke-width="1.5"/>
-             </svg>`,
-      iconSize: [18, 18],
-      iconAnchor: [9, 9],
-      popupAnchor: [0, -9],
-      className: '',
-    });
-
-    const popup = `<b>${name}</b><br/><small>${shop}</small>`;
-    L.marker([node.lat, node.lon], { icon })
-      .bindPopup(popup)
-      .addTo(shopLayer);
-  });
-}
-
-/** Render isochrone GeoJSON onto isochroneLayer. */
-function renderIsochrones(isochronesData) {
-  isochroneLayer.clearLayers();
-
-  const fc = isochronesData?.features;
-  if (!fc || !fc.length) return;
-
-  fc.forEach(feature => {
-    // ORS-style group_index in properties
-    const groupIndex = feature.properties?.group_index ?? 0;
-    feature.properties = feature.properties || {};
-    feature.properties.group_index = groupIndex;
-
-    L.geoJSON(feature, { style: isochroneStyle }).addTo(isochroneLayer);
-  });
-}
-
-/** Update status bar. */
-function setStatus(msg, cls = 'ok') {
-  const el = document.getElementById('status');
-  el.textContent = msg;
-  el.className = cls;
-}
-
-/** Format a French-readable timestamp. */
-function fmtDate(isoStr) {
-  if (!isoStr) return 'inconnu';
-  const d = new Date(isoStr);
-  return d.toLocaleString('fr-FR', {
-    day: '2-digit', month: 'short', year: 'numeric',
-    hour: '2-digit', minute: '2-digit',
-  });
-}
-
-/* ─────────────────────────────────────────
-   Station loading
-   ───────────────────────────────────────── */
-async function loadStation(slug) {
-  if (stationCache[slug]) {
-    applyStation(stationCache[slug]);
-    return;
-  }
-
-  setStatus('Chargement des données…', 'ok');
-  try {
-    const res = await fetch(`data/stations/${slug}.json`);
-    if (!res.ok) throw new Error(`HTTP ${res.ok}`);
-    const data = await res.json();
-    stationCache[slug] = data;
-    applyStation(data);
-  } catch (err) {
-    setStatus('Erreur de chargement des données de la gare.', 'err');
-    console.error('loadStation error:', err);
-  }
-}
-
-function applyStation(data) {
-  const stationInfo = data?.station ?? {};
-
-  // Isochrones
-  renderIsochrones(data?.isochrones ?? null);
-
-  // Shops
-  renderShops(data?.shops ?? null);
-
-  // Station marker
-  if (stationInfo.lat && stationInfo.lng) {
-    const marker = L.marker([stationInfo.lat, stationInfo.lng], {
-      title: stationInfo.name,
-    }).bindPopup(`<b>${stationInfo.name}</b>`);
-    marker.addTo(map);
-    map.setView([stationInfo.lat, stationInfo.lng], 14);
-  }
-
-  // Status line
-  const fetchedAt = fmtDate(data?.fetchedAt ?? null);
-  const shopCount = data?.shops?.elements?.length ?? 0;
-  let msg = `Mis à jour : ${fetchedAt} — ${shopCount} commerce${shopCount !== 1 ? 's' : ''}`;
-  const cls = data?.staleDataWarning ? 'warn' : 'ok';
-  if (data?.staleDataWarning) msg += ' (certaines données peuvent être anciennes)';
-  setStatus(msg, cls);
-}
-
-/* ─────────────────────────────────────────
-   Load station index on page load
-   ───────────────────────────────────────── */
-(async function init() {
-  try {
+  async function loadStationsIndex() {
+    if (stationsIndex) return stationsIndex;
     const res = await fetch('data/stations-index.json');
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const index = await res.json();
+    if (!res.ok) throw new Error(`Failed to load stations index: ${res.status}`);
+    stationsIndex = await res.json();
+    return stationsIndex;
+  }
 
-    const select = document.getElementById('station-select');
-    select.innerHTML = '<option value="">— Choisir une gare —</option>';
-
-    (index.stations ?? []).forEach(s => {
+  function populateCityDropdown() {
+    const select = document.getElementById('city-select');
+    const sortedKeys = Object.keys(cities).sort((a, b) =>
+      cities[a].label.localeCompare(cities[b].label, 'fr', { sensitivity: 'base' })
+    );
+    sortedKeys.forEach(key => {
       const opt = document.createElement('option');
-      opt.value = s.slug;
-      opt.textContent = s.name;
+      opt.value = key;
+      opt.textContent = cities[key].label;
       select.appendChild(opt);
     });
+  }
+  populateCityDropdown();
 
-    if (index.staleDataWarning) {
-      setStatus('Attention : certaines données datent de la dernière mise à jour réussie.', 'warn');
-    } else {
-      setStatus(`Index prêt — ${(index.stations ?? []).length} gare(s).`, 'ok');
+  function ensureMap() {
+    if (map) return;
+    map = L.map('map', { preferCanvas: true });
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors',
+      maxZoom: 19
+    }).addTo(map);
+    isoLayer = L.layerGroup().addTo(map);
+    poiLayer = L.layerGroup().addTo(map);
+  }
+
+  async function renderCity(key) {
+    const section = document.getElementById('map-section');
+    const listEl = document.getElementById('station-list');
+    const titleEl = document.getElementById('map-title');
+    const backBtn = document.getElementById('back-btn');
+    const staleEl = document.getElementById('stale-warning');
+
+    requestToken++;
+
+    if (!key) {
+      section.classList.remove('visible');
+      return;
     }
 
-    select.addEventListener('change', () => {
-      if (select.value) loadStation(select.value);
+    currentCityKey = key;
+    const city = cities[key];
+    section.classList.add('visible');
+    titleEl.textContent = `Gares grandes lignes — ${city.label}`;
+    document.getElementById('poi-status').textContent = '';
+    document.getElementById('legend').classList.remove('visible');
+    staleEl.style.display = 'none';
+    backBtn.classList.remove('visible');
+    listEl.innerHTML = 'Chargement des gares…';
+
+    let index;
+    try {
+      index = await loadStationsIndex();
+    } catch (err) {
+      console.error(err);
+      listEl.innerHTML = '';
+      document.getElementById('poi-status').textContent = "Erreur lors du chargement de la liste des gares.";
+      return;
+    }
+
+    listEl.innerHTML = '';
+
+    ensureMap();
+    isoLayer.clearLayers();
+    poiLayer.clearLayers();
+    if (stationMarkersLayer) stationMarkersLayer.clearLayers();
+    stationMarkersLayer = L.layerGroup();
+
+    map.setView(city.center, city.zoom);
+    requestAnimationFrame(() => map.invalidateSize());
+
+    const fragment = document.createDocumentFragment();
+
+    const stationsForCity = index.stations.filter(s => city.stationNames.includes(s.name));
+
+    stationsForCity.forEach(station => {
+      const marker = L.marker([station.lat, station.lng]);
+      marker.bindPopup(`<h3>${station.name}</h3>`);
+      marker.addTo(stationMarkersLayer);
+
+      const li = document.createElement('li');
+      li.textContent = station.name;
+
+      const activate = () => {
+        document.querySelectorAll('.station-list li').forEach(el => el.classList.remove('active'));
+        li.classList.add('active');
+        enterStationDetail(station);
+      };
+
+      marker.on('click', activate);
+      li.addEventListener('click', activate);
+      fragment.appendChild(li);
     });
 
-    // Auto-load first station if index has only one entry
-    if ((index.stations ?? []).length === 1) {
-      select.value = index.stations[0].slug;
-      loadStation(index.stations[0].slug);
+    listEl.appendChild(fragment);
+    stationMarkersLayer.addTo(map);
+  }
+
+  document.getElementById('city-select').addEventListener('change', (e) => renderCity(e.target.value));
+  document.getElementById('back-btn').addEventListener('click', () => renderCity(currentCityKey));
+
+  // ---- Station detail view: loads prefetched isochrones + shops for one station ----
+  async function enterStationDetail(station) {
+    const titleEl = document.getElementById('map-title');
+    const statusEl = document.getElementById('poi-status');
+    const legendEl = document.getElementById('legend');
+    const backBtn = document.getElementById('back-btn');
+    const staleEl = document.getElementById('stale-warning');
+
+    const myToken = ++requestToken;
+
+    titleEl.textContent = station.name;
+    backBtn.classList.add('visible');
+    legendEl.classList.remove('visible');
+    staleEl.style.display = 'none';
+    isoLayer.clearLayers();
+    poiLayer.clearLayers();
+
+    statusEl.textContent = 'Chargement…';
+    map.setView([station.lat, station.lng], 16, { animate: true });
+    requestAnimationFrame(() => map.invalidateSize());
+
+    try {
+      let data = stationDataCache.get(station.slug);
+      if (!data) {
+        const res = await fetch(station.file);
+        if (!res.ok) throw new Error(`Failed to load station data: ${res.status}`);
+        data = await res.json();
+        stationDataCache.set(station.slug, data);
+      }
+
+      if (myToken !== requestToken) return;
+
+      if (data.staleDataWarning) {
+        staleEl.style.display = 'block';
+        staleEl.textContent = `⚠️ Données mises à jour le ${new Date(data.fetchedAt).toLocaleString('fr-FR')} — certaines informations peuvent être incomplètes.`;
+      }
+
+      renderIsoAndShops(data, statusEl, legendEl);
+    } catch (err) {
+      console.error(err);
+      if (myToken === requestToken) {
+        statusEl.textContent = "Erreur lors du chargement des données de la gare.";
+      }
+    }
+  }
+
+  function renderIsoAndShops(data, statusEl, legendEl) {
+    isoLayer.clearLayers();
+    poiLayer.clearLayers();
+
+    const isoGeojson = data.isochrones;
+    if (isoGeojson && isoGeojson.features && isoGeojson.features.length) {
+      drawIsochrones(isoGeojson);
+      legendEl.classList.add('visible');
     }
 
-  } catch (err) {
-    setStatus("Erreur : impossible de charger l'index des gares.", 'err');
-    console.error('Index load error:', err);
-  }
-})();
+    if (!data.shops || !data.shops.elements || data.shops.elements.length === 0) {
+      statusEl.textContent = "Données sur les commerces indisponibles pour cette gare pour l'instant.";
+      return;
+    }
 
-/* ─────────────────────────────────────────
-   Legend
-   ───────────────────────────────────────── */
-const legend = L.control({ position: 'bottomright' });
-legend.onAdd = function () {
-  const div = L.DomUtil.create('div', 'legend');
-  div.innerHTML = `
-    <h3>Légende</h3>
-    <div class="legend-item"><div class="swatch swatch-300"></div>5 min à pied (300 s)</div>
-    <div class="legend-item"><div class="swatch swatch-600"></div>10 min à pied (600 s)</div>
-    <div class="legend-item"><div class="swatch swatch-900"></div>15 min à pied (900 s)</div>
-    <div class="legend-item"><div class="swatch swatch-bakery"></div>Boulangerie</div>
-    <div class="legend-item"><div class="swatch swatch-other"></div>Autre commerce</div>
-  `;
-  return div;
-};
-legend.addTo(map);
+    const fiveMinFeature = isoGeojson.features.find(f => f.properties.value === 300);
+    const tenMinFeature = isoGeojson.features.find(f => f.properties.value === 600);
+    const fiveMinPolygon = fiveMinFeature
+      ? fiveMinFeature.geometry.coordinates[0].map(c => [c[1], c[0]])
+      : null;
+    const tenMinPolygon = tenMinFeature
+      ? tenMinFeature.geometry.coordinates[0].map(c => [c[1], c[0]])
+      : null;
+
+    let count5 = 0, count10 = 0, countOther = 0;
+    const markers = [];
+
+    data.shops.elements.forEach(el => {
+      const lat = el.type === 'node' ? el.lat : (el.center && el.center.lat);
+      const lon = el.type === 'node' ? el.lon : (el.center && el.center.lon);
+      if (lat == null || lon == null) return;
+
+      const category = categoryFromTags(el.tags);
+      if (!category) return;
+
+      markers.push(buildShopMarker(lat, lon, el, category));
+
+      if (fiveMinPolygon && pointInPolygon(lat, lon, fiveMinPolygon)) {
+        count5++;
+      } else if (tenMinPolygon && pointInPolygon(lat, lon, tenMinPolygon)) {
+        count10++;
+      } else {
+        countOther++;
+      }
+    });
+
+    markers.forEach(m => m.addTo(poiLayer));
+
+    const total = count5 + count10 + countOther;
+    statusEl.textContent = total > 0
+      ? `${count5} commerce(s) à moins de 5 min à pied, ${count10} de plus à moins de 10 min.`
+      : "Aucun commerce trouvé dans ce périmètre pour l'instant.";
+  }
+
+  function drawIsochrones(geojson) {
+    const colorByValue = { 300: "#2f5d50", 600: "#d98c2b", 900: "#8a3fc8" };
+    // Draw largest range first so smaller ranges render on top visually
+    const sorted = [...geojson.features].sort((a, b) => b.properties.value - a.properties.value);
+    sorted.forEach(feature => {
+      const color = colorByValue[feature.properties.value] || "#999";
+      L.geoJSON(feature, {
+        style: { color, weight: 1, fillColor: color, fillOpacity: 0.2 }
+      }).addTo(isoLayer);
+    });
+  }
+
+  function categoryFromTags(tags) {
+    if (!tags) return null;
+    if (tags.shop === 'kiosk') return 'kiosk';
+    if (tags.shop === 'books') return 'bookstore';
+    if (tags.shop === 'bakery') return 'bakery';
+    return null;
+  }
+
+  function pointInPolygon(lat, lon, polygon) {
+    let inside = false;
+    for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
+      const yi = polygon[i][0], xi = polygon[i][1];
+      const yj = polygon[j][0], xj = polygon[j][1];
+      const intersect = ((yi > lat) !== (yj > lat)) &&
+        (lon < (xj - xi) * (lat - yi) / (yj - yi) + xi);
+      if (intersect) inside = !inside;
+    }
+    return inside;
+  }
+
+  function buildShopMarker(lat, lon, el, categoryKey) {
+    const cat = CATEGORIES[categoryKey];
+    const icon = L.divIcon({
+      className: '',
+      html: `<div class="poi-marker" style="background:${cat.color}">${cat.emoji}</div>`,
+      iconSize: [28, 28],
+      iconAnchor: [14, 14]
+    });
+
+    const tags = el.tags || {};
+    const name = tags.name || "Nom non renseigné";
+    const opening = tags.opening_hours || "Horaires non renseignés";
+    const addrParts = [tags['addr:housenumber'], tags['addr:street']].filter(Boolean).join(' ');
+    const osmLink = `https://www.openstreetmap.org/${el.type}/${el.id}`;
+
+    const popupHtml = `
+      <h3>${name}</h3>
+      <p>${cat.emoji} ${cat.label}</p>
+      <p>🕐 ${opening}</p>
+      ${addrParts ? `<p>📍 ${addrParts}</p>` : ''}
+      <p><a href="${osmLink}" target="_blank" rel="noopener">Voir la fiche OSM</a></p>
+    `;
+
+    return L.marker([lat, lon], { icon }).bindPopup(popupHtml);
+  }
 </script>
-<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5"}' crossorigin="anonymous"></script>
+
 </body>
 </html>
