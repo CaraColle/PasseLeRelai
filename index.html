@@ -1,776 +1,392 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Passe le   Relai.</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Isochrones & Commerces — Gares de Paris</title>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
-<style>
-  :root{
-    --ink: #1c1a17;
-    --paper: #faf7f2;
-    --line: #e3ddd2;
-    --red: #c8202f;
-    --accent: #2f5d50;
-    --accent-soft: #e4ede9;
-    --muted: #7a7268;
-    --bakery: #b3792c;
-  }
+  <style>
+    :root {
+      --ink:        #1c1a17;
+      --paper:      #faf7f2;
+      --line:       #e3ddd2;
+      --red:        #c8202f;
+      --accent:     #2f5d50;
+      --accent-soft:#e4ede9;
+      --muted:      #7a7268;
+      --bakery:     #b3792c;
+    }
 
-  * { box-sizing: border-box; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-  body{
-    margin:0;
-    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
-    background: var(--paper);
-    color: var(--ink);
-  }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+      display: flex;
+      flex-direction: column;
+      height: 100dvh;
+    }
 
-  .hero{
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 56px 24px 20px;
-    text-align: center;
-  }
+    /* ── Header ── */
+    header {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
 
-  .hero h1 .tilt{
-  display: inline-block;
-  transform: rotate(-15deg);
-  transform-origin: left bottom;
-}
+    header h1 {
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
 
-  .subtitle{
-    margin: 14px 0 24px;
-    font-size: 1.05rem;
-    color: #4a4640;
-  }
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
 
-  .city-picker{
-    display:inline-flex;
-    align-items:center;
-    gap: 10px;
-  }
+    label {
+      font-size: 0.85rem;
+      color: var(--line);
+    }
 
-  .city-picker select{
-    font-size: 1rem;
-    padding: 9px 14px;
-    border-radius: 8px;
-    border: 1px solid var(--line);
-    background: white;
-    cursor: pointer;
-  }
+    select {
+      padding: 6px 10px;
+      border-radius: 4px;
+      border: 1px solid var(--accent);
+      background: var(--accent-soft);
+      color: var(--ink);
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
 
-  .why{
-    max-width: 680px;
-    margin: 10px auto 40px;
-    padding: 24px 28px;
-    background: white;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-  }
+    #status {
+      margin-left: auto;
+      font-size: 0.78rem;
+      color: var(--muted);
+      max-width: 320px;
+      text-align: right;
+    }
 
-  .why h2{ margin: 0 0 10px; font-size: 1.1rem; }
-  .why p{ margin: 0; font-size: 0.95rem; line-height: 1.6; color: #3a352e; }
-  .why a{ color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
-  .why a:hover{ opacity: 0.75; }
-  .why sup a{ border-bottom: none; font-size: 0.75rem; }
+    #status.err   { color: var(--red); }
+    #status.warn  { color: var(--bakery); }
+    #status.ok    { color: #6aaa7c; }
 
-  #map-section{
-    display:none;
-    max-width: 1100px;
-    margin: 0 auto 60px;
-    padding: 0 24px;
-  }
-  #map-section.visible{ display:block; }
+    /* ── Map ── */
+    #map {
+      flex: 1;
+      min-height: 0;
+    }
 
-  .map-header{
-    display:flex;
-    align-items:baseline;
-    justify-content: space-between;
-    margin-bottom: 12px;
-  }
-  .map-header h2{ font-size: 1.1rem; margin: 0; }
+    /* Leaflet control overrides */
+    .leaflet-control-attribution {
+      font-size: 0.7rem;
+    }
 
-  #back-btn{
-    display:none;
-    border: none;
-    background: none;
-    color: var(--accent);
-    font-size: 0.85rem;
-    cursor: pointer;
-    padding: 0;
-  }
-  #back-btn.visible{ display:inline; }
+    /* ── Legend panel ── */
+    .legend {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-size: 0.78rem;
+      line-height: 1.8;
+      box-shadow: 0 2px 8px rgba(28,26,23,0.12);
+    }
 
-  .map-layout{
-    display:flex;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    overflow:hidden;
-    height: 560px;
-  }
+    .legend h3 {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
 
-  .map-wrap{ position: relative; flex: 1 1 65%; height: 100%; }
-  #map{ height: 100%; }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
 
-  aside{
-    flex: 1 1 35%;
-    max-width: 340px;
-    overflow-y: auto;
-    background: white;
-    border-left: 1px solid var(--line);
-  }
+    .swatch {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      border: 1.5px solid rgba(0,0,0,0.15);
+    }
 
-  .station-list{ list-style:none; margin:0; padding:0; }
-  .station-list li{
-    padding: 13px 18px;
-    border-bottom: 1px solid var(--line);
-    cursor: pointer;
-    font-size: 0.92rem;
-  }
-  .station-list li:hover, .station-list li.active{ background: var(--accent-soft); }
+    /* Isochrone swatches — approximate opacity fills */
+    .swatch-300 { background: rgba(47, 93, 80, 0.55); }
+    .swatch-600 { background: rgba(47, 93, 80, 0.35); }
+    .swatch-900 { background: rgba(47, 93, 80, 0.15); }
 
-  #poi-status{
-    padding: 14px 18px;
-    font-size: 0.82rem;
-    color: var(--muted);
-    border-bottom: 1px solid var(--line);
-  }
-
-  .legend{
-    position:absolute;
-    z-index: 500;
-    bottom: 16px;
-    left: 16px;
-    background: white;
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 10px 14px;
-    font-size: 0.78rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    display:none;
-  }
-  .legend.visible{ display:block; }
-  .legend div{ display:flex; align-items:center; gap: 7px; margin: 3px 0; }
-  .legend .swatch{ width: 13px; height: 13px; border-radius: 3px; display:inline-block; }
-  .legend .dot{ width: 16px; height:16px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:10px; color:white; }
-
-  .poi-marker{
-    width: 28px; height: 28px;
-    border-radius: 50%;
-    display:flex; align-items:center; justify-content:center;
-    font-size: 15px;
-    border: 2px solid white;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.35);
-  }
-
-  .leaflet-popup-content h3{ margin: 0 0 4px; font-size: 0.92rem; }
-  .leaflet-popup-content p{ margin: 2px 0; font-size: 0.82rem; }
-  .leaflet-popup-content a{ font-size: 0.8rem; }
-</style>
+    .swatch-bakery  { background: var(--bakery); }
+    .swatch-other   { background: var(--accent); }
+  </style>
 </head>
 <body>
 
-<div class="hero">
-  <h1>passe le <span class="tilt">relai</span></h1>
-  <p class="subtitle">Découvre les alternatives autour de ta gare</p>
-  <div class="city-picker">
-    <label for="city-select">Ville :</label>
-    <select id="city-select">
-      <option value="">Choisis une ville</option>
+<header>
+  <h1>Isochrones & Commerces — Gares de Paris</h1>
+
+  <div class="controls">
+    <label for="station-select">Gare :</label>
+    <select id="station-select">
+      <option value="">— Chargement… —</option>
     </select>
   </div>
-</div>
 
-<div class="why">
-  <h2>Pourquoi ?</h2>
-  <p>
-    En 2022, le groupe <a href="https://fr.wikipedia.org/wiki/Vivendi" target="_blank" rel="noopener">Vivendi</a>,
-    contrôlé par le milliardaire <a href="https://fr.wikipedia.org/wiki/Vincent_Bollor%C3%A9" target="_blank" rel="noopener">Vincent Bolloré</a>,
-    est devenu actionnaire majoritaire du <a href="https://fr.wikipedia.org/wiki/Lagard%C3%A8re_(entreprise)" target="_blank" rel="noopener">groupe Lagardère</a>,
-    propriétaire de l'enseigne Relay<sup><a href="https://fr.wikipedia.org/wiki/Relay#cite_note-6" target="_blank" rel="noopener">[6]</a></sup>.
-    Depuis cette prise de contrôle, plusieurs observateurs relèvent une place grandissante accordée à des titres de presse et des ouvrages
-    proches de l'extrême droite dans les points de vente du réseau<sup><a href="https://fr.wikipedia.org/wiki/Relay#cite_note-7" target="_blank" rel="noopener">[7]</a></sup><sup>,</sup><sup><a href="https://fr.wikipedia.org/wiki/Relay#cite_note-8" target="_blank" rel="noopener">[8]</a></sup>.
-  </p>
-</div>
+  <span id="status" class="ok">Chargement de l'index des gares…</span>
+</header>
 
-<div id="map-section">
-  <div class="map-header">
-    <h2 id="map-title"></h2>
-    <button id="back-btn">← Retour à la vue d'ensemble</button>
-  </div>
-  <div class="map-layout">
-    <div class="map-wrap">
-      <div id="map"></div>
-      <div class="legend" id="legend">
-        <div><span class="swatch" style="background:#2f5d50;"></span> 5 min à pied</div>
-        <div><span class="swatch" style="background:#d98c2b;"></span> 10 min à pied</div>
-        <div><span class="dot" style="background:#c8202f;">📰</span> Kiosque</div>
-        <div><span class="dot" style="background:#2f5d50;">📚</span> Librairie</div>
-        <div><span class="dot" style="background:#b3792c;">🥖</span> Boulangerie</div>
-      </div>
-    </div>
-    <aside>
-      <div id="poi-status"></div>
-      <ul class="station-list" id="station-list"></ul>
-    </aside>
-  </div>
-</div>
+<div id="map"></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
 <script>
-  // =========================================================
-  // Add your free openrouteservice key here (openrouteservice.org/dev)
-  // Needed only for the Gare de Lyon detail view (isochrones).
-  // =========================================================
-  
-  const ORS_API_KEY = "eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6IjA5MGRkMzRiOGIwZTQ0ZWM5NTZkYTEyZDVjMGVlNjc3IiwiaCI6Im11cm11cjY0In0=";
-  const OVERPASS_URLS = [
-    "https://overpass-api.de/api/interpreter",
-    "https://overpass.kumi.systems/api/interpreter"
-  ];
+'use strict';
 
-  const CATEGORIES = {
-    kiosk:     { emoji: "📰", label: "Kiosque",     color: "#c8202f" },
-    bookstore: { emoji: "📚", label: "Librairie",   color: "#2f5d50" },
-    bakery:    { emoji: "🥖", label: "Boulangerie", color: "#b3792c" }
+/* ─────────────────────────────────────────
+   Station data cache (slug → station JSON)
+   ───────────────────────────────────────── */
+const stationCache = {};
+
+/* ─────────────────────────────────────────
+   Map initialisation
+   ───────────────────────────────────────── */
+const map = L.map('map', { zoomControl: true }).setView([48.8566, 2.3522], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  maxZoom: 19,
+}).addTo(map);
+
+/* ─────────────────────────────────────────
+   Layer groups
+   ───────────────────────────────────────── */
+let isochroneLayer = L.layerGroup().addTo(map);
+let shopLayer      = L.layerGroup().addTo(map);
+
+/* ─────────────────────────────────────────
+   Helpers
+   ───────────────────────────────────────── */
+
+/**
+ * Colour for a GeoJSON isochrone feature.
+ * Uses feature.properties.group_index (0, 1, 2) for 300/600/900 s ranges.
+ */
+function isochroneColor(groupIndex) {
+  // accent #2f5d50 with varying opacity baked in via style function below
+  const opacities = [0.55, 0.35, 0.15];
+  return `rgba(47, 93, 80, ${opacities[groupIndex ?? 0]})`;
+}
+
+function isochroneStyle(feature) {
+  return {
+    color: '#2f5d50',
+    weight: 1.5,
+    opacity: 1,
+    fillColor: '#2f5d50',
+    fillOpacity: (feature.properties?.group_index === 0) ? 0.55
+                 : (feature.properties?.group_index === 1) ? 0.35
+                 : 0.15,
   };
-
-  const CACHE_TTL_MS = 1000 * 60 * 60 * 24 * 30; // 30 days
-
-function cacheKey(station) {
-  return `station_${station.lat.toFixed(4)}_${station.lng.toFixed(4)}`;
 }
 
-function getCached(station) {
-  try {
-    const raw = localStorage.getItem(cacheKey(station));
-    if (!raw) return null;
-    const parsed = JSON.parse(raw);
-    if (Date.now() - parsed.timestamp > CACHE_TTL_MS) return null;
-    return parsed.data;
-  } catch {
-    return null;
-  }
-}
+/** Render shop markers onto shopLayer. */
+function renderShops(shopData) {
+  shopLayer.clearLayers();
 
-function setCached(station, data) {
-  try {
-    localStorage.setItem(cacheKey(station), JSON.stringify({
-      timestamp: Date.now(),
-      data
-    }));
-  } catch {
-    // storage full or unavailable — just skip caching silently
-  }
-}
+  const elements = shopData?.elements ?? [];
+  if (!elements.length) return;
 
-  // ---- City & station data ----
-  // Metropolitan French cities with 100k+ inhabitants AND their own long-distance
-  // ("grandes lignes") station. A few 100k+ communes are left out on purpose because
-  // they're inner suburbs of Paris/Lyon served only by commuter rail, not intercity
-  // trains (Villeurbanne, Boulogne-Billancourt, Montreuil, Nanterre, Argenteuil).
-  // Populations shift slightly year to year — treat this list as a solid starting
-  // point rather than an exact, current INSEE figure. Add more cities the same way.
-  const cities = {
-    paris: {
-      label: "Paris",
-      center: [48.8566, 2.3522],
-      zoom: 12,
-      stations: [
-        { name: "Gare de Lyon",        lat: 48.8443, lng: 2.3743 },
-        { name: "Gare du Nord",        lat: 48.8809, lng: 2.3553 },
-        { name: "Gare de l'Est",       lat: 48.8768, lng: 2.3590 },
-        { name: "Gare Montparnasse",   lat: 48.8412, lng: 2.3210 },
-        { name: "Gare Saint-Lazare",   lat: 48.8757, lng: 2.3244 },
-        { name: "Gare d'Austerlitz",   lat: 48.8425, lng: 2.3648 }
-      ]
-    },
-    marseille: {
-      label: "Marseille",
-      center: [43.2965, 5.3698], zoom: 12,
-      stations: [{ name: "Gare de Marseille-Saint-Charles", lat: 43.3037, lng: 5.3806 }]
-    },
-    lyon: {
-      label: "Lyon",
-      center: [45.7640, 4.8357], zoom: 12,
-      stations: [
-        { name: "Gare de Lyon-Part-Dieu", lat: 45.7605, lng: 4.8592 },
-        { name: "Gare de Lyon-Perrache",  lat: 45.7488, lng: 4.8256 }
-      ]
-    },
-    toulouse: {
-      label: "Toulouse",
-      center: [43.6047, 1.4442], zoom: 12,
-      stations: [{ name: "Gare de Toulouse-Matabiau", lat: 43.6112, lng: 1.4535 }]
-    },
-    nice: {
-      label: "Nice",
-      center: [43.7102, 7.2620], zoom: 12,
-      stations: [{ name: "Gare de Nice-Ville", lat: 43.7047, lng: 7.2620 }]
-    },
-    nantes: {
-      label: "Nantes",
-      center: [47.2184, -1.5536], zoom: 12,
-      stations: [{ name: "Gare de Nantes", lat: 47.2173, lng: -1.5416 }]
-    },
-    montpellier: {
-      label: "Montpellier",
-      center: [43.6100, 3.9060], zoom: 13,
-      stations: [
-        { name: "Gare de Montpellier Saint-Roch",     lat: 43.6047, lng: 3.8807 },
-        { name: "Gare de Montpellier Sud de France",  lat: 43.6157, lng: 3.9325 }
-      ]
-    },
-    strasbourg: {
-      label: "Strasbourg",
-      center: [48.5734, 7.7521], zoom: 12,
-      stations: [{ name: "Gare de Strasbourg-Ville", lat: 48.5851, lng: 7.7347 }]
-    },
-    bordeaux: {
-      label: "Bordeaux",
-      center: [44.8378, -0.5792], zoom: 12,
-      stations: [{ name: "Gare de Bordeaux-Saint-Jean", lat: 44.8256, lng: -0.5563 }]
-    },
-    lille: {
-      label: "Lille",
-      center: [50.6292, 3.0573], zoom: 12,
-      stations: [
-        { name: "Gare de Lille-Flandres", lat: 50.6365, lng: 3.0708 },
-        { name: "Gare de Lille-Europe",   lat: 50.6395, lng: 3.0755 }
-      ]
-    },
-    rennes: {
-      label: "Rennes",
-      center: [48.1173, -1.6778], zoom: 13,
-      stations: [{ name: "Gare de Rennes", lat: 48.1032, lng: -1.6726 }]
-    },
-    reims: {
-      label: "Reims",
-      center: [49.2583, 4.0317], zoom: 13,
-      stations: [{ name: "Gare de Reims", lat: 49.2600, lng: 4.0247 }]
-    },
-    "le-havre": {
-      label: "Le Havre",
-      center: [49.4944, 0.1079], zoom: 13,
-      stations: [{ name: "Gare du Havre", lat: 49.4938, lng: 0.1078 }]
-    },
-    "saint-etienne": {
-      label: "Saint-Étienne",
-      center: [45.4397, 4.3872], zoom: 13,
-      stations: [{ name: "Gare de Saint-Étienne-Châteaucreux", lat: 45.4406, lng: 4.4025 }]
-    },
-    toulon: {
-      label: "Toulon",
-      center: [43.1242, 5.9280], zoom: 13,
-      stations: [{ name: "Gare de Toulon", lat: 43.1247, lng: 5.9308 }]
-    },
-    grenoble: {
-      label: "Grenoble",
-      center: [45.1885, 5.7245], zoom: 13,
-      stations: [{ name: "Gare de Grenoble", lat: 45.1913, lng: 5.7141 }]
-    },
-    dijon: {
-      label: "Dijon",
-      center: [47.3220, 5.0415], zoom: 13,
-      stations: [{ name: "Gare de Dijon-Ville", lat: 47.3227, lng: 5.0227 }]
-    },
-    angers: {
-      label: "Angers",
-      center: [47.4784, -0.5632], zoom: 13,
-      stations: [{ name: "Gare d'Angers-Saint-Laud", lat: 47.4649, lng: -0.5567 }]
-    },
-    nimes: {
-      label: "Nîmes",
-      center: [43.8367, 4.3601], zoom: 13,
-      stations: [{ name: "Gare de Nîmes", lat: 43.8323, lng: 4.3616 }]
-    },
-    "le-mans": {
-      label: "Le Mans",
-      center: [48.0077, 0.1984], zoom: 13,
-      stations: [{ name: "Gare du Mans", lat: 48.0009, lng: 0.1936 }]
-    },
-    "aix-en-provence": {
-      label: "Aix-en-Provence",
-      center: [43.5297, 5.4474], zoom: 13,
-      stations: [{ name: "Gare d'Aix-en-Provence TGV", lat: 43.4553, lng: 5.3172 }]
-    },
-    "clermont-ferrand": {
-      label: "Clermont-Ferrand",
-      center: [45.7772, 3.0870], zoom: 13,
-      stations: [{ name: "Gare de Clermont-Ferrand", lat: 45.7767, lng: 3.0952 }]
-    },
-    brest: {
-      label: "Brest",
-      center: [48.3904, -4.4861], zoom: 13,
-      stations: [{ name: "Gare de Brest", lat: 48.3903, lng: -4.4835 }]
-    },
-    tours: {
-      label: "Tours",
-      center: [47.3941, 0.6848], zoom: 13,
-      stations: [{ name: "Gare de Tours", lat: 47.3875, lng: 0.6883 }]
-    },
-    limoges: {
-      label: "Limoges",
-      center: [45.8336, 1.2611], zoom: 13,
-      stations: [{ name: "Gare de Limoges-Bénédictins", lat: 45.8339, lng: 1.2621 }]
-    },
-    amiens: {
-      label: "Amiens",
-      center: [49.8942, 2.2957], zoom: 13,
-      stations: [{ name: "Gare d'Amiens", lat: 49.8934, lng: 2.3057 }]
-    },
-    perpignan: {
-      label: "Perpignan",
-      center: [42.6986, 2.8955], zoom: 13,
-      stations: [{ name: "Gare de Perpignan", lat: 42.6939, lng: 2.8895 }]
-    },
-    metz: {
-      label: "Metz",
-      center: [49.1193, 6.1757], zoom: 13,
-      stations: [{ name: "Gare de Metz-Ville", lat: 49.1099, lng: 6.1778 }]
-    },
-    besancon: {
-      label: "Besançon",
-      center: [47.2378, 6.0241], zoom: 13,
-      stations: [{ name: "Gare de Besançon-Viotte", lat: 47.2427, lng: 6.0242 }]
-    },
-    orleans: {
-      label: "Orléans",
-      center: [47.9029, 1.9093], zoom: 13,
-      stations: [{ name: "Gare d'Orléans", lat: 47.9089, lng: 1.9040 }]
-    },
-    mulhouse: {
-      label: "Mulhouse",
-      center: [47.7508, 7.3359], zoom: 13,
-      stations: [{ name: "Gare de Mulhouse-Ville", lat: 47.7403, lng: 7.3398 }]
-    },
-    rouen: {
-      label: "Rouen",
-      center: [49.4431, 1.0993], zoom: 13,
-      stations: [{ name: "Gare de Rouen-Rive-Droite", lat: 49.4431, lng: 1.0993 }]
-    },
-    caen: {
-      label: "Caen",
-      center: [49.1829, -0.3707], zoom: 13,
-      stations: [{ name: "Gare de Caen", lat: 49.1839, lng: -0.3477 }]
-    },
-    nancy: {
-      label: "Nancy",
-      center: [48.6921, 6.1844], zoom: 13,
-      stations: [{ name: "Gare de Nancy-Ville", lat: 48.6900, lng: 6.1704 }]
-    }
-  };
-
-  let map = null;
-  let stationMarkersLayer = null;
-  let isoLayer = null;
-  let poiLayer = null;
-  let currentCityKey = null;
-
-  // Build the dropdown from the data itself, sorted alphabetically (French locale,
-  // so accents like "É" / "î" sort correctly). Adding a city to `cities` above is
-  // enough — no need to touch the HTML or re-order anything by hand.
-  function populateCityDropdown() {
-    const select = document.getElementById('city-select');
-    const sortedKeys = Object.keys(cities).sort((a, b) =>
-      cities[a].label.localeCompare(cities[b].label, 'fr', { sensitivity: 'base' })
-    );
-    sortedKeys.forEach(key => {
-      const opt = document.createElement('option');
-      opt.value = key;
-      opt.textContent = cities[key].label;
-      select.appendChild(opt);
-    });
-  }
-  populateCityDropdown();
-
-  function ensureMap() {
-    if (map) return;
-    map = L.map('map');
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors',
-      maxZoom: 19
-    }).addTo(map);
-    isoLayer = L.layerGroup().addTo(map);
-    poiLayer = L.layerGroup().addTo(map);
-  }
-
-  // ---- City-level view ----
-  function renderCity(key) {
-    const section = document.getElementById('map-section');
-    const listEl = document.getElementById('station-list');
-    const titleEl = document.getElementById('map-title');
-    const backBtn = document.getElementById('back-btn');
-
-    if (!key) {
-      section.classList.remove('visible');
-      return;
-    }
-
-    currentCityKey = key;
-    const city = cities[key];
-    section.classList.add('visible');
-    titleEl.textContent = `Gares grandes lignes — ${city.label}`;
-    document.getElementById('poi-status').textContent = '';
-    document.getElementById('legend').classList.remove('visible');
-    backBtn.classList.remove('visible');
-    listEl.innerHTML = '';
-
-    ensureMap();
-    isoLayer.clearLayers();
-    poiLayer.clearLayers();
-    if (stationMarkersLayer) stationMarkersLayer.clearLayers();
-    stationMarkersLayer = L.layerGroup().addTo(map);
-
-    map.setView(city.center, city.zoom);
-    setTimeout(() => map.invalidateSize(), 50);
-
-    city.stations.forEach(station => {
-      const marker = L.marker([station.lat, station.lng]).addTo(stationMarkersLayer);
-      marker.bindPopup(`<h3>${station.name}</h3>`);
-
-      const li = document.createElement('li');
-      li.textContent = station.name;
-
-      const activate = () => {
-        document.querySelectorAll('.station-list li').forEach(el => el.classList.remove('active'));
-        li.classList.add('active');
-        enterStationDetail(station);
-      };
-
-      marker.on('click', activate);
-      li.addEventListener('click', activate);
-      listEl.appendChild(li);
-    });
-  }
-
-  document.getElementById('city-select').addEventListener('change', (e) => renderCity(e.target.value));
-  document.getElementById('back-btn').addEventListener('click', () => renderCity(currentCityKey));
-
-  // ---- Station detail view: isochrones + shops around a station ----
-  function renderStationData(isoGeojson, shopsData, buildingData, statusEl, legendEl, skipIsoDraw = false) {
-  if (!skipIsoDraw) {
-    drawIsochrones(isoGeojson);
-    legendEl.classList.add('visible');
-  }
-
-  const fiveMinFeature = isoGeojson.features.find(f => f.properties.value === 300);
-  const fiveMinPolygon = fiveMinFeature.geometry.coordinates[0].map(c => [c[1], c[0]]);
-
-  const buildingPolygons = buildingData.elements
-    .filter(el => el.type === 'way' && el.geometry && el.geometry.length > 2)
-    .map(el => el.geometry.map(pt => [pt.lat, pt.lon]));
-
-  let count5 = 0, count10 = 0;
-  shopsData.elements.forEach(el => {
-    const lat = el.type === 'node' ? el.lat : (el.center && el.center.lat);
-    const lon = el.type === 'node' ? el.lon : (el.center && el.center.lon);
-    if (lat == null || lon == null) return;
-    if (isPointInsideAnyPolygon(lat, lon, buildingPolygons)) return;
-
-    const category = categoryFromTags(el.tags);
-    if (!category) return;
-
-    addShopMarker(lat, lon, el, category);
-    if (pointInPolygon(lat, lon, fiveMinPolygon)) count5++; else count10++;
+  const stationIcon = L.icon({
+    iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/markers/marker-icon-violet.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
   });
 
-  const total = count5 + count10;
-  statusEl.textContent = total > 0
-    ? `${count5} commerce(s) à moins de 5 min à pied, ${count10} de plus à moins de 10 min.`
-    : "Aucun commerce trouvé dans ce périmètre pour l'instant.";
-}
-  
-async function enterStationDetail(station) {
-  const titleEl = document.getElementById('map-title');
-  const statusEl = document.getElementById('poi-status');
-  const legendEl = document.getElementById('legend');
-  const backBtn = document.getElementById('back-btn');
+  elements.forEach(node => {
+    const tags = node.tags ?? {};
+    const name = tags.name ?? tags.shop ?? 'Commerce';
+    const shop = tags.shop ?? '';
 
-  titleEl.textContent = station.name;
-  backBtn.classList.add('visible');
-  legendEl.classList.remove('visible');
-  isoLayer.clearLayers();
-  poiLayer.clearLayers();
+    const color = (shop === 'bakery') ? '#b3792c' : '#2f5d50';
 
-  map.setView([station.lat, station.lng], 16, { animate: true });
-  setTimeout(() => map.invalidateSize(), 50);
-
-  // 1. Try cache first — instant if this station was viewed before
-  const cached = getCached(station);
-  if (cached) {
-    statusEl.textContent = 'Chargement depuis le cache…';
-    renderStationData(cached.isoGeojson, cached.shopsData, cached.buildingData, statusEl, legendEl);
-    return;
-  }
-
-  statusEl.textContent = 'Chargement des isochrones et des commerces…';
-
-  if (ORS_API_KEY === "YOUR_API_KEY_HERE") {
-    statusEl.textContent = "Ajoute ta clé openrouteservice pour afficher les isochrones et les commerces.";
-    return;
-  }
-
-  try {
-    // 2. Fetch isochrones and the station building query in parallel
-    const [isoGeojson, buildingData] = await Promise.all([
-      fetchIsochrones(station.lat, station.lng),
-      overpassQuery(buildStationBuildingQuery(station.lat, station.lng))
-    ]);
-
-    // 3. Draw isochrones immediately, before shops arrive (perceived speed)
-    drawIsochrones(isoGeojson);
-    legendEl.classList.add('visible');
-    statusEl.textContent = 'Recherche des commerces à proximité…';
-
-    // 4. Fetch shops using a fast radius query instead of the polygon
-    const shopsData = await overpassQuery(buildShopQueryAround(station.lat, station.lng));
-
-    // 5. Cache everything for next time
-    setCached(station, { isoGeojson, shopsData, buildingData });
-
-    // 6. Now do the actual marker placement + counts
-    renderStationData(isoGeojson, shopsData, buildingData, statusEl, legendEl, true);
-  } catch (err) {
-    console.error(err);
-    statusEl.textContent = "Erreur lors du chargement des isochrones ou des commerces.";
-  }
-}
-
-  // ---- openrouteservice isochrones ----
-  async function fetchIsochrones(lat, lng) {
-    const body = {
-      locations: [[lng, lat]],
-      range: [600, 300], // seconds: 10 min, then 5 min — order matters for layering
-      range_type: "time",
-      attributes: ["area"]
-    };
-
-    const res = await fetch("https://api.openrouteservice.org/v2/isochrones/foot-walking", {
-      method: "POST",
-      headers: {
-        "Authorization": ORS_API_KEY,
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(body)
-    });
-
-    if (!res.ok) throw new Error(`ORS request failed: ${res.status}`);
-    return res.json();
-  }
-
-  function drawIsochrones(geojson) {
-    const colorByValue = { 300: "#2f5d50", 600: "#d98c2b" }; // 5 min = teal, 10 min = amber
-    geojson.features.forEach(feature => {
-      const color = colorByValue[feature.properties.value] || "#999";
-      L.geoJSON(feature, {
-        style: { color, weight: 1, fillColor: color, fillOpacity: 0.25 }
-      }).addTo(isoLayer);
-    });
-  }
-
-  // ---- Overpass: shops within the isochrone ----
-  function ringToOverpassPoly(ring) {
-    // GeoJSON rings are [lng, lat]; Overpass "poly" filter wants "lat lon lat lon ..."
-    return ring.map(coord => `${coord[1]} ${coord[0]}`).join(' ');
-  }
-
-
-  function buildStationBuildingQuery(lat, lng) {
-    return `[out:json][timeout:25];
-(
-  way["building"="train_station"](around:250,${lat},${lng});
-  way["railway"="station"](around:250,${lat},${lng});
-  way["public_transport"="station"](around:250,${lat},${lng});
-);
-out geom;`;
-  }
-
-  function buildShopQueryAround(lat, lng, radiusMeters = 800) {
-  const tags = ['kiosk', 'books', 'bakery'];
-  const clauses = tags.map(t =>
-    `node["shop"="${t}"](around:${radiusMeters},${lat},${lng});\n  way["shop"="${t}"](around:${radiusMeters},${lat},${lng});`
-  ).join('\n  ');
-  return `[out:json][timeout:25];\n(\n  ${clauses}\n);\nout center tags;`;
-}
-
-  async function overpassQuery(query) {
-  const controllers = OVERPASS_URLS.map(() => new AbortController());
-
-  const attempts = OVERPASS_URLS.map((url, i) =>
-    fetch(url, {
-      method: "POST",
-      body: "data=" + encodeURIComponent(query),
-      signal: controllers[i].signal
-    }).then(res => {
-      if (!res.ok) throw new Error(`Overpass request failed: ${res.status}`);
-      return res.json();
-    })
-  );
-
-  try {
-    const result = await Promise.any(attempts);
-    controllers.forEach(c => c.abort()); // cancel whichever mirror is still pending
-    return result;
-  } catch {
-    throw new Error('All Overpass endpoints failed');
-  }
-}
-
-  function categoryFromTags(tags) {
-    if (!tags) return null;
-    if (tags.shop === 'kiosk') return 'kiosk';
-    if (tags.shop === 'books') return 'bookstore';
-    if (tags.shop === 'bakery') return 'bakery';
-    return null;
-  }
-
-  // Standard ray-casting point-in-polygon test
-  function pointInPolygon(lat, lon, polygon) {
-    let inside = false;
-    for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
-      const yi = polygon[i][0], xi = polygon[i][1];
-      const yj = polygon[j][0], xj = polygon[j][1];
-      const intersect = ((yi > lat) !== (yj > lat)) &&
-        (lon < (xj - xi) * (lat - yi) / (yj - yi) + xi);
-      if (intersect) inside = !inside;
-    }
-    return inside;
-  }
-
-  function isPointInsideAnyPolygon(lat, lon, polygons) {
-    return polygons.some(poly => pointInPolygon(lat, lon, poly));
-  }
-
-  function addShopMarker(lat, lon, el, categoryKey) {
-    const cat = CATEGORIES[categoryKey];
     const icon = L.divIcon({
+      html: `<svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+               <circle cx="9" cy="9" r="7" fill="${color}" stroke="white" stroke-width="1.5"/>
+             </svg>`,
+      iconSize: [18, 18],
+      iconAnchor: [9, 9],
+      popupAnchor: [0, -9],
       className: '',
-      html: `<div class="poi-marker" style="background:${cat.color}">${cat.emoji}</div>`,
-      iconSize: [28, 28],
-      iconAnchor: [14, 14]
     });
 
-    const tags = el.tags || {};
-    const name = tags.name || "Nom non renseigné";
-    const opening = tags.opening_hours || "Horaires non renseignés";
-    const addrParts = [tags['addr:housenumber'], tags['addr:street']].filter(Boolean).join(' ');
-    const osmLink = `https://www.openstreetmap.org/${el.type}/${el.id}`;
+    const popup = `<b>${name}</b><br/><small>${shop}</small>`;
+    L.marker([node.lat, node.lon], { icon })
+      .bindPopup(popup)
+      .addTo(shopLayer);
+  });
+}
 
-    const popupHtml = `
-      <h3>${name}</h3>
-      <p>${cat.emoji} ${cat.label}</p>
-      <p>🕐 ${opening}</p>
-      ${addrParts ? `<p>📍 ${addrParts}</p>` : ''}
-      <p><a href="${osmLink}" target="_blank" rel="noopener">Voir la fiche OSM</a></p>
-    `;
+/** Render isochrone GeoJSON onto isochroneLayer. */
+function renderIsochrones(isochronesData) {
+  isochroneLayer.clearLayers();
 
-    L.marker([lat, lon], { icon }).addTo(poiLayer).bindPopup(popupHtml);
+  const fc = isochronesData?.features;
+  if (!fc || !fc.length) return;
+
+  fc.forEach(feature => {
+    // ORS-style group_index in properties
+    const groupIndex = feature.properties?.group_index ?? 0;
+    feature.properties = feature.properties || {};
+    feature.properties.group_index = groupIndex;
+
+    L.geoJSON(feature, { style: isochroneStyle }).addTo(isochroneLayer);
+  });
+}
+
+/** Update status bar. */
+function setStatus(msg, cls = 'ok') {
+  const el = document.getElementById('status');
+  el.textContent = msg;
+  el.className = cls;
+}
+
+/** Format a French-readable timestamp. */
+function fmtDate(isoStr) {
+  if (!isoStr) return 'inconnu';
+  const d = new Date(isoStr);
+  return d.toLocaleString('fr-FR', {
+    day: '2-digit', month: 'short', year: 'numeric',
+    hour: '2-digit', minute: '2-digit',
+  });
+}
+
+/* ─────────────────────────────────────────
+   Station loading
+   ───────────────────────────────────────── */
+async function loadStation(slug) {
+  if (stationCache[slug]) {
+    applyStation(stationCache[slug]);
+    return;
   }
-</script>
 
+  setStatus('Chargement des données…', 'ok');
+  try {
+    const res = await fetch(`data/stations/${slug}.json`);
+    if (!res.ok) throw new Error(`HTTP ${res.ok}`);
+    const data = await res.json();
+    stationCache[slug] = data;
+    applyStation(data);
+  } catch (err) {
+    setStatus('Erreur de chargement des données de la gare.', 'err');
+    console.error('loadStation error:', err);
+  }
+}
+
+function applyStation(data) {
+  const stationInfo = data?.station ?? {};
+
+  // Isochrones
+  renderIsochrones(data?.isochrones ?? null);
+
+  // Shops
+  renderShops(data?.shops ?? null);
+
+  // Station marker
+  if (stationInfo.lat && stationInfo.lng) {
+    const marker = L.marker([stationInfo.lat, stationInfo.lng], {
+      title: stationInfo.name,
+    }).bindPopup(`<b>${stationInfo.name}</b>`);
+    marker.addTo(map);
+    map.setView([stationInfo.lat, stationInfo.lng], 14);
+  }
+
+  // Status line
+  const fetchedAt = fmtDate(data?.fetchedAt ?? null);
+  const shopCount = data?.shops?.elements?.length ?? 0;
+  let msg = `Mis à jour : ${fetchedAt} — ${shopCount} commerce${shopCount !== 1 ? 's' : ''}`;
+  const cls = data?.staleDataWarning ? 'warn' : 'ok';
+  if (data?.staleDataWarning) msg += ' (certaines données peuvent être anciennes)';
+  setStatus(msg, cls);
+}
+
+/* ─────────────────────────────────────────
+   Load station index on page load
+   ───────────────────────────────────────── */
+(async function init() {
+  try {
+    const res = await fetch('data/stations-index.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const index = await res.json();
+
+    const select = document.getElementById('station-select');
+    select.innerHTML = '<option value="">— Choisir une gare —</option>';
+
+    (index.stations ?? []).forEach(s => {
+      const opt = document.createElement('option');
+      opt.value = s.slug;
+      opt.textContent = s.name;
+      select.appendChild(opt);
+    });
+
+    if (index.staleDataWarning) {
+      setStatus('Attention : certaines données datent de la dernière mise à jour réussie.', 'warn');
+    } else {
+      setStatus(`Index prêt — ${(index.stations ?? []).length} gare(s).`, 'ok');
+    }
+
+    select.addEventListener('change', () => {
+      if (select.value) loadStation(select.value);
+    });
+
+    // Auto-load first station if index has only one entry
+    if ((index.stations ?? []).length === 1) {
+      select.value = index.stations[0].slug;
+      loadStation(index.stations[0].slug);
+    }
+
+  } catch (err) {
+    setStatus("Erreur : impossible de charger l'index des gares.", 'err');
+    console.error('Index load error:', err);
+  }
+})();
+
+/* ─────────────────────────────────────────
+   Legend
+   ───────────────────────────────────────── */
+const legend = L.control({ position: 'bottomright' });
+legend.onAdd = function () {
+  const div = L.DomUtil.create('div', 'legend');
+  div.innerHTML = `
+    <h3>Légende</h3>
+    <div class="legend-item"><div class="swatch swatch-300"></div>5 min à pied (300 s)</div>
+    <div class="legend-item"><div class="swatch swatch-600"></div>10 min à pied (600 s)</div>
+    <div class="legend-item"><div class="swatch swatch-900"></div>15 min à pied (900 s)</div>
+    <div class="legend-item"><div class="swatch swatch-bakery"></div>Boulangerie</div>
+    <div class="legend-item"><div class="swatch swatch-other"></div>Autre commerce</div>
+  `;
+  return div;
+};
+legend.addTo(map);
+</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5"}' crossorigin="anonymous"></script>
 </body>
 </html>
