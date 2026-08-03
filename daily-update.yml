@@ -1,0 +1,50 @@
+name: Daily Data Update
+
+on:
+  # Run automatically every day at 04:00 UTC
+  schedule:
+    - cron: '0 4 * * *'
+  # Allow manual trigger from GitHub Actions UI
+  workflow_dispatch:
+
+# Ensure we can push back to the repo
+permissions:
+  contents: write
+  id-token: write
+
+jobs:
+  prefetch:
+    name: Prefetch isochrones & shops
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies (none required, but install to populate cache)
+        run: npm install --silent
+
+      - name: Run prefetch script
+        run: node prefetch.js
+        env:
+          ORS_API_KEY: ${{ secrets.ORS_API_KEY }}
+
+      - name: Commit and push data changes
+        run: |
+          # Check if there are any changes to data/
+          if git diff --quiet data/; then
+            echo "No data changes to commit."
+          else
+            echo "Changes detected — committing and pushing."
+            git config --local user.name "github-actions[bot]"
+            git config --local user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/
+            git commit -m "Update prefetched station data [skip ci]"
+            git push
+          fi
