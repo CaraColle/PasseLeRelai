@@ -41,33 +41,81 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-/** Build an Overpass QL query to find shops around a point within radius meters. */
-function buildShopQueryAround(lat, lng, radius = 800) {
-  const types = ['bakery', 'convenience', 'supermarket'];
-  const typeQuery = types.map(t => `node["shop"="${t}"]`).join('\n        ');
-  return `
-[out:json][timeout:60];
+/**
+ * Build an Overpass QL query to find shops around a point.
+ * Uses BBOX instead of polygon (simpler, less likely to fail).
+ */
+function buildShopQuery(station) {
+  const lat = station.lat;
+  const lng = station.lng;
+  const delta = 0.015; // ~1.5km bounding box
+  
+  return `[out:json][timeout:90];
 (
-  ${typeQuery}
-)->.shops;
-(
-  node.wkts_around(.shops, ${lat}, ${lng}, ${radius});
-)->.result;
-.result out body;
-`.trim();
+  node["shop"="kiosk"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  way["shop"="kiosk"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  node["shop"="books"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  way["shop"="books"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  node["shop"="bakery"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  way["shop"="bakery"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  node["shop"="convenience"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  way["shop"="convenience"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+);
+out center tags;`;
 }
 
-/** Fetch shops via Overpass API. */
-async function fetchShops(lat, lng, radius = 800) {
-  const query = buildShopQueryAround(lat, lng, radius);
-  const url = 'https://overpass-api.de/api/interpreter';
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: `data=${encodeURIComponent(query)}`,
-  });
-  if (!res.ok) throw new Error(`Overpass API returned ${res.status}`);
-  return res.json();
+/**
+ * Query Overpass with retry logic and multiple mirror URLs.
+ * Tries each mirror up to `retries` times with exponential backoff.
+ */
+async function overpassQuery(query, retries = 5, delayMs = 3000) {
+  const OVERPASS_URLS = [
+    "https://overpass-api.de/api/interpreter",
+    "https://z.overpass-api.de/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter"
+  ];
+  
+  let lastError;
+  
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    for (const url of OVERPASS_URLS) {
+      try {
+        console.log(`    [Attempt ${attempt}/${retries}] Trying ${url.split('/')[2]}...`);
+        
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 120000); // 2 min timeout
+        
+        const res = await fetch(url, {
+          method: "POST",
+          body: "data=" + encodeURIComponent(query),
+          signal: controller.signal,
+          headers: { "User-Agent": "passe-le-relai-prefetch/1.0" }
+        });
+        
+        clearTimeout(timeoutId);
+        
+        if (!res.ok) {
+          throw new Error(`HTTP ${res.status}: ${res.statusText}`);
+        }
+        
+        const data = await res.json();
+        console.log(`    ✓ Overpass returned ${data.elements?.length || 0} elements`);
+        return data;
+        
+      } catch (err) {
+        lastError = err;
+        console.warn(`    ✗ ${url.split('/')[2]} failed: ${err.message}`);
+      }
+    }
+    
+    if (attempt < retries) {
+      const wait = delayMs * Math.pow(2, attempt - 1);
+      console.log(`    Waiting ${wait}ms before retry ${attempt + 1}/${retries}...`);
+      await sleep(wait);
+    }
+  }
+  
+  throw lastError;
 }
 
 /** Fetch isochrones via ORS API (foot-walking, 300/600/900 seconds). */
@@ -127,7 +175,7 @@ async function main() {
     const slug = slugify(station.name);
     const outPath = `${dataDir}/${slug}.json`;
 
-    console.log(`\n--- Station: ${station.name} (${slug}) ---`);
+    console.log(`\n📍 Station: ${station.name}`);
 
     let shopsData = null;
     let isochronesData = null;
@@ -142,28 +190,30 @@ async function main() {
       // No existing file — will be treated as fresh
     }
 
-    // Fetch shops (non-fatal on failure)
-    try {
-      console.log(`  Fetching shops from Overpass...`);
-      shopsData = await fetchShops(station.lat, station.lng);
-      console.log(`  Shops fetched: ${shopsData.elements?.length ?? 0} elements`);
-    } catch (err) {
-      console.error(`  [WARN] Shops fetch failed: ${err.message}. Using existing data if available.`);
-      staleDataWarning = true;
-      shopsData = existing.shops ?? null;
-    }
-
-    // Fetch isochrones (non-fatal on failure)
+    // ============ FETCH ISOCHRONES ============
     try {
       console.log(`  Fetching isochrones from ORS...`);
       isochronesData = await fetchIsochrones(station.lat, station.lng);
-      console.log(`  Isochrones fetched: ${isochronesData.features?.length ?? 0} features`);
+      console.log(`  ✓ Isochrones fetched: ${isochronesData.features?.length ?? 0} features`);
     } catch (err) {
-      console.error(`  [WARN] Isochrones fetch failed: ${err.message}. Using existing data if available.`);
+      console.error(`  ✗ Isochrones fetch failed: ${err.message}`);
       staleDataWarning = true;
       isochronesData = existing.isochrones ?? null;
     }
 
+    // ============ FETCH SHOPS (WITH RETRY LOGIC) ============
+    try {
+      console.log(`  Fetching shops from Overpass...`);
+      shopsData = await overpassQuery(buildShopQuery(station));
+      console.log(`  ✓ Shops fetched: ${shopsData.elements?.length ?? 0} elements`);
+    } catch (err) {
+      console.error(`  ⚠ All Overpass attempts failed: ${err.message}`);
+      console.error(`  Continuing without shops for this station...`);
+      staleDataWarning = true;
+      shopsData = existing.shops ?? null;
+    }
+
+    // ============ WRITE TO FILE ============
     const stationData = {
       station: {
         name: station.name,
@@ -178,8 +228,7 @@ async function main() {
 
     // Keep existing data if both fetches failed
     if (!isochronesData && !shopsData && Object.keys(existing).length > 0) {
-      console.log(`  [WARN] No data fetched and no existing data found — skipping write for ${slug}.json`);
-      // Still add to index with warning
+      console.log(`  [WARN] No data fetched — keeping existing file for ${slug}.json`);
       stationMeta.push({
         name: station.name,
         slug,
@@ -192,7 +241,7 @@ async function main() {
       });
     } else {
       await writeJson(outPath, stationData);
-      console.log(`  Written: ${outPath}`);
+      console.log(`  ✓ Written to ${outPath}`);
 
       stationMeta.push({
         name: station.name,
@@ -206,10 +255,10 @@ async function main() {
       });
     }
 
-    // Rate-limit: 2 s between stations
+    // ============ RATE LIMITING ============
     if (stations.indexOf(station) < stations.length - 1) {
-      console.log(`  Sleeping 2 s before next station...`);
-      await sleep(2000);
+      console.log(`  💤 Sleeping 8s before next station...`);
+      await sleep(8000);
     }
   }
 
