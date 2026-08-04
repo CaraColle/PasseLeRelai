@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785844277420,
+      "timestamp": 1785858150607,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -262,7 +262,12 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T11:49:51.831Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API (fallback)",
+    "osm3s": {},
+    "elements": []
+  },
+  "fetchedAt": "2026-08-04T15:40:48.131Z",
+  "staleDataWarning": false
 }

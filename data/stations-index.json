@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-04T11:49:51.831Z",
-  "staleDataWarning": true,
+  "generatedAt": "2026-08-04T15:40:48.131Z",
+  "staleDataWarning": false,
   "stations": [
     {
       "name": "Gare de Lyon",
@@ -8,9 +8,9 @@
       "lat": 48.8443,
       "lng": 2.3735,
       "file": "data/stations/gare-de-lyon.json",
-      "shopCount": 41,
-      "fetchedAt": "2026-08-04T11:49:51.831Z",
-      "staleDataWarning": true
+      "shopCount": 0,
+      "fetchedAt": "2026-08-04T15:40:48.131Z",
+      "staleDataWarning": false
     },
     {
       "name": "Gare du Nord",
@@ -18,9 +18,9 @@
       "lat": 48.8809,
       "lng": 2.3553,
       "file": "data/stations/gare-du-nord.json",
-      "shopCount": 104,
-      "fetchedAt": "2026-08-04T11:49:51.831Z",
-      "staleDataWarning": true
+      "shopCount": 0,
+      "fetchedAt": "2026-08-04T15:40:48.131Z",
+      "staleDataWarning": false
     },
     {
       "name": "Gare Montparnasse",
@@ -28,9 +28,9 @@
       "lat": 48.8414,
       "lng": 2.3181,
       "file": "data/stations/gare-montparnasse.json",
-      "shopCount": 50,
-      "fetchedAt": "2026-08-04T11:49:51.831Z",
-      "staleDataWarning": true
+      "shopCount": 0,
+      "fetchedAt": "2026-08-04T15:40:48.131Z",
+      "staleDataWarning": false
     },
     {
       "name": "Gare Saint-Lazare",
@@ -38,9 +38,9 @@
       "lat": 48.8768,
       "lng": 2.3243,
       "file": "data/stations/gare-saint-lazare.json",
-      "shopCount": 51,
-      "fetchedAt": "2026-08-04T11:49:51.831Z",
-      "staleDataWarning": true
+      "shopCount": 0,
+      "fetchedAt": "2026-08-04T15:40:48.131Z",
+      "staleDataWarning": false
     },
     {
       "name": "Gare de l'Est",
@@ -48,9 +48,9 @@
       "lat": 48.876,
       "lng": 2.3597,
       "file": "data/stations/gare-de-l-est.json",
-      "shopCount": 110,
-      "fetchedAt": "2026-08-04T11:49:51.831Z",
-      "staleDataWarning": true
+      "shopCount": 0,
+      "fetchedAt": "2026-08-04T15:40:48.131Z",
+      "staleDataWarning": false
     },
     {
       "name": "Gare d'Austerlitz",
@@ -58,9 +58,9 @@
       "lat": 48.8418,
       "lng": 2.3646,
       "file": "data/stations/gare-d-austerlitz.json",
-      "shopCount": 14,
-      "fetchedAt": "2026-08-04T11:49:51.831Z",
-      "staleDataWarning": true
+      "shopCount": 0,
+      "fetchedAt": "2026-08-04T15:40:48.131Z",
+      "staleDataWarning": false
     },
     {
       "name": "Gare de Lille-Flandres",
@@ -69,8 +69,8 @@
       "lng": 3.0708,
       "file": "data/stations/gare-de-lille-flandres.json",
       "shopCount": 0,
-      "fetchedAt": "2026-08-04T11:49:51.831Z",
-      "staleDataWarning": true
+      "fetchedAt": "2026-08-04T15:40:48.131Z",
+      "staleDataWarning": false
     },
     {
       "name": "Gare de Lille-Europe",
@@ -78,8 +78,8 @@
       "lat": 50.6395,
       "lng": 3.0755,
       "file": "data/stations/gare-de-lille-europe.json",
-      "shopCount": 10,
-      "fetchedAt": "2026-08-04T11:49:51.831Z",
+      "shopCount": 0,
+      "fetchedAt": "2026-08-04T15:40:48.131Z",
       "staleDataWarning": false
     }
   ]
