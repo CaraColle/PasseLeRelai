@@ -314,29 +314,24 @@
   }
 
   /**
-   * Check if a point is inside any isochrone polygon.
+   * Check if a point is inside a specific isochrone feature (300 or 600 seconds).
    */
-  function isPointInIsochrone(point, isochrones) {
-    if (!isochrones || !isochrones.features) return false;
+  function isPointInSpecificIsochrone(point, feature) {
+    if (!feature || !feature.geometry) return false;
 
-    for (const feature of isochrones.features) {
-      const geometry = feature.geometry;
-      if (!geometry) continue;
+    const geometry = feature.geometry;
 
-      // Handle Polygon
-      if (geometry.type === 'Polygon') {
-        const exterior = geometry.coordinates[0]; // Outer ring
+    // Handle Polygon
+    if (geometry.type === 'Polygon') {
+      const exterior = geometry.coordinates[0]; // Outer ring
+      return pointInPolygon(point, exterior);
+    }
+    // Handle MultiPolygon
+    else if (geometry.type === 'MultiPolygon') {
+      for (const polygon of geometry.coordinates) {
+        const exterior = polygon[0];
         if (pointInPolygon(point, exterior)) {
           return true;
-        }
-      }
-      // Handle MultiPolygon
-      else if (geometry.type === 'MultiPolygon') {
-        for (const polygon of geometry.coordinates) {
-          const exterior = polygon[0];
-          if (pointInPolygon(point, exterior)) {
-            return true;
-          }
         }
       }
     }
@@ -359,12 +354,12 @@
       return;
     }
 
-    let count5 = 0, count10 = 0, countOther = 0;
-    const markers = [];
-
-    // Get reference isochrones for counting (5 min and 10 min)
+    // Get the 5-min (300s) and 10-min (600s) isochrone features
     const fiveMinFeature = isoGeojson.features.find(f => f.properties.value === 300);
     const tenMinFeature = isoGeojson.features.find(f => f.properties.value === 600);
+
+    let count5 = 0, count10 = 0;
+    const markers = [];
 
     data.shops.elements.forEach(el => {
       const lat = el.type === 'node' ? el.lat : (el.center && el.center.lat);
@@ -374,28 +369,29 @@
       const category = categoryFromTags(el.tags);
       if (!category) return;
 
-      // Check if point is inside any isochrone
       const point = [lon, lat];
-      const isInIsochrone = isPointInIsochrone(point, isoGeojson);
 
-      // Only display shops that are inside isochrones
-      if (!isInIsochrone) return;
+      // Check if point is in 5-min isochrone
+      const inFiveMin = fiveMinFeature && isPointInSpecificIsochrone(point, fiveMinFeature);
+      
+      // Check if point is in 10-min isochrone (but not in 5-min)
+      const inTenMin = tenMinFeature && isPointInSpecificIsochrone(point, tenMinFeature) && !inFiveMin;
+
+      // Only display if in 5-min OR 10-min isochrone
+      if (!inFiveMin && !inTenMin) return;
 
       markers.push(buildShopMarker(lat, lon, el, category));
 
-      // Count which isochrone zone (for stats display)
-      if (fiveMinFeature && isPointInIsochrone(point, { features: [fiveMinFeature] })) {
+      if (inFiveMin) {
         count5++;
-      } else if (tenMinFeature && isPointInIsochrone(point, { features: [tenMinFeature] })) {
+      } else if (inTenMin) {
         count10++;
-      } else {
-        countOther++;
       }
     });
 
     markers.forEach(m => m.addTo(poiLayer));
 
-    const total = count5 + count10 + countOther;
+    const total = count5 + count10;
     statusEl.textContent = total > 0
       ? `${count5} commerce(s) à moins de 5 min à pied, ${count10} de plus à moins de 10 min.`
       : "Aucun commerce trouvé dans ce périmètre pour l'instant.";
