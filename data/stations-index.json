@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T15:56:09.470Z",
+  "generatedAt": "2026-08-04T16:03:11.851Z",
   "staleDataWarning": false,
   "stations": [
     {
@@ -9,7 +9,7 @@
       "lng": 2.3735,
       "file": "data/stations/gare-de-lyon.json",
       "shopCount": 279,
-      "fetchedAt": "2026-08-04T15:56:09.470Z",
+      "fetchedAt": "2026-08-04T16:03:11.851Z",
       "staleDataWarning": false
     },
     {
@@ -19,7 +19,7 @@
       "lng": 2.3553,
       "file": "data/stations/gare-du-nord.json",
       "shopCount": 508,
-      "fetchedAt": "2026-08-04T15:56:09.470Z",
+      "fetchedAt": "2026-08-04T16:03:11.851Z",
       "staleDataWarning": false
     },
     {
@@ -28,8 +28,8 @@
       "lat": 48.8414,
       "lng": 2.3181,
       "file": "data/stations/gare-montparnasse.json",
-      "shopCount": 285,
-      "fetchedAt": "2026-08-04T15:56:09.470Z",
+      "shopCount": 289,
+      "fetchedAt": "2026-08-04T16:03:11.851Z",
       "staleDataWarning": false
     },
     {
@@ -39,7 +39,7 @@
       "lng": 2.3243,
       "file": "data/stations/gare-saint-lazare.json",
       "shopCount": 295,
-      "fetchedAt": "2026-08-04T15:56:09.470Z",
+      "fetchedAt": "2026-08-04T16:03:11.851Z",
       "staleDataWarning": false
     },
     {
@@ -49,7 +49,7 @@
       "lng": 2.3597,
       "file": "data/stations/gare-de-l-est.json",
       "shopCount": 576,
-      "fetchedAt": "2026-08-04T15:56:09.470Z",
+      "fetchedAt": "2026-08-04T16:03:11.851Z",
       "staleDataWarning": false
     },
     {
@@ -58,8 +58,28 @@
       "lat": 48.8418,
       "lng": 2.3646,
       "file": "data/stations/gare-d-austerlitz.json",
-      "shopCount": 280,
-      "fetchedAt": "2026-08-04T15:56:09.470Z",
+      "shopCount": 284,
+      "fetchedAt": "2026-08-04T16:03:11.851Z",
+      "staleDataWarning": false
+    },
+    {
+      "name": "Gare de Lille-Flandres",
+      "slug": "gare-de-lille-flandres",
+      "lat": 50.6365,
+      "lng": 3.0708,
+      "file": "data/stations/gare-de-lille-flandres.json",
+      "shopCount": 81,
+      "fetchedAt": "2026-08-04T16:03:11.851Z",
+      "staleDataWarning": false
+    },
+    {
+      "name": "Gare de Lille-Europe",
+      "slug": "gare-de-lille-europe",
+      "lat": 50.6395,
+      "lng": 3.0755,
+      "file": "data/stations/gare-de-lille-europe.json",
+      "shopCount": 68,
+      "fetchedAt": "2026-08-04T16:03:11.851Z",
       "staleDataWarning": false
     }
   ]

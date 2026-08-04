@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785858670930,
+      "timestamp": 1785859585232,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -264,10 +264,1416 @@
   },
   "shops": {
     "version": 0.6,
-    "generator": "Overpass API (fallback)",
-    "osm3s": {},
-    "elements": []
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T16:04:25Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 499609842,
+        "lat": 50.6391129,
+        "lon": 3.0584899,
+        "tags": {
+          "books": "comic",
+          "contact:city": "Lille",
+          "contact:housenumber": "5",
+          "contact:postcode": "59800",
+          "contact:street": "Rue Royale",
+          "contact:website": "https://fr-fr.facebook.com/bdpluscafe",
+          "name": "BD + café",
+          "opening_hours": "Tu-Sa 11:00-20:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "second_hand": "yes",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 974404199,
+        "lat": 50.6291009,
+        "lon": 3.0685795,
+        "tags": {
+          "addr:housenumber": "2",
+          "addr:street": "Boulevard Denis Papin",
+          "check_date": "2025-10-29",
+          "name": "Le P'tit Pain",
+          "opening_hours": "Mo-Fr 07:00-15:30; Sa,Su off",
+          "phone": "+33 3 20 29 82 07",
+          "ref:FR:SIRET": "75310372000011",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 978036765,
+        "lat": 50.6325077,
+        "lon": 3.069891,
+        "tags": {
+          "addr:housenumber": "43",
+          "addr:street": "Avenue du Président John-Fitzgerald Kennedy",
+          "check_date": "2025-10-29",
+          "name": "Au Kennedy",
+          "opening_hours": "Mo-Fr 07:00-18:30; Sa,Su off",
+          "phone": "+33 3 20 97 89 95",
+          "shop": "bakery",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1643013159,
+        "lat": 50.6308138,
+        "lon": 3.0583173,
+        "tags": {
+          "branch": "Lille",
+          "brand": "NOUS anti-gaspi",
+          "brand:wikidata": "Q130144283",
+          "check_date": "2025-08-08",
+          "contact:facebook": "https://www.facebook.com/NOUSantigaspiLille/",
+          "email": "direction-lille@nousantigaspi.com",
+          "name": "NOUS anti-gaspi",
+          "opening_hours": "Mo-Sa 10:00-20:00",
+          "phone": "+33 3 20 40 25 85",
+          "shop": "convenience",
+          "website": "https://www.nousantigaspi.com/magasins/lille/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1964243508,
+        "lat": 50.6309223,
+        "lon": 3.0579708,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:facebook": "https://www.facebook.com/asiegambetta/",
+          "contact:housenumber": "62",
+          "contact:phone": "+33 7 52 62 38 90",
+          "contact:postcode": "59000",
+          "contact:street": "Rue Léon Gambetta",
+          "name": "Asie Gambeta",
+          "opening_hours": "Mo-Sa 10:00-20:00; Fr-Su 10:00-21:00",
+          "ref:FR:SIRET": "88236054800011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2013596754,
+        "lat": 50.6471222,
+        "lon": 3.0581752,
+        "tags": {
+          "addr:housenumber": "95",
+          "addr:street": "Rue Saint-Sébastien",
+          "contact:city": "Lille",
+          "contact:housenumber": "95",
+          "contact:phone": "+33 3 20 29 23 25",
+          "contact:postcode": "59000",
+          "contact:street": "Rue Saint-Sébastien",
+          "name": "Maison Papillon",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2280554800,
+        "lat": 50.6335072,
+        "lon": 3.0695065,
+        "tags": {
+          "check_date": "2025-11-06",
+          "check_date:opening_hours": "2025-11-06",
+          "contact:housenumber": "66",
+          "contact:street": "Rue Gustave Delory",
+          "email": "nouvellelibrairie.vo@outlook.com",
+          "name": "Librairie VO",
+          "opening_hours": "Tu-Sa 11:00-14:00,15:00-19:00",
+          "phone": "+33 3 20 52 64 13",
+          "ref:FR:SIRET": "85314623100016",
+          "shop": "books",
+          "source": "local knowledge",
+          "website": "https://www.librairievo.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2876201295,
+        "lat": 50.636649,
+        "lon": 3.0629632,
+        "tags": {
+          "air_conditioning": "yes",
+          "brand": "Furet du Nord",
+          "brand:website": "https://www.furet.com",
+          "brand:wikipedia": "fr:Furet du Nord",
+          "check_date": "2025-08-08",
+          "contact:city": "Lille",
+          "contact:housenumber": "15",
+          "contact:phone": "+33 3 20 78 43 43",
+          "contact:postcode": "59800",
+          "contact:street": "Place du Général de Gaulle",
+          "contact:website": "https://www.furet.com/",
+          "name": "Furet du Nord",
+          "opening_hours": "Mo-Sa 09:30-19:30",
+          "operator": "Furet du Nord",
+          "payment:american_express": "yes",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "payment:maestro": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "payment:visa_debit": "yes",
+          "ref:FR:SIRET": "45950086400036",
+          "shop": "books",
+          "wikidata": "Q2194409",
+          "wikipedia": "fr:Furet du Nord"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3097337835,
+        "lat": 50.6262327,
+        "lon": 3.0639612,
+        "tags": {
+          "check_date": "2023-04-10",
+          "contact:city": "Lille",
+          "contact:housenumber": "4",
+          "contact:phone": "+33 3 62 65 74 94",
+          "contact:postcode": "59000",
+          "contact:street": "Place Jeanne d'Arc",
+          "contact:website": "https://le-palais-des-pains.eatbu.com",
+          "name": "Le Palais des Pains",
+          "opening_hours": "Tu-Fr 06:00-20:00; Sa,Su 04:00-20:00",
+          "ref:FR:SIRET": "85105512900015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3398284393,
+        "lat": 50.6258565,
+        "lon": 3.056398,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:housenumber": "2",
+          "contact:phone": "+33 3 20 63 98 95",
+          "contact:postcode": "59000",
+          "contact:street": "Rue Brûle-Maison",
+          "contact:website": "https://www.lacleastrale.com/",
+          "name": "La Clé - Librairie Esotérique",
+          "opening_hours": "Tu-Su 10:00-12:30,14:00-18:30",
+          "ref:FR:SIRET": "95152702700019",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4236323816,
+        "lat": 50.6368628,
+        "lon": 3.0686026,
+        "tags": {
+          "addr:city": "Lille",
+          "addr:housenumber": "73",
+          "addr:postcode": "59000",
+          "addr:street": "Rue Faidherbe",
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "brand:wikipedia": "fr:La Mie câline",
+          "check_date": "2025-10-25",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Sa 06:30-19:45; Su 07:15-19:00",
+          "payment:coins": "yes",
+          "payment:maestro": "yes",
+          "payment:mastercard": "yes",
+          "payment:notes": "yes",
+          "payment:visa": "yes",
+          "payment:visa_electron": "yes",
+          "phone": "+33 3 20 47 07 87",
+          "ref:FR:SIRET": "98360358000017",
+          "shop": "bakery",
+          "source": "survey",
+          "website": "https://www.lamiecaline.com/boutiques/lille-faidherbe/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4509013422,
+        "lat": 50.6285833,
+        "lon": 3.058644,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:email": "laffranchielibrairie@gmail.com",
+          "contact:housenumber": "6",
+          "contact:phone": "+33 3 20 55 76 11",
+          "contact:postcode": "59000",
+          "contact:street": "Place Sébastopol",
+          "contact:website": "https://www.laffranchielibrairie.com/",
+          "description": "L’Affranchie est une librairie indépendante qui milite pour les littératures théâtrales et féministes. Fan absolue d’oralité et de poésie, la librairie organise et accueille de nombreuses rencontres, lectures et concerts dans son salon de thé !",
+          "name": "L'Affranchie",
+          "opening_hours": "Tu-Sa 10:00-13:30,14:30-19:00",
+          "ref:FR:SIRET": "53886205300021",
+          "ref:vatin": "FR79538862053",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4671775430,
+        "lat": 50.6284483,
+        "lon": 3.0694686,
+        "tags": {
+          "check_date": "2025-11-07",
+          "check_date:opening_hours": "2025-11-07",
+          "contact:facebook": "https://www.facebook.com/boulangerieauptitlouis/",
+          "contact:phone": "+33 3 20 81 04 38",
+          "indoor_seating": "yes",
+          "name": "Au P'tit Louis - St Sauveur",
+          "opening_hours": "Mo-Fr 07:00-19:30; Sa 07:30-13:00",
+          "outdoor_seating": "yes",
+          "shop": "bakery",
+          "website": "https://boulangerieauptitlouis.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4845232029,
+        "lat": 50.6334633,
+        "lon": 3.0681583,
+        "tags": {
+          "check_date:opening_hours": "2025-08-29",
+          "contact:city": "Lille",
+          "contact:housenumber": "145",
+          "contact:postcode": "59800",
+          "contact:street": "Rue Pierre Mauroy",
+          "indoor_seating": "no",
+          "name": "Les délices du moulin",
+          "opening_hours": "Mo-Sa 06:00-19:30",
+          "outdoor_seating": "yes",
+          "phone": "+33 3 20 85 25 48",
+          "shop": "bakery",
+          "website": "https://lesdelicesdumoulin.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4845232030,
+        "lat": 50.6342821,
+        "lon": 3.0691541,
+        "tags": {
+          "name": "Au Bon Coin du Monde",
+          "opening_hours": "Mo-Su 10:00-22:00",
+          "ref:FR:SIRET": "81939784500010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5163601538,
+        "lat": 50.6377563,
+        "lon": 3.0726787,
+        "tags": {
+          "addr:city": "Lille",
+          "addr:postcode": "59777",
+          "brand": "Brioche Dorée",
+          "brand:website": "https://www.briochedoree.fr",
+          "brand:wikidata": "Q2925606",
+          "brand:wikipedia": "fr:Brioche dorée",
+          "check_date": "2026-04-17",
+          "contact:phone": "+33 3 20 74 12 05",
+          "indoor_seating": "yes",
+          "level": "0",
+          "name": "Brioche Dorée",
+          "opening_hours": "Mo-Sa 08:00-20:00",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "31890659102062",
+          "shop": "bakery",
+          "website": "https://www.briochedoree.fr/restaurants/329-lille-c.cial-euralille"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5197638222,
+        "lat": 50.6291534,
+        "lon": 3.0634431,
+        "tags": {
+          "contact:housenumber": "25",
+          "contact:phone": "+33 3 20 57 36 44",
+          "contact:street": "Rue de Valmy",
+          "contact:website": "https://www.librairiemeura.com/",
+          "name": "Librairie Meura",
+          "opening_hours": "Tu-Fr 10:00-14:00,15:00-19:00, Mo 14:00-19:00, Sa 10:00-13:30,15:00-19:00",
+          "ref:FR:SIRET": "51224939200014",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5333316108,
+        "lat": 50.646949,
+        "lon": 3.0574245,
+        "tags": {
+          "addr:city": "Lille",
+          "addr:postcode": "59000",
+          "addr:street": "Rue du Guet",
+          "name": "Les Vergers Dupré",
+          "opening_hours": "Tu-Th 09:30-13:00,15:00-20:00; Fr,Sa 09:30-20:00; Su 09:00-13:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5343505325,
+        "lat": 50.6354141,
+        "lon": 3.0600438,
+        "tags": {
+          "books": "comic",
+          "check_date": "2024-03-02",
+          "contact:city": "Lille",
+          "contact:email": "astrocity@astrocity.fr",
+          "contact:housenumber": "74",
+          "contact:phone": "+33 3 20 55 10 10",
+          "contact:postcode": "59000",
+          "contact:street": "Rue de l'Hôpital Militaire",
+          "contact:website": "http://www.astrocity.fr/astroshop/",
+          "name": "AstroCity",
+          "opening_hours": "Tu-Sa 10:30-12:00,14:00-19:00",
+          "payment:credit_cards": "yes",
+          "ref:FR:SIRET": "41952138000024",
+          "second_hand": "yes",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5348005761,
+        "lat": 50.6369724,
+        "lon": 3.0686107,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:housenumber": "33",
+          "contact:postcode": "59800",
+          "contact:street": "Rue du Priez",
+          "name": "Epicerie de la gare",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5509181234,
+        "lat": 50.6326904,
+        "lon": 3.0559541,
+        "tags": {
+          "contact:email": "manganoyume@orange.fr",
+          "contact:phone": "+33 3 20 12 05 11",
+          "contact:website": "https://www.manganoyume.fr/decouvrir_la_librairie/",
+          "name": "Manga no yume",
+          "opening_hours": "Tu-Sa 11:00-19:00",
+          "ref:FR:SIRET": "49965593400028",
+          "second_hand": "yes",
+          "shop": "books",
+          "survey:date": "2017-03"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5538696789,
+        "lat": 50.6372184,
+        "lon": 3.0687029,
+        "tags": {
+          "check_date": "2026-05-08",
+          "name": "Night Shop",
+          "shop": "convenience",
+          "source": "survey",
+          "survey:date": "2018-04"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5643696574,
+        "lat": 50.6287626,
+        "lon": 3.0592116,
+        "tags": {
+          "check_date": "2026-05-07",
+          "name": "Sweet Shop",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5701699239,
+        "lat": 50.631216,
+        "lon": 3.0592823,
+        "tags": {
+          "name": "Inamori Market",
+          "ref:FR:SIRET": "98125138200017",
+          "shop": "convenience",
+          "survey:date": "2024-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5724126435,
+        "lat": 50.6354188,
+        "lon": 3.064509,
+        "tags": {
+          "name": "The French Bastards",
+          "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-18:00",
+          "ref:FR:SIRET": "84090821400082",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5856187373,
+        "lat": 50.6366398,
+        "lon": 3.0671798,
+        "tags": {
+          "check_date": "2025-09-15",
+          "check_date:opening_hours": "2025-09-15",
+          "contact:city": "Lille",
+          "contact:facebook": "https://www.facebook.com/Crocbook-Lille-1606523822922831/",
+          "contact:housenumber": "28",
+          "contact:phone": "+33 320514905",
+          "contact:postcode": "59000",
+          "contact:street": "Rue des Ponts de Comines",
+          "contact:website": "https://www.crocbook.fr",
+          "name": "Crocbook",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "84307153100019",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6068177347,
+        "lat": 50.6353696,
+        "lon": 3.0600972,
+        "tags": {
+          "check_date": "2024-03-02",
+          "name": "La Chouette Librairie",
+          "opening_hours": "Tu-Sa 10:30-19:00; Sa 10:00-19:00",
+          "phone": "+33 3 20 09 79 68",
+          "ref:FR:SIRET": "84009386800015",
+          "shop": "books",
+          "website": "https://www.lachouettelibrairie.com/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6159414377,
+        "lat": 50.6356114,
+        "lon": 3.0588461,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/maisonpapillon59/",
+          "name": "Maison Papillon",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "ref:FR:SIRET": "81379900400011",
+          "shop": "bakery",
+          "survey:date": "2018-12",
+          "website": "https://boulangeriepapillon.fr",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6234876725,
+        "lat": 50.6275905,
+        "lon": 3.0605735,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:housenumber": "20",
+          "contact:phone": "+33320546537",
+          "contact:postcode": "59000",
+          "contact:street": "Place Philippe Lebon",
+          "contact:website": "https://www.patisserie-lepretre.com/",
+          "name": "Pâtisserie Leprêtre",
+          "opening_hours": "Mo-Sa 07:45-19:30; Tu,We off; Su 07:45-18:00",
+          "opening_hours:url": "https://www.patisserie-lepretre.com/contact",
+          "ref:FR:SIRET": "90176815000012",
+          "shop": "bakery",
+          "source": "INSEE - 2021-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6276579994,
+        "lat": 50.630089,
+        "lon": 3.0761843,
+        "tags": {
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "check_date": "2023-09-17",
+          "name": "CocciMarket",
+          "ref:FR:SIRET": "78964655100018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6276579997,
+        "lat": 50.6401598,
+        "lon": 3.0806862,
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "name": "Vival",
+          "ref:FR:SIRET": "91980461700018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6276580001,
+        "lat": 50.644102,
+        "lon": 3.0627607,
+        "tags": {
+          "addr:housenumber": "38",
+          "addr:street": "Rue du Pont Neuf",
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "check_date": "2025-07-18",
+          "name": "CocciMarket",
+          "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:30",
+          "shop": "convenience",
+          "website": "https://www.coccinelle.fr/magasin/lille"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6280814523,
+        "lat": 50.6217721,
+        "lon": 3.0736197,
+        "tags": {
+          "check_date": "2023-04-08",
+          "contact:phone": "+33 3 20 37 27 81",
+          "name": "Les Halles de Moulin",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6394849119,
+        "lat": 50.6228405,
+        "lon": 3.0628164,
+        "tags": {
+          "check_date": "2024-08-03",
+          "name": "24 Market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6506248319,
+        "lat": 50.6379914,
+        "lon": 3.0681757,
+        "tags": {
+          "name": "Mamatte",
+          "opening_hours": "Mo-Sa 07:30-19:00; Su 07:30-13:00",
+          "phone": "+33 3 20 31 44 20",
+          "shop": "bakery",
+          "website": "https://www.mamatte.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6569834509,
+        "lat": 50.6387988,
+        "lon": 3.0618702,
+        "tags": {
+          "brand": "La Procure",
+          "brand:wikidata": "Q3211977",
+          "brand:wikipedia": "fr:La Procure",
+          "check_date:opening_hours": "2025-03-01",
+          "contact:city": "Lille",
+          "contact:housenumber": "31",
+          "contact:postcode": "59800",
+          "contact:street": "Rue Basse",
+          "contact:website": "https://www.leslibrairiesprocure.com/le_reseau/#seller-673",
+          "name": "La Procure",
+          "opening_hours": "Mo-Sa 09:30-18:30",
+          "ref:FR:SIRET": "83161738600014",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7170456426,
+        "lat": 50.6314684,
+        "lon": 3.0593666,
+        "tags": {
+          "check_date": "2026-05-28",
+          "level": "0",
+          "name": "Masala Bazaar",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7183897487,
+        "lat": 50.6224096,
+        "lon": 3.0670579,
+        "tags": {
+          "addr:floor": "0",
+          "addr:housenumber": "86",
+          "addr:street": "Rue d'Arras",
+          "bulk_purchase": "yes",
+          "check_date": "2024-05-18",
+          "contact:facebook": "https://www.facebook.com/robindesbio/",
+          "contact:housenumber": "86",
+          "contact:mastodon": "https://pouet.chapril.org/@robindesbio",
+          "contact:postcode": "59000",
+          "contact:street": "Rue d'Arras",
+          "contact:website": "https://www.robindesbio.org/",
+          "delivery": "yes",
+          "description": "L’association Robin des Bio œuvre à promouvoir l’agriculture biologique par la vente dans son épicerie de produits biologiques et éco responsables et par l’organisation d’événements pour une consommation alternative, respectueuse du vivant.",
+          "email": "contact@robindesbio.org",
+          "internet_access": "wlan",
+          "internet_access:fee": "customers",
+          "level": "0",
+          "name": "Robin des Bio",
+          "opening_hours": "We,Fr 17:00-19:00; Sa 10:00-13:00",
+          "organic": "only",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 3 62 65 63 11",
+          "ref:FR:SIRET": "43963955000029",
+          "reusable_packaging:accept": "yes",
+          "reusable_packaging:offer": "yes",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7216635209,
+        "lat": 50.6339416,
+        "lon": 3.0677924,
+        "tags": {
+          "check_date": "2024-05-28",
+          "contact:phone": "+33 3 20 39 95 65",
+          "contact:website": "https://www.librairielesquatrechemins.fr/",
+          "name": "Les Quatres Chemins",
+          "opening_hours": "Mo-Sa 11:00-19:00",
+          "ref:FR:SIRET": "47817993000035",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7230131498,
+        "lat": 50.6373037,
+        "lon": 3.084257,
+        "tags": {
+          "branch": "Lille Fives",
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "name": "CocciMarket",
+          "opening_hours": "Mo-Su 08:00-22:00",
+          "ref:FR:SIRET": "83070434200013",
+          "shop": "convenience",
+          "website": "https://www.coccinelle.fr/Trouver_Un_Magasin/Details/coccimarket/lille-fives/72-rue-eugene-jacquet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7230131499,
+        "lat": 50.637321,
+        "lon": 3.084036,
+        "tags": {
+          "name": "Croustibaguette",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7416672420,
+        "lat": 50.6349772,
+        "lon": 3.0689255,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:housenumber": "40",
+          "contact:phone": "+33 3 20 15 36 36",
+          "contact:postcode": "59800",
+          "contact:street": "Rue du Molinel",
+          "contact:website": "http://www.clcfrance.com/lille",
+          "drinking_water:refill": "yes",
+          "drinking_water:refill:network": "Gourde Friendly",
+          "name": "Librairie Chrétienne CLC",
+          "opening_hours": "Tu-Fr 10:30-13:00,14:00-18:30; Sa 10:30-13:00,14:00-18:00",
+          "ref:FR:SIRET": "77557197900258",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7429068421,
+        "lat": 50.631679,
+        "lon": 3.067348,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:housenumber": "24",
+          "contact:phone": "+33 3 59 51 68 40",
+          "contact:postcode": "59800",
+          "contact:street": "Avenue du Président John-Fitzgerald Kennedy",
+          "contact:website": "https://www.librairielemondeduranie.com/",
+          "name": "Le Monde d'Uranie",
+          "opening_hours": "Tu-Sa 11:00-19:00",
+          "ref:FR:SIRET": "53924613200010",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7429068422,
+        "lat": 50.6315895,
+        "lon": 3.0669217,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:housenumber": "10",
+          "contact:phone": "+33 9 80 90 11 36",
+          "contact:postcode": "59800",
+          "contact:street": "Avenue du Président John-Fitzgerald Kennedy",
+          "name": "Le Campagn'art",
+          "opening_hours": "Sa-Th 06:30-20:00; Fr 06:30-13:00,15:00-20:00",
+          "ref:FR:SIRET": "75237729100014",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7457900798,
+        "lat": 50.6386962,
+        "lon": 3.0600103,
+        "tags": {
+          "contact:housenumber": "52",
+          "contact:phone": "+33 3 20 74 16 17",
+          "contact:street": "Rue Basse",
+          "contact:website": "http://www.le-square-d-aramis.com/",
+          "cuisine": "regional",
+          "diet:vegetarian": "no",
+          "indoor_seating": "yes",
+          "name": "The French Bastards",
+          "opening_hours": "Mo-Su 10:00-24:00",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "84090821400074",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7885073437,
+        "lat": 50.6303801,
+        "lon": 3.056681,
+        "tags": {
+          "addr:housenumber": "108",
+          "addr:street": "Rue Léon Gambetta",
+          "amenity": "fast_food",
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "check_date": "2025-10-25",
+          "level": "0",
+          "name": "La Mie Câline",
+          "opening_date": "11-2023",
+          "opening_hours": "Mo-Su 06:30-19:30",
+          "phone": "+33 9 78 81 23 96",
+          "ref:FR:SIRET": "95315227900014",
+          "shop": "bakery",
+          "website": "https://www.lamiecaline.com/boutiques/lille-gambetta/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8146592905,
+        "lat": 50.6287153,
+        "lon": 3.0593026,
+        "tags": {
+          "addr:city": "Lille",
+          "addr:housenumber": "214",
+          "addr:postcode": "59000",
+          "addr:street": "Rue de Solférino",
+          "books": "comic",
+          "check_date": "2026-06-17",
+          "contact:instagram": "librairie_derives",
+          "name": "Dérives",
+          "ref:FR:SIRET": "10119492600024",
+          "shop": "books",
+          "start_date": "2026-06-17"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8450790156,
+        "lat": 50.6230266,
+        "lon": 3.05711,
+        "tags": {
+          "name": "Konea Guinee",
+          "ref:FR:SIRET": "83230705200015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8865817822,
+        "lat": 50.6404054,
+        "lon": 3.0817681,
+        "tags": {
+          "addr:city": "Lille",
+          "addr:housenumber": "5",
+          "addr:postcode": "59000",
+          "addr:street": "Place Désiré Bouchée",
+          "contact:city": "Lille",
+          "contact:housenumber": "3",
+          "contact:postcode": "59000",
+          "contact:street": "Rue Blanche",
+          "description": "Épicerie de produits BIO et/ou locaux en vrac",
+          "name": "Comment ça vrac ?",
+          "opening_hours": "Tu,We 10:00-13:00,16:00-19:30; Th,Fr 16:00-19:30; Sa 10:00-13:30,15:30-19:00; Su,Mo off",
+          "organic": "yes",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 6 83 86 71 48",
+          "ref:FR:SIRET": "87963310500025",
+          "shop": "convenience",
+          "website": "https://commentcavrac.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8871460617,
+        "lat": 50.6342968,
+        "lon": 3.067259,
+        "tags": {
+          "check_date": "2025-12-01",
+          "check_date:opening_hours": "2025-12-01",
+          "contact:facebook": "petitkonbini",
+          "contact:instagram": "petitkonbini",
+          "contact:website": "https://www.petitkonbini.fr/",
+          "description": "Épicerie japonaise",
+          "name": "Petit Kombini",
+          "opening_hours": "Mo-Fr 12:00-19:30; Sa 10:00-19:30",
+          "ref:FR:SIRET": "85320898100029",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8871577617,
+        "lat": 50.6369,
+        "lon": 3.0688453,
+        "tags": {
+          "name": "Florida market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8962809530,
+        "lat": 50.6383447,
+        "lon": 3.0648191,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:housenumber": "7",
+          "contact:postcode": "59800",
+          "contact:street": "Rue de la Clef",
+          "email": "mangadokaze59800@gmail.com",
+          "name": "Manga Dokaze",
+          "opening_hours": "Tu-Sa 10:30-18:45",
+          "phone": "+33 3 62 13 37 03",
+          "ref:FR:SIRET": "81147197800023",
+          "second_hand": "yes",
+          "shop": "books",
+          "source": "INSEE - 2021-07",
+          "website": "https://mangadokaze.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8985728519,
+        "lat": 50.6352712,
+        "lon": 3.0558121,
+        "tags": {
+          "addr:city": "Lille",
+          "addr:housenumber": "53",
+          "addr:postcode": "59000",
+          "addr:street": "Boulevard de la Liberté",
+          "books": "romance",
+          "contact:city": "Lille",
+          "contact:housenumber": "53",
+          "contact:postcode": "59000",
+          "contact:street": "Boulevard de la Liberté",
+          "email": "librairieayabooks@gmail.com",
+          "name": "Aya Books",
+          "opening_hours": "Mo-Sa 10:30-20:00; Tu-Th 10:30-19:00",
+          "opening_hours:signed": "no",
+          "phone": "+33 366769230",
+          "ref:FR:SIRET": "94210318500016",
+          "ref:vatin": "FR03942103185",
+          "shop": "books",
+          "source": "INSEE - 2021-07",
+          "website": "https://www.ayabooks.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9001296605,
+        "lat": 50.6291693,
+        "lon": 3.07748,
+        "tags": {
+          "addr:housenumber": "12",
+          "addr:street": "Boulevard du Docteur Calmette",
+          "check_date": "2025-12-07",
+          "name": "OBK",
+          "ref:FR:SIRET": "84465898900018",
+          "shop": "bakery",
+          "source": "INSEE - 2021-08"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9006265511,
+        "lat": 50.6355771,
+        "lon": 3.0680596,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:housenumber": "6",
+          "contact:postcode": "59800",
+          "contact:street": "Rue Saint-Genois",
+          "name": "Safari Shop",
+          "ref:FR:SIRET": "88864416800013",
+          "shop": "convenience",
+          "source": "INSEE - 2021-08"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9045494581,
+        "lat": 50.6305491,
+        "lon": 3.0630567,
+        "tags": {
+          "name": "La Librairie-boutique du Palais",
+          "ref:FR:SIRET": "50050699300020",
+          "shop": "books",
+          "source": "INSEE - 2021-08",
+          "website": "https://pba.lille.fr/Infos/La-Librairie-Boutique"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9066682566,
+        "lat": 50.638021,
+        "lon": 3.0668816,
+        "tags": {
+          "amenity": "cafe",
+          "contact:facebook": "https://www.facebook.com/people/Librairie-La-Parenth%C3%A8se/61558677360859/",
+          "contact:instagram": "laparentheselibrairie_lille",
+          "description": "Librairie & Salon de thé",
+          "name": "La Parenthèse",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "98419340900013",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9158415701,
+        "lat": 50.6336443,
+        "lon": 3.0619107,
+        "tags": {
+          "addr:city": "Lille",
+          "addr:housenumber": "24",
+          "addr:postcode": "59800",
+          "addr:street": "Rue de l'Hôpital Militaire",
+          "name": "Sparkle Supermarket",
+          "ref:FR:SIRET": "99921367100012",
+          "shop": "convenience",
+          "start_date": "2026-02"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9338777644,
+        "lat": 50.6351718,
+        "lon": 3.0669648,
+        "tags": {
+          "addr:city": "Lille",
+          "addr:housenumber": "90",
+          "addr:postcode": "59000",
+          "addr:street": "Rue Pierre Mauroy",
+          "check_date": "2025-10-29",
+          "check_date:opening_hours": "2025-10-29",
+          "contact:facebook": "https://www.facebook.com/Croafunding",
+          "contact:instagram": "https://www.instagram.com/croafunding/",
+          "contact:website": "https://croafunding.fr/",
+          "email": "contact@croafunding.fr",
+          "name": "Croâfunding",
+          "opening_hours": "Mo,Tu,Th-Sa 10:00-19:30",
+          "phone": "+33 9 67 48 72 68",
+          "ref:FR:SIRET": "90473150200012",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9338777645,
+        "lat": 50.63575,
+        "lon": 3.0699878,
+        "tags": {
+          "check_date": "2026-04-13",
+          "contact:instagram": "paolina_lille",
+          "name": "Paolina",
+          "opening_hours": "Mo-Su 07:30-20:30",
+          "ref:FR:SIRET": "98210109900017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9671912820,
+        "lat": 50.6440181,
+        "lon": 3.06254,
+        "tags": {
+          "addr:housenumber": "32",
+          "addr:street": "Rue du Pont Neuf",
+          "check_date": "2025-08-15",
+          "name": "La Gourmandise",
+          "ref:FR:SIRET": "88837891600017",
+          "shop": "bakery",
+          "source": "INSEE - 2022-04"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9759884251,
+        "lat": 50.6215799,
+        "lon": 3.0591225,
+        "tags": {
+          "name": "Urban Shop",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9946833085,
+        "lat": 50.623586,
+        "lon": 3.0800194,
+        "tags": {
+          "contact:facebook": "aupainleve",
+          "contact:website": "https://painleve.fr/",
+          "name": "Au Pain Levé",
+          "opening_hours": "Mo-Fr 07:00-18:30; Sa 07:00-12:30",
+          "ref:FR:SIRET": "35064886100069",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9972346644,
+        "lat": 50.6388396,
+        "lon": 3.0591674,
+        "tags": {
+          "contact:facebook": "BoulangerieBrier",
+          "contact:phone": "+33 3 20 55 35 55",
+          "indoor_seating": "yes",
+          "name": "Valérie & Raphaël Brier",
+          "opening_hours": "Mo-Fr 07:00-19:30; Sa 07:30-19:30; Su off",
+          "outdoor_seating": "no",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "39822198600027",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9972346647,
+        "lat": 50.6387772,
+        "lon": 3.0616746,
+        "tags": {
+          "brand": "La Quequetterie",
+          "contact:phone": "+33 3 20 42 21 58",
+          "contact:website": "https://laquequetterie.com/",
+          "name": "La Quequetterie",
+          "opening_hours": "Tu-Sa 11:30-19:00; Su 11:30-18:00",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10121949717,
+        "lat": 50.6405873,
+        "lon": 3.0611541,
+        "tags": {
+          "contact:facebook": "logredecarrouselberg",
+          "email": "contact@ogre-de-carrouselberg.com",
+          "name": "L'Ogre de Carrouselberg",
+          "opening_hours": "We-Fr 10:00-18:30; Sa 09:30-18:30; Su 09:30-13:00",
+          "ref:FR:SIRET": "83496193000015",
+          "shop": "bakery",
+          "website": "https://www.ogre-de-carrouselberg.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10759243424,
+        "lat": 50.6506915,
+        "lon": 3.0724888,
+        "tags": {
+          "contact:facebook": "latelierdessaveurslamadeleine",
+          "contact:instagram": "boulangerieatelierdessaveurs",
+          "contact:phone": "+33 3 20 55 11 78",
+          "contact:website": "https://www.ateliersaveursmadeleine.com/",
+          "name": "Atelier des Saveurs",
+          "opening_hours": "Mo,Tu,Th,Fr,Sa 07:00-13:30,14:30-19:30; Su 07:00-13:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10996980643,
+        "lat": 50.6355377,
+        "lon": 3.063366,
+        "tags": {
+          "name": "Mamatte",
+          "opening_hours": "Mo-Sa 07:00-20:00; Su 07:30-20:00",
+          "phone": "+33 3 20 40 05 70",
+          "shop": "bakery",
+          "website": "https://www.mamatte.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11158709460,
+        "lat": 50.632334,
+        "lon": 3.0650887,
+        "tags": {
+          "check_date": "2026-05-08",
+          "name": "Il Forno",
+          "ref:FR:SIRET": "98053469700019",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13299060650,
+        "lat": 50.6293817,
+        "lon": 3.0734698,
+        "tags": {
+          "name": "Au P'tit Marché",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13391109903,
+        "lat": 50.6369769,
+        "lon": 3.0627559,
+        "tags": {
+          "addr:city": "Lille",
+          "addr:housenumber": "1",
+          "addr:postcode": "59000",
+          "addr:street": "Rue Nationale",
+          "amenity": "fast_food",
+          "check_date": "2026-04-27",
+          "level": "0;1;2",
+          "name": "Auguste & Ferdinand",
+          "shop": "bakery",
+          "website": "https://www.augusteetferdinand.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13827610743,
+        "lat": 50.6428926,
+        "lon": 3.0598378,
+        "tags": {
+          "check_date": "2026-05-14",
+          "name": "Texture(s)",
+          "ref:FR:SIRET": "94416574500018",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13860167277,
+        "lat": 50.6223208,
+        "lon": 3.0623744,
+        "tags": {
+          "name": "Brood",
+          "opening_hours": "Mo-Fr 16:00-19:30",
+          "ref:FR:SIRET": "87791577700016",
+          "shop": "bakery",
+          "website": "https://www.brood-lille.com/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 42160571,
+        "center": {
+          "lat": 50.6258847,
+          "lon": 3.0640569
+        },
+        "tags": {
+          "building": "yes",
+          "building:levels": "3",
+          "email": "librairielalison@gmail.com",
+          "name": "La Lison",
+          "opening_hours": "Tu-Sa 10:00-19:00, Mo 14:00-19:00",
+          "phone": "+33 9 83 99 70 32",
+          "ref:FR:SIRET": "81193731700022",
+          "roof:levels": "1",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
+          "website": "https://www.librairielalison.fr/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 42465859,
+        "center": {
+          "lat": 50.6380354,
+          "lon": 3.0582627
+        },
+        "tags": {
+          "building": "retail",
+          "building:style": "classique",
+          "check_date": "2023-07-01",
+          "name": "Le pain de nos ancêtres",
+          "opening_hours": "Tu-Sa 07:30-20:00; Su 08:00-13:00",
+          "ref:FR:SIRET": "42814035400047",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2008"
+        }
+      },
+      {
+        "type": "way",
+        "id": 42533741,
+        "center": {
+          "lat": 50.6332943,
+          "lon": 3.0619238
+        },
+        "tags": {
+          "building": "retail",
+          "building:levels": "4",
+          "check_date": "2023-12-28",
+          "contact:city": "Lille",
+          "contact:email": "bouquinerielille@oxfamfrance.org",
+          "contact:housenumber": "19 ter",
+          "contact:phone": "+33 3 20 54 40 31",
+          "contact:postcode": "59000",
+          "contact:street": "Rue de l'Hôpital Militaire",
+          "contact:website": "https://www.facebook.com/magasinsoxfamdelille/",
+          "name": "Oxfam",
+          "opening_hours": "Tu-Th 13:00-19:00, Fr,Sa 10:30-19:00",
+          "ref:FR:SIRET": "34988915400085",
+          "roof:levels": "1",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2008",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "way",
+        "id": 63619080,
+        "center": {
+          "lat": 50.6420995,
+          "lon": 3.0565961
+        },
+        "tags": {
+          "building": "yes",
+          "name": "Le Concert Gourmand 2",
+          "ref:FR:SIRET": "53833208100024",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      },
+      {
+        "type": "way",
+        "id": 84447636,
+        "center": {
+          "lat": 50.644725,
+          "lon": 3.0571658
+        },
+        "tags": {
+          "building": "yes",
+          "name": "La récolte",
+          "ref:FR:SIRET": "91771182200010",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      },
+      {
+        "type": "way",
+        "id": 84450587,
+        "center": {
+          "lat": 50.6455984,
+          "lon": 3.0565034
+        },
+        "tags": {
+          "building": "yes",
+          "name": "Vianney Degruson",
+          "opening_hours": "Tu-Sa 07:00-19:30; Su 07:30-13:30",
+          "ref:FR:SIRET": "52232252800012",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      },
+      {
+        "type": "way",
+        "id": 84939752,
+        "center": {
+          "lat": 50.6417124,
+          "lon": 3.0849712
+        },
+        "tags": {
+          "building": "retail",
+          "building:levels": "4",
+          "dog": "yes",
+          "name": "Hépi",
+          "opening_hours": "Mo-Sa 07:30-19:30; Su 08:00-13:00",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1166230738,
+        "center": {
+          "lat": 50.6363177,
+          "lon": 3.0701753
+        },
+        "tags": {
+          "brand": "Eric Kayser",
+          "brand:wikidata": "Q99231745",
+          "check_date": "2026-04-13",
+          "contact:website": "http://www.maison-kayser.com/fr/nous-trouver?loc=lille",
+          "indoor": "room",
+          "indoor_seating": "yes",
+          "level": "0",
+          "name": "Eric Kayser",
+          "opening_hours": "Mo-Fr 06:00-20:00; Sa,Su 07:00-20:00",
+          "outdoor_seating": "no",
+          "pastry": "yes",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "yes"
+        }
+      }
+    ]
   },
-  "fetchedAt": "2026-08-04T15:48:45.323Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-08-04T16:03:11.851Z",
+  "staleDataWarning": false
 }
