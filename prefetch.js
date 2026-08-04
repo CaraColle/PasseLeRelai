@@ -20,6 +20,36 @@ const stations = [
 ];
 
 // ---------------------------------------------------------------------------
+// Chain store detection
+// ---------------------------------------------------------------------------
+const CHAIN_KEYWORDS = [
+  'carrefour', 'leclerc', 'auchan', 'intermarché', 'casino', 'monoprix',
+  'franprix', 'match', 'simply', 'géant', 'super u', 'cora', 'hyper',
+  'amazon', 'fnac', 'decathlon', 'leroy merlin', 'ikea', 'boulanger',
+  'darty', 'cultura', 'maisons du monde', 'habitat', 'maisons du monde',
+  'zara', 'h&m', 'uniqlo', 'gap', 'mango', 'marks & spencer',
+  'starbucks', 'mcdonald', 'burger king', 'kfc', 'subway', 'quick',
+  'paul', 'pain quotidien', 'ladurée', 'pierre hermé',
+  'pains & traditions', 'bouchon lyonnais',
+  'bonne maman', 'leader price', 'prix mania', 'netto',
+  'carrefour contact', 'carrefour express', 'carrefour city',
+  'sainsbury', 'tesco', 'asda', 'morrisons',
+];
+
+/**
+ * Check if a shop is likely a chain based on name and tags.
+ */
+function isChain(shop) {
+  const name = (shop.tags?.name || '').toLowerCase();
+  const brand = (shop.tags?.brand || '').toLowerCase();
+  const operator = (shop.tags?.operator || '').toLowerCase();
+  
+  const combined = `${name} ${brand} ${operator}`.toLowerCase();
+  
+  return CHAIN_KEYWORDS.some(keyword => combined.includes(keyword));
+}
+
+// ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
 
@@ -65,8 +95,8 @@ out center tags;`;
 }
 
 /**
- * Query Overpass with retry logic and multiple mirror URLs.
- * Tries each mirror up to `retries` times with exponential backoff.
+ * Retry logic with exponential backoff for Overpass API.
+ * Tries multiple mirrors if one fails.
  */
 async function overpassQuery(query, retries = 5, delayMs = 3000) {
   const OVERPASS_URLS = [
@@ -80,7 +110,7 @@ async function overpassQuery(query, retries = 5, delayMs = 3000) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     for (const url of OVERPASS_URLS) {
       try {
-        console.log(`    [Attempt ${attempt}/${retries}] Trying ${url.split('/')[2]}...`);
+        console.log(`    [Attempt ${attempt}/${retries}] Trying ${url}...`);
         
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 120000); // 2 min timeout
@@ -104,28 +134,47 @@ async function overpassQuery(query, retries = 5, delayMs = 3000) {
         
       } catch (err) {
         lastError = err;
-        console.warn(`    ✗ ${url.split('/')[2]} failed: ${err.message}`);
+        console.warn(`    ✗ ${url} failed: ${err.message}`);
       }
     }
     
     if (attempt < retries) {
       const wait = delayMs * Math.pow(2, attempt - 1);
       console.log(`    Waiting ${wait}ms before retry ${attempt + 1}/${retries}...`);
-      await sleep(wait);
+      await new Promise(resolve => setTimeout(resolve, wait));
     }
   }
   
   throw lastError;
 }
 
-/** Fetch isochrones via ORS API (foot-walking, 300/600/900 seconds). */
+/** Fetch shops via Overpass API. */
+async function fetchShops(station) {
+  const query = buildShopQuery(station);
+  const data = await overpassQuery(query);
+  
+  // Filter out chains
+  const independentShops = data.elements.filter(shop => !isChain(shop));
+  
+  console.log(`    Found ${data.elements.length} total shops, ${independentShops.length} independent`);
+  
+  return {
+    ...data,
+    elements: independentShops
+  };
+}
+
+/**
+ * Fetch isochrones via ORS API.
+ * Only 5 and 10 minutes (300 and 600 seconds).
+ */
 async function fetchIsochrones(lat, lng) {
   const apiKey = process.env.ORS_API_KEY;
   if (!apiKey) throw new Error('ORS_API_KEY environment variable is not set');
 
   const body = {
     locations: [[lng, lat]],
-    range: [300, 600, 900],
+    range: [300, 600],  // 5 min, 10 min (removed 900 = 15 min)
     range_type: 'time',
     profile: 'foot-walking',
     units: 'm',
@@ -175,7 +224,7 @@ async function main() {
     const slug = slugify(station.name);
     const outPath = `${dataDir}/${slug}.json`;
 
-    console.log(`\n📍 Station: ${station.name}`);
+    console.log(`\n📍 Station: ${station.name} (${slug})`);
 
     let shopsData = null;
     let isochronesData = null;
@@ -192,23 +241,22 @@ async function main() {
 
     // ============ FETCH ISOCHRONES ============
     try {
-      console.log(`  Fetching isochrones from ORS...`);
+      console.log(`  Fetching isochrones from ORS (5 & 10 min)...`);
       isochronesData = await fetchIsochrones(station.lat, station.lng);
       console.log(`  ✓ Isochrones fetched: ${isochronesData.features?.length ?? 0} features`);
     } catch (err) {
-      console.error(`  ✗ Isochrones fetch failed: ${err.message}`);
+      console.error(`  ⚠ Isochrones fetch failed: ${err.message}. Using existing data if available.`);
       staleDataWarning = true;
       isochronesData = existing.isochrones ?? null;
     }
 
-    // ============ FETCH SHOPS (WITH RETRY LOGIC) ============
+    // ============ FETCH SHOPS (INDEPENDENT ONLY) ============
     try {
-      console.log(`  Fetching shops from Overpass...`);
-      shopsData = await overpassQuery(buildShopQuery(station));
-      console.log(`  ✓ Shops fetched: ${shopsData.elements?.length ?? 0} elements`);
+      console.log(`  Fetching independent shops from Overpass...`);
+      shopsData = await fetchShops(station);
+      console.log(`  ✓ Shops fetched: ${shopsData.elements?.length ?? 0} independent shops`);
     } catch (err) {
-      console.error(`  ⚠ All Overpass attempts failed: ${err.message}`);
-      console.error(`  Continuing without shops for this station...`);
+      console.error(`  ⚠ Shops fetch failed: ${err.message}. Using existing data if available.`);
       staleDataWarning = true;
       shopsData = existing.shops ?? null;
     }
@@ -228,7 +276,7 @@ async function main() {
 
     // Keep existing data if both fetches failed
     if (!isochronesData && !shopsData && Object.keys(existing).length > 0) {
-      console.log(`  [WARN] No data fetched — keeping existing file for ${slug}.json`);
+      console.log(`  ⚠ No data fetched — keeping existing file for ${slug}.json`);
       stationMeta.push({
         name: station.name,
         slug,
