@@ -205,7 +205,7 @@ async function main() {
       shopsData = await fetchShops(station.lat, station.lng);
       console.log(`  Shops fetched: ${shopsData.elements?.length ?? 0} total elements`);
     } catch (err) {
-      console.error(`  [WARN] Shops fetch failed: ${err.message}. Using existing data if available.`);
+      console.warn(`  [WARN] Shops fetch failed: ${err.message}. Using existing data if available.`);
       staleDataWarning = true;
       shopsData = existing.shops ?? null;
     }
@@ -216,13 +216,16 @@ async function main() {
       isochronesData = await fetchIsochrones(station.lat, station.lng);
       console.log(`  Isochrones fetched: ${isochronesData.features?.length ?? 0} features`);
     } catch (err) {
-      console.error(`  [WARN] Isochrones fetch failed: ${err.message}. Using existing data if available.`);
+      console.warn(`  [WARN] Isochrones fetch failed: ${err.message}. Using existing data if available.`);
       staleDataWarning = true;
       isochronesData = existing.isochrones ?? null;
     }
 
-    // Filter shops to only those inside isochrones
-    if (shopsData && isochronesData) {
+    // ✅ FIX: Filter shops ONLY if both exist, otherwise keep shops as-is
+    let filteredShopsData = shopsData;
+
+    if (shopsData?.elements && isochronesData?.features) {
+      // Both exist: filter shops to only those inside isochrones
       const shopsInsideIsochrones = shopsData.elements.filter(shop => {
         const point = shop.lon !== undefined && shop.lat !== undefined 
           ? [shop.lon, shop.lat]
@@ -234,10 +237,13 @@ async function main() {
 
       console.log(`  Filtered to ${shopsInsideIsochrones.length} shops inside isochrones`);
       
-      shopsData = {
+      filteredShopsData = {
         ...shopsData,
         elements: shopsInsideIsochrones,
       };
+    } else if (shopsData?.elements && !isochronesData?.features) {
+      // Shops exist but isochrones don't: keep all shops unfiltered
+      console.log(`  ⚠️  Isochrones unavailable; keeping all ${shopsData.elements.length} shops (unfiltered)`);
     }
 
     const stationData = {
@@ -247,40 +253,25 @@ async function main() {
         lng: station.lng,
       },
       isochrones: isochronesData,
-      shops: shopsData,
+      shops: filteredShopsData,  // ← Use filtered version (or original if isochrones unavailable)
       fetchedAt: timestamp,
       staleDataWarning,
     };
 
-    // Keep existing data if both fetches failed
-    if (!isochronesData && !shopsData && Object.keys(existing).length > 0) {
-      console.log(`  [WARN] No data fetched and no existing data found — skipping write for ${slug}.json`);
-      // Still add to index with warning
-      stationMeta.push({
-        name: station.name,
-        slug,
-        lat: station.lat,
-        lng: station.lng,
-        file: `data/stations/${slug}.json`,
-        shopCount: existing.shops?.elements?.length ?? 0,
-        fetchedAt: existing.fetchedAt ?? timestamp,
-        staleDataWarning: true,
-      });
-    } else {
-      await writeJson(outPath, stationData);
-      console.log(`  Written: ${outPath}`);
+    // Write the file (even if some data is null/stale)
+    await writeJson(outPath, stationData);
+    console.log(`  Written: ${outPath}`);
 
-      stationMeta.push({
-        name: station.name,
-        slug,
-        lat: station.lat,
-        lng: station.lng,
-        file: `data/stations/${slug}.json`,
-        shopCount: shopsData?.elements?.length ?? 0,
-        fetchedAt: timestamp,
-        staleDataWarning,
-      });
-    }
+    stationMeta.push({
+      name: station.name,
+      slug,
+      lat: station.lat,
+      lng: station.lng,
+      file: `data/stations/${slug}.json`,
+      shopCount: filteredShopsData?.elements?.length ?? 0,
+      fetchedAt: timestamp,
+      staleDataWarning,
+    });
 
     // Rate-limit: 2 s between stations
     if (stations.indexOf(station) < stations.length - 1) {
