@@ -1,8 +1,15 @@
 /**
- * prefetch.js — Prefetch isochrones and nearby shops for Paris train stations.
- * Run: node prefetch.js
- * Requires: Node 18+ (uses the global fetch API).
- * Env: ORS_API_KEY — OpenRouteService API key for isochrone generation.
+ * prefetch.js — Prefetch isochrones and nearby independent bakeries,
+ * bookstores and kiosks for train stations.
+ *
+ * Run:
+ *   node prefetch.js
+ *
+ * Requires:
+ *   Node 18+
+ *
+ * Env:
+ *   ORS_API_KEY — OpenRouteService API key for isochrone generation.
  */
 
 'use strict';
@@ -10,15 +17,69 @@
 // ---------------------------------------------------------------------------
 // Station definitions
 // ---------------------------------------------------------------------------
+
 const stations = [
-  { name: 'Gare de Lyon',      lat: 48.8443, lng: 2.3735 },
-  { name: 'Gare du Nord',      lat: 48.8809, lng: 2.3553 },
+  { name: 'Gare de Lyon', lat: 48.8443, lng: 2.3735 },
+  { name: 'Gare du Nord', lat: 48.8809, lng: 2.3553 },
   { name: 'Gare Montparnasse', lat: 48.8414, lng: 2.3181 },
   { name: 'Gare Saint-Lazare', lat: 48.8768, lng: 2.3243 },
-  { name: 'Gare de l\'Est',    lat: 48.8760, lng: 2.3597 },
-  { name: 'Gare d\'Austerlitz',lat: 48.8418, lng: 2.3646 },
-  { name: 'Gare de Lille-Flandres',lat: 50.6365, lng: 3.0708 },
-  { name: "Gare de Lille-Europe",   lat: 50.6395, lng: 3.0755 }
+  { name: "Gare de l'Est", lat: 48.8760, lng: 2.3597 },
+  { name: "Gare d'Austerlitz", lat: 48.8418, lng: 2.3646 },
+  { name: 'Gare de Lille-Flandres', lat: 50.6365, lng: 3.0708 },
+  { name: 'Gare de Lille-Europe', lat: 50.6395, lng: 3.0755 }
+];
+
+// ---------------------------------------------------------------------------
+// Configuration
+// ---------------------------------------------------------------------------
+
+const OVERPASS_ENDPOINTS = [
+  'https://overpass-api.de/api/interpreter',
+  'https://overpass.kumi.systems/api/interpreter'
+];
+
+const SHOP_TYPES = new Set([
+  'bakery',
+  'books',
+  'kiosk'
+]);
+
+/**
+ * These are common chains or institutional operators that should not be
+ * displayed as independent businesses.
+ *
+ * This list can be extended as needed.
+ */
+const EXCLUDED_BUSINESS_NAMES = [
+  'relay',
+  'lagardere',
+  'lagardère',
+  'monop',
+  'monoprix',
+  'carrefour',
+  'franprix',
+  'casino',
+  'cora',
+  'auchan',
+  'e.leclerc',
+  'leclerc',
+  'intermarche',
+  'intermarché',
+  'système u',
+  'systeme u',
+  'super u',
+  'cultura',
+  'fnac',
+  'furet du nord',
+  'paul',
+  'brioche dorée',
+  'brioche doree',
+  'la mie câline',
+  'la mie caline',
+  'feuillette',
+  'pomme de pain',
+  'louis delhaize',
+  'vapostore'
 ];
 
 // ---------------------------------------------------------------------------
@@ -27,7 +88,6 @@ const stations = [
 
 /**
  * Convert a station name to a URL-safe slug.
- * "Gare de Lyon" → "gare-de-lyon"
  */
 function slugify(name) {
   return name
@@ -38,16 +98,24 @@ function slugify(name) {
     .replace(/^-+|-+$/g, '');
 }
 
-/** Pause for ms milliseconds. */
+/**
+ * Pause for ms milliseconds.
+ */
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 /**
- * Point-in-polygon test using ray casting algorithm.
- * Returns true if point [lng, lat] is inside the polygon.
+ * Point-in-polygon test using the ray-casting algorithm.
+ *
+ * Point and polygon coordinates use:
+ *   [longitude, latitude]
  */
 function pointInPolygon(point, polygon) {
+  if (!Array.isArray(point) || !Array.isArray(polygon) || polygon.length < 3) {
+    return false;
+  }
+
   const [lng, lat] = point;
   let inside = false;
 
@@ -55,10 +123,11 @@ function pointInPolygon(point, polygon) {
     const [xi, yi] = polygon[i];
     const [xj, yj] = polygon[j];
 
-    if (
-      yi > lat !== yj > lat &&
-      lng < ((xj - xi) * (lat - yi)) / (yj - yi) + xi
-    ) {
+    const intersects =
+      (yi > lat) !== (yj > lat) &&
+      lng < ((xj - xi) * (lat - yi)) / (yj - yi) + xi;
+
+    if (intersects) {
       inside = !inside;
     }
   }
@@ -67,87 +136,290 @@ function pointInPolygon(point, polygon) {
 }
 
 /**
- * Check if a point is inside any isochrone polygon.
+ * Check whether a point is inside a GeoJSON geometry.
  */
-function isPointInIsochrone(point, isochrones) {
-  if (!isochrones || !isochrones.features) return false;
+function isPointInGeometry(point, geometry) {
+  if (!geometry) return false;
 
-  for (const feature of isochrones.features) {
-    const geometry = feature.geometry;
-    if (!geometry) continue;
+  if (geometry.type === 'Polygon') {
+    const exterior = geometry.coordinates?.[0];
+    return exterior ? pointInPolygon(point, exterior) : false;
+  }
 
-    // Handle Polygon
-    if (geometry.type === 'Polygon') {
-      const exterior = geometry.coordinates[0]; // Outer ring
-      if (pointInPolygon(point, exterior)) {
-        return true;
-      }
-    }
-    // Handle MultiPolygon
-    else if (geometry.type === 'MultiPolygon') {
-      for (const polygon of geometry.coordinates) {
-        const exterior = polygon[0];
-        if (pointInPolygon(point, exterior)) {
-          return true;
-        }
-      }
-    }
+  if (geometry.type === 'MultiPolygon') {
+    return geometry.coordinates.some(polygon => {
+      const exterior = polygon?.[0];
+      return exterior ? pointInPolygon(point, exterior) : false;
+    });
   }
 
   return false;
 }
 
-/** Build an Overpass QL query to find shops around a point within radius meters. */
+/**
+ * Check whether a point is inside any isochrone.
+ */
+function isPointInIsochrone(point, isochrones) {
+  if (!isochrones?.features?.length) return false;
+
+  return isochrones.features.some(feature =>
+    isPointInGeometry(point, feature.geometry)
+  );
+}
+
+/**
+ * Get coordinates from an Overpass element.
+ *
+ * Nodes:
+ *   element.lat / element.lon
+ *
+ * Ways and relations:
+ *   element.center.lat / element.center.lon
+ */
+function getElementCoordinates(element) {
+  const lat = element.lat ?? element.center?.lat;
+  const lon = element.lon ?? element.center?.lon;
+
+  if (lat == null || lon == null) {
+    return null;
+  }
+
+  return {
+    lat: Number(lat),
+    lon: Number(lon)
+  };
+}
+
+/**
+ * Normalize text for comparison.
+ */
+function normalizeText(value) {
+  return String(value || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
+}
+
+/**
+ * Determine whether an OSM element represents an independent business.
+ *
+ * OSM has no reliable universal "independent business" field, so this uses
+ * conservative heuristics:
+ *
+ * - Excludes businesses with a brand or operator tag.
+ * - Excludes names matching known chains.
+ * - Excludes businesses explicitly located in or operated by a station.
+ */
+function isIndependentBusiness(element) {
+  const tags = element.tags || {};
+
+  const name = normalizeText(tags.name);
+  const brand = normalizeText(tags.brand);
+  const operator = normalizeText(tags.operator);
+  const network = normalizeText(tags.network);
+  const ownership = normalizeText(tags.ownership);
+
+  const combinedText = [
+    name,
+    brand,
+    operator,
+    network,
+    ownership
+  ].filter(Boolean).join(' ');
+
+  const isKnownChain = EXCLUDED_BUSINESS_NAMES.some(chain =>
+    combinedText.includes(normalizeText(chain))
+  );
+
+  if (isKnownChain) {
+    return false;
+  }
+
+  /*
+   * A brand/operator tag is treated as evidence that the business is part of
+   * a chain or an organized network. This is intentionally conservative.
+   */
+  if (brand || operator || network) {
+    return false;
+  }
+
+  const stationRelatedValues = [
+    tags.location,
+    tags.operator,
+    tags.owner,
+    tags.description,
+    tags.note
+  ]
+    .filter(Boolean)
+    .map(normalizeText)
+    .join(' ');
+
+  if (
+    stationRelatedValues.includes('gare') ||
+    stationRelatedValues.includes('station') ||
+    stationRelatedValues.includes('relay') ||
+    stationRelatedValues.includes('sncf')
+  ) {
+    return false;
+  }
+
+  /*
+   * Do not keep unnamed businesses. They cannot be meaningfully displayed
+   * as independent shops in the interface.
+   */
+  if (!name) {
+    return false;
+  }
+
+  return true;
+}
+
+/**
+ * Keep only bakeries, bookstores and kiosks.
+ */
+function isAllowedShop(element) {
+  const shopType = element.tags?.shop;
+  return SHOP_TYPES.has(shopType) && isIndependentBusiness(element);
+}
+
+/**
+ * Remove duplicate OSM elements.
+ */
+function deduplicateElements(elements) {
+  const seen = new Set();
+
+  return elements.filter(element => {
+    const key = `${element.type}/${element.id}`;
+
+    if (seen.has(key)) {
+      return false;
+    }
+
+    seen.add(key);
+    return true;
+  });
+}
+
+// ---------------------------------------------------------------------------
+// Overpass
+// ---------------------------------------------------------------------------
+
+/**
+ * Build an Overpass query for bakeries, bookstores and kiosks.
+ */
 function buildShopQueryAround(lat, lng, radius = 1500) {
-  const delta = radius / 111000; // Convert meters to degrees (rough approximation)
+  const latDelta = radius / 111000;
+
+  // Correct longitude conversion for the latitude.
+  const lngDelta =
+    radius / (111000 * Math.cos((lat * Math.PI) / 180));
+
+  const south = lat - latDelta;
+  const west = lng - lngDelta;
+  const north = lat + latDelta;
+  const east = lng + lngDelta;
+
   return `
-[out:json][timeout:60];
+[out:json][timeout:90];
 (
-  node["shop"="bakery"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
-  way["shop"="bakery"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
-  node["shop"="convenience"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
-  way["shop"="convenience"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
-  node["shop"="supermarket"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
-  way["shop"="supermarket"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  node["shop"="bakery"](${south},${west},${north},${east});
+  way["shop"="bakery"](${south},${west},${north},${east});
+  relation["shop"="bakery"](${south},${west},${north},${east});
+
+  node["shop"="books"](${south},${west},${north},${east});
+  way["shop"="books"](${south},${west},${north},${east});
+  relation["shop"="books"](${south},${west},${north},${east});
+
+  node["shop"="kiosk"](${south},${west},${north},${east});
+  way["shop"="kiosk"](${south},${west},${north},${east});
+  relation["shop"="kiosk"](${south},${west},${north},${east});
 );
 out center tags;
 `.trim();
 }
 
-/** Fetch shops via Overpass API. */
+/**
+ * Fetch shops via Overpass with retries and fallback endpoints.
+ */
 async function fetchShops(lat, lng, radius = 1500) {
   const query = buildShopQueryAround(lat, lng, radius);
-  const url = 'https://overpass-api.de/api/interpreter';
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: `data=${encodeURIComponent(query)}`,
-  });
-  if (!res.ok) throw new Error(`Overpass API returned ${res.status}`);
-  return res.json();
+  let lastError = null;
+
+  for (const endpoint of OVERPASS_ENDPOINTS) {
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        const res = await fetch(endpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          },
+          body: `data=${encodeURIComponent(query)}`
+        });
+
+        if (!res.ok) {
+          const text = await res.text();
+          throw new Error(
+            `Overpass API returned ${res.status}: ${text.slice(0, 300)}`
+          );
+        }
+
+        const data = await res.json();
+
+        return {
+          ...data,
+          elements: Array.isArray(data.elements) ? data.elements : []
+        };
+      } catch (err) {
+        lastError = err;
+
+        console.warn(
+          `  [WARN] Overpass attempt ${attempt} failed at ${endpoint}: ${err.message}`
+        );
+
+        if (attempt < 2) {
+          await sleep(3000);
+        }
+      }
+    }
+  }
+
+  throw lastError || new Error('All Overpass endpoints failed');
 }
 
-/** Fetch isochrones via ORS API (foot-walking, 300/600). */
+// ---------------------------------------------------------------------------
+// OpenRouteService
+// ---------------------------------------------------------------------------
+
+/**
+ * Fetch isochrones via ORS API.
+ */
 async function fetchIsochrones(lat, lng) {
   const apiKey = process.env.ORS_API_KEY;
-  if (!apiKey) throw new Error('ORS_API_KEY environment variable is not set');
+
+  if (!apiKey) {
+    throw new Error('ORS_API_KEY environment variable is not set');
+  }
 
   const body = {
     locations: [[lng, lat]],
     range: [300, 600],
     range_type: 'time',
     profile: 'foot-walking',
-    units: 'm',
+    units: 'm'
   };
 
-  const res = await fetch('https://api.openrouteservice.org/v2/isochrones/foot-walking', {
-    method: 'POST',
-    headers: {
-      'Authorization': apiKey,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(body),
-  });
+  const res = await fetch(
+    'https://api.openrouteservice.org/v2/isochrones/foot-walking',
+    {
+      method: 'POST',
+      headers: {
+        Authorization: apiKey,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(body)
+    }
+  );
 
   if (!res.ok) {
     const text = await res.text();
@@ -157,11 +429,31 @@ async function fetchIsochrones(lat, lng) {
   return res.json();
 }
 
-/** Write data to a JSON file atomically. */
+// ---------------------------------------------------------------------------
+// File utilities
+// ---------------------------------------------------------------------------
+
+/**
+ * Write data to a JSON file.
+ */
 async function writeJson(path, data) {
   const fs = await import('fs/promises');
   const content = JSON.stringify(data, null, 2);
   await fs.writeFile(path, content, 'utf8');
+}
+
+/**
+ * Read existing station data if available.
+ */
+async function readExistingJson(path) {
+  const fs = await import('fs/promises');
+
+  try {
+    const raw = await fs.readFile(path, 'utf8');
+    return JSON.parse(raw);
+  } catch {
+    return {};
+  }
 }
 
 // ---------------------------------------------------------------------------
@@ -172,7 +464,6 @@ async function main() {
   const fs = await import('fs/promises');
   const dataDir = './data/stations';
 
-  // Ensure output directories exist
   await fs.mkdir(dataDir, { recursive: true });
 
   const stationMeta = [];
@@ -180,7 +471,8 @@ async function main() {
 
   console.log(`\n=== Prefetch starting at ${timestamp} ===\n`);
 
-  for (const station of stations) {
+  for (let index = 0; index < stations.length; index++) {
+    const station = stations[index];
     const slug = slugify(station.name);
     const outPath = `${dataDir}/${slug}.json`;
 
@@ -190,76 +482,121 @@ async function main() {
     let isochronesData = null;
     let staleDataWarning = false;
 
-    // Try loading existing file for graceful failure
-    let existing = {};
-    try {
-      const raw = await fs.readFile(outPath, 'utf8');
-      existing = JSON.parse(raw);
-    } catch {
-      // No existing file — will be treated as fresh
-    }
+    const existing = await readExistingJson(outPath);
 
-    // Fetch shops (non-fatal on failure)
+    // ---------------------------------------------------------
+    // Fetch shops
+    // ---------------------------------------------------------
+
     try {
-      console.log(`  Fetching shops from Overpass...`);
-      shopsData = await fetchShops(station.lat, station.lng);
-      console.log(`  Shops fetched: ${shopsData.elements?.length ?? 0} total elements`);
+      console.log('  Fetching independent shops from Overpass...');
+
+      const fetchedShops = await fetchShops(
+        station.lat,
+        station.lng
+      );
+
+      const relevantElements = deduplicateElements(
+        fetchedShops.elements.filter(isAllowedShop)
+      );
+
+      shopsData = {
+        ...fetchedShops,
+        elements: relevantElements
+      };
+
+      console.log(
+        `  Relevant independent shops fetched: ${relevantElements.length}`
+      );
     } catch (err) {
-      console.warn(`  [WARN] Shops fetch failed: ${err.message}. Using existing data if available.`);
+      console.warn(
+        `  [WARN] Shops fetch failed: ${err.message}. Using existing data if available.`
+      );
+
       staleDataWarning = true;
       shopsData = existing.shops ?? null;
     }
 
-    // Fetch isochrones (non-fatal on failure)
+    // ---------------------------------------------------------
+    // Fetch isochrones
+    // ---------------------------------------------------------
+
     try {
-      console.log(`  Fetching isochrones from ORS...`);
-      isochronesData = await fetchIsochrones(station.lat, station.lng);
-      console.log(`  Isochrones fetched: ${isochronesData.features?.length ?? 0} features`);
+      console.log('  Fetching isochrones from ORS...');
+
+      isochronesData = await fetchIsochrones(
+        station.lat,
+        station.lng
+      );
+
+      console.log(
+        `  Isochrones fetched: ${isochronesData.features?.length ?? 0} features`
+      );
     } catch (err) {
-      console.warn(`  [WARN] Isochrones fetch failed: ${err.message}. Using existing data if available.`);
+      console.warn(
+        `  [WARN] Isochrones fetch failed: ${err.message}. Using existing data if available.`
+      );
+
       staleDataWarning = true;
       isochronesData = existing.isochrones ?? null;
     }
 
-    // ✅ FIX: Filter shops ONLY if both exist, otherwise keep shops as-is
+    // ---------------------------------------------------------
+    // Filter shops to the isochrone area
+    // ---------------------------------------------------------
+
     let filteredShopsData = shopsData;
 
     if (shopsData?.elements && isochronesData?.features) {
-      // Both exist: filter shops to only those inside isochrones
       const shopsInsideIsochrones = shopsData.elements.filter(shop => {
-        const point = shop.lon !== undefined && shop.lat !== undefined 
-          ? [shop.lon, shop.lat]
-          : null;
-        
-        if (!point) return false;
-        return isPointInIsochrone(point, isochronesData);
+        const coordinates = getElementCoordinates(shop);
+
+        if (!coordinates) {
+          return false;
+        }
+
+        return isPointInIsochrone(
+          [coordinates.lon, coordinates.lat],
+          isochronesData
+        );
       });
 
-      console.log(`  Filtered to ${shopsInsideIsochrones.length} shops inside isochrones`);
-      
       filteredShopsData = {
         ...shopsData,
-        elements: shopsInsideIsochrones,
+        elements: shopsInsideIsochrones
       };
+
+      console.log(
+        `  Independent shops inside 5/10-minute isochrones: ${shopsInsideIsochrones.length}`
+      );
     } else if (shopsData?.elements && !isochronesData?.features) {
-      // Shops exist but isochrones don't: keep all shops unfiltered
-      console.log(`  ⚠️  Isochrones unavailable; keeping all ${shopsData.elements.length} shops (unfiltered)`);
+      /*
+       * Keep the independent shop data if ORS is unavailable. It will be
+       * filtered by the frontend only when isochrones are available.
+       */
+      console.log(
+        `  [WARN] Isochrones unavailable; keeping ${shopsData.elements.length} independent shops unfiltered`
+      );
     }
+
+    // ---------------------------------------------------------
+    // Write station data
+    // ---------------------------------------------------------
 
     const stationData = {
       station: {
         name: station.name,
         lat: station.lat,
-        lng: station.lng,
+        lng: station.lng
       },
       isochrones: isochronesData,
-      shops: filteredShopsData,  // ← Use filtered version (or original if isochrones unavailable)
+      shops: filteredShopsData,
       fetchedAt: timestamp,
-      staleDataWarning,
+      staleDataWarning
     };
 
-    // Write the file (even if some data is null/stale)
     await writeJson(outPath, stationData);
+
     console.log(`  Written: ${outPath}`);
 
     stationMeta.push({
@@ -270,25 +607,33 @@ async function main() {
       file: `data/stations/${slug}.json`,
       shopCount: filteredShopsData?.elements?.length ?? 0,
       fetchedAt: timestamp,
-      staleDataWarning,
+      staleDataWarning
     });
 
-    // Rate-limit: 2 s between stations
-    if (stations.indexOf(station) < stations.length - 1) {
-      console.log(`  Sleeping 2 s before next station...`);
+    // Rate limit requests between stations.
+    if (index < stations.length - 1) {
+      console.log('  Sleeping 2 seconds before next station...');
       await sleep(2000);
     }
   }
 
-  // Write index
+  // ---------------------------------------------------------
+  // Write stations index
+  // ---------------------------------------------------------
+
   const indexData = {
     generatedAt: timestamp,
-    staleDataWarning: stationMeta.some(s => s.staleDataWarning),
-    stations: stationMeta,
+    staleDataWarning: stationMeta.some(
+      station => station.staleDataWarning
+    ),
+    stations: stationMeta
   };
 
   await writeJson('./data/stations-index.json', indexData);
-  console.log(`\n=== Prefetch complete. Index written to data/stations-index.json ===\n`);
+
+  console.log(
+    '\n=== Prefetch complete. Index written to data/stations-index.json ===\n'
+  );
 }
 
 main().catch(err => {
