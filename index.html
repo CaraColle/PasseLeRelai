@@ -93,7 +93,6 @@
       <div class="legend" id="legend">
         <div><span class="swatch" style="background:#2f5d50;"></span> 5 min à pied</div>
         <div><span class="swatch" style="background:#d98c2b;"></span> 10 min à pied</div>
-        <div><span class="swatch" style="background:#8a3fc8;"></span> 15 min à pied</div>
         <div><span class="dot" style="background:#c8202f;">📰</span> Kiosque</div>
         <div><span class="dot" style="background:#2f5d50;">📚</span> Librairie</div>
         <div><span class="dot" style="background:#b3792c;">🥖</span> Boulangerie</div>
@@ -115,8 +114,6 @@
     bakery:    { emoji: "🥖", label: "Boulangerie", color: "#b3792c" }
   };
 
-  // City groupings — used only to organize the picker & the map center/zoom.
-  // Station list membership is matched against stations-index.json by name.
   const cities = {
     paris: {
       label: "Paris",
@@ -127,7 +124,6 @@
         "Gare Montparnasse", "Gare Saint-Lazare", "Gare d'Austerlitz"
       ]
     }
-    // Add more cities here as your prefetch script covers more stations.
   };
 
   let map = null;
@@ -136,8 +132,8 @@
   let poiLayer = null;
   let currentCityKey = null;
 
-  let stationsIndex = null; // loaded once from data/stations-index.json
-  const stationDataCache = new Map(); // slug -> full station JSON
+  let stationsIndex = null;
+  const stationDataCache = new Map();
 
   let requestToken = 0;
 
@@ -249,7 +245,6 @@
   document.getElementById('city-select').addEventListener('change', (e) => renderCity(e.target.value));
   document.getElementById('back-btn').addEventListener('click', () => renderCity(currentCityKey));
 
-  // ---- Station detail view: loads prefetched isochrones + shops for one station ----
   async function enterStationDetail(station) {
     const titleEl = document.getElementById('map-title');
     const statusEl = document.getElementById('poi-status');
@@ -295,63 +290,66 @@
     }
   }
 
-  function renderIsoAndShops(data, statusEl, legendEl) {
-    isoLayer.clearLayers();
-    poiLayer.clearLayers();
+function renderIsoAndShops(data, statusEl, legendEl) {
+  isoLayer.clearLayers();
+  poiLayer.clearLayers();
 
-    const isoGeojson = data.isochrones;
-    if (isoGeojson && isoGeojson.features && isoGeojson.features.length) {
-      drawIsochrones(isoGeojson);
-      legendEl.classList.add('visible');
-    }
-
-    if (!data.shops || !data.shops.elements || data.shops.elements.length === 0) {
-      statusEl.textContent = "Données sur les commerces indisponibles pour cette gare pour l'instant.";
-      return;
-    }
-
-    const fiveMinFeature = isoGeojson.features.find(f => f.properties.value === 300);
-    const tenMinFeature = isoGeojson.features.find(f => f.properties.value === 600);
-    const fiveMinPolygon = fiveMinFeature
-      ? fiveMinFeature.geometry.coordinates[0].map(c => [c[1], c[0]])
-      : null;
-    const tenMinPolygon = tenMinFeature
-      ? tenMinFeature.geometry.coordinates[0].map(c => [c[1], c[0]])
-      : null;
-
-    let count5 = 0, count10 = 0, countOther = 0;
-    const markers = [];
-
-    data.shops.elements.forEach(el => {
-      const lat = el.type === 'node' ? el.lat : (el.center && el.center.lat);
-      const lon = el.type === 'node' ? el.lon : (el.center && el.center.lon);
-      if (lat == null || lon == null) return;
-
-      const category = categoryFromTags(el.tags);
-      if (!category) return;
-
-      markers.push(buildShopMarker(lat, lon, el, category));
-
-      if (fiveMinPolygon && pointInPolygon(lat, lon, fiveMinPolygon)) {
-        count5++;
-      } else if (tenMinPolygon && pointInPolygon(lat, lon, tenMinPolygon)) {
-        count10++;
-      } else {
-        countOther++;
-      }
-    });
-
-    markers.forEach(m => m.addTo(poiLayer));
-
-    const total = count5 + count10 + countOther;
-    statusEl.textContent = total > 0
-      ? `${count5} commerce(s) à moins de 5 min à pied, ${count10} de plus à moins de 10 min.`
-      : "Aucun commerce trouvé dans ce périmètre pour l'instant.";
+  const isoGeojson = data.isochrones;
+  if (isoGeojson && isoGeojson.features && isoGeojson.features.length) {
+    drawIsochrones(isoGeojson);
+    legendEl.classList.add('visible');
   }
 
+  if (!data.shops || !data.shops.elements || data.shops.elements.length === 0) {
+    statusEl.textContent = "Données sur les commerces indisponibles pour cette gare pour l'instant.";
+    return;
+  }
+
+  const fiveMinFeature = isoGeojson.features.find(f => f.properties.value === 300);
+  const tenMinFeature = isoGeojson.features.find(f => f.properties.value === 600);
+  const fiveMinPolygon = fiveMinFeature
+    ? fiveMinFeature.geometry.coordinates[0].map(c => [c[1], c[0]])
+    : null;
+  const tenMinPolygon = tenMinFeature
+    ? tenMinFeature.geometry.coordinates[0].map(c => [c[1], c[0]])
+    : null;
+
+  let count5 = 0, count10 = 0;
+  const markers = [];
+
+  data.shops.elements.forEach(el => {
+    const lat = el.type === 'node' ? el.lat : (el.center && el.center.lat);
+    const lon = el.type === 'node' ? el.lon : (el.center && el.center.lon);
+    if (lat == null || lon == null) return;
+
+    const category = categoryFromTags(el.tags);
+    if (!category) return;
+
+    const inFive = fiveMinPolygon && pointInPolygon(lat, lon, fiveMinPolygon);
+    const inTen = !inFive && tenMinPolygon && pointInPolygon(lat, lon, tenMinPolygon);
+
+    // Skip shops outside both isochrones entirely — don't render, don't count.
+    if (!inFive && !inTen) return;
+
+    markers.push(buildShopMarker(lat, lon, el, category));
+
+    if (inFive) {
+      count5++;
+    } else if (inTen) {
+      count10++;
+    }
+  });
+
+  markers.forEach(m => m.addTo(poiLayer));
+
+  const total = count5 + count10;
+  statusEl.textContent = total > 0
+    ? `${count5} commerce(s) à moins de 5 min à pied, ${count10} de plus à moins de 10 min.`
+    : "Aucun commerce trouvé dans ce périmètre pour l'instant.";
+}
+
   function drawIsochrones(geojson) {
-    const colorByValue = { 300: "#2f5d50", 600: "#d98c2b", 900: "#8a3fc8" };
-    // Draw largest range first so smaller ranges render on top visually
+    const colorByValue = { 300: "#2f5d50", 600: "#d98c2b" };
     const sorted = [...geojson.features].sort((a, b) => b.properties.value - a.properties.value);
     sorted.forEach(feature => {
       const color = colorByValue[feature.properties.value] || "#999";
@@ -408,5 +406,6 @@
   }
 </script>
 
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5"}' crossorigin="anonymous"></script>
 </body>
 </html>
