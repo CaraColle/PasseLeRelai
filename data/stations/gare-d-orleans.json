@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      1.889209,
-      47.898315,
-      1.917026,
-      47.9193
+      1.893815,
+      47.902178,
+      1.91175,
+      47.916117
     ],
     "features": [
       {
@@ -61,6 +61,10 @@
               [
                 1.905681,
                 47.911439
+              ],
+              [
+                1.904884,
+                47.913269
               ],
               [
                 1.904762,
@@ -185,12 +189,16 @@
                 47.915104
               ],
               [
-                1.905517,
-                47.915685
+                1.905594,
+                47.915699
               ],
               [
                 1.905382,
                 47.915737
+              ],
+              [
+                1.902859,
+                47.91608
               ],
               [
                 1.902516,
@@ -216,170 +224,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            1.9039982773605197,
-            47.90890007553307
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                1.889329,
-                47.909755
-              ],
-              [
-                1.889212,
-                47.909488
-              ],
-              [
-                1.889209,
-                47.909416
-              ],
-              [
-                1.889628,
-                47.907523
-              ],
-              [
-                1.890588,
-                47.904793
-              ],
-              [
-                1.892803,
-                47.901706
-              ],
-              [
-                1.893066,
-                47.901587
-              ],
-              [
-                1.89376,
-                47.901289
-              ],
-              [
-                1.899114,
-                47.899793
-              ],
-              [
-                1.900472,
-                47.899435
-              ],
-              [
-                1.902833,
-                47.898822
-              ],
-              [
-                1.904974,
-                47.898315
-              ],
-              [
-                1.90499,
-                47.898315
-              ],
-              [
-                1.905071,
-                47.898343
-              ],
-              [
-                1.909505,
-                47.899979
-              ],
-              [
-                1.910725,
-                47.900694
-              ],
-              [
-                1.915592,
-                47.903254
-              ],
-              [
-                1.91678,
-                47.904051
-              ],
-              [
-                1.916962,
-                47.904193
-              ],
-              [
-                1.917026,
-                47.904276
-              ],
-              [
-                1.917012,
-                47.904636
-              ],
-              [
-                1.914436,
-                47.908315
-              ],
-              [
-                1.912532,
-                47.912899
-              ],
-              [
-                1.912072,
-                47.914341
-              ],
-              [
-                1.910764,
-                47.915627
-              ],
-              [
-                1.907042,
-                47.91842
-              ],
-              [
-                1.904679,
-                47.9193
-              ],
-              [
-                1.901894,
-                47.919138
-              ],
-              [
-                1.898724,
-                47.918504
-              ],
-              [
-                1.898373,
-                47.918424
-              ],
-              [
-                1.898319,
-                47.918398
-              ],
-              [
-                1.897902,
-                47.918135
-              ],
-              [
-                1.894633,
-                47.915978
-              ],
-              [
-                1.891924,
-                47.913759
-              ],
-              [
-                1.889329,
-                47.909755
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809803128,
+      "timestamp": 1785863941995,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -391,8 +241,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -405,7 +254,957 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:19:11Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 595736948,
+        "lat": 47.9074412,
+        "lon": 1.8937473,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "7",
+          "addr:postcode": "45000",
+          "addr:street": "Place Dunois",
+          "name": "Alvéolage des Pains et du Partage",
+          "opening_hours": "Tu-Fr 07:00-13:45,15:45-19:15; Sa 07:30-18:00",
+          "phone": "+33 2 38 68 04 82",
+          "ref:FR:SIRET": "98381913700024",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 738103554,
+        "lat": 47.9162783,
+        "lon": 1.9006242,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "3",
+          "addr:postcode": "45000",
+          "addr:street": "Passage de la Rapé",
+          "amenity": "fast_food",
+          "cuisine": "sandwich",
+          "mapillary": "424785272266432",
+          "name": "Le Fournil de Coligny",
+          "ref:FR:SIRET": "82873772600012",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1295085671,
+        "lat": 47.9022529,
+        "lon": 1.9048114,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "15",
+          "addr:postcode": "45000",
+          "addr:street": "Place du Martroi",
+          "check_date:opening_hours": "2025-01-15",
+          "mapillary": "1227245361049980",
+          "name": "Chantelivre",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-12:30,14:00-19:00",
+          "ref:FR:SIRET": "51302541100010",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1296491970,
+        "lat": 47.9012423,
+        "lon": 1.9062803,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "2",
+          "addr:postcode": "45000",
+          "addr:street": "Place de la République",
+          "check_date:opening_hours": "2024-02-17",
+          "name": "Librairie Nouvelle d'Orléans",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "79957620200029",
+          "shop": "books",
+          "website": "https://www.librairienouvelleorleans.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1297174960,
+        "lat": 47.8991998,
+        "lon": 1.909695,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "30",
+          "addr:postcode": "45000",
+          "addr:street": "Rue de la Charpenterie",
+          "name": "Midi-Minuit",
+          "opening_hours": "Mo-Su 12:00-00:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1302372085,
+        "lat": 47.8998753,
+        "lon": 1.906588,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "277",
+          "addr:postcode": "45000",
+          "addr:street": "Rue de Bourgogne",
+          "description": "AMA ALIMENTATION",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/be/71/fe/4d/b875-4afb-8211-f8939848ef9d.jpg",
+          "name": "Epcerie AMA",
+          "note": "Commerce à vérifier",
+          "opening_hours": "Mo-Fr 10:00-19:00; Sa 09:00-18:00",
+          "payment:credit_cards": "yes",
+          "phone": "+33 2 38 54 12 46",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "41771457300017",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1311986399,
+        "lat": 47.9033622,
+        "lon": 1.9039702,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "3",
+          "addr:postcode": "45000",
+          "addr:street": "Rue de la République",
+          "check_date:opening_hours": "2024-11-01",
+          "image": "https://panoramax.openstreetmap.fr/images/98/e6/d5/8d/0386-4bd6-aa84-54bcbdcf9d36.jpg",
+          "name": "Nadal",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "90074953200017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1313042375,
+        "lat": 47.901821,
+        "lon": 1.9081315,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "4B",
+          "addr:postcode": "45000",
+          "description": "Salé Sucré Jeanne d'Arc DF DAVID",
+          "name": "Jeanne d'Arc",
+          "opening_hours": "Mo-Fr 07:15-18:30",
+          "phone": "+33 238737089",
+          "ref:FR:SIRET": "41446131900033",
+          "shop": "bakery",
+          "website": "http://jeannedarcsalesucre.fr/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1313047618,
+        "lat": 47.9016178,
+        "lon": 1.9083174,
+        "tags": {
+          "contact:city": "Orléans",
+          "contact:facebook": "https://www.facebook.com/people/Gourmandises-de-la-cathedrale/100063695674837/",
+          "contact:housenumber": "3",
+          "contact:postcode": "45000",
+          "name": "Patisserie de la Cathédrale",
+          "opening_hours": "Mo-Fr 07:00-19:00",
+          "phone": "+33 2 38 53 19 37",
+          "ref:FR:SIRET": "82849532500015",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1757042923,
+        "lat": 47.8942432,
+        "lon": 1.9010368,
+        "tags": {
+          "addr:housenumber": "43",
+          "addr:street": "Quai de Prague",
+          "check_date:opening_hours": "2024-05-16",
+          "name": "Loiseau",
+          "opening_hours": "Mo-Fr 06:30-13:30, Mo-Sa 15:30-19:00, Sa 06:30-18:30",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2294644822,
+        "lat": 47.9041483,
+        "lon": 1.9130406,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "12",
+          "addr:postcode": "45000",
+          "addr:street": "Rue Porte Saint-Vincent",
+          "email": "ayrole@orange.fr",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/8d/13/b8/9b/7abe-4153-b9c0-f0ac41b2a72a.jpg",
+          "name": "Antoine Ayrole et Rachel Maureille",
+          "opening_hours": "Tu-Su 07:30-13:30",
+          "phone": "+33 238532553",
+          "ref:FR:SIRET": "81816834600018",
+          "shop": "bakery",
+          "takeaway": "yes",
+          "website": "https://www.ayroleshop.fr/boulangerie",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2565022027,
+        "lat": 47.9010677,
+        "lon": 1.901452,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:postcode": "45000",
+          "addr:street": "Place du Général de Gaulle",
+          "check_date": "2024-04-22",
+          "contact:email": "empsmodernes@wanadoo.fr",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/af/31/ec/db/2b10-4a0c-821b-197f5e5f6650.jpg",
+          "name": "Librairie Les Temps Modernes",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 09:30-19:00",
+          "phone": "+33 2 38 53 94 35",
+          "ref:FR:SIRET": "43882856800016",
+          "shop": "books",
+          "website": "http://librairielestempsmodernes.blogspot.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2930654873,
+        "lat": 47.9057854,
+        "lon": 1.8913962,
+        "tags": {
+          "contact:city": "Orléans",
+          "contact:housenumber": "56",
+          "contact:postcode": "45000",
+          "name": "La Gourmandise",
+          "opening_hours": "We off; Mo-Fr 07:00-13:30,15:30-19:30; Sa 07:00-13:00; Su 07:00-13:00",
+          "ref:FR:SIRET": "84088896000019",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3043538046,
+        "lat": 47.9005021,
+        "lon": 1.902849,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "9",
+          "addr:postcode": "45000",
+          "addr:street": "Rue du Cheval Rouge",
+          "contact:facebook": "https://fr-fr.facebook.com/MaisonNadal",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/97/18/ea/c9/074b-4d52-b45a-1c28797f33a9.jpg",
+          "name": "Maison Nadal",
+          "opening_hours": "Tu-Sa 07:00-19:30",
+          "phone": "+33 238546407",
+          "ref:FR:SIRET": "51858957700015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3043586934,
+        "lat": 47.9044546,
+        "lon": 1.9027285,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "55",
+          "addr:postcode": "45000",
+          "addr:street": "Rue Bannier",
+          "name": "Le Fournil du 55",
+          "opening_hours": "Tu-Fr 07:00-19:30; Sa 07:30-19:30; Su 07:30-13:00; Mo closed",
+          "phone": "+33 238620603",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3258042687,
+        "lat": 47.9014798,
+        "lon": 1.900622,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "9",
+          "addr:postcode": "45000",
+          "addr:street": "Rue des Carmes",
+          "contact:email": "contact@librairiejaunecitron.com",
+          "contact:facebook": "https://www.facebook.com/people/Librairie-galerie-jaune-citron/100076581132776/",
+          "contact:instagram": "https://www.instagram.com/librairie_jaune_citron/?hl=fr",
+          "disused:shop": "yes",
+          "name": "Librairie Jaune Citron",
+          "opening_hours": "Tu-Fr 10:00-19:00",
+          "phone": "+33238681861",
+          "ref:FR:SIRET": "90945251800014",
+          "shop": "books",
+          "website": "https://librairiejaunecitron.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3262370306,
+        "lat": 47.9017875,
+        "lon": 1.8999624,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "54",
+          "addr:postcode": "45000",
+          "addr:street": "Rue des Carmes",
+          "name": "Pak Market",
+          "ref:FR:SIRET": "95302746300017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3267513986,
+        "lat": 47.9051836,
+        "lon": 1.902431,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "77",
+          "addr:postcode": "45000",
+          "addr:street": "Rue Bannier",
+          "name": "R & B Multi Shop",
+          "opening_hours": "Tu-Su 10:00-24:00",
+          "payment:credit_cards": "yes",
+          "phone": "+33 677554662",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "82937067500011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3321557402,
+        "lat": 47.9004038,
+        "lon": 1.9131733,
+        "tags": {
+          "contact:city": "Orléans",
+          "contact:housenumber": "121",
+          "contact:postcode": "45000",
+          "contact:street": "Rue de Bourgogne",
+          "name": "Morgane de Pains",
+          "ref:FR:SIRET": "49318900500017",
+          "shop": "bakery",
+          "website": "https://www.myboulange.fr/45/orleans/morgane-de-pains-14162",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3415031613,
+        "lat": 47.9002386,
+        "lon": 1.9098294,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "216",
+          "addr:postcode": "45000",
+          "addr:street": "Rue de Bourgogne",
+          "image": "https://panoramax.openstreetmap.fr/images/bf/7f/4b/41/d387-4caa-9eec-2f3aed357808.jpg",
+          "name": "La Boîte à Livres",
+          "opening_hours": "Tu-Sa 10:00-12:30,14:00-19:00",
+          "operator": "Laurent Gernez",
+          "phone": "+33 2 38 62 53 30",
+          "ref:FR:SIRET": "48432383700027",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3416446410,
+        "lat": 47.9037049,
+        "lon": 1.9047717,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:postcode": "45000",
+          "name": "La Malle du Martroi",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3422000205,
+        "lat": 47.9007201,
+        "lon": 1.9171568,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "31",
+          "addr:postcode": "45000",
+          "addr:street": "Rue de Bourgogne",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/ca/ec/22/d9/547b-448d-afbf-f9cb1cca8775.jpg",
+          "name": "Épicerie Saint-Aignan",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "51060160200012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3422000209,
+        "lat": 47.9005377,
+        "lon": 1.9149464,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "79",
+          "addr:postcode": "45000",
+          "addr:street": "Rue de Bourgogne",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/81/ad/2b/ad/bbe2-4d6a-bceb-32d83039ad6c.jpg",
+          "name": "Magasin épicerie",
+          "operator": "Alimentation Générale",
+          "ref:FR:SIRET": "49371884500016",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3422189725,
+        "lat": 47.8999228,
+        "lon": 1.9071781,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "261",
+          "addr:postcode": "45000",
+          "addr:street": "Rue de Bourgogne",
+          "name": "Au Cœur du Monde",
+          "opening_hours": "Tu,Th 14:00-19:00; Sa 15:00-19:00",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3423827818,
+        "lat": 47.8994683,
+        "lon": 1.9059216,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "42",
+          "addr:postcode": "45000",
+          "addr:street": "Place du Châtelet",
+          "name": "L'Epi des Halles",
+          "phone": "+33 238626226",
+          "ref:FR:SIRET": "91324958700019",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3439635261,
+        "lat": 47.9002392,
+        "lon": 1.9058393,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "13",
+          "addr:postcode": "45000",
+          "addr:street": "Rue des Trois Clefs",
+          "contact:facebook": "https://www.facebook.com/MiskatonicShop45/",
+          "contact:instagram": "https://www.instagram.com/miskatonicshop/",
+          "name": "Miskatonic",
+          "phone": "+332 38 24 58 70",
+          "ref:FR:SIRET": "52379276000036",
+          "shop": "books",
+          "website": "https://miskatonicshop.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3439635269,
+        "lat": 47.9061255,
+        "lon": 1.9140549,
+        "tags": {
+          "addr:street": "Rue du Faubourg Saint-Vincent",
+          "contact:city": "Orléans",
+          "contact:housenumber": "23",
+          "contact:phone": "+33238533574",
+          "contact:postcode": "45000",
+          "name": "Beulque Alain",
+          "opening_hours": "Mo-Tu,Th-Sa 07:50-13:30,15:30-19:30; Su 07:30-13:30",
+          "ref:FR:SIRET": "45244457300029",
+          "roof:levels": "0",
+          "shop": "bakery",
+          "takeaway": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3440098172,
+        "lat": 47.9017775,
+        "lon": 1.9000247,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "54",
+          "addr:postcode": "45000",
+          "addr:street": "Rue des Carmes",
+          "name": "Mark One épicerie",
+          "phone": "+33 7 82 88 73 14",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "82915230500019",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3440705572,
+        "lat": 47.8985389,
+        "lon": 1.9048066,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "15",
+          "addr:postcode": "45000",
+          "addr:street": "Place du Châtelet",
+          "contact:email": "lefournilduchatelet@hotmail.com",
+          "name": "Le Fournil du Châtelet",
+          "opening_hours": "Th-Tu 07:30-20:00",
+          "payment:credit_cards": "yes",
+          "ref:FR:SIRET": "90893461500018",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3440705580,
+        "lat": 47.8986464,
+        "lon": 1.906117,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "39",
+          "addr:postcode": "45000",
+          "addr:street": "Place du Châtelet",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/14/78/c0/31/fee1-4c8b-9f7e-ae0ae5181198.jpg",
+          "name": "Legend Bd",
+          "opening_hours": "Mo 14:00-19:00; Tu-Fr 10:00-19:00; Sa 10:00-19:30",
+          "phone": "+33 238537863",
+          "ref:FR:SIRET": "44837110400028",
+          "shop": "books",
+          "source": "INSEE - 2022-01",
+          "website": "https://www.canalbd.net/legend-bd",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3440714918,
+        "lat": 47.9012938,
+        "lon": 1.8917997,
+        "tags": {
+          "contact:city": "Orléans",
+          "contact:housenumber": "4",
+          "contact:postcode": "45000",
+          "name": "Alimentation le Madeleine",
+          "opening_hours": "Mo-Sa 14:30-24:00, Su 13:00-24:00",
+          "operator": "Alimentation la Madeleine",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4710069495,
+        "lat": 47.9220407,
+        "lon": 1.8916944,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "59",
+          "addr:postcode": "45000",
+          "baby_feeding": "no",
+          "mapillary": "1048703139198925",
+          "name": "L'épi d'or",
+          "opening_hours": "Tu-Sa 06:45-13:00,15:30-19:30; Su 07:00-13:00; PH,Tu-Sa 07:00-13:00",
+          "ref:FR:SIRET": "43964863500019",
+          "shop": "bakery",
+          "survey:date": "2021-10-02",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4954408995,
+        "lat": 47.9190475,
+        "lon": 1.895329,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "9",
+          "addr:postcode": "45000",
+          "name": "Frédéric & Céline Carro",
+          "ref:FR:SIRET": "48858643900017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5280165130,
+        "lat": 47.9081845,
+        "lon": 1.9012244,
+        "tags": {
+          "bulk_purchase": "only",
+          "contact:facebook": "https://www.facebook.com/lecobocal",
+          "delivery": "yes",
+          "name": "L'éco bocal",
+          "opening_hours": "Tu-Fr 09:00-14:00,15:00-19:30; Sa 09:00-19:00",
+          "organic": "only",
+          "phone": "+33 9 87 34 98 49",
+          "ref:FR:SIRET": "83242022800021",
+          "shop": "convenience",
+          "website": "https://www.eco-bocal.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5618257512,
+        "lat": 47.9006999,
+        "lon": 1.9060669,
+        "tags": {
+          "addr:housenumber": "2",
+          "addr:street": "Place Louis XI",
+          "bulk_purchase": "only",
+          "email": "daybyday.orleans@gmail.com",
+          "name": "Day by Day",
+          "opening_hours": "Tu-Sa 10:00-13:30, 15:00-19:00",
+          "organic": "yes",
+          "phone": "+33238687353",
+          "shop": "convenience",
+          "website": "https://daybyday-shop.com/magasin/orleans"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6015508256,
+        "lat": 47.9133141,
+        "lon": 1.8998955,
+        "tags": {
+          "name": "Agadir Market",
+          "ref:FR:SIRET": "52220252200010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7362652654,
+        "lat": 47.8984043,
+        "lon": 1.9070055,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "5",
+          "addr:postcode": "45000",
+          "addr:street": "Rue du Petit Puits",
+          "contact:facebook": "https://www.facebook.com/epicerieroseetleon/",
+          "contact:instagram": "https://www.instagram.com/roseetleonlegardemanger/",
+          "delivery": "yes",
+          "email": "orleans@roseetleon.com",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/02/df/c8/8e/4d6b-41af-a360-aa5eb49b693d.jpg",
+          "mapillary": "174356841357995",
+          "name": "Rose et Léon",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "phone": "+33 2 38 21 48 26",
+          "ref:FR:SIRET": "84345935500015",
+          "shop": "convenience",
+          "website": "https://www.roseetleon.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8093461664,
+        "lat": 47.9004905,
+        "lon": 1.9058377,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "11",
+          "addr:postcode": "45000",
+          "addr:street": "Place Louis XI",
+          "description": "Manga",
+          "email": "contact@shinjuku-world.com",
+          "image": "https://panoramax.openstreetmap.fr/images/b4/8e/dd/60/3312-4ef0-9072-03ec30eee494.jpg",
+          "name": "Shinjuku World",
+          "opening_hours": "Tu-Fr 10:00-12:00,14:00-19:00; Sa 10:00-19:00",
+          "phone": "+33 238540157",
+          "ref:FR:SIRET": "43289940900036",
+          "shop": "books",
+          "source:image": "https://panoramax.openstreetmap.fr/#focus=pic&map=17.15/47.900579/1.905884&pic=b48edd60-3312-4ef0-9072-03ec30eee494&speed=250&xyz=265.71/-12.77/0"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8714593625,
+        "lat": 47.8988878,
+        "lon": 1.9062256,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:postcode": "45000",
+          "addr:street": "Halles Châtelet",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/ba/4f/52/21/7015-4614-ad1f-e04805cd2530.jpg",
+          "indoor_seating": "yes",
+          "mapillary": "1009853053059344",
+          "name": "Nadal",
+          "opening_hours": "Tu-Sa 07:00-19:30; Su 07:30-13:00",
+          "outdoor_seating": "yes",
+          "phone": "+33 238537521",
+          "ref:FR:SIRET": "49492388100028",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10262377840,
+        "lat": 47.9101404,
+        "lon": 1.9148363,
+        "tags": {
+          "check_date": "2026-04-29",
+          "contact:city": "Orléans",
+          "contact:housenumber": "109",
+          "contact:postcode": "45000",
+          "contact:street": "Rue du Faubourg Saint-Vincent",
+          "name": "L'or Sucré",
+          "ref:FR:SIRET": "91185811600013",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10603791787,
+        "lat": 47.9133578,
+        "lon": 1.8998846,
+        "tags": {
+          "name": "Royal Délice",
+          "ref:FR:SIRET": "79972679900023",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10682522238,
+        "lat": 47.8982371,
+        "lon": 1.9064296,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "5",
+          "addr:postcode": "45000",
+          "addr:street": "Rue au Lin",
+          "contact:email": "contact@epis-pop.fr",
+          "contact:facebook": "https://www.facebook.com/Epispop/",
+          "contact:instagram": "https://www.instagram.com/epispop/",
+          "description": "COALESCENCE",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/8b/f1/e7/b6/6a2a-45b3-af33-1033c8613554.jpg",
+          "name": "Epis Pop",
+          "opening_hours": "Mo-Fr 16:00-19:30",
+          "organic": "yes",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 7 49 40 53 41",
+          "ref:FR:NAF": "47.24Z",
+          "ref:FR:SIRET": "85335681400030",
+          "shop": "bakery",
+          "website": "https://www.epis-pop.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11465861308,
+        "lat": 47.9095231,
+        "lon": 1.900906,
+        "tags": {
+          "name": "Maison Ruellan",
+          "opening_hours": "Mo,Tu,Th-Sa 07:00-19:30; Su 07:00-13:00",
+          "phone": "+33 238737713",
+          "ref:FR:SIRET": "83186523300017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11486850069,
+        "lat": 47.8991002,
+        "lon": 1.9034733,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "6",
+          "addr:postcode": "45000",
+          "addr:street": "Rue du Vieux Marché",
+          "contact:facebook": "https://www.facebook.com/people/Alimentation-G%C3%A9n%C3%A9rale-Franco-Russe-du-Vieux-March%C3%A9/100064181105190/",
+          "description": "DUNYA",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/71/cc/c6/37/66b6-4201-9d3b-4d5bf774c3d2.jpg",
+          "name": "Alimentation générale du Vieux Marché",
+          "opening_hours": "Mo-Th 10:00-00:00; Fr-Sa 10:00-01:00; Su 10:00-00:00",
+          "phone": "+33 641265963",
+          "ref:FR:SIRET": "89118102600016",
+          "shop": "convenience",
+          "source": "INSEE - 2023-11",
+          "start_date": "2021",
+          "website": "https://shirin45500.wixsite.com/alimentationgnraledu",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11528099769,
+        "lat": 47.9119869,
+        "lon": 1.9000045,
+        "tags": {
+          "name": "Aux Pains des Lys",
+          "opening_hours": "Mo-Fr 07:30-13:00,16:00-19:00; Sa 07:30-13:00",
+          "phone": "+33 238535276",
+          "ref:FR:SIRET": "90153582300016",
+          "shop": "bakery",
+          "source": "INSEE - 2023-11",
+          "website": "https://www.instagram.com/lespainsdebaptiste"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11528138269,
+        "lat": 47.9121406,
+        "lon": 1.9087083,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "9",
+          "addr:postcode": "45000",
+          "email": "contact@librairielaique.fr",
+          "name": "Librairie Laïque Coop du Livre",
+          "phone": "+33 238619900",
+          "ref:FR:SIRET": "38378758700088",
+          "shop": "books",
+          "source": "INSEE - 2023-11",
+          "website": "https://www.librairielaique.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11594196490,
+        "lat": 47.899945,
+        "lon": 1.9035497,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "2",
+          "addr:postcode": "45000",
+          "addr:street": "Rue d'Avignon",
+          "contact:facebook": "https://www.facebook.com/lebibliovoreorleans/",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/99/20/21/34/6499-48a4-ab39-730b9089bac5.jpg",
+          "name": "Le Bibliovore",
+          "ref:FR:NAF": "47.79Z",
+          "ref:FR:SIRET": "94943995400023",
+          "shop": "books",
+          "source": "https://www.larep.fr/orleans-45000/actualites/le-bibliovore-a-demenage_14448138/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11658247331,
+        "lat": 47.9119612,
+        "lon": 1.9151678,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "1",
+          "addr:postcode": "45000",
+          "addr:street": "Rue de Bel Air",
+          "name": "Panier du Centre",
+          "opening_hours": "Mo-Su 09:00-00:00",
+          "phone": "+33 219051799",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "81182981100025",
+          "shop": "convenience",
+          "website": "https://panier-du-centre-convenience-store.business.site/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12556602785,
+        "lat": 47.9078683,
+        "lon": 1.9015989,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "8",
+          "addr:postcode": "45000",
+          "addr:street": "Place Gambetta",
+          "description": ": JUBERT ALIMENTATION",
+          "image": "https://panoramax.openstreetmap.fr/images/ed/ad/95/93/5255-497b-b61b-7bdbb63d0830.jpg",
+          "name": "Jubert Alimentation",
+          "ref:FR:SIRET": "90311187000015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "way",
+        "id": 113705491,
+        "center": {
+          "lat": 47.919346,
+          "lon": 1.9025465
+        },
+        "tags": {
+          "addr:housenumber": "4",
+          "demolished:building": "yes",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+        }
+      },
+      {
+        "type": "way",
+        "id": 114016518,
+        "center": {
+          "lat": 47.9070835,
+          "lon": 1.9011445
+        },
+        "tags": {
+          "building": "yes",
+          "shop": "kiosk",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1126706989,
+        "center": {
+          "lat": 47.9042218,
+          "lon": 1.9175233
+        },
+        "tags": {
+          "building": "yes",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1271088986,
+        "center": {
+          "lat": 47.9081633,
+          "lon": 1.9119606
+        },
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:postcode": "45000",
+          "building": "yes",
+          "check_date:opening_hours": "2024-05-19",
+          "name": "Kiosquedu parc pasteur",
+          "opening_hours:signed": "no",
+          "shop": "kiosk"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

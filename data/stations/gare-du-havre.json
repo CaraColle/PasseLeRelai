@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      0.091773,
-      49.484024,
-      0.124609,
-      49.502854
+      0.09711,
+      49.486873,
+      0.118949,
+      49.499697
     ],
     "features": [
       {
@@ -141,8 +141,8 @@
                 49.493489
               ],
               [
-                0.09833,
-                49.492489
+                0.09852,
+                49.492281
               ],
               [
                 0.10035,
@@ -244,170 +244,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            0.10780915870242508,
-            49.493916725048415
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                0.092984,
-                49.497643
-              ],
-              [
-                0.092301,
-                49.495729
-              ],
-              [
-                0.091773,
-                49.493386
-              ],
-              [
-                0.091797,
-                49.493239
-              ],
-              [
-                0.096103,
-                49.489418
-              ],
-              [
-                0.100659,
-                49.485884
-              ],
-              [
-                0.104444,
-                49.484404
-              ],
-              [
-                0.104854,
-                49.484291
-              ],
-              [
-                0.106567,
-                49.484024
-              ],
-              [
-                0.107409,
-                49.484292
-              ],
-              [
-                0.108251,
-                49.484559
-              ],
-              [
-                0.112855,
-                49.486085
-              ],
-              [
-                0.114857,
-                49.486329
-              ],
-              [
-                0.119953,
-                49.489306
-              ],
-              [
-                0.123941,
-                49.491747
-              ],
-              [
-                0.124609,
-                49.492679
-              ],
-              [
-                0.12457,
-                49.493004
-              ],
-              [
-                0.123904,
-                49.495406
-              ],
-              [
-                0.123802,
-                49.495752
-              ],
-              [
-                0.123088,
-                49.496903
-              ],
-              [
-                0.120994,
-                49.499286
-              ],
-              [
-                0.120911,
-                49.499373
-              ],
-              [
-                0.116873,
-                49.501561
-              ],
-              [
-                0.111123,
-                49.502654
-              ],
-              [
-                0.110814,
-                49.50247
-              ],
-              [
-                0.109628,
-                49.501681
-              ],
-              [
-                0.10427,
-                49.50259
-              ],
-              [
-                0.103224,
-                49.502854
-              ],
-              [
-                0.102594,
-                49.502631
-              ],
-              [
-                0.099875,
-                49.500861
-              ],
-              [
-                0.097159,
-                49.500047
-              ],
-              [
-                0.094565,
-                49.499512
-              ],
-              [
-                0.094131,
-                49.499376
-              ],
-              [
-                0.093355,
-                49.498571
-              ],
-              [
-                0.092984,
-                49.497643
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809756317,
+      "timestamp": 1785863364607,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -419,8 +261,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -433,7 +274,847 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:10:01Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 1866999903,
+        "lat": 49.4952948,
+        "lon": 0.1121731,
+        "tags": {
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1867012248,
+        "lat": 49.4944713,
+        "lon": 0.1096336,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:country": "FR",
+          "addr:housenumber": "80",
+          "addr:postcode": "76600",
+          "addr:street": "Place de l'Hôtel de Ville",
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "brand:wikipedia": "fr:La Mie câline",
+          "check_date": "2024-05-09",
+          "name": "La Mie Câline",
+          "phone": "+33 2 35 46 50 30",
+          "ref:FR:SIRET": "51476642700017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1867027987,
+        "lat": 49.4951353,
+        "lon": 0.1091238,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "5",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Édouard Herriot",
+          "check_date": "2026-06-18",
+          "check_date:opening_hours": "2026-06-18",
+          "facebook": "placedespains",
+          "name": "Place des pains",
+          "opening_hours": "Mo-Sa 06:00-19:00",
+          "phone": "+33 2 35 43 45 60",
+          "ref:FR:SIRET": "44168435400018",
+          "shop": "bakery",
+          "website": "https://place-des-pains.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1867030096,
+        "lat": 49.4930813,
+        "lon": 0.1098106,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "104",
+          "addr:postcode": "76600",
+          "addr:street": "Boulevard de Strasbourg",
+          "check_date": "2024-05-15",
+          "name": "La Civette",
+          "opening_hours": "Mo-Fr 07:30-19:00; Sa 09:00-18:00; PH,Su off",
+          "ref:FR:SIRET": "98533169300012",
+          "shop": "kiosk",
+          "tobacco": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1867061590,
+        "lat": 49.4912326,
+        "lon": 0.1055433,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "107",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Louis Brindeau",
+          "name": "Bidault",
+          "name:fr": "Bidault",
+          "ref:FR:SIRET": "43991166000017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1867106522,
+        "lat": 49.4913488,
+        "lon": 0.1016935,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "23",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Louis Brindeau",
+          "brand": "L'Atelier Papilles",
+          "brand:wikidata": "Q130232695",
+          "contact:instagram": "https://www.instagram.com/latelierpapilles/",
+          "email": "lehavre@latelier-papilles.com",
+          "name": "L'Atelier Papilles",
+          "opening_hours": "Tu-Sa 06:30-19:30, Su 06:30-19:00",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "ref:FR:SIRET": "91079941000022",
+          "shop": "bakery",
+          "website": "https://latelier-papilles.com/latelier-papilles-le-havre/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1867509540,
+        "lat": 49.4878503,
+        "lon": 0.1120741,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "13",
+          "addr:postcode": "76600",
+          "addr:street": "Rue du Général Faidherbe",
+          "alt_name": "Boulangerie de Saint François",
+          "name": "Au fournil Saint-François",
+          "opening_hours": "06:00-20:00; Sa-Su off",
+          "phone": "+33 2 35 45 08 02",
+          "ref:FR:SIRET": "83532025000011",
+          "shop": "bakery",
+          "survey:date": "2025-07-14"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1891228772,
+        "lat": 49.4921684,
+        "lon": 0.1173395,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "34",
+          "addr:postcode": "76600",
+          "addr:street": "Place Pierre Courant",
+          "check_date": "2024-05-09",
+          "name": "L'Ami Du Pain",
+          "note": "Deuxième SIRET avec la même activité ouvert le même jour : 48421896100015",
+          "ref:FR:SIRET": "48420809500014",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1891286437,
+        "lat": 49.495263,
+        "lon": 0.1003868,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "86",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Frédéric Bellanger",
+          "name": "Jonart Pierre",
+          "ref:FR:SIRET": "34180754300028",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2013780854,
+        "lat": 49.4982416,
+        "lon": 0.1222549,
+        "tags": {
+          "check_date": "2023-06-26",
+          "name": "Aux Gitanes",
+          "opening_hours": "Mo-Fr 07:45-20:00; Sa 08:45-19:30",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2013871785,
+        "lat": 49.4951984,
+        "lon": 0.1222395,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "71B",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Casimir Delavigne",
+          "name": "Fournil Danton",
+          "opening_hours": "Mo-Sa 06:30-13:00",
+          "ref:FR:SIRET": "98933426300013",
+          "shop": "bakery",
+          "survey:date": "2026-01-04"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2014618146,
+        "lat": 49.4972343,
+        "lon": 0.0986164,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "1",
+          "addr:postcode": "76600",
+          "addr:street": "Rue des Gobelins",
+          "brand": "Épi Service",
+          "name": "Épi des Gobelins",
+          "ref:FR:SIRET": "81485767800019",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2014632155,
+        "lat": 49.4953517,
+        "lon": 0.1093314,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "9",
+          "addr:postcode": "76600",
+          "addr:street": "Avenue René Coty",
+          "name": "La Boutique - Lia Transports",
+          "shop": "kiosk",
+          "website": "https://www.transports-lia.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2017662887,
+        "lat": 49.4983512,
+        "lon": 0.1176049,
+        "tags": {
+          "contact:city": "Le Havre",
+          "contact:housenumber": "140",
+          "contact:postcode": "76600",
+          "contact:street": "Avenue René Coty",
+          "name": "Friboulet",
+          "ref:FR:SIRET": "52256692600013",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2017667674,
+        "lat": 49.4975652,
+        "lon": 0.1141134,
+        "tags": {
+          "check_date": "2024-12-03",
+          "contact:city": "Le Havre",
+          "contact:housenumber": "76",
+          "contact:postcode": "76600",
+          "contact:street": "Avenue René Coty",
+          "name": "Label Bulles - Pile et Face",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "phone": "+33 2 35 21 16 38",
+          "ref:FR:SIRET": "53340219400013",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2681042936,
+        "lat": 49.5064374,
+        "lon": 0.1003669,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "20",
+          "addr:postcode": "76620",
+          "addr:street": "Rue Irène Joliot-Curie",
+          "name": "Le Madeleine",
+          "opening_hours": "Tu-Sa 06:30-19:30; Su 06:30-13:00",
+          "ref:FR:SIRET": "82866943200019",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2702791170,
+        "lat": 49.5059598,
+        "lon": 0.1005402,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "11",
+          "addr:postcode": "76620",
+          "addr:street": "Rue Irène Joliot-Curie",
+          "name": "À l'Amandin",
+          "opening_hours": "Mo-Sa 06:30-13:00, Mo,We-Sa 15:00-19:30, Su 07:00-13:00",
+          "operator": "Stéphane Feuquere",
+          "ref:FR:SIRET": "50838652100019",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2703122465,
+        "lat": 49.506632,
+        "lon": 0.118987,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "251",
+          "addr:postcode": "76620",
+          "addr:street": "Rue de la Cavée Verte",
+          "name": "Rs Marché",
+          "opening_hours": "Mo-Su 08:00-23:00",
+          "ref:FR:SIRET": "90965233100010",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2703141841,
+        "lat": 49.5058242,
+        "lon": 0.1016049,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "7",
+          "addr:postcode": "76620",
+          "addr:street": "Rue Romain Rolland",
+          "check_date:opening_hours": "2025-12-28",
+          "facebook": "https://www.facebook.com/boulangeriecorinneetmickaelbardin/",
+          "name": "Corinne et Mickael Bardin",
+          "opening_hours": "Tu-Sa 06:30-19:30; Su,PH 07:00-13:00",
+          "ref:FR:SIRET": "42150235200022",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014",
+          "website": "https://www.ollca.com/le-havre/boutiques/boulangerie-corinne-et-mickael-bardin"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2714302530,
+        "lat": 49.5070366,
+        "lon": 0.1205613,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "1",
+          "addr:postcode": "76620",
+          "addr:street": "Rue du Val Soleil",
+          "name": "La cavée - Alimentation générale",
+          "ref:FR:SIRET": "39033676600022",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4881663023,
+        "lat": 49.4950322,
+        "lon": 0.1044407,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "21",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Georges Braque",
+          "check_date": "2023-06-26",
+          "name": "Le Fournil Saint-Roch",
+          "name:fr": "Le Fournil Saint-Roch",
+          "ref:FR:SIRET": "49183246500026",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6425791433,
+        "lat": 49.4916073,
+        "lon": 0.1087208,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "148",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Victor Hugo",
+          "name": "La Galerne",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "operator": "La Galerne SAS",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 2 35 43 22 52",
+          "ref:FR:SIRET": "40516546500023",
+          "shop": "books",
+          "website": "https://www.lagalerne.com/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6604585621,
+        "lat": 49.4887412,
+        "lon": 0.1076556,
+        "tags": {
+          "contact:city": "Le Havre",
+          "contact:housenumber": "126",
+          "contact:postcode": "76600",
+          "contact:street": "Rue de Paris",
+          "name": "M & s",
+          "shop": "bakery",
+          "survey:date": "2026-05-03"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6769578032,
+        "lat": 49.5071955,
+        "lon": 0.121715,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "287",
+          "addr:postcode": "76620",
+          "addr:street": "Rue de la Cavée Verte",
+          "name": "Le fournil de la cavée verte",
+          "phone": "+33 2 35 48 36 97",
+          "ref:FR:SIRET": "82822780100010",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6797171702,
+        "lat": 49.4872693,
+        "lon": 0.1070631,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "56",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Édouard Lang",
+          "bulk_purchase": "only",
+          "check_date": "2024-04-23",
+          "name": "Le Bon Endroit",
+          "opening_hours": "Tu, We, Fr 10:00-13:00, 15:00-19:15; Mo 15:00-19:15; Th 15:00-19:15; Sa 10:00-13:00, 14:00-18:00",
+          "organic": "only",
+          "ref:FR:SIRET": "85176937200018",
+          "shop": "convenience",
+          "website": "https://www.lebonendroit-zd.com/",
+          "zero_waste": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7342700288,
+        "lat": 49.4959401,
+        "lon": 0.0999253,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "61",
+          "addr:postcode": "76600",
+          "addr:street": "Rue du Président Wilson",
+          "check_date": "2024-12-28",
+          "name": "Atelier Argentain",
+          "opening_hours": "Mo-Sa 06:30-13:00,15:00-19:30; We off; Su 07:00-13:00",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "ref:FR:SIRET": "83165190600016",
+          "shop": "bakery",
+          "website": "https://www.ollca.com/le-havre/boutiques/atelier-argentain"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7440961481,
+        "lat": 49.4905869,
+        "lon": 0.1048197,
+        "tags": {
+          "name": "Brunet",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7738028690,
+        "lat": 49.4927603,
+        "lon": 0.1139955,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "132",
+          "addr:postcode": "76600",
+          "addr:street": "Boulevard de Strasbourg",
+          "name": "Star-Livre",
+          "opening_hours": "Tu-Sa 09:00-19:00",
+          "phone": "+33 2 35 44 30 36",
+          "ref:FR:SIRET": "98442692400010",
+          "second_hand": "only",
+          "shop": "books",
+          "website": "https://star-livre.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9212850438,
+        "lat": 49.4950829,
+        "lon": 0.1091635,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "1",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Édouard Herriot",
+          "check_date": "2026-06-18",
+          "check_date:opening_hours": "2026-06-18",
+          "contact:facebook": "les400coupsjeunesse",
+          "contact:instagram": "les400coupsjeunesse",
+          "email": "librairie@les400coups.fr",
+          "name": "Les 400 coups",
+          "opening_hours": "Mo 15:00-19:00; Tu-We, Fr-Sa 10:00-19:00; Th 10:00-12:00, 14:00-19:00",
+          "phone": "+33 2 32 79 15 80",
+          "ref:FR:SIRET": "89168281700012",
+          "shop": "books",
+          "website": "https://les400coups.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10106177707,
+        "lat": 49.4966432,
+        "lon": 0.1122109,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "72",
+          "addr:postcode": "76600",
+          "addr:street": "Rue du Maréchal Gallieni",
+          "contact:facebook": "https://www.facebook.com/bdlyriumLH",
+          "name": "BD Lyrium Comics Shop",
+          "ref:FR:SIRET": "47894892000028",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10235694735,
+        "lat": 49.4950489,
+        "lon": 0.1217101,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "69",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Casimir Delavigne",
+          "name": "Epi Service Delavigne",
+          "opening_hours": "Mo-Su 09:00-22:00",
+          "ref:FR:SIRET": "85360899000018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10235718128,
+        "lat": 49.491385,
+        "lon": 0.1156376,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "32",
+          "addr:postcode": "76600",
+          "addr:street": "Rue du Maréchal de Lattre de Tassigny",
+          "name": "Epi Service - Alimentation générale",
+          "opening_hours": "Mo-Su 10:30-14:00,16:30-00:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10858007911,
+        "lat": 49.4872051,
+        "lon": 0.1020423,
+        "tags": {
+          "addr:housenumber": "69",
+          "addr:street": "Rue Augustin Normand",
+          "name": "Le Fournil du Perrey",
+          "opening_hours": "Mo,We-Sa 06:45-19:30",
+          "phone": "+33 2 35 61 11 03",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11040067759,
+        "lat": 49.495304,
+        "lon": 0.1225954,
+        "tags": {
+          "check_date": "2025-02-15",
+          "contact:city": "Le Havre",
+          "contact:housenumber": "27",
+          "contact:postcode": "76600",
+          "contact:street": "Rue Lesueur",
+          "contact:website": "https://www.lapetitelibrairiedanton.fr/",
+          "facebook": "https://www.facebook.com/people/La-petite-librairie/100092492154055/",
+          "name": "La petite librairie",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "operator": "Isabelle Marical",
+          "phone": "+33 9 73 88 02 12",
+          "ref:FR:SIRET": "94982752100012",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11326591300,
+        "lat": 49.488934,
+        "lon": 0.112595,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "36",
+          "addr:postcode": "76600",
+          "addr:street": "Rue de Bretagne",
+          "name": "Alimentation générale",
+          "opening_hours": "Tu-Su 11:00-13:30,17:00-00:00",
+          "ref:FR:SIRET": "52040763600056",
+          "shop": "convenience",
+          "source": "survey (Fantoir:763511065)"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11336353878,
+        "lat": 49.4975024,
+        "lon": 0.1138438,
+        "tags": {
+          "contact:city": "Le Havre",
+          "contact:housenumber": "72 ter",
+          "contact:postcode": "76600",
+          "contact:street": "Avenue René Coty",
+          "name": "Maison Boussai",
+          "ref:FR:SIRET": "90411139000012",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11414440574,
+        "lat": 49.4972749,
+        "lon": 0.0982175,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "104-106",
+          "addr:postcode": "76600",
+          "addr:street": "Rue d'Étretat",
+          "name": "Le Fournil Saint-Vincent",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 2 35 43 20 67",
+          "ref:FR:SIRET": "80374552000012",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11414443905,
+        "lat": 49.5045198,
+        "lon": 0.109585,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "3-5",
+          "addr:postcode": "76620",
+          "addr:street": "Rue Sadi Carnot",
+          "brand": "Viveco",
+          "name": "Viveco",
+          "opening_hours": "Mo-Su 09:30-22:00",
+          "ref:FR:SIRET": "85360899000026",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11794042262,
+        "lat": 49.4960086,
+        "lon": 0.1118835,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:country": "FR",
+          "addr:housenumber": "22",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Casimir Périer",
+          "name": "Maison Yvonne",
+          "opening_hours": "Mo-Sa 09:30-19:30",
+          "ref:FR:SIRET": "52377604500123",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11831676549,
+        "lat": 49.4873823,
+        "lon": 0.1020458,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "77",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Augustin Normand",
+          "brand": "Épi Service",
+          "check_date": "2025-07-14",
+          "check_date:opening_hours": "2025-07-14",
+          "name": "Chez Sami",
+          "opening_hours": "Mo,Tu,Th 09:00-13:00,15:00-23:00, Fr,Sa 09:00-13:00,15:00-24:00, Su 10:00-22:00",
+          "ref:FR:SIRET": "92094708200011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11892865962,
+        "lat": 49.4867716,
+        "lon": 0.1092582,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "70",
+          "addr:street": "Rue Saint-Jacques",
+          "check_date": "2024-05-10",
+          "name": "Superette Saint-Jacques",
+          "ref:FR:SIRET": "75249122500021",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11898882102,
+        "lat": 49.4965713,
+        "lon": 0.1111717,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "34",
+          "addr:postcode": "76600",
+          "addr:street": "Rue André Caplet",
+          "check_date": "2024-05-12",
+          "contact:facebook": "https://www.facebook.com/jourdaindj",
+          "name": "Du pain et des gourmandises",
+          "ref:FR:SIRET": "41827845300026",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11914179749,
+        "lat": 49.4960092,
+        "lon": 0.0996139,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "55",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Louis Philippe",
+          "description": "Abonnement pour emprunter des livres.",
+          "email": "bibliotheque.louisphilippe@yahoo.fr",
+          "name": "Bibliothèque pour tous",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12492517380,
+        "lat": 49.4916581,
+        "lon": 0.1019639,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "22",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Séry",
+          "description": "Librairie liée à une organisation religieuse",
+          "email": "lemondedetheolh@gmail.com",
+          "name": "Le monde de Théo",
+          "operator": "Diocèse du Havre",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014",
+          "website": "https://www.lehavre-lemondedetheo.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12844813938,
+        "lat": 49.4914314,
+        "lon": 0.1050841,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "59",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Bernardin de Saint-Pierre",
+          "brand": "La Vie Claire",
+          "brand:wikidata": "Q3213589",
+          "check_date": "2025-01-04",
+          "name": "La Vie Claire",
+          "opening_hours": "Tu-Fr 09:00-19:30; Su 09:00-13:00",
+          "organic": "only",
+          "phone": "+33 2 32 79 21 03",
+          "ref:FR:SIRET": "88204144500017",
+          "shop": "convenience",
+          "website": "https://magasins.lavieclaire.com/lavieclaire/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12846454864,
+        "lat": 49.4926343,
+        "lon": 0.1011437,
+        "tags": {
+          "check_date": "2024-09-01",
+          "contact:city": "Le Havre",
+          "contact:housenumber": "21",
+          "contact:postcode": "76600",
+          "contact:street": "Rue Paul Doumer",
+          "name": "Maison Vasseur",
+          "ref:FR:SIRET": "75407669300045",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12848715538,
+        "lat": 49.4908825,
+        "lon": 0.1053563,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "48",
+          "addr:postcode": "76600",
+          "addr:street": "Rue Bernardin de Saint-Pierre",
+          "check_date": "2025-02-15",
+          "name": "Maison Portier",
+          "ref:FR:SIRET": "32845887200012",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12848715540,
+        "lat": 49.4953869,
+        "lon": 0.1025476,
+        "tags": {
+          "contact:city": "Le Havre",
+          "contact:housenumber": "34",
+          "contact:postcode": "76600",
+          "contact:street": "Rue Georges Braque",
+          "name": "La mie Saint-Roch",
+          "ref:FR:SIRET": "89134218000025",
+          "shop": "bakery"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

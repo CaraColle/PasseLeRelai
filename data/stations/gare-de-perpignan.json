@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      2.875629,
-      42.684078,
-      2.902888,
-      42.703664
+      2.880891,
+      42.687594,
+      2.898428,
+      42.70075
     ],
     "features": [
       {
@@ -165,8 +165,8 @@
                 42.6895
               ],
               [
-                2.898353,
-                42.690957
+                2.898428,
+                42.691044
               ],
               [
                 2.898426,
@@ -216,170 +216,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            2.8893868898380477,
-            42.69381888403363
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                2.877453,
-                42.696262
-              ],
-              [
-                2.876931,
-                42.691655
-              ],
-              [
-                2.875629,
-                42.688782
-              ],
-              [
-                2.875715,
-                42.688433
-              ],
-              [
-                2.880824,
-                42.685615
-              ],
-              [
-                2.881942,
-                42.685312
-              ],
-              [
-                2.883326,
-                42.685053
-              ],
-              [
-                2.884927,
-                42.685272
-              ],
-              [
-                2.887886,
-                42.68527
-              ],
-              [
-                2.891363,
-                42.684188
-              ],
-              [
-                2.891705,
-                42.684078
-              ],
-              [
-                2.89622,
-                42.684444
-              ],
-              [
-                2.896274,
-                42.684449
-              ],
-              [
-                2.900818,
-                42.687462
-              ],
-              [
-                2.902629,
-                42.689555
-              ],
-              [
-                2.902843,
-                42.689845
-              ],
-              [
-                2.902874,
-                42.689935
-              ],
-              [
-                2.902888,
-                42.690521
-              ],
-              [
-                2.902321,
-                42.695245
-              ],
-              [
-                2.902289,
-                42.69547
-              ],
-              [
-                2.901991,
-                42.69729
-              ],
-              [
-                2.901898,
-                42.697511
-              ],
-              [
-                2.901063,
-                42.698392
-              ],
-              [
-                2.897404,
-                42.701569
-              ],
-              [
-                2.896228,
-                42.702274
-              ],
-              [
-                2.895506,
-                42.702695
-              ],
-              [
-                2.89417,
-                42.703017
-              ],
-              [
-                2.893352,
-                42.703114
-              ],
-              [
-                2.888528,
-                42.703664
-              ],
-              [
-                2.888434,
-                42.703642
-              ],
-              [
-                2.885246,
-                42.702549
-              ],
-              [
-                2.881778,
-                42.700439
-              ],
-              [
-                2.879154,
-                42.699214
-              ],
-              [
-                2.878883,
-                42.698964
-              ],
-              [
-                2.877453,
-                42.696262
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809794745,
+      "timestamp": 1785863899504,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -391,8 +233,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -405,7 +246,873 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:18:11Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 1059646651,
+        "lat": 42.7067047,
+        "lon": 2.8924852,
+        "tags": {
+          "name": "Le Trésor d'Irène",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1749714289,
+        "lat": 42.6995729,
+        "lon": 2.8963519,
+        "tags": {
+          "name": "Fraîche Fontaine",
+          "opening_hours": "Tu,Sa 11:00-13:00,15:30-19:30; We-Fr 15:30-19:30",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1930998985,
+        "lat": 42.7012783,
+        "lon": 2.8927268,
+        "tags": {
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "fr:Système U",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-13:00",
+          "operator": "Magasins U",
+          "ref:FR:SIRET": "57375061903223",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1931009708,
+        "lat": 42.6992396,
+        "lon": 2.8902376,
+        "tags": {
+          "addr:street": "Rue Docteur Pous",
+          "check_date": "2026-07-27",
+          "check_date:opening_hours": "2026-07-27",
+          "contact:city": "Perpignan",
+          "contact:facebook": "https://www.facebook.com/librairiecajelice/",
+          "contact:housenumber": "10",
+          "contact:postcode": "66000",
+          "contact:street": "Rue Du Docteur Pous",
+          "contact:website": "http://www.cajelice.fr/",
+          "delivery": "yes",
+          "email": "commandes@cajelice.fr",
+          "name": "Cajelice Romance",
+          "old_name": "Chapitre",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "payment:visa_debit": "yes",
+          "phone": "+33 4 68 51 74 58",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "798821500",
+          "ref:FR:SIRET": "79882150000021",
+          "shop": "books",
+          "source": "INSEE - 2026-05",
+          "website": "http://www.cajelice.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1946043151,
+        "lat": 42.6950199,
+        "lon": 2.8891901,
+        "tags": {
+          "brand": "Le Pétrin Ribeïrou",
+          "brand:wikidata": "Q89209633",
+          "name": "Le Pétrin Ribeïrou",
+          "pastry": "yes",
+          "shop": "bakery",
+          "wheelchair": "yes",
+          "wheelchair:description": "plain pied avec portes coulissantes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3052141843,
+        "lat": 42.6883862,
+        "lon": 2.8945517,
+        "tags": {
+          "addr:housenumber": "17",
+          "addr:street": "Rue Valentin Magnan",
+          "brand": "Le Pain du Jour",
+          "brand:wikidata": "Q114432625",
+          "contact:facebook": "https://www.facebook.com/LePainduJour.Officiel/",
+          "email": "communication@lepaindujour.fr",
+          "level": "0",
+          "name": "Le Pain du Jour",
+          "opening_hours": "06:00-20:00",
+          "phone": "+33 4 68 89 23 81",
+          "ref:FR:NAF": "10.71B",
+          "ref:FR:SIREN": "811645258",
+          "ref:FR:SIRET": "81164525800021",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05",
+          "website": "https://www.le-pain-du-jour.com/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3106527557,
+        "lat": 42.6871732,
+        "lon": 2.9010569,
+        "tags": {
+          "name": "Le pain de mon moulin",
+          "opening_hours": "Mo-Su 06:30-19:30",
+          "phone": "+33 4 68 66 87 99",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3820744658,
+        "lat": 42.6974257,
+        "lon": 2.8948698,
+        "tags": {
+          "contact:city": "Perpignan",
+          "contact:housenumber": "9",
+          "contact:postcode": "66000",
+          "contact:street": "Place des Poilus",
+          "name": "La Moulin Catalan",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3820744659,
+        "lat": 42.697261,
+        "lon": 2.8953126,
+        "tags": {
+          "addr:housenumber": "15",
+          "addr:street": "Rue Grande-la-Réal",
+          "name": "Épicerie la Réal",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "434464996",
+          "ref:FR:SIRET": "43446499600090",
+          "shop": "convenience",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4333559699,
+        "lat": 42.6993583,
+        "lon": 2.8960197,
+        "tags": {
+          "contact:city": "Perpignan",
+          "contact:facebook": "https://www.facebook.com/p/Panirosa-Boulangerie-Buissonni%C3%A8re-61556296195554/",
+          "contact:housenumber": "11",
+          "contact:postcode": "66000",
+          "contact:street": "Rue des Trois Journées",
+          "instagram": "https://www.instagram.com/panirosa.boulangerie/reel/C0uGzQMoCco/",
+          "name": "Panirosa",
+          "old_name": "Boulangerie Saint-Jean",
+          "opening_hours": "We-Fr 10:00-19:00; Sa 09:00-19:00; Tu 15:00-19:00",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "977848217",
+          "ref:FR:SIRET": "97784821700013",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4344232797,
+        "lat": 42.6953132,
+        "lon": 2.8936328,
+        "tags": {
+          "name": "Les Archers",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5042826852,
+        "lat": 42.698504,
+        "lon": 2.8931363,
+        "tags": {
+          "check_date": "2025-04-15",
+          "email": "commande@librairietorcatis.com",
+          "image": "https://upload.epagine.fr/2335/uploads/devanture/163595831_2515510002086989_6455442814314178675_o.jpg",
+          "name": "Librarie Torcatis",
+          "opening_hours": "Mo 10:00-19:00; Tu-Sa 09:30-19:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 4 68 34 20 51",
+          "ref:FR:SIRET": "31475247800011",
+          "shop": "books",
+          "website": "https://www.librairietorcatis.com/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5088301937,
+        "lat": 42.7003584,
+        "lon": 2.8905709,
+        "tags": {
+          "air_conditioning": "yes",
+          "contact:city": "Perpignan",
+          "contact:housenumber": "22 bis",
+          "contact:postcode": "66000",
+          "contact:street": "Boulevard Georges Clemenceau",
+          "name": "Le Levain d'Hélios",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su 07:00-13:00",
+          "ref:FR:SIRET": "88278170100017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5218809446,
+        "lat": 42.6985475,
+        "lon": 2.8941262,
+        "tags": {
+          "books": "comics",
+          "check_date": "2025-04-15",
+          "contact:city": "Perpignan",
+          "contact:email": "bede-en-bulles@wanadoo.fr",
+          "contact:facebook": "https://www.facebook.com/people/Librairie-B%C3%A9d%C3%A9-En-Bulles/100057103878658/",
+          "contact:housenumber": "10",
+          "contact:postcode": "66000",
+          "contact:street": "Rue de la Cloche d'Or",
+          "email": "bede-en-bulles@wanadoo.fr",
+          "name": "Bédé en Bulles",
+          "opening_hours": "Tu-Sa 10:00-12:00,14:00-19:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 4 68 35 35 25",
+          "ref:FR:SIRET": "41184830200021",
+          "shop": "books",
+          "website": "https://www.canalbd.net/bede-en-bulles"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5457825690,
+        "lat": 42.696911,
+        "lon": 2.8925856,
+        "tags": {
+          "name": "Super Ette",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5808382156,
+        "lat": 42.7009162,
+        "lon": 2.894778,
+        "tags": {
+          "books": "comic",
+          "contact:city": "Perpignan",
+          "contact:facebook": "https://fr-fr.facebook.com/hybridperpignan/",
+          "contact:housenumber": "5",
+          "contact:phone": "+33 4 68 53 26 78",
+          "contact:postcode": "66000",
+          "contact:street": "Rue du Castillet",
+          "email": "tinezmat@hotmail.com",
+          "name": "Hybrid",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "753775139",
+          "ref:FR:SIRET": "75377513900029",
+          "shop": "books",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7100082503,
+        "lat": 42.6981589,
+        "lon": 2.8938115,
+        "tags": {
+          "bulk_purchase": "only",
+          "contact:city": "Perpignan",
+          "contact:facebook": "https://www.facebook.com/silosetco/",
+          "contact:housenumber": "19",
+          "contact:postcode": "66000",
+          "contact:street": "Rue de l'Ange",
+          "name": "Silos & co",
+          "organic": "yes",
+          "ref:FR:SIRET": "85195240800017",
+          "shop": "convenience",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7155940730,
+        "lat": 42.704457,
+        "lon": 2.8924555,
+        "tags": {
+          "addr:housenumber": "1",
+          "addr:street": "Avenue Maréchal Joffre",
+          "name": "Le Moulin du Pain",
+          "ref:FR:NAF": "10.71B",
+          "ref:FR:SIREN": "452460843",
+          "ref:FR:SIRET": "45246084300033",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7274001103,
+        "lat": 42.6850041,
+        "lon": 2.9042305,
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "contact:city": "Perpignan",
+          "contact:postcode": "66100",
+          "contact:street": "Rambla du Vallespir",
+          "name": "Utile",
+          "operator": "Système U",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9050551587,
+        "lat": 42.693494,
+        "lon": 2.8852214,
+        "tags": {
+          "addr:housenumber": "13",
+          "addr:street": "Avenue Président Doumer",
+          "check_date": "2024-06-30",
+          "name": "Au Pain Catalan",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "910020239",
+          "ref:FR:SIRET": "91002023900018",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9584811755,
+        "lat": 42.7014045,
+        "lon": 2.8913196,
+        "tags": {
+          "addr:housenumber": "15",
+          "addr:street": "Rue Pierre Rameil",
+          "name": "Neo",
+          "organic": "yes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "905021754",
+          "ref:FR:SIRET": "90502175400015",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9918947509,
+        "lat": 42.6981246,
+        "lon": 2.888776,
+        "tags": {
+          "name": "Le petit fournil",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9918947512,
+        "lat": 42.6981315,
+        "lon": 2.8888913,
+        "tags": {
+          "name": "Tabac Presse",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10024937576,
+        "lat": 42.6924378,
+        "lon": 2.8923239,
+        "tags": {
+          "addr:housenumber": "35",
+          "addr:street": "Boulevard Félix Mercader",
+          "description": "Epicerie fine, spécialités russes et arméniennes",
+          "name": "Alenka",
+          "ref:FR:NAF": "47.29Z",
+          "ref:FR:SIREN": "817820632",
+          "ref:FR:SIRET": "81782063200013",
+          "shop": "convenience",
+          "source": "INSEE - 2026-05",
+          "survey:date": "2023-05-01"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10031729245,
+        "lat": 42.6881828,
+        "lon": 2.8963351,
+        "tags": {
+          "contact:website": "https://ximiti.eu/nos-magasins/",
+          "name": "Ximiti",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10086511357,
+        "lat": 42.6917222,
+        "lon": 2.892861,
+        "tags": {
+          "name": "L'Orient Market",
+          "ref:FR:SIRET": "90838865500015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10086511372,
+        "lat": 42.6877259,
+        "lon": 2.8999092,
+        "tags": {
+          "name": "La Ram",
+          "name:ca": "La Ram",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10086759660,
+        "lat": 42.6908049,
+        "lon": 2.8986914,
+        "tags": {
+          "name": "Kennedy Market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10115986726,
+        "lat": 42.6965382,
+        "lon": 2.8983729,
+        "tags": {
+          "name": "L'Achaachi",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10117435656,
+        "lat": 42.6980936,
+        "lon": 2.8884501,
+        "tags": {
+          "name": "Au p'tit marché",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10117435663,
+        "lat": 42.6956216,
+        "lon": 2.8888685,
+        "tags": {
+          "name": "Alimentation Générale",
+          "opening_hours": "Mo-Sa 10:00-02:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10119260434,
+        "lat": 42.6992719,
+        "lon": 2.8890093,
+        "tags": {
+          "name": "Chez T.K.A.",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10119425368,
+        "lat": 42.7006369,
+        "lon": 2.8905188,
+        "tags": {
+          "contact:website": "https://le-cadre-noir-tobacco-shop.business.site/",
+          "name": "Le Cadre Noir",
+          "shop": "kiosk",
+          "tobacco": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10293331304,
+        "lat": 42.6839793,
+        "lon": 2.8816366,
+        "tags": {
+          "addr:housenumber": "124",
+          "addr:street": "Avenue Victor Dalbiez",
+          "brand": "Le Pain du Jour",
+          "brand:wikidata": "Q114432625",
+          "check_date:opening_hours": "2024-07-21",
+          "contact:facebook": "https://www.facebook.com/LePainduJour.Officiel/",
+          "email": "communication@lepaindujour.fr",
+          "name": "Le Pain du Jour",
+          "opening_hours": "06:00-20:00",
+          "phone": "+33 4 68 64 90 99",
+          "ref:FR:NAF": "10.71B",
+          "ref:FR:SIREN": "907658884",
+          "ref:FR:SIRET": "90765888400024",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05",
+          "website": "https://www.le-pain-du-jour.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10293333812,
+        "lat": 42.6911996,
+        "lon": 2.8954326,
+        "tags": {
+          "brand": "Le Pain du Jour",
+          "brand:wikidata": "Q114432625",
+          "contact:facebook": "https://www.facebook.com/LePainduJour.Officiel/",
+          "email": "communication@lepaindujour.fr",
+          "name": "Le Pain du Jour",
+          "opening_hours": "06:00-20:00",
+          "phone": "+33 4 68 81 61 36",
+          "ref:FR:SIRET": "88014878800024",
+          "shop": "bakery",
+          "website": "https://www.le-pain-du-jour.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11028528332,
+        "lat": 42.6913239,
+        "lon": 2.894936,
+        "tags": {
+          "addr:housenumber": "22 Bis",
+          "addr:street": "Boulevard Henri Poincaré",
+          "name": "Homer Market",
+          "opening_hours": "24/7",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "904848488",
+          "ref:FR:SIRET": "90484848800014",
+          "shop": "convenience",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11028528377,
+        "lat": 42.6911507,
+        "lon": 2.8969316,
+        "tags": {
+          "addr:housenumber": "52",
+          "addr:street": "Boulevard Henri Poincaré",
+          "name": "Comptoir",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "979045168",
+          "ref:FR:SIRET": "97904516800015",
+          "shop": "convenience",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11086790703,
+        "lat": 42.6963308,
+        "lon": 2.8774497,
+        "tags": {
+          "addr:housenumber": "2 bis",
+          "addr:street": "Rue Pascal-Marie Agasse",
+          "name": "Le fournil des gourmands",
+          "opening_hours": "Mo-Sa 06:30-19:00; Su 07:30-12:30",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "852907120",
+          "ref:FR:SIRET": "85290712000012",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11179606384,
+        "lat": 42.6988602,
+        "lon": 2.8926704,
+        "tags": {
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Su 06:30-19:45",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11252931067,
+        "lat": 42.6975239,
+        "lon": 2.8952153,
+        "tags": {
+          "amenity": "library",
+          "library": "anarchist",
+          "name": "Librairie Infos",
+          "opening_hours": "Sa 15:00-19:00",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11482700897,
+        "lat": 42.6965569,
+        "lon": 2.9007096,
+        "tags": {
+          "contact:city": "Perpignan",
+          "contact:housenumber": "12,14",
+          "contact:postcode": "66000",
+          "contact:street": "Rue des Carmes",
+          "email": "librairie.pointvirg@wanadoo.fr",
+          "name": "Point Virgule",
+          "phone": "+33 4 71 48 86 06",
+          "shop": "books",
+          "website": "https://www.librairiepointvirgule.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11818489719,
+        "lat": 42.6947693,
+        "lon": 2.8888216,
+        "tags": {
+          "name": "L'Orchidée Thaï",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12373696464,
+        "lat": 42.6965178,
+        "lon": 2.891656,
+        "tags": {
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12373714112,
+        "lat": 42.6962257,
+        "lon": 2.8911993,
+        "tags": {
+          "name": "Foch Market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12533684412,
+        "lat": 42.6980872,
+        "lon": 2.8953085,
+        "tags": {
+          "addr:housenumber": "9",
+          "addr:street": "Place de la République",
+          "email": "leplacerep@orange.fr",
+          "gambling": "lottery",
+          "name": "La place r'ep",
+          "opening_hours": "Mo-Sa 07:00-19:00; Su 08:00-12:30",
+          "phone": "+33468343648",
+          "ref:FR:NAF": "47.26Z",
+          "ref:FR:SIREN": "911312023",
+          "ref:FR:SIRET": "91131202300011",
+          "sells:tobacco": "yes",
+          "shop": "kiosk",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12587998938,
+        "lat": 42.6985387,
+        "lon": 2.8899326,
+        "tags": {
+          "name": "Meunier Catalan",
+          "ref:FR:NAF": "47.24Z",
+          "ref:FR:SIREN": "534051099",
+          "ref:FR:SIRET": "53405109900016",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13093997901,
+        "lat": 42.6956494,
+        "lon": 2.9039042,
+        "tags": {
+          "name": "HK Market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13096041701,
+        "lat": 42.6966512,
+        "lon": 2.8808776,
+        "tags": {
+          "name": "Alimentation générale",
+          "opening_hours": "Mo-Su 09:00-22:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13096048801,
+        "lat": 42.6967281,
+        "lon": 2.8811622,
+        "tags": {
+          "name": "Afghan Market",
+          "phone": "+33 7 80 35 28 87",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13096058601,
+        "lat": 42.6970012,
+        "lon": 2.8822173,
+        "tags": {
+          "name": "Alimentation Market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13272289201,
+        "lat": 42.6990096,
+        "lon": 2.8972373,
+        "tags": {
+          "addr:housenumber": "7 bis",
+          "addr:street": "Rue de la Main-de-Fer",
+          "amenity": "cafe",
+          "check_date": "2025-11-01",
+          "contact:facebook": "https://www.facebook.com/lapausepolar/",
+          "contact:instagram": "https://www.instagram.com/lapausepolar",
+          "email": "isabelle.roland@lapausepolar.fr",
+          "name": "La pause polar",
+          "opening_hours": "Mo-Sa 10:00-18:30",
+          "phone": "+33 6 14 90 92 92",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "950994574",
+          "ref:FR:SIRET": "95099457400016",
+          "shop": "books",
+          "source": "INSEE - 2026-05",
+          "website": "https://lapausepolar.fr/",
+          "website:menu": "https://lapausepolar.fr/carte/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 81671193,
+        "center": {
+          "lat": 42.6981266,
+          "lon": 2.8894609
+        },
+        "tags": {
+          "addr:housenumber": "7",
+          "addr:street": "Place Jean Payra",
+          "building": "yes",
+          "contact:facebook": "https://www.facebook.com/llibreriacatalana",
+          "email": "lallibreriaperpinya@gmail.com",
+          "name": "Llibreria Catalana",
+          "name:ca": "Llibreria Catalana",
+          "opening_hours": "Tu-Sa 09:30-12:30,14:00-19:00",
+          "phone": "+33 4 68 34 33 74",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "537713521",
+          "ref:FR:SIRET": "53771352100020",
+          "shop": "books",
+          "source": "INSEE - 2026-05",
+          "website": "http://www.llibreriacatalana.com/",
+          "wikidata": "Q60561741",
+          "wikipedia": "ca:Llibreria Catalana"
+        }
+      },
+      {
+        "type": "way",
+        "id": 81681275,
+        "center": {
+          "lat": 42.6990332,
+          "lon": 2.8768617
+        },
+        "tags": {
+          "brand": "Biocoop",
+          "brand:wikidata": "Q2904039",
+          "brand:wikipedia": "fr:Biocoop",
+          "building": "retail",
+          "bulk_purchase": "yes",
+          "contact:city": "Perpignan",
+          "contact:housenumber": "12",
+          "contact:phone": "+33 4 68 56 62 97",
+          "contact:postcode": "66000",
+          "contact:street": "Avenue de Prades",
+          "name": "Biocoop",
+          "opening_hours": "Mo-Sa 09:00-19:30",
+          "operator": "Biocoop",
+          "organic": "only",
+          "ref:FR:SIRET": "80025510100019",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+          "supermarket": "yes",
+          "supermarket:FR": "supermarché",
+          "website": "https://www.biocoopperpignan.com"
+        }
+      },
+      {
+        "type": "way",
+        "id": 766176679,
+        "center": {
+          "lat": 42.7042558,
+          "lon": 2.8924637
+        },
+        "tags": {
+          "building": "yes",
+          "newspaper": "yes",
+          "noname": "yes",
+          "shop": "kiosk",
+          "source": "survey 2019"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1188172894,
+        "center": {
+          "lat": 42.6979863,
+          "lon": 2.8882664
+        },
+        "tags": {
+          "building": "yes",
+          "operator": "L'Indépendant",
+          "shop": "kiosk"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

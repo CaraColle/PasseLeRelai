@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      1.440333,
-      43.600659,
-      1.466648,
-      43.620979
+      1.445047,
+      43.604298,
+      1.46178,
+      43.617677
     ],
     "features": [
       {
@@ -133,6 +133,10 @@
           "coordinates": [
             [
               [
+                1.445047,
+                43.612264
+              ],
+              [
                 1.44505,
                 43.612169
               ],
@@ -153,7 +157,7 @@
                 43.605586
               ],
               [
-                1.453043,
+                1.453034,
                 43.604352
               ],
               [
@@ -161,8 +165,8 @@
                 43.604298
               ],
               [
-                1.45932,
-                43.60666
+                1.458997,
+                43.606121
               ],
               [
                 1.46178,
@@ -201,16 +205,20 @@
                 43.617677
               ],
               [
+                1.454575,
+                43.617661
+              ],
+              [
+                1.453625,
+                43.617554
+              ],
+              [
                 1.452848,
                 43.617445
               ],
               [
-                1.449251,
-                43.616822
-              ],
-              [
-                1.448829,
-                43.616744
+                1.44896,
+                43.616853
               ],
               [
                 1.446103,
@@ -221,166 +229,8 @@
                 43.61572
               ],
               [
-                1.44505,
-                43.612169
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            1.4534999432775129,
-            43.611200232454856
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                1.440333,
-                43.615522
-              ],
-              [
-                1.440882,
-                43.610897
-              ],
-              [
-                1.440459,
-                43.607785
-              ],
-              [
-                1.440502,
-                43.607562
-              ],
-              [
-                1.441449,
-                43.605959
-              ],
-              [
-                1.442512,
-                43.604626
-              ],
-              [
-                1.445584,
-                43.60284
-              ],
-              [
-                1.445823,
-                43.602763
-              ],
-              [
-                1.447106,
-                43.602369
-              ],
-              [
-                1.447466,
-                43.602367
-              ],
-              [
-                1.450583,
-                43.602122
-              ],
-              [
-                1.453874,
-                43.600736
-              ],
-              [
-                1.453888,
-                43.600734
-              ],
-              [
-                1.45635,
-                43.600659
-              ],
-              [
-                1.456601,
-                43.600679
-              ],
-              [
-                1.458564,
-                43.601511
-              ],
-              [
-                1.463025,
-                43.603532
-              ],
-              [
-                1.46319,
-                43.603851
-              ],
-              [
-                1.466294,
-                43.608853
-              ],
-              [
-                1.466648,
-                43.60965
-              ],
-              [
-                1.465918,
-                43.61424
-              ],
-              [
-                1.4657,
-                43.615245
-              ],
-              [
-                1.465235,
-                43.616273
-              ],
-              [
-                1.464185,
-                43.616729
-              ],
-              [
-                1.460754,
-                43.618121
-              ],
-              [
-                1.458126,
-                43.620243
-              ],
-              [
-                1.45762,
-                43.620799
-              ],
-              [
-                1.45757,
-                43.620813
-              ],
-              [
-                1.453025,
-                43.620979
-              ],
-              [
-                1.450727,
-                43.620774
-              ],
-              [
-                1.447151,
-                43.617915
-              ],
-              [
-                1.444787,
-                43.61768
-              ],
-              [
-                1.4446,
-                43.617644
-              ],
-              [
-                1.440453,
-                43.615862
-              ],
-              [
-                1.440333,
-                43.615522
+                1.445047,
+                43.612264
               ]
             ]
           ],
@@ -391,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809726671,
+      "timestamp": 1785862842282,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -403,8 +253,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -417,7 +266,3087 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:03:50Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 415747312,
+        "lat": 43.6011324,
+        "lon": 1.4423685,
+        "tags": {
+          "check_date": "2026-04-07",
+          "contact:city": "Toulouse",
+          "contact:facebook": "https://www.facebook.com/mon_chat_pitre/",
+          "contact:housenumber": "24",
+          "contact:instagram": "https://www.instagram.com/mon_chat_pitre/",
+          "contact:postcode": "31000",
+          "contact:street": "Rue de la Bourse",
+          "name": "Mon Chat Pitre",
+          "ref:FR:SIRET": "99978645200014",
+          "shop": "books",
+          "start_date": "2026-04-20",
+          "website": "https://www.monchatpitre.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 450161413,
+        "lat": 43.5995673,
+        "lon": 1.4409973,
+        "tags": {
+          "branch": "Toulouse Pont Neuf",
+          "brand": "U Express",
+          "name": "U Express",
+          "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:00-21:00; Su 09:00-20:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 456844425,
+        "lat": 43.6045548,
+        "lon": 1.4542533,
+        "tags": {
+          "branch": "Toulouse La Colombette",
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "brand:wikipedia": "en:Spar (retailer)",
+          "contact:housenumber": "47",
+          "contact:street": "Rue de la Colombette",
+          "name": "Spar",
+          "opening_hours": "Mo-Fr 07:00-23:30; Sa 08:00-23:30; Su 09:00-22:00",
+          "operator": "Spar",
+          "phone": "+33 5 61 62 83 58",
+          "ref:FR:SIRET": "82010223400029",
+          "shop": "convenience",
+          "website": "https://spar.casino.fr/stores/tl631",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 597654756,
+        "lat": 43.6055824,
+        "lon": 1.4589821,
+        "tags": {
+          "contact:housenumber": "19",
+          "contact:street": "Avenue de la Gloire",
+          "description": "Boulangerie Patisserie",
+          "name": "Ayral",
+          "opening_hours": "Tu-Fr 07:00-14:00,16:00-20:15; Sa,Su 07:00-20:00",
+          "ref:FR:SIRET": "50013849000015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 629604439,
+        "lat": 43.6047911,
+        "lon": 1.4555428,
+        "tags": {
+          "contact:housenumber": "73",
+          "contact:street": "Rue de la Colombette",
+          "name": "Alimentacion Gle 7/7",
+          "opening_hours": "Mo-Su,PH 00:00+",
+          "ref:FR:SIRET": "82805544200010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 637945174,
+        "lat": 43.6018883,
+        "lon": 1.4409913,
+        "tags": {
+          "books": "religion",
+          "brand": "CLC France",
+          "contact:facebook": "https://www.facebook.com/CLCtoulouse/",
+          "contact:housenumber": "50",
+          "contact:street": "Rue Peyrolières",
+          "description": "Librairie Chrétienne CLC",
+          "name": "La Bible Parole de Dieu",
+          "opening_hours": "Tu-Fr 09:30-12:30,14:30-18:30,Sa 14:30-18:30",
+          "phone": "+33 5 34 45 07 28",
+          "ref:FR:SIRET": "77557197900175",
+          "religion": "christian",
+          "shop": "books",
+          "short_name": "CLC",
+          "website": "https://www.clcfrance.com/toulouse",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 772668242,
+        "lat": 43.6025541,
+        "lon": 1.4413214,
+        "tags": {
+          "books": "adults;children;comic;queer",
+          "check_date:opening_hours": "2025-04-21",
+          "contact:facebook": "terra.nova.33",
+          "contact:housenumber": "18",
+          "contact:instagram": "librairieterranova",
+          "contact:street": "Rue Léon Gambetta",
+          "currency:EUR": "yes",
+          "currency:XLT": "SVLT",
+          "description": "Librairie indépendante au cœur du centre historique de Toulouse.",
+          "drinking_water": "yes",
+          "email": "contact@librairie-terranova.fr",
+          "handwashing:soap": "yes",
+          "internet_access": "no",
+          "level": "0",
+          "lgbtq": "welcome",
+          "name": "Terra Nova",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "payment:cards": "yes",
+          "payment:cash:XLT-SVLT": "yes",
+          "payment:contactless": "yes",
+          "phone": "+33 5 61 21 17 47",
+          "ref:FR:SIRET": "47840389200019",
+          "ref:vatin": "FR76478403892",
+          "shop": "books",
+          "suspended_food": "book",
+          "toilets": "yes",
+          "toilets:access": "yes",
+          "toilets:hands_drying": "paper_towel",
+          "toilets:menstrual_products": "yes",
+          "toilets:number": "1",
+          "toilets:paper_supplied": "yes",
+          "website": "https://librairie-terranova.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 774474981,
+        "lat": 43.6110385,
+        "lon": 1.4404461,
+        "tags": {
+          "contact:housenumber": "17",
+          "contact:street": "Boulevard d'Arcole",
+          "description": "Boucherie - Fruits - Légumes",
+          "name": "El Bahïa",
+          "phone": "+33 5 61 38 36 14",
+          "ref:FR:SIRET": "44353679200049",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 775322339,
+        "lat": 43.6008702,
+        "lon": 1.4470617,
+        "tags": {
+          "check_date": "2024-01-31",
+          "contact:facebook": "https://www.facebook.com/LIBRAIRIEPRIVAT/",
+          "contact:housenumber": "14",
+          "contact:instagram": "https://www.instagram.com/librairie.privat/",
+          "contact:street": "Rue des Arts",
+          "contact:twitter": "https://twitter.com/LibrairiePrivat",
+          "delivery": "yes",
+          "name": "Librairie Privat",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "phone": "+33 5 61 12 64 20",
+          "ref:FR:SIRET": "79403157500028",
+          "shop": "books",
+          "website": "https://www.librairieprivat.com/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 776085967,
+        "lat": 43.6004329,
+        "lon": 1.4512994,
+        "tags": {
+          "check_date:opening_hours": "2025-04-20",
+          "contact:housenumber": "64",
+          "contact:street": "Rue de Metz",
+          "name": "Librairie Saint-Etienne",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "64080110600017",
+          "shop": "books",
+          "website": "https://www.facebook.com/librairiesaintetienne/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 776623668,
+        "lat": 43.6053881,
+        "lon": 1.4486695,
+        "tags": {
+          "contact:housenumber": "81",
+          "contact:street": "Boulevard Lazare Carnot",
+          "name": "Fujia Market",
+          "opening_hours": "Mo-Su 10:00-20:00",
+          "origin": "asian",
+          "shop": "convenience",
+          "was:amenity": "bar",
+          "was:name": "Les Americains"
+        }
+      },
+      {
+        "type": "node",
+        "id": 904988827,
+        "lat": 43.6048088,
+        "lon": 1.4550124,
+        "tags": {
+          "contact:housenumber": "64B",
+          "contact:street": "Rue de la Colombette",
+          "description": "Librairie Ésotérique",
+          "name": "La Plume d'Oie",
+          "ref:FR:SIRET": "80242185900017",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1284221992,
+        "lat": 43.6062416,
+        "lon": 1.4500441,
+        "tags": {
+          "brand": "Biocoop",
+          "brand:wikidata": "Q2904039",
+          "brand:wikipedia": "fr:Biocoop",
+          "bulk_purchase": "yes",
+          "check_date:opening_hours": "2025-12-27",
+          "contact:city": "Toulouse",
+          "contact:housenumber": "32",
+          "contact:phone": "+33 5 62 57 90 25",
+          "contact:postcode": "31000",
+          "contact:street": "Allées Jean Jaurès",
+          "currency:XLT": "SVLT",
+          "name": "Biocoop",
+          "network": "Biocoop",
+          "official_name": "Biocoop Jaurès",
+          "opening_hours": "Mo-Sa 09:30-20:00; Su 09:30-12:30",
+          "operator": "Biocoop",
+          "organic": "only",
+          "payment:cash:XLT-SVLT": "yes",
+          "ref:FR:SIRET": "52860040600011",
+          "shop": "convenience",
+          "website": "https://www.biocoopjaures-toulouse.com",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1284462470,
+        "lat": 43.5986064,
+        "lon": 1.4454231,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/profile.php?id=100076044588181",
+          "contact:housenumber": "37",
+          "contact:street": "Rue du Languedoc",
+          "description": "Boulangerie Pâtisserie Sandwicherie",
+          "drink:coffee": "yes",
+          "name": "Péché Mignon",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su off",
+          "outdoor_seating": "no",
+          "phone": "+33 5 61 52 64 69",
+          "ref:FR:SIRET": "34348009100051",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1532621106,
+        "lat": 43.6227952,
+        "lon": 1.4619362,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "76",
+          "addr:postcode": "31500",
+          "addr:street": "Avenue de Lavaur",
+          "indoor_seating": "yes",
+          "name": "Au bon quignon",
+          "opening_hours": "Mo-Sa 06:30-19:30; Su 06:30-13:00",
+          "outdoor_seating": "no",
+          "shop": "bakery",
+          "smoking": "no",
+          "source": "GrandToulouse",
+          "source:date": "2011-11-06"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1600504242,
+        "lat": 43.6075166,
+        "lon": 1.4480894,
+        "tags": {
+          "contact:housenumber": "3",
+          "contact:street": "Rue Denfert-Rochereau",
+          "description": "Votre Épicier Asiatique",
+          "email": "contact@kingfat.fr",
+          "name": "King Fat",
+          "opening_hours": "Mo-Sa 09:00-13:00,14:00-19:30; Su 09:00-13:00",
+          "origin": "asian",
+          "shop": "convenience",
+          "website": "https://www.kingfat.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1790703794,
+        "lat": 43.6031439,
+        "lon": 1.4421879,
+        "tags": {
+          "books": "comic",
+          "check_date": "2025-04-21",
+          "contact:city": "Toulouse",
+          "contact:facebook": "http://www.facebook.com/pages/Terres-de-Legendes/178015242225467",
+          "contact:housenumber": "44",
+          "contact:postcode": "31000",
+          "contact:street": "Rue Léon Gambetta",
+          "name": "Librairie Terres de Légendes",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "payment:american_express": "yes",
+          "payment:cheque": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 5 61 22 79 47",
+          "ref:FR:SIRET": "41396060000026",
+          "shop": "books",
+          "source": "local_knowledge",
+          "website": "https://www.canalbd.net/TERRES-DE-LEGENDES"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1977814608,
+        "lat": 43.6002615,
+        "lon": 1.4540502,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "7",
+          "addr:postcode": "31000",
+          "addr:street": "Place Dominique Martin Dupuy",
+          "check_date": "2024-11-17",
+          "contact:housenumber": "7",
+          "contact:instagram": "http://instagram.com/lahalleauxpains?igshid=OGQ5ZDc2ODk2ZA==",
+          "contact:street": "Place Dominique Martin Dupuy",
+          "description": "Boulangerie bio, artisanale et familiale",
+          "name": "La Halle aux Pains",
+          "opening_hours": "Mo-Fr 07:00-20:00; Su 07:00-20:00",
+          "phone": "+33 5 62 73 08 45",
+          "ref:FR:SIRET": "42945656900012",
+          "shop": "bakery",
+          "website": "https://lahalleauxpains-maisonfressinaud.fr/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2056314253,
+        "lat": 43.5979152,
+        "lon": 1.4441952,
+        "tags": {
+          "check_date:opening_hours": "2024-10-19",
+          "contact:housenumber": "15",
+          "contact:street": "Place des Carmes",
+          "indoor_seating": "no",
+          "name": "Le fournil des Carmes",
+          "opening_hours:signed": "no",
+          "outdoor_seating": "no",
+          "ref:FR:SIRET": "49188633900036",
+          "shop": "bakery",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2138802625,
+        "lat": 43.5970771,
+        "lon": 1.4499969,
+        "tags": {
+          "addr:housenumber": "20",
+          "addr:postcode": "31000",
+          "addr:street": "Rue Ninau",
+          "alcohol": "yes",
+          "name": "L'épicerie moderne",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2284115650,
+        "lat": 43.6158569,
+        "lon": 1.4444547,
+        "tags": {
+          "check_date": "2025-12-20",
+          "check_date:opening_hours": "2025-12-20",
+          "indoor_seating": "no",
+          "name": "À 2 pains d’ici",
+          "opening_hours": "Mo-Th 06:30-13:30,16:00-19:30; Fr 06:30-13:30,16:00-19:00; Sa 06:30-12:00",
+          "outdoor_seating": "yes",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2291153631,
+        "lat": 43.5999182,
+        "lon": 1.4452895,
+        "tags": {
+          "contact:housenumber": "12",
+          "contact:street": "Rue des Tourneurs",
+          "name": "Maison Janin",
+          "opening_hours": "Mo-Sa 07:30-20:00",
+          "organic": "yes",
+          "phone": "+33 5 61 44 48 93",
+          "shop": "bakery",
+          "was:name": "Domaine des Longchamps",
+          "was:shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2336118604,
+        "lat": 43.6014192,
+        "lon": 1.4536924,
+        "tags": {
+          "addr:housenumber": "14",
+          "addr:street": "Rue de l'Étoile",
+          "amenity": "cafe",
+          "contact:instagram": "https://www.instagram.com/second_petit_dejeuner/",
+          "name": "Second Petit Déjeuner",
+          "opening_hours": "Tu-Sa 09:30-19:00; Su 09:30-14:00",
+          "phone": "+33 5 61 06 72 02",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2443447120,
+        "lat": 43.6059035,
+        "lon": 1.4412762,
+        "tags": {
+          "contact:housenumber": "13",
+          "contact:street": "Rue des Lois",
+          "name": "L'Ami des Livres",
+          "opening_hours": "Mo-Sa 09:15-18:15",
+          "phone": "+33 5 61 21 92 44",
+          "ref:FR:SIRET": "47847973600017",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2444345555,
+        "lat": 43.6060004,
+        "lon": 1.4426524,
+        "tags": {
+          "check_date": "2026-01-10",
+          "contact:housenumber": "26",
+          "contact:street": "Rue du Taur",
+          "email": "contact@librairie-casteran.com",
+          "name": "Éric Castéran",
+          "opening_hours": "\"reservation by phone or email\"",
+          "ref:FR:SIRET": "40485532200016",
+          "second_hand": "yes",
+          "shop": "books",
+          "source": "survey",
+          "source:ref:FR:SIRET": "INSEE - 06/2019",
+          "website": "https://www.librairie-casteran.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2444345562,
+        "lat": 43.6055343,
+        "lon": 1.4426063,
+        "tags": {
+          "books": "comic, children",
+          "brand": "Gibert Joseph",
+          "brand:wikidata": "Q3105347",
+          "contact:housenumber": "21",
+          "contact:street": "Rue du Taur",
+          "email": "service.client@gibert.com",
+          "fax": "+33 5 61 111 778",
+          "name": "Gibert Joseph",
+          "opening_hours": "Mo-Fr 10:00-17:30, Sa 09:00-17:30",
+          "payment:american_express": "yes",
+          "payment:cash": "yes",
+          "payment:cheque": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 5 61 111 777",
+          "ref:FR:SIRET": "38433001500023",
+          "second_hand": "yes",
+          "shop": "books",
+          "source": "survey",
+          "website": "https://www.gibert.com/stores/toulouse-gibert-joseph-papeterie"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2444345627,
+        "lat": 43.6065993,
+        "lon": 1.4423306,
+        "tags": {
+          "check_date": "2023-12-25",
+          "contact:facebook": "https://www.facebook.com/pages/Librairie-Maldoror-Dominique/153190285210608",
+          "contact:street": "Rue du Taur",
+          "description": "Livres anciens - Cartes postales anciennes",
+          "name": "Maldoror",
+          "phone": "+33 5 61 22 63 46",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2444345673,
+        "lat": 43.6067293,
+        "lon": 1.4424485,
+        "tags": {
+          "check_date": "2023-12-25",
+          "contact:facebook": "https://fr-fr.facebook.com/pages/category/Bookstore/Librairie-Occitania-1731377343766686/",
+          "contact:housenumber": "46",
+          "contact:street": "Rue du Taur",
+          "name": "Occitania",
+          "opening_hours": "Mo 14:00-18:30; Tu-Th 09:30-12:00,14:00-18:30; Fr-Sa 09:30-12:00,14:00-18:00; Su off",
+          "phone": "+33 5 61 21 49 00",
+          "ref:FR:SIRET": "42901054900013",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2445153685,
+        "lat": 43.608224,
+        "lon": 1.4455906,
+        "tags": {
+          "brand": "Brioche Dorée",
+          "brand:website": "https://www.briochedoree.fr/",
+          "brand:wikidata": "Q2925606",
+          "brand:wikipedia": "fr:Brioche Dorée",
+          "check_date": "2026-05-02",
+          "cuisine": "sandwich",
+          "description": "Sandwichs; Patisserie; Salon de Thé",
+          "name": "Brioche Dorée",
+          "opening_hours": "Mo-Sa 08:00-19:00",
+          "phone": "+33 5 34 45 58 94",
+          "ref:FR:SIRET": "31890659100686",
+          "shop": "bakery",
+          "source": "survey",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2445153701,
+        "lat": 43.6081326,
+        "lon": 1.4455994,
+        "tags": {
+          "brand": "Les Fournils de France",
+          "brand:wikidata": "Q104649900",
+          "contact:facebook": "https://www.facebook.com/Les-Fournils-de-France-Toulouse-175074086473590/",
+          "contact:housenumber": "83",
+          "contact:street": "Rue d'Alsace-Lorraine",
+          "cuisine": "sandwich",
+          "drink:coffee": "yes",
+          "name": "Les Fournils de France",
+          "opening_hours": "Mo-Sa 06:30-20:00",
+          "ref:FR:SIRET": "83326252000012",
+          "shop": "bakery",
+          "was:name": "Gem's",
+          "was:shop": "shoes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2445153712,
+        "lat": 43.606131,
+        "lon": 1.4446021,
+        "tags": {
+          "contact:housenumber": "34",
+          "contact:street": "Rue Charles de Rémusat",
+          "name": "Comptoir du rêve",
+          "opening_hours": "Mo 09:30-12:00,13:30-17:30; Tu 13:30-17:30; We-Fr 09:30-12:00,13:30-17:30",
+          "ref:FR:SIRET": "77568534003300",
+          "shop": "books",
+          "source": "survey",
+          "website": "https://www.lamutuellegenerale.fr/agences/la-mutuelle-generale-toulouse-31000.html",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2445153729,
+        "lat": 43.606459,
+        "lon": 1.4448058,
+        "tags": {
+          "books": "comic",
+          "contact:facebook": "https://www.facebook.com/COMPTOIRDUREVE/",
+          "contact:housenumber": "36",
+          "contact:instagram": "https://www.instagram.com/comptoirdureve/",
+          "contact:street": "Rue Charles de Rémusat",
+          "contact:tiktok": "https://www.tiktok.com/@comptoirdurevetoulouse",
+          "email": "comptoirdurevetoulouse@gmail.com",
+          "name": "Comptoir du rêve Litterature",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "payment:cash": "yes",
+          "payment:cb": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 5 61 23 11 79",
+          "ref:FR:SIRET": "48402431000092",
+          "second_hand": "yes",
+          "shop": "books",
+          "was:name": "Rip Curl Store Toulouse",
+          "was:shop": "clothes",
+          "website": "https://www.comptoirdureve.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2445153771,
+        "lat": 43.6086511,
+        "lon": 1.4452658,
+        "tags": {
+          "brand": "La Panetière",
+          "brand:wikidata": "Q100712234",
+          "contact:housenumber": "41",
+          "contact:street": "Boulevard de Strasbourg",
+          "cuisine": "sandwich",
+          "description": "Pains Rustiques; Patisseries; Sandwicherie; Boissons",
+          "name": "La Panetière",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2445201706,
+        "lat": 43.6050127,
+        "lon": 1.4441798,
+        "tags": {
+          "contact:housenumber": "3",
+          "contact:street": "Rue Lafayette",
+          "cuisine": "sandwich",
+          "drink:coffee": "yes",
+          "indoor_seating": "yes",
+          "name": "Maison De Oliveira",
+          "opening_hours": "Mo-Su 06:15-20:00",
+          "organic": "no",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "88768064300020",
+          "shop": "bakery",
+          "takeaway": "yes",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2446506285,
+        "lat": 43.6050709,
+        "lon": 1.442293,
+        "tags": {
+          "contact:housenumber": "3",
+          "contact:street": "Rue des Lois",
+          "name": "Librairie des Lois",
+          "opening_hours": "Mo-Sa 09:00-19:00",
+          "phone": "+33 5 61 22 51 97",
+          "ref:FR:SIRET": "93511555000011",
+          "ref:vatin": "FR59935115550",
+          "shop": "books",
+          "website": "https://www.librairiedeslois.com/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2447719393,
+        "lat": 43.6070181,
+        "lon": 1.4424925,
+        "tags": {
+          "check_date": "2026-07-09",
+          "contact:housenumber": "2",
+          "contact:street": "Rue de Périgord",
+          "name": "Champavert",
+          "phone": "+33 5 61 21 95 96",
+          "ref:FR:SIRET": "82346725300030",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2447719431,
+        "lat": 43.6063998,
+        "lon": 1.4462429,
+        "tags": {
+          "contact:housenumber": "21",
+          "contact:street": "Place Victor Hugo",
+          "cuisine": "sandwich",
+          "description": "Pains - Patisseries - Viennoiserie - Sandwicherie - Boissons",
+          "name": "Le Fournil de Victor Hugo",
+          "opening_hours": "Mo-Sa 07:30-19:30",
+          "ref:FR:SIRET": "43186459400012",
+          "shop": "bakery",
+          "source": "survey",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2450406619,
+        "lat": 43.6100706,
+        "lon": 1.4501937,
+        "tags": {
+          "contact:housenumber": "48",
+          "contact:street": "Rue de Bayard",
+          "name": "Shunfat",
+          "opening_hours": "Mo-Sa 09:35-19:15; Su 10:00-13:00",
+          "ref:FR:SIRET": "79386940500019",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2450406625,
+        "lat": 43.6102932,
+        "lon": 1.4501829,
+        "tags": {
+          "check_date:opening_hours": "2025-07-27",
+          "contact:housenumber": "47",
+          "contact:street": "Rue de Bayard",
+          "name": "Librairie Tawbah",
+          "opening_hours:signed": "no",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2450406637,
+        "lat": 43.6109303,
+        "lon": 1.4517903,
+        "tags": {
+          "brand": "Campaillette",
+          "brand:wikidata": "Q88085399",
+          "check_date:opening_hours": "2024-10-12",
+          "contact:housenumber": "70",
+          "contact:street": "Rue de Bayard",
+          "indoor_seating": "no",
+          "name": "Briocherie des 3J",
+          "opening_hours:signed": "no",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "44239827700024",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2450406642,
+        "lat": 43.6101381,
+        "lon": 1.4503195,
+        "tags": {
+          "contact:housenumber": "48",
+          "contact:street": "Rue de Bayard",
+          "description": "Boucherie - Alimentation Générale",
+          "diet:halal": "yes",
+          "name": "Shop Halal",
+          "official_name": "Shop Hallal Proxim Halal",
+          "ref:FR:SIRET": "52110662500010",
+          "shop": "convenience",
+          "source": "survey",
+          "source:ref:FR:SIRET": "INSEE - 06/2019"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2450406688,
+        "lat": 43.6092314,
+        "lon": 1.4486713,
+        "tags": {
+          "air_conditioning": "yes",
+          "branch": "Matabiau",
+          "contact:facebook": "Les.Freres.Chapelier",
+          "contact:housenumber": "32",
+          "contact:instagram": "lesfrereschapelier",
+          "contact:street": "Rue de Bayard",
+          "cuisine": "sandwich;salad;quiche",
+          "description": "Boulangerie Bio - Café - Sandwichs",
+          "drink:coffee": "yes",
+          "indoor_seating": "yes",
+          "name": "Les Frères Chapelier",
+          "opening_hours": "Mo-Sa 07:30-19:30; Su 08:30-14:00; PH 08:30-14:00, 16:00-18:00",
+          "organic": "only",
+          "outdoor_seating": "yes",
+          "phone": "+33 9 53 24 42 29",
+          "ref:FR:SIRET": "83767765700012",
+          "shop": "bakery",
+          "website": "https://lesfrereschapelier.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2457312551,
+        "lat": 43.6046377,
+        "lon": 1.4416706,
+        "tags": {
+          "books": "comic",
+          "check_date:opening_hours": "2026-05-13",
+          "contact:facebook": "Bedecine",
+          "contact:housenumber": "7",
+          "contact:instagram": "librairiebedecine",
+          "contact:street": "Rue Jean-Antoine Romiguières",
+          "internet_access": "no",
+          "name": "Bédéciné",
+          "opening_hours": "Mo 13:00-19:30; Tu-Sa 10:00-19:30",
+          "payment:cash": "yes",
+          "payment:cb": "yes",
+          "payment:coins": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 5 61 21 64 44",
+          "ref:FR:SIRET": "39789525100015",
+          "shop": "books",
+          "source": "survey;local knowledge",
+          "website": "http://www.bedecine.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2457772108,
+        "lat": 43.60093,
+        "lon": 1.4436525,
+        "tags": {
+          "contact:housenumber": "23",
+          "contact:street": "Rue des Changes",
+          "drink:bubble_tea": "yes",
+          "name": "Koko Mart",
+          "origin": "asian",
+          "ref:FR:SIRET": "93073246600014",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2458144310,
+        "lat": 43.603682,
+        "lon": 1.4458148,
+        "tags": {
+          "branch": "Toulouse Capitole",
+          "brand": "Brioche Dorée",
+          "brand:website": "https://www.briochedoree.fr",
+          "brand:wikidata": "Q2925606",
+          "brand:wikipedia": "fr:Brioche Dorée",
+          "contact:housenumber": "24",
+          "contact:street": "Rue d'Alsace-Lorraine",
+          "cuisine": "sandwich",
+          "indoor_seating": "yes",
+          "name": "Brioche Dorée",
+          "opening_hours": "Mo-Sa 08:15-20:30",
+          "outdoor_seating": "no",
+          "phone": "+33 5 62 27 17 12",
+          "ref:FR:SIRET": "44986200200028",
+          "shop": "bakery",
+          "source": "survey",
+          "website": "https://www.briochedoree.fr/restaurants/1236-toulouse-capitole-24-rue-alsace-lorraine",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2459884610,
+        "lat": 43.5998735,
+        "lon": 1.4420308,
+        "tags": {
+          "contact:housenumber": "16",
+          "contact:phone": "+33 5 62 84 34 10",
+          "contact:street": "Rue de Metz",
+          "name": "Crossover Manga",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "89806919000053",
+          "shop": "books",
+          "website": "https://crossover-shop.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2459885320,
+        "lat": 43.59971,
+        "lon": 1.4414161,
+        "tags": {
+          "brand": "La Panetière",
+          "brand:wikidata": "Q100712234",
+          "contact:housenumber": "2",
+          "contact:street": "Rue de Metz",
+          "indoor_seating": "yes",
+          "name": "La Panetière",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "outdoor_seating": "no",
+          "ref:FR:SIRET": "51764137900105",
+          "shop": "bakery",
+          "was:name": "Psycho Jongleur",
+          "was:shop": "toys"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2460246692,
+        "lat": 43.6101559,
+        "lon": 1.4390788,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/boulangeriejanin/",
+          "contact:housenumber": "19",
+          "contact:street": "Rue Arnaud Bernard",
+          "cuisine": "sandwich",
+          "description": "Pâtisseries fines - Viennoiseries - Pains - Sandwiches",
+          "name": "Maison Janin",
+          "old_name": "Le Fusionnel",
+          "organic": "yes",
+          "shop": "bakery",
+          "source": "survey",
+          "website": "https://www.maison-janin.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2460246695,
+        "lat": 43.6100562,
+        "lon": 1.4390805,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "17",
+          "addr:postcode": "31000",
+          "addr:street": "Rue Arnaud Bernard",
+          "contact:housenumber": "17",
+          "contact:street": "Rue Arnaud Bernard",
+          "description": "Achat - vente de livres anciens et modernes",
+          "email": "contact@feuilletslibres.com",
+          "name": "Feuillets Libres",
+          "opening_hours": "Tu-Sa 11:00-13:00, 15:00-19:00",
+          "phone": "+33 9 60 10 39 63",
+          "ref:FR:SIRET": "39250111000051",
+          "shop": "books",
+          "was:name": "Aster Studio Floral",
+          "was:shop": "florist",
+          "website": "https://www.feuilletslibres.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2460954107,
+        "lat": 43.6022061,
+        "lon": 1.4406888,
+        "tags": {
+          "check_date": "2025-07-10",
+          "contact:housenumber": "15",
+          "contact:street": "Rue Jean Suau",
+          "drink:coffee": "yes",
+          "indoor_seating": "yes",
+          "name": "Secrets de Pains",
+          "opening_hours": "Mo-Fr 06:00-21:00",
+          "organic": "no",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "79926530100017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2460954116,
+        "lat": 43.6032718,
+        "lon": 1.4420263,
+        "tags": {
+          "check_date": "2026-01-10",
+          "contact:facebook": "https://www.facebook.com/Les.Freres.Chapelier/",
+          "contact:housenumber": "23",
+          "contact:mobile": "+33 6 18 37 09 66",
+          "contact:street": "Rue Léon Gambetta",
+          "craft": "bakery",
+          "cuisine": "salad;sandwich",
+          "indoor_seating": "no",
+          "name": "Les Frères Chapelier",
+          "opening_hours": "Mo-Sa 07:30-20:00; Su 09:00-14:00; PH Mo-Sa 07:30-20:00; PH Su 09:00-14:00",
+          "organic": "only",
+          "outdoor_seating": "yes",
+          "pastry": "yes",
+          "phone": "+33 5 62 73 08 69",
+          "produced_on_site": "yes",
+          "ref:FR:SIRET": "85265940800029",
+          "shop": "bakery",
+          "takeaway": "yes",
+          "website": "https://lesfrereschapelier.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2460954129,
+        "lat": 43.603558,
+        "lon": 1.4421973,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "33",
+          "addr:postcode": "31000",
+          "addr:street": "Rue Léon Gambetta",
+          "books": "cinema",
+          "check_date": "2025-09-11",
+          "contact:facebook": "librairieombresblanches",
+          "contact:housenumber": "33",
+          "contact:street": "Rue Léon Gambetta",
+          "email": "cinema@ombres-blanches.fr",
+          "name": "Librairie Ombres blanches et lumières - Cinéma",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "operator": "Ombres blanches",
+          "ref:FR:SIRET": "30430694700074",
+          "shop": "books",
+          "source": "survey",
+          "website": "https://www.ombres-blanches.fr/",
+          "wikidata": "Q3351952",
+          "wikipedia": "fr:Ombres blanches (librairie)"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2460954132,
+        "lat": 43.603611,
+        "lon": 1.4422327,
+        "tags": {
+          "contact:housenumber": "35",
+          "contact:street": "Rue Léon Gambetta",
+          "craft": "caterer",
+          "cuisine": "asian",
+          "description": "Épicerie Traiteur asiatique",
+          "disused:shop": "pastry",
+          "name": "Mia San",
+          "opening_hours": "Mo-Sa 09:30-19:30",
+          "origin": "asian",
+          "ref:FR:SIRET": "93257008800017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2460954164,
+        "lat": 43.6031155,
+        "lon": 1.4419297,
+        "tags": {
+          "check_date": "2026-07-08",
+          "contact:housenumber": "17",
+          "contact:street": "Rue Léon Gambetta",
+          "cuisine": "sandwich;salad",
+          "description": "Pain Patisserie - Viennoiserie - Sandwicherie - Salades - Traiteur",
+          "drink:coffee": "yes",
+          "name": "Ô délices d'Amandine !",
+          "organic": "no",
+          "ref:FR:SIRET": "51172545900016",
+          "shop": "bakery",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2462248693,
+        "lat": 43.6000354,
+        "lon": 1.4451153,
+        "tags": {
+          "contact:housenumber": "19",
+          "contact:street": "Rue des Tourneurs",
+          "description": "Santé - Psychologie - Ésothérisme - Orient",
+          "name": "Absolu",
+          "phone": "+33 5 61 14 16 02",
+          "ref:FR:SIRET": "97799125600016",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2462248697,
+        "lat": 43.6021717,
+        "lon": 1.4420981,
+        "tags": {
+          "addr:housenumber": "13",
+          "addr:street": "Sainte Ursule",
+          "name": "Ombres blanches - librairie internationale",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00; Su off",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2462248698,
+        "lat": 43.6019876,
+        "lon": 1.442145,
+        "tags": {
+          "books": "comic",
+          "check_date": "2024-04-05",
+          "contact:facebook": "https://www.facebook.com/BDfuguecom",
+          "contact:housenumber": "11",
+          "contact:street": "Rue Sainte-Ursule",
+          "name": "BD Fugue",
+          "opening_hours": "Mo 12:00-19:00; Tu-Th 10:00-19:00; Fr-Sa 10:00-19:30",
+          "phone": "+33 5 34 25 17 47",
+          "ref:FR:SIRET": "81930324900018",
+          "shop": "books",
+          "source": "survey",
+          "website": "https://www.bdfugue.com/librairie-bdfugue-toulouse",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2462248712,
+        "lat": 43.6026853,
+        "lon": 1.4419878,
+        "tags": {
+          "check_date:opening_hours": "2026-05-17",
+          "contact:housenumber": "17",
+          "contact:phone": "+33 5 61 21 34 49",
+          "contact:street": "Rue Sainte-Ursule",
+          "email": "contact@imagineres.fr",
+          "name": "Imagin'ères",
+          "opening_hours": "Mo 13:00-19:00; Tu-Fr 11:00-19:00; Sa 10:00-19:00",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "43240206300023",
+          "shop": "books",
+          "website": "https://www.imagineres.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2462248719,
+        "lat": 43.6001863,
+        "lon": 1.4444542,
+        "tags": {
+          "branch": "Toulouse Esquirol",
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "brand:wikipedia": "fr:La Mie câline",
+          "check_date": "2024-08-12",
+          "contact:housenumber": "9",
+          "contact:street": "Place Étienne Esquirol",
+          "indoor_seating": "no",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Sa 07:00-20:00; Su 09:00-19:30",
+          "outdoor_seating": "yes",
+          "phone": "+33 5 61 52 04 13",
+          "ref:FR:SIRET": "84264595400020",
+          "shop": "bakery",
+          "source": "survey",
+          "website": "https://www.lamiecaline.com/boutiques/toulouse-esquirol/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2462248720,
+        "lat": 43.6007171,
+        "lon": 1.4431979,
+        "tags": {
+          "brand": "Institut d’Etudes Occitanes (IEO)",
+          "brand:oc": "Institut d’Estudis Occitans (IEO)",
+          "email": "contacte@latutadoc.com",
+          "name": "La Tuta d'Òc",
+          "name:oc": "La Tuta d’Òc",
+          "opening_hours": "Tu 14:00-18:30; We,Th,Sa 11:00-13:00,14:00-18:30; Fr 14:00-18:30",
+          "operator": "Institut d’Etudes Occitanes 31",
+          "shop": "books",
+          "source": "survey",
+          "source:name:oc": "ieo-bdtopoc",
+          "website": "http://www.latutadoc.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2462248748,
+        "lat": 43.6022597,
+        "lon": 1.442224,
+        "tags": {
+          "alt_name": "Librairie Série B",
+          "check_date": "2026-05-17",
+          "contact:facebook": "https://www.facebook.com/serieBtoulouse/",
+          "contact:housenumber": "16",
+          "contact:street": "Rue Sainte-Ursule",
+          "description": "Policier Thriller Roman Noir Science-Fiction & Fantastique",
+          "email": "librairieserieb@orange.fr",
+          "level": "0",
+          "name": "Série B",
+          "opening_hours": "Tu-Fr 10:00-19:00",
+          "phone": "+33 5 62 27 03 34",
+          "ref:FR:SIRET": "75345874400012",
+          "shop": "books",
+          "source": "survey",
+          "website": "http://www.librairieserieb.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2463356596,
+        "lat": 43.6037387,
+        "lon": 1.4503993,
+        "tags": {
+          "brand": "La Panetière",
+          "brand:wikidata": "Q100712234",
+          "check_date": "2024-10-19",
+          "check_date:opening_hours": "2024-10-19",
+          "contact:housenumber": "55",
+          "contact:street": "Boulevard Lazare Carnot",
+          "indoor_seating": "yes",
+          "name": "La Panetière",
+          "opening_hours:signed": "no",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "41127320400080",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2464788565,
+        "lat": 43.6014971,
+        "lon": 1.4403913,
+        "tags": {
+          "books": "comic",
+          "contact:housenumber": "5",
+          "contact:phone": "+33 5 62 27 23 49",
+          "contact:street": "Rue François Boyer-Fonfrède",
+          "email": "papivore.toulouse@gmail.com",
+          "name": "Le Papivore",
+          "opening_hours": "Tu-Sa 11:00-19:00",
+          "ref:FR:SIRET": "40076855200020",
+          "second_hand": "yes",
+          "shop": "books",
+          "source": "survey",
+          "website": "http://www.papivore-toulouse.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2464788591,
+        "lat": 43.6015029,
+        "lon": 1.4399247,
+        "tags": {
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "check_date": "2025-05-26",
+          "name": "Spar",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2465994185,
+        "lat": 43.6043776,
+        "lon": 1.4405108,
+        "tags": {
+          "books": "english",
+          "check_date": "2026-05-13",
+          "contact:facebook": "https://www.facebook.com/thebookshoptoulouse/",
+          "contact:housenumber": "17",
+          "contact:phone": "+33 5 61 22 99 92",
+          "contact:street": "Rue Joesph Lakanal",
+          "description": "Librairie étrangère",
+          "email": "bookshop.tlse@wanadoo.fr",
+          "name": "The Bookshop",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "51005176600010",
+          "shop": "books",
+          "source": "survey",
+          "website": "https://thebookshop.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2469891534,
+        "lat": 43.6176524,
+        "lon": 1.4551498,
+        "tags": {
+          "contact:housenumber": "34",
+          "contact:street": "Rue du Faubourg Bonnefoy",
+          "name": "L'épi-curieux",
+          "opening_hours": "Mo,We-Su 06:30-20:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "ref:FR:SIRET": "48764942800041",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2474616516,
+        "lat": 43.6011258,
+        "lon": 1.4483354,
+        "tags": {
+          "contact:housenumber": "6",
+          "contact:street": "Rue d'Astorg",
+          "name": "Terra Maïr",
+          "opening_hours": "Mo-Sa 08:00-19:30; Su 08:30-13:30",
+          "organic": "yes",
+          "shop": "bakery",
+          "was:name": "Vu Concept",
+          "was:shop": "interior_decoration"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2478393328,
+        "lat": 43.6018814,
+        "lon": 1.447389,
+        "tags": {
+          "contact:city": "Toulouse",
+          "contact:housenumber": "6",
+          "contact:postcode": "31000",
+          "contact:street": "Place Saint-Georges",
+          "drink:coffee": "yes",
+          "name": "Isä",
+          "opening_hours": "Mo-Sa 07:00-19:30",
+          "outdoor_seating": "yes",
+          "phone": "+33 5 61 22 71 19",
+          "ref:FR:SIRET": "48262842700015",
+          "shop": "bakery",
+          "source": "survey",
+          "was:name": "La Boulange Saint-Georges"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2478393353,
+        "lat": 43.6020326,
+        "lon": 1.4467861,
+        "tags": {
+          "contact:facebook": "www.facebook.com/pages/Maison-De-Oliveira/476963619324336",
+          "contact:housenumber": "5",
+          "contact:street": "Rue de la Pomme",
+          "description": "Pâtisserie - Boulangerie",
+          "indoor_seating": "no",
+          "name": "Maison De Oliveira",
+          "opening_hours": "Tu-Su 06:15-20:00; Mo off",
+          "outdoor_seating": "no",
+          "phone": "+33 9 67 58 00 74",
+          "ref:FR:SIRET": "98159836000015",
+          "shop": "bakery",
+          "source": "survey",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2525414142,
+        "lat": 43.611035,
+        "lon": 1.4391981,
+        "tags": {
+          "contact:housenumber": "12",
+          "contact:street": "Place Arnaud Bernard",
+          "cuisine": "sandwich",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2796965989,
+        "lat": 43.6187006,
+        "lon": 1.4559915,
+        "tags": {
+          "contact:email": "contact@le-galopain.fr",
+          "contact:facebook": "https://www.facebook.com/LeGaloPain",
+          "contact:housenumber": "67",
+          "contact:instagram": "https://www.instagram.com/legalopain/",
+          "contact:street": "Rue du Faubourg Bonnefoy",
+          "name": "Le Galo'Pain",
+          "opening_hours": "Mo-Fr 07:00-19:00",
+          "phone": "+33 5 34 30 11 53",
+          "ref:FR:SIRET": "82878214400012",
+          "shop": "bakery",
+          "source": "survey",
+          "website": "https://le-galopain.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2945434349,
+        "lat": 43.6097538,
+        "lon": 1.4441286,
+        "tags": {
+          "contact:housenumber": "63",
+          "contact:street": "Boulevard de Strasbourg",
+          "cuisine": "russian",
+          "description": "Gastronomie Russe",
+          "name": "Épicerie Krystal",
+          "opening_hours": "Mo-Su 09:30-21:00",
+          "phone": "+33 5 67 11 15 91",
+          "ref:FR:SIRET": "94908136800019",
+          "shop": "convenience",
+          "website": "https://www.facebook.com/russekrystal/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3043065839,
+        "lat": 43.606883,
+        "lon": 1.4526352,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "42",
+          "addr:postcode": "31000",
+          "addr:street": "Rue des Sept Troubadours",
+          "contact:phone": "+33 5 61 15 59 97",
+          "currency:XLT": "SVLT",
+          "name": "Le Recantou",
+          "note": "Épicerie associative paysanne",
+          "opening_hours": "Mo-Fr 10:00-13:30,15:30-19:00; Sa 10:00-13:30,15:30-18:00",
+          "payment:cash:XLT-SVLT": "yes",
+          "ref:FR:SIRET": "53515364700024",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3230360035,
+        "lat": 43.6136769,
+        "lon": 1.460898,
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "check_date:opening_hours": "2025-11-13",
+          "name": "Vival",
+          "opening_hours": "Mo-Th 08:30-13:00,15:00-21:30; Fr,Sa 08:30-13:00,15:00-22:00; Su 08:30-21:30",
+          "phone": "+33 9 80 64 52 42",
+          "shop": "convenience",
+          "website": "https://magasins.vival.fr/fr/vival-toulouse-jolimont"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3422204241,
+        "lat": 43.6180697,
+        "lon": 1.4552496,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:postcode": "31500",
+          "addr:street": "Rue du Faubourg Bonnefoy",
+          "contact:housenumber": "45",
+          "contact:street": "Rue du Faubourg Bonnefoy",
+          "indoor_seating": "yes",
+          "name": "Cosette",
+          "opening_hours": "Mo-Sa 06:30-19:30; Su 08:00-15:00; PH 08:00-15:00",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "89107768700020",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3439110562,
+        "lat": 43.6090462,
+        "lon": 1.4465266,
+        "tags": {
+          "contact:housenumber": "13",
+          "contact:street": "Place Jeanne d'Arc",
+          "indoor_seating": "yes",
+          "name": "La Mie d'Anna",
+          "opening_hours": "Mo-Fr 05:00-18:00",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "83794867800011",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3439110568,
+        "lat": 43.6090797,
+        "lon": 1.4459432,
+        "tags": {
+          "branch": "Toulouse Jeanne d'Arc",
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "brand:wikipedia": "fr:La Mie câline",
+          "check_date": "2023-05-06",
+          "contact:housenumber": "2",
+          "contact:street": "Place Jeanne d'Arc",
+          "cuisine": "sandwich",
+          "indoor_seating": "yes",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Fr 06:30-20:00; Sa 07:00-20:00; Su 07:00-19:00",
+          "outdoor_seating": "no",
+          "phone": "+33 5 61 99 15 81",
+          "ref:FR:SIRET": "52917318900018",
+          "shop": "bakery",
+          "source": "survey",
+          "website": "https://www.lamiecaline.com/boutiques/toulouse-jeanne-darc/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3440754924,
+        "lat": 43.6098777,
+        "lon": 1.4440005,
+        "tags": {
+          "contact:housenumber": "65",
+          "contact:street": "Boulevard de Strasbourg",
+          "description": "Snacks - Boulangerie - Pizzas",
+          "name": "F",
+          "ref:FR:SIRET": "49078940100018",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3462901517,
+        "lat": 43.599838,
+        "lon": 1.4442571,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "7",
+          "addr:postcode": "31000",
+          "addr:street": "Place de la Trinité",
+          "branch": "Trinité Toulouse",
+          "brand": "Biocoop",
+          "brand:wikidata": "Q2904039",
+          "brand:wikipedia": "fr:Biocoop",
+          "bulk_purchase": "yes",
+          "change:XLT-SVLT": "yes",
+          "check_date": "2025-12-31",
+          "contact:city": "Toulouse",
+          "contact:housenumber": "7",
+          "contact:phone": "+33 5 34 42 49 19",
+          "contact:postcode": "31000",
+          "contact:street": "Place de la Trinité",
+          "currency:XLT": "SVLT",
+          "name": "Biocoop",
+          "opening_hours": "Su 09:30-12:30; Mo-Sa 10:00-20:00",
+          "operator": "Biocoop",
+          "organic": "only",
+          "payment:cash": "yes",
+          "payment:cash:XLT-SVLT": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:NAF": "4711B",
+          "ref:FR:SIRET": "79915846400013",
+          "shop": "convenience",
+          "website": "https://www.biocooptrinite-toulouse.com",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3503811595,
+        "lat": 43.613547,
+        "lon": 1.4607967,
+        "tags": {
+          "indoor_seating": "yes",
+          "name": "Le panier royal",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "outdoor_seating": "no",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3611241300,
+        "lat": 43.6060447,
+        "lon": 1.4410926,
+        "tags": {
+          "books": "law",
+          "brand": "Gibert Joseph",
+          "brand:wikidata": "Q3105347",
+          "contact:housenumber": "17",
+          "contact:street": "Rue des Lois",
+          "name": "Gibert Joseph - Droit",
+          "opening_hours": "Tu-Fr 10:00-18:30; Mo,Sa 13:00-18:30",
+          "ref:FR:SIRET": "38433001500031",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3626503093,
+        "lat": 43.6006602,
+        "lon": 1.4556731,
+        "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3657345938,
+        "lat": 43.6237445,
+        "lon": 1.4387134,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:postcode": "31200",
+          "addr:street": "Rue d'Arcachon",
+          "name": "Graine des Mazades",
+          "opening_hours": "Mo-Fr 08:30-13:30,16:30-19:00; Sa 08:30-13:00",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33769545888",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3751077566,
+        "lat": 43.6045378,
+        "lon": 1.4528649,
+        "tags": {
+          "contact:housenumber": "36",
+          "contact:street": "Rue de la Colombette",
+          "contact:website": "http://www.librairie-floury.fr/",
+          "name": "Floury Frères",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "52225621300011",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3751077575,
+        "lat": 43.6008829,
+        "lon": 1.4678418,
+        "tags": {
+          "name": "Etoile de nuit",
+          "opening_hours": "Mo-Fr 19:00-02:00; Sa 19:00-03:00; Su 17:00-02:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3751077601,
+        "lat": 43.6044589,
+        "lon": 1.4531791,
+        "tags": {
+          "contact:housenumber": "31",
+          "contact:street": "Rue de la Colombette",
+          "diet:halal": "no",
+          "diet:kosher": "no",
+          "email": "contact@aupetitjapon.fr",
+          "name": "Au petit Japon",
+          "note": "Épicerie fine, arts de la table, textile, décoration.",
+          "opening_hours": "Tu-Sa 10:00-12:30,14:00-19:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 5 31 22 52 23",
+          "ref:FR:SIRET": "90853818400015",
+          "shop": "convenience",
+          "website": "www.aupetitjapon.fr",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3857450743,
+        "lat": 43.6001665,
+        "lon": 1.4525717,
+        "tags": {
+          "contact:housenumber": "20",
+          "contact:street": "Rue des Frères Lion",
+          "name": "Au Petit Pétrin",
+          "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:30-13:00",
+          "ref:FR:SIRET": "52921256500012",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3881638419,
+        "lat": 43.6012027,
+        "lon": 1.4573705,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:street": "Rue du Pont Guilhemery",
+          "check_date:opening_hours": "2025-06-07",
+          "name": "Lady J Exotic",
+          "opening_hours": "Th-Sa 10:00-02:00; Mo 10:00-20:00; Tu 10:00-16:00; We 10:00-21:00",
+          "ref:FR:SIRET": "91452518300028",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3986839551,
+        "lat": 43.6170804,
+        "lon": 1.4541316,
+        "tags": {
+          "contact:housenumber": "15",
+          "contact:street": "Rue du Faubourg Bonnefoy",
+          "name": "Epicerie de nuit",
+          "opening_hours": "Mo-Su,PH 18:00-01:00",
+          "ref:FR:SIRET": "45155642700024",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4235507544,
+        "lat": 43.6223471,
+        "lon": 1.4585906,
+        "tags": {
+          "branch": "Toulouse Faubourg Bonnefoy",
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "contact:housenumber": "114",
+          "contact:street": "Rue du Faubourg Bonnefoy",
+          "name": "Spar supermarché",
+          "opening_hours": "Mo-Sa 08:00-20:30; Su 08:00-14:00",
+          "phone": "+33 5 61 38 86 76",
+          "ref:FR:SIRET": "97995118300016",
+          "shop": "convenience",
+          "website": "https://magasins.spar.fr/fr/spar-supermarche-toulouse-faubourg-bonnefoy"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4237201366,
+        "lat": 43.6217377,
+        "lon": 1.457965,
+        "tags": {
+          "contact:housenumber": "143",
+          "contact:street": "Rue du Faubourg Bonnefoy",
+          "name": "Suzanna épicerie russe",
+          "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-19:00",
+          "ref:FR:SIRET": "53148235400010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4285279188,
+        "lat": 43.6119934,
+        "lon": 1.4386937,
+        "tags": {
+          "check_date": "2023-04-23",
+          "contact:housenumber": "4",
+          "contact:street": "Avenue Honoré Serres",
+          "name": "L'épicerie de nuit",
+          "opening_hours": "19:00-02:00",
+          "ref:FR:SIRET": "79283933400010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4325913382,
+        "lat": 43.6005609,
+        "lon": 1.4451956,
+        "tags": {
+          "check_date:opening_hours": "2025-06-08",
+          "name": "Maison De Oliveira",
+          "opening_hours:signed": "no",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4867926096,
+        "lat": 43.6133018,
+        "lon": 1.4462183,
+        "tags": {
+          "contact:housenumber": "59",
+          "contact:phone": "+33 5 34 28 01 58",
+          "contact:street": "Rue de la Concorde",
+          "name": "Maison Concorde",
+          "opening_hours": "Tu-Fr 09:00-14:00,16:00-19:30; Sa 09:00-14:00",
+          "organic": "yes",
+          "ref:FR:SIRET": "99081094700012",
+          "shop": "bakery",
+          "was:amenity": "restaurant",
+          "was:name": "Kaï wok"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4886123557,
+        "lat": 43.6111941,
+        "lon": 1.4566302,
+        "tags": {
+          "addr:city": "31500",
+          "addr:street": "5 Rue René Leduc",
+          "air_conditioning": "yes",
+          "bulk_purchase": "yes",
+          "check_date:opening_hours": "2026-04-08",
+          "contact:city": "Toulouse",
+          "contact:email": "contact@lachouettecoop.fr",
+          "contact:facebook": "lachouettecoop",
+          "contact:housenumber": "5",
+          "contact:postcode": "31500",
+          "contact:street": "Rue René Leduc",
+          "contact:website": "https://lachouettecoop.fr/",
+          "currency:EUR": "yes",
+          "currency:Sol_violette": "yes",
+          "description": "Supermarché coopératif & participatif à Toulouse",
+          "diet:gluten_free": "yes",
+          "diet:lactose_free": "yes",
+          "diet:meat": "yes",
+          "diet:non-vegetarian": "yes",
+          "diet:organic": "yes",
+          "diet:vegan": "yes",
+          "diet:vegetarian": "yes",
+          "image": "https://lachouettecoop.fr/wp-content/uploads/2017/02/logo_La-Chouette-Coop_2017_vert20cm.png",
+          "name": "La Chouette Coop",
+          "opening_hours": "Mo 16:00-20:00; Tu-Th 13:00-20:00; Fr 13:00-19:00; Sa 09:00-17:00; Su off",
+          "operator": "La Chouette Coop",
+          "operator:ref:FR:SIREN": "829870765",
+          "operator:type": "cooperative",
+          "organic": "yes",
+          "payment:Sol_Violette": "yes",
+          "payment:coins": "yes",
+          "payment:debit_cards": "yes",
+          "payment:meal_voucher": "yes",
+          "payment:notes": "yes",
+          "ref:FR:NAF": "47.19B",
+          "ref:FR:SIRET": "82987076500023",
+          "ref:vatin": "FR25829870765",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4897758622,
+        "lat": 43.6041664,
+        "lon": 1.454091,
+        "tags": {
+          "contact:city": "Toulouse",
+          "contact:housenumber": "47",
+          "contact:postcode": "31000",
+          "contact:street": "Rue Pierre Paul Riquet",
+          "drink:coffee": "yes",
+          "indoor_seating": "yes",
+          "name": "Au cœur du grain",
+          "opening_hours": "Mo-Th 08:00-21:00; Fr 08:00-15:00; Su 07:30-20:00",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "82220656100026",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4924004834,
+        "lat": 43.6018153,
+        "lon": 1.4402997,
+        "tags": {
+          "check_date": "2026-05-13",
+          "check_date:opening_hours": "2026-05-13",
+          "contact:housenumber": "4",
+          "contact:phone": "+33 5 61 23 17 82",
+          "contact:street": "Rue Jean Suau",
+          "currency:XLT": "SVLT",
+          "email": "info@croquenotes.com",
+          "name": "Le Croquenotes",
+          "opening_hours": "Tu,Th,Fr 13:00-19:00; We,Sa 10:00-19:00",
+          "payment:cash:XLT-SVLT": "yes",
+          "ref:FR:SIRET": "33063935200047",
+          "shop": "books",
+          "website": "http://site.croquenotes.com/accueil.html"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4951310322,
+        "lat": 43.5983851,
+        "lon": 1.44424,
+        "tags": {
+          "books": "comic",
+          "check_date:opening_hours": "2025-12-06",
+          "contact:housenumber": "16",
+          "contact:street": "Rue des Filatiers",
+          "name": "Atmosphères",
+          "name:en": "Atmosphères",
+          "name:fr": "Atmosphères",
+          "opening_hours": "Tu-Fr 10:30-13:00,14:00-19:30; Sa 10:30-13:00,13:30-19:30",
+          "ref:FR:SIRET": "89526543700015",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4993092205,
+        "lat": 43.600384,
+        "lon": 1.4525051,
+        "tags": {
+          "branch": "Toulouse Lion",
+          "brand": "Naturalia",
+          "brand:wikidata": "Q3337081",
+          "brand:wikipedia": "fr:Naturalia",
+          "bulk_purchase": "yes",
+          "contact:housenumber": "23",
+          "contact:street": "Rue des Frères Lion",
+          "name": "Naturalia",
+          "opening_hours": "Mo-Sa 10:00-20:00; Su 09:30-13:30",
+          "organic": "only",
+          "phone": "+33 5 32 09 30 74",
+          "shop": "convenience",
+          "source": "survey",
+          "website": "https://magasins.naturalia.fr/naturalia/fr/store/france/occitanie/haute-garonne/toulouse/toulouse-lion/4113"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5052294972,
+        "lat": 43.597518,
+        "lon": 1.4591794,
+        "tags": {
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "brand:wikipedia": "en:SPAR (retailer)",
+          "contact:housenumber": "23",
+          "contact:street": "Avenue Jean Rieux",
+          "name": "Spar",
+          "opening_hours": "Mo-Su 08:00-23:00",
+          "ref:FR:SIRET": "92508020200011",
+          "shop": "convenience",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5057135621,
+        "lat": 43.5999152,
+        "lon": 1.4404471,
+        "tags": {
+          "name": "Cerise - L'atelier boutique",
+          "opening_hours": "Tu-Sa 11:30-18:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5787695920,
+        "lat": 43.6078438,
+        "lon": 1.4486181,
+        "tags": {
+          "contact:housenumber": "15",
+          "contact:street": "Rue Denfert-Rochereau",
+          "level": "0",
+          "name": "Ytang",
+          "origin": "asian",
+          "phone": "+33 5 67 11 08 04",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5858887243,
+        "lat": 43.6087633,
+        "lon": 1.4463452,
+        "tags": {
+          "check_date:opening_hours": "2025-12-20",
+          "contact:housenumber": "15",
+          "contact:street": "Place Jeanne d'Arc",
+          "name": "Épicerie de nuit",
+          "opening_hours:signed": "no",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5876461536,
+        "lat": 43.596724,
+        "lon": 1.4500801,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/NaturConcept/",
+          "contact:housenumber": "6",
+          "contact:street": "Place Montoulieu",
+          "name": "Natur' concept",
+          "opening_hours": "Mo-Sa 08:00-20:30;Su 08:30-13:00",
+          "phone": "+33 9 86 17 43 87",
+          "ref:FR:SIRET": "80532064500015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5885320664,
+        "lat": 43.5980491,
+        "lon": 1.4429695,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/Le-Potiron-DOr-395927110823955/",
+          "contact:housenumber": "2",
+          "contact:street": "Rue des Paradoux",
+          "name": "Le Potiron d'Or",
+          "opening_hours": "Mo-Sa 09:00-21:00; Su 09:00-13:00",
+          "organic": "yes",
+          "outdoor_seating": "yes",
+          "phone": "+33 5 62 15 11 20",
+          "ref:FR:SIRET": "82905262000012",
+          "shop": "convenience",
+          "website": "https://le-potiron-dor.business.site/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5954733865,
+        "lat": 43.5989754,
+        "lon": 1.4551395,
+        "tags": {
+          "check_date:opening_hours": "2024-01-04",
+          "name:signed": "no",
+          "opening_hours:signed": "no",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5998378871,
+        "lat": 43.6066259,
+        "lon": 1.4449166,
+        "tags": {
+          "books": "comic",
+          "contact:facebook": "https://www.facebook.com/COMPTOIRDUREVE/",
+          "contact:housenumber": "40",
+          "contact:instagram": "https://www.instagram.com/comptoirdureve/",
+          "contact:street": "Rue Charles de Rémusat",
+          "contact:tiktok": "https://www.tiktok.com/@comptoirdurevetoulouse",
+          "description": "Librairie spécialisée manga, vends BD manga et comics d'occasion",
+          "email": "comptoirdurevetoulouse@gmail.com",
+          "name": "Comptoir du rêve Manga",
+          "opening_hours": "Mo-Sa 10:00-12:30,13:30-19:00",
+          "payment:cash": "yes",
+          "payment:cb": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 5 61 23 11 79",
+          "ref:FR:SIRET": "48402431000050",
+          "second_hand": "yes",
+          "shop": "books",
+          "website": "https://www.comptoirdureve.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6076102071,
+        "lat": 43.6011129,
+        "lon": 1.4540716,
+        "tags": {
+          "contact:housenumber": "18",
+          "contact:street": "Rue Pierre Paul Riquet",
+          "name": "Le Loup Bleu",
+          "opening_hours": "Tu-Sa 10:30-13:00,14:30-19:00; Su 10:00-13:00",
+          "ref:FR:SIRET": "45253309400010",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6165676409,
+        "lat": 43.6066087,
+        "lon": 1.4464677,
+        "tags": {
+          "alt_name": "Boulangerie Pâtisserie Lemeur",
+          "contact:place": "Marché Victor Hugo",
+          "level": "0",
+          "name": "Guillaume et Madeleine",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6165676410,
+        "lat": 43.6062439,
+        "lon": 1.4465563,
+        "tags": {
+          "contact:place": "Marché Victor Hugo",
+          "level": "0",
+          "name": "Credo",
+          "ref:FR:SIRET": "83933592400024",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6165676411,
+        "lat": 43.6061886,
+        "lon": 1.446832,
+        "tags": {
+          "contact:place": "Marché Victor Hugo",
+          "description": "Boulangerie - Pâtisserie",
+          "email": "contact@maison-beauhaire.fr",
+          "level": "0",
+          "name": "Maison Beauhaire",
+          "opening_hours": "Tu-Su 06:00-14:00",
+          "organic": "yes",
+          "phone": "+33 5 34 33 57 71",
+          "ref:FR:SIRET": "51281690100031",
+          "shop": "bakery",
+          "website": "https://www.maison-beauhaire.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6165676412,
+        "lat": 43.6065997,
+        "lon": 1.4467588,
+        "tags": {
+          "contact:place": "Marché Victor Hugo",
+          "level": "0",
+          "name": "La Grange des Pains",
+          "opening_hours": "Tu-Sa 07:00-13:30",
+          "ref:FR:SIRET": "95329119200029",
+          "shop": "bakery",
+          "was:name": "Boulangerie Cadenet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6221333925,
+        "lat": 43.6046378,
+        "lon": 1.4403937,
+        "tags": {
+          "contact:housenumber": "66",
+          "contact:street": "Rue Pargaminières",
+          "description": "Épicerie asiatique",
+          "name": "Minfoo",
+          "origin": "asian",
+          "ref:FR:SIRET": "94190852700018",
+          "shop": "convenience",
+          "was:name": "Era Immobilier",
+          "was:office": "estate_agent"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6419278468,
+        "lat": 43.6164326,
+        "lon": 1.4534008,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/linguereafro/",
+          "contact:housenumber": "5",
+          "contact:street": "Rue du Faubourg Bonnefoy",
+          "name": "La Linguere",
+          "opening_hours": "Tu-Fr 14:00-19:30; Sa 10:00-20:00; Su 11:00-17:00; Mo off",
+          "origin": "african",
+          "ref:FR:SIRET": "74982125200030",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6900961138,
+        "lat": 43.6074483,
+        "lon": 1.4482442,
+        "tags": {
+          "contact:housenumber": "6",
+          "contact:street": "Rue Denfert-Rochereau",
+          "name": "Bangla Bazar",
+          "phone": "+33562809636",
+          "ref:FR:SIRET": "91421546200013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6995653851,
+        "lat": 43.6002184,
+        "lon": 1.453584,
+        "tags": {
+          "brand": "La Panetière",
+          "brand:wikidata": "Q100712234",
+          "check_date:opening_hours": "2026-02-28",
+          "contact:housenumber": "3",
+          "contact:street": "Place Dominique Martin Dupuy",
+          "name": "La Panetière",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "47973781900082",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7359816832,
+        "lat": 43.6035957,
+        "lon": 1.4418268,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "13",
+          "addr:postcode": "31000",
+          "addr:street": "Rue Sainte-Ursule",
+          "books": "english;academic;textbook",
+          "building:levels": "0",
+          "check_date:opening_hours": "2025-09-11",
+          "contact:facebook": "librairieombresblanches",
+          "contact:instagram": "ombresblanches",
+          "contact:phone": "+33 5 34 45 55 32",
+          "description:fr": "Ombres blanches est une librairie indépendante et généraliste de Toulouse. Cette partie du magasin est dédié est consacré aux livres bilingues et en VO.",
+          "email": "etrangeres@ombres-blanches.fr",
+          "name": "Librairie Ombres blanches internationale",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "opening_hours:url": "https://www.ombres-blanches.fr/page/5/informations-pratiques",
+          "operator": "Ombres Blanches",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "books",
+          "website": "https://www.ombres-blanches.fr/",
+          "wikidata": "Q3351952",
+          "wikipedia": "fr:Ombres blanches (librairie)"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7369021461,
+        "lat": 43.5986815,
+        "lon": 1.444214,
+        "tags": {
+          "contact:housenumber": "26",
+          "contact:street": "Rue des Filatiers",
+          "name": "Montané Primeurs",
+          "ref:FR:SIRET": "39826522300022",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7415938135,
+        "lat": 43.6118895,
+        "lon": 1.4448131,
+        "tags": {
+          "bulk_purchase": "yes",
+          "check_date": "2024-11-14",
+          "contact:email": "epicerievractoulouse@gmail.com",
+          "contact:facebook": "https://www.facebook.com/Les-Tar%C3%A9es-du-Vrac-108595803884035/",
+          "contact:housenumber": "21-23",
+          "contact:phone": "+33 6 89 56 56 01",
+          "contact:street": "Rue de la Concorde",
+          "delivery": "yes",
+          "name": "Les Tarées du Vrac",
+          "opening_hours": "Mo 15:00-19:30; Tu-Fr 10:00-13:00,15:00-19:30; Th 10:00-13:00,16:00-19:30; Sa 10:00-13:00,15:00-19:00; Su 10:00-13:00",
+          "organic": "only",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "88090074100013",
+          "shop": "convenience",
+          "website": "https://lestareesduvrac.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7419099438,
+        "lat": 43.5992818,
+        "lon": 1.4490976,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "11",
+          "addr:postcode": "31000",
+          "addr:street": "Rue Pierre de Fermat",
+          "contact:phone": "+33 5 61 52 07 07",
+          "craft": "bookbinder",
+          "email": "jacques-bouville@wanadoo.fr",
+          "name": "Reliure Garric - Bouville",
+          "opening_hours": "Tu-Fr 08:30-12:30,14:00-18:30",
+          "ref:FR:NAF": "18.14Z",
+          "ref:FR:SIRET": "50464574800014",
+          "shop": "books",
+          "website": "https://www.reliure-bouville.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7434970649,
+        "lat": 43.6111906,
+        "lon": 1.444838,
+        "tags": {
+          "amenity": "cafe",
+          "check_date:opening_hours": "2024-08-25",
+          "contact:city": "Toulouse",
+          "contact:facebook": "https://www.facebook.com/EpicerieCampillo/",
+          "contact:housenumber": "Rue Job",
+          "contact:instagram": "https://instagram.com/epicerie_campillo",
+          "contact:phone": "+33 9 81 31 78 71",
+          "contact:postcode": "31000",
+          "contact:street": "1",
+          "email": "contact@epicerie-campillo.fr",
+          "indoor_seating": "yes",
+          "name": "Campillo",
+          "opening_hours": "Tu-Sa 10:00-20:00; Su 10:00-13:00",
+          "outdoor_seating": "yes",
+          "payment:cb": "yes",
+          "payment:meal_voucher": "no",
+          "ref:FR:SIRET": "84089436400016",
+          "shop": "convenience",
+          "strapline": "Épicerie-café 100% locales et engagées",
+          "website": "https://epicerie-campillo.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7554855331,
+        "lat": 43.6103299,
+        "lon": 1.4402126,
+        "tags": {
+          "contact:housenumber": "15",
+          "contact:street": "Rue des Trois Piliers",
+          "indoor_seating": "no",
+          "name": "Le Bon Pain",
+          "outdoor_seating": "no",
+          "ref:FR:SIRET": "80854007400016",
+          "shop": "bakery",
+          "source": "INSEE - 06/2019",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7639723770,
+        "lat": 43.6113587,
+        "lon": 1.4476044,
+        "tags": {
+          "contact:housenumber": "33",
+          "contact:street": "Rue Matabiau",
+          "name": "Axel Ange - L'Heure Bleue",
+          "opening_hours": "Mo 14:00-18:45; Tu-Sa 10:00-13:00,14:00-18:45",
+          "ref:FR:SIRET": "45234556400010",
+          "shop": "books",
+          "source": "INSEE - 06/2019"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7678080720,
+        "lat": 43.5980799,
+        "lon": 1.4492653,
+        "tags": {
+          "contact:housenumber": "5",
+          "contact:street": "Rue Ninau",
+          "name": "Au bonheur des dames",
+          "ref:FR:SIRET": "89108052500019",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7700449738,
+        "lat": 43.5962424,
+        "lon": 1.4458728,
+        "tags": {
+          "check_date": "2024-07-13",
+          "name": "Librairie Ancienne",
+          "ref:FR:SIRET": "32750571500018",
+          "shop": "books",
+          "source": "INSEE - 06/2019"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7707397510,
+        "lat": 43.6004786,
+        "lon": 1.4647416,
+        "tags": {
+          "branch": "Toulouse Camille Pujol",
+          "brand": "Bio c' Bon",
+          "brand:wikidata": "Q54312551",
+          "contact:housenumber": "76",
+          "contact:street": "Avenue Camille Pujol",
+          "name": "Bio c' Bon",
+          "opening_hours": "Mo 09:00-19:00; Tu-Sa 09:30-20:00; Su 09:30-13:00",
+          "organic": "only",
+          "phone": "+33 5 61 54 83 40",
+          "ref:FR:SIRET": "81393841200026",
+          "shop": "convenience",
+          "website": "https://www.bio-c-bon.eu/magasin/bio-c-bon-toulouse-camille-pujol"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7727105277,
+        "lat": 43.60671,
+        "lon": 1.4516929,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "37",
+          "addr:postcode": "31000",
+          "addr:street": "Rue des Sept Troubadours",
+          "description": "Épicerie indienne",
+          "name": "Desh Store",
+          "opening_hours": "Mo-Sa 10:30-21:00; Su 11:00-21:00",
+          "phone": "+33 5 31 54 23 17",
+          "ref:FR:SIRET": "94302313500016",
+          "shop": "convenience",
+          "source": "INSEE - 06/2019"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7727105283,
+        "lat": 43.6062674,
+        "lon": 1.4546123,
+        "tags": {
+          "contact:housenumber": "33",
+          "contact:street": "Rue Gabriel Péri",
+          "name": "Épicerie de nuit",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7727105295,
+        "lat": 43.6058407,
+        "lon": 1.4505276,
+        "tags": {
+          "name": "Épicerie",
+          "ref:FR:SIRET": "93183057400014",
+          "shop": "convenience",
+          "was:name": "La Clinique Du Mobile",
+          "was:shop": "mobile_phone"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7779399771,
+        "lat": 43.5977613,
+        "lon": 1.4450197,
+        "tags": {
+          "contact:place": "Marché des Carmes",
+          "name": "Maison Beauhaire",
+          "organic": "yes",
+          "ref": "17",
+          "ref:FR:SIRET": "51281690100049",
+          "shop": "bakery",
+          "short_name": "Beauhaire"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7779399990,
+        "lat": 43.6046875,
+        "lon": 1.4494158,
+        "tags": {
+          "check_date": "2025-07-11",
+          "contact:housenumber": "69",
+          "contact:street": "Boulevard Lazare Carnot",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7779400416,
+        "lat": 43.6108758,
+        "lon": 1.4430543,
+        "tags": {
+          "contact:housenumber": "2 bis",
+          "contact:street": "Boulevard d'Arcole",
+          "cuisine": "sandwich",
+          "drink:coffee": "yes",
+          "indoor_seating": "no",
+          "name": "Pause Douceur",
+          "organic": "no",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "51239406500027",
+          "shop": "bakery",
+          "takeaway": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7779400883,
+        "lat": 43.6101582,
+        "lon": 1.4435591,
+        "tags": {
+          "contact:housenumber": "71",
+          "contact:street": "Boulevard de Strasbourg",
+          "name": "L'Épicerie du Boulevard",
+          "opening_hours": "Mo-Fr 19:00-02:00, Sa 19:00-03:00, Su 19:00-02:00",
+          "ref:FR:SIRET": "90350201100021",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8105021710,
+        "lat": 43.604698,
+        "lon": 1.4543548,
+        "tags": {
+          "contact:housenumber": "60",
+          "contact:street": "Rue de la Colombette",
+          "name": "l'Epicerie de nuit",
+          "opening_hours": "Mo-Sa 21:00-02:00, PH,Su 15:00-02:00",
+          "ref:FR:SIRET": "84985839400026",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8415972809,
+        "lat": 43.6229959,
+        "lon": 1.4621338,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "50",
+          "addr:postcode": "31500",
+          "addr:street": "Avenue Joseph Le Brix",
+          "diet:halal": "no",
+          "name": "Le bon angle",
+          "opening_hours": "Mo-Sa 09:00-13:00,16:00-19:30; Su off",
+          "ref:FR:SIRET": "79065200200045",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8668816122,
+        "lat": 43.6239475,
+        "lon": 1.4385787,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "10",
+          "addr:postcode": "31200",
+          "addr:street": "Avenue des Mazades",
+          "description": "Épicerie coopérative",
+          "name": "Ô Mazettes",
+          "opening_hours": "Mo-Fr 09:30-13:00,16:00-19:00; Sa 10:00-13:00,16:00-19:00",
+          "phone": "+33 9 51 07 38 83",
+          "shop": "convenience",
+          "website": "https://omazettes.org/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8755223134,
+        "lat": 43.6066815,
+        "lon": 1.4449535,
+        "tags": {
+          "books": "comic",
+          "contact:facebook": "https://www.facebook.com/COMPTOIRDUREVE/",
+          "contact:housenumber": "42",
+          "contact:instagram": "https://www.instagram.com/comptoirdureve/",
+          "contact:street": "Rue Charles de Rémusat",
+          "contact:tiktok": "https://www.tiktok.com/@comptoirdurevetoulouse",
+          "email": "comptoirdurevetoulouse@gmail.com",
+          "name": "Comptoir du rêve Comics",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "payment:cash": "yes",
+          "payment:cb": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 5 61 23 11 79",
+          "ref:FR:SIRET": "48402431000050",
+          "shop": "books",
+          "website": "https://www.comptoirdureve.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8902919659,
+        "lat": 43.6079887,
+        "lon": 1.4499103,
+        "tags": {
+          "name": "Chez Esther",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8928445717,
+        "lat": 43.6065736,
+        "lon": 1.4446618,
+        "tags": {
+          "books": "comic",
+          "contact:facebook": "https://www.facebook.com/COMPTOIRDUREVE/",
+          "contact:housenumber": "25",
+          "contact:instagram": "https://www.instagram.com/comptoirdureve/",
+          "contact:street": "Rue Charles de Rémusat",
+          "contact:tiktok": "https://www.tiktok.com/@comptoirdurevetoulouse",
+          "description": "librairie spécialisée BD",
+          "email": "comptoirdurevetoulouse@gmail.com",
+          "name": "Comptoir du Rêve BD",
+          "opening_hours": "Tu-Sa 10:00-19:00; Mo 10:00-12:30,13:30-19:00",
+          "payment:cash": "yes",
+          "payment:cb": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 5 61 23 11 79",
+          "ref:FR:SIRET": "48402431000076",
+          "shop": "books",
+          "was:name": "Dolce & Gabbana",
+          "was:shop": "clothes",
+          "website": "https://www.comptoirdureve.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9176286148,
+        "lat": 43.6215757,
+        "lon": 1.4581914,
+        "tags": {
+          "contact:housenumber": "94",
+          "contact:street": "Rue du Faubourg Bonnefoy",
+          "name": "Epicerie de nuit",
+          "opening_hours": "Su-Fr 18:00-02:00, Sa 18:00-03:00",
+          "ref:FR:SIRET": "95317605400013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9383510017,
+        "lat": 43.6072895,
+        "lon": 1.4504409,
+        "tags": {
+          "contact:housenumber": "39",
+          "contact:street": "Allées Jean Jaurès",
+          "name": "Family Bazar",
+          "opening_hours": "Mo-Su 10:00-22:00",
+          "ref:FR:SIRET": "94322758700012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9542826206,
+        "lat": 43.6260933,
+        "lon": 1.4591506,
+        "tags": {
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "brand:wikipedia": "en:SPAR (retailer)",
+          "contact:housenumber": "160",
+          "contact:street": "Rue du Faubourg Bonnefoy",
+          "name": "Spar supermarché",
+          "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-20:00",
+          "phone": "+33 5 34 25 76 74",
+          "ref:FR:SIRET": "97870233000025",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9988460829,
+        "lat": 43.6069152,
+        "lon": 1.4517098,
+        "tags": {
+          "contact:housenumber": "37",
+          "contact:street": "Rue Nicolas Bachelier",
+          "name": "Épicerie de nuit du Bachelier",
+          "opening_hours": "24/7",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9988900618,
+        "lat": 43.6078263,
+        "lon": 1.442097,
+        "tags": {
+          "contact:housenumber": "64",
+          "contact:street": "Rue du Taur",
+          "description": "Épicerie asiatique",
+          "diet:halal": "yes",
+          "name": "Fujia Market",
+          "opening_hours": "Mo-Su 10:00-20:00",
+          "origin": "asian",
+          "ref:FR:SIRET": "97766604900019",
+          "shop": "convenience",
+          "was:amenity": "driving_school",
+          "was:name": "We are zero",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10036074996,
+        "lat": 43.608776,
+        "lon": 1.4478557,
+        "tags": {
+          "contact:housenumber": "18",
+          "contact:street": "Rue de Bayard",
+          "name": "Alimentation Balkanique",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "82502085200026",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10138010506,
+        "lat": 43.6069433,
+        "lon": 1.44943,
+        "tags": {
+          "addr:housenumber": "2",
+          "addr:street": "Rue Dalayrac",
+          "cuisine": "sudanese",
+          "description": "Restaurant soudanais",
+          "name": "Chez Zoll",
+          "origin": "sudanese",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "91979094900011",
+          "shop": "convenience",
+          "was:amenity": "restaurant"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10211950002,
+        "lat": 43.6046121,
+        "lon": 1.4537289,
+        "tags": {
+          "addr:housenumber": "50",
+          "addr:street": "Rue de la Colombette",
+          "check_date": "2026-05-22",
+          "contact:housenumber": "50",
+          "contact:street": "Rue de la Colombette",
+          "indoor_seating": "yes",
+          "name": "Peché Mignon",
+          "opening_hours": "Mo-Fr 07:00-19:30; Sa 07:30-19:30; Su 07:30-13:30",
+          "outdoor_seating": "no",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "34348009100069",
+          "shop": "bakery",
+          "was:name": "Institut DAO",
+          "was:shop": "beauty",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10591384798,
+        "lat": 43.6255726,
+        "lon": 1.4391542,
+        "tags": {
+          "cuisine": "sandwich",
+          "name": "Pierre & Marie",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "phone": "+33 5 61 33 19 07",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11445806828,
+        "lat": 43.6098937,
+        "lon": 1.4513819,
+        "tags": {
+          "addr:housenumber": "8",
+          "addr:street": "Rue Lafon",
+          "name": "Alimentation Afghane",
+          "origin": "afghan",
+          "ref:FR:SIRET": "95149522500025",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12134201650,
+        "lat": 43.611638,
+        "lon": 1.447808,
+        "tags": {
+          "contact:housenumber": "39",
+          "contact:street": "Rue Matabiau",
+          "cuisine": "sandwich;quiche",
+          "drink:coffee": "yes",
+          "indoor_seating": "yes",
+          "name": "Maison Janin",
+          "opening_hours": "Mo-Sa 07:30-19:30",
+          "organic": "yes",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 5 61 12 11 63",
+          "ref:FR:SIRET": "85126795500033",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12206962137,
+        "lat": 43.619374,
+        "lon": 1.4570809,
+        "tags": {
+          "contact:housenumber": "54",
+          "contact:street": "Rue du Faubourg Bonnefoy",
+          "email": "librairie@paysages-humains.fr",
+          "name": "Paysages Humains",
+          "opening_hours": "Tu-Sa 10:00-20:00",
+          "ref:FR:SIRET": "92972182700012",
+          "shop": "books",
+          "website": "https://www.paysages-humains.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12245891527,
+        "lat": 43.6063286,
+        "lon": 1.450769,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "25",
+          "addr:postcode": "31000",
+          "addr:street": "Rue des Sept Troubadours",
+          "description": "Épicerie bangladaise",
+          "name": "Sara Bazar",
+          "opening_hours": "Mo-Th 11:00-20:30; Fr 15:00-20:30; Sa 10:30-20:30; Su 11:30-20:30",
+          "phone": "+33 6 36 13 83 41",
+          "ref:FR:SIREN": "877604991",
+          "ref:FR:SIRET": "87760499100019",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12247902701,
+        "lat": 43.6066705,
+        "lon": 1.451564,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "35",
+          "addr:postcode": "31000",
+          "addr:street": "Rue des Sept Troubadours",
+          "check_date:opening_hours": "2025-12-10",
+          "description": "Épicerie indienne",
+          "name": "Asie Bazar Indien",
+          "opening_hours": "Mo-Su 10:00-21:00",
+          "phone": "+33 5 34 41 63 17",
+          "ref:FR:SIREN": "430268839",
+          "ref:FR:SIRET": "43026883900015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12334196051,
+        "lat": 43.6062256,
+        "lon": 1.4541148,
+        "tags": {
+          "contact:housenumber": "64",
+          "contact:street": "Rue Pierre Paul Riquet",
+          "email": "bonjour@terre-terre.com",
+          "name": "Terre Terre",
+          "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-13:00",
+          "shop": "convenience",
+          "website": "https://terre-terre.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12350823266,
+        "lat": 43.6122198,
+        "lon": 1.4458926,
+        "tags": {
+          "contact:email": "contact@lalibrairietoulouse.com",
+          "contact:facebook": "https://www.facebook.com/p/La-Librairie-61559474828198/",
+          "contact:housenumber": "9",
+          "contact:instagram": "https://www.instagram.com/la.librairie.toulouse/",
+          "contact:linkedin": "https://www.linkedin.com/company/103791382/admin/dashboard/",
+          "contact:street": "Rue Alexandre Falguière",
+          "contact:tiktok": "https://www.tiktok.com/@la.librairie.toulouse",
+          "description": "Librairie Généraliste Adulte & Jeunesse",
+          "name": "La Librairie",
+          "opening_hours": "Tu-Fr 10:30-13:30,14:30-19:30; Sa 10:00-19:30; Su 10:00-13:00",
+          "phone": "+33 5 61 73 74 89",
+          "ref:FR:SIRET": "93034972500018",
+          "shop": "books",
+          "website": "https://www.lalibrairietoulouse.com",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12459320976,
+        "lat": 43.6080435,
+        "lon": 1.4489575,
+        "tags": {
+          "name": "Thông Minh Market",
+          "origin": "asian",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12643321150,
+        "lat": 43.6049979,
+        "lon": 1.442722,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "3",
+          "addr:postcode": "31000",
+          "addr:street": "Rue du Taur",
+          "air_conditioning": "yes",
+          "books": "discount",
+          "brand:wikidata": "Q3105347",
+          "check_date": "2025-10-15",
+          "email": "service.client@gibert.com",
+          "fax": "+33 5 61 11 17 78",
+          "internet_access": "no",
+          "name": "Gibert",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "payment:american_express": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 5 61 11 17 77",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIRET": "38433001500015",
+          "second_hand": "yes",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
+          "website": "https://www.gibert.com/stores/toulouse-gibert-joseph-librairie",
+          "wikidata": "Q3105347",
+          "wikipedia": "fr:Gibert Joseph"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13198405229,
+        "lat": 43.6094669,
+        "lon": 1.453479,
+        "tags": {
+          "name": "épicerie bonrepos",
+          "opening_hours": "Mo-Su 11:00-02:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13895950611,
+        "lat": 43.6042692,
+        "lon": 1.4524128,
+        "tags": {
+          "addr:city": "Toulouse",
+          "addr:housenumber": "17",
+          "addr:postcode": "31000",
+          "addr:street": "Rue Saint-Aubin",
+          "check_date": "2026-05-30",
+          "contact:instagram": "https://www.instagram.com/pandamarketfr/",
+          "description": "Asian grocery / épicerie asiatique",
+          "name": "Panda Market",
+          "opening_hours": "Mo-Sa 09:30-19:30; Su 10:00-13:00",
+          "phone": "+33986405439",
+          "ref:FR:SIRET": "97774243600016",
+          "shop": "convenience",
+          "stroller": "yes",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "way",
+        "id": 238802652,
+        "center": {
+          "lat": 43.6032178,
+          "lon": 1.4425799
+        },
+        "tags": {
+          "contact:housenumber": "50",
+          "contact:phone": "+33 5 34 45 53 33",
+          "contact:street": "Rue Léon Gambetta",
+          "email": "info@ombres-blanches.fr",
+          "name": "Librarie Ombres Blanches",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "operator": "Ombres blanches",
+          "ref:FR:SIRET": "30430694700025",
+          "shop": "books",
+          "website": "https://www.ombres-blanches.fr/",
+          "wheelchair": "limited",
+          "wikidata": "Q3351952",
+          "wikipedia": "fr:Ombres blanches (librairie)"
+        }
+      },
+      {
+        "type": "way",
+        "id": 434991127,
+        "center": {
+          "lat": 43.6082112,
+          "lon": 1.4458587
+        },
+        "tags": {
+          "advertising": "billboard",
+          "advertising:access": "private",
+          "advertising:animated": "no",
+          "advertising:height": "3.3",
+          "advertising:legal_type:FR": "enseigne",
+          "advertising:luminous": "yes",
+          "advertising:message": "commercial",
+          "advertising:operator": "JCDecaux",
+          "advertising:orientation": "multi",
+          "advertising:sides": "1",
+          "advertising:size": "(1.2*1.7)*6+(0.6*0.8)*4+(0.6*0.8)*4*2+(1.2*0.4)*2",
+          "advertising:support": "street_furniture:newspaper_kiosk",
+          "advertising:visibility": "street",
+          "check_date": "2025-12-24",
+          "mapillary": "166297432076815",
+          "noname": "yes",
+          "shop": "kiosk",
+          "source": "Toulouse Orthophotoplan 2015"
+        }
+      },
+      {
+        "type": "way",
+        "id": 461066835,
+        "center": {
+          "lat": 43.6044447,
+          "lon": 1.4498274
+        },
+        "tags": {
+          "advertising": "billboard",
+          "advertising:access": "private",
+          "advertising:animated": "no",
+          "advertising:height": "3.3",
+          "advertising:legal_type:FR": "enseigne",
+          "advertising:luminous": "yes",
+          "advertising:message": "commercial",
+          "advertising:operator": "JCDecaux",
+          "advertising:orientation": "multi",
+          "advertising:sides": "1",
+          "advertising:size": "(1.2*1.7)*5+(0.3*0.4)*8+(0.6*0.8)*4",
+          "advertising:support": "street_furniture:newspaper_kiosk",
+          "advertising:visibility": "street",
+          "building": "retail",
+          "building:levels": "1",
+          "check_date:opening_hours": "2024-10-19",
+          "noname": "yes",
+          "opening_hours:signed": "no",
+          "roof:levels": "0",
+          "roof:shape": "dome",
+          "shop": "kiosk",
+          "source": "survey, BDOrtho"
+        }
+      },
+      {
+        "type": "way",
+        "id": 833346499,
+        "center": {
+          "lat": 43.6005094,
+          "lon": 1.4522489
+        },
+        "tags": {
+          "building": "retail",
+          "building:levels": "1",
+          "level": "0",
+          "name": "Presse",
+          "opening_hours": "Mo-Fr 08:00-13:00, We-Fr 15:00-18:00, Sa,Su 08:30-12:30",
+          "roof:shape": "flat",
+          "shop": "kiosk",
+          "source": "BDOrtho IGN",
+          "wheelchair": "yes"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

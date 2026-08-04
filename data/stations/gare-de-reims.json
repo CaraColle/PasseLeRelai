@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      4.011588,
-      49.251014,
-      4.036516,
-      49.266558
+      4.015622,
+      49.254451,
+      4.031584,
+      49.263221
     ],
     "features": [
       {
@@ -117,32 +117,24 @@
                 49.255284
               ],
               [
-                4.020402,
-                49.254818
+                4.020273,
+                49.254644
               ],
               [
-                4.022497,
-                49.254883
+                4.025008,
+                49.254756
               ],
               [
-                4.026591,
-                49.254619
+                4.027111,
+                49.254504
               ],
               [
-                4.027399,
-                49.25452
+                4.02787,
+                49.254451
               ],
               [
-                4.027675,
-                49.254498
-              ],
-              [
-                4.027979,
-                49.254692
-              ],
-              [
-                4.030209,
-                49.256462
+                4.027907,
+                49.254464
               ],
               [
                 4.030356,
@@ -153,8 +145,8 @@
                 49.256695
               ],
               [
-                4.030621,
-                49.256825
+                4.031097,
+                49.257258
               ],
               [
                 4.031549,
@@ -169,8 +161,8 @@
                 49.258949
               ],
               [
-                4.030016,
-                49.261857
+                4.030081,
+                49.261849
               ],
               [
                 4.029053,
@@ -181,8 +173,8 @@
                 49.263214
               ],
               [
-                4.025285,
-                49.263033
+                4.023197,
+                49.263113
               ],
               [
                 4.021506,
@@ -204,150 +196,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            4.024671093154536,
-            49.260015884559095
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                4.012991,
-                49.264337
-              ],
-              [
-                4.012372,
-                49.263147
-              ],
-              [
-                4.011588,
-                49.259279
-              ],
-              [
-                4.011593,
-                49.258919
-              ],
-              [
-                4.011782,
-                49.258594
-              ],
-              [
-                4.012914,
-                49.25703
-              ],
-              [
-                4.016434,
-                49.253199
-              ],
-              [
-                4.021985,
-                49.251014
-              ],
-              [
-                4.027591,
-                49.251474
-              ],
-              [
-                4.028347,
-                49.251362
-              ],
-              [
-                4.029661,
-                49.251121
-              ],
-              [
-                4.029796,
-                49.251122
-              ],
-              [
-                4.032983,
-                49.25321
-              ],
-              [
-                4.034547,
-                49.254489
-              ],
-              [
-                4.036492,
-                49.257615
-              ],
-              [
-                4.036516,
-                49.257974
-              ],
-              [
-                4.036108,
-                49.259377
-              ],
-              [
-                4.035118,
-                49.262607
-              ],
-              [
-                4.034976,
-                49.262938
-              ],
-              [
-                4.033807,
-                49.26435
-              ],
-              [
-                4.032012,
-                49.266121
-              ],
-              [
-                4.02728,
-                49.266406
-              ],
-              [
-                4.025555,
-                49.266558
-              ],
-              [
-                4.0211,
-                49.266098
-              ],
-              [
-                4.019042,
-                49.266223
-              ],
-              [
-                4.018166,
-                49.266267
-              ],
-              [
-                4.017121,
-                49.266241
-              ],
-              [
-                4.01592,
-                49.266077
-              ],
-              [
-                4.013145,
-                49.264506
-              ],
-              [
-                4.012991,
-                49.264337
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809753601,
+      "timestamp": 1785863362888,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -359,8 +213,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -373,7 +226,756 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:10:01Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 1118918137,
+        "lat": 49.2577515,
+        "lon": 4.0326377,
+        "tags": {
+          "addr:housenumber": "30",
+          "check_date:opening_hours": "2024-04-04",
+          "email": "frederichardy@neuf.fr",
+          "name": "Boulagerie Frédéric Hardy",
+          "opening_hours": "We-Sa 06:30-19:30; Su 06:30-13:30",
+          "phone": "+33 3 26 47 68 81",
+          "shop": "bakery",
+          "website": "https://www.boulangerie51.org/boulangerie-hardy-frederic-sarl-b-h-c-reims-163.html",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1719825301,
+        "lat": 49.2569517,
+        "lon": 4.0317574,
+        "tags": {
+          "addr:city": "Reims",
+          "addr:postcode": "51100",
+          "addr:street": "Rue du Docteur Jacquin",
+          "branch": "Rue Jacquin",
+          "brand": "Monop'",
+          "brand:wikidata": "Q89913683",
+          "brand:wikipedia": "fr:Monoprix (France)",
+          "check_date": "2024-07-12",
+          "name": "Monop'",
+          "opening_hours": "Mo-Sa 07:30-22:55; Su 08:30-20:55",
+          "phone": "+33 3 26 35 93 49",
+          "ref:FR:SIRET": "44465668000907",
+          "shop": "convenience",
+          "website": "https://www.monoprix.fr/1395.html"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1785422958,
+        "lat": 49.2683653,
+        "lon": 4.0265132,
+        "tags": {
+          "name": "Épicerie de Quartier",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1786798486,
+        "lat": 49.2509377,
+        "lon": 4.0347077,
+        "tags": {
+          "contact:city": "Reims",
+          "contact:housenumber": "100",
+          "contact:phone": "+33 3 26 47 44 36",
+          "contact:postcode": "51100",
+          "contact:street": "Rue Chanzy",
+          "contact:website": "http://www.le-four-a-bois.fr/",
+          "name": "Le Four à Bois",
+          "opening_hours": "Tu-Sa 07:15-19:30",
+          "organic": "only",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5141690032,
+        "lat": 49.2622096,
+        "lon": 4.0182945,
+        "tags": {
+          "name": "Le Feuilletine",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5141690035,
+        "lat": 49.2614136,
+        "lon": 4.0202844,
+        "tags": {
+          "addr:housenumber": "9",
+          "brand": "Fischer",
+          "brand:website": "https://fischer1913.com",
+          "name": "Fisher",
+          "opening_hours": "Mo-Fr 07:30-20:00; Su 07:30-13:00",
+          "phone": "+33 3 26 23 33 76",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5163802879,
+        "lat": 49.2550216,
+        "lon": 4.0331659,
+        "tags": {
+          "addr:housenumber": "15",
+          "addr:postcode": "51100",
+          "addr:street": "Rue Carnot",
+          "brand": "La Procure",
+          "brand:wikidata": "Q3211977",
+          "email": "librairie.reims@laprocure.com",
+          "name": "La Procure",
+          "opening_hours": "Tu-Fr 09:30-12:15, 13:30-19:00; Sa 09:30-12:30, 13:30-18:45",
+          "phone": "+33 3 26 77 58 41",
+          "shop": "books",
+          "source": "survey",
+          "website": "https://www.laprocure.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5165420680,
+        "lat": 49.2474972,
+        "lon": 4.0308914,
+        "tags": {
+          "contact:city": "Reims",
+          "contact:housenumber": "85",
+          "contact:phone": "+33 3 26 35 85 55",
+          "contact:postcode": "55100",
+          "contact:street": "Rue du Jard",
+          "name": "Le Fournil du Jard",
+          "opening_hours": "Mo-Fr 06:00-13:00, 15:30-19:30; Sa 06:15-13:00",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5174221832,
+        "lat": 49.2585604,
+        "lon": 4.0208728,
+        "tags": {
+          "addr:housenumber": "43",
+          "addr:postcode": "51100",
+          "addr:street": "Rue de Courcelles",
+          "email": "karine050879@gmail.com",
+          "name": "La Folie Douce",
+          "opening_hours": "Mo-Fr 06:30-19:00; Sa 06:30-13:00",
+          "operator": "Jérôme Ravaux",
+          "payment:coins": "yes",
+          "payment:contactless": "yes",
+          "payment:notes": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 6 09 13 69 31",
+          "ref:FR:SIRET": "91765395800012",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5299330175,
+        "lat": 49.2538632,
+        "lon": 4.0291187,
+        "tags": {
+          "addr:housenumber": "12",
+          "indoor_seating": "yes",
+          "name": "Les gourmandises de Marido",
+          "opening_hours": "Mo-Sa 08:00-18:30",
+          "outdoor_seating": "no",
+          "phone": "+33 3 26 40 54 69",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5858869491,
+        "lat": 49.2560176,
+        "lon": 4.0326697,
+        "tags": {
+          "indoor_seating": "no",
+          "name": "Case à Pain Forum",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su 07:00-18:00",
+          "outdoor_seating": "yes",
+          "phone": "+33 3 26 84 92 93",
+          "ref:FR:SIRET": "42885446700027",
+          "shop": "bakery",
+          "website": "https://case-a-pain.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5894877405,
+        "lat": 49.2690532,
+        "lon": 4.033075,
+        "tags": {
+          "addr:housenumber": "117;119",
+          "name": "Le Fournil Saceien",
+          "phone": "+33310384720",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6018175637,
+        "lat": 49.2668046,
+        "lon": 4.0161997,
+        "tags": {
+          "addr:housenumber": "87",
+          "addr:street": "Boulevard Charles Arnould",
+          "name": "Chez les Tassins",
+          "opening_hours": "Th-Tu 06:30-13:00, 16:00-19:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6112863400,
+        "lat": 49.2519725,
+        "lon": 4.025064,
+        "tags": {
+          "name": "La cave de l'escale",
+          "opening_hours": "Mo 16:00-20:00; Tu,We 11:00-20:00; Th-Sa 11:00-21:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6132548195,
+        "lat": 49.2589558,
+        "lon": 4.0243023,
+        "tags": {
+          "check_date": "2026-04-30",
+          "indoor_seating": "no",
+          "name": "La Brioche Dorée",
+          "opening_hours": "Mo-Sa 06:15-20:00; Su 07:00-20:00",
+          "outdoor_seating": "no",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6951152886,
+        "lat": 49.2471096,
+        "lon": 4.0384706,
+        "tags": {
+          "contact:city": "Reims",
+          "contact:housenumber": "100",
+          "contact:phone": "+33 3 26 24 83 93",
+          "contact:postcode": "51100",
+          "contact:street": "Rue Gambetta",
+          "name": "La Fournée Croquante",
+          "opening_hours": "Tu-Sa 09:00-20:00",
+          "ref:FR:SIRET": "47913750700022",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6951184885,
+        "lat": 49.2467555,
+        "lon": 4.038777,
+        "tags": {
+          "addr:housenumber": "114",
+          "addr:street": "Rue Gambetta",
+          "contact:city": "Reims",
+          "contact:housenumber": "114",
+          "contact:phone": "+33 3 26 85 22 36",
+          "contact:postcode": "51100",
+          "contact:street": "Rue Gambetta",
+          "name": "Multi Saveurs",
+          "opening_hours": "Th-Tu 06:30-19:30",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6968886085,
+        "lat": 49.2508266,
+        "lon": 4.0348863,
+        "tags": {
+          "check_date": "2026-04-28",
+          "contact:city": "Reims",
+          "contact:housenumber": "106",
+          "contact:phone": "+33 326478727",
+          "contact:postcode": "51100",
+          "contact:street": "Rue Chanzy",
+          "name": "La Huche à Pain",
+          "opening_hours": "Th-Mo 07:00-20:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6979577985,
+        "lat": 49.2518139,
+        "lon": 4.0325336,
+        "tags": {
+          "addr:housenumber": "46",
+          "addr:postcode": "51100",
+          "addr:street": "Rue Chanzy",
+          "contact:city": "Reims",
+          "contact:housenumber": "46",
+          "contact:phone": "+33 3 26 88 39 69",
+          "contact:postcode": "51100",
+          "contact:street": "Rue Chanzy",
+          "email": "la-belle-image@wanadoo.fr",
+          "name": "La Belle Image",
+          "opening_hours": "Tu-Sa 10:00-13:00,14:30-19:00",
+          "shop": "books",
+          "website": "https://la-belle-image.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6981488085,
+        "lat": 49.2509173,
+        "lon": 4.0384597,
+        "tags": {
+          "contact:city": "Reims",
+          "contact:housenumber": "9",
+          "contact:phone": "+33 3 51 24 70 94",
+          "contact:postcode": "51100",
+          "contact:street": "Rue du Barbâtre",
+          "name": "Françis B",
+          "opening_hours": "Th-Tu 07:00-14:00, 15:00-19:30",
+          "ref:FR:SIRET": "52832687900020",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6982165885,
+        "lat": 49.2510587,
+        "lon": 4.0379898,
+        "tags": {
+          "contact:city": "Reims",
+          "contact:housenumber": "2",
+          "contact:phone": "+33 3 26 47 75 55",
+          "contact:postcode": "51100",
+          "contact:street": "Rue du Barbâtre",
+          "name": "Sitis market",
+          "opening_hours": "Mo-Su 07:00-23:00",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6982814587,
+        "lat": 49.2512241,
+        "lon": 4.0339804,
+        "tags": {
+          "addr:city": "Reims",
+          "addr:housenumber": "84",
+          "addr:postcode": "51100",
+          "addr:street": "Rue Chanzy",
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "contact:city": "Reims",
+          "contact:housenumber": "84",
+          "contact:postcode": "51100",
+          "contact:street": "Rue Chanzy",
+          "name": "CocciMarket",
+          "phone": "+33 6 68 08 02 90",
+          "shop": "convenience",
+          "website": "https://www.coccinelle.fr/Trouver_Un_Magasin/Details/coccimarket/reims/84-rue-de-chanzy"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6997420985,
+        "lat": 49.2560096,
+        "lon": 4.033831,
+        "tags": {
+          "addr:housenumber": "4",
+          "addr:street": "Rue Colbert",
+          "name": "Bibliotheme",
+          "opening_hours": "Tu-Sa 14:00-19:00",
+          "phone": "+33 326884342",
+          "ref:FR:SIRET": "32693022900017",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7001346785,
+        "lat": 49.2518407,
+        "lon": 4.0346921,
+        "tags": {
+          "check_date": "2024-08-21",
+          "contact:city": "Reims",
+          "contact:housenumber": "7",
+          "contact:postcode": "51100",
+          "contact:street": "Rue Voltaire",
+          "name": "Alimentation Générale Séran Épicerie",
+          "opening_hours": "Su-We 10:00-02:00, Th 10:00-03:30, Fr,Sa 10:00-04:00",
+          "shop": "convenience",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7004457286,
+        "lat": 49.2483283,
+        "lon": 4.0300889,
+        "tags": {
+          "addr:housenumber": "1",
+          "name": "Proximité Store",
+          "opening_hours": "Mo-Sa 07:30-22:00; Su 08:00-21:00",
+          "phone": "+33 326473843",
+          "ref:FR:SIRET": "45006541200014",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7031562385,
+        "lat": 49.2500736,
+        "lon": 4.0340091,
+        "tags": {
+          "contact:city": "Reims",
+          "contact:housenumber": "34",
+          "contact:postcode": "51100",
+          "contact:street": "Rue du Jard",
+          "name": "Bazarine",
+          "ref:FR:SIRET": "79810680300017",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7283123684,
+        "lat": 49.2674357,
+        "lon": 4.017754,
+        "tags": {
+          "name": "La Champêtre",
+          "ref:FR:SIRET": "85400681400016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7367413428,
+        "lat": 49.2713301,
+        "lon": 4.0207811,
+        "tags": {
+          "addr:housenumber": "253",
+          "name": "Diaby Alimentation",
+          "phone": "+33 7 53 10 13 22",
+          "ref:FR:SIRET": "83147284000014",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7448534475,
+        "lat": 49.2466803,
+        "lon": 4.0121636,
+        "tags": {
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7576910182,
+        "lat": 49.2550249,
+        "lon": 4.028887,
+        "tags": {
+          "addr:housenumber": "2",
+          "name": "Le Bouquiniste",
+          "operator": "Aude DUPAYS",
+          "ref:FR:SIRET": "79278266600012",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7884446126,
+        "lat": 49.2500095,
+        "lon": 4.0187446,
+        "tags": {
+          "addr:housenumber": "12",
+          "name": "Colonel Fabien Alimentation",
+          "ref:FR:SIRET": "74982832300016",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8330042546,
+        "lat": 49.2709802,
+        "lon": 4.0255724,
+        "tags": {
+          "addr:city": "Reims",
+          "addr:postcode": "51100",
+          "addr:street": "Place Luton",
+          "name": "M de Luton",
+          "ref:FR:SIRET": "84204893600020",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8564543913,
+        "lat": 49.253916,
+        "lon": 4.0279275,
+        "tags": {
+          "addr:city": "Reims",
+          "addr:housenumber": "19",
+          "addr:postcode": "51100",
+          "addr:street": "Rue Marx Dormoy",
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "brand:wikipedia": "fr:La Mie câline",
+          "contact:facebook": "https://www.facebook.com/p/La-Mie-Câline-Reims-100054575015299/",
+          "delivery": "yes",
+          "indoor_seating": "yes",
+          "internet_access": "wlan",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Su 06:30-20:00",
+          "operator": "La Mie Câline",
+          "outdoor_seating": "terrace",
+          "phone": "+33 3 26 50 80 86",
+          "shop": "bakery",
+          "survey:date": "2024-09-28",
+          "toilets": "yes/no",
+          "website": "https://www.lamiecaline.com/boutiques/reims/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8983755599,
+        "lat": 49.2547251,
+        "lon": 4.0300556,
+        "tags": {
+          "addr:housenumber": "12",
+          "name": "France Loisir",
+          "ref:FR:SIRET": "70201990203357",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11750013266,
+        "lat": 49.2557144,
+        "lon": 4.0332715,
+        "tags": {
+          "addr:city": "Reims",
+          "addr:housenumber": "3",
+          "addr:postcode": "51100",
+          "addr:street": "Rue Trudaine",
+          "books": "adults;children;comic;manga",
+          "check_date": "2024-03-21",
+          "contact:facebook": "https://www.facebook.com/lechatdegouttiere/",
+          "contact:instagram": "https://www.instagram.com/lechatdegouttiere.fr",
+          "email": "info@lechatdegouttiere.fr",
+          "name": "Le Chat de Gouttière",
+          "opening_hours": "Th-Sa 10:00-19:00",
+          "phone": "+33 3 26 91 17 93",
+          "ref:FR:SIRET": "49179935900048",
+          "shop": "books",
+          "source": "survey",
+          "website": "https://www.lechatdegouttiere.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11913083276,
+        "lat": 49.2562518,
+        "lon": 4.0268857,
+        "tags": {
+          "brand": "Rougier&Plé",
+          "contact:housenumber": "70",
+          "contact:street": "Place Drouet d'Erlon",
+          "name": "Librairie Guerlin - Rougier&Plé",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "phone": "+33 3 26 40 05 15",
+          "ref:FR:SIRET": "48035252500145",
+          "ref:vatin": "FR76480352525",
+          "shop": "books",
+          "website": "https://www.rougier-ple-reims.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12158269633,
+        "lat": 49.2530592,
+        "lon": 4.0273323,
+        "tags": {
+          "addr:city": "Reims",
+          "addr:housenumber": "70",
+          "addr:postcode": "51100",
+          "addr:street": "Rue de Vesle",
+          "capacity": "200",
+          "cuisine": "smoothie;sandwich",
+          "name": "Mamatte",
+          "opening_hours": "Mo-Sa 07:00-20:00; Su 08:00-18:00",
+          "payment:cards": "yes",
+          "payment:cash": "yes",
+          "payment:ticket_restaurant": "yes",
+          "phone": "+33 3 26 02 60 82",
+          "ref:FR:SIRET": "98283817900017",
+          "shop": "bakery",
+          "start_date": "2024-08-27",
+          "website": "https://boulangeries.mamatte.fr/reims-centre-erlon/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12753871701,
+        "lat": 49.2717764,
+        "lon": 4.020924,
+        "tags": {
+          "addr:housenumber": "284",
+          "addr:postcode": "51100",
+          "addr:street": "Avenue de Laon",
+          "name": "De Baets Romuald",
+          "opening_hours": "Mo-Tu, Th-Fr 06:00-13:00, 15:30-18:30; Sa-Su 06:00-12:30",
+          "ref:FR:SIRET": "48169531000013",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12768401469,
+        "lat": 49.2555451,
+        "lon": 4.0277402,
+        "tags": {
+          "name": "BéDérama",
+          "ref:FR:SIRET": "85406378100017",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12992005201,
+        "lat": 49.2630768,
+        "lon": 4.0098588,
+        "tags": {
+          "addr:city": "Reims",
+          "addr:housenumber": "111",
+          "addr:postcode": "51100",
+          "addr:street": "Rue de Magneux",
+          "email": "Boulangerielapanacee@gmail.com",
+          "name": "La Panacée",
+          "opening_hours": "Mo-Fr 07:00-13:30,16:00-19:30",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 87848190,
+        "center": {
+          "lat": 49.2690728,
+          "lon": 4.0329631
+        },
+        "tags": {
+          "building": "yes",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010"
+        }
+      },
+      {
+        "type": "way",
+        "id": 365086716,
+        "center": {
+          "lat": 49.2552308,
+          "lon": 4.0263734
+        },
+        "tags": {
+          "indoor": "yes",
+          "level": "-1",
+          "name": "La Briocherie",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 757438516,
+        "center": {
+          "lat": 49.2542211,
+          "lon": 4.0311335
+        },
+        "tags": {
+          "building": "kiosk",
+          "check_date": "2024-07-12",
+          "level": "0",
+          "noname": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "kiosk",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 838220052,
+        "center": {
+          "lat": 49.26049,
+          "lon": 4.0295391
+        },
+        "tags": {
+          "building": "yes",
+          "name": "Chez Dom'",
+          "opening_hours": "We-Su 11:00-19:00",
+          "operator": "Dominique Raj",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "way",
+        "id": 855395031,
+        "center": {
+          "lat": 49.2585695,
+          "lon": 4.0270821
+        },
+        "tags": {
+          "building": "retail",
+          "building:levels": "1",
+          "check_date": "2024-07-12",
+          "name": "Promenades Gourmantes",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1062505610,
+        "center": {
+          "lat": 49.2654996,
+          "lon": 4.0267733
+        },
+        "tags": {
+          "name": "La Bouquinerie",
+          "ref:FR:SIRET": "30094927800026",
+          "shop": "books"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      -0.570141,
-      47.45454,
-      -0.542296,
-      47.474355
+      -0.566599,
+      47.458163,
+      -0.547041,
+      47.471369
     ],
     "features": [
       {
@@ -149,20 +149,20 @@
                 47.458445
               ],
               [
-                -0.555504,
-                47.458422
+                -0.554455,
+                47.45817
               ],
               [
-                -0.554444,
-                47.458261
+                -0.55435,
+                47.458163
               ],
               [
-                -0.554159,
-                47.458266
+                -0.554319,
+                47.458169
               ],
               [
-                -0.554039,
-                47.458275
+                -0.554059,
+                47.458256
               ],
               [
                 -0.551461,
@@ -213,12 +213,12 @@
                 47.471142
               ],
               [
-                -0.556633,
-                47.471218
+                -0.558259,
+                47.471369
               ],
               [
-                -0.559251,
-                47.471058
+                -0.561563,
+                47.470838
               ],
               [
                 -0.562812,
@@ -240,182 +240,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            -0.5566554478617662,
-            47.464903013725944
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                -0.567781,
-                47.471858
-              ],
-              [
-                -0.567949,
-                47.470037
-              ],
-              [
-                -0.568794,
-                47.464561
-              ],
-              [
-                -0.570141,
-                47.460011
-              ],
-              [
-                -0.569336,
-                47.458862
-              ],
-              [
-                -0.568163,
-                47.457739
-              ],
-              [
-                -0.56788,
-                47.457516
-              ],
-              [
-                -0.564958,
-                47.456378
-              ],
-              [
-                -0.561346,
-                47.456011
-              ],
-              [
-                -0.556236,
-                47.454969
-              ],
-              [
-                -0.553925,
-                47.454545
-              ],
-              [
-                -0.55372,
-                47.45454
-              ],
-              [
-                -0.5537,
-                47.45454
-              ],
-              [
-                -0.553419,
-                47.454572
-              ],
-              [
-                -0.550341,
-                47.455517
-              ],
-              [
-                -0.546566,
-                47.458602
-              ],
-              [
-                -0.542431,
-                47.461995
-              ],
-              [
-                -0.542296,
-                47.462329
-              ],
-              [
-                -0.54245,
-                47.46317
-              ],
-              [
-                -0.54323,
-                47.467274
-              ],
-              [
-                -0.543266,
-                47.467434
-              ],
-              [
-                -0.544512,
-                47.470365
-              ],
-              [
-                -0.545592,
-                47.472378
-              ],
-              [
-                -0.545631,
-                47.472422
-              ],
-              [
-                -0.545878,
-                47.472691
-              ],
-              [
-                -0.546167,
-                47.472905
-              ],
-              [
-                -0.549343,
-                47.47388
-              ],
-              [
-                -0.551603,
-                47.474059
-              ],
-              [
-                -0.555725,
-                47.474355
-              ],
-              [
-                -0.556352,
-                47.47433
-              ],
-              [
-                -0.558998,
-                47.473921
-              ],
-              [
-                -0.564123,
-                47.473081
-              ],
-              [
-                -0.565874,
-                47.473061
-              ],
-              [
-                -0.56603,
-                47.473011
-              ],
-              [
-                -0.567203,
-                47.472621
-              ],
-              [
-                -0.567351,
-                47.472562
-              ],
-              [
-                -0.567606,
-                47.472308
-              ],
-              [
-                -0.567781,
-                47.471858
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809769891,
+      "timestamp": 1785863492634,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -427,8 +257,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -441,7 +270,1103 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:13:06Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 1561091744,
+        "lat": 47.454996,
+        "lon": -0.5664856,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "199",
+          "addr:postcode": "49000",
+          "addr:street": "Rue Éblé",
+          "amenity": "restaurant",
+          "name": "Chez Lux",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2122510724,
+        "lat": 47.4733384,
+        "lon": -0.5494068,
+        "tags": {
+          "check_date": "2026-03-06",
+          "name": "La Cartouche",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2122518597,
+        "lat": 47.473225,
+        "lon": -0.5495515,
+        "tags": {
+          "indoor_seating": "no",
+          "name": "Le Fournil du Pilori",
+          "outdoor_seating": "yes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "800680738",
+          "ref:FR:SIRET": "80068073800013",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2426982454,
+        "lat": 47.4671953,
+        "lon": -0.5453834,
+        "tags": {
+          "addr:housenumber": "6",
+          "addr:postcode": "49000",
+          "addr:street": "Place du Lycée",
+          "check_date": "2024-06-20",
+          "check_date:opening_hours": "2024-06-20",
+          "indoor_seating": "yes",
+          "internet_access": "no",
+          "name": "Chez Lux",
+          "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:00-19:30",
+          "outdoor_seating": "no",
+          "payment:credit_cards": "no",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 2 41 87 67 47",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "843761172",
+          "ref:FR:SIRET": "84376117200017",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2483199565,
+        "lat": 47.4699111,
+        "lon": -0.5514007,
+        "tags": {
+          "contact:housenumber": "22",
+          "contact:street": "Rue Saint-Julien",
+          "name": "Racynes",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "979167061",
+          "ref:FR:SIRET": "97916706100014",
+          "shop": "convenience",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2638285670,
+        "lat": 47.4745119,
+        "lon": -0.560526,
+        "tags": {
+          "craft": "caterer",
+          "name": "Le Phnom",
+          "opening_hours": "Mo 11:00-14:00,17:00-20:00; Tu-Sa 10:00-14:00,15:30-20:30",
+          "ref:FR:SIRET": "89139463700013",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2852852386,
+        "lat": 47.4731499,
+        "lon": -0.5504706,
+        "tags": {
+          "check_date": "2024-09-21",
+          "contact:housenumber": "4",
+          "contact:street": "Rue des Poëliers",
+          "name": "La luciole",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "341932200",
+          "ref:FR:SIRET": "34193220000015",
+          "shop": "books",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2853072950,
+        "lat": 47.4732513,
+        "lon": -0.5548101,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "45",
+          "addr:postcode": "49100",
+          "addr:street": "Rue de la Parcheminerie",
+          "check_date": "2026-03-03",
+          "name": "Saveurs exotiques",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2853121133,
+        "lat": 47.4685829,
+        "lon": -0.5505243,
+        "tags": {
+          "addr:housenumber": "34",
+          "addr:street": "Boulevard du Maréchal Foch",
+          "name": "Primaprix",
+          "opening_hours": "Mo-Sa 08:30-20:30,09:00-12:30",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIRET": "90306021800216",
+          "shop": "convenience",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3583777533,
+        "lat": 47.469576,
+        "lon": -0.5554274,
+        "tags": {
+          "check_date": "2026-05-02",
+          "check_date:opening_hours": "2026-05-02",
+          "name": "La petite bouquinerie",
+          "opening_hours": "Tu-Fr 11:00-18:00; Sa 10:00-19:00",
+          "ref:FR:SIRET": "87933313600023",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3589528648,
+        "lat": 47.4741587,
+        "lon": -0.554235,
+        "tags": {
+          "name": "Alimentation Nazari",
+          "ref:FR:SIRET": "88969558100013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3589574837,
+        "lat": 47.4740582,
+        "lon": -0.5519819,
+        "tags": {
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3665782726,
+        "lat": 47.4584038,
+        "lon": -0.554363,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "124",
+          "addr:postcode": "49000",
+          "addr:street": "Rue de Létanduère",
+          "changing_table": "no",
+          "indoor_seating": "yes",
+          "name": "La Ronde des pains",
+          "opening_hours": "Mo,We-Fr 07:00-13:30,15:00-19:30; Sa,Su 07:00-13:30; Tu off",
+          "outdoor_seating": "no",
+          "phone": "+33 2 41 88 11 40",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3767450601,
+        "lat": 47.4668509,
+        "lon": -0.5569258,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "4",
+          "addr:postcode": "49100",
+          "addr:street": "Place de la Visitation",
+          "name": "La Maison du Pain",
+          "opening_hours": "Mo-Sa 06:45-20:00",
+          "phone": "+33 2 41 87 53 11",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3768037413,
+        "lat": 47.4704351,
+        "lon": -0.5537679,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "6-8",
+          "addr:postcode": "49100",
+          "addr:street": "Rue Chaperonnière",
+          "check_date": "2025-12-11",
+          "check_date:opening_hours": "2025-12-11",
+          "email": "severine.jaunay@rougieretple.fr",
+          "name": "Richer",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "phone": "+33 2 41 25 50 00",
+          "ref:FR:SIRET": "48127546900056",
+          "shop": "books",
+          "website": "https://www.librairie-richer.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3768082249,
+        "lat": 47.4715764,
+        "lon": -0.5513288,
+        "tags": {
+          "contact:city": "Angers",
+          "contact:housenumber": "14",
+          "contact:postcode": "49100",
+          "contact:street": "Rue Cordelle",
+          "name": "Les Grimoires de Lorphé",
+          "ref:FR:SIRET": "94380271000013",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3828427411,
+        "lat": 47.475926,
+        "lon": -0.5506585,
+        "tags": {
+          "name": "Comptoir d'Asie",
+          "ref:FR:SIRET": "52022269600020",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3893275634,
+        "lat": 47.471692,
+        "lon": -0.5554972,
+        "tags": {
+          "check_date": "2023-11-15",
+          "name": "Itinérance",
+          "ref:FR:SIRET": "52903914100013",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3931956366,
+        "lat": 47.470333,
+        "lon": -0.5536117,
+        "tags": {
+          "name": "Azu Manga tome 2",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "91498516300015",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4848299207,
+        "lat": 47.4510416,
+        "lon": -0.5542406,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:postcode": "49000",
+          "addr:street": "Place du Chapeau de Gendarme",
+          "check_date": "2025-03-16",
+          "check_date:opening_hours": "2025-03-16",
+          "indoor_seating": "yes",
+          "name": "Tonton du Bread",
+          "opening_hours": "We-Mo 07:30-20:00; Tu off",
+          "outdoor_seating": "yes",
+          "shop": "bakery",
+          "website": "https://tontondubread.eatbu.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5186109105,
+        "lat": 47.4753818,
+        "lon": -0.5623409,
+        "tags": {
+          "addr:housenumber": "18",
+          "addr:postcode": "49100",
+          "addr:street": "Place de la Laiterie",
+          "indoor_seating": "no",
+          "name": "La Pomme d'argent",
+          "opening_hours": "Mo-We,Fr 07:30-19:30; Sa 08:00-18:00; Su 08:00-14:00",
+          "outdoor_seating": "no",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5306178044,
+        "lat": 47.4616005,
+        "lon": -0.5545494,
+        "tags": {
+          "check_date:opening_hours": "2025-12-11",
+          "indoor_seating": "no",
+          "name": "Atelier Létanduère",
+          "opening_hours": "Tu-Sa 07:30-13:30,15:00-19:00",
+          "outdoor_seating": "no",
+          "ref:FR:SIRET": "83191004700016",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5306722428,
+        "lat": 47.461683,
+        "lon": -0.5545682,
+        "tags": {
+          "check_date:opening_hours": "2025-12-11",
+          "name": "M'Angers Bio",
+          "opening_hours": "Tu-Sa 09:00-13:00,14:30-19:15",
+          "organic": "only",
+          "payment:coins": "yes",
+          "payment:mastercard": "yes",
+          "payment:notes": "yes",
+          "payment:visa": "yes",
+          "payment:visa_debit": "no",
+          "ref:FR:SIRET": "84053216200012",
+          "shop": "convenience",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5360500497,
+        "lat": 47.4722931,
+        "lon": -0.552879,
+        "tags": {
+          "check_date": "2026-05-23",
+          "contact:phone": "+33 2 41 20 62 49",
+          "contact:website": "https://www.comptoir-irlandais.com",
+          "name": "Le comptoir Irlandais",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:NAF": "47.78C",
+          "ref:FR:SIRET": "38524664000358",
+          "shop": "convenience",
+          "source": "INSEE - 2026-05",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5413972811,
+        "lat": 47.4750082,
+        "lon": -0.561774,
+        "tags": {
+          "brand": "Coccinelle express",
+          "brand:wikidata": "Q90020479",
+          "check_date:opening_hours": "2025-03-04",
+          "name": "Coccinelle express",
+          "opening_hours": "Su 08:00-13:00; Mo-Sa 08:00-22:00",
+          "operator": "Coccinelle Supermarché",
+          "organic": "yes",
+          "phone": "+33 2 41 88 29 44",
+          "ref:FR:SIRET": "44500626500034",
+          "shop": "convenience",
+          "website": "https://www.coccinelle.fr/magasin/angers",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5414488785,
+        "lat": 47.4728319,
+        "lon": -0.5529946,
+        "tags": {
+          "check_date": "2026-03-03",
+          "name": "Myriagone",
+          "opening_hours": "Tu 16:00-19:00; We-Sa 11:00-19:00",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "821809027",
+          "ref:FR:SIRET": "82180902700013",
+          "shop": "books",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5766578014,
+        "lat": 47.4727911,
+        "lon": -0.5501834,
+        "tags": {
+          "check_date": "2026-03-06",
+          "contact:facebook": "https://www.facebook.com/librairiecontact",
+          "contact:housenumber": "3",
+          "contact:street": "Rue Lenepveu",
+          "name": "Librairie Contact",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "phone": "+33 2 41 24 15 00",
+          "ref:FR:SIRET": "99980346300010",
+          "ref:vatin": "FR69999803463",
+          "shop": "books",
+          "website": "https://www.placedeslibraires.fr/magasins/angers/Contact-5905/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5813030043,
+        "lat": 47.4703901,
+        "lon": -0.5538012,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "10",
+          "addr:postcode": "49100",
+          "addr:street": "Rue Chaperonnière",
+          "check_date": "2025-12-11",
+          "check_date:opening_hours": "2025-12-11",
+          "email": "bouquinerieducentre49@gmail.com",
+          "name": "La Bouquinerie du Centre",
+          "opening_hours": "Tu-Sa 10:00-19:00; Mo 14:00-19:00",
+          "phone": "+33 2 41 41 70 88",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "879333136",
+          "ref:FR:SIRET": "87933313600015",
+          "shop": "books",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5952348259,
+        "lat": 47.4690316,
+        "lon": -0.5499855,
+        "tags": {
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "brand:wikipedia": "fr:La Mie câline",
+          "check_date:opening_hours": "2026-01-28",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Su,PH 06:00-20:00",
+          "ref:FR:NAF": "10.71B",
+          "ref:FR:SIREN": "823808365",
+          "ref:FR:SIRET": "82380836500014",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6176651187,
+        "lat": 47.451149,
+        "lon": -0.5563095,
+        "tags": {
+          "name": "Anjou Oriental",
+          "opening_hours": "Mo-Sa 09:00-19:45; Su 09:00-13:30",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "847964947",
+          "ref:FR:SIRET": "84796494700018",
+          "shop": "convenience",
+          "source": "INSEE - 2026-05",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6176651193,
+        "lat": 47.4520374,
+        "lon": -0.5551658,
+        "tags": {
+          "name": "Poissonnerie i'Hodé",
+          "opening_hours": "Th,Sa 09:00-13:00; Fr 08:30-13:00,15:00-19:00; Su-We,PH off",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6176664590,
+        "lat": 47.4522309,
+        "lon": -0.5555656,
+        "tags": {
+          "check_date": "2023-11-25",
+          "indoor_seating": "yes",
+          "name": "Délices d'Ophélie",
+          "outdoor_seating": "yes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "848392247",
+          "ref:FR:SIRET": "84839224700013",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6312753385,
+        "lat": 47.4749965,
+        "lon": -0.5498085,
+        "tags": {
+          "addr:housenumber": "12",
+          "addr:street": "Rue du Commerce",
+          "brand": "Maison Bécam",
+          "brand:wikidata": "Q130232721",
+          "name": "Maison Bécam",
+          "opening_hours": "Mo-Sa 07:15-19:30; Su 08:00-14:00",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "803497049",
+          "ref:FR:SIRET": "80349704900038",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6371909186,
+        "lat": 47.4654075,
+        "lon": -0.5559694,
+        "tags": {
+          "name": "Épicerie de la gare",
+          "opening_hours": "Mo-Sa 14:00-02:00, Su 13:00-02:00",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "978491397",
+          "ref:FR:SIRET": "97849139700011",
+          "shop": "convenience",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6561407331,
+        "lat": 47.4749613,
+        "lon": -0.5615016,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "65",
+          "addr:postcode": "49100",
+          "addr:street": "Rue Beaurepaire",
+          "amenity": "cafe",
+          "name": "L'étincelle",
+          "opening_hours": "Su 10:00-13:00; We-Fr 10:00-19:00; Sa 09:00-19:00",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "421945601",
+          "ref:FR:SIRET": "42194560100027",
+          "shop": "books",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6996775684,
+        "lat": 47.4700355,
+        "lon": -0.5521826,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "16",
+          "addr:postcode": "49100",
+          "addr:street": "Rue Louis de Romain",
+          "check_date": "2023-12-01",
+          "name": "Librairie Kroki",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7021315532,
+        "lat": 47.4675463,
+        "lon": -0.55891,
+        "tags": {
+          "check_date": "2024-01-20",
+          "name": "Dalibard",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "815293725",
+          "ref:FR:SIRET": "81529372500017",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7294992222,
+        "lat": 47.4736743,
+        "lon": -0.5423695,
+        "tags": {
+          "addr:housenumber": "85",
+          "addr:street": "Boulevard Saint-Michel",
+          "check_date": "2026-01-09",
+          "check_date:opening_hours": "2026-01-09",
+          "name": "La P'tite Tartine",
+          "opening_hours": "Tu-Fr 06:30-19:30; Sa 06:30-18:30",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "831016183",
+          "ref:FR:SIRET": "83101618300012",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7369763133,
+        "lat": 47.4730328,
+        "lon": -0.5534217,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "19",
+          "addr:postcode": "49000",
+          "addr:street": "Rue de la Roë",
+          "name": "Au repaire des héros",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "phone": "+33 2 41 34 83 06",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "518181334",
+          "ref:FR:SIRET": "51818133400039",
+          "shop": "books",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7414352847,
+        "lat": 47.4696818,
+        "lon": -0.5491021,
+        "tags": {
+          "brand": "Maison Bécam",
+          "brand:wikidata": "Q130232721",
+          "check_date": "2026-01-06",
+          "name": "Maison Bécam",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su 08:00-19:00",
+          "ref:FR:SIRET": "51345792900075",
+          "shop": "bakery",
+          "source:opening_hours": "https://maisonbecam.com/pages/nos-boutiques"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7419566218,
+        "lat": 47.4727246,
+        "lon": -0.5453466,
+        "tags": {
+          "check_date": "2025-03-24",
+          "check_date:opening_hours": "2025-03-24",
+          "indoor_seating": "no",
+          "name": "Chez Lux",
+          "opening_hours": "Mo-Fr 06:00-19:30; Sa 06:00-19:00",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "52108254500026",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7521898485,
+        "lat": 47.4672306,
+        "lon": -0.5497472,
+        "tags": {
+          "addr:housenumber": "42",
+          "addr:postcode": "49100",
+          "addr:street": "Rue Bressigny",
+          "check_date": "2023-11-05",
+          "contact:facebook": "https://www.facebook.com/LaDoreenne/",
+          "name": "La Doréenne",
+          "opening_hours": "Mo-Sa 07:00-19:30",
+          "phone": "+33 2 41 87 57 17",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "793181215",
+          "ref:FR:SIRET": "79318121500021",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05",
+          "stroller": "yes",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7833232064,
+        "lat": 47.4700607,
+        "lon": -0.5514723,
+        "tags": {
+          "brand": "Maison Bécam",
+          "brand:wikidata": "Q130232721",
+          "check_date": "2023-12-29",
+          "indoor_seating": "no",
+          "name": "Maison Bécam",
+          "opening_hours": "Mo,Tu 09:30-19:30; We-Sa 08:30-19:30; Su off",
+          "outdoor_seating": "no",
+          "shop": "bakery",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8329905432,
+        "lat": 47.4727753,
+        "lon": -0.552645,
+        "tags": {
+          "name": "Épicerie du centre",
+          "opening_hours": "Mo 18:00-24:00; Tu-Sa 16:30-02:00; Su 11:00-24:00",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "515159838",
+          "ref:FR:SIRET": "51515983800025",
+          "shop": "convenience",
+          "source": "INSEE - 2026-05",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8331334475,
+        "lat": 47.4730587,
+        "lon": -0.5506593,
+        "tags": {
+          "name": "Comtesse du Barry",
+          "opening_hours": "Tu 10:30-13:00,15:00-18:30; We-Fr 10:00-13:00,15:00-18:30; Sa 10:00-13:00,15:00-19:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8402036107,
+        "lat": 47.4697466,
+        "lon": -0.5549831,
+        "tags": {
+          "check_date": "2023-12-21",
+          "name": "Art et Bandes Dessinées",
+          "opening_hours": "Mo 13:00-18:00; Tu-Sa 10:00-12:00,13:00-18:30",
+          "ref:FR:SIRET": "42261600300014",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8420269489,
+        "lat": 47.4665096,
+        "lon": -0.5574568,
+        "tags": {
+          "check_date": "2026-05-24",
+          "contact:housenumber": "10",
+          "contact:street": "Place de la Visitation",
+          "email": "librairie.lheriau@wanadoo.fr",
+          "name": "Lhériau",
+          "opening_hours": "Mo 14:00-18:00; Tu-Sa 09:00-18:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 41 87 75 87",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "353472772",
+          "ref:FR:SIRET": "35347277200014",
+          "shop": "books",
+          "source": "INSEE - 2026-05",
+          "website": "https://www.librairielheriau.fr/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8515274055,
+        "lat": 47.4671404,
+        "lon": -0.5453217,
+        "tags": {
+          "check_date": "2025-12-05",
+          "currency:EUR": "yes",
+          "indoor_seating": "yes",
+          "internet_access": "no",
+          "name": "Les petits Bonheurs",
+          "opening_hours": "Tu-Fr 07:00-19:30; Sa 07:00-19:00; Su 07:00-13:00",
+          "outdoor_seating": "no",
+          "payment:credit_cards": "no",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "498782614",
+          "ref:FR:SIRET": "49878261400024",
+          "second_hand": "no",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05",
+          "stroller": "yes",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8568931896,
+        "lat": 47.4717201,
+        "lon": -0.5527738,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/librairiechrysalide",
+          "contact:housenumber": "11",
+          "contact:street": "Rue des Deux-Haies",
+          "name": "Librairie Chrysalide",
+          "opening_hours": "Mo 14:00-18:00; Tu-Sa 10:00-19:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 41 86 82 37",
+          "ref:FR:SIRET": "40059771200019",
+          "ref:vatin": "FR08400597712",
+          "shop": "books",
+          "website": "https://www.librairiechrysalide.com/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8862234888,
+        "lat": 47.4739648,
+        "lon": -0.5680314,
+        "tags": {
+          "name": "Tony Lux",
+          "opening_hours": "Mo-Fr 07:00-13:30,15:30-19:30; Su 07:30-13:00; Sa off",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "894350339",
+          "ref:FR:SIRET": "89435033900012",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8871315271,
+        "lat": 47.4735213,
+        "lon": -0.5507442,
+        "tags": {
+          "check_date": "2026-03-09",
+          "diet:vegan": "yes",
+          "name": "Prends-en de la Graine",
+          "organic": "yes",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "891036667",
+          "ref:FR:SIRET": "89103666700014",
+          "shop": "convenience",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9233275090,
+        "lat": 47.4725251,
+        "lon": -0.5528985,
+        "tags": {
+          "bulk_purchase": "only",
+          "contact:city": "Angers",
+          "contact:email": "daybyday.angers49@gmail.com",
+          "contact:housenumber": "29",
+          "contact:postcode": "49100",
+          "contact:street": "Rue de la Roë",
+          "delivery": "yes",
+          "name": "day by day",
+          "opening_hours": "Tu-Fr 10:00-14:00,15:00-19:00; Sa 10:00-19:00",
+          "organic": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 9 73 27 12 27",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "835228438",
+          "ref:FR:SIRET": "83522843800015",
+          "shop": "convenience",
+          "source": "INSEE - 2026-05",
+          "website": "https://daybyday-shop.com/magasin/angers-4/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9342269393,
+        "lat": 47.4656206,
+        "lon": -0.5571967,
+        "tags": {
+          "addr:housenumber": "12",
+          "addr:street": "Rue de la Gare",
+          "check_date": "2025-07-22",
+          "check_date:opening_hours": "2025-04-03",
+          "name": "Le Grenier à Pain",
+          "opening_hours": "We-Mo 07:30-19:30",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "432981769",
+          "ref:FR:SIRET": "43298176900016",
+          "shop": "bakery",
+          "source": "INSEE - 2026-05"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10610740105,
+        "lat": 47.4662618,
+        "lon": -0.5530128,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "1",
+          "addr:postcode": "49100",
+          "addr:street": "Rue du Haras",
+          "contact:facebook": "https://www.facebook.com/LesPatisseurs/",
+          "contact:instagram": "https://www.instagram.com/lespatisseurs/",
+          "contact:phone": "+33 2 41 37 47 67",
+          "cuisine": "sandwich",
+          "delivery": "no",
+          "indoor_seating": "no",
+          "name": "Les Pâtisseurs",
+          "opening_hours": "Mo-Fr 07:00-19:45; Sa 07:30-18:30",
+          "outdoor_seating": "no",
+          "pastry": "yes",
+          "shop": "bakery",
+          "takeaway": "yes",
+          "website": "https://www.lespatisseurs.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11382013082,
+        "lat": 47.474766,
+        "lon": -0.5610292,
+        "tags": {
+          "check_date:opening_hours": "2026-03-31",
+          "name": "49100 épicerie",
+          "opening_hours": "Mo-We 10:00-02:30, Th-Sa 10:00-03:30, Su 10:00-01:30",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11465098111,
+        "lat": 47.4657639,
+        "lon": -0.554089,
+        "tags": {
+          "amenity": "restaurant",
+          "contact:email": "contact@ladevoreuse.fr",
+          "contact:facebook": "61571563108719",
+          "contact:housenumber": "18",
+          "contact:instagram": "https://www.instagram.com/ladevoreuse.angers/",
+          "contact:postcode": "49000",
+          "contact:street": "Rue du Haras",
+          "diet:vegetarian": "yes",
+          "name": "La Dévoreuse",
+          "opening_hours": "Tu-Sa 11:00-19:00",
+          "phone": "+33 2 85 35 91 85",
+          "ref:FR:NAF": "56.10C",
+          "ref:FR:SIREN": "931105159",
+          "ref:FR:SIRET": "93110515900012",
+          "shop": "books",
+          "source": "INSEE - 2026-05",
+          "website": "https://www.wheat-angers.com/reservations"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11486223034,
+        "lat": 47.471633,
+        "lon": -0.5668201,
+        "tags": {
+          "diet:halal": "yes",
+          "name": "Asia boucherie",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11533449608,
+        "lat": 47.4704863,
+        "lon": -0.5540717,
+        "tags": {
+          "name": "La bouquinerie du centre",
+          "ref:FR:SIRET": "87933313600015",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11804418184,
+        "lat": 47.4669011,
+        "lon": -0.5521132,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "51",
+          "addr:postcode": "49100",
+          "addr:street": "Boulevard du Maréchal Foch",
+          "contact:facebook": "https://www.facebook.com/p/Silo%C3%AB-Angers-Librairie-61551912945721/",
+          "email": "librairie@siloe-angers.fr",
+          "name": "Siloë",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "phone": "+33 2 49 62 85 23",
+          "ref:FR:SIRET": "85780061900051",
+          "ref:vatin": "FR17857800619",
+          "religion": "christian",
+          "shop": "books",
+          "website": "https://siloe-nantes.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12328714922,
+        "lat": 47.4729381,
+        "lon": -0.5549135,
+        "tags": {
+          "brand": "Épi Service",
+          "name": "Épi Service",
+          "opening_hours": "Mo 19:00-24:00, Tu-Th 17:00-01:00, Fr,Sa 17:00-02:00, Su 13:00-23:30",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12330750675,
+        "lat": 47.4576368,
+        "lon": -0.5564274,
+        "tags": {
+          "name": "Le fournil partagé",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12818768874,
+        "lat": 47.4653576,
+        "lon": -0.5573799,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "8",
+          "addr:postcode": "49000",
+          "addr:street": "Place de la Gare",
+          "amenity": "restaurant",
+          "bar": "yes",
+          "name": "La Cohue",
+          "nobrand": "yes",
+          "opening_hours": "Mo-Sa 08:30-20:00",
+          "phone": "+33 2 41 93 38 60",
+          "shop": "books",
+          "website": "https://www.instagram.com/lacohue.angers/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13096966670,
+        "lat": 47.4728256,
+        "lon": -0.5428744,
+        "tags": {
+          "name": "Africa Star Café",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13695696952,
+        "lat": 47.4791107,
+        "lon": -0.5653981,
+        "tags": {
+          "addr:city": "Angers",
+          "addr:housenumber": "3",
+          "addr:postcode": "49100",
+          "addr:street": "Rue Saint-Lazare",
+          "name": "Jardin d’Eden",
+          "ref:FR:SIRET": "90141821000018",
+          "shop": "books"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

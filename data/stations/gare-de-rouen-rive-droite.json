@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      1.083556,
-      49.433595,
-      1.113303,
-      49.453647
+      1.088668,
+      49.436638,
+      1.107769,
+      49.449958
     ],
     "features": [
       {
@@ -137,16 +137,12 @@
                 49.439498
               ],
               [
-                1.092512,
-                49.439324
+                1.092454,
+                49.439361
               ],
               [
-                1.094701,
-                49.437524
-              ],
-              [
-                1.095663,
-                49.436792
+                1.094622,
+                49.437235
               ],
               [
                 1.095988,
@@ -221,6 +217,10 @@
                 49.447238
               ],
               [
+                1.089061,
+                49.445718
+              ],
+              [
                 1.088818,
                 49.445541
               ],
@@ -236,174 +236,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            1.0992984947707785,
-            49.443157467744484
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                1.083702,
-                49.44697
-              ],
-              [
-                1.083556,
-                49.446641
-              ],
-              [
-                1.084105,
-                49.444907
-              ],
-              [
-                1.085388,
-                49.442491
-              ],
-              [
-                1.085867,
-                49.441739
-              ],
-              [
-                1.086448,
-                49.440862
-              ],
-              [
-                1.087513,
-                49.439278
-              ],
-              [
-                1.089897,
-                49.436047
-              ],
-              [
-                1.092033,
-                49.433981
-              ],
-              [
-                1.09232,
-                49.433868
-              ],
-              [
-                1.095238,
-                49.433595
-              ],
-              [
-                1.0989,
-                49.43406
-              ],
-              [
-                1.102889,
-                49.435295
-              ],
-              [
-                1.106541,
-                49.436176
-              ],
-              [
-                1.106718,
-                49.436236
-              ],
-              [
-                1.110327,
-                49.437674
-              ],
-              [
-                1.112926,
-                49.44126
-              ],
-              [
-                1.113169,
-                49.441643
-              ],
-              [
-                1.113295,
-                49.44194
-              ],
-              [
-                1.113303,
-                49.442003
-              ],
-              [
-                1.113294,
-                49.442363
-              ],
-              [
-                1.113116,
-                49.442613
-              ],
-              [
-                1.112944,
-                49.442736
-              ],
-              [
-                1.11007,
-                49.445631
-              ],
-              [
-                1.10883,
-                49.449284
-              ],
-              [
-                1.106654,
-                49.451775
-              ],
-              [
-                1.105145,
-                49.453334
-              ],
-              [
-                1.104262,
-                49.453061
-              ],
-              [
-                1.09961,
-                49.452552
-              ],
-              [
-                1.098249,
-                49.453318
-              ],
-              [
-                1.097829,
-                49.453647
-              ],
-              [
-                1.097477,
-                49.453572
-              ],
-              [
-                1.092805,
-                49.451433
-              ],
-              [
-                1.088818,
-                49.450484
-              ],
-              [
-                1.084425,
-                49.447769
-              ],
-              [
-                1.083702,
-                49.44697
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809808602,
+      "timestamp": 1785863965336,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -415,8 +253,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -429,7 +266,1926 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:21:14Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 471537615,
+        "lat": 49.4566898,
+        "lon": 1.0955879,
+        "tags": {
+          "addr:city": "Bois-Guillaume",
+          "addr:housenumber": "1074",
+          "addr:postcode": "76230",
+          "addr:street": "Rue du Champ des Oiseaux",
+          "check_date:opening_hours": "2024-03-24",
+          "name": "HR Rolland",
+          "opening_hours": "Tu-Sa 07:00-19:30; Su 07:00-13:00",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+33232086378",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour :2008"
+        }
+      },
+      {
+        "type": "node",
+        "id": 471772001,
+        "lat": 49.4534679,
+        "lon": 1.0935491,
+        "tags": {
+          "name": "Jullien",
+          "opening_hours": "Tu-Fr 07:00-13:00,15:00-19:30; Sa 07:00-13:00,14:30-19:30; Su 07:30-12:45",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour :2009"
+        }
+      },
+      {
+        "type": "node",
+        "id": 471772002,
+        "lat": 49.4533712,
+        "lon": 1.0935515,
+        "tags": {
+          "contact:city": "Rouen",
+          "contact:housenumber": "79 b",
+          "contact:postcode": "76000",
+          "contact:street": "Rue Verte",
+          "name": "Maison Montville",
+          "opening_hours": "Mo-Su 08:00-19:00; Su 08:00-13:00",
+          "operator": "Maison Montville",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 2 35 89 08 67",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;local knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1345676943,
+        "lat": 49.4425332,
+        "lon": 1.1064335,
+        "tags": {
+          "addr:housenumber": "156",
+          "craft": "bakery",
+          "delivery": "no",
+          "drive_through": "no",
+          "name": "L'Atelier du Pain",
+          "opening_hours": "We-Fr 06:00-20:00; Sa 07:00-20:00; Su off",
+          "operator": "Annick Lemire",
+          "organic": "no",
+          "panoramax": "8a0f836c-c0b4-4aaa-a199-29b2190534a2",
+          "pastry": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 2 35 71 13 66",
+          "ref:FR:SIRET": "95083236000016",
+          "shop": "bakery",
+          "takeaway": "yes",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1643528059,
+        "lat": 49.4393425,
+        "lon": 1.1013029,
+        "tags": {
+          "addr:housenumber": "116",
+          "name": "Chez Catherine",
+          "phone": "+33 2 35 07 38 77",
+          "ref:FR:SIRET": "50861361900016",
+          "shop": "bakery",
+          "source": "Bing, Survey, http://www.flickr.com/photos/haptomai/6774229930",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1672597825,
+        "lat": 49.4438452,
+        "lon": 1.0929327,
+        "tags": {
+          "addr:housenumber": "70",
+          "delivery": "no",
+          "drive_through": "no",
+          "name": "Librairie Élisabeth Brunet",
+          "opening_hours": "Tu-Sa 14:30-19:00,11:00-12:30",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 2 35 98 63 06",
+          "ref:FR:SIRET": "33906371100016",
+          "shop": "books",
+          "website": "http://www.librairie-elisabeth-brunet.fr",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1683259818,
+        "lat": 49.4498543,
+        "lon": 1.1036206,
+        "tags": {
+          "addr:housenumber": "51",
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "name": "CocciMarket",
+          "operator": "Cocci Market",
+          "ref:FR:SIRET": "52487355100039",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2299631664,
+        "lat": 49.4481604,
+        "lon": 1.1002312,
+        "tags": {
+          "addr:housenumber": "166",
+          "brand": "Viveco",
+          "name": "Viveco",
+          "operator": "Hassan El Falk",
+          "payment:cash": "yes",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2299631680,
+        "lat": 49.4486509,
+        "lon": 1.1000675,
+        "tags": {
+          "addr:housenumber": "26",
+          "name": "Éric Estival",
+          "old_name": "Autant de pains",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 07 16 41",
+          "ref:FR:SIRET": "93159979900018",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2837572418,
+        "lat": 49.4414633,
+        "lon": 1.0957355,
+        "tags": {
+          "contact:city": "Rouen",
+          "contact:housenumber": "44",
+          "contact:postcode": "76000",
+          "contact:street": "Rue Saint-Nicolas",
+          "indoor_seating": "no",
+          "name": "Aux délices de Sylvia",
+          "opening_hours": "Mo-Sa 07:00-12:00,15:15-19:30",
+          "outdoor_seating": "street",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 76 61 16 73",
+          "ref:FR:SIRET": "97929567200021",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2970566372,
+        "lat": 49.4356654,
+        "lon": 1.0864919,
+        "tags": {
+          "addr:housenumber": "46",
+          "currency:EUR": "yes",
+          "drive_through": "no",
+          "name": "Maison Élise",
+          "opening_hours": "Tu-Fr 07:00-20:30; Sa,Su 07:30-20:00",
+          "operator": "EHA Invest",
+          "organic": "no",
+          "payment:cash": "yes",
+          "ref:FR:SIRET": "80889792000027",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3489487932,
+        "lat": 49.4563518,
+        "lon": 1.1076666,
+        "tags": {
+          "addr:city": "Bihorel",
+          "addr:housenumber": "180",
+          "addr:postcode": "76420",
+          "addr:street": "Route de neufchâtel",
+          "name": "Pétrin de Rouen",
+          "ref:FR:SIRET": "42050271800018",
+          "shop": "bakery",
+          "source": "Local knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3846264971,
+        "lat": 49.441735,
+        "lon": 1.1011284,
+        "tags": {
+          "addr:housenumber": "11",
+          "contact:facebook": "https://www.facebook.com/abcbookshoprouen",
+          "delivery": "no",
+          "drive_through": "no",
+          "email": "boutiqueabcbookshop@gmail.com",
+          "name": "ABC Bookshop",
+          "opening_hours": "Tu-Sa 10:00-18:00",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 71 08 67",
+          "ref:FR:SIRET": "33007561500022",
+          "shop": "books",
+          "website": "https://abcbook.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3891122757,
+        "lat": 49.4464436,
+        "lon": 1.0856551,
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:housenumber": "9,11",
+          "addr:postcode": "76000",
+          "addr:street": "Rue Saint-Gervais",
+          "brand": "Coccinelle",
+          "brand:wikidata": "Q17561658",
+          "name": "Coccinelle Express",
+          "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
+          "panoramax": "1626fb6a-2b4d-4330-92a7-610cf5d33356",
+          "ref:FR:SIRET": "81213359300010",
+          "shop": "convenience",
+          "website": "https://www.coccinelle.fr/Trouver_Un_Magasin/Details/coccinelle-express/rouen/9-rue-st-gervais"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3908418401,
+        "lat": 49.44497,
+        "lon": 1.0921392,
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:housenumber": "67",
+          "addr:postcode": "76000",
+          "addr:street": "Rue Jeanne d'Arc",
+          "brand": "Le Comptoir Irlandais",
+          "check_date:opening_hours": "2023-08-25",
+          "name": "Le Comptoir Irlandais",
+          "opening_hours": "Mo 14:00-19:00; Tu,We 10:00-13:00,14:00-19:00; Th-Sa 10:00-19:00",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 07 11 00",
+          "ref:FR:SIRET": "38524664000127",
+          "shop": "convenience",
+          "website": "https://www.comptoir-irlandais.com/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4087568665,
+        "lat": 49.434609,
+        "lon": 1.1051456,
+        "tags": {
+          "brand": "Avia",
+          "brand:wikidata": "Q300147",
+          "level": "0",
+          "name": "Avia",
+          "opening_hours": "06:00-21:00",
+          "operator": "Avia International",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4096443722,
+        "lat": 49.4422813,
+        "lon": 1.1063466,
+        "tags": {
+          "addr:housenumber": "157",
+          "check_date:opening_hours": "2021-09-07",
+          "craft": "bakery",
+          "delivery": "no",
+          "drive_through": "no",
+          "name": "Le Fournil de la Croix de Pierre",
+          "opening_hours": "06:00-20:00; We off",
+          "operator": "Guy Breard",
+          "organic": "no",
+          "panoramax": "a6f34ccd-f89e-4c71-93f1-0d21a5114f69",
+          "pastry": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 2 35 98 11 20",
+          "ref:FR:SIRET": "84314149000022",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4126724585,
+        "lat": 49.4395371,
+        "lon": 1.1018323,
+        "tags": {
+          "addr:housenumber": "42",
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "delivery": "no",
+          "drive_through": "no",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 08:30-20:00",
+          "ref:FR:SIRET": "55050198503822",
+          "shop": "convenience",
+          "start_date": "2020-08-18",
+          "website": "https://www.magasins-u.com/magasin/uexpress-rouenmairie.m25584",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4426951581,
+        "lat": 49.4423026,
+        "lon": 1.1065133,
+        "tags": {
+          "addr:housenumber": "153",
+          "brand": "Panier Sympa",
+          "brand:wikidata": "Q118129533",
+          "name": "Panier Sympa",
+          "operator": "Codifrance",
+          "operator:wikidata": "Q2981692",
+          "ref:FR:SIRET": "82142978400019",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4489858069,
+        "lat": 49.435506,
+        "lon": 1.0860809,
+        "tags": {
+          "addr:housenumber": "8",
+          "currency:EUR": "yes",
+          "delivery": "no",
+          "diet:halal": "yes",
+          "dog": "no",
+          "drive_through": "no",
+          "name": "Le Bienvenu",
+          "opening_hours": "Tu-Su 08:00-21:00",
+          "operator": "Salamat",
+          "organic": "no",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 63 55 33",
+          "shop": "convenience",
+          "smoking": "no",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4548451604,
+        "lat": 49.4410615,
+        "lon": 1.0931022,
+        "tags": {
+          "contact:city": "Rouen",
+          "contact:housenumber": "16",
+          "contact:postcode": "76000",
+          "contact:street": "Rue du Gros-Horloge",
+          "facebook": "https://www.facebook.com/people/Len-cas2Lily/61575053851925/",
+          "name": "L'En-cas 2 Lily",
+          "opening_hours": "Mo-Sa 08:00-19:00",
+          "ref:FR:SIRET": "83751385200033",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4553652433,
+        "lat": 49.4330395,
+        "lon": 1.0880668,
+        "tags": {
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "brand:wikipedia": "en:Spar (retailer)",
+          "contact:city": "Rouen",
+          "contact:housenumber": "65",
+          "contact:postcode": "76100",
+          "contact:street": "Rue Saint-Sever",
+          "name": "Spar",
+          "opening_hours": "Mo-Su 07:00-23:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 27 08 41 90",
+          "ref:FR:SIRET": "84286349000012",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016",
+          "website": "https://www.spar.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4553652478,
+        "lat": 49.4320341,
+        "lon": 1.087072,
+        "tags": {
+          "contact:city": "Rouen",
+          "contact:housenumber": "110",
+          "contact:postcode": "76100",
+          "contact:street": "Rue Saint-Sever",
+          "name": "L'Amie Saint-Sever",
+          "payment:cash": "yes",
+          "ref:FR:SIRET": "94937634700017",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4553652487,
+        "lat": 49.4317031,
+        "lon": 1.0868084,
+        "tags": {
+          "alt_name": "Maison Esnault",
+          "contact:city": "Rouen",
+          "contact:housenumber": "130",
+          "contact:postcode": "76100",
+          "contact:street": "Rue Saint-Sever",
+          "currency:EUR": "yes",
+          "name": "Au Roi de la Galette",
+          "organic": "no",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "ref:FR:SIRET": "81248857500018",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4553889708,
+        "lat": 49.4415537,
+        "lon": 1.0919085,
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:housenumber": "5",
+          "addr:postcode": "76000",
+          "addr:street": "Rue Thouret",
+          "check_date": "2026-02-24",
+          "check_date:opening_hours": "2026-02-24",
+          "name": "À juste titre",
+          "opening_hours": "Tu-Sa 10:00-12:00,15:00-19:00",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "48493799000014",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4556237017,
+        "lat": 49.4454735,
+        "lon": 1.0865839,
+        "tags": {
+          "contact:city": "Rouen",
+          "contact:housenumber": "101",
+          "contact:postcode": "76000",
+          "contact:street": "Rue Cauchoise",
+          "name": "Ô Cent Un",
+          "opening_hours": "Mo-Sa 07:30-19:30",
+          "ref:FR:SIRET": "84529561700011",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4556237037,
+        "lat": 49.4448982,
+        "lon": 1.0870246,
+        "tags": {
+          "check_date": "2025-05-24",
+          "contact:housenumber": "73",
+          "contact:street": "Rue Cauchoise",
+          "delivery": "yes",
+          "name": "D2R2",
+          "opening_hours": "Mo,We 00:00-02:30,21:00-24:00; Tu 00:00-02:00,21:00-24:00; Th 00:00-03:30,21:00-24:00; Fr 00:00-04:00,21:00-24:00; Sa,Su 00:00-05:00,21:00-24:00",
+          "ref:FR:SIRET": "95239261100010",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4556237074,
+        "lat": 49.4437639,
+        "lon": 1.0881005,
+        "tags": {
+          "contact:housenumber": "2",
+          "contact:street": "Rue Cauchoise",
+          "indoor_seating": "no",
+          "instagram": "https://www.instagram.com/valentinforlife/",
+          "name": "Valentin for life",
+          "opening_hours": "Mo-Tu 07:00-19:30; Th-Sa 07:00-19:30; Su 07:00-13:30",
+          "outdoor_seating": "sidewalk",
+          "panoramax": "12d50700-d2d4-489b-9f82-bc1ec23d050e",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "ref:FR:SIRET": "95280787300015",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016",
+          "website": "https://www.valentinforlife.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4597195807,
+        "lat": 49.4415029,
+        "lon": 1.0983595,
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:housenumber": "70",
+          "addr:postcode": "76000",
+          "addr:street": "Rue d'Amiens",
+          "name": "Dolce Vita",
+          "opening_hours": "Tu,We,Fr,Sa 11:30-18:30; Th 11:30-18:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 9 52 15 17 68",
+          "ref:FR:SIRET": "79297853800025",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4597409125,
+        "lat": 49.4425519,
+        "lon": 1.0930924,
+        "tags": {
+          "addr:housenumber": "29",
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "en:Système U",
+          "contact:facebook": "https://www.facebook.com/Utile.EspaceDuPalais",
+          "currency:EUR": "yes",
+          "delivery": "yes",
+          "drive_through": "yes",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "level": "0",
+          "name": "Utile",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-13:00",
+          "operator": "Distri Rouen Palais",
+          "organic": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 35 36 42 41",
+          "second_hand": "no",
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4638883428,
+        "lat": 49.4335547,
+        "lon": 1.0879613,
+        "tags": {
+          "addr:housenumber": "2",
+          "name": "Maison Élise",
+          "opening_hours": "Mo-Su 07:00-21:00",
+          "ref:FR:SIRET": "98769694500029",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4669921807,
+        "lat": 49.4374007,
+        "lon": 1.1072451,
+        "tags": {
+          "addr:housenumber": "9",
+          "brand": "Viveco",
+          "contact:facebook": "https://www.facebook.com/people/Viveco/100057380263075/",
+          "name": "Viveco",
+          "opening_hours": "Mo-Su 09:00-22:00",
+          "operator": "Abdellah Karbid",
+          "phone": "+33 2 32 18 74 10",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "533012159",
+          "ref:FR:SIRET": "53301215900018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4826793985,
+        "lat": 49.4387129,
+        "lon": 1.1035176,
+        "tags": {
+          "addr:housenumber": "74",
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "name": "CocciMarket",
+          "opening_hours": "Mo-Su 08:30-22:00",
+          "operator": "Amahal Lahoussaine",
+          "phone": "+33 2 35 88 94 83",
+          "ref:FR:SIRET": "40255275600015",
+          "shop": "convenience",
+          "website": "http://coccimarket.fr",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4970596288,
+        "lat": 49.4389205,
+        "lon": 1.0971321,
+        "tags": {
+          "addr:housenumber": "38",
+          "check_date": "2026-01-10",
+          "currency:EUR": "yes",
+          "delivery": "yes",
+          "drive_through": "no",
+          "name": "Supérette de la République",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 15 54 34",
+          "ref:FR:SIRET": "51269843200014",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4996703422,
+        "lat": 49.4465957,
+        "lon": 1.1047788,
+        "tags": {
+          "addr:housenumber": "47",
+          "name": "L'Arrêt Pains",
+          "opening_hours": "Mo-Su 06:30-20:30",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 32 10 20 20",
+          "ref:FR:SIRET": "79764058800027",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5206169696,
+        "lat": 49.4322665,
+        "lon": 1.0880802,
+        "tags": {
+          "addr:housenumber": "1",
+          "addr:street": "Allée Marcel Dupré",
+          "delivery": "no",
+          "drive_through": "no",
+          "name": "La Réponse",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 73 29 73",
+          "religion": "christian",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5310659544,
+        "lat": 49.4398061,
+        "lon": 1.0913826,
+        "tags": {
+          "addr:housenumber": "82",
+          "check_date": "2026-02-28",
+          "craft": "bakery",
+          "diet:gluten_free": "no",
+          "diet:lactose_free": "no",
+          "email": "2belbc@gmail.com",
+          "indoor_seating": "no",
+          "name": "La Brioche Chaude",
+          "opening_hours": "Mo 09:30-19:00; Tu-Sa 08:00-19:00",
+          "organic": "no",
+          "outdoor_seating": "no",
+          "pastry": "yes",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 98 23 52",
+          "produced_on_site": "yes",
+          "ref:FR:SIRET": "51946501700019",
+          "second_day": "no",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5319021007,
+        "lat": 49.4399792,
+        "lon": 1.0922931,
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:housenumber": "42",
+          "addr:postcode": "76000",
+          "addr:street": "Rue de la Champmesle",
+          "craft": "pastry",
+          "indoor_seating": "no",
+          "name": "Au Croissant Doré",
+          "operator": "F2MC",
+          "outdoor_seating": "no",
+          "phone": "+33 2 35 70 98 31",
+          "ref:FR:SIRET": "93441983900014",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5486808331,
+        "lat": 49.4446464,
+        "lon": 1.0996341,
+        "tags": {
+          "addr:housenumber": "12",
+          "name": "Comme à la maison II",
+          "second_day": "no",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5586861207,
+        "lat": 49.4363682,
+        "lon": 1.0868745,
+        "tags": {
+          "addr:housenumber": "14",
+          "currency:EUR": "yes",
+          "delivery": "no",
+          "drive_through": "no",
+          "email": "librairie.dades@gmail.com",
+          "name": "Librairie Dades",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 9 51 87 93 14",
+          "ref:FR:SIRET": "48075893700019",
+          "shop": "books",
+          "website": "http://librairie-dades.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5590229276,
+        "lat": 49.436079,
+        "lon": 1.0843337,
+        "tags": {
+          "addr:housenumber": "64",
+          "brand": "Coccinelle Express",
+          "brand:wikidata": "Q17561658",
+          "check_date:opening_hours": "2024-12-05",
+          "name": "Coccinelle Express",
+          "opening_hours": "Tu-Su 07:30-21:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 2 35 73 15 71",
+          "ref:FR:SIRET": "84898213800010",
+          "shop": "convenience",
+          "website": "https://www.coccinelle.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5629077557,
+        "lat": 49.4328056,
+        "lon": 1.0876843,
+        "tags": {
+          "contact:city": "Rouen",
+          "contact:housenumber": "78",
+          "contact:postcode": "76100",
+          "contact:street": "Rue Saint-Sever",
+          "name": "Anas Cash & Carry",
+          "ref:FR:SIRET": "91939757000012",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5667374276,
+        "lat": 49.4342489,
+        "lon": 1.0994673,
+        "tags": {
+          "addr:housenumber": "42",
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "brand:wikipedia": "en:Spar (retailer)",
+          "delivery": "yes",
+          "name": "Spar",
+          "opening_hours": "Mo-Sa 08:15-19:30; Su 09:00-12:30",
+          "organic": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 2 35 71 46 23",
+          "ref:FR:SIRET": "90799962700017",
+          "shop": "convenience",
+          "website": "https://www.spar.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5667415588,
+        "lat": 49.4341233,
+        "lon": 1.0997031,
+        "tags": {
+          "addr:housenumber": "52",
+          "name": "Les Délices de l'Île",
+          "operator": "Éric Cegany",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 89 56 85",
+          "ref:FR:SIRET": "44277816300042",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5767658953,
+        "lat": 49.4417976,
+        "lon": 1.0935098,
+        "tags": {
+          "addr:housenumber": "22",
+          "brand": "Yvonne",
+          "check_date": "2025-07-17",
+          "currency:EUR": "yes",
+          "delivery": "no",
+          "drive_through": "no",
+          "indoor_seating": "no",
+          "name": "Yvonne",
+          "opening_hours": "Mo-Sa 09:30-19:30",
+          "outdoor_seating": "street",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "shop": "bakery",
+          "website": "https://www.maisonyvonne.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6003372201,
+        "lat": 49.4435857,
+        "lon": 1.112411,
+        "tags": {
+          "addr:housenumber": "19",
+          "email": "cocciverdun@gmail.com",
+          "name": "Rapid'Market",
+          "opening_hours": "Mo-Su 10:00-23:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 2 35 70 18 10",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6070441044,
+        "lat": 49.4414397,
+        "lon": 1.089141,
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:housenumber": "54",
+          "addr:postcode": "76000",
+          "addr:street": "Rue de la Vicomte",
+          "name": "Le Fournil Jeanne d'Arc",
+          "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:30-20:00",
+          "operator": "Patrick Judas",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 70 53 26",
+          "ref:FR:SIRET": "82116044700024",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6091028822,
+        "lat": 49.4434969,
+        "lon": 1.1034942,
+        "tags": {
+          "addr:housenumber": "98",
+          "dog": "no",
+          "name": "La Croquise",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "82498810900016",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6109806716,
+        "lat": 49.4438728,
+        "lon": 1.0921779,
+        "tags": {
+          "addr:housenumber": "101",
+          "addr:street": "Rue Ganterie",
+          "check_date": "2024-06-01",
+          "name": "O Panier Ganterie",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6434414625,
+        "lat": 49.4387756,
+        "lon": 1.0920007,
+        "tags": {
+          "check_date": "2025-08-31",
+          "name": "Chez Vegeta",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6649459137,
+        "lat": 49.4402042,
+        "lon": 1.1019491,
+        "tags": {
+          "addr:housenumber": "37",
+          "contact:facebook": "https://fr-fr.facebook.com/Hamelin.frederic/",
+          "contact:phone": "+33 2 35 71 11 19",
+          "name": "Hamelin - Les caprices de Rouen",
+          "opening_hours": "Tu-Sa 06:30-19:30; Su 06:30-13:30",
+          "operator": "Frédéric HAMELIN",
+          "ref:FR:SIRET": "50756052200017",
+          "shop": "bakery",
+          "wheelchair": "no",
+          "wikimedia_commons": "Category:Hamelin - Les caprices de Rouen"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7040943674,
+        "lat": 49.4414322,
+        "lon": 1.0993796,
+        "tags": {
+          "contact:housenumber": "247",
+          "contact:street": "Rue Eau de Robec",
+          "currency:EUR": "yes",
+          "delivery": "yes",
+          "drive_through": "no",
+          "email": "contact@lemarchedurobec.com",
+          "facebook": "https://www.facebook.com/lemarchedurobec/",
+          "name": "Le Marché du Robec",
+          "opening_hours": "Mo 15:00-19:30; Tu-We 10:00-19:30; Th 14:00-19:30; Fr-Sa 10:00-19:30",
+          "organic": "yes",
+          "payment:cash": "yes",
+          "phone": "+33 2 76 27 01 19",
+          "ref:FR:SIRET": "82487070300017",
+          "second_hand": "no",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7040968684,
+        "lat": 49.4408561,
+        "lon": 1.0978702,
+        "tags": {
+          "contact:housenumber": "78",
+          "contact:street": "Rue de la République",
+          "name": "GAM",
+          "payment:cash": "yes",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7055512337,
+        "lat": 49.4444583,
+        "lon": 1.0992212,
+        "tags": {
+          "addr:housenumber": "11",
+          "noname": "yes",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 88 17 89",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7055656570,
+        "lat": 49.4391046,
+        "lon": 1.0966096,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/Boulangerie-Robergeot-106614147650468/",
+          "contact:housenumber": "3",
+          "contact:street": "Rue du Général Leclerc",
+          "currency:EUR": "yes",
+          "delivery": "no",
+          "drive_through": "no",
+          "email": "marc.robergeot@orange.fr",
+          "indoor_seating": "no",
+          "name": "M et Mme Robergeot",
+          "opening_hours": "Mo-Fr 06:15-19:00",
+          "organic": "no",
+          "outdoor_seating": "no",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 35 70 00 87",
+          "ref:FR:SIRET": "97957351600015",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7090999495,
+        "lat": 49.4422825,
+        "lon": 1.095129,
+        "tags": {
+          "addr:housenumber": "76",
+          "currency:EUR": "yes",
+          "indoor_seating": "no",
+          "name": "Maison Vatelier",
+          "opening_hours": "Tu-Sa 09:30-19:30",
+          "outdoor_seating": "yes",
+          "panoramax": "a095e999-93b4-4619-8d90-6c309185a3b7",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 34 70 39",
+          "ref:FR:SIRET": "43321268500047",
+          "shop": "bakery",
+          "website": "https://www.maison-vatelier.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7188568624,
+        "lat": 49.4388775,
+        "lon": 1.0942109,
+        "tags": {
+          "addr:housenumber": "18",
+          "contact:facebook": "https://www.facebook.com/boulangerieosmont",
+          "dog": "no",
+          "email": "boulangerieosmont@gmail.com",
+          "name": "Maison Osmont",
+          "opening_hours": "Tu-Sa 07:30-19:00",
+          "organic": "yes",
+          "payment:cash": "yes",
+          "phone": "+33 9 54 22 79 62",
+          "ref:FR:SIRET": "80421920200038",
+          "shop": "bakery",
+          "takeaway": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7200723505,
+        "lat": 49.4403689,
+        "lon": 1.1017937,
+        "tags": {
+          "contact:housenumber": "49",
+          "contact:street": "Rue d'Amiens",
+          "email": "contact@librairielelotus.com",
+          "name": "Le Lotus",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "phone": "+33 2 35 07 46 34",
+          "ref:FR:SIRET": "32788080300025",
+          "shop": "books",
+          "website": "https://www.librairielelotus.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7371301914,
+        "lat": 49.4448448,
+        "lon": 1.0969284,
+        "tags": {
+          "addr:housenumber": "65",
+          "indoor_seating": "no",
+          "name": "La Bonne Fournée",
+          "opening_hours": "Tu-Sa 07:00-20:00; Su 07:00-19:00; Mo off",
+          "outdoor_seating": "no",
+          "panoramax": "8f78d186-cfeb-4a01-b48c-4cf42eb405c2",
+          "ref:FR:SIRET": "91235267100016",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7371301948,
+        "lat": 49.4466206,
+        "lon": 1.0983016,
+        "tags": {
+          "contact:housenumber": "166",
+          "contact:postcode": "76000",
+          "contact:street": "Rue Beauvoisine",
+          "name": "L'Oriental",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "943675512",
+          "ref:FR:SIRET": "94367551200017",
+          "ref:vatin": "FR68943675512",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020",
+          "wikidata": "Q22951958"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7371301972,
+        "lat": 49.4453062,
+        "lon": 1.0973291,
+        "tags": {
+          "contact:city": "Rouen",
+          "contact:housenumber": "108",
+          "contact:postcode": "76000",
+          "contact:street": "Rue Beauvoisine",
+          "name": "La Beauvoisine",
+          "opening_hours": "Mo-Fr 07:30-13:30,15:30-19:30; Sa 07:30-13:00",
+          "phone": "+33 9 62 54 67 59",
+          "ref:FR:SIRET": "93073876000022",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7371301977,
+        "lat": 49.4450714,
+        "lon": 1.0972332,
+        "tags": {
+          "addr:housenumber": "98",
+          "check_date": "2025-12-31",
+          "contact:facebook": "https://www.facebook.com/lesmondesmagiques",
+          "contact:instagram": "https://www.instagram.com/lesmondesmagiques",
+          "contact:website": "https://www.lesmondesmagiques.fr/",
+          "currency:EUR": "yes",
+          "email": "lesmondesmagiques@hotmail.com",
+          "name": "Les Mondes Magiques",
+          "opening_hours": "Mo-Fr 10:00-19:00",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 71 11 90",
+          "ref:FR:SIRET": "82133429900012",
+          "second_hand": "only",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7371431942,
+        "lat": 49.4388622,
+        "lon": 1.0988275,
+        "tags": {
+          "contact:city": "Rouen",
+          "contact:facebook": "boulangeriebastienrouen",
+          "contact:housenumber": "14",
+          "contact:postcode": "76000",
+          "contact:street": "Rue Alsace Lorraine",
+          "indoor_seating": "no",
+          "name": "Bastien",
+          "outdoor_seating": "no",
+          "ref:FR:SIRET": "84843659800041",
+          "shop": "bakery",
+          "survey:date": "2025-12-05",
+          "takeaway": "only",
+          "was:shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7371431943,
+        "lat": 49.4396067,
+        "lon": 1.0944148,
+        "tags": {
+          "addr:housenumber": "1",
+          "name": "Les délices de la Cathédrale",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7373486073,
+        "lat": 49.4502324,
+        "lon": 1.104186,
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:housenumber": "32",
+          "addr:postcode": "76000",
+          "addr:street": "Rue de Bihorel",
+          "contact:facebook": "https://www.facebook.com/pages/category/Bakery/Aux-délices-du-Jouvenet-106638221150952/",
+          "contact:phone": "+33 2 35 71 57 33",
+          "cuisine": "sandwich",
+          "delivery": "no",
+          "name": "Aux Délices Du Jouvenet",
+          "opening_hours": "Mo-Fr 06:45-13:00,15:00-19:00; Sa 06:45-19:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "99271120000012",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7387218037,
+        "lat": 49.4413988,
+        "lon": 1.0856497,
+        "tags": {
+          "addr:housenumber": "160",
+          "check_date": "2025-09-18",
+          "name": "Vivéco",
+          "opening_hours": "09:00-13:00,15:00-22:00",
+          "ref:FR:SIRET": "48539600600010",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7403414818,
+        "lat": 49.4405938,
+        "lon": 1.0977283,
+        "tags": {
+          "addr:housenumber": "74",
+          "addr:street": "Rue de la République",
+          "description": "Librairie fantastique et salon de thé",
+          "name": "Les Grimoires de Morgane",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "90113211800018",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8051313693,
+        "lat": 49.4480902,
+        "lon": 1.0943451,
+        "tags": {
+          "addr:housenumber": "124",
+          "addr:street": "Rue Jeanne d'Arc",
+          "brand": "GAM",
+          "check_date": "2025-01-22",
+          "check_date:opening_hours": "2024-05-24",
+          "contact:housenumber": "124",
+          "contact:street": "Rue Jeanne d'Arc",
+          "currency:EUR": "yes",
+          "internet_access": "no",
+          "name": "GAM",
+          "opening_hours:signed": "no",
+          "panoramax": "6a40354c-d802-456a-a450-54811a329391",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "80359367200022",
+          "shop": "convenience",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8051313702,
+        "lat": 49.4431687,
+        "lon": 1.0913875,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/ARMITIERE",
+          "contact:housenumber": "66",
+          "contact:street": "Rue Jeanne d'Arc",
+          "currency:EUR": "yes",
+          "delivery": "no",
+          "drive_through": "no",
+          "name": "L'Armitière",
+          "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-19:30",
+          "operator": "SA Sedac L'Armitière",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 35 70 57 42",
+          "ref:FR:SIRET": "64050034400042",
+          "ref:vatin": "FR11640500344",
+          "shop": "books",
+          "takeaway": "yes",
+          "website": "https://www.armitiere.com/",
+          "wikidata": "Q22247970",
+          "wikipedia": "fr:L'Armitière"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8051313721,
+        "lat": 49.4481157,
+        "lon": 1.0938799,
+        "tags": {
+          "addr:housenumber": "119",
+          "addr:street": "Rue Jeanne d'Arc",
+          "brand": "Yvonne",
+          "indoor_seating": "yes",
+          "internet_access": "wlan",
+          "name": "Yvonne",
+          "opening_hours": "Mo-Fr 06:00-20:30; Sa 06:30-20:30",
+          "outdoor_seating": "sidewalk",
+          "pastry": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:meal_voucher": "yes",
+          "phone": "+33 2 35 71 67 33",
+          "ref:FR:SIRET": "52377604500024",
+          "shop": "bakery",
+          "website": "https://www.maisonyvonne.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8059897143,
+        "lat": 49.4439401,
+        "lon": 1.0915223,
+        "tags": {
+          "contact:city": "Rouen",
+          "contact:housenumber": "55",
+          "contact:postcode": "76000",
+          "contact:street": "Rue Jeanne d'Arc",
+          "delivery": "no",
+          "email": "funambuleslib@canalbd.net",
+          "name": "Librairie Funambules",
+          "opening_hours": "Tu-Sa 10:00-13:00, 14:00-19:00",
+          "payment:cheque": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 2 32 12 61 72",
+          "ref:FR:SIRET": "75066111800018",
+          "shop": "books",
+          "website": "https://www.canalbd.net/funambules"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8063441118,
+        "lat": 49.4457589,
+        "lon": 1.0868728,
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:housenumber": "60",
+          "addr:postcode": "76000",
+          "addr:street": "Rue Jean Lecanuet",
+          "name": "Au fournil urbain",
+          "opening_hours": "Mo-Su 05:30-22:00",
+          "ref:FR:SIRET": "90301090800023",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8092366651,
+        "lat": 49.4327115,
+        "lon": 1.0899592,
+        "tags": {
+          "brand": "le marché d'à côté",
+          "brand:wikidata": "Q130165186",
+          "name": "Le marché d'à côté",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "10444832900011",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8870190160,
+        "lat": 49.4399332,
+        "lon": 1.0906936,
+        "tags": {
+          "books": "comic",
+          "check_date": "2026-02-28",
+          "contact:housenumber": "102",
+          "contact:postcode": "76000",
+          "contact:street": "Rue du Général Leclerc",
+          "delivery": "no",
+          "email": "augrandnullepart@orange.fr",
+          "facebook": "https://www.facebook.com/AuGrandNullePart",
+          "instagram": "https://www.instagram.com/augrandnullepart",
+          "name": "Librairie Au Grand Nulle Part",
+          "opening_hours": "Mo-Sa 10:30-19:00; Su 11:00-18:00",
+          "phone": "+33 2 35 98 01 84",
+          "ref:FR:SIRET": "44316455300010",
+          "shop": "books",
+          "website": "https://www.librairie-augrandnullepart.fr/",
+          "wheelchair": "limited",
+          "wheelchair:description:en": "Door at street level, 40% of the store is accessible (at street-level), the remaining require 2 steps.",
+          "wheelchair:description:fr": "Porte accessible au niveau de la rue, 40% du magasin est au niveau de la rue, l'espace restant demandant de gravir 2 marches."
+        }
+      },
+      {
+        "type": "node",
+        "id": 9354252258,
+        "lat": 49.4398593,
+        "lon": 1.099524,
+        "tags": {
+          "check_date": "2026-01-10",
+          "indoor_seating": "yes",
+          "name": "Les pâtisseries de Gill",
+          "opening_hours": "We-Su 09:00-19:00",
+          "outdoor_seating": "parklet",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10271040235,
+        "lat": 49.442719,
+        "lon": 1.0908029,
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:housenumber": "37 bis",
+          "addr:postcode": "76000",
+          "addr:street": "Rue Jeanne d'Arc",
+          "check_date": "2026-06-15",
+          "check_date:opening_hours": "2026-06-15",
+          "indoor_seating": "yes",
+          "name": "Luval",
+          "old_name": "Luval",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su 07:00-19:00",
+          "outdoor_seating": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "52493876800073",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11141108499,
+        "lat": 49.4559051,
+        "lon": 1.1071448,
+        "tags": {
+          "addr:city": "Bihorel",
+          "addr:housenumber": "172",
+          "addr:postcode": "76420",
+          "name": "A & M Bakery 'Maison vilain et fils depuis 1989'",
+          "opening_hours": "Mo-We 06:00-20:00; Fr-Su 06:00-20:00",
+          "phone": "+33 2 35 59 04 40",
+          "ref:FR:SIRET": "83449424700010",
+          "shop": "bakery",
+          "source_ref": "https://www.facebook.com/Boulangerievilain/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11186372570,
+        "lat": 49.4434888,
+        "lon": 1.094893,
+        "tags": {
+          "addr:housenumber": "9",
+          "addr:street": "Rue de l'École",
+          "name": "Lumière d'Août",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11327520241,
+        "lat": 49.4420377,
+        "lon": 1.0943279,
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:housenumber": "7",
+          "addr:postcode": "76000",
+          "addr:street": "Rue Saint-Lô",
+          "name": "Bastien la suite",
+          "ref:FR:SIRET": "84843659800017",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11895531315,
+        "lat": 49.440153,
+        "lon": 1.0927303,
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:housenumber": "11",
+          "addr:postcode": "76000",
+          "addr:street": "Rue aux Ours",
+          "books": "romance;young_adult;fantasy",
+          "contact:facebook": "https://www.facebook.com/profile.php?id=61556645731909",
+          "contact:housenumber": "11",
+          "contact:instagram": "https://www.instagram.com/lencre_du_coeur",
+          "contact:street": "Rue aux Ours",
+          "name": "Librairie L'Encre du Cœur",
+          "opening_hours": "Tu-Sa 10:30-19:00",
+          "operator": "Edith Bravard",
+          "ref:FR:SIRET": "98778521900021",
+          "ref:vatin": "FR43987785219",
+          "shop": "books",
+          "was:name": "Initiales",
+          "was:shop": "houseware"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12090452025,
+        "lat": 49.4436563,
+        "lon": 1.0923896,
+        "tags": {
+          "addr:housenumber": "48",
+          "addr:street": "Rue Percière",
+          "brand": "La Procure",
+          "brand:wikidata": "Q3211977",
+          "name": "La Procure",
+          "opening_hours": "Tu-Sa 10:00-12:30,14:00-19:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12102655904,
+        "lat": 49.4422388,
+        "lon": 1.0950529,
+        "tags": {
+          "indoor_seating": "no",
+          "name": "Bouche Bée",
+          "opening_hours": "Tu-Sa 09:00-19:00; Su,Mo off",
+          "outdoor_seating": "yes",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12795913042,
+        "lat": 49.4462411,
+        "lon": 1.0857208,
+        "tags": {
+          "ref:FR:SIRET": "42031548300032",
+          "shop": "bakery",
+          "source": "INSEE"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12865172653,
+        "lat": 49.4403059,
+        "lon": 1.0964535,
+        "tags": {
+          "check_date": "2026-01-10",
+          "check_date:opening_hours": "2026-01-10",
+          "contact:facebook": "https://www.facebook.com/LibrairieRollon/",
+          "contact:housenumber": "26",
+          "contact:street": "Rue Saint-Romain",
+          "email": "librairie.rollon.rouen@gmail.com",
+          "internet_access": "no",
+          "name": "Librairie Rollon",
+          "nobrand": "yes",
+          "opening_hours": "Tu-Sa 11:00-19:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 79 91 25 73",
+          "ref:FR:SIRET": "83522025200026",
+          "second_hand": "only",
+          "shop": "books",
+          "toilets": "no",
+          "website": "https://www.librairierollon.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13031228790,
+        "lat": 49.4346871,
+        "lon": 1.089089,
+        "tags": {
+          "contact:housenumber": "12",
+          "contact:street": "Cours Clemenceau",
+          "delivery": "no",
+          "drive_through": "no",
+          "name": "Les Caprices de Marie",
+          "organic": "no",
+          "outdoor_seating": "yes",
+          "payment:cash": "yes",
+          "phone": "+33 2 35 73 31 89",
+          "ref:FR:SIRET": "50139427400036",
+          "shop": "bakery",
+          "smoking": "outside",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13321918921,
+        "lat": 49.4422087,
+        "lon": 1.1056866,
+        "tags": {
+          "contact:bluesky": "https://bsky.app/profile/librairielatonne.bsky.social",
+          "contact:facebook": "https://www.facebook.com/Librairielatonne/",
+          "contact:housenumber": "11-13",
+          "contact:instagram": "https://www.instagram.com/la_tonne_librairie_cafe",
+          "contact:postcode": "76000",
+          "contact:street": "Rue Saint-Hilaire",
+          "description": "Librairie & Café",
+          "email": "librairiecafelatonne@gmail.com",
+          "name": "La Tonne",
+          "opening_hours": "Tu-Th 10:00-12:30,14:30-19:00; Fr,Sa 10:00-19:00",
+          "phone": "+33 9 54 98 34 35",
+          "ref:FR:SIRET": "90803975300011",
+          "shop": "books",
+          "start_date": "2022",
+          "toilets": "yes",
+          "toilets:access": "customers",
+          "website": "https://www.librairielatonne.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13421226574,
+        "lat": 49.4405317,
+        "lon": 1.0977016,
+        "tags": {
+          "addr:city": "ROUEN",
+          "addr:housenumber": "74",
+          "addr:postcode": "76000",
+          "addr:street": "Rue de la République",
+          "contact:email": "rouen@lebibliovore.fr",
+          "contact:instagram": "https://www.instagram.com/lebibliovorerouen/",
+          "contact:phone": "+33652882126",
+          "contact:website": "https://www.lebibliovore.fr/les-librairies/rouen/",
+          "name": "Le Bibbliovore",
+          "opening_hours": "Tu 14:30-19:00; We 10:00-13:00,14:30-19:00; Th 14:30-19:00; Fr-Sa 10:00-13:00,14:30-19:00",
+          "ref:FR:SIRET": "98781308600012",
+          "second_hand": "only",
+          "shop": "books",
+          "start_date": "2024-04-19"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13459992861,
+        "lat": 49.4308331,
+        "lon": 1.0844313,
+        "tags": {
+          "level": "0",
+          "name": "Luval",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13511579665,
+        "lat": 49.4428974,
+        "lon": 1.090791,
+        "tags": {
+          "check_date": "2026-06-15",
+          "check_date:opening_hours": "2026-06-15",
+          "name": "9 Provinces",
+          "opening_hours": "Mo 10:20-19:00; Tu-Sa 10:30-19:00",
+          "ref:FR:SIRET": "51995285700018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13528276749,
+        "lat": 49.4407748,
+        "lon": 1.1022934,
+        "tags": {
+          "addr:housenumber": "45",
+          "name": "Les Douceurs d'Armand",
+          "phone": "+33 2 35 89 52 84",
+          "ref:FR:SIRET": "89751322200017",
+          "sandwich": "yes",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13564052920,
+        "lat": 49.4391852,
+        "lon": 1.0954678,
+        "tags": {
+          "contact:housenumber": "33",
+          "contact:street": "Rue du Général Leclerc",
+          "email": "supermarchep@gmail.com",
+          "name": "V.R. Market",
+          "phone": "+33 6 51 42 54 62",
+          "ref:FR:SIRET": "98754472300016",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13564519668,
+        "lat": 49.4391494,
+        "lon": 1.0958896,
+        "tags": {
+          "contact:housenumber": "27",
+          "contact:street": "Rue du Général Leclerc",
+          "name": "Market de Proximité",
+          "ref:FR:SIRET": "98883603700016",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13687440960,
+        "lat": 49.4414703,
+        "lon": 1.1049872,
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:housenumber": "22",
+          "addr:postcode": "76000",
+          "addr:street": "Rue Mollien",
+          "name": "Kissikol, Devenir Consom'Acteur",
+          "opening_hours": "We, Fr 14:00-19:00; Sa 10:00-17:00",
+          "operator": "Association Kissikol, Devenir Consom'Acteur",
+          "payment:cash": "yes",
+          "payment:cheque": "yes",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13821359340,
+        "lat": 49.4396659,
+        "lon": 1.1002145,
+        "tags": {
+          "contact:housenumber": "144",
+          "contact:street": "Rue Martainville",
+          "indoor_seating": "no",
+          "name": "Romy",
+          "outdoor_seating": "no",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "87756920200014",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13957787729,
+        "lat": 49.4328889,
+        "lon": 1.0902699,
+        "tags": {
+          "name": "Punjab Cash & Carry",
+          "ref:FR:SIRET": "82882960600015",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14072728077,
+        "lat": 49.4344799,
+        "lon": 1.0856307,
+        "tags": {
+          "name": "Que la night",
+          "shop": "convenience",
+          "survey:date": "2026-08-04"
+        }
+      },
+      {
+        "type": "way",
+        "id": 64750278,
+        "center": {
+          "lat": 49.4576418,
+          "lon": 1.1085171
+        },
+        "tags": {
+          "addr:housenumber": "184",
+          "building": "commercial",
+          "opening_hours": "Mo-Fr 06:00-20:30; Sa,Su 07:30-20:30",
+          "operator": "Total",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      },
+      {
+        "type": "way",
+        "id": 549780259,
+        "center": {
+          "lat": 49.4397987,
+          "lon": 1.0915478
+        },
+        "tags": {
+          "building": "kiosk",
+          "name:signed": "no",
+          "shop": "kiosk",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1165407609,
+        "center": {
+          "lat": 49.4489408,
+          "lon": 1.0939466
+        },
+        "tags": {
+          "access": "private",
+          "brand": "Mozza & Co.",
+          "indoor": "room",
+          "level": "0",
+          "name": "Mozza & Co.",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1165407640,
+        "center": {
+          "lat": 49.4488228,
+          "lon": 1.0939222
+        },
+        "tags": {
+          "addr:city": "Rouen",
+          "addr:postcode": "76000",
+          "addr:street": "Place Bernard Tissot",
+          "amenity": "cafe",
+          "brand": "Marie Blachère",
+          "brand:wikidata": "Q62082410",
+          "brand:wikipedia": "fr:Marie Blachère",
+          "contact:facebook": "https://www.facebook.com/CafeMarieBlachere/",
+          "cuisine": "sandwich;pizza",
+          "currency:EUR": "yes",
+          "delivery": "no",
+          "drive_through": "no",
+          "indoor": "room",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "level": "0",
+          "name": "Marie Blachère",
+          "opening_hours": "Mo-Sa 06:00-20:00; Su,PH 07:00-20:00",
+          "outdoor_seating": "no",
+          "panoramax": "383f4e89-f163-490e-af5d-897ac92e318e",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "bakery",
+          "smoking": "no",
+          "start_date": "2021-10-06",
+          "takeaway": "yes",
+          "website": "https://www.groupe-blachere.com/",
+          "wheelchair": "yes"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      -4.497214,
-      48.381485,
-      -4.468607,
-      48.40003
+      -4.492126,
+      48.383876,
+      -4.47435,
+      48.397118
     ],
     "features": [
       {
@@ -133,6 +133,10 @@
                 48.389533
               ],
               [
+                -4.491788,
+                48.388717
+              ],
+              [
                 -4.491506,
                 48.386526
               ],
@@ -149,8 +153,8 @@
                 48.384522
               ],
               [
-                -4.484844,
-                48.383916
+                -4.484782,
+                48.383876
               ],
               [
                 -4.481657,
@@ -173,12 +177,8 @@
                 48.384605
               ],
               [
-                -4.477694,
-                48.387144
-              ],
-              [
-                -4.474602,
-                48.3893
+                -4.476921,
+                48.387578
               ],
               [
                 -4.474363,
@@ -236,178 +236,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            -4.483513047130341,
-            48.39030695988429
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                -4.497141,
-                48.393174
-              ],
-              [
-                -4.496524,
-                48.391732
-              ],
-              [
-                -4.493903,
-                48.387689
-              ],
-              [
-                -4.494913,
-                48.38543
-              ],
-              [
-                -4.495858,
-                48.384597
-              ],
-              [
-                -4.495742,
-                48.384212
-              ],
-              [
-                -4.495645,
-                48.384117
-              ],
-              [
-                -4.492512,
-                48.38181
-              ],
-              [
-                -4.491882,
-                48.381485
-              ],
-              [
-                -4.488149,
-                48.382009
-              ],
-              [
-                -4.485618,
-                48.382251
-              ],
-              [
-                -4.483573,
-                48.382384
-              ],
-              [
-                -4.482497,
-                48.382653
-              ],
-              [
-                -4.477999,
-                48.383803
-              ],
-              [
-                -4.477755,
-                48.383903
-              ],
-              [
-                -4.477623,
-                48.383979
-              ],
-              [
-                -4.477507,
-                48.384046
-              ],
-              [
-                -4.474973,
-                48.385476
-              ],
-              [
-                -4.471939,
-                48.38696
-              ],
-              [
-                -4.468607,
-                48.390148
-              ],
-              [
-                -4.468655,
-                48.39032
-              ],
-              [
-                -4.470612,
-                48.394434
-              ],
-              [
-                -4.472034,
-                48.397111
-              ],
-              [
-                -4.472658,
-                48.398016
-              ],
-              [
-                -4.473752,
-                48.398502
-              ],
-              [
-                -4.475679,
-                48.398654
-              ],
-              [
-                -4.480585,
-                48.40003
-              ],
-              [
-                -4.481905,
-                48.400019
-              ],
-              [
-                -4.486049,
-                48.399796
-              ],
-              [
-                -4.486221,
-                48.399785
-              ],
-              [
-                -4.489205,
-                48.39925
-              ],
-              [
-                -4.491677,
-                48.398199
-              ],
-              [
-                -4.491848,
-                48.398064
-              ],
-              [
-                -4.493944,
-                48.395939
-              ],
-              [
-                -4.496995,
-                48.393696
-              ],
-              [
-                -4.497214,
-                48.393526
-              ],
-              [
-                -4.497141,
-                48.393174
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809783648,
+      "timestamp": 1785863695350,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -419,8 +253,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -433,7 +266,919 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:17:09Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 738042019,
+        "lat": 48.3827922,
+        "lon": -4.4851837,
+        "tags": {
+          "cuisine": "sandwich",
+          "name": "Le Fournil du Port",
+          "opening_hours": "Mo-Fr 11:30-13:45",
+          "ref:FR:SIRET": "51802743800036",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 738042096,
+        "lat": 48.3926788,
+        "lon": -4.4819779,
+        "tags": {
+          "addr:housenumber": "45",
+          "addr:postcode": "29200",
+          "addr:street": "Rue Jean Jaurès",
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "brand:wikipedia": "fr:La Mie câline",
+          "check_date:opening_hours": "2025-09-18",
+          "indoor_seating": "yes",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "outdoor_seating": "no",
+          "phone": "+33298801361",
+          "ref:FR:NAF": "10.71B",
+          "ref:FR:SIREN": "489660381",
+          "ref:FR:SIRET": "48966038100018",
+          "shop": "bakery",
+          "source": "INSEE - 2025-06",
+          "website": "https://magasin.lamiecaline.com/magasin/brest-jean-jaures/146"
+        }
+      },
+      {
+        "type": "node",
+        "id": 738042136,
+        "lat": 48.3969513,
+        "lon": -4.4731926,
+        "tags": {
+          "name": "L'amandier",
+          "ref:FR:SIRET": "51479342100017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 738042146,
+        "lat": 48.387246,
+        "lon": -4.4858116,
+        "tags": {
+          "contact:city": "Brest",
+          "contact:facebook": "https://www.facebook.com/p/Nektar-La-P%C3%A2tisserie-Par-Les-Jardins-Du-Prieur%C3%A9-100063565743411/",
+          "contact:housenumber": "13",
+          "contact:instagram": "https://www.instagram.com/nektarpatisserieboulangerie/",
+          "contact:postcode": "29200",
+          "contact:street": "Rue de Lyon",
+          "contact:website": "https://patisserie-nektar.fr/boutiques/",
+          "name": "Nektar",
+          "opening_hours": "Mo-Sa 07:00-19:00; Su 07:00-13:30",
+          "ref:FR:SIRET": "83999632900018",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 738042239,
+        "lat": 48.3962757,
+        "lon": -4.48109,
+        "tags": {
+          "addr:housenumber": "11",
+          "addr:street": "Rue Danton",
+          "name": "Au Bon Pain Chaud",
+          "opening_hours": "Mo-Sa 07:00-20:00; Su 08:00-13:00,15:30-19:00",
+          "ref:FR:NAF": "10.71B",
+          "ref:FR:SIREN": "390664399",
+          "ref:FR:SIRET": "39066439900156",
+          "shop": "bakery",
+          "source": "INSEE - 2025-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 738042277,
+        "lat": 48.3922027,
+        "lon": -4.4799605,
+        "tags": {
+          "name": "Baguette et tradition",
+          "opening_hours": "Mo-Fr 07:00-14:00,15:30-19:00; Sa 07:00-15:00; Su off",
+          "operator": "Henri Garoche",
+          "ref:FR:SIRET": "89316394900017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 738042292,
+        "lat": 48.3859348,
+        "lon": -4.4907876,
+        "tags": {
+          "check_date": "2025-05-04",
+          "level": "0",
+          "name": "Le Fournil de Siam",
+          "opening_hours": "Tu-Sa 07:00-19:00",
+          "ref:FR:SIRET": "51032692900039",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 738042305,
+        "lat": 48.3933983,
+        "lon": -4.4814041,
+        "tags": {
+          "addr:city": "Brest",
+          "air_conditioning": "no",
+          "check_date": "2026-08-02",
+          "check_date:opening_hours": "2026-05-14",
+          "indoor_seating": "no",
+          "name": "La Fournée à Brest",
+          "opening_hours": "Mo-Sa 07:30-19:30",
+          "organic": "yes",
+          "outdoor_seating": "no",
+          "pastry_shop": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "79517679100015",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 738932372,
+        "lat": 48.3965905,
+        "lon": -4.4764566,
+        "tags": {
+          "addr:city": "Brest",
+          "addr:housenumber": "144",
+          "addr:postcode": "29200",
+          "addr:street": "Rue Jean Jaurès",
+          "name": "Istanbul Market",
+          "opening_hours": "Mo 14:00-20:00; Tu-Su 10:00-20:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 738932379,
+        "lat": 48.3900891,
+        "lon": -4.4900539,
+        "tags": {
+          "addr:housenumber": "4",
+          "addr:street": "Rue Duquesne",
+          "air_conditioning": "yes",
+          "check_date": "2026-08-02",
+          "contact:facebook": "113748237159",
+          "contact:instagram": "boulangerie.le.signor",
+          "contact:twitter": "boulangeriebio",
+          "email": "contact@boulangerie.bio",
+          "level": "0",
+          "name": "Le Signor",
+          "opening_hours": "Tu-Sa 07:30-19:00; Su 08:00-13:00",
+          "organic": "only",
+          "pastry_shop": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 19 00 52 05",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIRET": "81300766300038",
+          "shop": "bakery",
+          "source": "INSEE - 2026-01",
+          "website": "https://boulangerie.bio/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 875047251,
+        "lat": 48.3830042,
+        "lon": -4.4841355,
+        "tags": {
+          "addr:city": "Brest",
+          "addr:housenumber": "36",
+          "addr:postcode": "29200",
+          "addr:street": "Quai de la Douane",
+          "check_date:opening_hours": "2025-03-06",
+          "name": "La Cambuse",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "48342014700017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1353814451,
+        "lat": 48.3894499,
+        "lon": -4.4903053,
+        "tags": {
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "check_date": "2025-02-24",
+          "check_date:opening_hours": "2025-02-24",
+          "contact:city": "Brest",
+          "contact:facebook": "https://www.facebook.com/lamiecalinebrest/",
+          "contact:housenumber": "5",
+          "contact:postcode": "29000",
+          "contact:street": "Place Saint-Louis",
+          "contact:website": "https://www.lamiecaline.com/boutiques/brest-saint-louis/",
+          "delivery": "yes",
+          "delivery:partner": "Uber Eats",
+          "delivery:partner:wikidata": "Q21462723",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Fr 07:00-19:00; Sa,Su,PH 08:00-19:30",
+          "ref:FR:SIRET": "48965703100014",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1420999984,
+        "lat": 48.4051406,
+        "lon": -4.4947669,
+        "tags": {
+          "addr:city": "Brest",
+          "addr:housenumber": "55",
+          "addr:street": "Rue Joseph Le Frapper",
+          "check_date": "2026-08-02",
+          "name": "Book Shop",
+          "ref:FR:SIRET": "43137899100019",
+          "second_hand": "only",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1535416755,
+        "lat": 48.395946,
+        "lon": -4.4808937,
+        "tags": {
+          "addr:city": "Brest",
+          "addr:housenumber": "4 bis",
+          "addr:postcode": "29200",
+          "addr:street": "Rue Danton",
+          "check_date": "2025-05-02",
+          "email": "contact@lapetitelibrairie.net",
+          "name": "La Petite Librairie",
+          "opening_hours": "Tu-Sa 10:00-12:30,14:00-19:00",
+          "payment:cards": "yes",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "phone": "+33298837598",
+          "ref:FR:SIRET": "45119608300021",
+          "shop": "books",
+          "website": "http://lapetitelibrairie.net/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1685815171,
+        "lat": 48.3865547,
+        "lon": -4.4900038,
+        "tags": {
+          "contact:city": "Brest",
+          "contact:facebook": "https://www.facebook.com/mademoisellechoubrest/",
+          "contact:housenumber": "33",
+          "contact:phone": "+33 2 98 43 55 28",
+          "contact:postcode": "29200",
+          "contact:street": "Rue d'Aiguillon",
+          "name": "Mademoiselle Chou",
+          "opening_hours": "Mo-Sa 07:00-19:00; Su 08:00-13:00",
+          "ref:FR:SIRET": "84169975400013",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1692367996,
+        "lat": 48.3967031,
+        "lon": -4.4785572,
+        "tags": {
+          "check_date:opening_hours": "2026-03-20",
+          "contact:city": "Brest",
+          "contact:housenumber": "21",
+          "contact:postcode": "29200",
+          "contact:street": "Rue Navarin",
+          "name": "La Lecture Pour Tous",
+          "opening_hours": "Tu-Sa 10:00-13:00,15:00-19:00",
+          "payment:cash": "yes",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2085018305,
+        "lat": 48.3914591,
+        "lon": -4.4832159,
+        "tags": {
+          "addr:housenumber": "11",
+          "addr:street": "Rue Saint-Saëns",
+          "books": "comic",
+          "name": "Excalibulle",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "phone": "+33 2 98 46 50 80",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "409202280",
+          "ref:FR:SIRET": "40920228000031",
+          "shop": "books",
+          "source": "INSEE - 2025-07",
+          "website": "https://www.excalibulle.com/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2394491177,
+        "lat": 48.390536,
+        "lon": -4.4843888,
+        "tags": {
+          "addr:city": "Brest",
+          "books": "comic",
+          "check_date:opening_hours": "2025-02-20",
+          "name": "L'escale à mangas",
+          "opening_hours": "Tu-Sa 10:00-12:30,14:00-19:00",
+          "opening_hours:signed": "no",
+          "operator": "Excalibulle",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 2 98 33 29 14",
+          "ref:FR:SIRET": "40920228000023",
+          "shop": "books",
+          "website": "https://www.excalibulle.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2965153264,
+        "lat": 48.3916677,
+        "lon": -4.4841205,
+        "tags": {
+          "addr:housenumber": "2",
+          "addr:street": "Rue Jean Jaurès",
+          "brand": "Brioche Dorée",
+          "brand:website": "https://www.briochedoree.fr",
+          "brand:wikidata": "Q2925606",
+          "brand:wikipedia": "fr:Brioche Dorée",
+          "check_date": "2026-08-01",
+          "check_date:opening_hours": "2026-06-03",
+          "contact:phone": "+33 2 98 44 44 01",
+          "name": "Brioche Dorée",
+          "opening_hours": "Mo-Sa 08:00-19:00",
+          "operator": "Groupe Le Duff",
+          "ref:FR:SIRET": "31890659100181",
+          "shop": "bakery",
+          "toilets:wheelchair": "yes",
+          "website": "https://www.briochedoree.fr/restaurants/28-brest-2-rue-jean-jaures",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3782040031,
+        "lat": 48.3899008,
+        "lon": -4.4851583,
+        "tags": {
+          "addr:city": "Brest",
+          "addr:housenumber": "1",
+          "addr:postcode": "29200",
+          "addr:street": "Place de la Liberté",
+          "air_conditioning": "yes",
+          "check_date": "2025-02-20",
+          "check_date:opening_hours": "2025-02-20",
+          "name": "Les enfants de Dialogues",
+          "opening_hours": "Tu-Sa 10:00-19:00; Mo 13:30-19:00",
+          "operator": "librairie Dialogues",
+          "ref:FR:SIRET": "43001319300023",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4031485512,
+        "lat": 48.4023498,
+        "lon": -4.4838658,
+        "tags": {
+          "name": "Le Fournil des provinces",
+          "opening_hours": "Mo-Su 06:30-19:30",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4240023052,
+        "lat": 48.3870575,
+        "lon": -4.4901664,
+        "tags": {
+          "addr:street": "Rue de Siam",
+          "air_conditioning": "yes",
+          "amenity": "fast_food",
+          "brand": "Brioche Dorée",
+          "brand:wikidata": "Q2925606",
+          "check_date": "2026-06-07",
+          "name": "Brioche Dorée",
+          "opening_hours": "Mo-Sa 08:00-19:00",
+          "phone": "+33 2 98 44 25 78",
+          "ref:FR:SIRET": "31890659100173",
+          "shop": "bakery",
+          "website": "https://www.briochedoree.fr/restaurants/27-brest-53-rue-de-siam"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4783664543,
+        "lat": 48.3877183,
+        "lon": -4.4911833,
+        "tags": {
+          "name": "Chez Seb'",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5610234318,
+        "lat": 48.3955932,
+        "lon": -4.477989,
+        "tags": {
+          "addr:city": "Brest",
+          "addr:housenumber": "122",
+          "addr:postcode": "29200",
+          "addr:street": "Rue Jean Jaurès",
+          "check_date:opening_hours": "2024-08-12",
+          "language": "breton",
+          "name": "Nadoz Vor",
+          "opening_hours": "Tu-Sa 09:30-19:30",
+          "phone": "+33298207413",
+          "ref:FR:SIRET": "92084066700017",
+          "shop": "books",
+          "website": "https://www.facebook.com/nadozvor/about/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7201717771,
+        "lat": 48.3915677,
+        "lon": -4.482446,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/CommelesGrandsBrest/",
+          "contact:housenumber": "6",
+          "contact:street": "Rue de la Deuxième Division Blindée",
+          "name": "Comme les Grands",
+          "opening_hours": "Tu,Th 10:00-18:30; We,Fr,Sa 10:00-19:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "83465215800017",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7355064661,
+        "lat": 48.386514,
+        "lon": -4.4921412,
+        "tags": {
+          "addr:housenumber": "13",
+          "addr:street": "Rue Louis Pasteur",
+          "bulk_purchase": "only",
+          "check_date:opening_hours": "2026-04-13",
+          "facebook": "epiceriesansemballage",
+          "name": "Les bocaux d'Ana",
+          "opening_hours": "Tu-Sa 09:30-19:30; Su 09:30-13:30",
+          "organic": "yes",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "878025287",
+          "ref:FR:SIRET": "87802528700011",
+          "shop": "convenience",
+          "source": "INSEE - 2025-07",
+          "website": "https://www.lesbocauxdana.bzh"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8018007500,
+        "lat": 48.3875628,
+        "lon": -4.4878568,
+        "tags": {
+          "check_date:opening_hours": "2026-04-30",
+          "name": "Ravito (épicerie, boutique, bar)",
+          "note": "https://actu.fr/bretagne/brest_29019/boutique-epicerie-et-bar-ravito-un-lieu-pour-les-bons-vivants-dans-le-centre-ville-de-brest_62702922.html",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "94151595900026",
+          "shop": "convenience",
+          "start_date": "2025-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8404330620,
+        "lat": 48.3938049,
+        "lon": -4.4816486,
+        "tags": {
+          "check_date:opening_hours": "2026-05-30",
+          "contact:housenumber": "4",
+          "contact:street": "Rue Monseigneur Graveran",
+          "name": "La Nouvelle Culture",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "opening_hours:signed": "yes",
+          "phone": "+33 2 98 43 35 58",
+          "ref:FR:SIRET": "33408120500026",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8450259168,
+        "lat": 48.3840596,
+        "lon": -4.4983934,
+        "tags": {
+          "contact:facebook": "LeProjetSapristi",
+          "name": "Sapristi",
+          "opening_hours": "Mo-Sa 10:30-19:30",
+          "ref:FR:SIRET": "87807321200028",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8558106176,
+        "lat": 48.3875499,
+        "lon": -4.4899971,
+        "tags": {
+          "books": "manga",
+          "check_date:opening_hours": "2026-04-07",
+          "facebook": "DialoguesManga",
+          "name": "Manga Dialogues",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "84475629600092",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9935876865,
+        "lat": 48.3860724,
+        "lon": -4.4910247,
+        "tags": {
+          "addr:housenumber": "39",
+          "addr:street": "Rue",
+          "name": "Pâtisserie Lallemand",
+          "opening_hours": "Mo-Sa 08:30-19:00; Su 08:30-12:30",
+          "phone": "+33 2 98 44 27 12",
+          "ref:FR:NAF": "10.71D",
+          "ref:FR:SIREN": "325544591",
+          "ref:FR:SIRET": "32554459100010",
+          "shop": "bakery",
+          "source": "INSEE - 2025-07",
+          "website": "https://www.patisserie-lallemand.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9955490556,
+        "lat": 48.3978098,
+        "lon": -4.4741996,
+        "tags": {
+          "check_date:opening_hours": "2024-08-09",
+          "name": "Ararat",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "87847871800017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10003014846,
+        "lat": 48.3877762,
+        "lon": -4.4900801,
+        "tags": {
+          "name": "Librairie Dialogues - Retrait des commandes internet",
+          "opening_hours": "Tu-Sa 10:00-13:00,14:00-19:00",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10106119628,
+        "lat": 48.4027088,
+        "lon": -4.4889379,
+        "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10624184088,
+        "lat": 48.386936,
+        "lon": -4.4921767,
+        "tags": {
+          "check_date": "2024-02-25",
+          "name": "Sapristi",
+          "shop": "books",
+          "website": "https://www.leprojetsapristi.org"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10624184093,
+        "lat": 48.3868798,
+        "lon": -4.492361,
+        "tags": {
+          "addr:housenumber": "51",
+          "addr:street": "Rue Traverse",
+          "check_date": "2024-02-25",
+          "name": "Le Four de Babel",
+          "opening_hours": "Mo-Fr 11:30-19:00;Sa 10:30-18:00",
+          "organic": "only",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "832293914",
+          "ref:FR:SIRET": "83229391400020",
+          "shop": "bakery",
+          "source": "INSEE - 2025-07",
+          "website": "https://www.lefourdebabel.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10937232224,
+        "lat": 48.3905053,
+        "lon": -4.4822745,
+        "tags": {
+          "addr:city": "Brest",
+          "addr:housenumber": "4b",
+          "addr:postcode": "29200",
+          "addr:street": "Rue Yves Collet",
+          "check_date": "2024-09-03",
+          "email": "contactmisterpepin@gmail.com",
+          "name": "Mister Pépin",
+          "opening_hours": "Tu-Sa 09:30-19:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 7 61 30 38 63",
+          "ref:FR:SIRET": "88366533300026",
+          "shop": "convenience",
+          "source": "local knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11171587083,
+        "lat": 48.3858753,
+        "lon": -4.4896102,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/Galerie.Antinoe",
+          "contact:housenumber": "30",
+          "name": "Antinoë",
+          "opening_hours": "Tu,Th-Sa 10:00-19:00; We 14:00-19:00",
+          "phone": "+33 2 98 80 52 48",
+          "ref:FR:SIRET": "33318320000059",
+          "ref:vatin": "FR17333183200",
+          "shop": "books",
+          "website": "https://antinoe.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11205683293,
+        "lat": 48.3962954,
+        "lon": -4.4765136,
+        "tags": {
+          "check_date:opening_hours": "2025-09-15",
+          "name": "A2Z Market",
+          "opening_hours": "Mo-Su,PH 09:30-20:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11205683306,
+        "lat": 48.3959886,
+        "lon": -4.4769896,
+        "tags": {
+          "check_date:opening_hours": "2024-11-16",
+          "name": "Un tour au Sénégal",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "82246093700052",
+          "shop": "convenience",
+          "was:name": "The Old Shel (Thrift Store)"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11205759028,
+        "lat": 48.395246,
+        "lon": -4.4781194,
+        "tags": {
+          "name": "Saint Martin",
+          "opening_hours": "Tu-Th 10:00-20:00; Fr 10:00-13:00,15:00-20:00; Sa,Su 09:00-20:00",
+          "ref:FR:SIRET": "88443891200013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11205759031,
+        "lat": 48.3952222,
+        "lon": -4.4785524,
+        "tags": {
+          "check_date:opening_hours": "2026-05-30",
+          "name": "Kito exotique",
+          "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-19:00",
+          "opening_hours:signed": "yes",
+          "ref:FR:SIRET": "81976138800050",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11210950946,
+        "lat": 48.3971955,
+        "lon": -4.4755279,
+        "tags": {
+          "addr:housenumber": "160",
+          "addr:street": "Rue Jean Jaurès",
+          "check_date:opening_hours": "2025-03-29",
+          "name": "Taiyeba Super Marche",
+          "opening_hours:signed": "no",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "939115036",
+          "ref:FR:SIRET": "93911503600013",
+          "shop": "convenience",
+          "source": "INSEE - 2025-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11210950966,
+        "lat": 48.4000126,
+        "lon": -4.4712593,
+        "tags": {
+          "check_date:opening_hours": "2025-02-19",
+          "name": "Damas Market",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "92295379900017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12382712221,
+        "lat": 48.4012489,
+        "lon": -4.4693906,
+        "tags": {
+          "addr:city": "Brest",
+          "addr:housenumber": "250",
+          "addr:postcode": "29200",
+          "addr:street": "Rue Jean Jaurès",
+          "name": "La Roberto - Épicerie Roumaine",
+          "ref:FR:SIRET": "84858329000012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12623543333,
+        "lat": 48.3956597,
+        "lon": -4.4774493,
+        "tags": {
+          "check_date:opening_hours": "2025-02-27",
+          "name": "Mini Market",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "90060602100021",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12623566107,
+        "lat": 48.3947872,
+        "lon": -4.4788091,
+        "tags": {
+          "name": "Kaboul Market",
+          "opening_hours": "Mo-Su 09:30-21:00",
+          "ref:FR:SIRET": "98399669500018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12880946462,
+        "lat": 48.4011358,
+        "lon": -4.4695624,
+        "tags": {
+          "addr:city": "Brest",
+          "addr:housenumber": "246",
+          "addr:postcode": "29200",
+          "addr:street": "Rue Jean Jaurès",
+          "name": "Épicerie Carthage",
+          "opening_hours": "09:00-23:30; Sa 09:00-00:00",
+          "phone": "+33768487548",
+          "ref:FR:SIRET": "84244303800034",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "way",
+        "id": 42578917,
+        "center": {
+          "lat": 48.387498,
+          "lon": -4.4905796
+        },
+        "tags": {
+          "addr:street": "Parvis Marie-Paul Kermarec",
+          "building": "retail",
+          "contact:facebook": "https://www.facebook.com/librairie.dialogues/",
+          "harassment_prevention": "ask_angela",
+          "internet_access": "wlan",
+          "location": "surface",
+          "name": "Librairie Dialogues",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "phone": "+33 2 98 44 88 68",
+          "ref:FR:SIRET": "84475629600118",
+          "ref:vatin": "FR49844756296",
+          "shop": "books",
+          "website": "https://www.librairiedialogues.fr/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "way",
+        "id": 508937215,
+        "center": {
+          "lat": 48.3875744,
+          "lon": -4.4800004
+        },
+        "tags": {
+          "amenity": "cafe",
+          "brand": "Trib's",
+          "brewery": "Grimbergen;1664",
+          "check_date": "2025-09-17",
+          "indoor": "room",
+          "level": "0",
+          "name": "Trib's",
+          "newsagent": "yes",
+          "opening_hours": "Mo 05:15-20:15; Tu-Th 05:30-20:15; Fr 05:30-20:30; Sa 06:45-19:15; Su 07:30-20:30",
+          "operator": "Relay",
+          "room": "shop",
+          "shop": "convenience",
+          "tobacco": "yes",
+          "website": "https://www.tribs.com/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 910137895,
+        "center": {
+          "lat": 48.3889498,
+          "lon": -4.4983177
+        },
+        "tags": {
+          "level": "0",
+          "name": "Les Curiosités de Dialogues",
+          "opening_hours": "Mo-Sa 11:00-19:00; Su 10:00-13:00,14:00-18:00",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1224038127,
+        "center": {
+          "lat": 48.3889498,
+          "lon": -4.4983177
+        },
+        "tags": {
+          "addr:housenumber": "25",
+          "addr:street": "Rue de Pontaniou",
+          "check_date": "2024-08-22",
+          "email": "lescuriosites@librairiedialogues.fr",
+          "level": "1",
+          "name": "Les Curiosités de Dialogues",
+          "opening_hours": "Mo-Sa 11:00-19:00; Su 10:00-13:00,14:00-18:00",
+          "operator": "Librairie Dialogues",
+          "phone": "+33 2 98 40 01 01",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "844756296",
+          "ref:FR:SIRET": "84475629600076",
+          "shop": "books",
+          "source": "INSEE - 2025-07",
+          "website": "https://www.librairiedialogues.fr/decouvrir-curiosites-dialogues/",
+          "wheelchair": "yes"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

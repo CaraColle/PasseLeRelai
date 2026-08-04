@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      0.178831,
-      47.990964,
-      0.207747,
-      48.009919
+      0.183928,
+      47.994486,
+      0.203162,
+      48.007044
     ],
     "features": [
       {
@@ -220,158 +220,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            0.19361970421265126,
-            48.00084665510137
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                0.17895,
-                48.002325
-              ],
-              [
-                0.178831,
-                48.001985
-              ],
-              [
-                0.179482,
-                47.998992
-              ],
-              [
-                0.18145,
-                47.995057
-              ],
-              [
-                0.184182,
-                47.992821
-              ],
-              [
-                0.184206,
-                47.992808
-              ],
-              [
-                0.184317,
-                47.992771
-              ],
-              [
-                0.189734,
-                47.991366
-              ],
-              [
-                0.194186,
-                47.990964
-              ],
-              [
-                0.195921,
-                47.99121
-              ],
-              [
-                0.199749,
-                47.992159
-              ],
-              [
-                0.202191,
-                47.992883
-              ],
-              [
-                0.203801,
-                47.99421
-              ],
-              [
-                0.207532,
-                47.99788
-              ],
-              [
-                0.207625,
-                47.998005
-              ],
-              [
-                0.207747,
-                47.999513
-              ],
-              [
-                0.207495,
-                48.00212
-              ],
-              [
-                0.207462,
-                48.002214
-              ],
-              [
-                0.207403,
-                48.002316
-              ],
-              [
-                0.205568,
-                48.005375
-              ],
-              [
-                0.20427,
-                48.007754
-              ],
-              [
-                0.204059,
-                48.007954
-              ],
-              [
-                0.204052,
-                48.007958
-              ],
-              [
-                0.20019,
-                48.00891
-              ],
-              [
-                0.195764,
-                48.009919
-              ],
-              [
-                0.192109,
-                48.009907
-              ],
-              [
-                0.188968,
-                48.009523
-              ],
-              [
-                0.186515,
-                48.008733
-              ],
-              [
-                0.182044,
-                48.00513
-              ],
-              [
-                0.181692,
-                48.005007
-              ],
-              [
-                0.18134,
-                48.004885
-              ],
-              [
-                0.17895,
-                48.002325
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809775421,
+      "timestamp": 1785863506753,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -383,8 +237,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -397,7 +250,997 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:15:06Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 824103011,
+        "lat": 48.0049889,
+        "lon": 0.2061548,
+        "tags": {
+          "books": "religion",
+          "name": "Librairie Siloë",
+          "opening_hours": "Mo 14:00-18:30; Tu-Fr 09:00-13:00,13:45-18:30; We 09:00-12:00,14:00-18:30; Sa 09:30-12:30,14:30-18:00",
+          "ref:FR:SIRET": "39464533700020",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1116600162,
+        "lat": 48.0008044,
+        "lon": 0.1982666,
+        "tags": {
+          "check_date:opening_hours": "2025-07-16",
+          "contact:phone": "+33 2 43 24 78 06",
+          "name": "L'Art du Pain",
+          "opening_hours": "Mo-Sa 07:00-19:30",
+          "pastry": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "48149367400016",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1116650994,
+        "lat": 48.0006116,
+        "lon": 0.1984841,
+        "tags": {
+          "check_date": "2024-10-13",
+          "contact:instagram": "https://www.instagram.com/lebibliovorelemans",
+          "internet_access": "no",
+          "name": "Le Bibliovore",
+          "opening_hours": "Mo-Sa 11:00-13:00,15:00-19:00; Su off",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 7 61 86 65 86",
+          "ref:FR:SIRET": "97916108000010",
+          "second_hand": "only",
+          "shop": "books",
+          "website": "https://www.lebibliovore.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1116651706,
+        "lat": 48.0005796,
+        "lon": 0.1985196,
+        "tags": {
+          "addr:floor": "0",
+          "addr:housenumber": "11",
+          "addr:street": "Rue Nationale",
+          "check_date": "2026-07-23",
+          "level": "0",
+          "name": "Mi Tierrita Latina",
+          "opening_hours": "Mo,Su off; Tu-Fr 10:00-15:00,16:00-19:00; Sa 10:00-19:00",
+          "origin": "latin_american",
+          "outdoor_seating": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 6 27 81 49 91",
+          "ref:FR:SIRET": "98740075100036",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1127012313,
+        "lat": 48.0001396,
+        "lon": 0.198986,
+        "tags": {
+          "check_date": "2024-10-13",
+          "internet_access": "no",
+          "name": "Rythm' n BD",
+          "opening_hours": "Mo,Su off; Tu-Fr 10:00-18:30; Sa 10:00-19:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 43 57 77 64",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2106405196,
+        "lat": 48.0031712,
+        "lon": 0.195961,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:housenumber": "5",
+          "addr:postcode": "72000",
+          "addr:street": "Rue du Docteur Leroy",
+          "name": "La gerbe d'or",
+          "opening_hours": "Mo-Sa 06:00-20:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "84370014700013",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2124500663,
+        "lat": 48.0062939,
+        "lon": 0.1980288,
+        "tags": {
+          "addr:housenumber": "10",
+          "addr:street": "Rue de la Barillerie",
+          "name": "Bouquins de la Sirène",
+          "ref:FR:SIRET": "43996177200027",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+          "website": "https://www.lesbouquinsdelasirene.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2124500709,
+        "lat": 48.0057771,
+        "lon": 0.1970327,
+        "tags": {
+          "addr:housenumber": "13",
+          "addr:street": "Rue de la Barillerie",
+          "name": "Librairie Bulle!",
+          "opening_hours": "Mo 13:00-19:00; Tu-Sa 10:00-19:00",
+          "phone": "+33243280623",
+          "ref:FR:SIRET": "32610976600021",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+          "website": "https://www.librairie-bulle.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2124500750,
+        "lat": 48.0057718,
+        "lon": 0.1979638,
+        "tags": {
+          "name": "La boutique de G. Trouvetou",
+          "ref:FR:SIRET": "52192507300038",
+          "second_hand": "yes",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2124500768,
+        "lat": 48.00617,
+        "lon": 0.1933835,
+        "tags": {
+          "addr:housenumber": "17",
+          "brand": "La Vie Claire",
+          "brand:wikidata": "Q3213589",
+          "brand:wikipedia": "fr:La Vie claire",
+          "bulk_purchase": "yes",
+          "name": "La Vie Claire",
+          "opening_hours": "Tu-Fr 08:45-12:15,14:00-19:00; Sa 08:45-12:15,14:30-18:00",
+          "organic": "only",
+          "phone": "+33 2 43 24 81 84",
+          "ref:FR:SIRET": "32982399100016",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+          "website": "https://www.lavieclaire.com/magasin-bio/le-mans.html"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2124500873,
+        "lat": 48.0056754,
+        "lon": 0.198463,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:housenumber": "22",
+          "addr:postcode": "72000",
+          "addr:street": "Rue Marchande",
+          "name": "L'athanor",
+          "ref:FR:SIRET": "31418169400022",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2124500898,
+        "lat": 48.0065207,
+        "lon": 0.1984839,
+        "tags": {
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "brand:wikipedia": "fr:La Mie câline",
+          "name": "La Mie Câline",
+          "ref:FR:SIRET": "40826765600010",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+          "website": "https://www.lamiecaline.com/boutiques/le-mans/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2535375530,
+        "lat": 48.002973,
+        "lon": 0.1995132,
+        "tags": {
+          "addr:housenumber": "61",
+          "addr:street": "Avenue François Mitterrand",
+          "name": "L'hédoniste",
+          "opening_hours": "Mo-Sa 07:00-19:00",
+          "phone": "+33 2 43 24 98 94",
+          "ref:FR:SIRET": "98960093700019",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2839445319,
+        "lat": 47.9905008,
+        "lon": 0.1936433,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:housenumber": "42",
+          "addr:postcode": "72100",
+          "addr:street": "Rue Jean Macé",
+          "check_date:opening_hours": "2025-08-23",
+          "name": "Aux Délices Sarthois",
+          "opening_hours": "Tu-Fr 06:30-13:30,15:30-19:30; Sa,Su 06:30-13:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "52089408000016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4254126793,
+        "lat": 48.0070597,
+        "lon": 0.1895108,
+        "tags": {
+          "name": "La Croquise",
+          "opening_hours": "Mo-Sa 06:45-19:30; We off; Su 06:45-18:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "35208407300050",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5224799423,
+        "lat": 47.9954147,
+        "lon": 0.2024367,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:postcode": "72000",
+          "addr:street": "Place George Washington",
+          "check_date:opening_hours": "2022-06-26",
+          "name": "La tentation",
+          "opening_hours": "Tu-Sa 07:00-20:00; Su 07:00-13:30",
+          "pastry": "yes",
+          "ref:FR:SIRET": "51488558100017",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5225055530,
+        "lat": 48.0152814,
+        "lon": 0.202224,
+        "tags": {
+          "craft": "bakery",
+          "opening_hours": "Tu-Fr 07:00-13:30,14:30-19:30; Sa-Su 07:00-19:30",
+          "pastry": "yes",
+          "ref:FR:SIRET": "42270756200027",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6124672186,
+        "lat": 47.9988547,
+        "lon": 0.1953053,
+        "tags": {
+          "name": "L'Épi d'or",
+          "ref:FR:SIRET": "88911598600016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6126666654,
+        "lat": 48.0009398,
+        "lon": 0.1975022,
+        "tags": {
+          "name": "La Bodega Shop",
+          "ref:FR:SIRET": "92941120500016",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6858201302,
+        "lat": 48.005421,
+        "lon": 0.1970424,
+        "tags": {
+          "addr:housenumber": "18",
+          "addr:street": "Rue Saint-Martin",
+          "name": "L'espace Bis de la librairie Bulle",
+          "opening_hours": "We,Fr 13:00-19:00; Sa 10:00-19:00",
+          "ref:FR:SIRET": "32610976600039",
+          "shop": "books",
+          "website": "https://www.librairie-bulle.fr/espace-bis/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7343604696,
+        "lat": 47.9880399,
+        "lon": 0.2077121,
+        "tags": {
+          "addr:housenumber": "170",
+          "addr:street": "Avenue Jean Jaurès",
+          "name": "Pâtisserie Lancelot",
+          "opening_hours": "Mo-Fr 07:00-13:30,15:30-19:00; We,Sa 07:00-13:30; Su 07:00-13:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "93034019500013",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7625400155,
+        "lat": 48.0047661,
+        "lon": 0.1996564,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:housenumber": "30",
+          "addr:postcode": "72000",
+          "addr:street": "Avenue François Mitterrand",
+          "brand": "La Panetière",
+          "brand:wikidata": "Q100712234",
+          "name": "La Panetière",
+          "pastry": "yes",
+          "ref:FR:SIRET": "31700311900011",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8146356233,
+        "lat": 47.9959813,
+        "lon": 0.2020452,
+        "tags": {
+          "name": "Aux douceurs de Washington",
+          "opening_hours": "Mo-Fr 07:30-19:30; Tu off; Sa,Su 07:30-19:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "53893804400012",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8279114649,
+        "lat": 48.0080209,
+        "lon": 0.2064369,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:housenumber": "27",
+          "addr:postcode": "72000",
+          "addr:street": "Rue Prémartine",
+          "craft": "bakery",
+          "name": "Aux saveurs des pains",
+          "opening_hours": "Tu-Sa 07:00-13:30,15:30-19:30; Su 07:00-13:30",
+          "pastry": "yes",
+          "phone": "+33 2 43 81 54 94",
+          "ref:FR:SIRET": "82205980400010",
+          "shop": "bakery",
+          "website": "https://www.auxsaveursdespains.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8395255762,
+        "lat": 47.9900473,
+        "lon": 0.2063311,
+        "tags": {
+          "check_date": "2025-05-06",
+          "contact:phone": "+33 2 43 84 35 03",
+          "indoor_seating": "yes",
+          "name": "Le Pain d'Or",
+          "opening_hours": "06:30-21:00; We off",
+          "outdoor_seating": "no",
+          "pastry": "yes",
+          "ref:FR:SIRET": "91302979900016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8783447418,
+        "lat": 48.0038964,
+        "lon": 0.1984513,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:housenumber": "1",
+          "addr:postcode": "72000",
+          "addr:street": "Rue Courthardy",
+          "chocolate": "yes",
+          "contact:email": "contact@latelierdelozanne.com",
+          "contact:phone": "+33 2 43 28 55 92",
+          "contact:website": "https://www.latelierdelozanne.fr/",
+          "name": "L'Atelier de l'Ozanne",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su 07:00-18:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "53457091600013",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8796454896,
+        "lat": 47.9943446,
+        "lon": 0.1973999,
+        "tags": {
+          "check_date": "2025-08-28",
+          "name": "Asia Market",
+          "opening_hours": "Mo-Sa 09:30-20:00; Su 09:30-13:30",
+          "origin": "asian",
+          "phone": "+33 2 72 91 99 88",
+          "ref:FR:SIRET": "83122457100016",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8920570949,
+        "lat": 48.0042506,
+        "lon": 0.1983772,
+        "tags": {
+          "check_date": "2026-05-01",
+          "contact:city": "Le Mans",
+          "contact:housenumber": "66",
+          "contact:phone": "+33 2 43 24 00 58",
+          "contact:postcode": "72000",
+          "contact:street": "Avenue Du Général De Gaulle",
+          "delivery": "yes",
+          "name": "Librairie Doucet",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "operator": "Gibert Joseph",
+          "ref:FR:SIRET": "98805996000019",
+          "ref:vatin": "FR57988059960",
+          "shop": "books",
+          "website": "https://www.librairiedoucet.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8920570951,
+        "lat": 48.0042412,
+        "lon": 0.199052,
+        "tags": {
+          "name": "Les Citrons Givrés",
+          "opening_hours": "Tu-Fr 09:30-14:00,15:00-18:30; Sa 09:30-18:30",
+          "phone": "+33 2 85 85 95 51",
+          "ref:FR:SIRET": "93809228500015",
+          "shop": "bakery",
+          "website": "https://www.lescitronsgivres.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9455580591,
+        "lat": 48.000668,
+        "lon": 0.1972557,
+        "tags": {
+          "name": "Valérie dollar exotique",
+          "ref:FR:SIRET": "92017903300013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9455749991,
+        "lat": 47.9962613,
+        "lon": 0.1930339,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:housenumber": "114",
+          "addr:postcode": "72000",
+          "addr:street": "Avenue du Général Leclerc",
+          "indoor_seating": "yes",
+          "name": "Délices de la Gare",
+          "opening_hours": "Mo-Fr 07:00-19:30; Sa 08:00-12:30",
+          "outdoor_seating": "no",
+          "pastry": "yes",
+          "ref:FR:SIRET": "91789301800015",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9455749995,
+        "lat": 47.9963522,
+        "lon": 0.1934259,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:housenumber": "95",
+          "addr:postcode": "72000",
+          "addr:street": "Avenue du Général Leclerc",
+          "name": "Caribbean shop Epicerie",
+          "ref:FR:SIRET": "80521902900016",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9468587005,
+        "lat": 47.9962067,
+        "lon": 0.201854,
+        "tags": {
+          "contact:website": "https://www.annagram-epicerie-vrac.fr/",
+          "name": "Annagram",
+          "opening_hours": "Tu-Sa 10:00-13:00, 15:00-19:00; Su 10:00-13:00",
+          "ref:FR:SIRET": "88158470000028",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9468731638,
+        "lat": 48.0001823,
+        "lon": 0.198782,
+        "tags": {
+          "name": "La Clé de Vie",
+          "ref:FR:SIRET": "85279062500028",
+          "shop": "books",
+          "website": "https://www.lacledevie.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9668628584,
+        "lat": 47.9955023,
+        "lon": 0.1860414,
+        "tags": {
+          "contact:website": "https://shop.breadlab.fr/",
+          "name": "Bread Lab",
+          "opening_hours": "We,Fr 16:00-19:00",
+          "organic": "only",
+          "ref:FR:SIRET": "85292347300015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9849062154,
+        "lat": 48.0025783,
+        "lon": 0.2052621,
+        "tags": {
+          "check_date": "2025-05-10",
+          "name": "Aux Délices du Mans",
+          "opening_hours": "Mo-Fr 07:00-13:45,15:00-19:45; Sa 07:00-13:45,15:00-19:00; Su off",
+          "pastry": "yes",
+          "ref:FR:SIRET": "94238008000021",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9861239191,
+        "lat": 48.0010815,
+        "lon": 0.1824747,
+        "tags": {
+          "craft": "bakery",
+          "name": "La fleur de blé",
+          "opening_hours": "06:30-20:00; We off",
+          "pastry": "yes",
+          "ref:FR:SIRET": "90034301300018",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9861239193,
+        "lat": 48.0086708,
+        "lon": 0.1890294,
+        "tags": {
+          "chocolate": "yes",
+          "craft": "bakery",
+          "name": "Maison Legui",
+          "opening_hours": "Mo-Sa 07:00-20:00; Su 07:00-14:30",
+          "pastry": "yes",
+          "ref:FR:SIRET": "81427507900022",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9861239195,
+        "lat": 47.9975242,
+        "lon": 0.1807111,
+        "tags": {
+          "craft": "bakery",
+          "indoor_seating": "yes",
+          "name": "Aux Quatre Saisons",
+          "outdoor_seating": "no",
+          "pastry": "yes",
+          "ref:FR:SIRET": "90430471400010",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9861239196,
+        "lat": 47.9963271,
+        "lon": 0.1791669,
+        "tags": {
+          "name": "L'Exquise",
+          "opening_hours": "Mo-Sa 07:00-13:00,15:30-19:30; We off; Su 07:00-13:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "51308892200036",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9861417876,
+        "lat": 48.0111111,
+        "lon": 0.1892607,
+        "tags": {
+          "craft": "bakery",
+          "name": "Aux Délices de RZ",
+          "opening_hours": "Tu-Fr 07:00-13:00,15:00-19:30; Sa 07:00-19:30; Su 07:30-13:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "93765796300016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9864451697,
+        "lat": 48.0108714,
+        "lon": 0.19916,
+        "tags": {
+          "name": "Atelier n° 2",
+          "opening_hours": "Mo 10:00-13:30,16:00-19:00; Tu-Fr 07:30-13:30,16:00-19:00; Su 07:30-13:00",
+          "ref:FR:SIRET": "82205980400036",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9898443544,
+        "lat": 48.0091728,
+        "lon": 0.1980194,
+        "tags": {
+          "name": "Gaspard & Marcel",
+          "opening_hours": "Tu-Fr 07:30-19:00; Sa 08:00-19:00; Su 08:00-13:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9930250970,
+        "lat": 48.0088777,
+        "lon": 0.1974657,
+        "tags": {
+          "description": "Livres anciens",
+          "name": "Pleine Marge",
+          "opening_hours": "Tu-Sa 14:00-18:00",
+          "ref:FR:SIRET": "49792775600021",
+          "second_hand": "yes",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9930250972,
+        "lat": 48.0075766,
+        "lon": 0.196021,
+        "tags": {
+          "description": "Spécialisée en livre de partitions et d'apprentissage de la musique",
+          "name": "Le Pilier aux Clefs",
+          "ref:FR:SIRET": "50376841800025",
+          "shop": "books",
+          "website": "https://www.lepilierauxclefs.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10032493891,
+        "lat": 47.9912989,
+        "lon": 0.2053855,
+        "tags": {
+          "name": "Evan Épicerie",
+          "ref:FR:SIRET": "88232815600014",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10032493895,
+        "lat": 47.9903884,
+        "lon": 0.2060714,
+        "tags": {
+          "contact:phone": "+33 6 98 41 96 84",
+          "name": "Ararat",
+          "opening_hours": "11:00-22:00",
+          "origin": "armenian;polish;russian;ukrainian;romanian",
+          "ref:FR:SIRET": "79874960200024",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10032632250,
+        "lat": 48.0025172,
+        "lon": 0.1844971,
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "contact:website": "https://www.magasins-u.com/magasin/superu-lemans",
+          "drive_through": "only",
+          "name": "Utile",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10054779355,
+        "lat": 48.0055322,
+        "lon": 0.1931586,
+        "tags": {
+          "check_date": "2025-05-05",
+          "contact:website": "https://ximiti.eu/",
+          "name": "Ximiti",
+          "ref:FR:SIRET": "91014902000018",
+          "self_service": "only",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10059766936,
+        "lat": 48.002969,
+        "lon": 0.2048651,
+        "tags": {
+          "name": "Maranatha shop",
+          "ref:FR:SIRET": "92936495800017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10065586714,
+        "lat": 47.9899849,
+        "lon": 0.2069338,
+        "tags": {
+          "check_date:opening_hours": "2026-07-02",
+          "name": "Afghan Market",
+          "opening_hours": "Mo-Su 09:30-19:00",
+          "opening_hours:signed": "no",
+          "phone": "+33243187026",
+          "ref:FR:SIRET": "92097567900019",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10134150789,
+        "lat": 48.0065876,
+        "lon": 0.1905364,
+        "tags": {
+          "name": "Africa Market",
+          "ref:FR:SIRET": "91834459900017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10239251263,
+        "lat": 48.008193,
+        "lon": 0.1966019,
+        "tags": {
+          "name": "Épicerie du Pavé",
+          "opening_hours": "Tu-Sa 09:00-12:00,13:00-19:00",
+          "phone": "+33 2 43 77 34 29",
+          "ref:FR:SIRET": "97828912200027",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10656240283,
+        "lat": 48.0051446,
+        "lon": 0.2018765,
+        "tags": {
+          "name": "3H Service Market",
+          "ref:FR:SIRET": "93253829100026",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10937871017,
+        "lat": 48.015552,
+        "lon": 0.1852562,
+        "tags": {
+          "contact:phone": "+33 6 67 69 24 44",
+          "name": "Api Market",
+          "opening_hours": "Mo-Th 10:30-20:30; Fr-Su 10:30-21:30",
+          "ref:FR:SIRET": "94824977600014",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12117432117,
+        "lat": 48.0095406,
+        "lon": 0.1979115,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:housenumber": "10",
+          "addr:postcode": "72000",
+          "addr:street": "Place Saint-Michel",
+          "amenity": "cafe",
+          "check_date": "2026-05-01",
+          "indoor_seating": "yes",
+          "name": "Chez Cha’Cheshire",
+          "opening_hours": "Tu-Sa 09:30-19:00",
+          "outdoor_seating": "yes",
+          "phone": "+33 2 55 99 47 43",
+          "ref:FR:SIRET": "98340385800019",
+          "shop": "books",
+          "website": "https://www.chacheshire.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12475789285,
+        "lat": 48.0032602,
+        "lon": 0.1895463,
+        "tags": {
+          "contact:whatsapp": "+33 6 09 31 85 54",
+          "name": "Mélanie",
+          "opening_hours": "Tu,Fr 17:30-19:30; We,Sa 10:30-12:30,15:30-17:30",
+          "phone": "+33 6 09 31 85 54",
+          "ref:FR:SIRET": "75003434000034",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12603433845,
+        "lat": 47.9953781,
+        "lon": 0.1930201,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:postcode": "72000",
+          "addr:street": "Place du Huit Mai 1945",
+          "name": "Monop'daily",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12874283059,
+        "lat": 48.0033293,
+        "lon": 0.1990601,
+        "tags": {
+          "name": "Tomoé",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "94244073600018",
+          "shop": "books",
+          "website": "https://www.librairie-tomoe.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12993295916,
+        "lat": 48.0055093,
+        "lon": 0.192362,
+        "tags": {
+          "name": "Épicerie Pasteur",
+          "ref:FR:SIRET": "93505804000012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13049036038,
+        "lat": 48.0078879,
+        "lon": 0.1965027,
+        "tags": {
+          "name": "Bouquinerie",
+          "opening_hours": "We-Sa 10:30-18:30",
+          "ref:FR:SIRET": "53061382700027",
+          "second_hand": "only",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13301324257,
+        "lat": 48.0055392,
+        "lon": 0.2007554,
+        "tags": {
+          "contact:housenumber": "24",
+          "contact:street": "Rue de l'Étoile",
+          "name": "Librairie Thuard",
+          "opening_hours": "Mo-Fr 09:00-19:00, Sa 09:00-19:30",
+          "phone": "+33 2 43 82 22 22",
+          "ref:FR:SIRET": "34039466700026",
+          "ref:vatin": "FR23340394667",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+          "website": "https://www.librairiethuard.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13517121233,
+        "lat": 48.0018371,
+        "lon": 0.1976364,
+        "tags": {
+          "amenity": "cafe",
+          "name": "La Boutique by Esatco",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "operator": "Esatco",
+          "operator:type": "association",
+          "phone": "+33 2 43 92 71 59",
+          "ref:FR:SIRET": "77565238101109",
+          "shop": "convenience",
+          "website": "https://boutique-esatco72.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13735737618,
+        "lat": 48.0031418,
+        "lon": 0.1967166,
+        "tags": {
+          "name": "Augustin",
+          "opening_hours": "Mo-Fr 07:00-20:00; Sa 05:00-20:00; Su 05:00-13:00",
+          "ref:FR:SIRET": "99092644600016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 35630251,
+        "center": {
+          "lat": 48.0132811,
+          "lon": 0.1895462
+        },
+        "tags": {
+          "building": "yes",
+          "craft": "bakery",
+          "name": "La Boussinière",
+          "opening_hours": "Mo-Sa 07:00-13:00,15:30-19:30; Su 07:00-13:00; We off",
+          "pastry": "yes",
+          "ref:FR:SIRET": "93332885800016",
+          "shop": "bakery",
+          "source": "source : Direction générale des impôts – Cadastre;mise à jour : 2009"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

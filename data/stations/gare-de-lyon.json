@@ -2,15 +2,15 @@
   "station": {
     "name": "Gare de Lyon",
     "lat": 48.8443,
-    "lng": 2.3735
+    "lng": 2.3743
   },
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      2.364172,
-      48.838796,
-      2.382265,
-      48.851118
+      2.36495,
+      48.839423,
+      2.381968,
+      48.850933
     ],
     "features": [
       {
@@ -19,96 +19,112 @@
           "group_index": 0,
           "value": 300,
           "center": [
-            2.373503466288777,
-            48.84430268709518
+            2.3742620398463212,
+            48.84427003786923
           ]
         },
         "geometry": {
           "coordinates": [
             [
               [
-                2.369661,
-                48.846441
+                2.370372,
+                48.846385
               ],
               [
-                2.369028,
-                48.845504
+                2.369791,
+                48.845579
               ],
               [
-                2.368992,
-                48.845394
+                2.369728,
+                48.845465
               ],
               [
-                2.369055,
-                48.842822
+                2.369808,
+                48.843228
               ],
               [
-                2.369091,
-                48.842751
+                2.369979,
+                48.842911
               ],
               [
-                2.369257,
-                48.842432
+                2.370064,
+                48.842852
               ],
               [
-                2.369398,
-                48.842363
+                2.370193,
+                48.842793
               ],
               [
-                2.372391,
-                48.841895
+                2.371548,
+                48.842521
               ],
               [
-                2.375622,
-                48.841616
+                2.375738,
+                48.842165
               ],
               [
-                2.375836,
-                48.841604
+                2.378512,
+                48.841945
               ],
               [
-                2.377324,
-                48.841554
+                2.378697,
+                48.841977
               ],
               [
-                2.378109,
-                48.842891
+                2.378641,
+                48.842281
               ],
               [
-                2.378287,
-                48.843203
+                2.378169,
+                48.843271
               ],
               [
-                2.377401,
-                48.84541
+                2.377114,
+                48.845179
               ],
               [
-                2.377293,
-                48.845569
+                2.376898,
+                48.845466
               ],
               [
-                2.374883,
-                48.84716
+                2.375643,
+                48.846352
               ],
               [
-                2.373926,
-                48.847414
+                2.375038,
+                48.846764
               ],
               [
-                2.372036,
-                48.847449
+                2.374739,
+                48.846965
               ],
               [
-                2.37185,
-                48.847446
+                2.373931,
+                48.847225
               ],
               [
-                2.369874,
-                48.846731
+                2.373571,
+                48.847216
               ],
               [
-                2.369661,
-                48.846441
+                2.372374,
+                48.847184
+              ],
+              [
+                2.371973,
+                48.847171
+              ],
+              [
+                2.371644,
+                48.847025
+              ],
+              [
+                2.370414,
+                48.846439
+              ],
+              [
+                2.370372,
+                48.846385
               ]
             ]
           ],
@@ -121,128 +137,136 @@
           "group_index": 0,
           "value": 600,
           "center": [
-            2.373503466288777,
-            48.84430268709518
+            2.3742620398463212,
+            48.84427003786923
           ]
         },
         "geometry": {
           "coordinates": [
             [
               [
-                2.364172,
-                48.844536
+                2.365698,
+                48.847495
               ],
               [
-                2.365082,
-                48.841759
+                2.365552,
+                48.847135
               ],
               [
-                2.365449,
-                48.841353
+                2.36495,
+                48.844593
               ],
               [
-                2.366647,
-                48.840025
+                2.365036,
+                48.844072
               ],
               [
-                2.368861,
-                48.839463
+                2.365612,
+                48.841175
               ],
               [
-                2.369629,
-                48.839288
+                2.366257,
+                48.840465
               ],
               [
-                2.374916,
-                48.838976
+                2.366542,
+                48.840362
               ],
               [
-                2.376042,
-                48.838815
+                2.368237,
+                48.840028
               ],
               [
-                2.380326,
-                48.838796
+                2.369113,
+                48.83992
               ],
               [
-                2.380363,
-                48.838798
+                2.374216,
+                48.839623
               ],
               [
-                2.380566,
-                48.838856
+                2.375189,
+                48.839423
               ],
               [
-                2.380807,
-                48.838955
+                2.379182,
+                48.839448
               ],
               [
-                2.380807,
-                48.838955
+                2.379687,
+                48.839459
               ],
               [
-                2.38193,
-                48.839953
+                2.380698,
+                48.840168
               ],
               [
-                2.381996,
-                48.840307
+                2.381952,
+                48.844184
               ],
               [
-                2.382265,
-                48.844304
+                2.381967,
+                48.84425
               ],
               [
-                2.381842,
-                48.846738
+                2.381968,
+                48.844449
               ],
               [
-                2.377494,
-                48.850494
+                2.381962,
+                48.844487
               ],
               [
-                2.377492,
-                48.850494
+                2.381445,
+                48.846807
               ],
               [
-                2.375953,
-                48.850702
+                2.377447,
+                48.850092
               ],
               [
-                2.371258,
-                48.851092
+                2.37715,
+                48.850296
               ],
               [
-                2.37004,
-                48.851118
+                2.376034,
+                48.850546
               ],
               [
-                2.369982,
-                48.851106
+                2.375925,
+                48.850568
               ],
               [
-                2.369978,
-                48.851104
+                2.375045,
+                48.850673
               ],
               [
-                2.368522,
-                48.850287
+                2.370955,
+                48.850933
               ],
               [
-                2.367107,
-                48.849398
+                2.370328,
+                48.850752
               ],
               [
-                2.365255,
-                48.847881
+                2.369999,
+                48.850606
               ],
               [
-                2.364998,
-                48.847628
+                2.368956,
+                48.850139
               ],
               [
-                2.364172,
-                48.844536
+                2.367245,
+                48.849104
+              ],
+              [
+                2.365711,
+                48.847524
+              ],
+              [
+                2.365698,
+                48.847495
               ]
             ]
           ],
@@ -253,13 +277,13 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785859394732,
+      "timestamp": 1785862660123,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
         "locations": [
           [
-            2.3735,
+            2.3743,
             48.8443
           ]
         ],
@@ -282,7 +306,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-04T16:01:21Z",
+      "timestamp_osm_base": "2026-08-04T16:56:40Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -674,22 +698,6 @@
       },
       {
         "type": "node",
-        "id": 702976974,
-        "lat": 48.8572474,
-        "lon": 2.3590633,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "24",
-          "contact:postcode": "75004",
-          "contact:street": "Rue des Écouffes",
-          "name": "Florence Kahn",
-          "shop": "bakery",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-          "survey:date": "2025-04-14"
-        }
-      },
-      {
-        "type": "node",
         "id": 705182223,
         "lat": 48.8518766,
         "lon": 2.3617125,
@@ -914,6 +922,51 @@
       },
       {
         "type": "node",
+        "id": 1243135974,
+        "lat": 48.8477051,
+        "lon": 2.3885456,
+        "tags": {
+          "check_date": "2025-11-21",
+          "check_date:opening_hours": "2025-11-21",
+          "name": "SAS Rajeeska",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "90405325300012",
+          "shop": "convenience",
+          "wheelchair": "limited",
+          "wheelchair:description:fr": "Magasin de plein pied, porte large, mais allées étroites"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1252379618,
+        "lat": 48.8400158,
+        "lon": 2.3885455,
+        "tags": {
+          "check_date:opening_hours": "2025-07-17",
+          "name": "Caroline",
+          "opening_hours": "Mo-Fr 06:30-20:00",
+          "ref:FR:SIRET": "91375982500015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1252379709,
+        "lat": 48.8397748,
+        "lon": 2.3887685,
+        "tags": {
+          "check_date": "2026-01-11",
+          "check_date:opening_hours": "2026-01-11",
+          "name:signed": "no",
+          "note:fr": "Précédement Magasin informatique O 201",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "94507060500015",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
         "id": 1266538717,
         "lat": 48.8573206,
         "lon": 2.379907,
@@ -1064,17 +1117,6 @@
           "ref:FR:SIRET": "39859793000013",
           "shop": "books",
           "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1430900305,
-        "lat": 48.8578215,
-        "lon": 2.3585267,
-        "tags": {
-          "description": "Librairie indépendante",
-          "name": "Librairie du Temple",
-          "shop": "books"
         }
       },
       {
@@ -1323,6 +1365,17 @@
           "ref:FR:SIRET": "42969201500028",
           "shop": "books",
           "wikidata": "Q3459207"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2145835687,
+        "lat": 48.8451819,
+        "lon": 2.3886925,
+        "tags": {
+          "name": "Agalya",
+          "ref:FR:SIRET": "53095929500011",
+          "shop": "convenience"
         }
       },
       {
@@ -2016,18 +2069,6 @@
       },
       {
         "type": "node",
-        "id": 3621890995,
-        "lat": 48.8587783,
-        "lon": 2.3587098,
-        "tags": {
-          "name:signed": "no",
-          "shop": "kiosk",
-          "survey:date": "2025-04-14",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 3653081804,
         "lat": 48.8557128,
         "lon": 2.3698208,
@@ -2193,21 +2234,6 @@
       },
       {
         "type": "node",
-        "id": 3738155791,
-        "lat": 48.8574507,
-        "lon": 2.3590086,
-        "tags": {
-          "addr:housenumber": "36",
-          "addr:street": "Rue des Rosiers",
-          "name": "Copains Rosiers",
-          "opening_hours": "Mo-Sa 08:00-20:00; Su 08:30-19:30",
-          "shop": "bakery",
-          "survey:date": "2025-04-14",
-          "website": "https://www.copains-paris.com/nos-adresses/"
-        }
-      },
-      {
-        "type": "node",
         "id": 3746193112,
         "lat": 48.8458663,
         "lon": 2.3697253,
@@ -2217,18 +2243,6 @@
           "ref:FR:SIRET": "56206144000185",
           "shop": "books",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3980442995,
-        "lat": 48.855928,
-        "lon": 2.3586658,
-        "tags": {
-          "name": "Rayon",
-          "opening_hours": "Mo-Su 09:30-20:00",
-          "shop": "convenience",
-          "wheelchair": "no"
         }
       },
       {
@@ -2541,20 +2555,17 @@
       },
       {
         "type": "node",
-        "id": 5196783923,
-        "lat": 48.8352663,
-        "lon": 2.358788,
+        "id": 5180377060,
+        "lat": 48.8493137,
+        "lon": 2.3888108,
         "tags": {
-          "addr:housenumber": "31",
-          "addr:postcode": "75013",
-          "addr:street": "Rue de Campo Formio",
-          "brand": "Proxi",
-          "brand:wikidata": "Q3408522",
-          "brand:wikipedia": "fr:Proxi",
-          "check_date": "2024-09-07",
-          "name": "Proxi",
-          "ref:FR:SIRET": "53892475400012",
-          "shop": "convenience"
+          "check_date": "2026-01-15",
+          "check_date:opening_hours": "2026-01-15",
+          "contact:phone": "+33 1 43 72 97 63",
+          "name": "Maison Doucet",
+          "opening_hours": "Mo-Fr 07:00-20:30; Sa 07:00-14:30",
+          "ref:FR:SIRET": "93123748100011",
+          "shop": "bakery"
         }
       },
       {
@@ -2896,20 +2907,6 @@
       },
       {
         "type": "node",
-        "id": 7098651329,
-        "lat": 48.8552598,
-        "lon": 2.3592146,
-        "tags": {
-          "check_date": "2025-11-10",
-          "level": "0",
-          "name": "Libraire de la Maison européenne de la Photographie",
-          "opening_hours": "11:00-19:00",
-          "second_hand": "no",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
         "id": 7343211161,
         "lat": 48.8585642,
         "lon": 2.3833068,
@@ -3201,19 +3198,6 @@
       },
       {
         "type": "node",
-        "id": 9081610819,
-        "lat": 48.8355779,
-        "lon": 2.3589207,
-        "tags": {
-          "check_date": "2024-09-07",
-          "description": "Robotic shop : limited number of products, but available 24/7.",
-          "name": "Y'a Too Partoo",
-          "opening_hours": "24/7",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 9081610846,
         "lat": 48.8392775,
         "lon": 2.3604043,
@@ -3279,21 +3263,6 @@
           "ref:FR:SIRET": "89800303300021",
           "shop": "convenience",
           "website": "https://www.nousantigaspi.com/magasins/paris-reuilly/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9314777180,
-        "lat": 48.8560263,
-        "lon": 2.3587165,
-        "tags": {
-          "check_date": "2025-11-10",
-          "check_date:opening_hours": "2025-11-10",
-          "level": "0",
-          "name": "Rayon bio",
-          "opening_hours": "Mo-Su 09:30-20:00",
-          "organic": "only",
-          "shop": "convenience"
         }
       },
       {
@@ -3579,30 +3548,6 @@
           "second_hand": "only",
           "shop": "books",
           "website": "https://lingonbook.fr/pages/book-off-bastille"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9995457174,
-        "lat": 48.8350782,
-        "lon": 2.359038,
-        "tags": {
-          "name": "Les Sept Épis",
-          "opening_hours": "Mo-Fr 07:00-19:00; Sa,Su 07:00-18:00; Aug off",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9995457187,
-        "lat": 48.8357476,
-        "lon": 2.3590508,
-        "tags": {
-          "check_date": "2024-09-07",
-          "name": "Zad",
-          "opening_hours": "Su-Th 11:00-03:00, Fr-Sa 11:00-04:00",
-          "ref:FR:SIRET": "45312928000013",
-          "shop": "convenience"
         }
       },
       {
@@ -4917,6 +4862,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-04T16:03:11.851Z",
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
   "staleDataWarning": false
 }

@@ -4,8 +4,1551 @@
     "lat": 48.69,
     "lng": 6.1704
   },
-  "isochrones": null,
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "isochrones": {
+    "type": "FeatureCollection",
+    "bbox": [
+      6.160495,
+      48.683405,
+      6.180401,
+      48.69567
+    ],
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "group_index": 0,
+          "value": 300,
+          "center": [
+            6.170435277247858,
+            48.69000907297173
+          ]
+        },
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                6.166924,
+                48.690126
+              ],
+              [
+                6.166051,
+                48.688565
+              ],
+              [
+                6.166008,
+                48.688413
+              ],
+              [
+                6.166078,
+                48.688206
+              ],
+              [
+                6.166111,
+                48.688162
+              ],
+              [
+                6.166177,
+                48.688132
+              ],
+              [
+                6.166263,
+                48.688095
+              ],
+              [
+                6.169811,
+                48.687101
+              ],
+              [
+                6.170948,
+                48.68684
+              ],
+              [
+                6.173635,
+                48.687716
+              ],
+              [
+                6.173848,
+                48.687791
+              ],
+              [
+                6.174274,
+                48.68854
+              ],
+              [
+                6.175486,
+                48.690827
+              ],
+              [
+                6.175429,
+                48.691031
+              ],
+              [
+                6.17528,
+                48.691329
+              ],
+              [
+                6.175252,
+                48.691338
+              ],
+              [
+                6.172274,
+                48.692215
+              ],
+              [
+                6.16931,
+                48.692159
+              ],
+              [
+                6.168442,
+                48.692046
+              ],
+              [
+                6.168129,
+                48.691868
+              ],
+              [
+                6.166924,
+                48.690126
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "group_index": 0,
+          "value": 600,
+          "center": [
+            6.170435277247858,
+            48.69000907297173
+          ]
+        },
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                6.163648,
+                48.694057
+              ],
+              [
+                6.160495,
+                48.689522
+              ],
+              [
+                6.160498,
+                48.689482
+              ],
+              [
+                6.160923,
+                48.686899
+              ],
+              [
+                6.161029,
+                48.686555
+              ],
+              [
+                6.166225,
+                48.684585
+              ],
+              [
+                6.170918,
+                48.683708
+              ],
+              [
+                6.172641,
+                48.683481
+              ],
+              [
+                6.17319,
+                48.683414
+              ],
+              [
+                6.173264,
+                48.683405
+              ],
+              [
+                6.176247,
+                48.684343
+              ],
+              [
+                6.176275,
+                48.684353
+              ],
+              [
+                6.176807,
+                48.684916
+              ],
+              [
+                6.178633,
+                48.687581
+              ],
+              [
+                6.179023,
+                48.688312
+              ],
+              [
+                6.179478,
+                48.689573
+              ],
+              [
+                6.180401,
+                48.692472
+              ],
+              [
+                6.180296,
+                48.692816
+              ],
+              [
+                6.179595,
+                48.693649
+              ],
+              [
+                6.174077,
+                48.695091
+              ],
+              [
+                6.171245,
+                48.695566
+              ],
+              [
+                6.170349,
+                48.69567
+              ],
+              [
+                6.167244,
+                48.695619
+              ],
+              [
+                6.167155,
+                48.695608
+              ],
+              [
+                6.165861,
+                48.695126
+              ],
+              [
+                6.16388,
+                48.694332
+              ],
+              [
+                6.163648,
+                48.694057
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        }
+      }
+    ],
+    "metadata": {
+      "attribution": "openrouteservice.org | OpenStreetMap contributors",
+      "service": "isochrones",
+      "timestamp": 1785864066579,
+      "query": {
+        "profile": "foot-walking",
+        "profileName": "foot-walking",
+        "locations": [
+          [
+            6.1704,
+            48.69
+          ]
+        ],
+        "range": [
+          300,
+          600
+        ],
+        "range_type": "time",
+        "units": "m"
+      },
+      "engine": {
+        "version": "9.9.0",
+        "build_date": "2026-06-12T10:08:58Z",
+        "graph_date": "2026-07-28T19:03:26Z",
+        "osm_date": "2026-07-20T00:00:00Z"
+      }
+    }
+  },
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:24:18Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 803860821,
+        "lat": 48.6901488,
+        "lon": 6.1830923,
+        "tags": {
+          "check_date:opening_hours": "2025-07-16",
+          "contact:fax": "+33 3 83 32 83 79",
+          "contact:phone": "+33 3 83 35 53 01",
+          "contact:street": "Rue Saint-Dizier",
+          "email": "contact@halldulivre.com",
+          "internet_access": "no",
+          "name": "Hall du Livre",
+          "opening_hours": "Mo-Sa 09:00-20:00; Su 11:00-19:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "ref:FR:SIRET": "79932412400038",
+          "ref:vatin": "FR76799324124",
+          "shop": "books",
+          "source": "survey",
+          "website": "https://halldulivre.com/page/la-librairie",
+          "wheelchair": "yes",
+          "wikidata": "Q3126027"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1314050720,
+        "lat": 48.7009589,
+        "lon": 6.1768418,
+        "tags": {
+          "name": "Épicerie 3 maisons",
+          "opening_hours": "Mo-Su 11:00-02:30",
+          "ref:FR:SIRET": "80360854600039",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1374548403,
+        "lat": 48.6901296,
+        "lon": 6.171896,
+        "tags": {
+          "addr:housenumber": "30",
+          "contact:email": "frederique.schindler@numericable.fr",
+          "contact:phone": "+33 3 83400998",
+          "name": "Maison Schindler",
+          "ref:FR:SIRET": "51762728700017",
+          "shop": "bakery",
+          "source": "GrandNancy",
+          "source:date": "2013-06",
+          "toilets": "no",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1374754115,
+        "lat": 48.6901708,
+        "lon": 6.1808939,
+        "tags": {
+          "contact:housenumber": "31",
+          "contact:phone": "+33 3 83 32 37 46",
+          "contact:street": "Rue Saint-Jean",
+          "name": "L'Épi d'Or",
+          "ref:FR:SIRET": "53002175700014",
+          "shop": "bakery",
+          "source": "survey",
+          "takeaway": "only",
+          "website": "https://www.lepi-dor-nancy.fr",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1641570646,
+        "lat": 48.7026572,
+        "lon": 6.1752939,
+        "tags": {
+          "addr:housenumber": "57",
+          "name": "Saveurs & Traditions",
+          "opening_hours": "Th-Tu 06:00-22:00",
+          "ref:FR:SIRET": "49287832700013",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1643027537,
+        "lat": 48.6978683,
+        "lon": 6.1787539,
+        "tags": {
+          "check_date": "2024-12-08",
+          "name": "Librairie Ancienne Dornier",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1643073470,
+        "lat": 48.6917392,
+        "lon": 6.1829242,
+        "tags": {
+          "books": "comics",
+          "contact:city": "Nancy",
+          "contact:email": "laparentheselib@canalbd.net",
+          "contact:housenumber": "19",
+          "contact:phone": "+33 3 83353963",
+          "contact:postcode": "54000",
+          "contact:street": "Cour des Arts",
+          "name": "La Parenthèse",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "payment:american_express": "yes",
+          "payment:cheque": "yes",
+          "payment:contactless": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "ref:FR:SIRET": "30098698100045",
+          "shop": "books",
+          "website": "https://www.canalbd.net/la-parenthese",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1754661153,
+        "lat": 48.6893894,
+        "lon": 6.1776694,
+        "tags": {
+          "check_date": "2024-10-10",
+          "name:signed": "no",
+          "shop": "kiosk",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1786231238,
+        "lat": 48.6845817,
+        "lon": 6.1787377,
+        "tags": {
+          "addr:housenumber": "16",
+          "contact:phone": "+33 3 83273943",
+          "level": "0",
+          "name": "Maison Brandenberg",
+          "network": "Campaillette",
+          "opening_hours": "Tu-Sa 06:45-19:00; Su 07:00-13:00; Mo off",
+          "organic": "yes",
+          "ref:FR:SIRET": "51009733000011",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "designated"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1805307489,
+        "lat": 48.6804379,
+        "lon": 6.1816098,
+        "tags": {
+          "brand": "Proxi",
+          "brand:wikidata": "Q3408522",
+          "brand:wikipedia": "fr:Proxi",
+          "check_date": "2023-07-17",
+          "level": "0",
+          "name": "Proxi Super",
+          "opening_hours": "Mo-Sa 08:00-02:30; Su 08:00-24:00",
+          "ref:FR:SIRET": "82303474900015",
+          "shop": "convenience",
+          "source": "survey",
+          "toilets": "no",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1975553475,
+        "lat": 48.6906624,
+        "lon": 6.1843197,
+        "tags": {
+          "addr:housenumber": "19",
+          "contact:email": "autre.rive.nancy@wanadoo.fr",
+          "contact:facebook": "LAutre-Rive-Nancy-256540604378115",
+          "contact:phone": "+33 3 83 30 63 29",
+          "level": "0",
+          "name": "L'Autre Rive",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 09:30-19:00",
+          "ref:FR:SIRET": "39399306800013",
+          "shop": "books",
+          "source": "survey",
+          "website": "https://www.librairie-lautrerive.com/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2242705608,
+        "lat": 48.6846185,
+        "lon": 6.1662453,
+        "tags": {
+          "check_date": "2023-07-24",
+          "contact:phone": "+33 3 83900776",
+          "name": "MultiMarché",
+          "opening_hours": "08:30-22:30",
+          "ref:FR:SIRET": "33877768300024",
+          "shop": "convenience",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2303827751,
+        "lat": 48.6984294,
+        "lon": 6.1625659,
+        "tags": {
+          "addr:housenumber": "10",
+          "name": "Superette de la Colline",
+          "network": "Proxi",
+          "operator": "Proxi",
+          "ref:FR:SIRET": "82117290500019",
+          "shop": "convenience",
+          "source": "survey;GrandNancy",
+          "source:date": "2013-06"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2464293314,
+        "lat": 48.6894233,
+        "lon": 6.183598,
+        "tags": {
+          "contact:phone": "+33 3 83215381",
+          "level": "0",
+          "name": "R. This",
+          "opening_hours": "Mo-Sa 07:15-20:00; Tu off; Su 07:15-13:00",
+          "ref:FR:SIRET": "42361526900036",
+          "shop": "bakery",
+          "source": "survey",
+          "website": "https://www.maison-this.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2471524748,
+        "lat": 48.6755724,
+        "lon": 6.1822793,
+        "tags": {
+          "branch": "Super",
+          "brand": "Proxi",
+          "brand:wikidata": "Q3408522",
+          "brand:wikipedia": "fr:Proxi",
+          "level": "0",
+          "name": "Proxi",
+          "opening_hours": "Mo 11:00-22:00, Tu,We 08:30-22:00, Th-Sa 09:00-02:00, Su 08:30-22:00",
+          "shop": "convenience",
+          "source": "survey",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2625894103,
+        "lat": 48.6980603,
+        "lon": 6.1784539,
+        "tags": {
+          "contact:facebook": "DuPainEtDesGateaux",
+          "contact:instagram": "du_pain_et_des_gateaux",
+          "contact:phone": "+33 3 83 35 54 39",
+          "contact:website": "https://www.dupainetdesgateaux.fr",
+          "name": "Du Pain et des Gâteaux",
+          "opening_hours": "07:00-19:00; Th off",
+          "ref:FR:SIRET": "48410964000041",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2628770152,
+        "lat": 48.7036584,
+        "lon": 6.1820246,
+        "tags": {
+          "contact:facebook": "lesmerveillesdeLily1",
+          "name": "Les merveilles de Lily",
+          "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-13:00",
+          "ref:FR:SIRET": "91439527200018",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2640109855,
+        "lat": 48.6961893,
+        "lon": 6.1789098,
+        "tags": {
+          "addr:housenumber": "7",
+          "name": "Monsieur le Primeur",
+          "shop": "convenience",
+          "source": "GrandNancy",
+          "source:date": "2013-06"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2714051704,
+        "lat": 48.6847179,
+        "lon": 6.1558302,
+        "tags": {
+          "name": "Sainte-Anne",
+          "opening_hours": "Mo-Fr 04:00-19:30; Sa 04:00-13:00",
+          "shop": "bakery",
+          "source:name": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2736141217,
+        "lat": 48.6821259,
+        "lon": 6.1562208,
+        "tags": {
+          "contact:phone": "+33 3 83310092",
+          "contact:website": "http://regainpainsaulevain.fr/",
+          "currency:XLT": "FLOR",
+          "email": "contact@regainpainaulevain.fr",
+          "name": "Regain",
+          "opening_hours": "Th-Fr 15:30-19:30; Sa 08:30-13:30",
+          "organic": "only",
+          "payment:cash:XLT-FLOR": "yes",
+          "ref:FR:SIRET": "85321044100012",
+          "shop": "bakery",
+          "source": "knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2993505767,
+        "lat": 48.6765013,
+        "lon": 6.1773299,
+        "tags": {
+          "level": "0",
+          "name:signed": "no",
+          "shop": "convenience",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3299319720,
+        "lat": 48.6865288,
+        "lon": 6.1639138,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/pages/Le-Pêché-Gourmand/128867300629428",
+          "contact:housenumber": "36",
+          "contact:phone": "+33 3 83 25 56 34",
+          "contact:street": "Rue de Laxou",
+          "level": "0",
+          "name": "Le Péché Gourmand",
+          "network": "Ronde des Pains",
+          "opening_hours": "Mo-Fr 06:30-19:30; Su 06:30-13:30",
+          "ref:FR:SIRET": "52762641000015",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3729513332,
+        "lat": 48.6943648,
+        "lon": 6.1815307,
+        "tags": {
+          "contact:phone": "+33 3 83323276",
+          "name": "Les Tentations de Séb",
+          "opening_hours": "Tu-Su 05:30-20:30",
+          "ref:FR:SIRET": "80468832300018",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3928434587,
+        "lat": 48.6928548,
+        "lon": 6.1812935,
+        "tags": {
+          "contact:housenumber": "25",
+          "contact:street": "Rue Stanislas",
+          "name": "Remy",
+          "opening_hours": "Tu-Sa 10:00-12:00,14:30-19:00; Mo off",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 3 83356423",
+          "ref:FR:SIRET": "77270082900017",
+          "shop": "books",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4222487291,
+        "lat": 48.6848554,
+        "lon": 6.1558604,
+        "tags": {
+          "contact:phone": "+33 9 97787735",
+          "description": "Épicerie exotique",
+          "name": "YokaFric",
+          "opening_hours": "Mo 14:00-19:00; Tu-Fr 09:00-12:30,14:30-19:00; Sa 09:00-19:00; Su 09:00-13:00",
+          "shop": "convenience",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4396408240,
+        "lat": 48.6912053,
+        "lon": 6.1808933,
+        "tags": {
+          "addr:housenumber": "15",
+          "contact:phone": "+33 3 83327737",
+          "email": "alphabetsnancy@gmail.com",
+          "name": "Alphabets",
+          "opening_hours": "We, Sa 14:00-18:45",
+          "ref:FR:SIRET": "35147363200039",
+          "shop": "books",
+          "source": "survey",
+          "website": "http://librairiealphabets.blogspot.fr",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4396547950,
+        "lat": 48.6923427,
+        "lon": 6.1796,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/Boulangerie-Pâtisserie-Lagniez-1663710757008746/",
+          "contact:housenumber": "37",
+          "contact:phone": "+33 3 83352699",
+          "contact:street": "Rue Stanislas",
+          "delivery": "yes",
+          "level": "0",
+          "name": "Maison Lagniez",
+          "opening_hours": "Mo-Sa 07:00-19:00; PH 07:00-13:00; PH Su off",
+          "outdoor_seating": "yes",
+          "shop": "bakery",
+          "source": "survey",
+          "toilets": "no",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4433312891,
+        "lat": 48.68995,
+        "lon": 6.1818467,
+        "tags": {
+          "level": "0",
+          "name": "Chez Loïc et Corentin",
+          "opening_hours": "Mo-Fr 07:00-18:30; Sa 07:00-17:30; Su,PH off",
+          "ref:FR:SIRET": "99277067700027",
+          "shop": "bakery",
+          "source": "survey",
+          "toilets": "no",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4433395215,
+        "lat": 48.6980196,
+        "lon": 6.1786351,
+        "tags": {
+          "check_date": "2024-12-08",
+          "email": "nancy@equilivre.net",
+          "name": "La Maison de la Bible",
+          "opening_hours": "Tu-Sa 09:30-12:30,14:00-18:30",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 3 83 35 08 97",
+          "ref:FR:SIRET": "56206144000037",
+          "shop": "books",
+          "source": "survey",
+          "website": "https://maisonbible.fr/fr/librairies?equilivre-nancy=&store=5"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4560912663,
+        "lat": 48.6947188,
+        "lon": 6.1799179,
+        "tags": {
+          "name": "La Librairie Singulière et Plurielle",
+          "shop": "books",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4675546418,
+        "lat": 48.704303,
+        "lon": 6.1838096,
+        "tags": {
+          "addr:housenumber": "137",
+          "change:XLT-FLOR": "yes",
+          "currency:XLT": "FLOR",
+          "name": "Croc'us",
+          "opening_hours": "24/7 ; Tu-Sa 09:00-19:00",
+          "organic": "only",
+          "payment:cash:XLT-FLOR": "yes",
+          "payment:contactless:XLT-FLOR": "yes",
+          "phone": "+33 3 83452687",
+          "shop": "convenience",
+          "source": "survey",
+          "website": "http://croc-us.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4807694459,
+        "lat": 48.6894379,
+        "lon": 6.1823974,
+        "tags": {
+          "name": "Miller Tradition",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4990703594,
+        "lat": 48.6914435,
+        "lon": 6.1826676,
+        "tags": {
+          "books": "comics",
+          "contact:city": "Nancy",
+          "contact:housenumber": "8",
+          "contact:phone": "+33 3 83 17 19 40",
+          "contact:postcode": "54000",
+          "contact:street": "Cour des Arts",
+          "name": "Atout Manga",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-12:30, 13:30-19:00",
+          "ref:FR:SIRET": "30098698100052",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4991023313,
+        "lat": 48.6928851,
+        "lon": 6.1823466,
+        "tags": {
+          "contact:email": "librairie-didier@orange.fr",
+          "contact:facebook": "https://www.facebook.com/Librairie-Didier-339040103126621/",
+          "contact:phone": "+33 3 83320063",
+          "name": "Librairie Didier",
+          "opening_hours": "Tu-Sa 10:00-12:00,14:00-19:00; Mo 14:00-19:00; PH off",
+          "ref:FR:SIRET": "31573760100015",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5211155234,
+        "lat": 48.6893846,
+        "lon": 6.1852787,
+        "tags": {
+          "contact:phone": "+33 3 83481475",
+          "diet:halal": "only",
+          "name": "Saveurs d'Orient",
+          "opening_hours": "Mo-Sa 09:30-19:30; Su 09:00-12:30",
+          "ref:FR:SIRET": "41030371300094",
+          "shop": "convenience",
+          "source": "knowledge"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5435302196,
+        "lat": 48.6895894,
+        "lon": 6.1831591,
+        "tags": {
+          "change:XLT-FLOR": "yes",
+          "currency:XLT": "FLOR",
+          "name": "Bouquiniste",
+          "opening_hours": "Tu-Sa 10:00-18:00",
+          "payment:cash:XLT-FLOR": "yes",
+          "phone": "+33 3 83324471",
+          "second_hand": "only",
+          "shop": "books",
+          "source": "survey",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5983303275,
+        "lat": 48.7034603,
+        "lon": 6.1630361,
+        "tags": {
+          "brand": "Fischer 1913",
+          "brand:website": "https://fischer1913.com",
+          "check_date:opening_hours": "2024-05-27",
+          "contact:housenumber": "93",
+          "contact:phone": "+33 3 83544662",
+          "contact:street": "Boulevard de Scarpone",
+          "name": "Fischer 1913",
+          "opening_hours": "Mo-Fr 06:00-20:00; Sa 07:00-19:00",
+          "shop": "bakery",
+          "website": "https://lu.fischer1913.com/fr/boulangeries/nos-points-de-vente/fischer-nancy"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6055826996,
+        "lat": 48.696825,
+        "lon": 6.1795358,
+        "tags": {
+          "brand": "Au Pain de mon Grand-Père",
+          "brand:wikidata": "Q128837687",
+          "name": "Au Pain de mon Grand-Père",
+          "phone": "+33 3 83240626",
+          "shop": "bakery",
+          "source": "knowledge",
+          "website": "https://www.aupaindemongrandpere.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6447185163,
+        "lat": 48.6784611,
+        "lon": 6.1617465,
+        "tags": {
+          "contact:email": "vauquois.monique@orange.fr",
+          "contact:housenumber": "12",
+          "contact:phone": "+33 3 83401988",
+          "contact:street": "Rue Fabert",
+          "name": "Miller Tradition",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "79103516500012",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6539859866,
+        "lat": 48.6888038,
+        "lon": 6.1851234,
+        "tags": {
+          "name": "Bouquiniste",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6707877427,
+        "lat": 48.6761236,
+        "lon": 6.1613761,
+        "tags": {
+          "bulk_purchase": "yes",
+          "contact:housenumber": "28",
+          "contact:street": "Boulevard de Baudricourt",
+          "currency:XLT": "FLOR",
+          "description": "Boutique éco-responsable / concept-store dans laquelle on retrouve de nombreuses gammes de produits locaux et français",
+          "email": "contact@lechoppe-atypique.fr",
+          "level": "0",
+          "mobile": "+33 624 433 186",
+          "name": "L'échoppe atypique",
+          "opening_hours": "Mo 09:30-18:00; Tu-Fr 09:30-18:30; Sa 09:30-17:00",
+          "payment:cash:XLT-FLOR": "yes",
+          "payment:contactless:XLT-FLOR": "yes",
+          "phone": "+33 383 265 354",
+          "ref:FR:SIRET": "91511191800016",
+          "shop": "convenience",
+          "source": "survey",
+          "website": "https://lechoppe-atypique.fr",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6723721257,
+        "lat": 48.6908225,
+        "lon": 6.1847876,
+        "tags": {
+          "name": "Liserons Blancs",
+          "opening_hours": "Tu-Fr 10:00-12:00,14:00-18:00",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6763991813,
+        "lat": 48.6927629,
+        "lon": 6.1805008,
+        "tags": {
+          "branch": "Super",
+          "brand": "Proxi",
+          "brand:wikidata": "Q3408522",
+          "brand:wikipedia": "fr:Proxi",
+          "name": "Proxi Super",
+          "opening_hours": "Mo-We 10:00-24:00; Fr,Sa 10:00-02:00; Su 10:00-24:00",
+          "ref:FR:SIRET": "85214837800023",
+          "shop": "convenience",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6899007394,
+        "lat": 48.6962491,
+        "lon": 6.1786452,
+        "tags": {
+          "contact:housenumber": "3",
+          "contact:street": "Rue Monseigneur Trouillet",
+          "name": "Stef",
+          "opening_hours": "Tu-Su 07:00-19:30",
+          "phone": "+33 3 83364824",
+          "ref:FR:SIRET": "40830185100015",
+          "shop": "bakery",
+          "source": "survey",
+          "website": "https://stef-nancy.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7037145675,
+        "lat": 48.6886353,
+        "lon": 6.1841838,
+        "tags": {
+          "addr:housenumber": "107",
+          "contact:email": "contact@epicerie-de-nuit.fr",
+          "contact:phone": "+33 3 83488135",
+          "contact:website": "http://www.epicerie-de-nuit.fr/",
+          "name": "Épicerie de nuit",
+          "ref:FR:SIRET": "87851085800011",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7051334119,
+        "lat": 48.6906637,
+        "lon": 6.1796974,
+        "tags": {
+          "level": "0",
+          "name": "Mysteria Temporis",
+          "opening_hours": "Tu 13:01-18:29; We 13:02-18:28; Th 13:03-18:27; Fr 13:04-18:26; Sa 10:00-19:00",
+          "ref:FR:SIRET": "45239522100016",
+          "shop": "books",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7354801620,
+        "lat": 48.689031,
+        "lon": 6.1825399,
+        "tags": {
+          "contact:phone": "+33 3 83 36 53 41",
+          "name": "Henri Florion Sarl",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7366818859,
+        "lat": 48.6931557,
+        "lon": 6.1826529,
+        "tags": {
+          "contact:housenumber": "1",
+          "contact:street": "Place Stanislas",
+          "level": "0",
+          "name": "Tabac Le Royal",
+          "phone": "+33 3 83 35 17 86",
+          "shop": "kiosk",
+          "source": "survey",
+          "tobacco": "yes",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7371041464,
+        "lat": 48.6925198,
+        "lon": 6.1801862,
+        "tags": {
+          "contact:housenumber": "35",
+          "contact:street": "Rue Stanislas",
+          "indoor_seating": "no",
+          "name": "Aux Plaisirs d'Antan",
+          "opening_hours": "Tu-Sa 07:00-19:15; Su 07:00-13:00",
+          "outdoor_seating": "no",
+          "phone": "+33 3 83 35 47 04",
+          "ref:FR:SIRET": "44798562300019",
+          "shop": "bakery",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7372235944,
+        "lat": 48.6766693,
+        "lon": 6.1775036,
+        "tags": {
+          "addr:housenumber": "162",
+          "description": "Boulanger Pâtissier Traiteur Chocolatier",
+          "indoor_seating": "no",
+          "name": "Aïda & Franck",
+          "opening_hours": "Tu-Su 02:30-20:00; Mo off",
+          "outdoor_seating": "no",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 3 83554674",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7515166187,
+        "lat": 48.6908462,
+        "lon": 6.1801774,
+        "tags": {
+          "addr:postcode": "54000",
+          "mapillary": "584954085826178",
+          "name": "L'Affranchi",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "second_hand": "yes",
+          "shop": "books",
+          "source": "knowledge",
+          "website": "https://laffranchi-nancy.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7814795597,
+        "lat": 48.6806023,
+        "lon": 6.1817204,
+        "tags": {
+          "opening_hours": "Mo,Sa 10:00-12:00,14:00-16:30; Fr 09:00-11:30,14:00-16:30",
+          "operator": "Secours Populaire Français",
+          "shop": "books",
+          "website": "https://www.secourspopulaire.fr/54/la-bouquinerie"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7917557116,
+        "lat": 48.6892659,
+        "lon": 6.1695186,
+        "tags": {
+          "check_date": "2025-12-07",
+          "contact:email": "saseurobanglastoreholding@gmail.com",
+          "contact:phone": "+33 6 59830814",
+          "contact:website": "https://nancy.lecomptoirexotique.com/",
+          "level": "0",
+          "name": "Le Comptoir Exotique Shop",
+          "shop": "convenience",
+          "toilets": "no",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8574931569,
+        "lat": 48.681228,
+        "lon": 6.1609979,
+        "tags": {
+          "amenity": "cafe",
+          "contact:email": "local@courtcircuitnancy.fr",
+          "contact:facebook": "https://www.facebook.com/courtcircuitVoltaire/",
+          "contact:phone": "+33 3 83197103",
+          "level": "0",
+          "name": "Courts-circuits Voltaire",
+          "opening_hours": "Tu-Sa 12:00-22:00; Su-Mo off",
+          "organic": "yes",
+          "shop": "convenience",
+          "smoking": "outside",
+          "website": "https://courtcircuitnancy.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8702225171,
+        "lat": 48.6851513,
+        "lon": 6.1555035,
+        "tags": {
+          "addr:city": "Laxou",
+          "addr:postcode": "54520",
+          "addr:street": "Avenue Paul Déroulède",
+          "name": "L'Ami du Pain",
+          "network": "Ronde des Pains",
+          "opening_hours": "Tu-Su 06:00-19:00",
+          "ref:FR:SIRET": "49273067600011",
+          "shop": "bakery",
+          "source": "local knowledge",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9162020038,
+        "lat": 48.687888,
+        "lon": 6.1795309,
+        "tags": {
+          "name": "Flamingo",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9258765672,
+        "lat": 48.6752711,
+        "lon": 6.1632349,
+        "tags": {
+          "contact:housenumber": "37",
+          "contact:street": "Boulevard d'Haussonville",
+          "name": "Totem",
+          "shop": "kiosk",
+          "source": "survey",
+          "tobacco": "yes",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9492774963,
+        "lat": 48.6866585,
+        "lon": 6.1711463,
+        "tags": {
+          "branch": "Super",
+          "brand": "Proxi",
+          "brand:wikidata": "Q3408522",
+          "brand:wikipedia": "fr:Proxi",
+          "name": "Proxi",
+          "ref:FR:SIRET": "50455970900010",
+          "shop": "convenience",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9656089235,
+        "lat": 48.6892166,
+        "lon": 6.1824682,
+        "tags": {
+          "currency:XLT": "FLOR",
+          "email": "contact@b-nancy.com",
+          "image": "https://www.monnaielocalenancy.fr/wp-content/uploads/silverware-g7822e1697_640.png",
+          "mobile": "+33 658 670 105",
+          "name": "Restaurant B",
+          "organic": "yes",
+          "payment:cash:XLT-FLOR": "yes",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10971041259,
+        "lat": 48.6812603,
+        "lon": 6.1612469,
+        "tags": {
+          "amenity": "bar",
+          "bulk_purchase": "yes",
+          "change:XLT-FLOR": "yes",
+          "contact:housenumber": "47",
+          "contact:street": "Rue Voltaire",
+          "currency:XLT": "FLOR",
+          "email": "local@courtcircuitnancy.fr",
+          "image": "https://courtcircuitnancy.fr/wp-content/uploads/2020/11/court-circuit-logo-blanc-blanc.png",
+          "name": "Court-Circuit",
+          "organic": "yes",
+          "payment:cash:XLT-FLOR": "yes",
+          "payment:contactless:XLT-FLOR": "yes",
+          "phone": "+33 383 197 103",
+          "ref:FR:SIRET": "89166067200017",
+          "shop": "convenience",
+          "website": "https://courtcircuitnancy.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11116013588,
+        "lat": 48.6854029,
+        "lon": 6.166807,
+        "tags": {
+          "contact:phone": "+33 3 83 40 09 93",
+          "name": "La Place du Pain",
+          "opening_hours": "Tu-Fr 07:00-19:30; Sa,Su 07:00-13:00",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11255383353,
+        "lat": 48.6837691,
+        "lon": 6.1767033,
+        "tags": {
+          "addr:housenumber": "2",
+          "level": "0",
+          "name": "K'Exotic",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "shop": "convenience",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11775608754,
+        "lat": 48.6909263,
+        "lon": 6.1842111,
+        "tags": {
+          "contact:housenumber": "9",
+          "contact:street": "Rue du Pont Mouja",
+          "level": "0",
+          "name": "Au Bon Coin - Maison Schmidt",
+          "opening_hours": "We-Mo 06:00-20:00",
+          "operator": "Schmidt",
+          "phone": "+33 3 83350518",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11799479963,
+        "lat": 48.7009399,
+        "lon": 6.1765016,
+        "tags": {
+          "addr:housenumber": "37",
+          "bulk_purchase": "only",
+          "check_date:opening_hours": "2026-01-23",
+          "contact:email": "daybyday.nancy@gmail.com",
+          "currency:XLT": "FLOR",
+          "name": "day by day - Mon épicerie en vrac",
+          "opening_hours": "Tu-Sa 09:30-13:00,14:30-19:00",
+          "organic": "yes",
+          "payment:cash:XLT-FLOR": "yes",
+          "payment:contactless:XLT-FLOR": "yes",
+          "phone": "+33 9 86 65 68 45",
+          "shop": "convenience",
+          "source": "survey",
+          "website": "https://daybyday-shop.com/magasin/nancy"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11799491866,
+        "lat": 48.6890092,
+        "lon": 6.1830491,
+        "tags": {
+          "brand": "Naturalia",
+          "brand:wikidata": "Q3337081",
+          "brand:wikipedia": "fr:Naturalia",
+          "bulk_purchase": "yes",
+          "changing_table": "no",
+          "contact:housenumber": "9",
+          "contact:phone": "+33 3 83357305",
+          "contact:street": "Place Charles III",
+          "contact:website": "https://magasins.naturalia.fr/naturalia/fr/store/france/grand-est/meurthe-et-moselle/nancy/nancy/3939",
+          "level": "0",
+          "name": "Naturalia",
+          "opening_hours": "Mo-Sa 09:00-20:00, Su closed",
+          "organic": "only",
+          "payment:cash": "yes",
+          "payment:debit_cards": "yes",
+          "payment:visa": "yes",
+          "ref:FR:SIRET": "30247464801415",
+          "shop": "convenience",
+          "source": "survey",
+          "toilets": "no",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11835189444,
+        "lat": 48.702359,
+        "lon": 6.1755208,
+        "tags": {
+          "bulk_purchase": "yes",
+          "contact:housenumber": "47",
+          "contact:street": "Rue du Faubourg des Trois-Maisons",
+          "name": "So.bio",
+          "opening_hours": "Mo-Sa 08:30-20:00; Su 09:30-12:30",
+          "organic": "only",
+          "phone": "+33 7 85567664",
+          "shop": "convenience",
+          "source": "survey",
+          "website": "https://www.sobio.fr/magasin/so-bio-nancy",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12081626748,
+        "lat": 48.6920542,
+        "lon": 6.1630659,
+        "tags": {
+          "contact:housenumber": "12",
+          "contact:street": "Rue de la Côte",
+          "currency:XLT": "FLOR",
+          "description": "Fresh Epices importe en circuit court et commercialise des produits de qualité : épices, mélanges, poivres, safran, vanille…",
+          "email": "freshepices@gmail.com",
+          "name": "Fresh Épices",
+          "payment:cash:XLT-FLOR": "yes",
+          "payment:contactless:XLT-FLOR": "yes",
+          "phone": "+33 627 300 535",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12768728602,
+        "lat": 48.6948509,
+        "lon": 6.1813708,
+        "tags": {
+          "addr:housenumber": "11",
+          "addr:postcode": "54000",
+          "addr:street": "Grande Rue",
+          "contact:facebook": "100041812136531",
+          "description": "Librairie indépendante (enfants, ados, adultes), de critique sociale et libertaire. (Livres, Revues, DVDs, Fanzines, Infokiosque...) Café, discussion, débats, rencontres, projections, ateliers, etc.",
+          "email": "quartier.libre@protonmail.com",
+          "name": "Quartier Libre",
+          "opening_hours": "Fr 18:00-20:00; Sa 15:00-19:00",
+          "ref:FR:SIRET": "81919500900017",
+          "shop": "books",
+          "source": "survey;local knowledge;https://manif-est.info/+-Quartier-Libre-+.html",
+          "website": "https://quartierlibrenancy.fr/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13293949723,
+        "lat": 48.6936451,
+        "lon": 6.1662138,
+        "tags": {
+          "access": "private",
+          "contact:email": "agorae@fedelor.org",
+          "contact:facebook": "agoraenancyclsh",
+          "contact:phone": "+33 3 57 75 66 65",
+          "contact:website": "https://www.fedelor.org/nos-agoraes/",
+          "description": "L'AGORAé est un espace d'échanges et de solidarité imaginé par les étudiants et pour les étudiants de Nancy.",
+          "name": "AGORAé Nancy CLSH",
+          "opening_hours:url": "https://www.facebook.com/agoraenancyclsh/",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13949165707,
+        "lat": 48.6877115,
+        "lon": 6.1834956,
+        "tags": {
+          "name": "Comptoir exotique",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14011400718,
+        "lat": 48.6874431,
+        "lon": 6.1847924,
+        "tags": {
+          "addr:city": "Nancy",
+          "addr:housenumber": "116",
+          "addr:postcode": "54000",
+          "addr:street": "Rue Saint-Dizier",
+          "name": "Le Cahier bleu",
+          "ref:FR:SIRET": "53131639600039",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14014520719,
+        "lat": 48.6917056,
+        "lon": 6.185011,
+        "tags": {
+          "addr:city": "Nancy",
+          "addr:housenumber": "49",
+          "addr:postcode": "54000",
+          "addr:street": "Rue Saint-Georges",
+          "name": "St Georges Market",
+          "ref:FR:SIRET": "10463687300010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14046675707,
+        "lat": 48.6981047,
+        "lon": 6.1783925,
+        "tags": {
+          "name": "Les Paniers du Primeur",
+          "ref:FR:SIRET": "88163561900029",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1449410606,
+        "center": {
+          "lat": 48.6888248,
+          "lon": 6.1804889
+        },
+        "tags": {
+          "brand": "Brioche Dorée",
+          "brand:wikidata": "Q2925606",
+          "brand:wikipedia": "fr:Brioche dorée",
+          "contact:city": "Nancy",
+          "contact:phone": "+33 3 83 35 02 05",
+          "contact:postcode": "54000",
+          "indoor": "room",
+          "level": "0",
+          "name": "Brioche Dorée",
+          "official_name": "Brioche Dorée Nancy - Centre commercial Saint-Sébastien",
+          "opening_hours": "Mo-Sa 08:00-19:30",
+          "ref:FR:SIRET": "31890659100439",
+          "room": "shop",
+          "shop": "bakery",
+          "website": "https://www.briochedoree.fr/restaurants/52-nancy-c.cial-st-sebastien"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1450114931,
+        "center": {
+          "lat": 48.6881257,
+          "lon": 6.1816679
+        },
+        "tags": {
+          "brand": "Plus Belles les Bulles",
+          "indoor": "room",
+          "level": "1",
+          "name": "Plus Belles les Bulles",
+          "room": "shop",
+          "shop": "books"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

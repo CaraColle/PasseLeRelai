@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      4.387962,
-      45.431198,
-      4.417878,
-      45.449082
+      4.393179,
+      45.434206,
+      4.412575,
+      45.445226
     ],
     "features": [
       {
@@ -228,174 +228,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            4.402645768914046,
-            45.44060154731057
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                4.391622,
-                45.446657
-              ],
-              [
-                4.389509,
-                45.442725
-              ],
-              [
-                4.388307,
-                45.441095
-              ],
-              [
-                4.387962,
-                45.439857
-              ],
-              [
-                4.38801,
-                45.4395
-              ],
-              [
-                4.388246,
-                45.438311
-              ],
-              [
-                4.388996,
-                45.436856
-              ],
-              [
-                4.390451,
-                45.434627
-              ],
-              [
-                4.392063,
-                45.433336
-              ],
-              [
-                4.397577,
-                45.432208
-              ],
-              [
-                4.399964,
-                45.431438
-              ],
-              [
-                4.401112,
-                45.431198
-              ],
-              [
-                4.403074,
-                45.431259
-              ],
-              [
-                4.403554,
-                45.431431
-              ],
-              [
-                4.409026,
-                45.432518
-              ],
-              [
-                4.414496,
-                45.434972
-              ],
-              [
-                4.415236,
-                45.435427
-              ],
-              [
-                4.415447,
-                45.435719
-              ],
-              [
-                4.4155,
-                45.435812
-              ],
-              [
-                4.415597,
-                45.436158
-              ],
-              [
-                4.416843,
-                45.441449
-              ],
-              [
-                4.417878,
-                45.44403
-              ],
-              [
-                4.417808,
-                45.444383
-              ],
-              [
-                4.416111,
-                45.445307
-              ],
-              [
-                4.411569,
-                45.446951
-              ],
-              [
-                4.408695,
-                45.449082
-              ],
-              [
-                4.405466,
-                45.448469
-              ],
-              [
-                4.404069,
-                45.448208
-              ],
-              [
-                4.398335,
-                45.448368
-              ],
-              [
-                4.398159,
-                45.448397
-              ],
-              [
-                4.397978,
-                45.448417
-              ],
-              [
-                4.397801,
-                45.448432
-              ],
-              [
-                4.395676,
-                45.448328
-              ],
-              [
-                4.395254,
-                45.448302
-              ],
-              [
-                4.39203,
-                45.447087
-              ],
-              [
-                4.391622,
-                45.446657
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809759027,
+      "timestamp": 1785863379967,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -407,8 +245,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -421,7 +258,1071 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:10:01Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 703830765,
+        "lat": 45.4296278,
+        "lon": 4.393869,
+        "tags": {
+          "name": "A.V. Treveys",
+          "ref:FR:SIRET": "38784026700018",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 715124332,
+        "lat": 45.4421387,
+        "lon": 4.4097067,
+        "tags": {
+          "brand": "Bonjour",
+          "brand:wikidata": "Q110278299",
+          "name": "Bonjour",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 741053765,
+        "lat": 45.4267302,
+        "lon": 4.4027636,
+        "tags": {
+          "cuisine": "sandwich",
+          "name": "Au Fournil de Manon",
+          "opening_hours": "Mo-Th 07:15-16:00; Fr 07:15-15:30",
+          "ref:FR:SIRET": "45156760600038",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2434980245,
+        "lat": 45.4287867,
+        "lon": 4.4139075,
+        "tags": {
+          "name:signed": "no",
+          "ref:FR:SIRET": "91047313100019",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2517188834,
+        "lat": 45.4297504,
+        "lon": 4.3899898,
+        "tags": {
+          "check_date": "2025-07-23",
+          "check_date:opening_hours": "2025-07-23",
+          "name": "La Banque du Livre",
+          "opening_hours": "Mo-Sa 09:00-19:00",
+          "ref:FR:SIRET": "50219898900035",
+          "second_hand": "only",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2517232295,
+        "lat": 45.4290612,
+        "lon": 4.3901857,
+        "tags": {
+          "books": "comic",
+          "name": "Des Bulles et des Hommes",
+          "opening_hours": "Mo 12:00-19:30; Tu-Sa 10:00-19:30",
+          "ref:FR:SIRET": "44374532800015",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2517232310,
+        "lat": 45.4284544,
+        "lon": 4.3900811,
+        "tags": {
+          "check_date:opening_hours": "2024-11-26",
+          "name": "Shop 42",
+          "name:signed": "no",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "98240954200015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2517664034,
+        "lat": 45.4345356,
+        "lon": 4.3896521,
+        "tags": {
+          "name": "Au Bouquiniste",
+          "ref:FR:SIRET": "40184540900036",
+          "second_hand": "only",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2858187601,
+        "lat": 45.4380293,
+        "lon": 4.3911967,
+        "tags": {
+          "addr:city": "Saint-Étienne",
+          "addr:housenumber": "19",
+          "addr:postcode": "42000",
+          "addr:street": "Rue Pierre Bérard",
+          "contact:website": "https://www.librairielunetlautre.fr",
+          "email": "librairie.lune.et.lautre@gmail.com",
+          "name": "Lune et l'autre",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 09:30-19:00",
+          "phone": "+33 4 77 32 58 49",
+          "ref:FR:SIRET": "49953094700013",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2977562203,
+        "lat": 45.4390567,
+        "lon": 4.3918359,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/p/March%C3%A9-Gouro-ST-100074311955464/",
+          "name": "Le Marché Gouro",
+          "opening_hours": "Tu-Su 09:30-20:00",
+          "ref:FR:SIRET": "90466893600019",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2977593322,
+        "lat": 45.4393441,
+        "lon": 4.3939411,
+        "tags": {
+          "name": "Market-Ro",
+          "ref:FR:SIRET": "93113614700010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3229760704,
+        "lat": 45.4396488,
+        "lon": 4.4035971,
+        "tags": {
+          "addr:city": "Saint-Étienne",
+          "addr:housenumber": "39-41",
+          "addr:postcode": "42000",
+          "addr:street": "Rue des Alliés",
+          "branch": "Saint-Étienne Alliés",
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "name": "Vival",
+          "opening_hours": "Mo-Su 07:30-24:00",
+          "ref:FR:SIRET": "87926913200012",
+          "shop": "convenience",
+          "website": "https://vival.casino.fr/stores/e0195"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3229782498,
+        "lat": 45.4398943,
+        "lon": 4.4029052,
+        "tags": {
+          "name": "Mat Mata",
+          "ref:FR:SIRET": "97776809200016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3461566937,
+        "lat": 45.4323539,
+        "lon": 4.3892077,
+        "tags": {
+          "name": "Chez Manyy",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3609069258,
+        "lat": 45.4389411,
+        "lon": 4.392083,
+        "tags": {
+          "bulk_purchase": "yes",
+          "check_date:opening_hours": "2026-05-27",
+          "contact:email": "contact@vracenvert.fr",
+          "contact:facebook": "https://www.facebook.com/vracenvert",
+          "contact:instagram": "https://www.instagram.com/vracenvert/",
+          "contact:website": "https://vracenvert.fr/",
+          "name": "Vrac en Vert",
+          "opening_hours": "Mo 14:30-19:30; Tu-Sa 09:00-19:30",
+          "organic": "only",
+          "phone": "+33 9 86 66 57 41",
+          "ref:FR:SIRET": "82482197900021",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3619458349,
+        "lat": 45.4401122,
+        "lon": 4.3889443,
+        "tags": {
+          "addr:city": "Saint-Étienne",
+          "addr:housenumber": "22",
+          "addr:street": "Rue Louis Braille",
+          "books": "comic",
+          "check_date:opening_hours": "2026-05-10",
+          "description": "Librairie indépendante spécialisée en bandes dessinées.",
+          "email": "librairielesintrus@gmail.com",
+          "name": "Les Intrus",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "phone": "+33 4 77 50 73 67",
+          "ref:FR:SIRET": "97748103500011",
+          "shop": "books",
+          "website": "https://www.librairielesintrus.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3666891332,
+        "lat": 45.4476423,
+        "lon": 4.3878017,
+        "tags": {
+          "name": "Le soir",
+          "ref:FR:SIRET": "79960683500012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3668529937,
+        "lat": 45.4402135,
+        "lon": 4.3908836,
+        "tags": {
+          "name": "Halaby Market",
+          "ref:FR:SIRET": "10528641300015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3668529940,
+        "lat": 45.4401698,
+        "lon": 4.3909853,
+        "tags": {
+          "name": "Chez Djembé",
+          "ref:FR:SIRET": "92183706800011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3900155240,
+        "lat": 45.4363592,
+        "lon": 4.3896058,
+        "tags": {
+          "name": "Au Gruau Lorrain",
+          "ref:FR:SIRET": "81520490400016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3923934277,
+        "lat": 45.4403797,
+        "lon": 4.3889992,
+        "tags": {
+          "check_date": "2023-05-25",
+          "name": "Armenia",
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3923934279,
+        "lat": 45.4411928,
+        "lon": 4.3890914,
+        "tags": {
+          "name": "Chez Fofi",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3923935781,
+        "lat": 45.4414554,
+        "lon": 4.3889697,
+        "tags": {
+          "brand": "Festival des Pains",
+          "brand:wikidata": "Q3070334",
+          "name": "Festival des pains",
+          "ref:FR:SIRET": "84806328500011",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3939256137,
+        "lat": 45.4352716,
+        "lon": 4.3884059,
+        "tags": {
+          "amenity": "cafe",
+          "cafe": "board_game",
+          "contact:email": "levoyageur42000@gmail.com",
+          "contact:facebook": "https://www.facebook.com/people/Le-Voyageur/61557700950287/",
+          "contact:instagram": "https://www.instagram.com/levoyageur42/",
+          "contact:phone": "+33 6 83 84 67 53",
+          "name": "Le Voyageur",
+          "opening_hours": "Tu-We 10:00-19:00; Th-Sa 10:00-01:00; Su 14:00-19:00",
+          "ref:FR:SIRET": "98469008100018",
+          "shop": "books",
+          "website": "https://www.librairievoyageur.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3939256141,
+        "lat": 45.4351497,
+        "lon": 4.3884294,
+        "tags": {
+          "name": "La Diligence",
+          "opening_hours": "Mo-Sa 07:00-19:30",
+          "ref:FR:SIRET": "98938281700017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3958594941,
+        "lat": 45.4346919,
+        "lon": 4.4152342,
+        "tags": {
+          "contact:phone": "+33 986567039",
+          "name": "Aux Délices de la Richelandière",
+          "ref:FR:SIRET": "88218289200019",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3997775711,
+        "lat": 45.4325519,
+        "lon": 4.3891566,
+        "tags": {
+          "contact:website": "https://librairielelivre.fr",
+          "name": "Le Livre",
+          "ref:FR:SIRET": "85218385400029",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4117026263,
+        "lat": 45.4371193,
+        "lon": 4.388338,
+        "tags": {
+          "name": "Falco & Co",
+          "ref:FR:SIRET": "88463818000049",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4187635674,
+        "lat": 45.4306295,
+        "lon": 4.389497,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/lepaindesMatrus/",
+          "contact:instagram": "https://www.instagram.com/lepaindesmatrus/",
+          "contact:phone": "+33 4 27 64 16 47",
+          "name": "Le Pain des Matrus",
+          "opening_hours": "Mo-Sa 06:00-19:30; Su 07:00-12:30",
+          "ref:FR:SIRET": "97879688600015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4187635675,
+        "lat": 45.4308102,
+        "lon": 4.3894461,
+        "tags": {
+          "check_date:opening_hours": "2025-01-17",
+          "name": "L'Artisan Anatole",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "91164571100019",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4436211467,
+        "lat": 45.4290222,
+        "lon": 4.4024887,
+        "tags": {
+          "addr:housenumber": "17",
+          "addr:street": "Rue Liogier",
+          "name": "Au Pain d'Autrefois",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4559976229,
+        "lat": 45.4298415,
+        "lon": 4.3899595,
+        "tags": {
+          "check_date:opening_hours": "2025-06-24",
+          "name": "Asia Bazaar",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "91204456700010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5337250790,
+        "lat": 45.4306446,
+        "lon": 4.3932411,
+        "tags": {
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "brand:wikipedia": "en:Spar (retailer)",
+          "name": "Spar",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-20:00",
+          "shop": "convenience",
+          "website": "https://spar.casino.fr/stores/tz068"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5739156371,
+        "lat": 45.4293887,
+        "lon": 4.3900911,
+        "tags": {
+          "name": "Cœur de Graine",
+          "opening_hours": "Mo-Fr 07:00-14:00, 16:00-19:00; Sa 07:00-13:00",
+          "ref:FR:SIRET": "83915506600013",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5739156372,
+        "lat": 45.4292921,
+        "lon": 4.3901184,
+        "tags": {
+          "alt_name": "Nature Primeur",
+          "name": "Au Cœur du Vrac",
+          "post_office": "post_partner",
+          "post_office:brand": "La Poste",
+          "post_office:brand:wikidata": "Q373724",
+          "ref:FR:LaPoste": "23412D",
+          "ref:FR:SIRET": "83006794800018",
+          "shop": "convenience",
+          "website": "https://natureprimeur.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5846566034,
+        "lat": 45.439379,
+        "lon": 4.3886942,
+        "tags": {
+          "addr:housenumber": "9",
+          "addr:street": "Rue Louis Braille",
+          "contact:email": "contact@lepainduloup.fr",
+          "contact:phone": "+33 6 52 01 47 93",
+          "name": "Le Pain du Loup",
+          "opening_hours": "We-Fr 11:00-19:00",
+          "operator:type": "cooperative",
+          "ref:FR:SIRET": "90432726900018",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6140671201,
+        "lat": 45.4391924,
+        "lon": 4.4037003,
+        "tags": {
+          "name": "L'Artisan Saint-François",
+          "pastry": "yes",
+          "ref:FR:SIRET": "82370741900011",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6301587590,
+        "lat": 45.4340056,
+        "lon": 4.3923655,
+        "tags": {
+          "name": "Épicerie by Night",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6341209046,
+        "lat": 45.4390155,
+        "lon": 4.3954714,
+        "tags": {
+          "check_date": "2025-07-28",
+          "name:signed": "no",
+          "opening_hours": "06:00-22:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6341209049,
+        "lat": 45.4392164,
+        "lon": 4.3963129,
+        "tags": {
+          "check_date": "2025-07-28",
+          "contact:facebook": "https://www.facebook.com/people/OBLÉ-DORÉ-Boulangerie-Patisserie-14-place-Fourneyron-42000-Saint-Étienne/100054553955297/",
+          "name": "Oblé Doré",
+          "opening_hours": "Mo-Fr 06:00-18:45; Sa 07:00-14:00",
+          "phone": "+33 6 77 51 60 12",
+          "ref:FR:SIRET": "45323139100013",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6822229372,
+        "lat": 45.435749,
+        "lon": 4.390623,
+        "tags": {
+          "contact:email": "araud.thierry@gmail.com",
+          "contact:facebook": "https://www.facebook.com/librairiemauvaisgenres/",
+          "name": "Mauvais Genres",
+          "opening_hours": "Tu-Sa 11:00-19:00",
+          "phone": "+33 6 68 66 30 15",
+          "ref:FR:SIRET": "83208161600027",
+          "second_hand": "only",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7049533360,
+        "lat": 45.453921,
+        "lon": 4.3902587,
+        "tags": {
+          "contact:email": "contact@marmite-et-petrin.fr",
+          "contact:facebook": "https://www.facebook.com/MarmiteetPetrin/",
+          "contact:instagram": "https://www.instagram.com/marmite_et_petrin_technopole/",
+          "contact:phone": "+33 4 77 75 49 75",
+          "contact:website": "https://www.marmite-et-petrin.fr/",
+          "name": "Marmite & Pétrin",
+          "opening_hours": "Mo-Fr 06:00-14:30",
+          "ref:FR:SIRET": "85261592100024",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7089611625,
+        "lat": 45.4348376,
+        "lon": 4.3931701,
+        "tags": {
+          "contact:email": "lecroqenbouche@gmail.com",
+          "contact:facebook": "https://www.facebook.com/LeCroqEnBouche/",
+          "contact:instagram": "https://www.instagram.com/le_croq_en_bouche/",
+          "name": "Le Croq'en Bouche",
+          "opening_hours": "Mo-Fr 06:00-19:00; Sa 06:00-13:00",
+          "operator": "Jousserand",
+          "phone": "+33 4 77 33 90 83",
+          "ref:FR:SIRET": "75260101300010",
+          "shop": "bakery",
+          "website": "https://www.lecroqenbouche.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8247619926,
+        "lat": 45.4273533,
+        "lon": 4.3903815,
+        "tags": {
+          "check_date:opening_hours": "2025-05-20",
+          "name": "Fuok",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "98019087000025",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8583086357,
+        "lat": 45.4374167,
+        "lon": 4.3920945,
+        "tags": {
+          "check_date:opening_hours": "2026-04-22",
+          "name": "Le Royal",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "93196664200015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9872482430,
+        "lat": 45.4494144,
+        "lon": 4.4024987,
+        "tags": {
+          "name:signed": "no",
+          "old_name": "R. Frécon",
+          "pastry": "yes",
+          "ref:FR:SIRET": "99534412400012",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10275402002,
+        "lat": 45.4399589,
+        "lon": 4.3959361,
+        "tags": {
+          "name": "Salam Market",
+          "opening_hours": "Mo-Th,Sa 09:00-19:00; Fr 09:00-12:30,14:30-19:00",
+          "ref:FR:SIRET": "85036123900013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10278572039,
+        "lat": 45.4299172,
+        "lon": 4.3932037,
+        "tags": {
+          "check_date:opening_hours": "2024-09-05",
+          "name": "Superette Sept/7",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "90142339200017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10736657317,
+        "lat": 45.4498375,
+        "lon": 4.4034168,
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "name": "Vival",
+          "opening_hours": "Mo-Sa 07:30-23:00; Su 08:00-23:00",
+          "ref:FR:SIRET": "98895368300022",
+          "shop": "convenience",
+          "website": "https://vival.casino.fr/stores/e2529"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10736668920,
+        "lat": 45.448718,
+        "lon": 4.401632,
+        "tags": {
+          "name": "Pacha Primeur",
+          "parcel_pickup:Mondial_Relay": "yes",
+          "ref:FR:SIRET": "90261228200019",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10804717157,
+        "lat": 45.4373607,
+        "lon": 4.390121,
+        "tags": {
+          "check_date:opening_hours": "2025-06-27",
+          "name": "Heroes",
+          "opening_hours": "Tu-Sa 10:00-13:00,15:00-19:00",
+          "ref:FR:SIRET": "89788449000037",
+          "shop": "books",
+          "website": "https://librairieheroes.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10940447871,
+        "lat": 45.4356997,
+        "lon": 4.3887954,
+        "tags": {
+          "name": "Bongo Bazar",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10946353621,
+        "lat": 45.4347272,
+        "lon": 4.3908935,
+        "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11033394107,
+        "lat": 45.4302503,
+        "lon": 4.3934393,
+        "tags": {
+          "name": "Alimentation Générale A.Durafour",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11051036397,
+        "lat": 45.4280173,
+        "lon": 4.3904818,
+        "tags": {
+          "check_date:opening_hours": "2025-04-01",
+          "money_transfer": "western_union;ria",
+          "name": "Nimba Market & Services",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "94884013700012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11060307291,
+        "lat": 45.4377408,
+        "lon": 4.3898136,
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "contact:phone": "+33 9 67 50 28 65",
+          "contact:website": "https://www.capsud-utile.fr/magasin-utile-st-etienne-st-jean-m141.php",
+          "name": "Utile",
+          "opening_hours": "Mo-Sa 07:30-20:00; Su 09:00-13:00",
+          "ref:FR:SIRET": "57375061903165",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11280061208,
+        "lat": 45.4487701,
+        "lon": 4.4016498,
+        "tags": {
+          "name": "La Citadelle",
+          "ref:FR:SIRET": "88470300000015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11428595009,
+        "lat": 45.431728,
+        "lon": 4.3949789,
+        "tags": {
+          "contact:instagram": "https://www.instagram.com/joujamarket/",
+          "name": "Jouja Market",
+          "ref:FR:SIRET": "94004360700024",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11457507204,
+        "lat": 45.438546,
+        "lon": 4.3996699,
+        "tags": {
+          "name": "Le Fournil du Parc",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11617981844,
+        "lat": 45.4363142,
+        "lon": 4.4148495,
+        "tags": {
+          "name": "Le Fournil de Montplaisir",
+          "ref:FR:SIRET": "91504845800011",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11795041532,
+        "lat": 45.4300167,
+        "lon": 4.3937083,
+        "tags": {
+          "check_date:opening_hours": "2026-05-18",
+          "name": "Au Bon Pain",
+          "opening_hours": "Su-Fr 06:00-20:30",
+          "opening_hours:signed": "no",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11802889401,
+        "lat": 45.4313354,
+        "lon": 4.3930018,
+        "tags": {
+          "check_date": "2024-05-29",
+          "contact:phone": "+33 9 83 20 73 41",
+          "name": "Le monde des boissons",
+          "opening_hours": "17:00-05:00",
+          "ref:FR:SIRET": "92766339300019",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11802889415,
+        "lat": 45.4308763,
+        "lon": 4.3931799,
+        "tags": {
+          "name:signed": "no",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11802889416,
+        "lat": 45.4320969,
+        "lon": 4.3928757,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/people/Nekkor-market-Saint-Etienne/100025019007165/",
+          "name": "Nekkor Market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11802889417,
+        "lat": 45.4315033,
+        "lon": 4.3929306,
+        "tags": {
+          "name": "Super Market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12055509651,
+        "lat": 45.4388284,
+        "lon": 4.3902188,
+        "tags": {
+          "contact:phone": "+33 7 71 93 10 00",
+          "name": "Jumbo Alimentation",
+          "opening_hours": "12:00-22:00",
+          "ref:FR:SIRET": "98349164800017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12081724529,
+        "lat": 45.4379269,
+        "lon": 4.3912661,
+        "tags": {
+          "contact:email": "epc42000@gmail.com",
+          "contact:facebook": "https://www.facebook.com/epc42000/",
+          "contact:phone": "+33 6 50 33 22 46;+33 9 73 89 26 37",
+          "name": "Épices et Saveurs des Îles",
+          "opening_hours": "Tu-Th 09:30-22:00; Fr-Sa 09:30-24:00",
+          "ref:FR:SIRET": "90443715900026",
+          "shop": "convenience",
+          "short_name": "EPC"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12132182580,
+        "lat": 45.4398819,
+        "lon": 4.4017934,
+        "tags": {
+          "name": "L’Alim de St-François",
+          "ref:FR:SIRET": "93433085300011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12132182586,
+        "lat": 45.4398624,
+        "lon": 4.4015234,
+        "tags": {
+          "contact:email": "aucoeurduportugal@aucoeurduportugal.fr",
+          "contact:facebook": "https://www.facebook.com/p/Au-c%C5%93ur-du-Portugal-100076242156934/",
+          "contact:phone": "+33 4 77 38 92 78",
+          "name": "Au Coeur du Portugal",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12159391112,
+        "lat": 45.4463902,
+        "lon": 4.4067014,
+        "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12160146501,
+        "lat": 45.4295614,
+        "lon": 4.3928988,
+        "tags": {
+          "brand": "Biocoop",
+          "brand:wikidata": "Q2904039",
+          "bulk_purchase": "yes",
+          "contact:city": "Saint-Étienne",
+          "contact:housenumber": "48",
+          "contact:phone": "+33 4 77 59 30 98",
+          "contact:postcode": "42100",
+          "contact:street": "Rue du Vernay",
+          "name": "Biocoop",
+          "opening_hours": "Mo 12:00-19:30; Tu-Sa 09:30-19:30",
+          "organic": "only",
+          "ref:FR:SIRET": "44297626200075",
+          "shop": "convenience",
+          "website": "https://www.biocoop-saintroch.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12251029302,
+        "lat": 45.4379726,
+        "lon": 4.3918531,
+        "tags": {
+          "check_date:opening_hours": "2025-03-19",
+          "name": "AFG Market",
+          "opening_hours:signed": "no",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12409808777,
+        "lat": 45.4402844,
+        "lon": 4.3888196,
+        "tags": {
+          "alt_name": "Chez Maman Cécile",
+          "amenity": "money_transfer",
+          "name": "Crédo La Mama",
+          "ref:FR:SIRET": "88200589500033",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12521630304,
+        "lat": 45.4355784,
+        "lon": 4.3891315,
+        "tags": {
+          "name": "Shine Market",
+          "ref:FR:SIRET": "97859276400036",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12595323248,
+        "lat": 45.4429039,
+        "lon": 4.4124632,
+        "tags": {
+          "name": "Alim la 42ème",
+          "ref:FR:SIRET": "84520300900053",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12795231616,
+        "lat": 45.4486016,
+        "lon": 4.4036126,
+        "tags": {
+          "name": "Africa Celeste",
+          "ref:FR:SIRET": "94270638300018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12900284944,
+        "lat": 45.4395024,
+        "lon": 4.3987914,
+        "tags": {
+          "name": "Nahmeka",
+          "ref:FR:SIRET": "79423435100011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13115326973,
+        "lat": 45.4417191,
+        "lon": 4.4130101,
+        "tags": {
+          "name": "Gusti & Sapori",
+          "origin": "italian",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13446663587,
+        "lat": 45.4347062,
+        "lon": 4.3891663,
+        "tags": {
+          "books": "religion",
+          "contact:email": "contact@librairie-culture-et-foi.com",
+          "contact:phone": "+33 4 77 41 43 13",
+          "contact:website": "https://librairie-culture-et-foi.com/",
+          "name": "Culture et Foi",
+          "opening_hours": "Tu-Sa 09:30-12:00,14:30-18:30",
+          "ref:FR:SIRET": "51271229000026",
+          "religion": "christian",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13452578714,
+        "lat": 45.4291081,
+        "lon": 4.4119849,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/p/Boulangerie-Assil-61568678768144/",
+          "name": "Assil",
+          "ref:FR:SIRET": "92996415300019",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13818217793,
+        "lat": 45.4455561,
+        "lon": 4.3980947,
+        "tags": {
+          "name": "Market Korner",
+          "shop": "convenience"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

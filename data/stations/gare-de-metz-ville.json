@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      6.162346,
-      49.100244,
-      6.19181,
-      49.120117
+      6.16691,
+      49.103973,
+      6.186224,
+      49.116646
     ],
     "features": [
       {
@@ -169,6 +169,10 @@
                 49.104496
               ],
               [
+                6.182588,
+                49.104987
+              ],
+              [
                 6.184487,
                 49.106578
               ],
@@ -240,182 +244,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            6.177649456890581,
-            49.11003197081752
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                6.162426,
-                49.114373
-              ],
-              [
-                6.162346,
-                49.109057
-              ],
-              [
-                6.16359,
-                49.10574
-              ],
-              [
-                6.164206,
-                49.104771
-              ],
-              [
-                6.165032,
-                49.103502
-              ],
-              [
-                6.168087,
-                49.101705
-              ],
-              [
-                6.173638,
-                49.10151
-              ],
-              [
-                6.174932,
-                49.101179
-              ],
-              [
-                6.177253,
-                49.10072
-              ],
-              [
-                6.180135,
-                49.100244
-              ],
-              [
-                6.180212,
-                49.10025
-              ],
-              [
-                6.181826,
-                49.100784
-              ],
-              [
-                6.18618,
-                49.103095
-              ],
-              [
-                6.186448,
-                49.103335
-              ],
-              [
-                6.188822,
-                49.105741
-              ],
-              [
-                6.191555,
-                49.111082
-              ],
-              [
-                6.191754,
-                49.111411
-              ],
-              [
-                6.19181,
-                49.111552
-              ],
-              [
-                6.1913,
-                49.114693
-              ],
-              [
-                6.190954,
-                49.115261
-              ],
-              [
-                6.190304,
-                49.115814
-              ],
-              [
-                6.187749,
-                49.117515
-              ],
-              [
-                6.187693,
-                49.117549
-              ],
-              [
-                6.186405,
-                49.118345
-              ],
-              [
-                6.184685,
-                49.118923
-              ],
-              [
-                6.181253,
-                49.119841
-              ],
-              [
-                6.180902,
-                49.119922
-              ],
-              [
-                6.179768,
-                49.120117
-              ],
-              [
-                6.178667,
-                49.120082
-              ],
-              [
-                6.178604,
-                49.120079
-              ],
-              [
-                6.1775,
-                49.11999
-              ],
-              [
-                6.175772,
-                49.119471
-              ],
-              [
-                6.170855,
-                49.117951
-              ],
-              [
-                6.168847,
-                49.117705
-              ],
-              [
-                6.168025,
-                49.117503
-              ],
-              [
-                6.167613,
-                49.116787
-              ],
-              [
-                6.162629,
-                49.114671
-              ],
-              [
-                6.162426,
-                49.114373
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809797554,
+      "timestamp": 1785863910406,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -427,8 +261,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -441,7 +274,1334 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:18:11Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 870558517,
+        "lat": 49.1190666,
+        "lon": 6.1740799,
+        "tags": {
+          "check_date": "2026-07-01",
+          "contact:facebook": "https://www.facebook.com/librairie.hisler",
+          "contact:housenumber": "1",
+          "contact:instagram": "https://www.instagram.com/librairiehisler/",
+          "contact:street": "Rue Ambroise Thomas",
+          "contact:tiktok": "https://www.tiktok.com/@librairie.hisler",
+          "contact:twitter": "https://twitter.com/HislerMetz",
+          "email": "contact@hisler.fr",
+          "name": "Librairie Hisler",
+          "opening_hours": "Mo-Sa 10:00-18:00",
+          "phone": "+33 3 87 75 07 11",
+          "ref:FR:SIRET": "35980082800014",
+          "ref:vatin": "FR76359800828",
+          "shop": "books",
+          "website": "https://www.hisler.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1190832112,
+        "lat": 49.0999208,
+        "lon": 6.1774548,
+        "tags": {
+          "check_date": "2026-04-12",
+          "contact:housenumber": "13",
+          "contact:street": "Rue Lothaire",
+          "name": "Zimmer",
+          "opening_hours": "We-Mo 06:00-19:30",
+          "payment:cash": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "ref:FR:SIRET": "45036210800034",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1190883405,
+        "lat": 49.1024688,
+        "lon": 6.1707879,
+        "tags": {
+          "contact:housenumber": "23",
+          "contact:street": "Rue aux Arènes",
+          "name": "Alimentation générale",
+          "panoramax": "0eeb2d05-e544-4e4a-9e5a-44e592ab2de7",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1781353145,
+        "lat": 49.0970341,
+        "lon": 6.1802461,
+        "tags": {
+          "check_date": "2025-07-27",
+          "name": "Pain et Saveurs",
+          "opening_hours": "Mo,Tu,Th,Fr 07:00-18:00; We,Sa 07:00-14:00; Su 08:00-15:00",
+          "phone": "+33 7 50 04 59 73",
+          "ref:FR:SIRET": "92265735800011",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2108113667,
+        "lat": 49.1159033,
+        "lon": 6.1734691,
+        "tags": {
+          "addr:housenumber": "14",
+          "addr:street": "Rue Winston Churchill",
+          "air_conditioning": "no",
+          "changing_table": "no",
+          "check_date": "2024-10-26",
+          "contact:instagram": "https://www.instagram.com/TABAC_LE_SMILEY",
+          "internet_access": "no",
+          "level": "0",
+          "name": "Le smiley - Tabac",
+          "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-19:00; Su off",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "kiosk",
+          "source": "survey",
+          "stroller": "limited",
+          "toilets": "no",
+          "toilets:menstrual_products": "no",
+          "toilets:wheelchair": "no",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2108115406,
+        "lat": 49.1155785,
+        "lon": 6.1741742,
+        "tags": {
+          "check_date": "2026-02-07",
+          "contact:housenumber": "66",
+          "contact:street": "Rue Serpenoise",
+          "description": "Boulangerie pâtisserie",
+          "indoor_seating": "yes",
+          "level": "0",
+          "name": "Gillet",
+          "outdoor_seating": "no",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "42120739000012",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2108118264,
+        "lat": 49.1164878,
+        "lon": 6.1747433,
+        "tags": {
+          "brand": "Brioche Dorée",
+          "brand:website": "https://www.briochedoree.fr",
+          "brand:wikidata": "Q2925606",
+          "brand:wikipedia": "fr:Brioche Dorée",
+          "check_date": "2026-02-07",
+          "contact:housenumber": "43",
+          "contact:phone": "+33 3 87 75 26 33",
+          "contact:street": "Rue Serpenoise",
+          "delivery": "yes",
+          "indoor_seating": "yes",
+          "internet_access": "no",
+          "level": "0",
+          "name": "Brioche Dorée",
+          "opening_hours": "Mo-Sa 07:30-19:00",
+          "operator": "Groupe Le Duff",
+          "outdoor_seating": "no",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "31890659100280",
+          "shop": "bakery",
+          "source": "survey",
+          "takeaway": "yes",
+          "website": "https://www.briochedoree.fr/store-finder",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2108156064,
+        "lat": 49.1189055,
+        "lon": 6.1740987,
+        "tags": {
+          "check_date": "2026-07-01",
+          "contact:email": "bouquinerie.metz@gmail.com",
+          "contact:facebook": "bouquinerieducentre.metz",
+          "contact:housenumber": "19",
+          "contact:instagram": "bouquinerie_du_centre",
+          "contact:phone": "+33 3 87 75 34 40",
+          "contact:street": "Rue du Palais",
+          "name": "Bouquinerie du Centre",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "51198033600016",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2124077888,
+        "lat": 49.1192873,
+        "lon": 6.1758638,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/patisseriejeanmetz/",
+          "contact:housenumber": "2",
+          "contact:phone": "+33 3 87 75 39 30",
+          "contact:street": "En Fournirue",
+          "indoor_seating": "no",
+          "name": "Pâtisserie Jean",
+          "opening_hours": "Mo-Sa 08:00-18:00; Su,PH 09:00-18:00",
+          "outdoor_seating": "no",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "33466184000051",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2268281830,
+        "lat": 49.1081716,
+        "lon": 6.1812611,
+        "tags": {
+          "contact:housenumber": "1",
+          "contact:street": "Parvis des Droits de l'Homme",
+          "name": "La Librairie-Boutique du Centre Pompidou-Metz",
+          "operator": "SAS La Boutique du Lieu",
+          "ref:FR:SIRET": "50050699300103",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2268290687,
+        "lat": 49.114413,
+        "lon": 6.1783033,
+        "tags": {
+          "books": "comic;children",
+          "contact:housenumber": "19",
+          "contact:street": "Rue de la Fontaine",
+          "internet_access": "no",
+          "name": "Au Carré des Bulles",
+          "opening_hours": "We-Sa 10:00-19:00",
+          "operator": "François Carré",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 3 87 35 72 14",
+          "ref:FR:SIRET": "49998586900019",
+          "shop": "books",
+          "source": "survey;local knowledge",
+          "stroller": "yes",
+          "survey:date": "2024-08-01",
+          "website": "http://www.aucarredesbulles.fr",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2464727947,
+        "lat": 49.1190003,
+        "lon": 6.1744612,
+        "tags": {
+          "contact:housenumber": "11",
+          "contact:street": "Place Jean-Paul II",
+          "description": "Boutique de commerce équitable, centre documentaire consacré au développement et à la solidarité internationale, …",
+          "email": "metz@artisansdumonde.org",
+          "facebook": "http://facebook.com/people/Artisans-Du-Monde-Metz/100009215329639",
+          "fair_trade": "only",
+          "name": "Artisans du Monde",
+          "office": "association",
+          "opening_hours": "Tu 10:00-17:00; We 10:00-14:00; Fr 15:00-18:00; Sa 10:00-18:00",
+          "ref:FR:SIRET": "40431339700014",
+          "shop": "convenience",
+          "website": "http://metz.artisansdumonde.org",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2501515362,
+        "lat": 49.1244068,
+        "lon": 6.1773797,
+        "tags": {
+          "check_date": "2024-09-07",
+          "contact:phone": "+33 3 87 16 69 44",
+          "contact:website": "https://www.boulangerie-lecrin-gourmand.fr",
+          "name": "L'Écrin Gourmand",
+          "opening_hours": "Mo-Fr 07:00-14:00; Tu 07:00-13:30; We off; Sa,Su 07:00-13:00",
+          "operator": "Hart Nadège et Chris",
+          "ref:FR:SIRET": "43940973100031",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2635254068,
+        "lat": 49.1156011,
+        "lon": 6.1783329,
+        "tags": {
+          "alt_name": "Théâtre du Pain",
+          "brand": "Ronde des Pains",
+          "brand:wikidata": "Q3441707",
+          "brand:wikipedia": "fr:Ronde des Pains",
+          "check_date": "2023-08-11",
+          "name": "Ronde des Pains",
+          "ref:FR:SIRET": "84254659000014",
+          "shop": "bakery",
+          "source": "http://www.petitfute.com/v22106-metz-57000/c650-produits-gourmands-vins/c1107-pains-gateaux-chocolats-glaces/664464-au-theatre-du-pain.html"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3035321657,
+        "lat": 49.1001285,
+        "lon": 6.1698788,
+        "tags": {
+          "contact:street": "Rue Saint-Livier",
+          "name": "Gobert",
+          "phone": "+33 3 87 65 67 50",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3035398938,
+        "lat": 49.1001277,
+        "lon": 6.1697295,
+        "tags": {
+          "alt_name": "Pâtisserie Doretto",
+          "contact:email": "patisserie.doretto@gmail.com",
+          "contact:facebook": "https://www.facebook.com/people/P%C3%A2tisserie-C%C3%A9cile-Doretto/61560868755020/",
+          "contact:housenumber": "5",
+          "contact:instagram": "https://www.instagram.com/patisserie_cd/",
+          "contact:phone": "+33 3 87 52 13 70",
+          "contact:street": "Rue Saint-Livier",
+          "contact:website": "https://www.ceciledoretto.fr/",
+          "name": "Cécile Doretto",
+          "opening_hours": "We-Sa 07:30-19:00; Su 08:00-13:00",
+          "ref:FR:SIRET": "92494096800010",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3387041081,
+        "lat": 49.1080641,
+        "lon": 6.1702034,
+        "tags": {
+          "addr:floor": "0",
+          "check_date": "2025-05-14",
+          "contact:email": "latelierdupain57000@gmail.com",
+          "contact:facebook": "https://www.facebook.com/latelierdupain.metz/",
+          "contact:housenumber": "31",
+          "contact:phone": "+33 9 80 93 77 88",
+          "contact:street": "Rue Pasteur",
+          "craft": "bakery",
+          "indoor_seating": "no",
+          "level": "0",
+          "name": "L'Atelier du Pain",
+          "opening_hours": "Mo-Fr 06:30-14:00,15:00-19:30; Su 07:00-13:00",
+          "outdoor_seating": "no",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "post_office": "post_partner",
+          "post_office:brand": "Mondial Relay",
+          "post_office:parcel_pickup": "yes",
+          "post_office:parcel_to": "yes",
+          "post_office:service_provider": "Mondial Relay",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "822138798",
+          "ref:FR:SIRET": "82213879800027",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3886529290,
+        "lat": 49.121044,
+        "lon": 6.1752422,
+        "tags": {
+          "check_date": "2026-04-21",
+          "name": "L'Ami du Pain",
+          "opening_hours": "Mo-Fr 07:00-19:00",
+          "ref:FR:SIRET": "44149178400019",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3993588244,
+        "lat": 49.1103101,
+        "lon": 6.1886879,
+        "tags": {
+          "contact:housenumber": "17",
+          "contact:phone": "+33 3 87 36 05 13",
+          "contact:street": "Rue de Queuleu",
+          "dog": "no",
+          "name": "Maison Streiff",
+          "opening_hours": "Mo-Su 06:00-13:00, Mo-Sa 15:00-19:00",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIRET": "42400089100046",
+          "shop": "bakery",
+          "website": "https://www.festivaldespains.com/detail-point-boulangerie.aspx?id=5172"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3993607616,
+        "lat": 49.1066415,
+        "lon": 6.1915359,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/p/%C3%89picerie-les-3-%C3%89v%C3%AAch%C3%A9s-61563729003655/",
+          "contact:phone": "+33 3 87 50 62 96",
+          "name": "Les Trois Evéchés",
+          "ref:FR:SIRET": "97783152800012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3993607618,
+        "lat": 49.1064599,
+        "lon": 6.1916717,
+        "tags": {
+          "name": "Aux Trois Évêchés",
+          "ref:FR:SIRET": "33466184000010",
+          "shop": "bakery",
+          "source": "survey",
+          "website": "https://aux-trois-eveches.freevar.com/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4091440147,
+        "lat": 49.113358,
+        "lon": 6.1784925,
+        "tags": {
+          "name": "Alimentation Générale",
+          "ref:FR:SIRET": "82025130400011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4091440152,
+        "lat": 49.1131723,
+        "lon": 6.1778537,
+        "tags": {
+          "contact:housenumber": "18",
+          "contact:street": "Rue du Neufbourg",
+          "name": "Khan Super Store",
+          "ref:FR:SIRET": "94411619300011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4091440164,
+        "lat": 49.1138062,
+        "lon": 6.1783424,
+        "tags": {
+          "brand": "Le Comptoir Irlandais",
+          "brand:wikidata": "Q3221668",
+          "contact:housenumber": "4",
+          "contact:street": "Place Saint-Nicolas",
+          "name": "Le Comptoir Irlandais",
+          "phone": "+33 3 87 74 71 16",
+          "ref:FR:SIRET": "38524664000176",
+          "shop": "convenience",
+          "website": "https://www.comptoir-irlandais.com/fr/magasin/29-le-comptoir-irlandais-de-metz"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4091440166,
+        "lat": 49.1131052,
+        "lon": 6.1777518,
+        "tags": {
+          "check_date": "2024-09-01",
+          "contact:facebook": "MaisonBlond",
+          "contact:housenumber": "20",
+          "contact:street": "Rue du Neufbourg",
+          "name": "Maison Blond",
+          "opening_hours": "Mo-Fr 06:30-19:30; Sa-Su 07:30-12:30; PH 08:00-12:00",
+          "operator": "JAMI",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "520891029",
+          "ref:FR:SIRET": "52089102900016",
+          "shop": "bakery",
+          "website": "https://www.boulangeriespatisseries.fr/maison-blond-metz.html"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4102675807,
+        "lat": 49.1178224,
+        "lon": 6.1830144,
+        "tags": {
+          "name": "Chez Chouchou",
+          "ref:FR:SIRET": "98272919600013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4102675808,
+        "lat": 49.1176676,
+        "lon": 6.1833427,
+        "tags": {
+          "contact:housenumber": "51",
+          "contact:street": "Rue des Allemands",
+          "name": "La Pagode",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4110781627,
+        "lat": 49.1142858,
+        "lon": 6.1838523,
+        "tags": {
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4110781634,
+        "lat": 49.1173254,
+        "lon": 6.1809374,
+        "tags": {
+          "name": "Exo Boutique",
+          "ref:FR:SIRET": "90349224700023",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4112110776,
+        "lat": 49.1120372,
+        "lon": 6.1865005,
+        "tags": {
+          "contact:housenumber": "3",
+          "contact:street": "Avenue de Plantières",
+          "level": "0",
+          "name": "Mirabelle",
+          "ref:FR:SIRET": "10048017700011",
+          "shop": "bakery",
+          "was:name": "Immo Finances",
+          "was:office": "financial_advisor"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4178843347,
+        "lat": 49.1079142,
+        "lon": 6.1662689,
+        "tags": {
+          "contact:website": "https://www.boulangerie-lecrin-gourmand.fr/",
+          "name": "L'Écrin Gourmand",
+          "opening_hours": "Mo-Sa 05:30-19:00; We off; Su 05:30-13:30",
+          "operator": "SARL NS",
+          "phone": "+33 3 87 50 49 67",
+          "ref:FR:SIRET": "43940973100015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4502409291,
+        "lat": 49.114493,
+        "lon": 6.1756459,
+        "tags": {
+          "contact:housenumber": "4",
+          "contact:street": "Rue Saint-Gengoulf",
+          "name": "Sestra’s Books Love & Coffee",
+          "opening_hours": "Tu-Fr 10:00-18:30; Sa 10:00-19:00",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIRET": "94261794500012",
+          "ref:vatin": "FR43942617945",
+          "shop": "books",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4686173036,
+        "lat": 49.1176431,
+        "lon": 6.1823659,
+        "tags": {
+          "alt_name": "Tout Kin Douala Yaoude",
+          "contact:housenumber": "29",
+          "contact:street": "Rue des Allemands",
+          "name": "Leubo Exotic Discount",
+          "ref:FR:SIRET": "81408939700016",
+          "shop": "convenience",
+          "was:name": "Les Frères Rouguy",
+          "was:shop": "butcher"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4686173038,
+        "lat": 49.1177384,
+        "lon": 6.1824821,
+        "tags": {
+          "contact:housenumber": "74",
+          "contact:street": "Rue des Allemands",
+          "name": "ZervMary Afroplus Store",
+          "ref:FR:SIRET": "91354691700018",
+          "shop": "convenience",
+          "website": "https://www.zervmaryafroplusstore.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4686173042,
+        "lat": 49.1176433,
+        "lon": 6.1828369,
+        "tags": {
+          "contact:housenumber": "39",
+          "contact:street": "Rue des Allemands",
+          "name": "Le Petit Marché",
+          "ref:FR:SIRET": "98858661600019",
+          "shop": "convenience",
+          "was:name": "Alimentation 4 Saisons"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4686173043,
+        "lat": 49.117742,
+        "lon": 6.1828892,
+        "tags": {
+          "contact:housenumber": "82",
+          "contact:instagram": "boulangerie.patisserie_clement",
+          "contact:street": "Rue des Allemands",
+          "name": "Maison Clément",
+          "opening_hours": "Mo-Fr 06:30-19:30; Sa 06:30-18:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "40004303000016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4688555892,
+        "lat": 49.1152481,
+        "lon": 6.1785716,
+        "tags": {
+          "bulk_purchase": "only",
+          "contact:housenumber": "27",
+          "contact:phone": "+33 3 72 39 54 22",
+          "contact:street": "Place du Quarteau",
+          "contact:website": "http://daybyday-shop.com/magasin/metz",
+          "description": "Épicerie en vrac sans emballage. Produit alimentaire, vin, cosmétique et droguerie",
+          "dog": "no",
+          "email": "daybyday.metz@gmail.com",
+          "name": "Day by Day Metz",
+          "opening_hours": "Mo 15:00-19:00, Tu-Th 09:30-13:30,14:30-19:00; Fr-Sa 09:30-19:00",
+          "operator": "Day by Day",
+          "organic": "yes",
+          "ref:FR:SIRET": "82114822800017",
+          "shop": "convenience",
+          "website": "http://daybyday-shop.com/magasin/metz"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4855765814,
+        "lat": 49.1174736,
+        "lon": 6.1812994,
+        "tags": {
+          "contact:housenumber": "7",
+          "contact:street": "Rue de la Hache",
+          "name": "Épicerie Générale Porte des Allemands",
+          "ref:FR:SIRET": "51923859600018",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4999535326,
+        "lat": 49.1201069,
+        "lon": 6.169731,
+        "tags": {
+          "check_date": "2024-11-29",
+          "contact:housenumber": "14",
+          "contact:street": "Rue du Pont des Morts",
+          "level": "0",
+          "name": "Épicerie de l'Île du Saulcy",
+          "opening_hours": "09:00-21:00",
+          "organic": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 3 87 30 47 01",
+          "ref:FR:SIRET": "49303312000012",
+          "shop": "convenience",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5046531196,
+        "lat": 49.1192568,
+        "lon": 6.1819019,
+        "tags": {
+          "contact:housenumber": "51",
+          "contact:street": "Rue des Tanneurs",
+          "email": "librairie-univers@wanadoo.fr",
+          "facebook": "https://www.facebook.com/Librairie-Univers-librairie-%C3%A9sot%C3%A9rique-507560049300612/",
+          "name": "Librairie Univers",
+          "ref:FR:SIRET": "40123984300014",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5063833105,
+        "lat": 49.1126334,
+        "lon": 6.1797372,
+        "tags": {
+          "books": "religion",
+          "contact:phone": "+33 3 87 74 17 28",
+          "name": "Librairie de l'office Cathechétique",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5179686182,
+        "lat": 49.1160411,
+        "lon": 6.1831543,
+        "tags": {
+          "contact:housenumber": "59",
+          "contact:street": "Rue Mazelle",
+          "name": "Épicerie Notre Portugal",
+          "ref:FR:SIRET": "44432838900010",
+          "shop": "convenience",
+          "source": "survey",
+          "survey:date": "2017-10"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5179686193,
+        "lat": 49.1190426,
+        "lon": 6.177462,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/LePreauMetz/",
+          "contact:housenumber": "11",
+          "contact:street": "Rue Taison",
+          "name": "Le Préau",
+          "opening_hours": "Tu-Sa 10:00-12:30,14:30-19:00; Mo 14:00-19:00",
+          "phone": "+33 3 87 75 07 16",
+          "ref:FR:SIRET": "31892087300037",
+          "ref:vatin": "FR27318920873",
+          "shop": "books",
+          "source": "survey",
+          "survey:date": "2022-10-08"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5179686194,
+        "lat": 49.119051,
+        "lon": 6.1773205,
+        "tags": {
+          "check_date": "2023-05-01",
+          "contact:housenumber": "10",
+          "contact:street": "Rue Taison",
+          "contact:website": "https://lacourdesgrands.blog/",
+          "name": "La Cour des Grands",
+          "opening_hours": "Mo 14:00-19:00; Tu-Fr 10:00-12:30, 13:30-19:00; Sa 10:00-19:00",
+          "phone": "+33 3 87 65 05 21",
+          "ref:FR:SIRET": "31892087300052",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5836332008,
+        "lat": 49.1066482,
+        "lon": 6.1823472,
+        "tags": {
+          "contact:housenumber": "2",
+          "contact:place": "CC Muse",
+          "contact:street": "Rue des Messageries",
+          "indoor:level": "1",
+          "level": "1",
+          "name": "Poulaillon",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "ref:FR:SIRET": "43020123600493",
+          "shop": "bakery",
+          "short_name": "Poulaillon",
+          "website": "https://www.poulaillon.fr",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6276202828,
+        "lat": 49.1105502,
+        "lon": 6.1882877,
+        "tags": {
+          "contact:housenumber": "11",
+          "contact:street": "Rue de Queuleu",
+          "name": "Épicerie Villaupré",
+          "opening_hours": "Mo-Sa 09:00-13:00,15:00-19:00; Su 09:00-13:00; PH 09:00-13:00",
+          "ref:FR:SIRET": "84132424700011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6276546837,
+        "lat": 49.1106833,
+        "lon": 6.1881475,
+        "tags": {
+          "contact:housenumber": "9",
+          "contact:street": "Rue de Queuleu",
+          "description": "Épicerie asiatique",
+          "name": "Jia Yuan",
+          "ref:FR:SIRET": "94278025500017",
+          "shop": "convenience",
+          "was:name": "Weibostore",
+          "was:ref:FR:SIRET": "85325199900019"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6421163945,
+        "lat": 49.1197292,
+        "lon": 6.1819945,
+        "tags": {
+          "contact:city": "Metz",
+          "contact:housenumber": "2",
+          "contact:postcode": "57000",
+          "contact:street": "Rue de la Basse-Seille",
+          "description": "Libraire langues étrangères",
+          "name": "Atoutlire Bookshop",
+          "opening_hours": "Mo 14:00-18:00; Tu,Th,Fr 13:30-18:00; We 10:00-12:00,13:30-18:00; Sa 10:00-12:00,14:30-18:30",
+          "operator": "Atoutlire",
+          "payment:cash": "yes",
+          "payment:cb": "yes",
+          "payment:jeun_est": "yes",
+          "ref:FR:SIRET": "48825289100038",
+          "shop": "books",
+          "website": "https://www.librairesdelest.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7491981569,
+        "lat": 49.1161075,
+        "lon": 6.1775263,
+        "tags": {
+          "contact:email": "librairieautourdumonde@orange.fr",
+          "contact:facebook": "https://www.facebook.com/librairieautourdumonde",
+          "contact:housenumber": "44",
+          "contact:instagram": "https://www.instagram.com/librairie_autour_du_monde/",
+          "contact:mastodon": "@librairieautourdumonde@piaille.fr",
+          "contact:phone": "+33 3 87 32 12 03",
+          "contact:street": "Rue de la Chèvre",
+          "contact:website": "https://www.placedeslibraires.fr/librairie-3171/metz/autour-du-monde/",
+          "name": "Autour du Monde",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "81445415300010",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7722402976,
+        "lat": 49.1058106,
+        "lon": 6.1688145,
+        "tags": {
+          "contact:housenumber": "28",
+          "contact:street": "Rue Clovis",
+          "name": "Vin 8",
+          "ref:FR:SIRET": "88192821200011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7746716203,
+        "lat": 49.1216317,
+        "lon": 6.1705052,
+        "tags": {
+          "name": "Aux petits choux",
+          "ref:FR:SIRET": "98915246700019",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9688527833,
+        "lat": 49.1084593,
+        "lon": 6.1659729,
+        "tags": {
+          "check_date": "2026-03-14",
+          "check_date:opening_hours": "2026-03-14",
+          "contact:email": "lapenseesauvagelibrairie@gmail.com",
+          "contact:housenumber": "23",
+          "contact:instagram": "librairie_lapenseesauvage",
+          "contact:phone": "+33 9 73 20 37 25",
+          "contact:street": "Avenue de Nancy",
+          "name": "La Pensée Sauvage",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-12:00, 14:00-19:00",
+          "ref:FR:SIRET": "88798743600011",
+          "shop": "books",
+          "source": "survey",
+          "start_date": "2020-09-26",
+          "website": "https://librairielapenseesauvage.com/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9694736624,
+        "lat": 49.1002149,
+        "lon": 6.1803461,
+        "tags": {
+          "contact:housenumber": "120",
+          "contact:street": "Avenue André Malraux",
+          "name": "Tolo Market",
+          "operator": "SAS Tolo Market",
+          "ref:FR:SIRET": "90261916200016",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9808295597,
+        "lat": 49.1181426,
+        "lon": 6.1765884,
+        "tags": {
+          "check_date": "2026-07-03",
+          "contact:phone": "+33 3 72 39 56 26",
+          "contact:website": "https://www.boulangerie-dudot.com/",
+          "indoor_seating": "yes",
+          "name": "Dudot",
+          "opening_hours": "Mo-Sa 07:00-19:30",
+          "ref:FR:SIRET": "38084279900039",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9918889802,
+        "lat": 49.1207032,
+        "lon": 6.1692228,
+        "tags": {
+          "check_date:opening_hours": "2026-02-23",
+          "contact:housenumber": "33",
+          "contact:street": "Rue du Pont des Morts",
+          "description": "Asia Market",
+          "name": "Chez Lei",
+          "opening_hours:signed": "no",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "97873714600016",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10037448671,
+        "lat": 49.1097662,
+        "lon": 6.1730504,
+        "tags": {
+          "check_date:opening_hours": "2024-10-16",
+          "contact:housenumber": "7",
+          "contact:street": "Rue Pasteur",
+          "cuisine": "asian",
+          "name": "Jin Ling",
+          "opening_hours": "Mo 14:00-19:00; Tu,Th 10:00-19:00; Fr,Sa 10:00-19:30",
+          "phone": "+33 3 54 21 14 99",
+          "ref:FR:SIRET": "83898901000023",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10106057297,
+        "lat": 49.1245855,
+        "lon": 6.1648237,
+        "tags": {
+          "name": "Day'N'Night",
+          "ref:FR:SIRET": "95159296300015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10914118683,
+        "lat": 49.1004966,
+        "lon": 6.1628724,
+        "tags": {
+          "changing_table": "no",
+          "contact:housenumber": "60",
+          "contact:instagram": "boulangerie_priscilla_et_remi",
+          "contact:street": "Rue du XXe Corps Américain",
+          "contact:website": "https://lagrangeauxpains.fr",
+          "indoor_seating": "yes",
+          "name": "Maison Pruvost",
+          "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-13:00",
+          "outdoor_seating": "no",
+          "ref:FR:SIRET": "98161646900012",
+          "shop": "bakery",
+          "smoking": "no",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10989380000,
+        "lat": 49.1160703,
+        "lon": 6.1720455,
+        "tags": {
+          "contact:email": "momiemetz@momie.fr",
+          "contact:facebook": "MetzMomie",
+          "contact:housenumber": "1",
+          "contact:phone": "+33 3 87 74 98 77",
+          "contact:street": "Avenue Ney",
+          "contact:website": "https://www.momie.fr",
+          "indoor": "yes",
+          "level": "-1",
+          "name": "Momie Metz",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "78881200600013",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10989400400,
+        "lat": 49.1160374,
+        "lon": 6.1720648,
+        "tags": {
+          "contact:email": "momiemetz@momie.fr",
+          "contact:housenumber": "1",
+          "contact:phone": "+33 3 87 74 98 77",
+          "contact:street": "Avenue Ney",
+          "contact:website": "https://www.momie.fr/",
+          "indoor": "yes",
+          "level": "-1",
+          "name": "Momie Metz",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "78881200600021",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11052231802,
+        "lat": 49.1082251,
+        "lon": 6.1731765,
+        "tags": {
+          "contact:email": "metz@certitude.fr",
+          "contact:housenumber": "15",
+          "contact:phone": "+33 9 50 30 30 03",
+          "contact:street": "Rue Lafayette",
+          "contact:website": "https://certitude.fr/librairies?store=12",
+          "name": "Certitude",
+          "official_name": "Librairie biblique Certitude",
+          "opening_hours": "Tu-Fr 09:30-12:30, Tu 14:30-20:00, We-Fr 14:30-19:00, Sa 10:00-18:00",
+          "ref:FR:SIRET": "49340268900027",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11115831603,
+        "lat": 49.1206351,
+        "lon": 6.1766572,
+        "tags": {
+          "contact:housenumber": "5",
+          "contact:street": "Rue des Jardins",
+          "name": "Librairie Moresi",
+          "ref:FR:SIRET": "53893898600014",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11683880169,
+        "lat": 49.1121482,
+        "lon": 6.1720191,
+        "tags": {
+          "check_date": "2025-11-08",
+          "contact:housenumber": "4",
+          "contact:instagram": "topshopmetz",
+          "contact:mobile": "+33 7 67 14 18 07",
+          "contact:street": "Rue Harelle",
+          "contact:whatsapp": "+33 7 67 14 18 07",
+          "email": "topshop57000@gmail.com",
+          "level": "0",
+          "name": "Top Shop",
+          "opening_hours": "10:00-21:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "98775774700017",
+          "shop": "convenience",
+          "website": "https://topshopmetz.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12099191893,
+        "lat": 49.1137021,
+        "lon": 6.1723821,
+        "tags": {
+          "name": "Exotique Etoile",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12763095375,
+        "lat": 49.1105729,
+        "lon": 6.1723027,
+        "tags": {
+          "air_conditioning": "yes",
+          "alt_name": "Afghan Market",
+          "changing_table": "no",
+          "check_date": "2025-07-26",
+          "contact:housenumber": "13",
+          "contact:mobile": "+33 7 81 16 52 59",
+          "contact:street": "Rue Pierre Pierrat",
+          "currency:EUR": "yes",
+          "level": "0",
+          "name": "Watandar",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 08:00-12:00",
+          "operator": "SARL MA",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "94217131500016",
+          "shop": "convenience",
+          "source": "survey",
+          "stroller": "limited",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12994813616,
+        "lat": 49.097648,
+        "lon": 6.1896162,
+        "tags": {
+          "brand": "Proxi Coteaux de la Seille",
+          "brand:wikidata": "Q3408522",
+          "contact:housenumber": "3",
+          "contact:street": "Rue de Haute-Rive",
+          "name": "Proxi",
+          "opening_hours": "Mo-Sa 08:00-13:30,16:00-21:00; Su 08:00-13:00",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "94021382000019",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13078322702,
+        "lat": 49.119257,
+        "lon": 6.1743154,
+        "tags": {
+          "name": "Hisler BD",
+          "opening_hours": "Mo-Sa 09:30-19:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "49852891800028",
+          "shop": "books",
+          "website": "https://www.canalbd.net/hisler-bd/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13098799769,
+        "lat": 49.1181172,
+        "lon": 6.1785564,
+        "tags": {
+          "contact:housenumber": "78",
+          "contact:street": "En Fournirue",
+          "name": "Épicerie La Gloire",
+          "ref:FR:NAF": "47.81Z",
+          "ref:FR:SIRET": "99302144300011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13136612412,
+        "lat": 49.1053568,
+        "lon": 6.1745419,
+        "tags": {
+          "check_date": "2026-06-27",
+          "check_date:opening_hours": "2026-06-27",
+          "level": "0",
+          "name": "Sablon Exotiq'",
+          "opening_hours": "Mo-Su 09:30-21:00",
+          "phone": "+33 3 54 73 60 56",
+          "ref:FR:SIRET": "94284917500016",
+          "shop": "convenience",
+          "website": "https://www.sablonexotiq.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13137118920,
+        "lat": 49.1178594,
+        "lon": 6.1806122,
+        "tags": {
+          "name": "Jérusalem Épicerie Esthétique and Shipping",
+          "ref:FR:SIRET": "98859296000013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13149863639,
+        "lat": 49.1186247,
+        "lon": 6.1800396,
+        "tags": {
+          "addr:housenumber": "20",
+          "addr:street": "Rue des Tanneurs",
+          "contact:facebook": "https://www.facebook.com/p/Guinea-Select-61573852196004",
+          "contact:phone": "+33 7 67 61 64 75",
+          "description": "Epicerie africaine",
+          "name": "Guinea Select",
+          "ref:FR:SIRET": "93514040000018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13149870561,
+        "lat": 49.1177312,
+        "lon": 6.1827774,
+        "tags": {
+          "contact:housenumber": "80",
+          "contact:street": "Rue des Allemands",
+          "name": "Tropic Market",
+          "ref:FR:SIRET": "91968720200011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13150968044,
+        "lat": 49.1179902,
+        "lon": 6.1804343,
+        "tags": {
+          "contact:facebook": "canaanboutiquemetz",
+          "contact:phone": "+33 3 55 74 21 63",
+          "contact:website": "https://www.canaanexotic.com",
+          "name": "Canaan Exotic",
+          "ref:FR:SIRET": "51774146800014",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13158734715,
+        "lat": 49.1182851,
+        "lon": 6.1846874,
+        "tags": {
+          "name": "Shalimar market",
+          "ref:FR:SIRET": "94367543900013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13160584106,
+        "lat": 49.1113292,
+        "lon": 6.179393,
+        "tags": {
+          "contact:housenumber": "3",
+          "contact:street": "Rue Vauban",
+          "name": "Zervmary Afro Plus Store",
+          "ref:FR:SIRET": "91354691700018",
+          "shop": "convenience",
+          "website": "https://www.zervmaryafroplusstore.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13566729517,
+        "lat": 49.1176396,
+        "lon": 6.1827491,
+        "tags": {
+          "contact:housenumber": "37",
+          "contact:street": "Rue des Allemands",
+          "name": "Ngono Shop",
+          "ref:FR:SIRET": "88445724300027",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14057222061,
+        "lat": 49.1025954,
+        "lon": 6.1633315,
+        "tags": {
+          "name": "Ahmadi Market",
+          "opening_hours": "Mo-Su 07:00-21:00",
+          "ref:FR:SIRET": "10567335400012",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

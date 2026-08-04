@@ -1,16 +1,16 @@
 {
   "station": {
     "name": "Gare d'Austerlitz",
-    "lat": 48.8418,
-    "lng": 2.3646
+    "lat": 48.8425,
+    "lng": 2.3648
   },
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      2.355492,
-      48.836876,
-      2.371431,
-      48.848017
+      2.354623,
+      48.836853,
+      2.373168,
+      48.848582
     ],
     "features": [
       {
@@ -19,92 +19,84 @@
           "group_index": 0,
           "value": 300,
           "center": [
-            2.3647704916739034,
-            48.841865764522915
+            2.3645862215993745,
+            48.84242260154474
           ]
         },
         "geometry": {
           "coordinates": [
             [
               [
-                2.360808,
-                48.842654
+                2.360489,
+                48.843311
               ],
               [
-                2.360787,
-                48.842616
+                2.359939,
+                48.842431
               ],
               [
-                2.360879,
-                48.842268
+                2.359934,
+                48.842421
               ],
               [
-                2.361302,
-                48.841473
+                2.359921,
+                48.842388
               ],
               [
-                2.361847,
-                48.840593
+                2.360012,
+                48.842039
               ],
               [
-                2.361938,
-                48.840482
+                2.362112,
+                48.840276
               ],
               [
-                2.362149,
-                48.840225
+                2.362194,
+                48.840214
               ],
               [
-                2.362168,
-                48.840221
+                2.367562,
+                48.839037
               ],
               [
-                2.366302,
-                48.840415
+                2.367633,
+                48.839046
               ],
               [
-                2.366437,
-                48.840481
+                2.368946,
+                48.839991
               ],
               [
-                2.366707,
-                48.840719
+                2.369221,
+                48.840223
               ],
               [
-                2.367038,
-                48.842751
+                2.368535,
+                48.842134
               ],
               [
-                2.367012,
-                48.843042
+                2.367055,
+                48.845148
               ],
               [
-                2.36633,
-                48.844736
+                2.366877,
+                48.845461
               ],
               [
-                2.366152,
-                48.845048
+                2.363252,
+                48.845665
               ],
               [
-                2.363905,
-                48.845226
+                2.362874,
+                48.845643
               ],
               [
-                2.363526,
-                48.845203
+                2.360651,
+                48.843554
               ],
               [
-                2.362849,
-                48.844669
-              ],
-              [
-                2.36167,
-                48.843717
-              ],
-              [
-                2.360808,
-                48.842654
+                2.360489,
+                48.843311
               ]
             ]
           ],
@@ -117,128 +109,124 @@
           "group_index": 0,
           "value": 600,
           "center": [
-            2.3647704916739034,
-            48.841865764522915
+            2.3645862215993745,
+            48.84242260154474
           ]
         },
         "geometry": {
           "coordinates": [
             [
               [
-                2.359388,
-                48.847734
+                2.358453,
+                48.847626
               ],
               [
-                2.356897,
-                48.843653
+                2.355886,
+                48.843582
               ],
               [
-                2.355783,
-                48.841763
+                2.354878,
+                48.841615
               ],
               [
-                2.355492,
-                48.84124
+                2.354623,
+                48.841014
               ],
               [
-                2.355582,
-                48.840892
+                2.354628,
+                48.840973
               ],
               [
-                2.356539,
-                48.839406
+                2.354715,
+                48.840666
               ],
               [
-                2.357283,
-                48.838369
+                2.357073,
+                48.838419
               ],
               [
-                2.357442,
-                48.838258
+                2.359472,
+                48.83691
               ],
               [
-                2.359478,
-                48.836918
+                2.359732,
+                48.83686
               ],
               [
-                2.35975,
-                48.836884
+                2.35982,
+                48.836853
               ],
               [
-                2.359838,
-                48.836876
+                2.364818,
+                48.837202
               ],
               [
-                2.364842,
-                48.837211
+                2.369214,
+                48.837366
               ],
               [
-                2.369043,
-                48.837539
+                2.370551,
+                48.837452
               ],
               [
-                2.369299,
-                48.837792
+                2.37089,
+                48.837573
               ],
               [
-                2.369381,
-                48.837882
+                2.371994,
+                48.838632
               ],
               [
-                2.370729,
-                48.840009
+                2.372207,
+                48.838922
               ],
               [
-                2.370978,
-                48.840514
+                2.372245,
+                48.839099
               ],
               [
-                2.371431,
-                48.845375
+                2.373168,
+                48.84397
               ],
               [
-                2.370581,
-                48.847129
+                2.372274,
+                48.845702
               ],
               [
-                2.370403,
-                48.847442
+                2.371307,
+                48.84754
               ],
               [
-                2.370182,
-                48.847565
+                2.371117,
+                48.847877
               ],
               [
-                2.370048,
-                48.847603
+                2.370992,
+                48.84802
               ],
               [
-                2.367552,
-                48.847949
+                2.367831,
+                48.84858
               ],
               [
-                2.365422,
-                48.847906
+                2.36595,
+                48.848582
               ],
               [
-                2.360592,
-                48.848017
+                2.360026,
+                48.848472
               ],
               [
-                2.359677,
-                48.847929
+                2.359021,
+                48.848369
               ],
               [
-                2.359596,
-                48.847915
+                2.358943,
+                48.848353
               ],
               [
-                2.359425,
-                48.847784
-              ],
-              [
-                2.359388,
-                48.847734
+                2.358453,
+                48.847626
               ]
             ]
           ],
@@ -249,14 +237,14 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785859581262,
+      "timestamp": 1785862664593,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
         "locations": [
           [
-            2.3646,
-            48.8418
+            2.3648,
+            48.8425
           ]
         ],
         "range": [
@@ -278,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-04T16:04:25Z",
+      "timestamp_osm_base": "2026-08-04T16:58:43Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -475,6 +463,20 @@
       },
       {
         "type": "node",
+        "id": 597841850,
+        "lat": 48.8504151,
+        "lon": 2.3796021,
+        "tags": {
+          "name": "Ounissi",
+          "opening_hours": "Tu-Su 09:00-21:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "81388063000013",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
         "id": 597841852,
         "lat": 48.8496025,
         "lon": 2.3784904,
@@ -575,6 +577,22 @@
       },
       {
         "type": "node",
+        "id": 702976974,
+        "lat": 48.8572474,
+        "lon": 2.3590633,
+        "tags": {
+          "contact:city": "Paris",
+          "contact:housenumber": "24",
+          "contact:postcode": "75004",
+          "contact:street": "Rue des Écouffes",
+          "name": "Florence Kahn",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+          "survey:date": "2025-04-14"
+        }
+      },
+      {
+        "type": "node",
         "id": 703619122,
         "lat": 48.8436833,
         "lon": 2.3521069,
@@ -608,6 +626,24 @@
           "name": "babka zana",
           "opening_hours": "Tu-Sa 08:30-18:30; Su 08:30-17:30",
           "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 721563488,
+        "lat": 48.8574741,
+        "lon": 2.3678227,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "61",
+          "addr:postcode": "75003",
+          "addr:street": "Boulevard Beaumarchais",
+          "check_date": "2026-06-06",
+          "name": "Rapid'Market",
+          "opening_hours": "PH,Mo-Su 12:00-02:00",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
           "wheelchair": "no"
         }
       },
@@ -710,31 +746,6 @@
       },
       {
         "type": "node",
-        "id": 1144504111,
-        "lat": 48.8393482,
-        "lon": 2.3496204,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "2",
-          "addr:postcode": "75005",
-          "addr:street": "Rue Édouard Quénu",
-          "check_date": "2026-05-08",
-          "description": "Librairie indépendante",
-          "email": "contact@lestraversees.com",
-          "facebook": "http://www.facebook.com/lestraversees",
-          "fax": "+33 1 43 31 17 70",
-          "instagram": "https://www.instagram.com/librairie_lestraversees/",
-          "name": "Les Traversées",
-          "opening_hours": "Mo-Sa 10:00-19:30; Su 10:00-13:30",
-          "phone": "+33 1 43 31 74 08",
-          "shop": "books",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-          "twitter": "https://twitter.com/LesLibrairie",
-          "website": "https://www.lestraversees.com/"
-        }
-      },
-      {
-        "type": "node",
         "id": 1155204532,
         "lat": 48.8421262,
         "lon": 2.3534706,
@@ -826,6 +837,39 @@
       },
       {
         "type": "node",
+        "id": 1266550779,
+        "lat": 48.8573299,
+        "lon": 2.3790163,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "93",
+          "addr:postcode": "75011",
+          "addr:street": "Rue de la Roquette",
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "check_date": "2026-07-30",
+          "name": "CocciMarket",
+          "opening_hours": "Tu-Su 08:00-23:00",
+          "operator": "Cocci Market",
+          "phone": "+33143727403",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1266553225,
+        "lat": 48.8568774,
+        "lon": 2.3778976,
+        "tags": {
+          "check_date": "2024-03-10",
+          "name": "Blé & Miel",
+          "opening_hours": "06:00-23:00; Th closed",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
         "id": 1312774888,
         "lat": 48.8552386,
         "lon": 2.3746395,
@@ -861,19 +905,6 @@
           "ref:FR:SIRET": "31849035600041",
           "shop": "books",
           "wikidata": "Q109355097"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1430815432,
-        "lat": 48.8432593,
-        "lon": 2.3496118,
-        "tags": {
-          "description": "Librairie indépendante",
-          "name": "L'Arbre du Voyageur",
-          "opening_hours": "Tu-Su 10:00-19:30",
-          "shop": "books",
-          "wheelchair": "limited"
         }
       },
       {
@@ -933,18 +964,6 @@
           "description": "Librairie indépendante",
           "name": "Palimpseste",
           "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1506448893,
-        "lat": 48.8277738,
-        "lon": 2.3496594,
-        "tags": {
-          "check_date": "2023-10-04",
-          "name:signed": "no",
-          "shop": "convenience",
-          "wheelchair": "limited"
         }
       },
       {
@@ -1025,6 +1044,21 @@
           "check_date": "2025-09-04",
           "name": "La Petite affaire",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1674674211,
+        "lat": 48.8569322,
+        "lon": 2.3724878,
+        "tags": {
+          "check_date": "2026-05-01",
+          "name": "Léa & Gilles",
+          "old_name": "Mardon",
+          "outdoor_seating": "summer",
+          "shop": "bakery",
+          "source": "survey",
+          "website": "https://leaetgilles.fr/"
         }
       },
       {
@@ -1152,6 +1186,17 @@
       },
       {
         "type": "node",
+        "id": 2211556511,
+        "lat": 48.8568684,
+        "lon": 2.353493,
+        "tags": {
+          "noname": "yes",
+          "shop": "kiosk",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
         "id": 2216203026,
         "lat": 48.8344269,
         "lon": 2.3672465,
@@ -1270,22 +1315,6 @@
       },
       {
         "type": "node",
-        "id": 2282385388,
-        "lat": 48.8272451,
-        "lon": 2.3664841,
-        "tags": {
-          "brand": "Sitis",
-          "brand:wikidata": "Q39075072",
-          "check_date": "2026-03-21",
-          "level": "0",
-          "name": "Sitis Market",
-          "opening_hours": "Mo-Sa 08:30-23:20; Su 09:00-23:30",
-          "shop": "convenience",
-          "source": "Observations sur place"
-        }
-      },
-      {
-        "type": "node",
         "id": 2301882945,
         "lat": 48.8276596,
         "lon": 2.3564922,
@@ -1309,18 +1338,6 @@
           "name": "Terres Nouvelles",
           "shop": "books",
           "source": "survey"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2301882966,
-        "lat": 48.8273054,
-        "lon": 2.3566133,
-        "tags": {
-          "check_date": "2024-10-07",
-          "name": "Fraîcheur Market",
-          "opening_hours": "Mo-Su 17:00-06:00",
-          "shop": "convenience"
         }
       },
       {
@@ -1598,39 +1615,6 @@
       },
       {
         "type": "node",
-        "id": 2788471608,
-        "lat": 48.8405286,
-        "lon": 2.3497872,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "113",
-          "contact:phone": "+33 9 84 00 21 71",
-          "contact:postcode": "75005",
-          "contact:street": "Rue Mouffetard",
-          "indoor_seating": "no",
-          "name": "Maison Morange",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "takeaway": "only"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2788471618,
-        "lat": 48.840594,
-        "lon": 2.349616,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "112",
-          "contact:postcode": "75005",
-          "contact:street": "Rue Mouffetard",
-          "level": "0",
-          "name": "Le Comptoir Belge",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 2838973002,
         "lat": 48.8457648,
         "lon": 2.3543932,
@@ -1896,23 +1880,24 @@
       },
       {
         "type": "node",
-        "id": 3300104761,
-        "lat": 48.8499599,
-        "lon": 2.3497556,
+        "id": 3306561357,
+        "lat": 48.856891,
+        "lon": 2.3546332,
         "tags": {
-          "addr:city": "Paris",
-          "addr:postcode": "75005",
-          "addr:street": "Boulevard Saint-Germain",
-          "check_date": "2026-05-05",
-          "contact:city": "Paris",
-          "contact:housenumber": "52",
-          "contact:postcode": "75005",
-          "contact:street": "Boulevard Saint-Germain",
-          "indoor_seating": "no",
-          "name": "La Parisienne",
-          "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:30-19:30",
+          "brand": "Bo&Mie",
+          "check_date": "2025-12-08",
+          "indoor_seating": "yes",
+          "name": "Bo&Mie Hotel de Ville",
+          "opening_hours": "Mo-Su 07:30-20:00",
           "outdoor_seating": "sidewalk",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 1 42 50 91 12",
           "shop": "bakery",
+          "toilets": "yes",
+          "toilets:wheelchair": "yes",
           "wheelchair": "yes"
         }
       },
@@ -2058,6 +2043,18 @@
       },
       {
         "type": "node",
+        "id": 3612388598,
+        "lat": 48.857135,
+        "lon": 2.3645799,
+        "tags": {
+          "check_date": "2025-10-18",
+          "name": "M. Jacques",
+          "shop": "bakery",
+          "survey:date": "2025-02-02"
+        }
+      },
+      {
+        "type": "node",
         "id": 3623282842,
         "lat": 48.8390673,
         "lon": 2.3500499,
@@ -2114,27 +2111,6 @@
       },
       {
         "type": "node",
-        "id": 3661702628,
-        "lat": 48.8273676,
-        "lon": 2.3698989,
-        "tags": {
-          "brand": "Vival",
-          "brand:wikidata": "Q7937525",
-          "brand:wikipedia": "en:Vival (shop)",
-          "changing_table": "no",
-          "check_date:opening_hours": "2026-04-15",
-          "level": "0",
-          "name": "Vival",
-          "opening_hours": "Mo-Fr 00:00-02:00, Sa,Su 00:00-03:00, Mo-Su 08:00-24:00",
-          "organic": "yes",
-          "shop": "convenience",
-          "toilets": "no",
-          "website": "https://sas-matrat-vival-by-casino.business.site/",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 3711131237,
         "lat": 48.8346813,
         "lon": 2.3679582,
@@ -2164,6 +2140,65 @@
           "ref:FR:SIRET": "81197412000024",
           "shop": "bakery",
           "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3738028663,
+        "lat": 48.8570835,
+        "lon": 2.3596812,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "20",
+          "addr:postcode": "75004",
+          "addr:street": "Rue des Rosiers",
+          "alt_name": "Smith&Son Marais",
+          "alt_name_1": "Smith and Son Marais",
+          "branch": "Marais",
+          "contact:city": "Paris",
+          "contact:housenumber": "20",
+          "contact:postcode": "75004",
+          "contact:street": "Rue des Rosiers",
+          "name": "Smith&Son",
+          "opening_hours": "Mo-Su 11:00-19:00",
+          "phone": "+33 1 40 33 61 01",
+          "shop": "books",
+          "survey:date": "2025-04-14"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3738028665,
+        "lat": 48.856999,
+        "lon": 2.3598958,
+        "tags": {
+          "check_date": "2024-08-04",
+          "contact:city": "Paris",
+          "contact:housenumber": "16",
+          "contact:phone": "+33 1 48 87 48 88",
+          "contact:postcode": "75004",
+          "contact:street": "Rue des Rosiers",
+          "contact:website": "http://www.boulangerie-murciano.com/",
+          "indoor_seating": "yes",
+          "name": "Murciano",
+          "outdoor_seating": "no",
+          "shop": "bakery",
+          "wikidata": "Q111450567"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3738155791,
+        "lat": 48.8574507,
+        "lon": 2.3590086,
+        "tags": {
+          "addr:housenumber": "36",
+          "addr:street": "Rue des Rosiers",
+          "name": "Copains Rosiers",
+          "opening_hours": "Mo-Sa 08:00-20:00; Su 08:30-19:30",
+          "shop": "bakery",
+          "survey:date": "2025-04-14",
+          "website": "https://www.copains-paris.com/nos-adresses/"
         }
       },
       {
@@ -2262,26 +2297,6 @@
       },
       {
         "type": "node",
-        "id": 4207537746,
-        "lat": 48.8269706,
-        "lon": 2.3668695,
-        "tags": {
-          "diet:vegetarian": "yes",
-          "level": "0",
-          "name": "Héritage",
-          "opening_hours": "Mo-Fr 06:30-20:00; Sa 07:00-19:00; Su off",
-          "operator": "L'Essentiel",
-          "organic": "yes",
-          "payment:credit_cards": "yes",
-          "ref:FR:SIRET": "97914927500013",
-          "shop": "bakery",
-          "source": "survey",
-          "toilets": "no",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 4241734848,
         "lat": 48.8540785,
         "lon": 2.3708946,
@@ -2342,17 +2357,6 @@
       },
       {
         "type": "node",
-        "id": 4405823597,
-        "lat": 48.8273441,
-        "lon": 2.3720737,
-        "tags": {
-          "level": "0",
-          "name": "Le P'tit Souk",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 4416201808,
         "lat": 48.8279573,
         "lon": 2.3716451,
@@ -2369,37 +2373,6 @@
           "shop": "books",
           "website": "https://www.librairie-pescalune.com/",
           "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4416201908,
-        "lat": 48.827302,
-        "lon": 2.3717739,
-        "tags": {
-          "diet:gluten_free": "no",
-          "indoor_seating": "no",
-          "level": "0",
-          "name": "Le Copain",
-          "opening_hours": "Mo-Su 06:00-20:00",
-          "outdoor_seating": "no",
-          "ref:FR:SIREN": "978482271",
-          "ref:FR:SIRET": "97848227100019",
-          "ref:vatin": "FR39978482271",
-          "shop": "bakery",
-          "takeaway": "only",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4416252390,
-        "lat": 48.8272651,
-        "lon": 2.3718345,
-        "tags": {
-          "level": "0",
-          "name": "Cœur de primeur",
-          "shop": "convenience"
         }
       },
       {
@@ -2770,6 +2743,16 @@
       },
       {
         "type": "node",
+        "id": 6186359985,
+        "lat": 48.8504046,
+        "lon": 2.3797312,
+        "tags": {
+          "name": "Sabah",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 6327862528,
         "lat": 48.8402189,
         "lon": 2.3561239,
@@ -2948,55 +2931,25 @@
       },
       {
         "type": "node",
+        "id": 7128138685,
+        "lat": 48.8569567,
+        "lon": 2.3571826,
+        "tags": {
+          "addr:housenumber": "22",
+          "addr:street": "Rue Vieille du Temple",
+          "name": "Rifai",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
         "id": 7133475328,
         "lat": 48.8421568,
         "lon": 2.3543863,
         "tags": {
           "name": "Al-Bustane",
           "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7159616229,
-        "lat": 48.8506543,
-        "lon": 2.3497993,
-        "tags": {
-          "check_date": "2025-06-03",
-          "name": "L’Oeil de Mercure",
-          "second_hand": "only",
-          "shop": "books",
-          "website": "https://www.oeildemercure.com/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7342602065,
-        "lat": 48.8496277,
-        "lon": 2.3497006,
-        "tags": {
-          "check_date:opening_hours": "2025-07-31",
-          "level": "0",
-          "name": "J'm le Bio",
-          "opening_hours:signed": "no",
-          "organic": "only",
-          "shop": "convenience",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7403324288,
-        "lat": 48.8489332,
-        "lon": 2.3496241,
-        "tags": {
-          "brand": "Eric Kayser",
-          "brand:wikidata": "Q99231745",
-          "name": "Eric Kayser",
-          "opening_hours": "We-Su 07:30-20:00",
-          "outdoor_seating": "yes",
-          "pastry": "yes",
-          "shop": "bakery"
         }
       },
       {
@@ -3173,6 +3126,24 @@
       },
       {
         "type": "node",
+        "id": 8284069743,
+        "lat": 48.8309658,
+        "lon": 2.3797693,
+        "tags": {
+          "addr:housenumber": "9",
+          "addr:postcode": "75013",
+          "addr:street": "Rue Primo Levi",
+          "name": "Manga cafe V2",
+          "opening_hours": "Mo 12:00-19:30; Tu-Sa 10:30-19:30; Su 14:00-19:30",
+          "phone": "+33 1 45 83 70 66",
+          "ref:FR:SIRET": "52994662600015",
+          "shop": "books",
+          "website": "https://www.mangacafe.fr",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
         "id": 8409987799,
         "lat": 48.8408743,
         "lon": 2.3512407,
@@ -3220,6 +3191,20 @@
           "name:signed": "no",
           "shop": "kiosk",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8840327600,
+        "lat": 48.8574989,
+        "lon": 2.357656,
+        "tags": {
+          "check_date": "2025-07-29",
+          "indoor_seating": "yes",
+          "name": "Saveurs de pain",
+          "outdoor_seating": "yes",
+          "shop": "bakery",
+          "wheelchair": "limited"
         }
       },
       {
@@ -3956,6 +3941,16 @@
       },
       {
         "type": "node",
+        "id": 10989026252,
+        "lat": 48.8574491,
+        "lon": 2.3550815,
+        "tags": {
+          "name": "Librairie Fondation Alaia",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
         "id": 11003215730,
         "lat": 48.8444055,
         "lon": 2.3522244,
@@ -4047,6 +4042,29 @@
       },
       {
         "type": "node",
+        "id": 11516114680,
+        "lat": 48.8506196,
+        "lon": 2.3797332,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "161",
+          "addr:postcode": "75011",
+          "addr:street": "Rue du Faubourg Saint-Antoine",
+          "check_date": "2025-11-21",
+          "check_date:opening_hours": "2025-11-21",
+          "name": "Miyam",
+          "opening_hours": "Mo 10:00-20:30; Tu-Sa 09:00-20:30; Su 09:00-12:30",
+          "operator": "Miyam",
+          "organic": "only",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "ref:FR:SIRET": "90217059600016",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
         "id": 11547002827,
         "lat": 48.855797,
         "lon": 2.3785091,
@@ -4078,29 +4096,6 @@
           "name": "Institut Khéops",
           "opening_hours": "Mo-Fr 09:30-13:00,14:00-17:30",
           "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12061698509,
-        "lat": 48.8269406,
-        "lon": 2.368649,
-        "tags": {
-          "books": "comic",
-          "contact:facebook": "librairiejonas13",
-          "contact:housenumber": "83",
-          "contact:instagram": "librairiejonas",
-          "contact:street": "Rue du Château des Rentiers",
-          "description": "\"Images et Imaginaire\"",
-          "email": "jonas.librairie@gmail.com",
-          "level": "0",
-          "name": "Jonas",
-          "opening_hours": "Tu-Sa 11:00-19:30",
-          "phone": "+33 1 40 21 02 12",
-          "ref:FR:SIRET": "31926680500039",
-          "ref:vatin": "FR20319266805",
-          "shop": "books",
-          "wheelchair": "limited"
         }
       },
       {
@@ -4734,6 +4729,22 @@
       },
       {
         "type": "way",
+        "id": 1175163391,
+        "center": {
+          "lat": 48.857432,
+          "lon": 2.352034
+        },
+        "tags": {
+          "building": "retail",
+          "building:levels": "1",
+          "check_date": "2024-10-26",
+          "name:signed": "no",
+          "shop": "kiosk",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
         "id": 1175770867,
         "center": {
           "lat": 48.850922,
@@ -4842,6 +4853,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-04T16:03:11.851Z",
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
   "staleDataWarning": false
 }

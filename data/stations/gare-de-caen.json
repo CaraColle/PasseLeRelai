@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      -0.362295,
-      49.17591,
-      -0.331877,
-      49.189059
+      -0.357574,
+      49.178494,
+      -0.336544,
+      49.186377
     ],
     "features": [
       {
@@ -209,8 +209,8 @@
                 49.185791
               ],
               [
-                -0.353515,
-                49.18622
+                -0.351288,
+                49.186377
               ],
               [
                 -0.35369,
@@ -219,6 +219,10 @@
               [
                 -0.356017,
                 49.185563
+              ],
+              [
+                -0.357424,
+                49.184692
               ],
               [
                 -0.35754,
@@ -232,194 +236,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            -0.3476896604247786,
-            49.184038462522416
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                -0.361963,
-                49.185179
-              ],
-              [
-                -0.362216,
-                49.184475
-              ],
-              [
-                -0.362295,
-                49.184004
-              ],
-              [
-                -0.362204,
-                49.183126
-              ],
-              [
-                -0.361708,
-                49.18141
-              ],
-              [
-                -0.361519,
-                49.181103
-              ],
-              [
-                -0.356857,
-                49.177403
-              ],
-              [
-                -0.356589,
-                49.176917
-              ],
-              [
-                -0.35638,
-                49.176599
-              ],
-              [
-                -0.355219,
-                49.176393
-              ],
-              [
-                -0.355037,
-                49.176365
-              ],
-              [
-                -0.354921,
-                49.176348
-              ],
-              [
-                -0.354408,
-                49.176275
-              ],
-              [
-                -0.35309,
-                49.17609
-              ],
-              [
-                -0.351495,
-                49.17591
-              ],
-              [
-                -0.347641,
-                49.176122
-              ],
-              [
-                -0.347539,
-                49.176135
-              ],
-              [
-                -0.347486,
-                49.17615
-              ],
-              [
-                -0.347401,
-                49.17619
-              ],
-              [
-                -0.344535,
-                49.178404
-              ],
-              [
-                -0.340953,
-                49.179065
-              ],
-              [
-                -0.337537,
-                49.179299
-              ],
-              [
-                -0.33534,
-                49.17998
-              ],
-              [
-                -0.332339,
-                49.182504
-              ],
-              [
-                -0.331877,
-                49.183112
-              ],
-              [
-                -0.331931,
-                49.18345
-              ],
-              [
-                -0.331983,
-                49.183501
-              ],
-              [
-                -0.332509,
-                49.183464
-              ],
-              [
-                -0.336544,
-                49.183451
-              ],
-              [
-                -0.341668,
-                49.184675
-              ],
-              [
-                -0.342776,
-                49.185599
-              ],
-              [
-                -0.343792,
-                49.186339
-              ],
-              [
-                -0.34619,
-                49.187832
-              ],
-              [
-                -0.351366,
-                49.188433
-              ],
-              [
-                -0.35388,
-                49.189036
-              ],
-              [
-                -0.355589,
-                49.189059
-              ],
-              [
-                -0.355934,
-                49.188956
-              ],
-              [
-                -0.360334,
-                49.187188
-              ],
-              [
-                -0.360978,
-                49.186688
-              ],
-              [
-                -0.361255,
-                49.186458
-              ],
-              [
-                -0.361963,
-                49.185179
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809811383,
+      "timestamp": 1785864046543,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -431,8 +253,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -445,7 +266,1138 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:22:15Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 1417646256,
+        "lat": 49.1979833,
+        "lon": -0.3482378,
+        "tags": {
+          "contact:street": "Place Champlain",
+          "name": "Le fournil de Pierre Heuzé",
+          "ref:FR:SIRET": "50959083200044",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1635227032,
+        "lat": 49.1783721,
+        "lon": -0.3565971,
+        "tags": {
+          "check_date": "2026-02-23",
+          "contact:housenumber": "184",
+          "contact:street": "Rue Saint-Jean",
+          "indoor_seating": "no",
+          "name": "Le Pétrin de Saint-Jean",
+          "opening_hours": "We-Su 07:00-19:30",
+          "outdoor_seating": "no",
+          "ref:FR:SIRET": "92952249800013",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1635227818,
+        "lat": 49.1781165,
+        "lon": -0.3563263,
+        "tags": {
+          "check_date": "2026-02-23",
+          "contact:housenumber": "196",
+          "contact:street": "Rue Saint-Jean",
+          "dog": "no",
+          "indoor_seating": "yes",
+          "name": "Aux délices de Saint-Jean",
+          "opening_hours": "Mo-Fr 06:30-19:30",
+          "outdoor_seating": "no",
+          "phone": "+33 2 31 82 39 55",
+          "ref:FR:SIRET": "48525346200033",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1635229254,
+        "lat": 49.1796405,
+        "lon": -0.3575347,
+        "tags": {
+          "check_date:opening_hours": "2024-08-24",
+          "contact:housenumber": "133",
+          "contact:street": "Rue Saint-Jean",
+          "mobile": "+33 7 44 70 49 67",
+          "name": "Aux Délices Normands",
+          "opening_hours:signed": "no",
+          "phone": "+33 2 31 86 61 93",
+          "ref:FR:SIRET": "39523108700010",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1635270203,
+        "lat": 49.1745864,
+        "lon": -0.3532652,
+        "tags": {
+          "contact:housenumber": "4",
+          "contact:street": "Rue d'Auge",
+          "name": "Bienvenue chez Oiskhine Mostache",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "84836111900011",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1635270206,
+        "lat": 49.1746469,
+        "lon": -0.3531298,
+        "tags": {
+          "contact:housenumber": "6",
+          "contact:street": "Rue d'Auge",
+          "name": "Le Havane",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "79754727000018",
+          "sells:tobacco": "yes",
+          "shop": "kiosk",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1635287584,
+        "lat": 49.1801817,
+        "lon": -0.361197,
+        "tags": {
+          "changing_table": "no",
+          "check_date": "2024-07-12",
+          "contact:housenumber": "27",
+          "contact:street": "Rue des Jacobins",
+          "indoor_seating": "yes",
+          "name": "Le Pétrin d'Angèle",
+          "old_name": "Boulangerie du Théatre",
+          "opening_hours": "Mo-Sa 07:30-19:30",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "92942577500012",
+          "shop": "bakery",
+          "wheelchair": "yes",
+          "wheelchair:description": "Rampe installée à l'entrée de façon permanente, double porte coulissantes automatiques."
+        }
+      },
+      {
+        "type": "node",
+        "id": 1635290086,
+        "lat": 49.1827915,
+        "lon": -0.3621443,
+        "tags": {
+          "check_date": "2024-04-01",
+          "contact:housenumber": "20",
+          "contact:street": "Rue Hamon",
+          "name": "La Lorraine",
+          "ref:FR:SIRET": "40805917800025",
+          "shop": "kiosk",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1635371401,
+        "lat": 49.1748926,
+        "lon": -0.341696,
+        "tags": {
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "contact:housenumber": "171",
+          "contact:street": "Rue d'Auge",
+          "name": "CocciMarket",
+          "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
+          "phone": "+33 2 31 52 01 02",
+          "ref:FR:SIRET": "82307239200017",
+          "shop": "convenience",
+          "website": "https://www.coccinelle.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1636410092,
+        "lat": 49.1715452,
+        "lon": -0.3368312,
+        "tags": {
+          "check_date": "2023-08-12",
+          "contact:email": "scoplafalue@orange.fr",
+          "contact:housenumber": "31",
+          "contact:street": "Rue de la Seine",
+          "name": "La Falue",
+          "opening_hours": "Mo-Fr 07:00-20:00",
+          "organic": "only",
+          "phone": "+33 2 31 72 56 56",
+          "ref:FR:SIRET": "38103063400012",
+          "shop": "bakery",
+          "start_date": "1991",
+          "website": "https://www.lafalue.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1993724795,
+        "lat": 49.1866199,
+        "lon": -0.360105,
+        "tags": {
+          "addr:city": "Caen",
+          "addr:housenumber": "52",
+          "addr:postcode": "14000",
+          "addr:street": "Rue du Vaugueux",
+          "branch": "Guillaume",
+          "brand": "La Talemelerie",
+          "brand:wikidata": "Q130214384",
+          "contact:facebook": "https://www.facebook.com/latalemelerieguillaume/",
+          "contact:phone": "+33 2 31 93 86 72",
+          "cuisine": "sandwich",
+          "name": "Talemelerie Guillaume",
+          "opening_hours": "Tu-Sa 06:30-20:00; Su 07:00-19:30",
+          "outdoor_seating": "yes",
+          "pastry": "yes",
+          "payment:american_express": "yes",
+          "payment:cheque": "yes",
+          "payment:contactless": "yes",
+          "payment:debit_cards": "yes",
+          "payment:diners_club": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "ref:FR:SIRET": "90241259200013",
+          "shop": "bakery",
+          "takeaway": "yes",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2309413844,
+        "lat": 49.1816755,
+        "lon": -0.3572629,
+        "tags": {
+          "addr:housenumber": "22",
+          "addr:street": "Avenue du 6 Juin",
+          "brand": "Monop'",
+          "brand:wikidata": "Q89913683",
+          "name": "Monop'",
+          "old_name": "Speedy",
+          "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-12:00",
+          "ref:FR:SIRET": "94866700100028",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2573687387,
+        "lat": 49.1875527,
+        "lon": -0.333001,
+        "tags": {
+          "contact:street": "Boulevard de la Paix",
+          "name": "Le Fournil de Calix",
+          "phone": "+33 2 31 91 08 61",
+          "ref:FR:SIRET": "79007082500019",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2777094070,
+        "lat": 49.1884446,
+        "lon": -0.3599734,
+        "tags": {
+          "contact:housenumber": "2",
+          "contact:instagram": "l_choux_patisserie",
+          "contact:street": "Rue Léon Lecornu",
+          "name": "L&Choux",
+          "old_name": "C&Choux",
+          "phone": "+33 2 31 23 54 66",
+          "ref:FR:SIRET": "10043852200029",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2978205595,
+        "lat": 49.1906933,
+        "lon": -0.354429,
+        "tags": {
+          "addr:city": "Caen",
+          "addr:housenumber": "34",
+          "addr:postcode": "14000",
+          "branch": "Super La Poste",
+          "brand": "Proxi",
+          "brand:wikidata": "Q3408522",
+          "check_date": "2023-12-06",
+          "contact:email": "proxisuper.closherbert@orange.fr",
+          "contact:facebook": "https://www.facebook.com/Proxiclosherbert/",
+          "description": "Supérette et dépôt La Poste",
+          "name": "Proxi",
+          "opening_hours": "Mo-Sa 08:00-13:00, 14:00-20:00; Su 08:00-12:00",
+          "phone": "+33 2 31 47 33 78",
+          "ref:FR:SIRET": "88967898300012",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2978205596,
+        "lat": 49.190584,
+        "lon": -0.3535792,
+        "tags": {
+          "addr:city": "Caen",
+          "addr:housenumber": "26",
+          "addr:postcode": "14000",
+          "addr:street": "Rue du Clos Herbert",
+          "name": "Le bon goût du Pain",
+          "ref:FR:SIRET": "83438890200019",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3030242478,
+        "lat": 49.1846336,
+        "lon": -0.3585639,
+        "tags": {
+          "brand": "Coccinelle Express",
+          "brand:wikidata": "Q90020479",
+          "contact:street": "Rue Basse",
+          "name": "Coccinelle Express",
+          "note": "Erreur de SIRET > Adresse erronée sur l'annuaire des entreprises",
+          "phone": "+33 6 59 27 12 90",
+          "ref:FR:SIRET": "85289587900017",
+          "shop": "convenience",
+          "website": "https://www.coccinelle.fr/trouver_un_magasin/details/coccinelle-express/caen/1-rue-basse"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3421998931,
+        "lat": 49.1811204,
+        "lon": -0.3621477,
+        "tags": {
+          "addr:housenumber": "126",
+          "addr:street": "Boulevard Maréchal Leclerc",
+          "contact:facebook": "https://fr-fr.facebook.com/Librairie-Eureka-Street-156619254368242/",
+          "email": "contact@eurekastreet.fr",
+          "name": "Eurêka Street",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "phone": "+33 2 31 50 13 37",
+          "ref:FR:SIRET": "52313903800039",
+          "shop": "books",
+          "website": "https://www.eurekastreet.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3833213235,
+        "lat": 49.1751943,
+        "lon": -0.3543479,
+        "tags": {
+          "contact:housenumber": "1",
+          "contact:street": "Rue Saint-Michel",
+          "indoor_seating": "no",
+          "name": "Le Fournil de Chloé - Pierre",
+          "opening_hours": "Mo-Sa 07:00-19:00",
+          "outdoor_seating": "no",
+          "phone": "+33 2 31 82 20 66",
+          "ref:FR:SIRET": "10212838600012",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3833232513,
+        "lat": 49.1765347,
+        "lon": -0.3519231,
+        "tags": {
+          "contact:email": "maisonvivien14@gmail.com",
+          "contact:facebook": "https://www.facebook.com/people/Boulangerie-LS-Vivien/100075582625139/",
+          "contact:housenumber": "14",
+          "contact:street": "Rue de la Gare",
+          "indoor_seating": "yes",
+          "name": "LS Vivien",
+          "opening_hours": "Mo-Sa 07:00-20:00",
+          "outdoor_seating": "yes",
+          "phone": "+33 6 85 48 92 43",
+          "ref:FR:SIRET": "99119361600018",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3861077321,
+        "lat": 49.1831551,
+        "lon": -0.3607949,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/patisseriealbanguilmet",
+          "contact:housenumber": "6",
+          "contact:street": "Rue Saint-Jean",
+          "contact:website": "https://www.albanguilmet.fr",
+          "name": "Alban Guilmet",
+          "opening_hours": "Tu-Fr 09:30-13:00,14:30-19:30, Sa 09:30-19:30, Su,PH 09:30-13:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "52825809800029",
+          "shop": "bakery",
+          "wheelchair": "yes",
+          "wheelchair:description": "Pas de marche, commerce de plain-pied, porte automatique coulissante"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3861084895,
+        "lat": 49.1819228,
+        "lon": -0.3595139,
+        "tags": {
+          "check_date": "2024-04-01",
+          "contact:housenumber": "44",
+          "contact:street": "Rue Saint-Jean",
+          "name": "Publica",
+          "opening_hours": "Mo 14:00-19:00; Tu-Fr 10:00-19:00; Sa 10:00-12:30,14:00-19:00",
+          "ref:FR:SIRET": "41844791800024",
+          "shop": "books",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3889218308,
+        "lat": 49.1817294,
+        "lon": -0.3593004,
+        "tags": {
+          "check_date": "2024-04-01",
+          "contact:facebook": "https://www.facebook.com/patisseriesaveurs/",
+          "contact:housenumber": "52",
+          "contact:instagram": "https://www.instagram.com/patisserie_saveurs/",
+          "contact:street": "Rue Saint-Jean",
+          "dog": "no",
+          "name": "Saveurs",
+          "old_name": "Les Gourmandises de Saint-Jean",
+          "opening_hours": "Mo-Fr 06:30-20:00; Sa 06:30-14:00; Su off",
+          "phone": "+33 2 31 26 98 46",
+          "ref:FR:SIRET": "93202660200015",
+          "shop": "bakery",
+          "start_date": "2019-02-25",
+          "wheelchair": "no",
+          "wikimedia_commons": "Category:Pâtisserie Saveurs, Caen"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4097133338,
+        "lat": 49.1974974,
+        "lon": -0.3604603,
+        "tags": {
+          "check_date": "2025-12-06",
+          "contact:facebook": "https://www.facebook.com/LeCoeurGourmandCaen/",
+          "contact:housenumber": "11",
+          "contact:street": "Avenue de la Côte de Nacre",
+          "email": "lecoeurgourmand14@outlook.fr",
+          "indoor_seating": "yes",
+          "name": "Le cœur gourmand",
+          "old_name": "Les P'tites Cocottes",
+          "opening_hours": "Mo-Fr 07:00-19:00",
+          "outdoor_seating": "yes",
+          "phone": "+33 2 31 57 92 18",
+          "ref:FR:SIRET": "84448064000011",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4142975590,
+        "lat": 49.1756026,
+        "lon": -0.3538118,
+        "tags": {
+          "contact:housenumber": "33",
+          "contact:street": "Rue de Vaucelles",
+          "name": "Epicerie Vaucelles",
+          "opening_hours": "Mo-Sa 08:30-20:00; Su off",
+          "ref:FR:SIRET": "97819503000017",
+          "shop": "convenience",
+          "start_date": "2024-04-08"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4142975598,
+        "lat": 49.1803134,
+        "lon": -0.356082,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/Librairieleauvivecaen/",
+          "contact:housenumber": "6",
+          "contact:instagram": "https://www.instagram.com/librairieleauvivecaen/",
+          "contact:street": "Place de la Résistance",
+          "name": "L'Eau Vive",
+          "opening_hours": "Tu 10:00-13:00,14:00-18:00; We 10:00-13:00,14:00-19:00; Th 10:00-13:00,14:00-18:00; Fr-Sa 10:00-13:00,14:00-19:00",
+          "opening_hours:url": "https://www.librairieleauvive.com/",
+          "ref:FR:SIRET": "80446964100018",
+          "shop": "books",
+          "start_date": "1986",
+          "website": "https://www.librairieleauvive.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4577215727,
+        "lat": 49.1814915,
+        "lon": -0.3586401,
+        "tags": {
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "check_date": "2026-07-19",
+          "contact:housenumber": "63",
+          "contact:street": "Rue Saint-Jean",
+          "name": "CocciMarket",
+          "opening_hours": "Mo-Su 08:00-22:00",
+          "ref:FR:SIRET": "85302465100012",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4800750447,
+        "lat": 49.1804744,
+        "lon": -0.3588098,
+        "tags": {
+          "contact:housenumber": "98",
+          "contact:street": "Rue Saint-Jean",
+          "indoor_seating": "yes",
+          "name": "Maison Toulorge",
+          "opening_hours": "Tu-Su 06:00-20:00",
+          "outdoor_seating": "yes",
+          "phone": "+33 2 31 86 12 20",
+          "ref:FR:SIRET": "53353606600012",
+          "shop": "bakery",
+          "smoking": "no",
+          "website": "https://maison-toulorge.com/boutique-caen/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5073787369,
+        "lat": 49.1771011,
+        "lon": -0.3535887,
+        "tags": {
+          "contact:housenumber": "6",
+          "contact:street": "Quai Amiral Hamelin",
+          "name": "Le soleil d'Herat",
+          "opening_hours": "10:00-22:00",
+          "phone": "+33 2 31 99 96 70",
+          "ref:FR:SIRET": "84810524300010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5295669253,
+        "lat": 49.1912094,
+        "lon": -0.3598411,
+        "tags": {
+          "check_date": "2024-05-06",
+          "contact:housenumber": "49",
+          "contact:street": "Rue de la Délivrande",
+          "indoor_seating": "no",
+          "name": "Aux Délices d'Edimbourg",
+          "outdoor_seating": "yes",
+          "phone": "+33 2 31 44 49 15",
+          "ref:FR:SIRET": "81847671500029",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6186857385,
+        "lat": 49.1747692,
+        "lon": -0.3519395,
+        "tags": {
+          "contact:housenumber": "24",
+          "contact:street": "Rue d'Auge",
+          "name": "Le Monde des Saveurs",
+          "opening_hours": "Tu-Su,PH 10:00-21:30",
+          "ref:FR:SIRET": "50068478200039",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6406974246,
+        "lat": 49.1829425,
+        "lon": -0.3577973,
+        "tags": {
+          "contact:housenumber": "19",
+          "contact:street": "Rue de Bernières",
+          "name": "Viveco Market",
+          "old_name": "A Fleur de Cacao",
+          "opening_hours": "Tu-Su 10:00-22:00",
+          "ref:FR:SIRET": "93895077100015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6443213478,
+        "lat": 49.1832362,
+        "lon": -0.3593429,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/labriochechaudecaen/",
+          "contact:housenumber": "25",
+          "contact:instagram": "https://www.instagram.com/labriochechaude/",
+          "contact:street": "Rue Neuve Saint-Jean",
+          "email": "blondeelraffin@gmail.com",
+          "name": "La Brioche Chaude",
+          "opening_hours": "Mo 08:30-18:30; Tu-Sa 07:30-19:00; Su off",
+          "outdoor_seating": "yes",
+          "phone": "+33 2 31 85 24 96",
+          "ref:FR:SIRET": "89902070500013",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7486408019,
+        "lat": 49.1695882,
+        "lon": -0.3616597,
+        "tags": {
+          "contact:housenumber": "11",
+          "contact:street": "Rue Auguste Lechesne",
+          "name": "La Rose de Vaucelles",
+          "opening_hours": "Tu-Su 07:00-21:00",
+          "phone": "+33 2 31 99 37 48",
+          "ref:FR:SIRET": "84040431300016",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7526228016,
+        "lat": 49.1757428,
+        "lon": -0.3478282,
+        "tags": {
+          "contact:housenumber": "32",
+          "contact:street": "Place de la Gare",
+          "name": "Fast Market",
+          "ref:FR:SIRET": "44892697200036",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8344599324,
+        "lat": 49.1824024,
+        "lon": -0.3620795,
+        "tags": {
+          "check_date": "2026-05-09",
+          "contact:housenumber": "104",
+          "contact:street": "Boulevard Maréchal Leclerc",
+          "email": "contact@lamaisonflorent.fr",
+          "name": "La Maison Florent",
+          "opening_hours": "Mo-Sa 07:00-19:30",
+          "phone": "+33 2 31 50 06 06",
+          "ref:FR:SIRET": "80238538500025",
+          "shop": "bakery",
+          "website": "http://www.la-maison-florent.com/nos-boutiques/a-caen/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8655728858,
+        "lat": 49.1747073,
+        "lon": -0.3444224,
+        "tags": {
+          "contact:housenumber": "166",
+          "contact:street": "Rue d'Auge",
+          "name": "El Nawal Market",
+          "opening_hours": "Mo-Fr 10:00-20:00; Sa,Su 12:00-20:00",
+          "phone": "+33 6 33 20 00 32",
+          "ref:FR:SIRET": "91395268500018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9120745856,
+        "lat": 49.175324,
+        "lon": -0.355598,
+        "tags": {
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "contact:housenumber": "31-33",
+          "contact:street": "Rue Saint-Michel",
+          "name": "CocciMarket",
+          "opening_hours": "PH,Mo-Su 08:00-21:30",
+          "ref:FR:SIRET": "82822518500010",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9787549149,
+        "lat": 49.1747483,
+        "lon": -0.3366338,
+        "tags": {
+          "contact:facebook": "diegopainvivant",
+          "contact:housenumber": "7",
+          "contact:instagram": "pain_vivant",
+          "contact:street": "Avenue de Rouen",
+          "name": "Pain vivant",
+          "opening_hours": "Tu-Th 08:30-14:00,16:00-19:00; Sa 07:30-15:00; Fr 07:30-14:00,16:00-19:00",
+          "organic": "only",
+          "phone": "+33 6 40 37 43 47",
+          "ref:FR:SIRET": "88146504100021",
+          "shop": "bakery",
+          "start_date": "2022-06-24"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10144746228,
+        "lat": 49.1727771,
+        "lon": -0.3328054,
+        "tags": {
+          "contact:housenumber": "64",
+          "contact:street": "Avenue de Paris",
+          "name": "Le Jackpot",
+          "old_name": "Le Vini",
+          "outdoor_seating": "yes",
+          "phone": "+33 2 31 72 04 10",
+          "ref:FR:SIRET": "93239907400016",
+          "sells:tobacco": "yes",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10807327245,
+        "lat": 49.1712131,
+        "lon": -0.350097,
+        "tags": {
+          "addr:housenumber": "48",
+          "addr:place": "Boulevard Leroy",
+          "name": "La Kaz à Pains",
+          "opening_hours": "Mo-Fr 06:30-13:30,15:30-19:00; Sa 06:30-13:30",
+          "ref:FR:SIRET": "94813675900016",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11609777214,
+        "lat": 49.1832418,
+        "lon": -0.3572897,
+        "tags": {
+          "contact:housenumber": "11",
+          "contact:street": "Rue de Bernières",
+          "name": "La Signare",
+          "old_name": "Citibike L'Atelier",
+          "opening_hours": "Tu,We 09:00-13:30,14:30-21:30; Th,Fr 09:00-13:30,14:30-22:00; Sa 09:00-22:00; Su 08:00-21:00",
+          "ref:FR:SIRET": "90216976200025",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11780106614,
+        "lat": 49.1826992,
+        "lon": -0.3488979,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/profile.php?id=61551898541145",
+          "contact:housenumber": "8",
+          "contact:instagram": "https://www.instagram.com/paintati.paintata/",
+          "contact:street": "Rue Dumont d'Urville",
+          "email": "contact@paintati-paintata.fr",
+          "indoor_seating": "yes",
+          "name": "Paintati & Paintata",
+          "opening_hours": "Mo-Sa 07:00-19:30",
+          "operator": "02 31 82 08 00",
+          "outdoor_seating": "yes",
+          "phone": "+33 2 31 82 08 00",
+          "ref:FR:SIRET": "97952503700011",
+          "shop": "bakery",
+          "start_date": "2024-03-25",
+          "website": "https://www.paintati-paintata.fr/",
+          "wikimedia_commons": "Category:Paintati & Paintata, Caen"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11822666307,
+        "lat": 49.1695289,
+        "lon": -0.3619009,
+        "tags": {
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "contact:housenumber": "19",
+          "contact:street": "Rue Auguste Lechesne",
+          "name": "CocciMarket",
+          "opening_hours": "Mo-Sa 08:30-13:00,14:30-20:30; Su 09:00-13:00,14:30-20:30",
+          "phone": "+33 2 31 52 09 20",
+          "ref:FR:SIRET": "52364875600022",
+          "shop": "convenience",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11875090322,
+        "lat": 49.1843227,
+        "lon": -0.3600188,
+        "tags": {
+          "contact:housenumber": "15",
+          "contact:street": "Avenue de la Libération",
+          "name": "Generale Market",
+          "ref:FR:SIRET": "83001603600014",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11891972633,
+        "lat": 49.1792371,
+        "lon": -0.3570986,
+        "tags": {
+          "contact:housenumber": "145",
+          "contact:street": "Rue Saint-Jean",
+          "email": "sasbaikal@gmail.com",
+          "name": "Baïkal Market",
+          "opening_hours": "Mo-Su 10:00-20:00",
+          "phone": "+33 2 31 26 29 57",
+          "ref:FR:SIRET": "90142217000018",
+          "shop": "convenience",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11894314198,
+        "lat": 49.1899097,
+        "lon": -0.3591015,
+        "tags": {
+          "addr:city": "Caen",
+          "addr:housenumber": "28",
+          "addr:postcode": "14000",
+          "addr:street": "Rue de la Délivrande",
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "name": "CocciMarket",
+          "opening_hours": "Mo-Su 08:00-22:00",
+          "phone": "+33 2 31 07 80 36",
+          "ref:FR:SIRET": "92223126100012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11897490861,
+        "lat": 49.179969,
+        "lon": -0.3555717,
+        "tags": {
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "contact:housenumber": "30",
+          "contact:street": "Avenue du 6 Juin",
+          "name": "CocciMarket",
+          "opening_hours": "Mo-Su 08:00-22:00",
+          "phone": "+33 9 72 81 43 46",
+          "ref:FR:SIRET": "81923870000010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12002751434,
+        "lat": 49.1740908,
+        "lon": -0.3540112,
+        "tags": {
+          "addr:housenumber": "8",
+          "addr:street": "Rue de Falaise",
+          "name": "Afghan Mini Market",
+          "old_name": "Caen Sud Immobilier",
+          "ref:FR:SIRET": "97882700400026",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12098433366,
+        "lat": 49.1737842,
+        "lon": -0.353775,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/ani.epicerie",
+          "contact:housenumber": "35",
+          "contact:instagram": "https://www.instagram.com/aniep_epicerie/",
+          "contact:street": "Rue de Falaise",
+          "name": "Ani Epicerie de l'Est",
+          "phone": "+33 6 65 20 93 24",
+          "ref:FR:SIRET": "98312674900016",
+          "shop": "convenience",
+          "website": "https://www.ani-epicerie-de-l-est-caen.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12121926213,
+        "lat": 49.1750105,
+        "lon": -0.3483695,
+        "tags": {
+          "contact:housenumber": "102",
+          "contact:street": "Rue d'Auge",
+          "name": "Vicbrand",
+          "ref:FR:SIRET": "91231633800025",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12157527638,
+        "lat": 49.1901106,
+        "lon": -0.3443699,
+        "tags": {
+          "check_date": "2026-02-13",
+          "contact:housenumber": "127",
+          "contact:street": "Avenue Georges Clemenceau",
+          "email": "labibivou@gmail.com",
+          "name": "La Bibavou",
+          "opening_hours": "06:30-21:00",
+          "operator": "Allaoui Bacar",
+          "outdoor_seating": "yes",
+          "payment:cash": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 31 85 51 19",
+          "ref:FR:SIRET": "82069151700016",
+          "shop": "bakery",
+          "wheelchair": "no",
+          "wheelchair:description": "Trois marches pour entrer, porte battante manuelle."
+        }
+      },
+      {
+        "type": "node",
+        "id": 12157527641,
+        "lat": 49.1902203,
+        "lon": -0.3440619,
+        "tags": {
+          "contact:housenumber": "131",
+          "contact:street": "Avenue Georges Clemenceau",
+          "name": "Vivéco",
+          "opening_hours": "Tu-Su 09:00-22:00",
+          "ref:FR:SIRET": "80398375800027",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12400635474,
+        "lat": 49.1754995,
+        "lon": -0.3537627,
+        "tags": {
+          "contact:housenumber": "39",
+          "contact:street": "Rue de Vaucelles",
+          "name": "Bangali Market",
+          "ref:FR:SIRET": "94221284600011",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12404906692,
+        "lat": 49.1901578,
+        "lon": -0.3592028,
+        "tags": {
+          "cuisine": "asian;african",
+          "name": "Exotic Market",
+          "ref:FR:SIRET": "80928800400025",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12479218416,
+        "lat": 49.1747066,
+        "lon": -0.3435493,
+        "tags": {
+          "contact:housenumber": "186",
+          "contact:street": "Rue d'Auge",
+          "name": "Grâce de Dieu",
+          "note": "Semble fermé (bâches noirs à l'intérieur au 2026-01-18)",
+          "phone": "+33 2 31 83 79 18",
+          "ref:FR:SIRET": "83132056900039",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12552250609,
+        "lat": 49.1698318,
+        "lon": -0.3410494,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/p/Les-Saveurs-Normandes-100069764854574/",
+          "contact:housenumber": "56",
+          "contact:street": "Avenue Capitaine Georges Guynemer",
+          "name": "Carrément Gourmand",
+          "opening_hours": "Tu-Sa 07:00-19:00; Su 07:30-12:30",
+          "phone": "+33 2 31 52 00 72",
+          "ref:FR:SIRET": "93135497100018",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12633145334,
+        "lat": 49.1756517,
+        "lon": -0.3541823,
+        "tags": {
+          "contact:housenumber": "42",
+          "contact:street": "Rue de Vaucelles",
+          "name": "Jamal Magasin",
+          "ref:FR:SIRET": "94396181300012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12736991388,
+        "lat": 49.1750092,
+        "lon": -0.3492425,
+        "tags": {
+          "contact:housenumber": "80",
+          "contact:street": "Rue d'Auge",
+          "name": "Awezkhan Mini Market",
+          "ref:FR:SIRET": "90326938900024",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12784417479,
+        "lat": 49.1753773,
+        "lon": -0.3482221,
+        "tags": {
+          "check_date": "2025-09-28",
+          "contact:housenumber": "15-17",
+          "contact:street": "Rue Jules Oyer",
+          "name": "Restaudiv",
+          "ref:FR:SIRET": "88522711600013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12988059123,
+        "lat": 49.194051,
+        "lon": -0.3469778,
+        "tags": {
+          "contact:housenumber": "95",
+          "contact:instagram": "saperlotte.librairiesolidaire",
+          "contact:street": "Rue d'Hérouville",
+          "email": "saperlotte.librairie@gmail.com",
+          "name": "Saperlotte",
+          "opening_hours": "We,Fr,Sa 10:30-19:30",
+          "second_hand": "only",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "way",
+        "id": 155686359,
+        "center": {
+          "lat": 49.1914165,
+          "lon": -0.338225
+        },
+        "tags": {
+          "addr:city": "Caen",
+          "addr:housenumber": "60",
+          "addr:postcode": "14000",
+          "addr:street": "Avenue Georges Clemenceau",
+          "building": "yes",
+          "check_date": "2023-12-06",
+          "contact:phone": "+33 2 31944142",
+          "contact:website": "http://www.lefournildemathilde.fr/",
+          "name": "Le Fournil de Mathilde",
+          "opening_hours": "Mo-Sa 06:30-20:00",
+          "ref:FR:SIRET": "41925167300036",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+        }
+      },
+      {
+        "type": "way",
+        "id": 155699451,
+        "center": {
+          "lat": 49.1893635,
+          "lon": -0.348285
+        },
+        "tags": {
+          "branch": "supe",
+          "brand": "TotalEnergies",
+          "brand:wikidata": "Q154037",
+          "brand:wikipedia": "fr:Total Énergies",
+          "building": "yes",
+          "name": "TotalEnergies",
+          "opening_hours": "Mo-Fr 07:00-21:00; Sa-Su 08:00-21:00",
+          "phone": "+33 2 31 93 02 92",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
+          "website": "https://store.totalenergies.fr/en_EN/NF078237"
+        }
+      },
+      {
+        "type": "way",
+        "id": 224884256,
+        "center": {
+          "lat": 49.1775337,
+          "lon": -0.350888
+        },
+        "tags": {
+          "contact:city": "Caen",
+          "contact:facebook": "https://www.facebook.com/people/Saperlotte/61568159767490/",
+          "contact:instagram": "saperlotte.librairiesolidaire",
+          "contact:postcode": "14000",
+          "contact:street": "Les Rives de l'Orne",
+          "email": "saperlotte.librairie@gmail.com",
+          "indoor": "room",
+          "level": "0",
+          "name": "Saperlotte",
+          "old_name": "Timberland",
+          "opening_hours": "Mo-Sa 10:00-20:00",
+          "room": "shop",
+          "second_hand": "only",
+          "shop": "books",
+          "website": "https://www.saperlotte.org/"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

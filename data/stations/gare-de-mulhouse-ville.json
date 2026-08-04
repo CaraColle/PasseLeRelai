@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      7.326292,
-      47.732354,
-      7.350174,
-      47.748103
+      7.330706,
+      47.735585,
+      7.345033,
+      47.744858
     ],
     "features": [
       {
@@ -89,28 +89,16 @@
           "coordinates": [
             [
               [
-                7.332951,
-                47.744036
+                7.332202,
+                47.743002
               ],
               [
-                7.332504,
-                47.742986
+                7.331103,
+                47.739556
               ],
               [
-                7.331108,
-                47.738851
-              ],
-              [
-                7.331005,
-                47.738389
-              ],
-              [
-                7.330851,
-                47.737476
-              ],
-              [
-                7.330807,
-                47.737194
+                7.330706,
+                47.737193
               ],
               [
                 7.33077,
@@ -197,150 +185,16 @@
                 47.744826
               ],
               [
+                7.333846,
+                47.744452
+              ],
+              [
                 7.33306,
                 47.744259
               ],
               [
-                7.332951,
-                47.744036
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            7.339594090027179,
-            47.74047306947335
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                7.328841,
-                47.746359
-              ],
-              [
-                7.328302,
-                47.74533
-              ],
-              [
-                7.327718,
-                47.742521
-              ],
-              [
-                7.326732,
-                47.738139
-              ],
-              [
-                7.326296,
-                47.735244
-              ],
-              [
-                7.326292,
-                47.733679
-              ],
-              [
-                7.326548,
-                47.733426
-              ],
-              [
-                7.330259,
-                47.733653
-              ],
-              [
-                7.333582,
-                47.732747
-              ],
-              [
-                7.334903,
-                47.732528
-              ],
-              [
-                7.335377,
-                47.732491
-              ],
-              [
-                7.338273,
-                47.73244
-              ],
-              [
-                7.341548,
-                47.732354
-              ],
-              [
-                7.344135,
-                47.732795
-              ],
-              [
-                7.34553,
-                47.734431
-              ],
-              [
-                7.346126,
-                47.73518
-              ],
-              [
-                7.347194,
-                47.737113
-              ],
-              [
-                7.349415,
-                47.741231
-              ],
-              [
-                7.349674,
-                47.742026
-              ],
-              [
-                7.349718,
-                47.742226
-              ],
-              [
-                7.350174,
-                47.746291
-              ],
-              [
-                7.350002,
-                47.746607
-              ],
-              [
-                7.349766,
-                47.746972
-              ],
-              [
-                7.34481,
-                47.747259
-              ],
-              [
-                7.342619,
-                47.747775
-              ],
-              [
-                7.340399,
-                47.748103
-              ],
-              [
-                7.335176,
-                47.748001
-              ],
-              [
-                7.332407,
-                47.747325
-              ],
-              [
-                7.329037,
-                47.746661
-              ],
-              [
-                7.328841,
-                47.746359
+                7.332202,
+                47.743002
               ]
             ]
           ],
@@ -351,7 +205,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809805853,
+      "timestamp": 1785863952247,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -363,8 +217,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -377,7 +230,509 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:21:14Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 1904175114,
+        "lat": 47.7426762,
+        "lon": 7.3304977,
+        "tags": {
+          "name": "Croust'y pain",
+          "opening_hours": "Mo-Su 06:00-20:30",
+          "ref:FR:SIRET": "81989644000024",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2031339089,
+        "lat": 47.7448828,
+        "lon": 7.3348824,
+        "tags": {
+          "name": "Smoonty's",
+          "ref:FR:SIRET": "79420486700012",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2031469247,
+        "lat": 47.7485611,
+        "lon": 7.3385416,
+        "tags": {
+          "amenity": "cafe",
+          "check_date": "2024-10-07",
+          "name": "Poulaillon",
+          "ref:FR:SIRET": "43020123600196",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2031533172,
+        "lat": 47.7468994,
+        "lon": 7.3378611,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/LibrairieBisey/",
+          "contact:housenumber": "35",
+          "contact:street": "Place de la Réunion",
+          "name": "Librairie Bisey",
+          "old_name": "Librairie Bisey",
+          "opening_hours": "Tu-Fr 10:00-19:00; Mo 14:00-19:00; Sa 09:00-19:00",
+          "phone": "+33 3 89 46 58 14",
+          "ref:FR:SIRET": "45317959000014",
+          "ref:vatin": "FR71453179590",
+          "shop": "books",
+          "was:ref:FR:SIRET": "45317959000014",
+          "was:shop": "books",
+          "website": "https://www.bisey.eu/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2043314389,
+        "lat": 47.7461782,
+        "lon": 7.3365776,
+        "tags": {
+          "name": "Au Village Italien",
+          "ref:FR:SIRET": "32838407800015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2043314406,
+        "lat": 47.7466257,
+        "lon": 7.3383431,
+        "tags": {
+          "addr:city": "Mulhouse",
+          "addr:housenumber": "25",
+          "addr:postcode": "68100",
+          "addr:street": "Place de la Réunion",
+          "name": "Littera",
+          "opening_hours": "Mo-Sa 09:00-19:00",
+          "phone": "+33 3 89 43 80 75",
+          "ref:FR:SIRET": "80311596300024",
+          "shop": "books",
+          "website": "https://www.littera68.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2043314410,
+        "lat": 47.7472496,
+        "lon": 7.3395048,
+        "tags": {
+          "check_date": "2024-12-27",
+          "check_date:opening_hours": "2024-12-27",
+          "indoor_seating": "yes",
+          "name": "Poullaillon",
+          "opening_hours": "Mo-Sa 07:30-19:15",
+          "ref:FR:SIRET": "43020123600022",
+          "shop": "bakery",
+          "toilets": "yes",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2043519476,
+        "lat": 47.7391367,
+        "lon": 7.3334051,
+        "tags": {
+          "name": "Ersoy Market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2105879809,
+        "lat": 47.7362608,
+        "lon": 7.3326486,
+        "tags": {
+          "name": "Diringer",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2127931187,
+        "lat": 47.7438968,
+        "lon": 7.3248101,
+        "tags": {
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2558296173,
+        "lat": 47.7493197,
+        "lon": 7.3400924,
+        "tags": {
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "brand:wikipedia": "fr:La Mie câline",
+          "contact:city": "Mulhouse",
+          "contact:postcode": "68100",
+          "contact:street": "Boulevard de l'Europe",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Fr 06:30-19:30; Sa-Su 07:30-19:00",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "ref:FR:SIRET": "80970502300012",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6001112985,
+        "lat": 47.7487765,
+        "lon": 7.3399885,
+        "tags": {
+          "check_date": "2026-08-03",
+          "contact:city": "Mulhouse",
+          "contact:housenumber": "8B",
+          "contact:postcode": "68100",
+          "contact:street": "Rue du Moulin",
+          "name": "47 degrés nord",
+          "ref:FR:SIRET": "75227561000026",
+          "shop": "books",
+          "website": "https://www.47degresnord.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6098957885,
+        "lat": 47.7456508,
+        "lon": 7.3435599,
+        "tags": {
+          "contact:city": "Mulhouse",
+          "contact:housenumber": "6 a",
+          "contact:postcode": "68100",
+          "contact:street": "Rue Poincaré",
+          "name": "Librairie Graffiti",
+          "opening_hours": "We 10:00-18:00; Sa 10:00-18:00; Tu 14:00-18:00; Th-Fr 14:00-18:00",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6100805686,
+        "lat": 47.7470792,
+        "lon": 7.336228,
+        "tags": {
+          "amenity": "cafe",
+          "contact:city": "Mulhouse",
+          "contact:housenumber": "15",
+          "contact:phone": "+33 3 67 92 14 68",
+          "contact:postcode": "68100",
+          "contact:street": "Rue des Tanneurs",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "name": "Le BouDoir de Léa",
+          "opening_hours": "Mo 13:00-19:00; Tu-Sa 08:30-19:00",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6417326985,
+        "lat": 47.7461435,
+        "lon": 7.3364987,
+        "tags": {
+          "name": "Biscotte",
+          "opening_hours": "Mo-Sa 07:00-19:00; Su 07:00-17:00",
+          "ref:FR:SIRET": "84106110400029",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6470788885,
+        "lat": 47.7499819,
+        "lon": 7.3276862,
+        "tags": {
+          "contact:city": "Mulhouse",
+          "contact:housenumber": "2",
+          "contact:phone": "+33 3 67 11 49 92",
+          "contact:postcode": "68200",
+          "contact:street": "Rue Lavoisier",
+          "name": "Bague de Marwa - Pâtisserie Orientale",
+          "name:fr": "Bague de Marwa - Pâtisserie Orientale",
+          "ref:FR:SIRET": "82831301500012",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6517699275,
+        "lat": 47.7491182,
+        "lon": 7.3256581,
+        "tags": {
+          "name": "Le Panier du Mehlala",
+          "shop": "convenience",
+          "website": "https://mehlala.net/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6520934585,
+        "lat": 47.746824,
+        "lon": 7.3402736,
+        "tags": {
+          "contact:housenumber": "6",
+          "contact:phone": "+33 3 89 45 62 27",
+          "contact:postcode": "68100",
+          "contact:street": "Passage du Théâtre",
+          "contact:website": "https://letempledinari.fr/",
+          "name": "Le temple d'Inari",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "84972429900011",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6986924985,
+        "lat": 47.745929,
+        "lon": 7.3423745,
+        "tags": {
+          "contact:city": "Mulhouse",
+          "contact:housenumber": "22",
+          "contact:postcode": "68100",
+          "contact:street": "Rue Poincaré",
+          "contact:website": "https://m.facebook.com/MonUniversMulhouse/?ref=page_internal&mt_nav=0",
+          "name": "Mon univers - Boutique Harry Potter",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "85233571000012",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7230806531,
+        "lat": 47.7446719,
+        "lon": 7.3350845,
+        "tags": {
+          "name": "Super F",
+          "ref:FR:SIRET": "48468488100036",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7231156231,
+        "lat": 47.7470731,
+        "lon": 7.3361774,
+        "tags": {
+          "name": "Tribulles Canal BD",
+          "ref:FR:SIRET": "49932040600022",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7251216692,
+        "lat": 47.7512831,
+        "lon": 7.3342093,
+        "tags": {
+          "check_date": "2025-10-04",
+          "name": "A. Wioland",
+          "opening_hours": "Mo-Fr 07:30-14:30; Sa off; Su 08:00-13:00",
+          "ref:FR:SIRET": "33333775600014",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7251224256,
+        "lat": 47.751223,
+        "lon": 7.3315851,
+        "tags": {
+          "name": "Balkan Alimentation",
+          "ref:FR:SIRET": "81752336800014",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7658697831,
+        "lat": 47.7518556,
+        "lon": 7.3337797,
+        "tags": {
+          "name": "Boutique Exotique La Congolaise",
+          "opening_hours": "Mo-Sa 09:00-20:00; Su 12:00-20:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9524304985,
+        "lat": 47.7474594,
+        "lon": 7.3399581,
+        "tags": {
+          "name": "Da Mamma Lina",
+          "ref:FR:SIRET": "87884064400024",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9861158717,
+        "lat": 47.7467659,
+        "lon": 7.3339243,
+        "tags": {
+          "addr:housenumber": "30",
+          "addr:street": "Rue de l'Arsenal",
+          "name": "Arabesques",
+          "opening_hours": "Mo-Fr 11:00-19:00",
+          "phone": "+33 3 69 07 80 33",
+          "ref:FR:SIRET": "83905798100012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11116013589,
+        "lat": 47.7488059,
+        "lon": 7.3255281,
+        "tags": {
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11901415825,
+        "lat": 47.748375,
+        "lon": 7.3390699,
+        "tags": {
+          "name": "Poulaillon",
+          "ref:FR:SIRET": "43020123600600",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11901415830,
+        "lat": 47.7480267,
+        "lon": 7.3362802,
+        "tags": {
+          "name": "Le Liseron",
+          "ref:FR:SIRET": "32882323200058",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12115204278,
+        "lat": 47.7474635,
+        "lon": 7.3402394,
+        "tags": {
+          "description": "street Cafe. fast food",
+          "name": "Croust'y pain",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12628401490,
+        "lat": 47.7426235,
+        "lon": 7.3504825,
+        "tags": {
+          "brand": "Banette",
+          "brand:wikidata": "Q2882405",
+          "name": "Banette",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13061611501,
+        "lat": 47.7468767,
+        "lon": 7.3326925,
+        "tags": {
+          "name": "L'Arsenal",
+          "opening_hours": "Mo-Fr 07:15-19:00; Sa 07:15-17:00",
+          "ref:FR:SIRET": "98299988000015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13147230901,
+        "lat": 47.7466714,
+        "lon": 7.3338146,
+        "tags": {
+          "addr:street": "Rue de l'Arsenal",
+          "name": "Au vrai chic littérère - Libraire de seconde vie",
+          "opening_hours": "Mo-Fr 12:00-18:00; Sa 10:00-18:00; Su 14:00-18:00",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13147266701,
+        "lat": 47.7466714,
+        "lon": 7.3338146,
+        "tags": {
+          "addr:housenumber": "15A",
+          "addr:street": "Rue de l'Arsenal",
+          "name": "Au vrai chic littérère - Libraire de seconde vie",
+          "opening_hours": "Mo-Fr 12:00-18:00; Sa 10:00-18:00; Su 14:00-18:00",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1165663362,
+        "center": {
+          "lat": 47.7425682,
+          "lon": 7.343067
+        },
+        "tags": {
+          "indoor": "room",
+          "level": "0",
+          "name": "La Brioche Dorée",
+          "opening_hours": "Mo-Sa 05:15-21:00; Su,PH 06:00-21:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1165936918,
+        "center": {
+          "lat": 47.742323,
+          "lon": 7.3426208
+        },
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "check_date:opening_hours": "2026-02-23",
+          "indoor": "room",
+          "level": "0",
+          "name": "Vival",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "shop": "convenience"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

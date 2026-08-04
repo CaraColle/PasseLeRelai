@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      7.723793,
-      48.574111,
-      7.750098,
-      48.59422
+      7.729019,
+      48.577974,
+      7.744961,
+      48.590534
     ],
     "features": [
       {
@@ -153,12 +153,8 @@
                 48.579866
               ],
               [
-                7.729054,
-                48.579789
-              ],
-              [
-                7.729064,
-                48.579707
+                7.729019,
+                48.579663
               ],
               [
                 7.72984,
@@ -173,8 +169,12 @@
                 48.578491
               ],
               [
-                7.734625,
-                48.578051
+                7.73498,
+                48.577974
+              ],
+              [
+                7.735298,
+                48.577994
               ],
               [
                 7.735786,
@@ -189,8 +189,8 @@
                 48.579
               ],
               [
-                7.743614,
-                48.581466
+                7.743714,
+                48.581364
               ],
               [
                 7.744961,
@@ -201,8 +201,8 @@
                 48.585997
               ],
               [
-                7.742656,
-                48.5891
+                7.742566,
+                48.589304
               ],
               [
                 7.742093,
@@ -236,174 +236,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            7.734682591960195,
-            48.58507797029115
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                7.73016,
-                48.591955
-              ],
-              [
-                7.730004,
-                48.590825
-              ],
-              [
-                7.729985,
-                48.590684
-              ],
-              [
-                7.729989,
-                48.587995
-              ],
-              [
-                7.73023,
-                48.586339
-              ],
-              [
-                7.726147,
-                48.583226
-              ],
-              [
-                7.725093,
-                48.582648
-              ],
-              [
-                7.724792,
-                48.58245
-              ],
-              [
-                7.723969,
-                48.581176
-              ],
-              [
-                7.723793,
-                48.580902
-              ],
-              [
-                7.723837,
-                48.580545
-              ],
-              [
-                7.727575,
-                48.576501
-              ],
-              [
-                7.728857,
-                48.575811
-              ],
-              [
-                7.73065,
-                48.57502
-              ],
-              [
-                7.735831,
-                48.574111
-              ],
-              [
-                7.736536,
-                48.574638
-              ],
-              [
-                7.741326,
-                48.576609
-              ],
-              [
-                7.742689,
-                48.576552
-              ],
-              [
-                7.742749,
-                48.576578
-              ],
-              [
-                7.743153,
-                48.576783
-              ],
-              [
-                7.747808,
-                48.579328
-              ],
-              [
-                7.748075,
-                48.57957
-              ],
-              [
-                7.74916,
-                48.580991
-              ],
-              [
-                7.749911,
-                48.583867
-              ],
-              [
-                7.75001,
-                48.584496
-              ],
-              [
-                7.750021,
-                48.584586
-              ],
-              [
-                7.750034,
-                48.584749
-              ],
-              [
-                7.750098,
-                48.587399
-              ],
-              [
-                7.747309,
-                48.591381
-              ],
-              [
-                7.744819,
-                48.593551
-              ],
-              [
-                7.74209,
-                48.59422
-              ],
-              [
-                7.736452,
-                48.593468
-              ],
-              [
-                7.733046,
-                48.593419
-              ],
-              [
-                7.730484,
-                48.592276
-              ],
-              [
-                7.730396,
-                48.592227
-              ],
-              [
-                7.73016,
-                48.591955
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809740203,
+      "timestamp": 1785863107071,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -415,8 +253,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -429,7 +266,1528 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:05:51Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 380671212,
+        "lat": 48.5966573,
+        "lon": 7.7212934,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "69",
+          "addr:postcode": "67200",
+          "addr:street": "Rue de Heidenberg",
+          "brand": "Banette",
+          "brand:wikidata": "Q2882405",
+          "entrance": "shop",
+          "name": "Banette",
+          "opening_hours": "Mo-Sa 06:00-13:00, Mo-Fr 15:00-19:00, Su 07:00-12:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "49222212000015",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 462670932,
+        "lat": 48.5956896,
+        "lon": 7.7222433,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "42",
+          "addr:postcode": "67200",
+          "addr:street": "Rue Saint-Florent",
+          "check_date:opening_hours": "2024-10-22",
+          "contact:phone": "+33 3 88 28 08 11",
+          "currency:XLT": "STUK",
+          "entrance": "yes",
+          "name": "La P'tite Boulange",
+          "opening_hours": "Mo-Fr 07:00-13:00,16:00-19:00; Sa,Su 07:00-13:00",
+          "payment:cash:XLT-STUK": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIRET": "75167913500010",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 481119842,
+        "lat": 48.5815918,
+        "lon": 7.7435537,
+        "tags": {
+          "check_date": "2024-03-21",
+          "name": "Librairie Dinali",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "second_hand": "yes",
+          "shop": "books",
+          "source": "survey",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 501836918,
+        "lat": 48.5840696,
+        "lon": 7.7362668,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "8",
+          "addr:postcode": "67000",
+          "addr:street": "Place de la Gare",
+          "name": "La Gare'Mandise",
+          "opening_hours": "Mo-Fr 06:00-19:00; Sa 07:00-18:00; Su 08:00-13:00",
+          "ref:FR:SIRET": "89300517300016",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 501839748,
+        "lat": 48.5841343,
+        "lon": 7.7363504,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "9",
+          "addr:postcode": "67000",
+          "addr:street": "Place de la Gare",
+          "check_date": "2025-03-17",
+          "name": "Les Mains Dans la Farine",
+          "operator": "Hotel Vandome",
+          "phone": "+33 9 50 31 76 95",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 569036264,
+        "lat": 48.5824918,
+        "lon": 7.7439388,
+        "tags": {
+          "addr:housenumber": "30",
+          "addr:street": "Rue du 22 Novembre",
+          "check_date": "2025-11-14",
+          "contact:facebook": "https://www.facebook.com/librairiekleberstrasbourg/",
+          "contact:housenumber": "1",
+          "contact:phone": "+33 3 88 15 78 88",
+          "contact:street": "Rue des Francs-Bourgeois",
+          "currency:XLT": "STUK",
+          "name": "Librairie Kléber",
+          "opening_hours": "Tu-Sa 09:00-19:30; Mo 10:00-19:30",
+          "payment:cash:XLT-STUK": "yes",
+          "ref:FR:SIRET": "62850089400017",
+          "ref:vatin": "FR10628500894",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
+          "website": "https://www.librairie-kleber.com/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 583243358,
+        "lat": 48.5927843,
+        "lon": 7.7236229,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "36",
+          "addr:postcode": "67200",
+          "addr:street": "Route de Mittelhausbergen",
+          "bulk_purchase": "only",
+          "contact:email": "contact@beevrac.fr",
+          "contact:phone": "+33 9 81 36 26 24",
+          "contact:website": "https://Beevrac.fr",
+          "description": "Epicerie 100% Vrac, Zéro Déchets, Bio. Alimentaire, Cosmétique, Entretien",
+          "entrance": "yes",
+          "name": "BeeVrac",
+          "opening_hours": "Tu-Fr 09:30-13:00, 14:30-19:30; Sa 09:30-13:00, 14:00-18:00",
+          "organic": "only",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "shop": "convenience",
+          "source": "Eurométropole de Strasbourg",
+          "source:date": "2022",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 617281411,
+        "lat": 48.5942664,
+        "lon": 7.719951,
+        "tags": {
+          "check_date:opening_hours": "2025-02-10",
+          "contact:housenumber": "84",
+          "contact:street": "Route de Mittelhausbergen",
+          "description": "Epicerie turque",
+          "name": "EGE Market",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "origin": "turkish",
+          "shop": "convenience",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1099966682,
+        "lat": 48.5793345,
+        "lon": 7.7479126,
+        "tags": {
+          "check_date": "2025-10-28",
+          "contact:facebook": "https://www.facebook.com/librairieoberlin",
+          "contact:housenumber": "22",
+          "contact:street": "Rue de la Division Leclerc",
+          "name": "Librairie Oberlin",
+          "opening_hours": "Mo 14:00-19:00; Tu-Fr 10:00-19:00; Sa 10:00-18:30",
+          "phone": "+33 3 88 32 45 83",
+          "ref:FR:SIRET": "57850018300053",
+          "ref:vatin": "FR35578500183",
+          "shop": "books",
+          "website": "https://www.oberlin.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1210841315,
+        "lat": 48.5905873,
+        "lon": 7.746593,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "27",
+          "addr:postcode": "67000",
+          "addr:street": "Rue Finkmatt",
+          "contact:city": "Strasbourg",
+          "contact:housenumber": "27",
+          "contact:postcode": "67000",
+          "contact:street": "Rue Finkmatt",
+          "name": "La Mie Do Ré",
+          "opening_hours": "Mo-We 06:30-19:30; Th 08:00-14:00; Su 08:00-14:30",
+          "phone": "+33388365259",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1210841490,
+        "lat": 48.5913333,
+        "lon": 7.7496823,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "40",
+          "addr:postcode": "67000",
+          "addr:street": "Boulevard Clemenceau",
+          "diet:kosher": "only",
+          "name": "Hanau",
+          "opening_hours": "Mo-Fr 05:00-20:00; Su 06:00-13:00",
+          "ref:FR:SIRET": "82815030000014",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1210841506,
+        "lat": 48.5913282,
+        "lon": 7.7496036,
+        "tags": {
+          "name": "Le Clemenceau",
+          "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-13:00",
+          "shop": "kiosk",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1210841508,
+        "lat": 48.5906343,
+        "lon": 7.7481909,
+        "tags": {
+          "shop": "kiosk",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1245322799,
+        "lat": 48.5767361,
+        "lon": 7.731442,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "23",
+          "addr:postcode": "67000",
+          "addr:street": "Boulevard de Lyon",
+          "name": "Blé d'Or",
+          "phone": "+33388231070",
+          "ref:FR:SIRET": "34478120800014",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1248867907,
+        "lat": 48.5836024,
+        "lon": 7.7386683,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "7",
+          "addr:postcode": "67000",
+          "addr:street": "Quai Saint-Jean",
+          "check_date": "2025-01-19",
+          "check_date:opening_hours": "2025-01-19",
+          "contact:phone": "+33 3 88 22 13 33",
+          "indoor_seating": "yes",
+          "name": "Durrenberger",
+          "opening_hours": "Mo-Su 06:00-20:00",
+          "outdoor_seating": "no",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "bakery",
+          "website": "https://durrenberger.fr",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1249709893,
+        "lat": 48.5840237,
+        "lon": 7.7417648,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "23",
+          "addr:postcode": "67000",
+          "addr:street": "Rue du Vieux Marché aux Vins",
+          "check_date": "2026-03-10",
+          "name": "Patisserie Michel",
+          "outdoor_seating": "sidewalk",
+          "ref:FR:SIRET": "38024293300014",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1249709941,
+        "lat": 48.5832303,
+        "lon": 7.7397501,
+        "tags": {
+          "name": "Épicerie le chat de l'Ile",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1250345385,
+        "lat": 48.5826589,
+        "lon": 7.7405225,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:country": "FR",
+          "addr:housenumber": "5",
+          "addr:postcode": "67000",
+          "addr:street": "Grand'Rue",
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "fr:Système U",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 08:00-21:30; Su 09:00-13:00",
+          "operator": "Système U",
+          "phone": "+33388756311",
+          "shop": "convenience",
+          "source": "survey",
+          "website": "https://www.magasins-u.com/magasin/uexpress-grandruestrasbourg",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1716689678,
+        "lat": 48.5802054,
+        "lon": 7.7462745,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "9",
+          "addr:postcode": "67000",
+          "addr:street": "Rue des Serruriers",
+          "contact:city": "Strasbourg",
+          "contact:housenumber": "9",
+          "contact:postcode": "67000",
+          "contact:street": "Rue des Serruriers",
+          "indoor_seating": "no",
+          "name": "Maison Alsacienne de Biscuiterie",
+          "opening_hours": "Mo-Su 09:00-19:00",
+          "outdoor_seating": "no",
+          "phone": "+33 389 218510",
+          "ref:FR:SIRET": "80376212900127",
+          "shop": "bakery",
+          "takeaway": "only",
+          "website": "https://www.maison-alsacienne-biscuiterie.com",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1776254810,
+        "lat": 48.5837923,
+        "lon": 7.7457528,
+        "tags": {
+          "check_date": "2025-07-19",
+          "check_date:opening_hours": "2023-06-24",
+          "contact:city": "Strasbourg",
+          "contact:country": "FR",
+          "contact:fax": "+33 3 88 16 58 84",
+          "contact:housenumber": "31",
+          "contact:phone": "+33 3 88 16 58 79",
+          "contact:postcode": "67000",
+          "contact:street": "Place Kléber",
+          "level": "0",
+          "name": "Librairie Gallimard du Monde Entier",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "62850089400074",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2270579653,
+        "lat": 48.581272,
+        "lon": 7.7446658,
+        "tags": {
+          "check_date": "2025-08-07",
+          "contact:facebook": "Librairie-Quai-des-Brumes-Strasbourg-104850718883457",
+          "contact:housenumber": "120",
+          "contact:instagram": "librairiequaidesbrumes",
+          "contact:street": "Grand'Rue",
+          "email": "quaidesbrumes@orange.fr",
+          "name": "Quai des Brumes",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00; Jul-Aug : Mo off",
+          "phone": "+33 3 88 35 32 84",
+          "ref:FR:SIRET": "32916548400034",
+          "shop": "books",
+          "source": "survey 2013",
+          "website": "https://quaidesbrumes.com",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3062718112,
+        "lat": 48.5817426,
+        "lon": 7.7479514,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "50",
+          "addr:postcode": "67000",
+          "addr:street": "Rue des Grandes Arcades",
+          "check_date": "2025-10-28",
+          "indoor_seating": "yes",
+          "name": "Dreher",
+          "opening_hours": "Mo-Sa 07:30-20:00; Su 08:00-19:00",
+          "outdoor_seating": "yes",
+          "phone": "+33 3 90 23 59 76",
+          "ref:FR:SIRET": "79476958800011",
+          "shop": "bakery",
+          "source": "survey",
+          "website": "https://www.drehers.eu/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3270376342,
+        "lat": 48.583333,
+        "lon": 7.7354963,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "11",
+          "addr:postcode": "67000",
+          "addr:street": "Petite Rue de la Course",
+          "name": "O P'train",
+          "opening_hours": "Mo-Fr 06:00-19:00; Sa 06:00-16:30; Su,PH off",
+          "phone": "+33388327965",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3292589733,
+        "lat": 48.5826103,
+        "lon": 7.7389684,
+        "tags": {
+          "addr:housenumber": "2",
+          "addr:street": "Grand'Rue",
+          "alt_name": "Lacocina Grand'Rue",
+          "amenity": "fast_food",
+          "catering": "yes",
+          "check_date": "2026-02-07",
+          "contact:city": "Strasbourg",
+          "contact:housenumber": "2",
+          "contact:postcode": "67000",
+          "contact:street": "Grand'Rue",
+          "cuisine": "mexican",
+          "delivery": "yes",
+          "diet:vegan": "yes",
+          "diet:vegetarian": "yes",
+          "drive_through": "no",
+          "image": "https://api.panoramax.xyz/?focus=pic&map=20.81/48.5826803/7.7390021&pic=15440a9c-1f63-44e2-b39a-9cccfc11ce84&seq=bef8f14c-8a66-42a7-818d-029015d505d0&xyz=178.86/-5.62/34",
+          "level": "0",
+          "name": "Lacocina",
+          "opening_hours": "Mo-Th 11:30-15:00; We off; Fr 11:30-15:00,18:30-22:00; Sa 11:30-22:30",
+          "operator": "Burrito & Co",
+          "outdoor_seating": "yes",
+          "panoramax": "15440a9c-1f63-44e2-b39a-9cccfc11ce84",
+          "phone": "+33 9 81 48 72 34",
+          "ref:FR:NAF": "56.10C",
+          "ref:FR:SIREN": "533105151",
+          "ref:FR:SIRET": "53310515100013",
+          "shop": "convenience",
+          "smoking": "outside",
+          "takeaway": "yes",
+          "website": "https://www.lacocina.fr/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3788168380,
+        "lat": 48.5881756,
+        "lon": 7.7460441,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "22",
+          "addr:postcode": "67000",
+          "addr:street": "Rue du Faubourg de Pierre",
+          "brand": "Monop'",
+          "brand:wikidata": "Q89913683",
+          "brand:wikipedia": "fr:Monoprix (France)",
+          "check_date": "2024-07-21",
+          "name": "Monop'",
+          "opening_hours": "Mo-Fr 06:30-22:00; Sa 06:30-22:00; Su 09:00-13:00",
+          "shop": "convenience",
+          "source": "survey",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3791427168,
+        "lat": 48.5823395,
+        "lon": 7.7490605,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "24B",
+          "addr:postcode": "67000",
+          "addr:street": "Rue des Orfèvres",
+          "check_date": "2026-07-30",
+          "name": "Les Mains Dans la Farine",
+          "phone": "+33980834356",
+          "ref:FR:SIRET": "89740402600014",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4112849889,
+        "lat": 48.5817365,
+        "lon": 7.7486863,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "1",
+          "addr:postcode": "67000",
+          "addr:street": "Rue des Hallebardes",
+          "brand": "Au Pain de mon Grand-Père",
+          "brand:wikidata": "Q128837687",
+          "check_date": "2025-06-19",
+          "contact:city": "Strasbourg",
+          "contact:postcode": "67000",
+          "contact:street": "Rue des Hallebardes",
+          "indoor_seating": "yes",
+          "name": "Au Pain de mon Grand-Père",
+          "opening_hours": "Mo-Sa 07:00-19:30, Su 07:00-19:00, PH 07:00-19:00",
+          "outdoor_seating": "no",
+          "payment:cards": "yes",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "phone": "+33390412944",
+          "ref:FR:SIRET": "92750622000023",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4137198290,
+        "lat": 48.5838679,
+        "lon": 7.7448545,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "4",
+          "addr:postcode": "67000",
+          "addr:street": "Place de l'Homme de Fer",
+          "name": "Poulaillon Homme de Fer",
+          "opening_hours": "Mo-Sa 06:00-19:30",
+          "phone": "+33388329660",
+          "ref:FR:SIRET": "43020123600253",
+          "shop": "bakery",
+          "website": "https://www.poulaillon.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4302393897,
+        "lat": 48.5798269,
+        "lon": 7.7474962,
+        "tags": {
+          "check_date": "2025-05-21",
+          "check_date:opening_hours": "2025-05-21",
+          "contact:city": "Strasbourg",
+          "contact:housenumber": "16",
+          "contact:phone": "+33 9 51 42 75 87",
+          "contact:postcode": "67000",
+          "contact:street": "Rue de la Division Leclerc",
+          "contact:website": "http://www.ventdivin.com/",
+          "name": "Vent Divin",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:30-19:00",
+          "shop": "books",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4429511927,
+        "lat": 48.5803582,
+        "lon": 7.7468784,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "10",
+          "addr:postcode": "67000",
+          "addr:street": "Rue de la Division Leclerc",
+          "check_date": "2025-10-28",
+          "contact:housenumber": "10",
+          "contact:street": "Rue de la Division Leclerc",
+          "email": "boulangerie-woerle@orange.fr",
+          "name": "Woerlé",
+          "opening_hours": "Mo-Sa 07:00-19:00; Su 08:00-18:00",
+          "phone": "+33 3 88 15 19 30",
+          "ref:FR:SIRET": "31969732200026",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4519297606,
+        "lat": 48.5871687,
+        "lon": 7.7432265,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "2",
+          "addr:postcode": "67000",
+          "addr:street": "Place Clément",
+          "contact:phone": "+33 3 69 48 32 19",
+          "currency:XLT": "STUK",
+          "email": "contact@mokka-strasbourg.fr",
+          "name": "Mokka",
+          "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-18:00",
+          "operator": "LCM",
+          "organic": "yes",
+          "payment:cash:XLT-STUK": "yes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "952141448",
+          "ref:FR:SIRET": "95214144800029",
+          "shop": "bakery",
+          "website": "https://mokka-strasbourg.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4519297607,
+        "lat": 48.5851881,
+        "lon": 7.7378862,
+        "tags": {
+          "check_date": "2023-04-23",
+          "currency:XLT": "STUK",
+          "name": "La Maison de la Sagesse",
+          "payment:cash:XLT-STUK": "yes",
+          "phone": "+33 6 50 67 75 02",
+          "ref:FR:SIRET": "39816527400018",
+          "shop": "books",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4543001649,
+        "lat": 48.5807237,
+        "lon": 7.7473815,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "18",
+          "addr:postcode": "67000",
+          "addr:street": "Rue des Serruriers",
+          "check_date": "2026-02-24",
+          "name": "Biscottes Sante",
+          "opening_hours": "Mo-Sa 07:00-19:00",
+          "pastry": "yes",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4543001650,
+        "lat": 48.5808665,
+        "lon": 7.7473761,
+        "tags": {
+          "books": "comic",
+          "check_date": "2026-02-24",
+          "name": "Bildergarte",
+          "ref:FR:SIRET": "79941758900022",
+          "shop": "books",
+          "source": "survey",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4614044705,
+        "lat": 48.5827314,
+        "lon": 7.7417524,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "16",
+          "addr:postcode": "67000",
+          "addr:street": "Rue du 22 Novembre",
+          "check_date": "2026-04-25",
+          "check_date:opening_hours": "2026-04-25",
+          "contact:city": "Strasbourg",
+          "contact:housenumber": "16",
+          "contact:phone": "+33 3 88 22 28 27",
+          "contact:postcode": "67000",
+          "contact:street": "Rue du 22 Novembre",
+          "facebook": "https://www.facebook.com/Lesmainsdanslafarine67",
+          "indoor_seating": "yes",
+          "name": "Les mains dans la farine",
+          "opening_hours": "Mo-Sa 06:30-20:00; Su 07:00-20:00",
+          "outdoor_seating": "pedestrian_zone",
+          "shop": "bakery",
+          "website": "https://www.lesmainsdanslafarine.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4626055395,
+        "lat": 48.5846608,
+        "lon": 7.7405719,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "3",
+          "addr:postcode": "67000",
+          "addr:street": "Rue du Faubourg de Saverne",
+          "check_date": "2025-09-07",
+          "name": "Épicerie Cinar",
+          "ref:FR:SIRET": "52919199100015",
+          "shop": "convenience",
+          "source": "survey 2017"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4720331561,
+        "lat": 48.5858058,
+        "lon": 7.7397176,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "27",
+          "addr:postcode": "67000",
+          "addr:street": "Rue du Faubourg de Saverne",
+          "air_conditioning": "yes",
+          "brand": "Paris Store",
+          "brand:wikidata": "Q3365297",
+          "brand:wikipedia": "fr:Paris Store",
+          "check_date": "2026-07-18",
+          "contact:housenumber": "27",
+          "contact:street": "Rue du Faubourg de Saverne",
+          "name": "Paris Store Strasbourg",
+          "official_name": "Distribution Alimentaire de Saverne",
+          "opening_hours": "Mo-Sa 10:00-18:50",
+          "origin": "asian",
+          "phone": "+33 3 88 22 69 20",
+          "ref:FR:SIRET": "82947021000016",
+          "shop": "convenience",
+          "source": "survey",
+          "website": "https://paris-store.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4968835229,
+        "lat": 48.5873459,
+        "lon": 7.7461445,
+        "tags": {
+          "check_date": "2024-07-21",
+          "contact:city": "Strasbourg",
+          "contact:housenumber": "7",
+          "contact:postcode": "67000",
+          "contact:street": "Rue du Faubourg de Pierre",
+          "name": "Ayesha",
+          "ref:FR:SIRET": "90778807900016",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4996650122,
+        "lat": 48.5817051,
+        "lon": 7.7426034,
+        "tags": {
+          "check_date": "2025-07-25",
+          "check_date:opening_hours": "2025-07-25",
+          "contact:city": "Strasbourg",
+          "contact:housenumber": "46",
+          "contact:phone": "+33 9 73 23 29 34",
+          "contact:postcode": "67000",
+          "contact:street": "Rue Fossé des Tanneurs",
+          "delivery": "yes",
+          "name": "Ca va Buller",
+          "opening_hours": "Mo-Su 10:00-19:00",
+          "operator": "Canal BD",
+          "payment:american_express": "yes",
+          "payment:cash": "only",
+          "payment:cheque": "yes",
+          "payment:contactless": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "ref:FR:SIRET": "81993491000012",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5190858434,
+        "lat": 48.5821872,
+        "lon": 7.7387548,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "8",
+          "addr:postcode": "67000",
+          "addr:street": "Quai Turckheim",
+          "contact:facebook": "https://www.facebook.com/people/Boulangerie-p%C3%A2tisserie-traiteur-chez-steph/100064915735639/",
+          "name": "Chez Steph",
+          "opening_hours": "Mo-Fr 06:00-14:30,16:00-19:00; Sa 06:00-13:00",
+          "phone": "+33388326044",
+          "ref:FR:SIRET": "79335639500020",
+          "shop": "bakery",
+          "source": "survey",
+          "source:date": "2017-06-08"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5190858436,
+        "lat": 48.5816447,
+        "lon": 7.7387337,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "4",
+          "addr:postcode": "67000",
+          "addr:street": "Quai Turckheim",
+          "name": "Au Coin Littéraire",
+          "ref:FR:SIRET": "80809083100021",
+          "shop": "books",
+          "source": "survey",
+          "source:date": "2017"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5338688758,
+        "lat": 48.5814225,
+        "lon": 7.7442309,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "116",
+          "addr:postcode": "67000",
+          "addr:street": "Grand'Rue",
+          "contact:city": "Strasbourg",
+          "contact:email": "monatelier116@gmail.com",
+          "contact:facebook": "monatelier116",
+          "contact:housenumber": "116",
+          "contact:instagram": "latelier116",
+          "contact:phone": "+33 3 90 41 73 08",
+          "contact:postcode": "67000",
+          "contact:street": "Grand'Rue",
+          "craft": "bakery",
+          "cuisine": "breakfast;sandwich",
+          "description": "Boulangerie, pâtisserie et salon de thé",
+          "indoor_seating": "yes",
+          "name": "L'Atelier 116",
+          "opening_hours": "Mo-Sa 07:00-19:00; Su 08:00-19:00",
+          "organic": "yes",
+          "outdoor_seating": "pedestrian_zone",
+          "pastry": "yes",
+          "produced_on_site": "yes",
+          "ref:FR:SIRET": "82128458500022",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5772458656,
+        "lat": 48.5782973,
+        "lon": 7.7314251,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "28",
+          "addr:postcode": "67000",
+          "addr:street": "Boulevard de Lyon",
+          "name": "EPICERIE AKHTAMAR",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5780996082,
+        "lat": 48.5781533,
+        "lon": 7.7333015,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "5",
+          "addr:postcode": "67000",
+          "addr:street": "Rue d'Obernai",
+          "name": "Alimentation générale",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5786271950,
+        "lat": 48.5838453,
+        "lon": 7.7442201,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "5",
+          "addr:postcode": "67000",
+          "addr:street": "Place de l'Homme de Fer",
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "check_date": "2026-07-29",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "phone": "+33388353094",
+          "ref:FR:SIRET": "78926721800020",
+          "shop": "bakery",
+          "website": "https://lamiecaline.com/magasin/strasbourg/323"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5860545385,
+        "lat": 48.5787998,
+        "lon": 7.7421487,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "14",
+          "addr:postcode": "67000",
+          "addr:street": "Rue Finkwiller",
+          "brand": "Ronde des Pains",
+          "contact:city": "Strasbourg",
+          "contact:housenumber": "14",
+          "contact:postcode": "67000",
+          "contact:street": "Rue Finkwiller",
+          "name": "Plein la moustache",
+          "not:brand:wikidata": "Q3441707",
+          "opening_hours": "Mo-Fr 07:00-19:00; Sa 09:00-13:00; Su 08:00-13:00",
+          "phone": "+33 9 52 79 88 35",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6004905209,
+        "lat": 48.5916258,
+        "lon": 7.7256429,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "18",
+          "addr:postcode": "67200",
+          "addr:street": "Rue Geneviève Anthonioz",
+          "amenity": "cafe",
+          "cuisine": "snack",
+          "name": "Station R",
+          "outdoor_seating": "yes",
+          "phone": "+33 3 88 27 11 54",
+          "shop": "bakery",
+          "source": "survey",
+          "source:date": "2018"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6178435931,
+        "lat": 48.5762781,
+        "lon": 7.7315959,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "17",
+          "addr:postcode": "67000",
+          "addr:street": "Boulevard de Lyon",
+          "name": "Africain Exotique",
+          "phone": "+33 3 90 20 05 30",
+          "ref:FR:SIRET": "80105840500011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6243995942,
+        "lat": 48.5832454,
+        "lon": 7.7382968,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "6",
+          "addr:postcode": "67000",
+          "addr:street": "Quai Saint-Jean",
+          "check_date": "2024-10-04",
+          "check_date:opening_hours": "2024-10-04",
+          "name": "TAJ",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "51854916700014",
+          "shop": "convenience",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8428628788,
+        "lat": 48.5787271,
+        "lon": 7.7432293,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "24",
+          "addr:postcode": "67000",
+          "addr:street": "Rue Saint-Marc",
+          "contact:facebook": "https://www.facebook.com/people/Boulangerie-Hanss-Olivier-Aur%C3%A9lie/100057589984296/",
+          "email": "boulangeriehanss@yahoo.fr",
+          "name": "Hanss",
+          "opening_hours": "Mo-Fr 06:00-19:00; Sa 07:00-13:00",
+          "phone": "+33388361244",
+          "ref:FR:SIRET": "32004828300016",
+          "shop": "bakery",
+          "website": "https://boulangeriehanss.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8925402946,
+        "lat": 48.5940151,
+        "lon": 7.7204381,
+        "tags": {
+          "check_date": "2026-02-11",
+          "email": "lefilrougecro@gmail.com",
+          "entrance": "shop",
+          "name": "Librairie-café le Fil Rouge",
+          "opening_hours": "Tu,Th 16:00-19:00; We,Sa 10:00-12:30,14:00-19:00; Fr 14:00-19:00",
+          "phone": "+33 9 75 80 97 66",
+          "shop": "books",
+          "website": "https://www.librairielefilrouge.eu"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8979350136,
+        "lat": 48.5829181,
+        "lon": 7.7487618,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "1",
+          "addr:postcode": "67000",
+          "addr:street": "Rue des Orfèvres",
+          "name": "Le Pain des Fromagers",
+          "opening_hours": "Tu-Fr 08:00-19:15; Sa 08:00-19:00",
+          "phone": "+33388225645",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8985886558,
+        "lat": 48.5938623,
+        "lon": 7.7203592,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "77",
+          "addr:postcode": "67200",
+          "addr:street": "Route de Mittelhausbergen",
+          "entrance": "shop",
+          "name": "Alimentation Meherzad Snack",
+          "ref:FR:SIRET": "98886964000017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9000691191,
+        "lat": 48.5847309,
+        "lon": 7.7385542,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "17",
+          "addr:postcode": "67000",
+          "addr:street": "Rue Kageneck",
+          "check_date": "2026-02-18",
+          "check_date:opening_hours": "2026-02-18",
+          "contact:facebook": "share/1Tv445Fhmf",
+          "name": "Maison Amry & Banette",
+          "opening_hours": "Mo-Fr 06:00-19:00; Sa 06:15-13:15",
+          "phone": "+33 3 88 37 96 45",
+          "ref:FR:SIRET": "87818919000019",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9014618466,
+        "lat": 48.5841209,
+        "lon": 7.7484166,
+        "tags": {
+          "check_date": "2025-08-05",
+          "contact:facebook": "https://www.facebook.com/librairie-Dinali-194538883917162/",
+          "name": "Librairie Dinali",
+          "opening_hours": "Tu-Fr 10:00-19:00; Mo 14:00-19:00; Sa 10:00-18:30",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9023121444,
+        "lat": 48.5826011,
+        "lon": 7.7465859,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "2",
+          "addr:postcode": "67000",
+          "addr:street": "Ruelle des Pelletiers",
+          "check_date": "2026-07-29",
+          "name": "XOXO Brunch & Salon de thé",
+          "phone": "+33 3 69 61 22 08",
+          "ref:FR:SIRET": "51199094700059",
+          "shop": "bakery",
+          "website": "https://fournil-kristof.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9037706092,
+        "lat": 48.5858578,
+        "lon": 7.7404856,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/profile.php?id=61562682290295",
+          "contact:housenumber": "3",
+          "contact:street": "Rue de Pâques",
+          "mobile": "+33 7 84 31 53 80",
+          "name": "Escapade",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "98333479800029",
+          "ref:vatin": "FR54983334798",
+          "shop": "books",
+          "source": "survey",
+          "survey:date": "2024-02-29",
+          "website": "https://www.librairieescapade.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9341091587,
+        "lat": 48.5820541,
+        "lon": 7.7480166,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "73",
+          "addr:postcode": "67000",
+          "addr:street": "Rue des Grandes Arcades",
+          "check_date": "2025-08-12",
+          "contact:facebook": "https://www.facebook.com/Lesmainsdanslafarine67/",
+          "cuisine": "ice_cream",
+          "indoor_seating": "yes",
+          "level": "0-5",
+          "name": "Les mains dans la farine",
+          "opening_hours": "Mo-Sa 06:30-20:00; Su 07:00-16:00",
+          "outdoor_seating": "no",
+          "phone": "+33 3 88 22 28 27",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "431656032",
+          "ref:FR:SIRET": "89740402600022",
+          "ref:vatin": "FR66431656032",
+          "shop": "bakery",
+          "start_date": "2021-11-05",
+          "website": "https://www.lesmainsdanslafarine.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9689705849,
+        "lat": 48.5919746,
+        "lon": 7.7208816,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:floor": "0",
+          "addr:housenumber": "1",
+          "addr:postcode": "67200",
+          "addr:street": "Rue des Pinsons",
+          "check_date": "2026-08-03",
+          "diet:halal": "yes",
+          "level": "0",
+          "name": "TAT Market",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "ref:FR:SIRET": "90430088600010",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10108264090,
+        "lat": 48.5771305,
+        "lon": 7.7421081,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "20 a",
+          "addr:postcode": "67000",
+          "addr:street": "Rue des Glacières",
+          "name": "Supérette Unique",
+          "ref:FR:SIRET": "91189580300011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10876481905,
+        "lat": 48.5841547,
+        "lon": 7.7384809,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "7",
+          "addr:postcode": "67000",
+          "addr:street": "Rue Kageneck",
+          "bulk_purchase": "yes",
+          "check_date": "2026-02-16",
+          "contact:bluesky": "https://bsky.app/profile/coopalim.bsky.social",
+          "contact:facebook": "coopalim.strasbourg",
+          "contact:instagram": "coopalimstrasbourg",
+          "email": "coopalim@gmail.com",
+          "name": "Coopalim",
+          "opening_hours": "\"Épicerie participative avec horaires affichés qui varient suivant les mois\"",
+          "operator:type": "cooperative",
+          "organic": "yes",
+          "phone": "+33 6 65 31 73 19",
+          "ref:FR:SIRET": "83396096600020",
+          "shop": "convenience",
+          "website": "https://www.coopalimstrasbourg.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11189035863,
+        "lat": 48.5824974,
+        "lon": 7.736702,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "30",
+          "addr:postcode": "67000",
+          "addr:street": "Rue du Faubourg National",
+          "brand": "Banette",
+          "brand:wikidata": "Q2882405",
+          "indoor_seating": "yes",
+          "name": "Banette",
+          "outdoor_seating": "no",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11221839481,
+        "lat": 48.5829024,
+        "lon": 7.738157,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "1.2",
+          "addr:postcode": "67000",
+          "addr:street": "Quai Saint-Jean",
+          "name": "A la Source",
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "ref:FR:SIRET": "89953914200013",
+          "shop": "convenience",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11736927561,
+        "lat": 48.5831966,
+        "lon": 7.7374877,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "3",
+          "addr:postcode": "67000",
+          "addr:street": "rue de la course",
+          "cuisine": "indian",
+          "name": "Indian stores",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "origin": "indian",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "83513544300017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11736982836,
+        "lat": 48.5833516,
+        "lon": 7.7379028,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "6",
+          "addr:postcode": "67000",
+          "addr:street": "rue de la course",
+          "cuisine": "indian",
+          "name": "Raja cash & carry",
+          "origin": "indian",
+          "ref:FR:SIRET": "75092289000025",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11916012373,
+        "lat": 48.5870996,
+        "lon": 7.7393312,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "44",
+          "addr:postcode": "67000",
+          "addr:street": "Rue du Faubourg de Saverne",
+          "name": "Épicerie Konate",
+          "opening_hours": "Mo-Su,PH 10:00-21:00",
+          "ref:FR:SIRET": "95324213800014",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11919622992,
+        "lat": 48.5760147,
+        "lon": 7.7313393,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "32",
+          "addr:postcode": "67000",
+          "addr:street": "Rue de Molsheim",
+          "check_date": "2024-05-20",
+          "name": "Houdan.est Shop",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12147783370,
+        "lat": 48.5823683,
+        "lon": 7.7344022,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "68",
+          "addr:postcode": "67000",
+          "addr:street": "rue du Foubourg National",
+          "name": "Le comptoir de l'ilôt",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "83789652100023",
+          "shop": "convenience",
+          "website": "https://www.lilotdelameinau.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12373632383,
+        "lat": 48.5928699,
+        "lon": 7.7234017,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "38",
+          "addr:postcode": "67200",
+          "addr:street": "Route de Mittelhausbergen",
+          "name": "Kara Market",
+          "ref:FR:SIRET": "93274724900013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13019079204,
+        "lat": 48.5851283,
+        "lon": 7.7347337,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "20",
+          "addr:postcode": "67000",
+          "addr:street": "Place de la Gare",
+          "diet:halal": "no",
+          "level": "0",
+          "name": "Terres d'Alsace",
+          "opening_hours": "Su-Fr 07:30-20:00; Sa 07:30-19:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13063592202,
+        "lat": 48.5837879,
+        "lon": 7.7373344,
+        "tags": {
+          "name": "Aux 4 Saisons",
+          "ref:FR:SIRET": "48809380800019",
+          "shop": "convenience",
+          "survey:date": "2025-08-11",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13439893508,
+        "lat": 48.589098,
+        "lon": 7.7424528,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "8",
+          "addr:postcode": "67000",
+          "addr:street": "Rue du Travail",
+          "diet:halal": "only",
+          "email": "baymar.strasbourg@hotmail.com",
+          "name": "Boucherie Baymar",
+          "opening_hours": "Mo-Sa 08:30-20:00; PH,Su 09:00-18:00",
+          "operator": "Baymar",
+          "phone": "+33 3 88 10 24 98",
+          "ref:FR:NAF": "47.22Z",
+          "ref:FR:SIREN": "531290765",
+          "ref:FR:SIRET": "53129076500019",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13980082376,
+        "lat": 48.5884822,
+        "lon": 7.74554,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "39",
+          "addr:postcode": "67000",
+          "addr:street": "Rue du Faubourg de Pierre",
+          "name": "Rouge Tomate",
+          "official_name": "Rouge Tomate Faubourg",
+          "opening_hours": "Mo-Fr 08:30-13:00,15:00-19:30; Sa 08:00-18:00",
+          "operator": "Rouge Tomate",
+          "organic": "only",
+          "phone": "+33 3 88 68 19 12",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "104714597",
+          "ref:FR:SIRET": "10471459700010",
+          "shop": "convenience",
+          "website": "https://www.rouge-tomate.fr/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14058529352,
+        "lat": 48.5860414,
+        "lon": 7.7424881,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "24",
+          "addr:postcode": "67000",
+          "addr:street": "Place des Halles 1st floor",
+          "brand": "Poulaillon",
+          "brand:website": "https://www.poulaillon.fr",
+          "check_date": "2026-07-29",
+          "level": "1",
+          "name": "Poulaillon Strasbourg Halles",
+          "ref": "55",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 40992798,
+        "center": {
+          "lat": 48.5826711,
+          "lon": 7.7365545
+        },
+        "tags": {
+          "addr:postcode": "67000;67100;67200",
+          "building": "yes",
+          "name": "artisan banette",
+          "opening_hours": "Mo-Sa 06:00-20:00",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1001386049,
+        "center": {
+          "lat": 48.5862494,
+          "lon": 7.7414134
+        },
+        "tags": {
+          "brand": "France Loisirs",
+          "brand:wikidata": "Q3080726",
+          "brand:wikipedia": "fr:France Loisirs",
+          "indoor": "room",
+          "level": "1",
+          "name": "France Loisirs",
+          "opening_hours": "Mo-Sa 09:00-20:00",
+          "phone": "+33 3 88 32 72 11",
+          "ref": "149",
+          "shop": "books",
+          "website": "https://www.placedeshalles.com/france-loisirs/"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

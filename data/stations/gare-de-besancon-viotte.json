@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      6.009973,
-      47.233713,
-      6.039489,
-      47.251806
+      6.014936,
+      47.236991,
+      6.034414,
+      47.248639
     ],
     "features": [
       {
@@ -201,8 +201,8 @@
                 47.23961
               ],
               [
-                6.033716,
-                47.240056
+                6.033827,
+                47.240107
               ],
               [
                 6.034296,
@@ -213,8 +213,8 @@
                 47.242215
               ],
               [
-                6.033836,
-                47.243717
+                6.034174,
+                47.243014
               ],
               [
                 6.033157,
@@ -225,16 +225,12 @@
                 47.247529
               ],
               [
-                6.029339,
-                47.248321
+                6.029183,
+                47.248498
               ],
               [
-                6.029265,
-                47.248329
-              ],
-              [
-                6.028144,
-                47.24841
+                6.029138,
+                47.248497
               ],
               [
                 6.024416,
@@ -260,174 +256,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            6.024233995128002,
-            47.24257458361066
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                6.011093,
-                47.244541
-              ],
-              [
-                6.009973,
-                47.242625
-              ],
-              [
-                6.010868,
-                47.238832
-              ],
-              [
-                6.010999,
-                47.238497
-              ],
-              [
-                6.012687,
-                47.235381
-              ],
-              [
-                6.012973,
-                47.235163
-              ],
-              [
-                6.014878,
-                47.23395
-              ],
-              [
-                6.01512,
-                47.233798
-              ],
-              [
-                6.015185,
-                47.233761
-              ],
-              [
-                6.015518,
-                47.233736
-              ],
-              [
-                6.020556,
-                47.233713
-              ],
-              [
-                6.026295,
-                47.234018
-              ],
-              [
-                6.030173,
-                47.234237
-              ],
-              [
-                6.033675,
-                47.235073
-              ],
-              [
-                6.033983,
-                47.235259
-              ],
-              [
-                6.036098,
-                47.236604
-              ],
-              [
-                6.03695,
-                47.237753
-              ],
-              [
-                6.037919,
-                47.239124
-              ],
-              [
-                6.039366,
-                47.241451
-              ],
-              [
-                6.039489,
-                47.24179
-              ],
-              [
-                6.038052,
-                47.245138
-              ],
-              [
-                6.037317,
-                47.248007
-              ],
-              [
-                6.037202,
-                47.248348
-              ],
-              [
-                6.036601,
-                47.248839
-              ],
-              [
-                6.033586,
-                47.250668
-              ],
-              [
-                6.030266,
-                47.251573
-              ],
-              [
-                6.026884,
-                47.251787
-              ],
-              [
-                6.026846,
-                47.251788
-              ],
-              [
-                6.020992,
-                47.251806
-              ],
-              [
-                6.017844,
-                47.251531
-              ],
-              [
-                6.017595,
-                47.251272
-              ],
-              [
-                6.016008,
-                47.249325
-              ],
-              [
-                6.015779,
-                47.249065
-              ],
-              [
-                6.01247,
-                47.245502
-              ],
-              [
-                6.011288,
-                47.244844
-              ],
-              [
-                6.011093,
-                47.244541
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809800356,
+      "timestamp": 1785863939070,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -439,8 +273,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -453,7 +286,1320 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:19:11Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 531362765,
+        "lat": 47.2295138,
+        "lon": 6.037267,
+        "tags": {
+          "brand": "Le Pétrin Ribeïrou",
+          "brand:wikidata": "Q89209633",
+          "name": "Le Pétrin Ribeïrou",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "420296170",
+          "ref:FR:SIRET": "42029617000012",
+          "shop": "bakery",
+          "website": "https://www.petrin-ribeirou.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 667520756,
+        "lat": 47.2312459,
+        "lon": 6.0264538,
+        "tags": {
+          "addr:postcode": "25000",
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "check_date:opening_hours": "2024-03-26",
+          "name": "Vival",
+          "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:00",
+          "operator": "Viva",
+          "phone": "+33 3 63 35 03 65",
+          "ref:FR:SIRET": "83960597900013",
+          "shop": "convenience",
+          "website": "https://vival.casino.fr/stores/e1378"
+        }
+      },
+      {
+        "type": "node",
+        "id": 709313230,
+        "lat": 47.2286965,
+        "lon": 6.0314033,
+        "tags": {
+          "air_conditioning": "yes",
+          "check_date": "2024-11-30",
+          "name": "Aux Saveurs d'autrefois",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIRET": "44917911800012",
+          "shop": "bakery",
+          "source": "local knowledge",
+          "stroller": "yes",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 709313962,
+        "lat": 47.2371014,
+        "lon": 6.0220896,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "23",
+          "addr:postcode": "25000",
+          "addr:street": "Rue Pasteur",
+          "contact:city": "Besançon",
+          "contact:postcode": "25000",
+          "contact:street": "Rue Pasteur",
+          "indoor_seating": "yes",
+          "name": "Au Fournil Comtois",
+          "opening_hours": "Mo-Fr 07:00-19:30; Sa 07:30-19:30",
+          "outdoor_seating": "yes",
+          "phone": "+33381821883",
+          "ref:FR:SIRET": "51183520900012",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1157260159,
+        "lat": 47.2410188,
+        "lon": 6.0204479,
+        "tags": {
+          "contact:city": "Besançon",
+          "contact:housenumber": "22",
+          "contact:phone": "+33 3 81 53 12 15",
+          "contact:postcode": "25000",
+          "contact:street": "Rue Battant",
+          "indoor_seating": "yes",
+          "name": "Le Moulin de Battant",
+          "opening_hours": "Tu-Sa 06:30-19:00; Su 06:30-13:00",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "53785187500022",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1329689253,
+        "lat": 47.2396551,
+        "lon": 6.0210677,
+        "tags": {
+          "check_date:opening_hours": "2024-05-06",
+          "name": "Gmo",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "80944862400019",
+          "shop": "kiosk",
+          "source": "INSEE - 06/2019",
+          "tobacco": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1376125528,
+        "lat": 47.2380522,
+        "lon": 6.023908,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "1",
+          "addr:postcode": "25000",
+          "addr:street": "Place du 8 Septembre",
+          "brand": "Brioche Dorée",
+          "brand:website": "https://www.briochedoree.fr",
+          "brand:wikidata": "Q2925606",
+          "brand:wikipedia": "fr:Brioche dorée",
+          "check_date:opening_hours": "2025-05-07",
+          "contact:phone": "+33 3 81 82 21 40",
+          "name": "Brioche Dorée",
+          "official_name": "Brioche Dorée Besançon - 1, Place Du 8 Septembre",
+          "opening_hours": "Mo-Sa 08:00-19:30",
+          "operator": "Groupe Le Duff",
+          "ref:FR:SIRET": "89884462600025",
+          "shop": "bakery",
+          "website": "https://www.briochedoree.fr/restaurants/48-besancon-1-place-du-8-septembre"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1419626704,
+        "lat": 47.2365202,
+        "lon": 6.0258443,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "95",
+          "addr:postcode": "25000",
+          "addr:street": "Grande Rue",
+          "contact:city": "Besançon",
+          "contact:housenumber": "95",
+          "contact:phone": "+33 3 81 82 00 88",
+          "contact:postcode": "25000",
+          "contact:street": "Grande Rue",
+          "contact:website": "https://www.sandalesdempedocle.fr/",
+          "name": "Les Sandales d'Empédocle",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "35051777700024",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1419626721,
+        "lat": 47.2374163,
+        "lon": 6.0269972,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "71",
+          "addr:postcode": "25000",
+          "addr:street": "Rue des Granges",
+          "brand": "Fivel",
+          "name": "La Fabuleuse Eclair",
+          "opening_hours": "Tu-Sa 07:30-20:00",
+          "phone": "+33381480299",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1870279004,
+        "lat": 47.2348316,
+        "lon": 6.0120244,
+        "tags": {
+          "name": "Tang Marché",
+          "ref:FR:SIRET": "10149893900012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2094978279,
+        "lat": 47.238441,
+        "lon": 6.0218966,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "6",
+          "addr:postcode": "25000",
+          "addr:street": "Rue Pasteur",
+          "check_date:opening_hours": "2025-05-20",
+          "contact:email": "contact@doubs-direct.fr",
+          "contact:housenumber": "6",
+          "contact:phone": "+33 3 81 50 55 91",
+          "contact:street": "Rue Pasteur",
+          "contact:website": "https://doubs-direct.fr",
+          "name": "Doubs direct",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:NAF": "4729Z",
+          "ref:FR:SIREN": "525396198",
+          "ref:FR:SIRET": "52539619800018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2423370582,
+        "lat": 47.2486641,
+        "lon": 6.0307394,
+        "tags": {
+          "indoor_seating": "yes",
+          "name": "Granvoinnet",
+          "opening_hours": "Mo-Sa 08:00-19:30; Su 08:00-13:30",
+          "outdoor_seating": "yes",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2423370637,
+        "lat": 47.2473326,
+        "lon": 6.0273791,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "2",
+          "addr:postcode": "25000",
+          "addr:street": "Rue du Chasnot",
+          "contact:city": "Besançon",
+          "contact:housenumber": "2",
+          "contact:postcode": "25000",
+          "contact:street": "Rue du Chasnot",
+          "indoor_seating": "no",
+          "name": "Au Pain d'Antan",
+          "opening_hours": "Tu-Su 06:00-19:00",
+          "outdoor_seating": "no",
+          "phone": "+33381662546",
+          "ref:FR:SIRET": "79772309500015",
+          "shop": "bakery",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2813263410,
+        "lat": 47.2350151,
+        "lon": 6.0321153,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "11",
+          "addr:postcode": "25000",
+          "addr:street": "Rue Rivotte",
+          "contact:phone": "+33 3 81 62 48 22",
+          "name": "A mie chemin",
+          "opening_hours": "Tu-Sa 06:00-13:30,15:30-19:30; Su 07:30-13:30",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "489972851",
+          "ref:FR:SIRET": "953 868 635 00012",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3078079758,
+        "lat": 47.2403727,
+        "lon": 6.0243297,
+        "tags": {
+          "indoor_seating": "no",
+          "name": "Atelier du pain",
+          "opening_hours": "Tu-Fr 07:00-19:30; Mo,Sa 07:30-19:30",
+          "outdoor_seating": "no",
+          "ref:FR:SIRET": "83141287900031",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3082962197,
+        "lat": 47.2482881,
+        "lon": 6.0370636,
+        "tags": {
+          "name": "Le Moulin des Pains",
+          "ref:FR:SIRET": "41151504200058",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3206192562,
+        "lat": 47.23959,
+        "lon": 6.0187955,
+        "tags": {
+          "name": "Mazar Market",
+          "phone": "+33 7 67 91 82 99",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3206252427,
+        "lat": 47.2389337,
+        "lon": 6.0179725,
+        "tags": {
+          "name": "Espace Som",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3841811333,
+        "lat": 47.2524887,
+        "lon": 6.0168904,
+        "tags": {
+          "name": "Maison Christe",
+          "opening_hours": "Mo, We-Sa 06:45-19:00; Su 06:45-19:00",
+          "ref:FR:SIRET": "51372676000053",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3892907757,
+        "lat": 47.2379901,
+        "lon": 6.0265018,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "59",
+          "addr:postcode": "25000",
+          "addr:street": "Rue des Granges",
+          "air_conditioning": "yes",
+          "contact:city": "Besançon",
+          "contact:housenumber": "59",
+          "contact:phone": "+33 3 81 58 76 60",
+          "contact:postcode": "25000",
+          "contact:street": "Rue des Granges",
+          "contact:website": "https://www.librairie-intranquille.fr/",
+          "email": "contact@librairie-intranquille.fr",
+          "name": "L'Intranquille",
+          "opening_hours": "Mo-Fr 10:00-19:00; Sa 09:30-19:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "ref:FR:SIRET": "80253435400013",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4454493492,
+        "lat": 47.2541442,
+        "lon": 6.0156053,
+        "tags": {
+          "amenity": "vending_machine",
+          "name": "Cabane à Pain",
+          "opening_hours": "24/7",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4465415650,
+        "lat": 47.2531915,
+        "lon": 6.015897,
+        "tags": {
+          "contact:city": "Besançon",
+          "contact:housenumber": "51",
+          "contact:postcode": "25000",
+          "contact:street": "Rue de Vesoul",
+          "name": "Le Rallye",
+          "opening_hours": "06:30-19:30",
+          "phone": "+33 3 81 60 70 80",
+          "shop": "kiosk",
+          "tickets:public_transport": "yes",
+          "tobacco": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4590754189,
+        "lat": 47.2408905,
+        "lon": 6.018193,
+        "tags": {
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4920177643,
+        "lat": 47.2358166,
+        "lon": 6.0258968,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "4",
+          "addr:postcode": "25000",
+          "addr:street": "Rue de la Préfecture",
+          "bulk_purchase": "only",
+          "contact:housenumber": "90",
+          "contact:phone": "+33 3 81 86 75 33",
+          "currency:XLT": "PIVE",
+          "email": "info@levrac.store",
+          "facebook": "https://www.facebook.com/levracepiceriesansemballage/",
+          "name": "Le Vrac",
+          "opening_hours": "Mo-Fr 09:00-19:30; Sa 09:00-19:00",
+          "organic": "only",
+          "payment:cash:XLT-PIVE": "yes",
+          "ref:FR:NAF": "4711B",
+          "ref:FR:SIRET": "80468120300027",
+          "shop": "convenience",
+          "website": "https://www.levrac.store/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5001142625,
+        "lat": 47.2435341,
+        "lon": 6.0302101,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "13",
+          "addr:postcode": "25000",
+          "addr:street": "Avenue Carnot",
+          "brand": "Festival des Pains",
+          "brand:wikidata": "Q3070334",
+          "contact:phone": "+33 381880537",
+          "name": "Festival des pains",
+          "opening_hours": "Mo-Fr 06:30-19:00; Sa 06:30-13:00",
+          "ref:FR:SIRET": "49348348100039",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5083170075,
+        "lat": 47.2315001,
+        "lon": 6.013157,
+        "tags": {
+          "name": "Chez Nathalie",
+          "opening_hours": "Su 08:00-13:00; Tu-Sa 08:00-13:00,15:30-19:00",
+          "ref:FR:SIRET": "84111043000011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5422941923,
+        "lat": 47.2335771,
+        "lon": 6.0265813,
+        "tags": {
+          "addr:housenumber": "6",
+          "addr:street": "Rue Chifflet",
+          "indoor_seating": "no",
+          "name": "La Grignardise",
+          "opening_hours": "Mo-Th 07:30-13:30,16:00-19:00; Fr-Sa 07:30-13:30",
+          "outdoor_seating": "no",
+          "ref:FR:SIRET": "44349772200027",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5477653500,
+        "lat": 47.2476071,
+        "lon": 6.0286681,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "30",
+          "addr:postcode": "25000",
+          "addr:street": "Rue de Belfort",
+          "indoor_seating": "yes",
+          "name": "Moulin des pains",
+          "opening_hours": "Mo-Su 06:00-19:30; Sa off",
+          "outdoor_seating": "no",
+          "ref:FR:SIRET": "41151504200033",
+          "shop": "bakery",
+          "smoking": "no",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5523632497,
+        "lat": 47.2352048,
+        "lon": 6.0283599,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "120",
+          "addr:postcode": "25000",
+          "addr:street": "Grande Rue",
+          "contact:facebook": "https://www.facebook.com/people/Maison-Amiot/61569887068438",
+          "name": "Maison Amiot",
+          "opening_hours": "Tu-Sa 06:00-19:20",
+          "operator": "Édouard Amiot",
+          "ref:FR:SIRET": "92840381500030",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5772255953,
+        "lat": 47.237425,
+        "lon": 6.0278755,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "12",
+          "addr:postcode": "25000",
+          "addr:street": "Rue François-Louis Bersot",
+          "check_date": "2024-04-26",
+          "contact:city": "Besançon",
+          "contact:email": "minederien25@orange.fr",
+          "contact:housenumber": "12",
+          "contact:phone": "+33 3 81 50 43 45",
+          "contact:postcode": "25000",
+          "contact:street": "Rue François-Louis Bersot",
+          "name": "Mine de rien",
+          "opening_hours": "Mo 13:00-19:00; Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "79994367500014",
+          "shop": "books",
+          "website": "https://www.canalbd.net/mine-de-rien",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6022577610,
+        "lat": 47.241674,
+        "lon": 6.0206684,
+        "tags": {
+          "branch": "Besançon",
+          "brand": "day by day",
+          "brand:wikidata": "Q48748765",
+          "bulk_purchase": "only",
+          "contact:city": "Besançon",
+          "contact:email": "daybyday.besancon@gmail.com",
+          "contact:facebook": "https://www.facebook.com/daybydaybesancon/",
+          "contact:housenumber": "42",
+          "contact:phone": "+33 3 81 62 13 35",
+          "contact:postcode": "25000",
+          "contact:street": "Rue Battant",
+          "contact:website": "http://daybyday-shop.com/magasin/besancon",
+          "currency:XLT": "PIVE",
+          "description": "Épicerie 100% vrac pour faire vos courses du quotidien, en quantité à la demande et sans emballage superflu.",
+          "name": "day by day",
+          "opening_hours": "Mo off; Tu-Sa 10:00-13:30,15:00-19:00; Su 10:00-13:00",
+          "organic": "yes",
+          "payment:cash": "yes",
+          "payment:cash:XLT-PIVE": "yes",
+          "payment:contactless": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "ref:FR:SIRET": "84121886000010",
+          "shop": "convenience",
+          "start_date": "2018-10-23",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6039488130,
+        "lat": 47.236552,
+        "lon": 6.0287907,
+        "tags": {
+          "contact:email": "contact@pastaetpetitsplats.fr",
+          "contact:facebook": "pastaetpetitsplats",
+          "contact:instagram": "pastaetpetitsplats",
+          "contact:phone": "+33 6 76 65 66 80",
+          "contact:website": "https://www.pastaetpetitsplats.fr",
+          "currency:XLT": "PIVE",
+          "name": "Pasta & Petits Plats",
+          "opening_hours": "Tu-Fr 11:00-13:30,16:00-19:00; Sa 11:00-19:00",
+          "payment:cash:XLT-PIVE": "yes",
+          "ref:FR:SIRET": "80761427600028",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6289517762,
+        "lat": 47.2433316,
+        "lon": 6.0316084,
+        "tags": {
+          "name": "Épicerie artisanale",
+          "post_office": "post_partner",
+          "post_office:brand": "Point Relais",
+          "service:print": "yes",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6290772691,
+        "lat": 47.254208,
+        "lon": 6.0153035,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "52",
+          "addr:postcode": "25000",
+          "addr:street": "Rue de Vesoul",
+          "name": "Maison Fivel",
+          "opening_hours": "Tu-Sa 06:00-19:00; Su 06:00-12:30; Mo off",
+          "operator": "Fivel",
+          "phone": "+33 3 81 50 27 84",
+          "ref:FR:SIRET": "75182417800030",
+          "shop": "bakery",
+          "website": "https://www.boulangerie-fivel.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6293162893,
+        "lat": 47.238413,
+        "lon": 6.0289228,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "49",
+          "addr:postcode": "25000",
+          "addr:street": "Rue François-Louis Bersot",
+          "contact:facebook": "http://www.facebook.com/Bouquinerie-Comtoise-1593529440735075/",
+          "name": "Bouquinerie Comtoise",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:30-12:00,14:00-19:00",
+          "phone": "+33612955767",
+          "ref:FR:SIRET": "32978897000021",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6293245503,
+        "lat": 47.2373909,
+        "lon": 6.0278432,
+        "tags": {
+          "brand": "Fivel",
+          "name": "Maison Fivel",
+          "opening_hours": "Tu-Sa 07:30-19:00",
+          "ref:FR:SIRET": "75182417800048",
+          "shop": "bakery",
+          "website": "https://www.boulangerie-fivel.fr",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6293392011,
+        "lat": 47.2346662,
+        "lon": 6.0252831,
+        "tags": {
+          "email": "bonjour@linterstice.fr",
+          "name": "L’Interstice",
+          "opening_hours": "Mo-Fr 07:30-18:30; Sa 09:00-18:30",
+          "ref:FR:SIRET": "91896843900011",
+          "second_hand": "yes",
+          "shop": "books",
+          "stroller": "yes",
+          "website": "https://linterstice.fr",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6293531652,
+        "lat": 47.2403877,
+        "lon": 6.0278505,
+        "tags": {
+          "check_date:opening_hours": "2025-06-14",
+          "name": "Marché d'Istanbul",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "80419067600010",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6295777750,
+        "lat": 47.242858,
+        "lon": 6.0210513,
+        "tags": {
+          "check_date:opening_hours": "2024-05-25",
+          "name": "L'Epicerie",
+          "opening_hours:signed": "no",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6295778212,
+        "lat": 47.2418793,
+        "lon": 6.0205738,
+        "tags": {
+          "check_date:opening_hours": "2024-05-25",
+          "name": "Epicerie Orientale",
+          "opening_hours:signed": "no",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6295810984,
+        "lat": 47.2394848,
+        "lon": 6.0178041,
+        "tags": {
+          "name": "L'Autodidacte",
+          "ref:FR:SIRET": "89934965800018",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6295814592,
+        "lat": 47.2409106,
+        "lon": 6.0180909,
+        "tags": {
+          "newsagent": "yes",
+          "shop": "convenience",
+          "tobacco": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6295816455,
+        "lat": 47.2395716,
+        "lon": 6.0190552,
+        "tags": {
+          "noname": "yes",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6300758526,
+        "lat": 47.2371589,
+        "lon": 6.0251178,
+        "tags": {
+          "check_date": "2023-06-18",
+          "name": "BD Fugue Café",
+          "opening_hours": "Tu-Sa 09:30-19:00",
+          "phone": "+333 81 81 97 66",
+          "ref:FR:SIRET": "33355398000058",
+          "shop": "books",
+          "website": "https://www.bdfugue.com/besancon"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6300799676,
+        "lat": 47.2391549,
+        "lon": 6.0241971,
+        "tags": {
+          "check_date:opening_hours": "2022-01-22",
+          "indoor_seating": "no",
+          "name": "1904 à nos Jours",
+          "opening_hours": "Mo-Sa 07:00-19:00",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "45153962100016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6300799792,
+        "lat": 47.2390313,
+        "lon": 6.0246394,
+        "tags": {
+          "addr:housenumber": "19",
+          "addr:street": "Rue des Granges",
+          "automatic_door": "no",
+          "level": "0",
+          "name": "Superette du centre",
+          "ref:FR:SIRET": "92975133700015",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6413768534,
+        "lat": 47.2315549,
+        "lon": 6.0133017,
+        "tags": {
+          "name": "Le Four à Pains",
+          "opening_hours": "Mo,Sa 07:30-14:00; Su 07:30-12:30; We-Fr 07:30-13:30,16:00-19:30",
+          "ref:FR:SIRET": "49147834300016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6481374770,
+        "lat": 47.238121,
+        "lon": 6.0229632,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "5",
+          "addr:postcode": "25000",
+          "addr:street": "Rue d'Anvers",
+          "name": "L'Ilot Bouquinerie d'Anvers",
+          "opening_hours": "Tu-Fr 09:00-12:00,14:00-18:45; Sa 09:00-12:00,14:00-18:30",
+          "phone": "+33381822340",
+          "shop": "books",
+          "website": "https://www.bouquinerie-d-anvers.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6481374779,
+        "lat": 47.2372514,
+        "lon": 6.0219575,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "22",
+          "addr:postcode": "25000",
+          "addr:street": "Rue Pasteur",
+          "name": "Le réunionnais",
+          "opening_hours": "Tu-Sa 10:00-19:00; Th 13:00-19:00",
+          "phone": "+33339731021",
+          "ref:FR:SIRET": "83281657300014",
+          "shop": "convenience",
+          "website": "https://www.le-reunionnais.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6509540355,
+        "lat": 47.2368553,
+        "lon": 6.0104274,
+        "tags": {
+          "name": "Au Petit Villarceau",
+          "newsagent": "yes",
+          "opening_hours": "Mo-Fr 06:30-20:00; Sa 07:30-20:00; Su 08:30-20:00",
+          "ref:FR:SIRET": "53520799700011",
+          "shop": "convenience",
+          "tickets:public_transport": "yes",
+          "tobacco": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6928327734,
+        "lat": 47.2283959,
+        "lon": 6.0319789,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "13b",
+          "addr:postcode": "25000",
+          "addr:street": "Faubourg Tarragnoz",
+          "check_date": "2024-11-30",
+          "facebook": "https://www.facebook.com/Tarrabioepicerie/",
+          "level": "0",
+          "name": "Tarrabio",
+          "opening_hours": "Mo-Sa 10:00-19:30; Su 10:00-13:00",
+          "organic": "only",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 7 86 24 92 00",
+          "shop": "convenience",
+          "source": "local knowledge;official website",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7074372368,
+        "lat": 47.2394959,
+        "lon": 6.0228785,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "18",
+          "addr:postcode": "25000",
+          "addr:street": "Place de la Révolution",
+          "email": "secretariat@forum-besancon.fr",
+          "name": "Librairie Grand Forum",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "phone": "+33 3 81 81 86 06",
+          "ref:FR:SIRET": "79954302000033",
+          "shop": "books",
+          "was:name": "Maisons du Monde",
+          "website": "https://www.forum-besancon.fr",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7075445954,
+        "lat": 47.2388279,
+        "lon": 6.0246891,
+        "tags": {
+          "name": "Nathalie Pequignot",
+          "ref:FR:SIRET": "81532367000019",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7164364439,
+        "lat": 47.2401296,
+        "lon": 6.0239106,
+        "tags": {
+          "check_date:opening_hours": "2024-06-02",
+          "contact:city": "Besançon",
+          "contact:housenumber": "6",
+          "contact:postcode": "25000",
+          "contact:street": "Rue Gustave Courbet",
+          "contact:website": "https://reservoir-books.com/",
+          "name": "Reservoir Books",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "ref:FR:NAF": "4761Z",
+          "ref:FR:SIREN": "853025724",
+          "ref:FR:SIRET": "85302572400016",
+          "shop": "books",
+          "start_date": "20190808",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7165997759,
+        "lat": 47.2389455,
+        "lon": 6.0214705,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:postcode": "25000",
+          "addr:street": "Passage Pasteur",
+          "check_date": "2024-04-25",
+          "name": "Poulaillon",
+          "opening_hours": "Mo-Sa 08:30-19:00",
+          "phone": "+33381508323",
+          "shop": "bakery",
+          "website": "https://www.poulaillon.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7191793320,
+        "lat": 47.2356457,
+        "lon": 6.0237575,
+        "tags": {
+          "name": "Passage 18",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7193105900,
+        "lat": 47.2378054,
+        "lon": 6.0282156,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "31",
+          "addr:postcode": "25000",
+          "addr:street": "Rue François-Louis Bersot",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7193755947,
+        "lat": 47.236748,
+        "lon": 6.0255571,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "89",
+          "addr:postcode": "25000",
+          "addr:street": "Grande Rue",
+          "contact:city": "Besançon",
+          "contact:email": "contact@sineoka.fr",
+          "contact:housenumber": "89",
+          "contact:phone": "+33 9 54 74 02 10",
+          "contact:postcode": "25000",
+          "contact:street": "Grande Rue",
+          "contact:website": "http://sineoka.com/",
+          "name": "Sinéoka",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "88056169100028",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7220654274,
+        "lat": 47.2367737,
+        "lon": 6.0283763,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "91",
+          "addr:postcode": "25000",
+          "addr:street": "Rue des Granges",
+          "name": "Le Bibliovore",
+          "opening_hours": "Tu,Fr 10:00-13:00,14:30-19:00; Th 14:30-19:00; Sa 10:00-19:00",
+          "phone": "+33370889439",
+          "ref:FR:SIRET": "92098085100017",
+          "shop": "books",
+          "website": "https://www.lebibliovore.fr/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7272378538,
+        "lat": 47.2355476,
+        "lon": 6.0313445,
+        "tags": {
+          "name": "Delaire",
+          "ref:FR:SIRET": "49351587800012",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7331060539,
+        "lat": 47.2527143,
+        "lon": 6.0364792,
+        "tags": {
+          "brand": "Panier Sympa",
+          "brand:wikidata": "Q118129533",
+          "level": "0",
+          "name": "Panier Sympa",
+          "opening_hours": "Mo-Su 08:00-23:00",
+          "operator": "Codifrance",
+          "operator:wikidata": "Q2981692",
+          "ref:FR:NAF": "4711B",
+          "ref:FR:SIREN": "887603215",
+          "ref:vatin": "FR92887603215",
+          "shop": "convenience",
+          "start_date": "2025-07-21",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7331060541,
+        "lat": 47.2526242,
+        "lon": 6.0363599,
+        "tags": {
+          "name": "Le Fournil des Chaprais",
+          "opening_hours": "Tu-Sa 07:15-13:00; Su 07:15-12:30",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7549340010,
+        "lat": 47.2405488,
+        "lon": 6.0187988,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "13",
+          "addr:postcode": "25000",
+          "addr:street": "Rue de la Madeleine",
+          "name": "Latulu",
+          "opening_hours": "Tu-Sa 10:00-12:00,14:00-19:00",
+          "phone": "+33381812366",
+          "ref:FR:SIRET": "91443092100017",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9042629058,
+        "lat": 47.2405653,
+        "lon": 6.0235004,
+        "tags": {
+          "indoor_seating": "no",
+          "level": "0",
+          "name": "Le Moulin des Pains",
+          "opening_hours": "Tu-Th 08:00-12:30, Fr-Su 08:00-13:00, Fr,Sa 15:30-18:30",
+          "operator": "Voquin",
+          "outdoor_seating": "no",
+          "phone": "+33 6 18 44 07 54",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "411515042",
+          "ref:vatin": "FR45411515042",
+          "shop": "bakery",
+          "start_date": "2014",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9650252636,
+        "lat": 47.2569241,
+        "lon": 6.0215464,
+        "tags": {
+          "automated": "yes",
+          "name": "Ximiti",
+          "opening_hours": "Mo-Su,PH 12:00-12:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9779595527,
+        "lat": 47.2406762,
+        "lon": 6.0188744,
+        "tags": {
+          "name": "Les Épices du Comté",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9832474661,
+        "lat": 47.2537304,
+        "lon": 6.0168735,
+        "tags": {
+          "door": "sliding",
+          "entrance": "main",
+          "level": "0",
+          "name": "Amman alimentation",
+          "ref:FR:SIREN": "895183630",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10801640200,
+        "lat": 47.2409434,
+        "lon": 6.0202561,
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "check_date:opening_hours": "2024-05-25",
+          "name": "Vival",
+          "opening_hours:signed": "no",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11103181930,
+        "lat": 47.2357419,
+        "lon": 6.0309421,
+        "tags": {
+          "name": "Yarl Market Food",
+          "ref:FR:SIRET": "90123698400018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11414655545,
+        "lat": 47.256882,
+        "lon": 6.0350915,
+        "tags": {
+          "name": "Maison Christe",
+          "ref:FR:SIRET": "51372676000038",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11457475823,
+        "lat": 47.2432303,
+        "lon": 6.0215229,
+        "tags": {
+          "check_date:opening_hours": "2024-05-25",
+          "name": "L'épicerie",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "75055868600028",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11482859572,
+        "lat": 47.2340258,
+        "lon": 6.0272147,
+        "tags": {
+          "check_date:opening_hours": "2024-05-07",
+          "name": "À la page",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "34107656000018",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13627121255,
+        "lat": 47.2400961,
+        "lon": 6.0275526,
+        "tags": {
+          "bulk_purchase": "yes",
+          "email": "origine.local@gmail.com",
+          "name": "Origine",
+          "opening_hours": "Mo-Sa 08:00-19:30; Su 10:00-18:00",
+          "phone": "+33362163066",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13634315070,
+        "lat": 47.2392015,
+        "lon": 6.0190085,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "29",
+          "addr:postcode": "25000",
+          "addr:street": "Quai Adolphe Veil Picard",
+          "contact:facebook": "https://www.facebook.com/profile.php?id=100054263871638",
+          "email": "pascal.dabouzi@yahoo.com",
+          "name": "La P'tite Boulange",
+          "opening_hours": "Mo-Sa 07:00-19:30",
+          "payment:coins": "yes",
+          "payment:mastercard": "yes",
+          "payment:notes": "yes",
+          "payment:ticket_restaurant": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 9 51 09 17 40",
+          "shop": "bakery",
+          "website": "https://la-ptite-boulange.eatbu.com/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13994940659,
+        "lat": 47.2397887,
+        "lon": 6.0194564,
+        "tags": {
+          "name": "Omeri market",
+          "phone": "+33 3 81 81 39 65",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13994940661,
+        "lat": 47.239627,
+        "lon": 6.0191459,
+        "tags": {
+          "name": "L’amandine",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13994940663,
+        "lat": 47.2394117,
+        "lon": 6.0185062,
+        "tags": {
+          "name": "Ariana",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13994940668,
+        "lat": 47.2388226,
+        "lon": 6.0177954,
+        "tags": {
+          "name": "Maison bourbon",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "way",
+        "id": 77026251,
+        "center": {
+          "lat": 47.256108,
+          "lon": 6.0335984
+        },
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "building": "retail",
+          "name": "Vival",
+          "phone": "+33 3 81 88 48 22",
+          "ref:FR:SIRET": "52115811300022",
+          "shop": "convenience",
+          "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
+          "website": "https://vival.casino.fr/stores/e1354"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

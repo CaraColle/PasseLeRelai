@@ -4,8 +4,247 @@
     "lat": 43.6157,
     "lng": 3.9325
   },
-  "isochrones": null,
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "isochrones": {
+    "type": "FeatureCollection",
+    "bbox": [
+      3.929121,
+      43.611419,
+      3.939822,
+      43.6188
+    ],
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "group_index": 0,
+          "value": 300,
+          "center": [
+            3.932504136140624,
+            43.61589081329398
+          ]
+        },
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                3.932346,
+                43.61816
+              ],
+              [
+                3.931931,
+                43.616634
+              ],
+              [
+                3.931853,
+                43.616333
+              ],
+              [
+                3.931935,
+                43.616039
+              ],
+              [
+                3.933585,
+                43.614527
+              ],
+              [
+                3.935288,
+                43.614143
+              ],
+              [
+                3.936816,
+                43.614016
+              ],
+              [
+                3.937038,
+                43.614299
+              ],
+              [
+                3.937533,
+                43.615966
+              ],
+              [
+                3.937501,
+                43.616324
+              ],
+              [
+                3.936591,
+                43.617002
+              ],
+              [
+                3.936156,
+                43.617289
+              ],
+              [
+                3.934132,
+                43.618571
+              ],
+              [
+                3.932922,
+                43.618786
+              ],
+              [
+                3.932832,
+                43.6188
+              ],
+              [
+                3.932346,
+                43.61816
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "group_index": 0,
+          "value": 600,
+          "center": [
+            3.932504136140624,
+            43.61589081329398
+          ]
+        },
+        "geometry": {
+          "coordinates": [
+            [
+              [
+                3.929121,
+                43.614757
+              ],
+              [
+                3.929138,
+                43.614398
+              ],
+              [
+                3.929827,
+                43.613481
+              ],
+              [
+                3.930158,
+                43.613223
+              ],
+              [
+                3.933484,
+                43.612116
+              ],
+              [
+                3.936109,
+                43.611419
+              ],
+              [
+                3.939431,
+                43.613008
+              ],
+              [
+                3.939822,
+                43.613841
+              ],
+              [
+                3.938773,
+                43.617945
+              ],
+              [
+                3.935136,
+                43.61866
+              ],
+              [
+                3.932832,
+                43.6188
+              ],
+              [
+                3.932152,
+                43.618717
+              ],
+              [
+                3.929121,
+                43.614757
+              ]
+            ]
+          ],
+          "type": "Polygon"
+        }
+      }
+    ],
+    "metadata": {
+      "attribution": "openrouteservice.org | OpenStreetMap contributors",
+      "service": "isochrones",
+      "timestamp": 1785863101759,
+      "query": {
+        "profile": "foot-walking",
+        "profileName": "foot-walking",
+        "locations": [
+          [
+            3.9325,
+            43.6157
+          ]
+        ],
+        "range": [
+          300,
+          600
+        ],
+        "range_type": "time",
+        "units": "m"
+      },
+      "engine": {
+        "version": "9.9.0",
+        "build_date": "2026-06-12T10:08:58Z",
+        "graph_date": "2026-07-28T19:03:26Z",
+        "osm_date": "2026-07-20T00:00:00Z"
+      }
+    }
+  },
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:06:53Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 11541149184,
+        "lat": 43.6038629,
+        "lon": 3.9198792,
+        "tags": {
+          "addr:city": "Montpellier",
+          "addr:postcode": "34000",
+          "addr:street": "Place de Lisbonne",
+          "level": "0",
+          "name": "Sauramps",
+          "shop": "books",
+          "survey:date": "2024-01-22"
+        }
+      },
+      {
+        "type": "way",
+        "id": 474365233,
+        "center": {
+          "lat": 43.604438,
+          "lon": 3.9224615
+        },
+        "tags": {
+          "addr:city": "Montpellier",
+          "addr:postcode": "34000",
+          "brand": "Brioche Dorée",
+          "brand:wikidata": "Q2925606",
+          "brand:wikipedia": "fr:Brioche Dorée",
+          "building": "yes",
+          "contact:phone": "+33 4 67 65 00 63",
+          "indoor": "room",
+          "indoor_seating": "yes",
+          "name": "Brioche Dorée",
+          "opening_hours": "Mo-Sa 08:30-20:00",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "31890659102583",
+          "shop": "bakery",
+          "website": "https://www.briochedoree.fr/restaurants/614-montpellier-c.cial-odysseum",
+          "wheelchair": "yes"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

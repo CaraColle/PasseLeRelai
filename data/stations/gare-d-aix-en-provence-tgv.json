@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      5.307953,
-      43.451722,
-      5.324352,
-      43.459589
+      5.312484,
+      43.45202,
+      5.319834,
+      43.458192
     ],
     "features": [
       {
@@ -152,130 +152,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            5.317077896840917,
-            43.455274300761765
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                5.308462,
-                43.454951
-              ],
-              [
-                5.308208,
-                43.454256
-              ],
-              [
-                5.307953,
-                43.452822
-              ],
-              [
-                5.308102,
-                43.452494
-              ],
-              [
-                5.308999,
-                43.451722
-              ],
-              [
-                5.309421,
-                43.451787
-              ],
-              [
-                5.309842,
-                43.451851
-              ],
-              [
-                5.310182,
-                43.451951
-              ],
-              [
-                5.31102,
-                43.452269
-              ],
-              [
-                5.311846,
-                43.452583
-              ],
-              [
-                5.3166,
-                43.452813
-              ],
-              [
-                5.317993,
-                43.45202
-              ],
-              [
-                5.318618,
-                43.453129
-              ],
-              [
-                5.322326,
-                43.455985
-              ],
-              [
-                5.324087,
-                43.456372
-              ],
-              [
-                5.324352,
-                43.456394
-              ],
-              [
-                5.324322,
-                43.456752
-              ],
-              [
-                5.321905,
-                43.459589
-              ],
-              [
-                5.318727,
-                43.45863
-              ],
-              [
-                5.315648,
-                43.45838
-              ],
-              [
-                5.315288,
-                43.458385
-              ],
-              [
-                5.313605,
-                43.458263
-              ],
-              [
-                5.31061,
-                43.457072
-              ],
-              [
-                5.310323,
-                43.456854
-              ],
-              [
-                5.308462,
-                43.454951
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809778125,
+      "timestamp": 1785863675443,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -287,8 +169,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -301,7 +182,55 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:15:06Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "way",
+        "id": 1161733053,
+        "center": {
+          "lat": 43.4552616,
+          "lon": 5.3168922
+        },
+        "tags": {
+          "amenity": "fast_food",
+          "brand": "Prêt à Manger",
+          "brand:wikidata": "Q2109109",
+          "brand:wikipedia": "fr:Pret A Manger",
+          "cuisine": "sandwich",
+          "diet:vegetarian": "yes",
+          "indoor": "room",
+          "level": "0",
+          "opening_hours": "Mo-Fr 05:00-21:00; Sa,Su 06:00-21:00; PH 06:00-21:30",
+          "shop": "bakery",
+          "takeaway": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1192092066,
+        "center": {
+          "lat": 43.4552367,
+          "lon": 5.3168932
+        },
+        "tags": {
+          "baby_feeding": "no",
+          "check_date": "2026-06-19",
+          "indoor": "room",
+          "level": "1",
+          "name": "Bo&Mie",
+          "opening_hours": "Mo-Fr 05:00-21:00; Sa-Su 06:00-21:00",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

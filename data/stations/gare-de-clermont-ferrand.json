@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      3.080706,
-      45.766256,
-      3.110709,
-      45.786439
+      3.08588,
+      45.769806,
+      3.105458,
+      45.783165
     ],
     "features": [
       {
@@ -129,6 +129,10 @@
                 45.775461
               ],
               [
+                3.089487,
+                45.771478
+              ],
+              [
                 3.089572,
                 45.771408
               ],
@@ -205,6 +209,10 @@
                 45.783079
               ],
               [
+                3.09091,
+                45.781485
+              ],
+              [
                 3.090799,
                 45.781435
               ],
@@ -228,202 +236,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            3.095611,
-            45.77669
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                3.082337,
-                45.778207
-              ],
-              [
-                3.081681,
-                45.777358
-              ],
-              [
-                3.080897,
-                45.775786
-              ],
-              [
-                3.08072,
-                45.775395
-              ],
-              [
-                3.080706,
-                45.775317
-              ],
-              [
-                3.080797,
-                45.774968
-              ],
-              [
-                3.084567,
-                45.77074
-              ],
-              [
-                3.08526,
-                45.770051
-              ],
-              [
-                3.087713,
-                45.767874
-              ],
-              [
-                3.089239,
-                45.766536
-              ],
-              [
-                3.089589,
-                45.766449
-              ],
-              [
-                3.091449,
-                45.766861
-              ],
-              [
-                3.095708,
-                45.766336
-              ],
-              [
-                3.095992,
-                45.766265
-              ],
-              [
-                3.096158,
-                45.766256
-              ],
-              [
-                3.096812,
-                45.766303
-              ],
-              [
-                3.09713,
-                45.766473
-              ],
-              [
-                3.097871,
-                45.766907
-              ],
-              [
-                3.101676,
-                45.768694
-              ],
-              [
-                3.103821,
-                45.7687
-              ],
-              [
-                3.105527,
-                45.769338
-              ],
-              [
-                3.106588,
-                45.770028
-              ],
-              [
-                3.108159,
-                45.77234
-              ],
-              [
-                3.109576,
-                45.776352
-              ],
-              [
-                3.110708,
-                45.778366
-              ],
-              [
-                3.110709,
-                45.778417
-              ],
-              [
-                3.110656,
-                45.778773
-              ],
-              [
-                3.107414,
-                45.78304
-              ],
-              [
-                3.107384,
-                45.783078
-              ],
-              [
-                3.10735,
-                45.783095
-              ],
-              [
-                3.102074,
-                45.783879
-              ],
-              [
-                3.100932,
-                45.785091
-              ],
-              [
-                3.10091,
-                45.785102
-              ],
-              [
-                3.098995,
-                45.785647
-              ],
-              [
-                3.095966,
-                45.785677
-              ],
-              [
-                3.093017,
-                45.786275
-              ],
-              [
-                3.092661,
-                45.78633
-              ],
-              [
-                3.091929,
-                45.786439
-              ],
-              [
-                3.09176,
-                45.786121
-              ],
-              [
-                3.088752,
-                45.783281
-              ],
-              [
-                3.086722,
-                45.78286
-              ],
-              [
-                3.085529,
-                45.782064
-              ],
-              [
-                3.082337,
-                45.778207
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809780863,
+      "timestamp": 1785863693579,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -435,8 +253,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -449,7 +266,961 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:17:09Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 1270846030,
+        "lat": 45.7649992,
+        "lon": 3.1093556,
+        "tags": {
+          "contact:city": "Clermont-Ferrand",
+          "contact:housenumber": "174",
+          "contact:postcode": "63000",
+          "contact:street": "Boulevard Lafayette",
+          "name": "Crousti Pain",
+          "opening_hours": "Mo-Su 04:45-21:30",
+          "operator": "Crousti Pain",
+          "shop": "bakery",
+          "source": "Orthophotographie CRAIG/TopoGEODIS 2009"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1453606200,
+        "lat": 45.7713587,
+        "lon": 3.0843058,
+        "tags": {
+          "addr:city": "Clermont-Ferrand",
+          "addr:housenumber": "80",
+          "addr:postcode": "63000",
+          "addr:street": "Boulevard François Mitterrand",
+          "check_date:opening_hours": "2025-07-10",
+          "contact:city": "Clermont-Ferrand",
+          "contact:housenumber": "80",
+          "contact:phone": "+33 4 73 43 66 75",
+          "contact:postcode": "63000",
+          "contact:street": "Boulevard François Mitterrand",
+          "contact:website": "https://www.librairielesvolcans.com",
+          "name": "Librairie Les Volcans",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "80259399600019",
+          "ref:vatin": "FR82802593996",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1627303525,
+        "lat": 45.7730982,
+        "lon": 3.0923864,
+        "tags": {
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "check_date": "2023-08-31",
+          "name": "Spar",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 08:00-12:00",
+          "operator": "Spar",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 4 73 24 93 41",
+          "shop": "convenience",
+          "website": "https://magasins.spar.fr/fr/s/spar-clermont-ferrand-gergovia",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1786508692,
+        "lat": 45.7760712,
+        "lon": 3.086616,
+        "tags": {
+          "check_date": "2024-07-06",
+          "name": "Fournil Saint-Esprit",
+          "opening_hours": "Mo-Sa 06:30-20:00",
+          "pastry": "yes",
+          "ref:FR:SIRET": "33819345100014",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1786515313,
+        "lat": 45.7756213,
+        "lon": 3.0866052,
+        "tags": {
+          "check_date": "2025-08-31",
+          "name": "Tabac Presse",
+          "opening_hours": "Mo-Fr 06:30-19:30; Sa 07:00-19:30",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1928556805,
+        "lat": 45.7877443,
+        "lon": 3.0843257,
+        "tags": {
+          "check_date:opening_hours": "2026-04-04",
+          "name": "Le fournil de Jean",
+          "opening_hours": "Mo-Sa 06:30-20:00; Su 06:30-13:00",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1995869723,
+        "lat": 45.7778706,
+        "lon": 3.086245,
+        "tags": {
+          "check_date": "2023-08-31",
+          "name": "Nos Racines d'Auvergne",
+          "opening_hours": "Tu-Sa 10:00-12:30,14:30-19:00",
+          "shop": "books",
+          "source": "Bing",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2086035103,
+        "lat": 45.7803847,
+        "lon": 3.0903763,
+        "tags": {
+          "name": "Asswak Baba",
+          "opening_hours": "Tu-Th, Sa 09:00-19:00; Su 09:30-12:30; Fr 09:00-12:30, 14:30-19:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2523293552,
+        "lat": 45.7741089,
+        "lon": 3.0866204,
+        "tags": {
+          "name": "La Pyramide",
+          "opening_hours": "Mo-Fr 07:00-19:00",
+          "ref:FR:SIRET": "45132386900011",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2523341813,
+        "lat": 45.7754644,
+        "lon": 3.0815581,
+        "tags": {
+          "check_date": "2023-08-09",
+          "description": "Dépot de pain",
+          "name": "Le Fournil Saint-Esprit",
+          "opening_hours": "Mo-Sa 06:30-20:00",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2523356112,
+        "lat": 45.776559,
+        "lon": 3.0864052,
+        "tags": {
+          "addr:city": "Clermont-Ferrand",
+          "addr:housenumber": "29",
+          "addr:postcode": "63000",
+          "addr:street": "Rue de la Treille",
+          "check_date:opening_hours": "2025-06-17",
+          "name": "La Pochothèque",
+          "opening_hours": "Tu-Fr 14:00-19:00",
+          "phone": "+33 4 73 91 35 01",
+          "ref:FR:SIRET": "34204282700028",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2524499689,
+        "lat": 45.7715757,
+        "lon": 3.0838381,
+        "tags": {
+          "addr:housenumber": "80",
+          "addr:postcode": "63000",
+          "addr:street": "Boulevard François Mitterrand",
+          "branch": "Salins",
+          "check_date": "2025-08-08",
+          "contact:city": "Clermont-Ferrand",
+          "contact:housenumber": "80",
+          "contact:postcode": "63000",
+          "contact:street": "Boulevard François Mitterrand",
+          "name": "Sooji",
+          "opening_hours": "Mo-Sa 10:00-19:00; Su off",
+          "operator": "LEE",
+          "origin": "japanese;korean",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 4 73 93 91 01",
+          "ref:FR:SIRET": "82363464700015",
+          "shop": "convenience",
+          "website": "https://www.sooji.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3099983194,
+        "lat": 45.7820996,
+        "lon": 3.0961732,
+        "tags": {
+          "indoor_seating": "no",
+          "name": "Frédéric Rousseau",
+          "opening_hours": "Mo-Fr 05:30-19:00",
+          "outdoor_seating": "no",
+          "ref:FR:SIRET": "82800005900018",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3247441366,
+        "lat": 45.7784581,
+        "lon": 3.0807261,
+        "tags": {
+          "name": "Tournadre",
+          "opening_hours": "Tu-Sa 08:00-19:30",
+          "ref:FR:SIRET": "39047705700017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3314325385,
+        "lat": 45.7786471,
+        "lon": 3.0811813,
+        "tags": {
+          "alt_name": "La Chaumière",
+          "contact:city": "Clermont-Ferrand",
+          "contact:housenumber": "4",
+          "contact:postcode": "63000",
+          "contact:street": "Rue Saint-Dominique",
+          "name": "Martial Ray",
+          "opening_hours": "Tu-Sa 09:00-19:00",
+          "pastry_shop": "only",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3798348447,
+        "lat": 45.7787486,
+        "lon": 3.0826292,
+        "tags": {
+          "check_date:opening_hours": "2026-03-07",
+          "name": "Au Pain Paillasse",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "82919469500047",
+          "shop": "bakery",
+          "start_date": "2021_04",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3808916846,
+        "lat": 45.762403,
+        "lon": 3.0890232,
+        "tags": {
+          "addr:housenumber": "19",
+          "addr:street": "Rue des Gourlettes",
+          "check_date": "2025-08-29",
+          "name": "P'tits Pains",
+          "opening_hours": "Mo-Su 04:45-21:30",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3879726571,
+        "lat": 45.7786928,
+        "lon": 3.0843788,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/lalibrairieclermont/",
+          "contact:housenumber": "5 bis",
+          "contact:phone": "+33 9 60 52 11 50",
+          "contact:street": "Rue des Gras",
+          "name": "La Librairie",
+          "opening_hours": "Tu-Sa 10:00-12:30,14:00-19:00",
+          "ref:FR:SIRET": "50869613500021",
+          "ref:vatin": "FR27508696135",
+          "shop": "books",
+          "website": "https://lalibrairiedeclermont.wordpress.com/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4212690194,
+        "lat": 45.7801597,
+        "lon": 3.0909147,
+        "tags": {
+          "name": "Frassoni",
+          "opening_hours": "Mo-Fr 07:00-14:00",
+          "ref:FR:SIRET": "83424562300022",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4408632947,
+        "lat": 45.7779072,
+        "lon": 3.0825407,
+        "tags": {
+          "addr:city": "Clermont-Ferrand",
+          "addr:country": "FR",
+          "addr:housenumber": "11",
+          "addr:postcode": "63000",
+          "addr:street": "Rue Nestor Perret",
+          "check_date": "2025-08-31",
+          "name": "Le Fournil de Jean",
+          "opening_hours": "Mo-Sa 08:00-19:30; Su 08:00-12:30",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "payment:visa_debit": "yes",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4408632953,
+        "lat": 45.7790258,
+        "lon": 3.0816885,
+        "tags": {
+          "name": "Momie Mangas",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "50799820100028",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4503746794,
+        "lat": 45.7804935,
+        "lon": 3.0908855,
+        "tags": {
+          "check_date": "2025-08-28",
+          "name": "Lumière d'Arménie",
+          "name:fr": "Lumière d'Arménie",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4585753515,
+        "lat": 45.7750531,
+        "lon": 3.1007775,
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "brand:wikipedia": "en:Vival (shop)",
+          "name": "Vival",
+          "opening_hours": "Mo-Su 07:30-19:30",
+          "phone": "+33 4 73 92 69 22",
+          "ref:FR:SIRET": "84362581500017",
+          "shop": "convenience",
+          "website": "https://magasins.vival.fr/fr/vival-clermont-ferrand-la-cartoucherie"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4599266789,
+        "lat": 45.7780052,
+        "lon": 3.1074224,
+        "tags": {
+          "name": "Pain Paillasse",
+          "opening_hours": "Tu-Sa 06:30-13:30,15:00-18:45; Su 06:30-12:30",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4603579468,
+        "lat": 45.7655164,
+        "lon": 3.0908392,
+        "tags": {
+          "name": "Les Gourmandises de Saint Jacques",
+          "phone": "+33 4 73 26 59 37",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4621834879,
+        "lat": 45.7789364,
+        "lon": 3.0846585,
+        "tags": {
+          "books": "antiquarian",
+          "name": "Endroit-Envers",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4631580933,
+        "lat": 45.7628024,
+        "lon": 3.0993232,
+        "tags": {
+          "name": "Le Rustic",
+          "ref:FR:SIRET": "38871719100026",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4685425730,
+        "lat": 45.7770652,
+        "lon": 3.0852236,
+        "tags": {
+          "addr:city": "Clermont-Ferrand",
+          "addr:housenumber": "14",
+          "addr:postcode": "63000",
+          "addr:street": "Rue Saint-Genès",
+          "bulk_purchase": "only",
+          "contact:facebook": "https://www.facebook.com/Elodiededaybydayclermontferrand/",
+          "description:fr": "Épicerie en vrac, sans emballage",
+          "name": "Day by Day Clermont",
+          "opening_hours": "Tu-Fr 10:00-13:00, 14:30-19:00; Mo 15:00-19:00; Sa 10:00-13:30, 14:30-19:00",
+          "organic": "yes",
+          "payment:cash:XLT-DUME": "yes",
+          "phone": "+33473913534",
+          "ref:FR:SIRET": "88784063500015",
+          "shop": "convenience",
+          "website": "https://daybyday-shop.com/magasin/clermont-ferrand"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4710782969,
+        "lat": 45.7733698,
+        "lon": 3.0914295,
+        "tags": {
+          "name": "Épicerie de Chine",
+          "opening_hours": "Mo-Fr 09:30-19:00; Sa 10:00-19:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4727183192,
+        "lat": 45.7781706,
+        "lon": 3.0944948,
+        "tags": {
+          "name": "Mlézi",
+          "name:fr": "Mlézi",
+          "opening_hours": "Tu-Su 10:00-21:45",
+          "phone": "+33 6 30 78 41 61",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4889932575,
+        "lat": 45.7761005,
+        "lon": 3.0856582,
+        "tags": {
+          "books": "comic",
+          "check_date:opening_hours": "2023-04-18",
+          "name": "Esprit BD",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "41116967500047",
+          "shop": "books",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4947065425,
+        "lat": 45.7775652,
+        "lon": 3.0862205,
+        "tags": {
+          "name": "Market Massillon",
+          "opening_hours": "Mo 15:00-24:00; Tu-Su 09:00-24:00",
+          "ref:FR:SIRET": "81927670000013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5094555425,
+        "lat": 45.7792911,
+        "lon": 3.0999051,
+        "tags": {
+          "name": "Superette de la gare",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5195816699,
+        "lat": 45.7752094,
+        "lon": 3.0866012,
+        "tags": {
+          "name": "Le Fournil de Jean",
+          "opening_hours": "Mo-Sa 08:00-19:30",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5223303423,
+        "lat": 45.7779009,
+        "lon": 3.0850096,
+        "tags": {
+          "name": "Librairie Florent Bouté",
+          "ref:FR:SIRET": "40039251000071",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5459103443,
+        "lat": 45.7680212,
+        "lon": 3.1050421,
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "name": "Vival",
+          "opening_hours": "PH,Mo-Su 07:30-22:00",
+          "phone": "+33 6 42 76 53 24",
+          "shop": "convenience",
+          "website": "https://magasins.vival.fr/fr/vival-clermont-ferrand-lafayette"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5611387317,
+        "lat": 45.7784186,
+        "lon": 3.0815177,
+        "tags": {
+          "check_date": "2024-08-21",
+          "level": "0",
+          "name": "Book'in book'in",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-12:30,14:00-19:00",
+          "ref:FR:SIRET": "39371736800012",
+          "second_hand": "yes",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5611391821,
+        "lat": 45.7802828,
+        "lon": 3.0899545,
+        "tags": {
+          "name": "Bonlangerie Godefroid",
+          "opening_hours": "Su-Fr 07:30-13:30,15:30-19:00",
+          "ref:FR:SIRET": "81420539900037",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6278939097,
+        "lat": 45.7802769,
+        "lon": 3.0900996,
+        "tags": {
+          "name": "Clé du Triangle",
+          "opening_hours": "Tu-Sa 10:00-18:00",
+          "ref:FR:SIRET": "39901130300019",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6279001186,
+        "lat": 45.7803233,
+        "lon": 3.0872905,
+        "tags": {
+          "addr:city": "Clermont-Ferrand",
+          "addr:housenumber": "15",
+          "addr:postcode": "63000",
+          "addr:street": "Rue du Port",
+          "name": "Evil-One Comics",
+          "opening_hours": "Mo 14:00-18:00; Tu-Th 12:30-19:00; Fr,Sa 11:00-19:00",
+          "phone": "+33 4 73 14 04 01",
+          "ref:FR:SIRET": "41813529900026",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6299083187,
+        "lat": 45.7735828,
+        "lon": 3.0803172,
+        "tags": {
+          "name": "L'Épicerie du Monde",
+          "opening_hours": "Mo-Su 09:00-20:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6373844787,
+        "lat": 45.7865066,
+        "lon": 3.1042863,
+        "tags": {
+          "brand": "Banette",
+          "brand:wikidata": "Q2882405",
+          "brand:wikipedia": "fr:Banette (entreprise)",
+          "name": "Banette",
+          "opening_hours": "Mo-Fr 06:00-19:30",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6382984985,
+        "lat": 45.7785219,
+        "lon": 3.0867616,
+        "tags": {
+          "check_date": "2025-08-31",
+          "name": "Librairie Nouvelle",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6566212685,
+        "lat": 45.7738823,
+        "lon": 3.0933624,
+        "tags": {
+          "check_date": "2025-01-27",
+          "name": "Alimentation Générale",
+          "opening_hours": "24/7",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6612780083,
+        "lat": 45.7724359,
+        "lon": 3.0976766,
+        "tags": {
+          "name": "Chez Tanti'o",
+          "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-19:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6612795206,
+        "lat": 45.7785368,
+        "lon": 3.0872912,
+        "tags": {
+          "check_date:opening_hours": "2023-11-30",
+          "name": "Arcala",
+          "opening_hours:signed": "no",
+          "shop": "books",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6973986289,
+        "lat": 45.7793591,
+        "lon": 3.0859326,
+        "tags": {
+          "name": "Emma's Bookshop",
+          "opening_hours": "Tu-Sa 11:00-19:00",
+          "ref:FR:SIRET": "90134710400019",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7342979963,
+        "lat": 45.771886,
+        "lon": 3.0803739,
+        "tags": {
+          "brand": "L'épi Gaulois",
+          "name": "Le Fournil de Jean",
+          "opening_hours": "Mo-Fr 08:00-13:00; Sa-Su off",
+          "ref:FR:SIRET": "42138027000072",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7455134609,
+        "lat": 45.7791981,
+        "lon": 3.0850328,
+        "tags": {
+          "name": "Laïla Exotique",
+          "opening_hours": "Mo-Sa 09:30-19:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7962020086,
+        "lat": 45.7793392,
+        "lon": 3.0984489,
+        "tags": {
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "brand:wikipedia": "en:SPAR (retailer)",
+          "name": "Spar",
+          "opening_hours": "Mo-Sa 07:00-21:30; Su 08:00-21:30",
+          "phone": "+33 4 73 91 82 88",
+          "shop": "convenience",
+          "website": "https://magasins.spar.fr/fr/s/spar-clermont-ferrand-charras",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9140123993,
+        "lat": 45.7783215,
+        "lon": 3.0865515,
+        "tags": {
+          "name": "Le Bibliovore",
+          "opening_hours": "Mo-Sa 11:00-13:00,15:00-19:00",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9381839809,
+        "lat": 45.7728879,
+        "lon": 3.0912955,
+        "tags": {
+          "description": "Epicerie orientale",
+          "name": "Chame Market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9554547582,
+        "lat": 45.7652275,
+        "lon": 3.0934722,
+        "tags": {
+          "contact:city": "Clermont-Ferrand",
+          "contact:housenumber": "28",
+          "contact:postcode": "63000",
+          "contact:street": "Rue des Liondards",
+          "contact:website": "https://www.facebook.com/fournildesebastien",
+          "name": "Fournil de Sébastien",
+          "opening_hours": "Tu-Sa 06:45-13:30; Tu-Sa 15:30-19:00; Sa-Su 07:00-13:00",
+          "payment:cash": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 4 63 08 11 21",
+          "ref:FR:SIRET": "80128739200048",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9811400126,
+        "lat": 45.7779047,
+        "lon": 3.0836649,
+        "tags": {
+          "addr:city": "Clermont-Ferrand",
+          "addr:housenumber": "30",
+          "addr:postcode": "63000",
+          "addr:street": "Rue des Petits Gras",
+          "name": "Le Grenier des Chimères",
+          "opening_hours": "Mo-We 11:00-00:00; Th-Sa 11:00-03:00; Su 12:00-23:00",
+          "phone": "+33 9 55 21 10 76",
+          "ref:FR:SIRET": "95151009800019",
+          "shop": "books",
+          "website": "https://www.legrenierdeschimeres.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10175992259,
+        "lat": 45.7760379,
+        "lon": 3.0862239,
+        "tags": {
+          "addr:city": "Clermont-Ferrand",
+          "addr:housenumber": "11 bis",
+          "addr:postcode": "63000",
+          "addr:street": "Rue Saint-Esprit",
+          "cuisine": "bakery",
+          "diet:gluten_free": "yes",
+          "diet:lactose_free": "yes",
+          "diet:vegan": "yes",
+          "diet:vegetarian": "yes",
+          "drive_through": "no",
+          "name": "Kookies",
+          "opening_hours": "Tu-Fr 11:00-19:00; Sa 10:00-19:00",
+          "payment:cards": "yes",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "phone": "+33953917412",
+          "shop": "bakery",
+          "website": "https://www.instagram.com/kookies_clf/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10287460518,
+        "lat": 45.7761709,
+        "lon": 3.0858387,
+        "tags": {
+          "addr:housenumber": "16",
+          "addr:street": "Rue Saint-Esprit",
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "name": "Vival",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11159124259,
+        "lat": 45.7735567,
+        "lon": 3.0917193,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/lefournildejeanclermontferrand",
+          "contact:housenumber": "29",
+          "contact:phone": "+33 4 73 91 64 30",
+          "contact:street": "Boulevard Lafayette",
+          "contact:website": "https://www.fournildejean.fr/",
+          "name": "Fournil de Jean",
+          "opening_hours": "Tu-Su 06:30-20:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11330074370,
+        "lat": 45.7755977,
+        "lon": 3.085884,
+        "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12985703338,
+        "lat": 45.7786592,
+        "lon": 3.0840909,
+        "tags": {
+          "name": "Savon de Marseille",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13533689926,
+        "lat": 45.7721869,
+        "lon": 3.0859736,
+        "tags": {
+          "addr:city": "Clermont-Ferrand",
+          "addr:housenumber": "4",
+          "addr:postcode": "63000",
+          "addr:street": "Rue Michel Rocard",
+          "name": "Chez le Pistore",
+          "opening_hours": "Mo-Fr 07:30-19:00",
+          "shop": "bakery",
+          "website": "https://www.instagram.com/chezlepistore/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 67191710,
+        "center": {
+          "lat": 45.7806433,
+          "lon": 3.1087289
+        },
+        "tags": {
+          "brand": "Le Pétrin Ribeïrou",
+          "brand:wikidata": "Q89209633",
+          "building": "commercial",
+          "building:levels": "3",
+          "name": "Le Pétrin Ribeïrou",
+          "opening_hours": "We-Mo 07:00-13:00,15:00-20:00",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      },
+      {
+        "type": "way",
+        "id": 67331695,
+        "center": {
+          "lat": 45.7857362,
+          "lon": 3.0931178
+        },
+        "tags": {
+          "building": "yes",
+          "indoor_seating": "yes",
+          "name": "Le Fournil de Jean",
+          "opening_hours": "Mo-Su 06:30-20:00",
+          "outdoor_seating": "yes",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      },
+      {
+        "type": "way",
+        "id": 67552552,
+        "center": {
+          "lat": 45.7725488,
+          "lon": 3.0929205
+        },
+        "tags": {
+          "building": "yes",
+          "description": "Vente de produits exotics",
+          "name": "N.Ely exotic",
+          "ref:FR:SIRET": "79157419700012",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1177236822,
+        "center": {
+          "lat": 45.7789745,
+          "lon": 3.1008843
+        },
+        "tags": {
+          "amenity": "cafe",
+          "indoor": "room",
+          "level": "0",
+          "name": "Chez Jean",
+          "opening_hours": "Mo-Fr 05:30-19:30; Sa 06:00-19:30; PH,Su 07:30-19:30",
+          "operator": "Relay",
+          "room": "shop",
+          "shop": "convenience",
+          "tobacco": "yes"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

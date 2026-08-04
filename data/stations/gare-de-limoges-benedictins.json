@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      1.248037,
-      45.823674,
-      1.275657,
-      45.843789
+      1.252762,
+      45.827059,
+      1.270801,
+      45.840381
     ],
     "features": [
       {
@@ -221,12 +221,8 @@
                 45.839073
               ],
               [
-                1.266655,
-                45.839471
-              ],
-              [
-                1.265169,
-                45.839782
+                1.26553,
+                45.839896
               ],
               [
                 1.26027,
@@ -252,134 +248,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            1.2620987274598754,
-            45.833902147967635
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                1.250851,
-                45.83929
-              ],
-              [
-                1.249092,
-                45.836791
-              ],
-              [
-                1.248752,
-                45.832833
-              ],
-              [
-                1.248054,
-                45.830427
-              ],
-              [
-                1.248037,
-                45.830067
-              ],
-              [
-                1.252898,
-                45.826816
-              ],
-              [
-                1.25603,
-                45.824855
-              ],
-              [
-                1.25743,
-                45.824384
-              ],
-              [
-                1.262967,
-                45.823674
-              ],
-              [
-                1.26547,
-                45.823769
-              ],
-              [
-                1.267152,
-                45.824125
-              ],
-              [
-                1.269324,
-                45.825655
-              ],
-              [
-                1.272629,
-                45.82755
-              ],
-              [
-                1.273232,
-                45.828878
-              ],
-              [
-                1.275657,
-                45.833431
-              ],
-              [
-                1.274579,
-                45.838875
-              ],
-              [
-                1.274175,
-                45.839567
-              ],
-              [
-                1.271559,
-                45.842199
-              ],
-              [
-                1.269616,
-                45.84258
-              ],
-              [
-                1.265266,
-                45.843295
-              ],
-              [
-                1.264052,
-                45.8434
-              ],
-              [
-                1.259319,
-                45.843752
-              ],
-              [
-                1.256783,
-                45.843789
-              ],
-              [
-                1.254468,
-                45.84324
-              ],
-              [
-                1.254376,
-                45.843175
-              ],
-              [
-                1.250851,
-                45.83929
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809789274,
+      "timestamp": 1785863815336,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -391,8 +265,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -405,7 +278,1118 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:17:09Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 349008616,
+        "lat": 45.8294414,
+        "lon": 1.25725,
+        "tags": {
+          "addr:housenumber": "4",
+          "addr:street": "Place de la Motte",
+          "email": "contact@pageetplume.fr",
+          "name": "Page et Plume",
+          "opening_hours": "Tu-Sa 09:00-19:00; Mo 14:00-19:00",
+          "phone": "+33555344554",
+          "ref:FR:NAF": "4761Z",
+          "ref:FR:SIREN": "327422309",
+          "ref:FR:SIRET": "32742230900036",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009",
+          "website": "https://www.pageetplume.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1925388482,
+        "lat": 45.8198702,
+        "lon": 1.2658167,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "6",
+          "addr:postcode": "87000",
+          "addr:street": "Place Paul Parbelle",
+          "instagram": "https://www.instagram.com/patisserie_le_baccara/?hl=fr",
+          "name": "Le Baccara",
+          "opening_hours": "Tu-Sa 06:30-19:30; Su 06:30-13:00",
+          "pastry": "yes",
+          "phone": "+33 5 55 30 77 71",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "894351279",
+          "ref:FR:SIRET": "89435127900019",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2504097297,
+        "lat": 45.8301412,
+        "lon": 1.2555161,
+        "tags": {
+          "contact:city": "Limoges",
+          "contact:email": "info@revenpages.fr",
+          "contact:housenumber": "16",
+          "contact:phone": "+33 5 55 32 19 92",
+          "contact:postcode": "87000",
+          "contact:street": "Rue Othon Péconnet",
+          "contact:website": "https://www.revenpages.fr/",
+          "name": "Rêv' en page",
+          "opening_hours": "Tu-Sa 09:30-19:00, Mo 14:00-19:00",
+          "ref:FR:SIRET": "43911812600010",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2504117851,
+        "lat": 45.8300547,
+        "lon": 1.2564741,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "25",
+          "addr:postcode": "87000",
+          "addr:street": "Place de la Motte",
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "instagram": "https://www.instagram.com/lamiecalinelimoges_",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su 08:00-19:00",
+          "pastry": "yes",
+          "phone": "+33 5 55 33 48 12",
+          "ref:FR:NAF": "1071B",
+          "ref:FR:SIREN": "797907532",
+          "ref:FR:SIRET": "79790753200015",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01",
+          "website": "https://www.lamiecaline.com/boutiques/limoges-la-motte/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2512173585,
+        "lat": 45.8292897,
+        "lon": 1.2559713,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "3",
+          "addr:postcode": "87000",
+          "addr:street": "Rue Léonard Limosin",
+          "check_date": "2024-08-10",
+          "name": "Chez Renard",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "852622372",
+          "ref:FR:SIRET": "85262237200013",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2512193664,
+        "lat": 45.8298838,
+        "lon": 1.2497427,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "37bis",
+          "addr:postcode": "87000",
+          "addr:street": "Place des Carmes",
+          "email": "delicesdesgourmets@outlook.fr",
+          "name": "Délices des Gourmets",
+          "opening_hours": "Tu-Sa 07:30-19:00; Su 07:30-12:45",
+          "pastry": "yes",
+          "phone": "+33 5 55 34 18 82",
+          "ref:FR:NAF": "1071D",
+          "ref:FR:SIREN": "478185838",
+          "ref:FR:SIRET": "47818583800016",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2512211061,
+        "lat": 45.8299735,
+        "lon": 1.2528783,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "20",
+          "addr:postcode": "87000",
+          "addr:street": "Rue des Arènes",
+          "contact:phone": "+33 5 55 32 34 94",
+          "facebook": "https://www.facebook.com/p/Fournil-des-Ar%C3%A8nes-100054500962932/?locale=fr_FR",
+          "name": "Le Fournil des Arènes",
+          "opening_hours": "Mo 07:00-18:30; Tu-Fr 07:00-18:15",
+          "oven": "wood_fired",
+          "pastry": "yes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIRET": "49324855300023",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2514808365,
+        "lat": 45.8299042,
+        "lon": 1.253999,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "5",
+          "addr:postcode": "87000",
+          "addr:street": "Rue des Arènes",
+          "name": "Epicerie Générale des Arènes",
+          "opening_hours": "Mo-We 09:00-00:00; Th 09:00-00:30; Fr,Sa 09:00-01:00",
+          "phone": "+33 5 87 50 57 74",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "94127012600019",
+          "shop": "convenience",
+          "source": "INSEE - 2025-10"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2747127858,
+        "lat": 45.8379636,
+        "lon": 1.2585515,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "55",
+          "addr:postcode": "87000",
+          "addr:street": "Avenue Garibaldi",
+          "amenity": "fast_food",
+          "cuisine": "sandwich;salad",
+          "drive_through": "no",
+          "indoor_seating": "yes",
+          "instagram": "https://www.instagram.com/patapain/",
+          "name": "Pat à Pain",
+          "opening_hours": "Mo-Fr 06:30-20:00; Sa,Su 07:00-20:00",
+          "outdoor_seating": "no",
+          "pastry": "yes",
+          "phone": "+33 5 55 77 35 94",
+          "shop": "bakery",
+          "website": "https://patapain.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2753811020,
+        "lat": 45.8410949,
+        "lon": 1.2582773,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "14",
+          "addr:postcode": "87000",
+          "addr:street": "Avenue du Général Leclerc",
+          "name": "Pain Pallaisse Lechat Gadeau",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2760235752,
+        "lat": 45.8381781,
+        "lon": 1.2601563,
+        "tags": {
+          "contact:city": "Limoges",
+          "contact:housenumber": "15",
+          "contact:phone": "+33 5 55 79 77 26",
+          "contact:postcode": "87000",
+          "contact:street": "Rue Hoche",
+          "contact:website": "https://www.planete-nature-limoges.fr/",
+          "name": "Planet Nature",
+          "opening_hours": "Mo-Fr 10:00-19:00; Sa 09:00-19:00",
+          "organic": "yes",
+          "ref:FR:SIRET": "89509015700028",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2760239903,
+        "lat": 45.8366948,
+        "lon": 1.2593669,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "39 bis",
+          "addr:postcode": "87000",
+          "addr:street": "Avenue Garibaldi",
+          "amenity": "fast_food",
+          "brand": "La Croissanterie",
+          "brand:wikidata": "Q3207961",
+          "cuisine": "sandwich",
+          "name": "La Croissanterie",
+          "opening_hours": "Mo-Sa 08:30-19:30",
+          "phone": "+33 5 55 79 49 07",
+          "ref:FR:NAF": "5610C",
+          "ref:FR:SIREN": "323356014",
+          "ref:FR:SIRET": "32335601400080",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01",
+          "takeaway": "yes",
+          "website": "https://www.lacroissanterie.fr/sandwicherie-boulangerie/la-croissanterie-centre-commercial-saint-martial-limoges/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2763517397,
+        "lat": 45.84399,
+        "lon": 1.2598619,
+        "tags": {
+          "addr:street": "Avenue du Général Leclerc",
+          "drive_in": "no",
+          "internet_access:fee": "no",
+          "name": "Grain de Farine",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2763561823,
+        "lat": 45.843274,
+        "lon": 1.2731184,
+        "tags": {
+          "addr:housenumber": "100",
+          "addr:street": "Rue Aristide Briand",
+          "contact:phone": "+33 5 55 71 15 58",
+          "name": "La Brégeroise",
+          "opening_hours": "Mo-Sa 07:00-13:00,15:00-19:00",
+          "payment:cash": "yes",
+          "payment:visa": "yes",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "788739910",
+          "ref:FR:SIRET": "78873991000016",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2763563990,
+        "lat": 45.8433475,
+        "lon": 1.2725417,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "1",
+          "addr:street": "Rue de la Brégère",
+          "name": "Festival Des Pains",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2763835284,
+        "lat": 45.8192216,
+        "lon": 1.2511778,
+        "tags": {
+          "name": "Maison Vareille",
+          "opening_hours": "Mo-Fr 07:00-19:30; Sa,Su 07:00-13:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2763835290,
+        "lat": 45.825627,
+        "lon": 1.2496812,
+        "tags": {
+          "name": "StopMag",
+          "opening_hours": "Mo-Fr 07:30-13:00,16:00-19:00; Sa 08:30-12:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2764079549,
+        "lat": 45.8293747,
+        "lon": 1.2627143,
+        "tags": {
+          "addr:housenumber": "5",
+          "addr:street": "Place Wilson",
+          "name": "Desem",
+          "opening_hours": "Mo-Fr 06:30-14:00,15:30-19:00; We off; Sa,Su 06:30-13:00",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "753695493",
+          "ref:FR:SIRET": "75369549300027",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2764099780,
+        "lat": 45.835415,
+        "lon": 1.27117,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:street": "Avenue des Coutures",
+          "name": "Patisserie",
+          "opening_hours": "Mo-Su 06:30-13:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2764193821,
+        "lat": 45.833602,
+        "lon": 1.268818,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "7",
+          "addr:street": "Avenue Locarno",
+          "name": "Côté Patio",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2764199005,
+        "lat": 45.8332522,
+        "lon": 1.2683165,
+        "tags": {
+          "check_date": "2026-06-03",
+          "check_date:opening_hours": "2026-06-03",
+          "contact:city": "Limoges",
+          "contact:housenumber": "2",
+          "contact:street": "Avenue des Bénédictins",
+          "name": "Mag Alimentation",
+          "opening_hours": "Tu-Sa 10:00-12:00,14:00-18:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2764419306,
+        "lat": 45.8308183,
+        "lon": 1.2596885,
+        "tags": {
+          "addr:housenumber": "30",
+          "addr:street": "Rue Jean Jaurès",
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "check_date": "2023-05-27",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su,PH 08:00-20:00",
+          "phone": "+33 5 55 34 29 29",
+          "ref:FR:NAF": "1071B",
+          "ref:FR:SIREN": "797907011",
+          "ref:FR:SIRET": "79790701100010",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01",
+          "website": "https://www.lamiecaline.com/boutiques/limoges-jean-jaures/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2772794602,
+        "lat": 45.8334378,
+        "lon": 1.2474757,
+        "tags": {
+          "name": "La supérette du 87",
+          "opening_hours": "Mo-Fr 09:00-20:00; Sa 14:00-20:00; Su 09:30-20:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2772794607,
+        "lat": 45.8332705,
+        "lon": 1.2477133,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "25",
+          "addr:postcode": "87000",
+          "addr:street": "Rue de la Mauvendière",
+          "contact:phone": "+33 9 54 80 82 23",
+          "name": "La Tovatine n'go",
+          "opening_hours": "Mo-Su 06:00-20:00",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "893517706",
+          "ref:FR:SIRET": "89351770600014",
+          "shop": "bakery",
+          "source": "INSEE - 2026-03"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2776755127,
+        "lat": 45.840341,
+        "lon": 1.257634,
+        "tags": {
+          "check_date": "2026-08-03",
+          "name": "La Ronde Des Pains",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 5 55 77 28 67",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2776781893,
+        "lat": 45.8334188,
+        "lon": 1.2548916,
+        "tags": {
+          "addr:housenumber": "16",
+          "addr:street": "Rue Montmailler",
+          "name": "La Tresse Dorée",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "351429055",
+          "ref:FR:SIRET": "35142905500038",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2777416166,
+        "lat": 45.8283767,
+        "lon": 1.2585572,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "1",
+          "addr:postcode": "87000",
+          "addr:street": "Rue Vigne de Fer",
+          "email": "contact@madeleine-bebe.com",
+          "name": "Madeleines Bébé",
+          "phone": "+33 5 55 03 87 33",
+          "ref:FR:NAF": "4724Z",
+          "ref:FR:SIREN": "480335819",
+          "ref:FR:SIRET": "48033581900037",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01",
+          "website": "https://madeleine-bebe.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2777416175,
+        "lat": 45.8283261,
+        "lon": 1.2583161,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "4",
+          "addr:postcode": "87000",
+          "addr:street": "Rue Vigne de Fer",
+          "name": "Capaline",
+          "opening_hours": "Mo-Fr 07:00-20:00, Sa 07:00-14:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2777459107,
+        "lat": 45.8287402,
+        "lon": 1.2587414,
+        "tags": {
+          "addr:housenumber": "1",
+          "addr:street": "Place du Poids Public",
+          "brand": "La Vie Claire",
+          "brand:wikidata": "Q3213589",
+          "brand:wikipedia": "fr:La Vie claire",
+          "bulk_purchase": "yes",
+          "name": "La Vie Claire",
+          "opening_hours": "Tu-Fr 09:30-13:00,14:00-19:00; Sa 09:00-13:00,14:00-19:00",
+          "organic": "only",
+          "phone": "+33 5 55 34 64 45",
+          "shop": "convenience",
+          "website": "https://www.lavieclaire.com/magasin-bio/limoges.html"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2779867966,
+        "lat": 45.8292723,
+        "lon": 1.2585637,
+        "tags": {
+          "name": "Patisserie artisanale J. Y. Delage",
+          "pastry_shop": "only",
+          "ref:FR:SIRET": "90856152500027",
+          "shop": "bakery",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2779903375,
+        "lat": 45.8296989,
+        "lon": 1.2564615,
+        "tags": {
+          "name": "Ritet Beyrand Patisserie",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2779903380,
+        "lat": 45.8295899,
+        "lon": 1.2564638,
+        "tags": {
+          "name": "Saveur d'antan",
+          "organic": "only",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2779903385,
+        "lat": 45.8294711,
+        "lon": 1.2566016,
+        "tags": {
+          "name": "Chez Coco",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2779912661,
+        "lat": 45.8295287,
+        "lon": 1.2566878,
+        "tags": {
+          "name": "La boutique des Pains",
+          "ref:FR:NAF": "4724Z",
+          "ref:FR:SIREN": "384385316",
+          "ref:FR:SIRET": "38438531600029",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2779912664,
+        "lat": 45.8294469,
+        "lon": 1.2564975,
+        "tags": {
+          "name": "Original cupcakes",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2779912670,
+        "lat": 45.8294343,
+        "lon": 1.2564545,
+        "tags": {
+          "cuisine": "regional",
+          "name": "Au Paradis Daus Leichardiers",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2779937461,
+        "lat": 45.8252591,
+        "lon": 1.2721031,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "36",
+          "addr:postcode": "87000",
+          "addr:street": "Avenue du Maréchal de Lattre de Tassigny",
+          "check_date": "2024-08-09",
+          "name": "Épicerie du Maréchal",
+          "ref:FR:NAF": "4711B",
+          "ref:FR:SIREN": "750854978",
+          "ref:FR:SIRET": "75085497800020",
+          "shop": "convenience",
+          "source": "INSEE - 2025-01"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2779937475,
+        "lat": 45.8255916,
+        "lon": 1.2713712,
+        "tags": {
+          "check_date:opening_hours": "2025-03-13",
+          "name": "Suchaud",
+          "opening_hours": "Mo-Fr 06:30-19:00; Sa 06:30-13:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2779991807,
+        "lat": 45.8312504,
+        "lon": 1.2560298,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "33",
+          "addr:postcode": "87000",
+          "addr:street": "Rue Adrien Dubouché",
+          "name": "Aux palets d'or",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2780065865,
+        "lat": 45.8310153,
+        "lon": 1.2650091,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "3",
+          "addr:postcode": "87000",
+          "addr:street": "Rue du Maupas",
+          "name": "S. Colignon",
+          "opening_hours": "Mo-Th 07:00-14:00,16:30-19:00; Fr 07:00-14:00",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2780307384,
+        "lat": 45.8275527,
+        "lon": 1.261877,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "26",
+          "addr:postcode": "87000",
+          "addr:street": "Rue Delescluze",
+          "name": "Elite Alimentation Générale",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2780307394,
+        "lat": 45.8274225,
+        "lon": 1.2616458,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "15",
+          "addr:postcode": "87000",
+          "addr:street": "Rue Delescluze",
+          "name": "Links Store",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2787766597,
+        "lat": 45.8272223,
+        "lon": 1.2769988,
+        "tags": {
+          "name": "Épicerie - Bar",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2795797435,
+        "lat": 45.833723,
+        "lon": 1.2521359,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "21",
+          "addr:postcode": "87000",
+          "addr:street": "Rue Bernard Palissy",
+          "name": "Le rendez-vous",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "790487912",
+          "ref:FR:SIRET": "79048791200012",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2795799877,
+        "lat": 45.8394006,
+        "lon": 1.2574317,
+        "tags": {
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2795829956,
+        "lat": 45.8408059,
+        "lon": 1.2578654,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "1",
+          "addr:postcode": "87100",
+          "addr:street": "Avenue du Général Leclerc",
+          "name": "Au Fin Palais",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "450028543",
+          "ref:FR:SIRET": "45002854300012",
+          "shop": "bakery",
+          "source": "INSEE - 2025-01"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2795886877,
+        "lat": 45.837366,
+        "lon": 1.2658187,
+        "tags": {
+          "name": "Vival",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4538398680,
+        "lat": 45.8298127,
+        "lon": 1.2561174,
+        "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4618275435,
+        "lat": 45.8306553,
+        "lon": 1.2605239,
+        "tags": {
+          "fixme": "absent",
+          "name": "Le Bibliovore",
+          "note": "The object dispappeared or never happened to be there",
+          "opening_hours": "Mo-Fr 11:00-13:00,15:00-19:00; Sa 11:00-13:00,15:00-19:00",
+          "ref:FR:SIRET": "89986242900011",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5573128643,
+        "lat": 45.8269782,
+        "lon": 1.2588484,
+        "tags": {
+          "amenity": "fuel",
+          "brand": "Avia",
+          "brand:wikidata": "Q300147",
+          "brand:wikipedia": "fr:Avia International",
+          "compressed_air": "yes",
+          "fuel:diesel": "yes",
+          "fuel:e10": "yes",
+          "fuel:e85": "yes",
+          "fuel:octane_98": "yes",
+          "ref:FR:prix-carburants": "23300007",
+          "shop": "convenience",
+          "source": "Ministère de l'Economie, de l'Industrie et du Numérique - 03/2020",
+          "vending": "fuel",
+          "vending_machine": "fuel",
+          "website": "https://www.avia-france.fr/avia/trouvez-votre-station/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6223081917,
+        "lat": 45.829844,
+        "lon": 1.2588304,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "19",
+          "addr:postcode": "87000",
+          "addr:street": "Rue du Consulat",
+          "check_date": "2025-08-12",
+          "name": "Librairie Papeterie Anecdotes",
+          "opening_hours": "Tu-Sa 10:00-19:00; Mo 14:00-19:00",
+          "phone": "+33 5 55 33 07 64",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "799576871",
+          "ref:FR:SIRET": "79957687100021",
+          "ref:vatin": "FR68799576871",
+          "shop": "books",
+          "source": "INSEE - 2026-03",
+          "website": "https://www.librairie-anecdotes.fr/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7026694615,
+        "lat": 45.8286743,
+        "lon": 1.2591538,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:city:oc": "Limòtges",
+          "addr:housenumber": "42",
+          "addr:postcode": "87000",
+          "addr:street": "Rue Haute-Vienne",
+          "addr:street:oc": "Rua Viena Nauta",
+          "brand": "IEO",
+          "contact:phone": "+33 5 55 32 06 44",
+          "contact:website": "https://www.libraria-occitana.org/",
+          "name": "Librariá occitana",
+          "name:oc": "Librariá occitana",
+          "opening_hours": "Tu 15:00-19:00; We, Fr 10:00-13:00, 15:00-19:00; Sa 10:00-13:00, 15:00-18:00; Th 15:00-19:00",
+          "operator": "Institut d’Études Occitanes du Limousin (IEO Limousin)",
+          "operator:oc": "Institut d’Estudis Occitans dau Lemosin (IEO Limousin)",
+          "operator:type": "ngo",
+          "ref:FR:SIRET": "42279747200087",
+          "shop": "books",
+          "short_name": "IEO LIMOUSIN",
+          "short_name:oc": "IEO LEMOSIN",
+          "source:name:oc": "ieo-bdtopoc"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9532723660,
+        "lat": 45.8293351,
+        "lon": 1.2652906,
+        "tags": {
+          "addr:housenumber": "10",
+          "addr:street": "Rue Haute-Cité",
+          "name": "Un Livre... Pour Voyage",
+          "opening_hours": "Tu-Sa 10:00-12:00,14:00-19:00",
+          "ref:FR:NAF": "4761Z",
+          "ref:FR:SIREN": "492749023",
+          "ref:FR:SIRET": "49274902300023",
+          "shop": "books",
+          "source": "INSEE - 2022-02"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9882665794,
+        "lat": 45.8302736,
+        "lon": 1.2584227,
+        "tags": {
+          "name": "BD Rêve",
+          "ref:FR:SIRET": "33105347000018",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10291777705,
+        "lat": 45.8312125,
+        "lon": 1.2560771,
+        "tags": {
+          "contact:city": "Limoges",
+          "contact:housenumber": "31",
+          "contact:phone": "+33 9 63 25 55 79",
+          "contact:postcode": "87000",
+          "contact:street": "Rue Adrien Dubouché",
+          "contact:website": "https://www.lesardentsediteurs.com/",
+          "name": "Les Ardents Éditeurs",
+          "ref:FR:SIRET": "49372644200020",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10297368141,
+        "lat": 45.8302425,
+        "lon": 1.2597598,
+        "tags": {
+          "name": "Épicerie Mouly",
+          "shop": "convenience",
+          "website": "https://epiceriemouly.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11804598593,
+        "lat": 45.8335593,
+        "lon": 1.2544038,
+        "tags": {
+          "name": "Mini Market",
+          "payment:cards": "yes",
+          "phone": "+33 9 51 59 53 84",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12069332922,
+        "lat": 45.8312201,
+        "lon": 1.2648584,
+        "tags": {
+          "addr:housenumber": "13",
+          "addr:street": "Rue du Maupas",
+          "name": "Jourdan",
+          "ref:FR:NAF": "4711B",
+          "ref:FR:SIREN": "979510666",
+          "ref:FR:SIRET": "97951066600014",
+          "shop": "convenience",
+          "source": "INSEE - 2025-01"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12071411043,
+        "lat": 45.8334013,
+        "lon": 1.2596478,
+        "tags": {
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "name": "U Express",
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/magasin/uexpress-limogescerez"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12072238064,
+        "lat": 45.8356047,
+        "lon": 1.2754983,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "24",
+          "addr:postcode": "87000",
+          "addr:street": "Avenue des Casseaux",
+          "brand": "Marie Blachère",
+          "brand:wikidata": "Q62082410",
+          "description": "Boulangerie Sandwicherie Tarterie",
+          "name": "Marie Blachère",
+          "opening_hours": "Mo-Sa 07:00-19:30",
+          "outdoor_seating": "yes",
+          "phone": "+33 5 55 79 75 02",
+          "shop": "bakery",
+          "website": "https://boulangeries.marieblachere.com/fr/france-FR/5428/marie-blachere-limoges-les-casseaux/details"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12101884933,
+        "lat": 45.8251585,
+        "lon": 1.2726369,
+        "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12912249511,
+        "lat": 45.8303667,
+        "lon": 1.2554987,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "1",
+          "addr:postcode": "87000",
+          "addr:street": "Place d'Aine",
+          "instagram": "https://www.instagram.com/fournildedylan/",
+          "name": "Le Fournil de Dylan",
+          "opening_hours": "Tu-Su 06:00-19:00",
+          "organic": "yes",
+          "pastry": "yes",
+          "phone": "+33 6 98 38 27 67",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIRET": "93151070500011",
+          "shop": "bakery",
+          "source": "INSEE - 2025-10"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12912252480,
+        "lat": 45.8291183,
+        "lon": 1.2571695,
+        "tags": {
+          "addr:city": "Limoges",
+          "addr:housenumber": "21",
+          "addr:postcode": "87000",
+          "addr:street": "Rue Lansecot",
+          "facebook": "https://www.facebook.com/ChezRenardboulangeriebio/?locale=fr_FR",
+          "name": "Chez Renard",
+          "opening_hours": "We-Sa 13:30-19:00",
+          "organic": "only",
+          "phone": "+33 6 58 61 53 99",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "852622372",
+          "ref:FR:SIRET": "85262237200039",
+          "shop": "bakery",
+          "source": "INSEE - 2025-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13007017433,
+        "lat": 45.8440989,
+        "lon": 1.2736432,
+        "tags": {
+          "addr:housenumber": "1",
+          "addr:street": "Rue Docteur Bergonié",
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "name": "U Express",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "509937934",
+          "ref:FR:SIRET": "50993793400024",
+          "shop": "convenience",
+          "source": "INSEE - 2025-07",
+          "website": "https://www.magasins-u.com/magasin/uexpress-limoges.m37560"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13043339294,
+        "lat": 45.8289659,
+        "lon": 1.2573166,
+        "tags": {
+          "addr:housenumber": "48",
+          "addr:street": "Rue de la Boucherie",
+          "name": "Librairie Nivet",
+          "opening_hours": "Tu 15:00-19:00; Th-Sa 10:00-12:30,15:00-19:00",
+          "ref:FR:NAF": "47.89Z",
+          "ref:FR:SIRET": "42463678500026",
+          "shop": "books",
+          "source": "INSEE - 2025-10"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14046168571,
+        "lat": 45.8339644,
+        "lon": 1.2653837,
+        "tags": {
+          "name": "Baigneurs",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 70404305,
+        "center": {
+          "lat": 45.8269133,
+          "lon": 1.2585726
+        },
+        "tags": {
+          "building": "yes",
+          "name": "Honiby",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2021"
+        }
+      },
+      {
+        "type": "way",
+        "id": 70674988,
+        "center": {
+          "lat": 45.8436306,
+          "lon": 1.2539801
+        },
+        "tags": {
+          "addr:housenumber": "76",
+          "addr:street": "Avenue Émile Labussière",
+          "building": "yes",
+          "name": "Frédéric Noel",
+          "ref:FR:NAF": "1071C",
+          "ref:FR:SIREN": "411913353",
+          "ref:FR:SIRET": "41191335300024",
+          "shop": "bakery",
+          "source": "extraction vectorielle: cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

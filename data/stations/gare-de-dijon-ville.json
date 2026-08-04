@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      5.01558,
-      47.316365,
-      5.0375,
-      47.329602
+      5.020204,
+      47.319124,
+      5.032548,
+      47.3263
     ],
     "features": [
       {
@@ -101,6 +101,14 @@
                 47.319378
               ],
               [
+                5.030286,
+                47.319729
+              ],
+              [
+                5.030536,
+                47.319813
+              ],
+              [
                 5.030648,
                 47.319861
               ],
@@ -133,6 +141,10 @@
                 47.325318
               ],
               [
+                5.029944,
+                47.325485
+              ],
+              [
                 5.029046,
                 47.325904
               ],
@@ -160,162 +172,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            5.02269596122044,
-            47.32282409721425
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                5.015599,
-                47.322554
-              ],
-              [
-                5.01558,
-                47.322194
-              ],
-              [
-                5.015595,
-                47.322113
-              ],
-              [
-                5.019766,
-                47.319056
-              ],
-              [
-                5.021766,
-                47.317589
-              ],
-              [
-                5.021947,
-                47.317529
-              ],
-              [
-                5.021947,
-                47.317529
-              ],
-              [
-                5.022128,
-                47.317468
-              ],
-              [
-                5.025054,
-                47.316546
-              ],
-              [
-                5.025265,
-                47.316506
-              ],
-              [
-                5.030719,
-                47.316365
-              ],
-              [
-                5.031098,
-                47.316435
-              ],
-              [
-                5.032324,
-                47.316716
-              ],
-              [
-                5.036473,
-                47.319866
-              ],
-              [
-                5.037358,
-                47.321057
-              ],
-              [
-                5.0375,
-                47.321258
-              ],
-              [
-                5.037447,
-                47.323149
-              ],
-              [
-                5.03743,
-                47.323363
-              ],
-              [
-                5.037397,
-                47.323523
-              ],
-              [
-                5.037182,
-                47.32449
-              ],
-              [
-                5.037066,
-                47.324831
-              ],
-              [
-                5.036969,
-                47.324934
-              ],
-              [
-                5.033041,
-                47.328084
-              ],
-              [
-                5.032725,
-                47.328257
-              ],
-              [
-                5.031029,
-                47.329168
-              ],
-              [
-                5.030697,
-                47.329307
-              ],
-              [
-                5.027881,
-                47.329602
-              ],
-              [
-                5.025541,
-                47.329221
-              ],
-              [
-                5.02537,
-                47.32919
-              ],
-              [
-                5.024093,
-                47.328916
-              ],
-              [
-                5.019546,
-                47.326896
-              ],
-              [
-                5.016992,
-                47.324334
-              ],
-              [
-                5.015599,
-                47.322554
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809767141,
+      "timestamp": 1785863474140,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -327,8 +189,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -341,7 +202,757 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:13:06Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 261652288,
+        "lat": 47.3257503,
+        "lon": 5.0353708,
+        "tags": {
+          "name": "Erbil Market",
+          "ref:FR:SIRET": "98359781600013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 265479821,
+        "lat": 47.3139606,
+        "lon": 5.0145863,
+        "tags": {
+          "branch": "Supermarché",
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "brand:wikipedia": "en:SPAR (retailer)",
+          "check_date:opening_hours": "2026-06-10",
+          "name": "Spar",
+          "opening_hours": "Mo-Sa 08:00-19:30; Su 09:00-12:00",
+          "operator": "Spar",
+          "phone": "+33 3 80 43 63 00",
+          "shop": "convenience",
+          "website": "https://magasins.spar.fr/fr/s/spar-supermarche-dijon-gustave-effel"
+        }
+      },
+      {
+        "type": "node",
+        "id": 890307320,
+        "lat": 47.3181041,
+        "lon": 5.0354811,
+        "tags": {
+          "check_date": "2024-09-28",
+          "contact:housenumber": "94",
+          "contact:street": "Rue Berbisey",
+          "name": "Superette Berbisey",
+          "opening_hours": "Tu-Su 09:00-22:00",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "ref:FR:SIRET": "48259333200018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 890307326,
+        "lat": 47.3189431,
+        "lon": 5.0345698,
+        "tags": {
+          "contact:housenumber": "33",
+          "contact:postcode": "21000",
+          "contact:street": "Rue Monge",
+          "name": "Maison Roger",
+          "pastry": "yes",
+          "ref:FR:SIRET": "44313829200208",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 890367017,
+        "lat": 47.3179864,
+        "lon": 5.0356152,
+        "tags": {
+          "check_date": "2024-09-28",
+          "name": "Mimouna",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1346119410,
+        "lat": 47.3198236,
+        "lon": 5.0246872,
+        "tags": {
+          "name": "Maison Roger",
+          "network": "Banette",
+          "ref:FR:SIRET": "50959411500032",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1352748874,
+        "lat": 47.3149044,
+        "lon": 5.0235211,
+        "tags": {
+          "check_date": "2024-12-17",
+          "contact:housenumber": "19",
+          "contact:postcode": "21000",
+          "contact:street": "Avenue Gustave Eiffel",
+          "name": "Jean-Rémi GALLET",
+          "opening_hours": "Tu-Sa 06:00-13:00,15:00-19:30; Su 06:00-13:00",
+          "organic": "yes",
+          "ref:FR:SIRET": "49948364200017",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1398221200,
+        "lat": 47.312133,
+        "lon": 5.026918,
+        "tags": {
+          "contact:housenumber": "18",
+          "contact:postcode": "21000",
+          "contact:street": "Avenue Jean Jaurès",
+          "name": "Aux Gourmandises de l'écluse",
+          "opening_hours": "Mo 06:30-19:30; We-Fr 06:30-19:30; Sa 06:30-13:15; Su 06:30-13:30",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "87841681700012",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1485779813,
+        "lat": 47.3195342,
+        "lon": 5.0254664,
+        "tags": {
+          "brand": "Proxi",
+          "brand:wikidata": "Q3408522",
+          "brand:wikipedia": "fr:Proxi",
+          "name": "Proxi",
+          "opening_hours": "Mo-Su 08:00-21:00",
+          "operator": "Proxi",
+          "ref:FR:SIRET": "53466615100012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1494209551,
+        "lat": 47.3305463,
+        "lon": 5.0224649,
+        "tags": {
+          "name": "Victor Hugo",
+          "ref:FR:SIRET": "47790487400013",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1499166399,
+        "lat": 47.3219309,
+        "lon": 5.0376567,
+        "tags": {
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "brand:wikipedia": "fr:La Mie câline",
+          "cuisine": "sandwich",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Sa 06:30-19:30; Su 07:00-19:00",
+          "ref:FR:SIRET": "92014688300011",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1499166408,
+        "lat": 47.315496,
+        "lon": 5.0349246,
+        "tags": {
+          "contact:housenumber": "70",
+          "contact:postcode": "21000",
+          "contact:street": "Rue du Transvaal",
+          "cuisine": "sandwich",
+          "name": "Maison Roger",
+          "opening_hours": "Mo-Su 06:00-19:00",
+          "ref:FR:SIRET": "80392354900023",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2009489272,
+        "lat": 47.3207571,
+        "lon": 5.0299365,
+        "tags": {
+          "check_date": "2026-07-10",
+          "check_date:opening_hours": "2026-07-10",
+          "name": "Tang Marché",
+          "opening_hours": "Mo-Sa 10:00-12:30,14:30-19:00; Su 10:00-12:30",
+          "ref:FR:SIRET": "44468908700021",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2159415174,
+        "lat": 47.3257021,
+        "lon": 5.0324694,
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "en:Système U",
+          "check_date": "2026-08-02",
+          "name": "Utile",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-13:00",
+          "ref:FR:SIRET": "75248026900014",
+          "shop": "convenience",
+          "source": "INSEE - 2021-03"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2194091521,
+        "lat": 47.3087248,
+        "lon": 5.036987,
+        "tags": {
+          "contact:housenumber": "1",
+          "contact:street": "Boulevard John Kennedy",
+          "name": "Maison Paroty",
+          "ref:FR:SIRET": "94312503900017",
+          "shop": "bakery",
+          "was:ref:FR:SIRET": "40122966100020",
+          "website": "https://paroty.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2330273786,
+        "lat": 47.3328371,
+        "lon": 5.025909,
+        "tags": {
+          "addr:city": "Dijon",
+          "addr:housenumber": "10",
+          "addr:postcode": "21000",
+          "addr:street": "Rue Alphonse Legros",
+          "name": "Le Petit Mozart",
+          "opening_hours": "Mo-Fr 06:30-13:00, 15:30-19:30; Sa 06:15-13:00; Su off",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 3 80 56 13 04",
+          "ref:FR:SIRET": "49253908500018",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2380069492,
+        "lat": 47.3239189,
+        "lon": 5.0312597,
+        "tags": {
+          "check_date": "2024-08-20",
+          "name": "Cocorico Darcy",
+          "opening_hours": "Mo-Su 9:00-0:00",
+          "ref:FR:SIRET": "43509589800019",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2736052386,
+        "lat": 47.3157224,
+        "lon": 5.0282699,
+        "tags": {
+          "contact:housenumber": "4",
+          "contact:postcode": "21000",
+          "contact:street": "Quai Nicolas Rolin",
+          "name": "Tabac Bimbeloterie du Port",
+          "ref:FR:SIRET": "33520685000026",
+          "shop": "kiosk",
+          "tickets:public_transport": "yes",
+          "tobacco": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3144590147,
+        "lat": 47.3265839,
+        "lon": 5.0286529,
+        "tags": {
+          "name": "Maison des délices et des saveurs",
+          "opening_hours": "Tu-Sa 07:00-13:30,15:00-19:00; Su 07:00-13:30",
+          "ref:FR:SIRET": "85213440200019",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3146107929,
+        "lat": 47.3243895,
+        "lon": 5.0290396,
+        "tags": {
+          "name": "City Market",
+          "ref:FR:SIRET": "98953694100010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3292667161,
+        "lat": 47.318534,
+        "lon": 5.0366416,
+        "tags": {
+          "addr:housenumber": "62",
+          "addr:street": "Rue Berbisey",
+          "name": "Le Barde Bourguignon",
+          "ref:FR:SIRET": "40447551900017",
+          "second_hand": "only",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3541478405,
+        "lat": 47.3231577,
+        "lon": 5.032805,
+        "tags": {
+          "name": "Maison Louot",
+          "network": "Florentin",
+          "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-15:00",
+          "ref:FR:SIRET": "34191054500027",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4133802325,
+        "lat": 47.3180928,
+        "lon": 5.0271369,
+        "tags": {
+          "contact:housenumber": "4",
+          "contact:street": "Avenue de l'Ouche",
+          "name": "Esprit Fraîcheur",
+          "opening_hours": "Mo-Sa 09:00-19:00; Su off; PH off",
+          "ref:FR:SIRET": "89871312800012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4366834789,
+        "lat": 47.3112011,
+        "lon": 5.0264812,
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "contact:housenumber": "32",
+          "contact:postcode": "21000",
+          "contact:street": "Avenue Jean Jaurès",
+          "name": "Vival",
+          "opening_hours": "Mo-Sa 08:00-24:00; Su 09:30-22:30",
+          "ref:FR:SIRET": "90838929900011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4378746967,
+        "lat": 47.3144319,
+        "lon": 5.0347182,
+        "tags": {
+          "name": "Epi'Sourire",
+          "opening_hours": "Mo-We 14:00-16:00; Th 11:00-13:00,15:00-17:00; Fr 11:00-13:00",
+          "ref:FR:SIRET": "49151283600025",
+          "shop": "convenience",
+          "website": "https://www.episourire.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4398809538,
+        "lat": 47.314794,
+        "lon": 5.0290024,
+        "tags": {
+          "contact:housenumber": "5",
+          "contact:postcode": "21000",
+          "contact:street": "Avenue Jean Jaurès",
+          "name": "Au cœur de l'Afrique",
+          "ref:FR:SIRET": "52777189300015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4398809539,
+        "lat": 47.3146441,
+        "lon": 5.028917,
+        "tags": {
+          "contact:housenumber": "7",
+          "contact:postcode": "21000",
+          "contact:street": "Avenue Jean Jaurès",
+          "name": "Bahgna Shop",
+          "ref:FR:SIRET": "93435358200018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4399213011,
+        "lat": 47.3115522,
+        "lon": 5.0271895,
+        "tags": {
+          "contact:housenumber": "59",
+          "contact:postcode": "21000",
+          "contact:street": "Avenue Jean Jaurès",
+          "name": "Superette de Dijon",
+          "opening_hours": "Tu-Su 10:30-23:00; Mo 11:00-12:30",
+          "ref:FR:SIRET": "90213816300024",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4405348063,
+        "lat": 47.3098713,
+        "lon": 5.0131935,
+        "tags": {
+          "brand": "Proxi",
+          "brand:wikidata": "Q3408522",
+          "brand:wikipedia": "fr:Proxi",
+          "name": "Proxi",
+          "ref:FR:SIRET": "39309375200011",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4519540480,
+        "lat": 47.3234284,
+        "lon": 5.0308598,
+        "tags": {
+          "name": "Maison Roger",
+          "opening_hours": "Mo-Fr 06:00-19:30; Sa,Su 07:00-13:00",
+          "ref:FR:SIRET": "50959411500040",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4519548204,
+        "lat": 47.3233899,
+        "lon": 5.0304934,
+        "tags": {
+          "alt_name": "Epicerie de la Gare",
+          "name": "La Loco",
+          "opening_hours": "Mo-Su 09:00-01:00",
+          "phone": "+33380411586",
+          "ref:FR:SIRET": "43509589800043",
+          "shop": "convenience",
+          "website": "https://www.epiceriedelagarelaloco.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4556158078,
+        "lat": 47.3287768,
+        "lon": 5.0359006,
+        "tags": {
+          "name": "Épicerie de nuit RDM",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4565189710,
+        "lat": 47.3237812,
+        "lon": 5.0354759,
+        "tags": {
+          "books": "comic",
+          "name": "Planète BD",
+          "opening_hours": "Mo 14:00-19:00; Tu-Fr 10:00-12:00,14:00-19:00; Sa 10:00-19:00",
+          "ref:FR:SIRET": "40287887000011",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4719996927,
+        "lat": 47.3133492,
+        "lon": 5.035828,
+        "tags": {
+          "addr:city": "Dijon",
+          "addr:housenumber": "25",
+          "addr:postcode": "21000",
+          "addr:street": "Rue Daubenton",
+          "name": "Miks Market",
+          "phone": "+33 9 50 96 16 92",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4879130918,
+        "lat": 47.3180781,
+        "lon": 5.0358377,
+        "tags": {
+          "name": "La Pétrie",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5284296452,
+        "lat": 47.3207849,
+        "lon": 5.0371731,
+        "tags": {
+          "brand": "Au Pain de mon Grand-Père",
+          "brand:wikidata": "Q128837687",
+          "check_date": "2024-08-20",
+          "contact:housenumber": "2",
+          "contact:postcode": "21000",
+          "contact:street": "Rue Piron",
+          "name": "Au Pain de mon Grand-Père",
+          "opening_hours": "Mo-Sa 08:00-19:30; Su 08:00-13:00",
+          "ref:FR:SIRET": "80382419200022",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5538423013,
+        "lat": 47.3183899,
+        "lon": 5.0331558,
+        "tags": {
+          "check_date": "2024-09-28",
+          "name": "Épicerie Monge",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5863209788,
+        "lat": 47.3182508,
+        "lon": 5.0359202,
+        "tags": {
+          "contact:housenumber": "84",
+          "contact:postcode": "21000",
+          "contact:street": "Rue Berbisey",
+          "cuisine": "japanese",
+          "name": "K-Shoppu",
+          "old_name": "Merican Bagels",
+          "opening_hours": "Tu 12:00-17:00; We-Sa 11:00-19:30; Su 13:00-19:00; Mo off",
+          "ref:FR:SIRET": "91339602400014",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6146402866,
+        "lat": 47.3328181,
+        "lon": 5.0114442,
+        "tags": {
+          "addr:city": "Talant",
+          "addr:housenumber": "31",
+          "addr:postcode": "21240",
+          "addr:street": "Rue de la Libération",
+          "bulk_purchase": "yes",
+          "contact:facebook": "https://www.facebook.com/EpicerieLaBonneMesure/",
+          "email": "labonnemesure21@gmail.com",
+          "name": "La Bonne Mesure",
+          "opening_hours": "Tu-Sa 08:00-19:00; Fr 08:00-19:30",
+          "phone": "+33 3 45 62 23 22",
+          "shop": "convenience",
+          "website": "https://www.labonnemesure.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6445673289,
+        "lat": 47.3255548,
+        "lon": 5.0356965,
+        "tags": {
+          "name": "Gourmélo",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6761270398,
+        "lat": 47.3255091,
+        "lon": 5.0355736,
+        "tags": {
+          "name": "Le panier Darcy",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9516821943,
+        "lat": 47.3339115,
+        "lon": 5.026775,
+        "tags": {
+          "name": "Maison Roger",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10007282333,
+        "lat": 47.3172761,
+        "lon": 5.029942,
+        "tags": {
+          "name": "Librairie Gourmande",
+          "ref:FR:SIRET": "49413847200035",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10098006045,
+        "lat": 47.3178257,
+        "lon": 5.0294121,
+        "tags": {
+          "name": "Le Moulin",
+          "opening_hours": "Tu-Sa 07:30-19:30; Mo off; Su 07:30-19:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10108233149,
+        "lat": 47.3235317,
+        "lon": 5.0275644,
+        "tags": {
+          "addr:city": "Dijon",
+          "addr:postcode": "21000",
+          "addr:street": "Cour de la Gare Pierre Semard",
+          "name": "Les Champs du Destin",
+          "opening_hours": "Th 15:00-18:00",
+          "outdoor": "yes",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "ref:FR:SIRET": "53739936200012",
+          "shop": "bakery",
+          "website": "https://leschampsdudestin.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12636062277,
+        "lat": 47.3202127,
+        "lon": 5.0337028,
+        "tags": {
+          "contact:housenumber": "25",
+          "contact:postcode": "21000",
+          "contact:street": "Rue Condorcet",
+          "name": "L'Oriental",
+          "ref:FR:SIRET": "95182198200018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12956676038,
+        "lat": 47.3194627,
+        "lon": 5.0285645,
+        "tags": {
+          "name": "Rolaks Super Marché",
+          "ref:FR:SIRET": "98311932200011",
+          "shop": "convenience",
+          "stroller": "no",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13243152589,
+        "lat": 47.3236742,
+        "lon": 5.0375019,
+        "tags": {
+          "building:levels": "4",
+          "building:levels:underground": "1",
+          "check_date:opening_hours": "2026-06-09",
+          "contact:facebook": "https://www.facebook.com/librairie.grangier/",
+          "contact:housenumber": "14",
+          "contact:postcode": "21000",
+          "contact:street": "Rue du Château",
+          "email": "vat@librairie-grangier.fr",
+          "name": "Librairie Grangier",
+          "opening_hours": "Mo-Sa 09:30-19:00",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 3 80 50 82 50",
+          "ref:FR:SIRET": "78871409500023",
+          "ref:vatin": "FR54788714095",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
+          "takeaway": "yes",
+          "website": "https://www.librairie-grangier.com",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14040127731,
+        "lat": 47.3190103,
+        "lon": 5.0347098,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/epicerie.soyuz/;https://www.facebook.com/soyuzadijon.epicerie",
+          "contact:housenumber": "29",
+          "contact:street": "Rue Monge",
+          "name": "Soyuz",
+          "opening_hours": "Mo-Sa 10:00-12:00,14:00-19:00",
+          "phone": "+33 3 80 39 18 11",
+          "ref:FR:SIRET": "81342601200031",
+          "shop": "convenience",
+          "website": "https://balexei.wixsite.com/epicerie-soyuz"
+        }
+      },
+      {
+        "type": "way",
+        "id": 126416083,
+        "center": {
+          "lat": 47.3090625,
+          "lon": 5.012319
+        },
+        "tags": {
+          "addr:city": "Dijon",
+          "addr:housenumber": "58",
+          "addr:postcode": "21000",
+          "addr:street": "Rue du Chapitre",
+          "building": "detached",
+          "building:levels": "2",
+          "name": "Le Chapitre de Mélanie",
+          "opening_hours": "Sa 06:00-19:30; Su 06:00-13:00; Tu-Fr 06:00-13:00,15:00-19:30",
+          "payment:cards": "yes",
+          "payment:cash": "yes",
+          "phone": "+33 3 80 41 01 95",
+          "ref:FR:SIRET": "82780618300014",
+          "roof:levels": "0",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+          "wheelchair": "no"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      2.291485,
-      49.885844,
-      2.319374,
-      49.903519
+      2.296874,
+      49.889067,
+      2.313785,
+      49.900281
     ],
     "features": [
       {
@@ -145,6 +145,10 @@
                 49.889668
               ],
               [
+                2.312346,
+                49.890865
+              ],
+              [
                 2.312386,
                 49.890919
               ],
@@ -169,12 +173,8 @@
                 49.899712
               ],
               [
-                2.305335,
-                49.900023
-              ],
-              [
-                2.304243,
-                49.900119
+                2.304199,
+                49.900281
               ],
               [
                 2.300475,
@@ -196,166 +196,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            2.305726453957594,
-            49.89339323161626
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                2.291561,
-                49.896839
-              ],
-              [
-                2.291485,
-                49.896487
-              ],
-              [
-                2.292006,
-                49.893909
-              ],
-              [
-                2.292119,
-                49.893568
-              ],
-              [
-                2.293669,
-                49.889322
-              ],
-              [
-                2.294867,
-                49.888233
-              ],
-              [
-                2.296423,
-                49.887131
-              ],
-              [
-                2.296731,
-                49.886944
-              ],
-              [
-                2.299369,
-                49.885981
-              ],
-              [
-                2.299723,
-                49.885916
-              ],
-              [
-                2.302675,
-                49.885844
-              ],
-              [
-                2.303516,
-                49.885852
-              ],
-              [
-                2.306889,
-                49.885989
-              ],
-              [
-                2.307249,
-                49.886005
-              ],
-              [
-                2.3111,
-                49.887346
-              ],
-              [
-                2.313051,
-                49.887911
-              ],
-              [
-                2.313107,
-                49.887933
-              ],
-              [
-                2.317648,
-                49.890841
-              ],
-              [
-                2.319287,
-                49.892424
-              ],
-              [
-                2.319374,
-                49.892773
-              ],
-              [
-                2.318497,
-                49.894242
-              ],
-              [
-                2.315686,
-                49.899314
-              ],
-              [
-                2.314258,
-                49.901035
-              ],
-              [
-                2.313968,
-                49.901249
-              ],
-              [
-                2.313455,
-                49.901109
-              ],
-              [
-                2.311172,
-                49.900785
-              ],
-              [
-                2.307337,
-                49.903451
-              ],
-              [
-                2.306984,
-                49.903519
-              ],
-              [
-                2.302662,
-                49.903114
-              ],
-              [
-                2.301049,
-                49.902872
-              ],
-              [
-                2.299766,
-                49.902418
-              ],
-              [
-                2.297925,
-                49.901437
-              ],
-              [
-                2.292825,
-                49.898676
-              ],
-              [
-                2.291561,
-                49.896839
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809792021,
+      "timestamp": 1785863897636,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -367,8 +213,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -381,7 +226,968 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:17:09Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 853160590,
+        "lat": 49.8887758,
+        "lon": 2.3110577,
+        "tags": {
+          "addr:housenumber": "52",
+          "addr:street": "Rue Jules Barni",
+          "name": "La Tradition de Barni",
+          "opening_hours": "Mo-Fr 06:00-20:00; Sa off; Su 06:00-20:00",
+          "phone": "+33 9 83 02 88 75",
+          "ref:FR:SIRET": "98232810600017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 853160591,
+        "lat": 49.8855565,
+        "lon": 2.3123441,
+        "tags": {
+          "addr:housenumber": "99",
+          "addr:street": "Rue du Blamont",
+          "name": "La Gourmandise",
+          "opening_hours": "Mo-Fr 07:00-13:30,15:30-19:00; Sa 07:00-12:30; Su off",
+          "phone": "+33 3 22 91 42 31",
+          "ref:FR:SIRET": "90868560500010",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1738392483,
+        "lat": 49.8908131,
+        "lon": 2.3051365,
+        "tags": {
+          "addr:city": "Amiens",
+          "addr:housenumber": "28",
+          "addr:postcode": "80000",
+          "addr:street": "Rue de Noyon",
+          "brand": "Monop'",
+          "brand:website": "https://www.monoprix.fr/",
+          "brand:wikidata": "Q89913683",
+          "brand:wikipedia": "fr:Monoprix (France)",
+          "contact:city": "Amiens",
+          "contact:housenumber": "28",
+          "contact:postcode": "80000",
+          "contact:street": "Rue de Noyon",
+          "name": "Monop'",
+          "opening_hours": "Mo-Sa 07:30-21:50; Su 08:00-19:50",
+          "operator": "Noyondis",
+          "phone": "+33 3 22 92 81 92",
+          "ref:FR:SIRET": "44465668000899",
+          "shop": "convenience",
+          "website": "https://www.monoprix.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2587111353,
+        "lat": 49.8826346,
+        "lon": 2.2940959,
+        "tags": {
+          "addr:housenumber": "111",
+          "addr:street": "Rue Delpech",
+          "name": "Le Fournil d'Henriville",
+          "opening_hours": "Fr-We 07:00-20:00; Th off",
+          "phone": "+33 3 22 93 35 69",
+          "ref:FR:SIRET": "87903839600013",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2604895834,
+        "lat": 49.8847631,
+        "lon": 2.299437,
+        "tags": {
+          "name": "Au Petit Marché",
+          "ref:FR:SIRET": "81273610600012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2927141958,
+        "lat": 49.8954969,
+        "lon": 2.2977811,
+        "tags": {
+          "contact:city": "Amiens",
+          "contact:housenumber": "4",
+          "contact:postcode": "80000",
+          "contact:street": "Rue du Marché Lanselles",
+          "delivery": "yes",
+          "name": "Bulle en Stock Neuf Et Occasion",
+          "opening_hours": "Mo-Sa 10:00-19:30; Su 10:00-18:30",
+          "payment:american_express": "yes",
+          "payment:cheque": "yes",
+          "payment:contactless": "yes",
+          "payment:debit_cards": "yes",
+          "payment:diners_club": "yes",
+          "payment:discover_card": "yes",
+          "payment:jcb": "yes",
+          "payment:mastercard": "yes",
+          "payment:unionpay": "yes",
+          "payment:visa": "yes",
+          "phone": "+33 3 22 91 50 10",
+          "ref:FR:SIRET": "43258329200011",
+          "shop": "books",
+          "source": "Bing;DGFiP - Cadastre 2014",
+          "website": "https://www.bulleenstock.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2980129465,
+        "lat": 49.9029584,
+        "lon": 2.3150213,
+        "tags": {
+          "addr:housenumber": "287",
+          "addr:street": "Boulevard de Beauvillé",
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "name": "Spar",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-20:00",
+          "phone": "+33 3 22 43 19 85",
+          "ref:FR:SIRET": "89890750600015",
+          "shop": "convenience",
+          "website": "https://magasins.spar.fr/fr/s/spar-amiens-beauville"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2980129467,
+        "lat": 49.9031709,
+        "lon": 2.3148884,
+        "tags": {
+          "addr:housenumber": "170",
+          "addr:street": "Rue Valentin Haüy",
+          "name": "Chez Kenza",
+          "opening_hours": "Mo-Su 06:30-20:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3097021302,
+        "lat": 49.8940627,
+        "lon": 2.2972459,
+        "tags": {
+          "contact:city": "Amiens",
+          "contact:housenumber": "3",
+          "contact:phone": "+33 3 22 71 54 54",
+          "contact:postcode": "80000",
+          "contact:street": "Rue des Vergeaux",
+          "contact:website": "http://www.librairiemartelle.com/",
+          "name": "Librairie Martelle",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "30107378900010",
+          "shop": "books",
+          "survey:date": "2025-12-19"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3100404838,
+        "lat": 49.8930639,
+        "lon": 2.2945356,
+        "tags": {
+          "addr:housenumber": "8",
+          "addr:street": "Rue de Beauvais",
+          "name": "Maison Bocquillon",
+          "opening_hours": "Tu-Sa 07:00-19:00; Mo,Su off",
+          "phone": "+33 3 22 91 69 32",
+          "ref:FR:SIRET": "49817551200025",
+          "shop": "bakery",
+          "website": "https://facebook.com/maisonluton/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3100404843,
+        "lat": 49.8928964,
+        "lon": 2.2948068,
+        "tags": {
+          "name": "Table et Saveurs",
+          "opening_hours": "Mo 14:00-19:15; Tu-Sa 09:30-19:15; Su 09:30-12:30",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3103831019,
+        "lat": 49.8923002,
+        "lon": 2.2976932,
+        "tags": {
+          "addr:housenumber": "8",
+          "addr:street": "Rue des Jacobins",
+          "name": "Tarterie des Jacobins",
+          "opening_hours": "Mo-Sa 07:00-19:00; Su off",
+          "phone": "+33 3 22 91 23 23",
+          "ref:FR:SIRET": "88328669200016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3105429730,
+        "lat": 49.8865331,
+        "lon": 2.3033389,
+        "tags": {
+          "addr:housenumber": "10",
+          "addr:street": "Rue Saint-Fuscien",
+          "name": "Clémence",
+          "opening_hours": "Mo-Fr 07:00-19:30; Sa off; Su 07:00-13:30",
+          "phone": "+33 3 22 43 38 32",
+          "ref:FR:SIRET": "80262530100014",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3105429731,
+        "lat": 49.8856191,
+        "lon": 2.3011392,
+        "tags": {
+          "contact:city": "Amiens",
+          "contact:housenumber": "42",
+          "contact:phone": "+33 3 22 95 72 78",
+          "contact:postcode": "80000",
+          "contact:street": "Rue Morgan",
+          "contact:website": "https://fr-fr.facebook.com/lesdelicesdesaintmartin",
+          "name": "Les Délices de Saint-Martin",
+          "opening_hours": "Mo-Sa 09:30-12:30,13:30-19:30",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3105429734,
+        "lat": 49.8862654,
+        "lon": 2.3037678,
+        "tags": {
+          "addr:housenumber": "23",
+          "addr:street": "Rue Saint-Fuscien",
+          "name": "Les Épicuriens",
+          "opening_hours": "Mo 07:00-19:30; Tu off; We-Sa 07:00-19:30; Su 07:00-12:30",
+          "ref:FR:SIRET": "91018104900024",
+          "shop": "bakery",
+          "website": "https://lesepicuriens-leshop.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3105921660,
+        "lat": 49.8914112,
+        "lon": 2.3073812,
+        "tags": {
+          "addr:housenumber": "2 bis",
+          "addr:street": "Boulevard d'Alsace-Lorraine",
+          "name": "La Rose Blanche",
+          "opening_hours": "Mo-Sa 07:00-20:00; Su off",
+          "phone": "+33 9 73 24 85 96",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3106173435,
+        "lat": 49.8955108,
+        "lon": 2.2994212,
+        "tags": {
+          "contact:city": "Amiens",
+          "contact:housenumber": "13",
+          "contact:phone": "+33 3 22 72 64 07",
+          "contact:postcode": "80000",
+          "contact:street": "Rue Flatters",
+          "contact:website": "https://www.facebook.com/RacinesDuMondeLibrairie/",
+          "name": "Les Racines du Monde",
+          "opening_hours": "Mo-Sa 13:00-19:00",
+          "ref:FR:SIRET": "49010368600013",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3106173438,
+        "lat": 49.89563,
+        "lon": 2.2994907,
+        "tags": {
+          "addr:housenumber": "17",
+          "addr:street": "Rue Flatters",
+          "name": "Maison Guillot",
+          "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-17:00; Su off",
+          "phone": "+33 3 22 91 31 18",
+          "ref:FR:SIRET": "53005838700016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3171971643,
+        "lat": 49.8847401,
+        "lon": 2.3014759,
+        "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3186672327,
+        "lat": 49.8825886,
+        "lon": 2.2940791,
+        "tags": {
+          "name": "Côté Marché",
+          "ref:FR:SIRET": "38901312900017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3242620442,
+        "lat": 49.903816,
+        "lon": 2.3070454,
+        "tags": {
+          "addr:housenumber": "161",
+          "addr:street": "Chaussée Saint-Pierre",
+          "name": "Aux Délice de Saint-Pierre",
+          "opening_hours": "Mo-Su 06:00-21:00",
+          "phone": "+33 3 22 09 27 50",
+          "ref:FR:SIRET": "94928859100025",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3288326061,
+        "lat": 49.8867741,
+        "lon": 2.316111,
+        "tags": {
+          "addr:housenumber": "102",
+          "addr:street": "Rue Jules Barni",
+          "check_date": "2024-09-06",
+          "internet_access": "no",
+          "name": "La Pétrie / Barni",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su off",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 3 22 95 65 60",
+          "ref:FR:SIRET": "90111010600019",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3288326068,
+        "lat": 49.8867137,
+        "lon": 2.3162508,
+        "tags": {
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "brand:wikipedia": "en:SPAR (retailer)",
+          "check_date": "2024-09-06",
+          "internet_access": "no",
+          "name": "Spar",
+          "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-13:00",
+          "payment:visa": "yes",
+          "phone": "+33 962 573 676",
+          "ref:FR:SIRET": "93168597800013",
+          "shop": "convenience",
+          "website": "https://magasins.spar.fr/fr/s/spar-supermarche-amiens-jules-barni"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3288326070,
+        "lat": 49.8887891,
+        "lon": 2.3118546,
+        "tags": {
+          "name": "Épicerie Nouvelle",
+          "ref:FR:SIRET": "50800311800017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3288326081,
+        "lat": 49.8891105,
+        "lon": 2.31105,
+        "tags": {
+          "name": "ZAC Exotique",
+          "ref:FR:SIRET": "49502168500013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3331730960,
+        "lat": 49.8963542,
+        "lon": 2.2943597,
+        "tags": {
+          "name": "Asie Gourmande",
+          "ref:FR:SIRET": "75016151500010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3334022439,
+        "lat": 49.8963214,
+        "lon": 2.2926822,
+        "tags": {
+          "name": "Odessa",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3334022446,
+        "lat": 49.8964595,
+        "lon": 2.2920546,
+        "tags": {
+          "name": "Smak",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3339802445,
+        "lat": 49.888715,
+        "lon": 2.3068678,
+        "tags": {
+          "name": "Gloire Exotique",
+          "ref:FR:SIRET": "47818062300017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3891654128,
+        "lat": 49.9044497,
+        "lon": 2.3067615,
+        "tags": {
+          "addr:housenumber": "31",
+          "addr:street": "Rue de Doullens",
+          "contact:city": "Amiens",
+          "contact:housenumber": "31",
+          "contact:postcode": "80000",
+          "contact:street": "Rue de Doullens",
+          "name": "La Chocolatine",
+          "opening_hours": "Mo-Fr 06:30-13:30,15:30-19:00; Sa 06:30-19:00; Su 07:00-19:00",
+          "phone": "+33 3 22 52 26 23",
+          "ref:FR:SIRET": "35105497800066",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3900531258,
+        "lat": 49.8954317,
+        "lon": 2.2970384,
+        "tags": {
+          "addr:city": "Amiens",
+          "addr:housenumber": "9",
+          "addr:postcode": "80000",
+          "addr:street": "Rue des Chaudronniers",
+          "contact:city": "Amiens",
+          "contact:housenumber": "1",
+          "contact:phone": "+33 3 22 91 27 22",
+          "contact:postcode": "80000",
+          "contact:street": "Rue des Chaudronniers",
+          "contact:website": "https://pagesdencre80.blogspot.fr",
+          "name": "Pages d'Encre",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "81113445100020",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3901285778,
+        "lat": 49.8946121,
+        "lon": 2.2977813,
+        "tags": {
+          "contact:city": "Amiens",
+          "contact:housenumber": "11",
+          "contact:phone": "+33 3 60 24 37 86",
+          "contact:postcode": "80000",
+          "contact:street": "Rue des Lombards",
+          "contact:website": "https://www.facebook.com/Chapeau-melon-et-piles-de-livres-179874868773902/",
+          "name": "Chapeau Melon et Piles de Livres",
+          "ref:FR:SIRET": "53489484500013",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3902534855,
+        "lat": 49.8956209,
+        "lon": 2.3027049,
+        "tags": {
+          "check_date": "2025-06-28",
+          "contact:city": "Amiens",
+          "contact:housenumber": "37",
+          "contact:phone": "+33 3 22 92 23 52",
+          "contact:postcode": "80000",
+          "contact:street": "Rue du Hocquet",
+          "contact:website": "http://librairiedulabyrinthe.fr/",
+          "name": "Librairie du Labyrinthe",
+          "opening_hours": "Tu-Fr,Su 11:00-12:30, Sa 10:00-12:30, Tu-Su 15:00-19:00",
+          "ref:FR:SIRET": "34446512500039",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3902535180,
+        "lat": 49.8920358,
+        "lon": 2.2923999,
+        "tags": {
+          "addr:housenumber": "9",
+          "addr:street": "Rue du Maréchal de Lattre de Tassigny",
+          "check_date": "2025-12-29",
+          "contact:city": "Amiens",
+          "contact:housenumber": "9",
+          "contact:postcode": "80000",
+          "contact:street": "Rue du Maréchal de Lattre de Tassigny",
+          "name": "Les Saveurs du Pain",
+          "opening_hours": "Mo-Su 06:30-21:00",
+          "payment:apple_pay": "yes",
+          "payment:coins": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:notes": "yes",
+          "phone": "+33 9 87 42 76 52",
+          "ref:FR:SIRET": "98407746100015",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4253353172,
+        "lat": 49.8941646,
+        "lon": 2.2994159,
+        "tags": {
+          "name": "L'Imprimerie",
+          "ref:FR:SIRET": "40443546300033",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4857239009,
+        "lat": 49.8989612,
+        "lon": 2.3007745,
+        "tags": {
+          "contact:city": "Amiens",
+          "contact:housenumber": "62",
+          "contact:phone": "+33 6 60 44 32 39",
+          "contact:postcode": "80000",
+          "contact:street": "Rue Saint-Leu",
+          "contact:website": "https://www.instagram.com/librairiealeatoire/",
+          "name": "Librairie Aléatoire",
+          "ref:FR:SIRET": "49954163900013",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4857531131,
+        "lat": 49.8930165,
+        "lon": 2.2970381,
+        "tags": {
+          "addr:city": "Amiens",
+          "addr:housenumber": "1 bis",
+          "addr:postcode": "80000",
+          "addr:street": "Place Gambetta",
+          "brand": "La Mie Câline",
+          "brand:wikidata": "Q3210704",
+          "brand:wikipedia": "fr:La Mie câline",
+          "check_date": "2025-10-25",
+          "name": "La Mie Câline",
+          "opening_hours": "Mo-Sa 07:30-19:45; Su off",
+          "phone": "+33 3 22 44 90 34",
+          "shop": "bakery",
+          "website": "https://www.lamiecaline.com/boutiques/amiens/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4857851887,
+        "lat": 49.890993,
+        "lon": 2.3053188,
+        "tags": {
+          "name": "Afro Beauty",
+          "ref:FR:SIRET": "95343960100014",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4857851892,
+        "lat": 49.8910345,
+        "lon": 2.3051356,
+        "tags": {
+          "addr:full": "9 Rue de Noyon, 8000 Amiens",
+          "name": "C'est deux euros",
+          "ref:FR:SIRET": "43394006100586",
+          "shop": "convenience",
+          "website": "https://www.cestdeuxeuros.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5014229542,
+        "lat": 49.8946862,
+        "lon": 2.2922189,
+        "tags": {
+          "contact:city": "Amiens",
+          "contact:housenumber": "10",
+          "contact:phone": "+33 3 22 09 52 21",
+          "contact:postcode": "80000",
+          "contact:street": "Rue Jean Catelas",
+          "contact:website": "http://www.labonnebaguette.fr/",
+          "name": "La Pétrie",
+          "opening_hours": "Mo-Sa 07:00-19:30",
+          "organic": "yes",
+          "ref:FR:SIRET": "82194774400016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5573631803,
+        "lat": 49.8963959,
+        "lon": 2.292551,
+        "tags": {
+          "addr:housenumber": "3",
+          "addr:street": "Rue de la Hotoie",
+          "name": "Tradition du Pain",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "phone": "+33 7 83 61 51 52",
+          "ref:FR:SIRET": "88757807800024",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5573631814,
+        "lat": 49.8949866,
+        "lon": 2.2935781,
+        "tags": {
+          "name": "Amiens Exotique",
+          "ref:FR:SIRET": "79044327900019",
+          "shop": "convenience",
+          "survey:date": "2025-07-21"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5574263881,
+        "lat": 49.895311,
+        "lon": 2.2969041,
+        "tags": {
+          "contact:city": "Amiens",
+          "contact:housenumber": "10",
+          "contact:phone": "+33 3 22 22 06 78",
+          "contact:postcode": "80000",
+          "contact:street": "Rue des Chaudronniers",
+          "contact:website": "https://www.stockenbulle.com/",
+          "name": "Stock en Bulle",
+          "opening_hours": "Mo-Sa 10:00-19:30",
+          "ref:FR:SIRET": "83042317400028",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5802287982,
+        "lat": 49.8955531,
+        "lon": 2.2934143,
+        "tags": {
+          "brand": "day by day",
+          "brand:wikidata": "Q48748765",
+          "bulk_purchase": "only",
+          "email": "daybyday.amiens@gmail.com",
+          "name": "day by day",
+          "opening_hours": "Mo-We 10:00-13:00,15:00-19:00; Fr-Sa 10:00-13:00,15:00-19:00",
+          "organic": "yes",
+          "phone": "+33981605735",
+          "ref:FR:SIRET": "83905223000019",
+          "shop": "convenience",
+          "website": "https://daybyday-shop.com/magasin/amiens"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5926637462,
+        "lat": 49.9013122,
+        "lon": 2.2997374,
+        "tags": {
+          "addr:city": "Amiens",
+          "addr:housenumber": "2",
+          "addr:postcode": "80000",
+          "addr:street": "Rue des Déportés",
+          "brand": "G20",
+          "brand:wikidata": "Q3504731",
+          "brand:wikipedia": "fr:Supermarchés G20",
+          "name": "Supermarché G20",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-19:00",
+          "phone": "+33 3 22 52 13 05",
+          "ref:FR:SIRET": "81395303100016",
+          "shop": "convenience",
+          "website": "https://www.supermarchesg20.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5926828646,
+        "lat": 49.8960176,
+        "lon": 2.2936736,
+        "tags": {
+          "name": "Minastore",
+          "ref:FR:SIRET": "83091349700012",
+          "shop": "convenience",
+          "survey:date": "2025-07-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6307947785,
+        "lat": 49.8906481,
+        "lon": 2.3204969,
+        "tags": {
+          "name": "Le Peuplié",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6416702269,
+        "lat": 49.893214,
+        "lon": 2.2950625,
+        "tags": {
+          "addr:housenumber": "12",
+          "addr:street": "Place de l'Hôtel de Ville",
+          "bulk_purchase": "only",
+          "contact:city": "Amiens",
+          "contact:facebook": "https://www.facebook.com/laboiteabio/",
+          "contact:housenumber": "12",
+          "contact:postcode": "80000",
+          "contact:street": "Place de l'Hôtel de Ville",
+          "contact:website": "http://boite-a-bio.fr/",
+          "name": "La Boîte à Bio",
+          "opening_hours": "Tu-Sa 09:30-13:00,14:00-19:00; Su off",
+          "organic": "only",
+          "phone": "+33 3 22 91 76 41",
+          "ref:FR:SIRET": "84108892500026",
+          "shop": "convenience",
+          "was:name": "Gaston",
+          "was:shop": "jewelry"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7054369369,
+        "lat": 49.8932571,
+        "lon": 2.2950769,
+        "tags": {
+          "addr:housenumber": "12 bis",
+          "addr:street": "Place de l'Hôtel de Ville",
+          "name": "La Brioche Chaude",
+          "opening_hours": "Mo-Sa 07:00-19:00; Su off",
+          "phone": "+33 3 22 91 10 87",
+          "ref:FR:SIRET": "43154511000014",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9044803793,
+        "lat": 49.8933353,
+        "lon": 2.3041118,
+        "tags": {
+          "name": "Épicerie de la Cathédrale",
+          "ref:FR:SIRET": "84008968400012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12383243424,
+        "lat": 49.8927345,
+        "lon": 2.2936969,
+        "tags": {
+          "addr:city": "Amiens",
+          "addr:housenumber": "21",
+          "addr:postcode": "80000",
+          "addr:street": "Rue de Beauvais",
+          "amenity": "cafe",
+          "name": "La théière de la librairie",
+          "opening_hours": "Mo 14:30-18:30; Tu-Fr 10:30-13:00,14:30-19:00; Sa 10:30-13:00,14:00-19:00",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12645701100,
+        "lat": 49.8878061,
+        "lon": 2.2938746,
+        "tags": {
+          "addr:housenumber": "18",
+          "addr:street": "Rue Gaulthier de Rumilly",
+          "name": "La Baguette d'Amiens",
+          "opening_hours": "Mo off; Tu 07:00-20:30; We-Th 07:00-20:00; Fr 07:00-19:00; Sa-Su 07:00-20:00",
+          "phone": "+33 3 22 89 37 44",
+          "ref:FR:SIRET": "90388877400010",
+          "shop": "bakery",
+          "source": "INSEE"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12806321121,
+        "lat": 49.890738,
+        "lon": 2.2909958,
+        "tags": {
+          "addr:housenumber": "152",
+          "addr:street": "Rue du Maréchal de Lattre de Tassigny",
+          "name": "Maison du Pain",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "phone": "+33 7 45 21 44 48",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12806351248,
+        "lat": 49.8875732,
+        "lon": 2.2939726,
+        "tags": {
+          "addr:housenumber": "13",
+          "addr:street": "Rue Gaulthier de Rumilly",
+          "name": "La Croustillante",
+          "opening_hours": "Mo-Fr 07:00-19:30; Sa 07:00-19:00; Su off",
+          "phone": "+33 3 22 42 24 14",
+          "ref:FR:SIRET": "48317512100019",
+          "shop": "bakery",
+          "website": "https://www.facebook.com/p/La-Croustillante-100063591460693/?locale=fr_FR"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12811815347,
+        "lat": 49.8906698,
+        "lon": 2.305625,
+        "tags": {
+          "addr:housenumber": "40",
+          "addr:street": "Rue de Noyon",
+          "name": "La Mie Bio d'Ici",
+          "opening_hours": "Mo-Sa 07:00-20:00; Su off",
+          "phone": "+33 3 22 44 36 31",
+          "ref:FR:SIRET": "78995611700020",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12958948439,
+        "lat": 49.8955211,
+        "lon": 2.3028976,
+        "tags": {
+          "addr:city": "Amiens",
+          "addr:housenumber": "30",
+          "addr:postcode": "80000",
+          "addr:street": "Rue du Hocquet",
+          "check_date": "2025-08-28",
+          "name": "Canal Pain",
+          "opening_hours": "Tu,Fr 12:00-19:00; Sa 09:00-12:00",
+          "operator": "Association Coopérative Amiénoise Boulangère",
+          "payment:cash": "yes",
+          "payment:coins": "yes",
+          "phone": "+33 7 58 29 06 75",
+          "ref:FR:SIRET": "10108854000014",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12985418873,
+        "lat": 49.8953452,
+        "lon": 2.2933336,
+        "tags": {
+          "name": "City Mart",
+          "ref:FR:SIRET": "92540867600011",
+          "shop": "convenience",
+          "survey:date": "2025-07-07"
+        }
+      },
+      {
+        "type": "way",
+        "id": 140245776,
+        "center": {
+          "lat": 49.896469,
+          "lon": 2.2919255
+        },
+        "tags": {
+          "building": "yes",
+          "contact:city": "Amiens",
+          "contact:housenumber": "11",
+          "contact:phone": "+33 3 22 91 20 90",
+          "contact:postcode": "80000",
+          "contact:street": "Rue de la Hotoie",
+          "contact:website": "https://www.antiquites-langloisguy.fr/",
+          "name": "Le Bouquiniste",
+          "opening_hours": "Mo-Sa 10:00-17:00",
+          "ref:FR:SIRET": "49307497500019",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+        }
+      },
+      {
+        "type": "way",
+        "id": 366866803,
+        "center": {
+          "lat": 49.8904269,
+          "lon": 2.3080256
+        },
+        "tags": {
+          "brand": "monop'station",
+          "brand:wikidata": "Q3321241",
+          "brand:wikipedia": "fr:Monoprix (France)",
+          "indoor": "room",
+          "level": "0",
+          "name": "Monop'station",
+          "opening_hours": "Mo 05:30-20:45; Tu-Th 05:30-20:30; Fr 05:30-20:45; Sa-Su 07:00-12:45,14:30-19:15",
+          "ref:FR:SIRET": "51049900700068",
+          "room": "shop",
+          "shop": "convenience",
+          "source": "survey 2015",
+          "website": "https://www.monoprix.fr/2955.html"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

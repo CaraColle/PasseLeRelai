@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      7.249199,
-      43.694304,
-      7.275161,
-      43.713537
+      7.253806,
+      43.69744,
+      7.270734,
+      43.710129
     ],
     "features": [
       {
@@ -193,8 +193,8 @@
                 43.708403
               ],
               [
-                7.2667,
-                43.709202
+                7.267212,
+                43.709122
               ],
               [
                 7.264373,
@@ -224,178 +224,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            7.261996954693084,
-            43.70470363559626
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                7.253631,
-                43.709281
-              ],
-              [
-                7.251372,
-                43.704254
-              ],
-              [
-                7.250805,
-                43.703963
-              ],
-              [
-                7.249887,
-                43.703457
-              ],
-              [
-                7.249843,
-                43.703413
-              ],
-              [
-                7.249765,
-                43.703263
-              ],
-              [
-                7.249199,
-                43.700311
-              ],
-              [
-                7.249204,
-                43.699951
-              ],
-              [
-                7.249285,
-                43.698703
-              ],
-              [
-                7.249554,
-                43.698463
-              ],
-              [
-                7.254806,
-                43.696326
-              ],
-              [
-                7.255728,
-                43.695808
-              ],
-              [
-                7.256985,
-                43.695187
-              ],
-              [
-                7.258333,
-                43.694611
-              ],
-              [
-                7.260825,
-                43.694304
-              ],
-              [
-                7.263065,
-                43.694504
-              ],
-              [
-                7.265145,
-                43.694799
-              ],
-              [
-                7.265521,
-                43.694879
-              ],
-              [
-                7.267518,
-                43.695479
-              ],
-              [
-                7.268459,
-                43.695999
-              ],
-              [
-                7.269785,
-                43.697124
-              ],
-              [
-                7.270441,
-                43.697747
-              ],
-              [
-                7.27349,
-                43.701615
-              ],
-              [
-                7.275048,
-                43.703658
-              ],
-              [
-                7.275161,
-                43.703999
-              ],
-              [
-                7.27385,
-                43.708824
-              ],
-              [
-                7.27143,
-                43.711028
-              ],
-              [
-                7.26986,
-                43.711841
-              ],
-              [
-                7.267928,
-                43.71225
-              ],
-              [
-                7.263113,
-                43.713369
-              ],
-              [
-                7.26193,
-                43.713537
-              ],
-              [
-                7.261571,
-                43.713503
-              ],
-              [
-                7.261449,
-                43.713454
-              ],
-              [
-                7.259982,
-                43.712827
-              ],
-              [
-                7.258572,
-                43.71194
-              ],
-              [
-                7.253721,
-                43.709555
-              ],
-              [
-                7.253631,
-                43.709281
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809729418,
+      "timestamp": 1785862855081,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -407,8 +241,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -421,7 +254,2742 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:03:50Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 297042117,
+        "lat": 43.7058222,
+        "lon": 7.2652693,
+        "tags": {
+          "addr:housenumber": "35",
+          "addr:street": "Boulevard Raimbaldi",
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "fr:Système U",
+          "contact:city": "Nice",
+          "contact:postcode": "06000",
+          "name": "Utile",
+          "opening_hours": "Mo-Sa 07:30-20:30; Su 09:00-20:30",
+          "ref:FR:SIRET": "57375061900070",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 311362318,
+        "lat": 43.6971543,
+        "lon": 7.2648479,
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "name": "Utile",
+          "opening_hours": "Mo-Su 07:00-21:00",
+          "ref:FR:SIRET": "57375061900104",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 313186227,
+        "lat": 43.6976128,
+        "lon": 7.2704003,
+        "tags": {
+          "brand": "Monop'",
+          "brand:wikidata": "Q89913683",
+          "name": "Monop'",
+          "opening_hours": "Mo-Sa 08:00-23:45; Su 09:00-21:45",
+          "ref:FR:SIRET": "44465668001095",
+          "shop": "convenience",
+          "website": "https://www.monoprix.fr/2196.html"
+        }
+      },
+      {
+        "type": "node",
+        "id": 440107664,
+        "lat": 43.7074283,
+        "lon": 7.2622431,
+        "tags": {
+          "addr:housenumber": "6",
+          "addr:street": "Rue Vernier",
+          "brand": "La Procure",
+          "brand:wikidata": "Q3211977",
+          "brand:wikipedia": "fr:La Procure",
+          "check_date:opening_hours": "2025-12-13",
+          "contact:facebook": "LibrairieLaProcureNice",
+          "contact:website": "https://www.laprocure.com/",
+          "name": "La Procure",
+          "opening_hours": "Tu-Sa 10:00-18:00",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "849757950",
+          "ref:FR:SIRET": "84975795000019",
+          "shop": "books",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 442731697,
+        "lat": 43.6982608,
+        "lon": 7.2706295,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/librairiemassena/",
+          "contact:housenumber": "55",
+          "contact:street": "Rue Gioffredo",
+          "name": "Librairie Masséna",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "phone": "+33 4 93 80 90 16",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "452302631",
+          "ref:FR:SIRET": "45230263100018",
+          "ref:vatin": "FR28452302631",
+          "shop": "books",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.librairiemassena.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 450126494,
+        "lat": 43.7129343,
+        "lon": 7.2616165,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "23",
+          "addr:street": "Avenue Alfred Borriglione",
+          "email": "lesjourneessuspendues@gmail.com",
+          "facebook": "https://www.facebook.com/profile.php?id=100045327679195",
+          "name": "Librairie Les Journées Suspendues",
+          "opening_hours": "Tu-Sa 10:00-19:00; We 10:00-13:00,14:00-19:00",
+          "phone": "+33492107720",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "824341283",
+          "ref:FR:SIRET": "82434128300011",
+          "ref:vatin": "FR34824341283",
+          "shop": "books",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 451921781,
+        "lat": 43.7089753,
+        "lon": 7.2561995,
+        "tags": {
+          "addr:housenumber": "136",
+          "addr:street": "Boulevard Gambetta",
+          "facebook": "https://www.facebook.com/LAtelierDeVincent/",
+          "name": "L'Atelier de Vincent Mary",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "752185660",
+          "ref:FR:SIRET": "75218566000020",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 456969915,
+        "lat": 43.6962754,
+        "lon": 7.2633133,
+        "tags": {
+          "amenity": "cafe",
+          "indoor_seating": "yes",
+          "name": "Armand",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "outdoor_seating": "yes",
+          "phone": "+33 4 93 82 59 66",
+          "ref:FR:SIRET": "88210204900013",
+          "shop": "bakery",
+          "website": "https://bakeronline.fr/fr-fr/armandzonepietonne",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 460482828,
+        "lat": 43.6994993,
+        "lon": 7.2716321,
+        "tags": {
+          "name": "Librairie Privat Sorbonne",
+          "ref:FR:SIRET": "80023487400025",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 463506452,
+        "lat": 43.7054115,
+        "lon": 7.2670722,
+        "tags": {
+          "addr:housenumber": "22",
+          "addr:street": "Rue Pertinax",
+          "check_date": "2025-07-09",
+          "check_date:opening_hours": "2025-07-09",
+          "name": "Euro Asie",
+          "opening_hours": "Mo-Sa 10:00-20:00; Su off",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "909387599",
+          "ref:FR:SIRET": "90938759900014",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 588643359,
+        "lat": 43.7080983,
+        "lon": 7.2523413,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "36",
+          "addr:street": "Avenue Paul Arène",
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "en:Système U",
+          "check_date": "2023-06-27",
+          "name": "Utile",
+          "opening_hours": "07:30-20:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 609404573,
+        "lat": 43.6970333,
+        "lon": 7.2512733,
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "fr:Système U",
+          "name": "Utile",
+          "ref:FR:SIRET": "57375061901789",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1377323628,
+        "lat": 43.7086473,
+        "lon": 7.2625615,
+        "tags": {
+          "facebook": "https://www.facebook.com/boulangerieZambetti/",
+          "name": "E. Zambetti",
+          "opening_hours": "Mo-Su 06:30-20:20",
+          "pastry": "yes",
+          "ref:FR:SIRET": "41862912700048",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1612316731,
+        "lat": 43.7031755,
+        "lon": 7.2563215,
+        "tags": {
+          "addr:housenumber": "70",
+          "addr:street": "Boulevard Gambetta",
+          "check_date": "2025-08-01",
+          "name": "Moulin de Flor",
+          "ref:FR:NAF": "10.71A",
+          "ref:FR:SIREN": "880218649",
+          "ref:FR:SIRET": "88021864900023",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1690924308,
+        "lat": 43.7050933,
+        "lon": 7.2695285,
+        "tags": {
+          "addr:housenumber": "20",
+          "addr:street": "Rue de Lépante",
+          "name": "La Savoyarde",
+          "opening_hours": "Mo,Th-Sa 06:00-19:00; Su 06:00-14:00; Tu,We off",
+          "pastry": "yes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "901064014",
+          "ref:FR:SIRET": "90106401400011",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1690972985,
+        "lat": 43.7125814,
+        "lon": 7.261874,
+        "tags": {
+          "addr:housenumber": "20",
+          "addr:street": "Avenue Alfred Borriglione",
+          "check_date": "2025-11-30",
+          "name": "Le Fournil du Phoenix",
+          "opening_hours": "Mo-Su 06:00-22:00",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "843591827",
+          "ref:FR:SIRET": "84359182700038",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1690972996,
+        "lat": 43.7072202,
+        "lon": 7.2640263,
+        "tags": {
+          "brand": "Eric Kayser",
+          "brand:wikidata": "Q99231745",
+          "name": "Eric Kayser",
+          "pastry": "yes",
+          "ref:FR:SIRET": "80770348300048",
+          "shop": "bakery",
+          "website": "https://www.maison-kayser.com/gb/boulangeries/100004014-nice-malaussena.html"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1691026925,
+        "lat": 43.7107269,
+        "lon": 7.2620945,
+        "tags": {
+          "email": "contact@multari.fr",
+          "name": "J. Multari",
+          "pastry": "yes",
+          "ref:FR:SIRET": "51975911200062",
+          "shop": "bakery",
+          "toilets:wheelchair": "no",
+          "website": "https://www.multari.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1691039349,
+        "lat": 43.7099885,
+        "lon": 7.2587808,
+        "tags": {
+          "name": "L'Épi de Blé",
+          "pastry": "yes",
+          "ref:FR:SIRET": "53302770200018",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1789809984,
+        "lat": 43.7027822,
+        "lon": 7.254192,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "10",
+          "addr:street": "Boulevard Tzarewitch",
+          "name": "L'Impériale",
+          "ref:FR:NAF": "10.71D",
+          "ref:FR:SIREN": "397482597",
+          "ref:FR:SIRET": "39748259700028",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "website": "https://limperiale-nice.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1789809999,
+        "lat": 43.7023479,
+        "lon": 7.2539002,
+        "tags": {
+          "addr:housenumber": "15",
+          "addr:street": "Boulevard Tzarewitch",
+          "name": "Le Petit Market",
+          "opening_hours": "07:00-22:00",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "987378924",
+          "ref:FR:SIRET": "98737892400011",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1799971864,
+        "lat": 43.6953062,
+        "lon": 7.2516993,
+        "tags": {
+          "check_date": "2025-06-16",
+          "name": "Ararat Alimentation",
+          "ref:FR:SIRET": "84081611000018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1799971874,
+        "lat": 43.6965713,
+        "lon": 7.2513921,
+        "tags": {
+          "addr:housenumber": "33",
+          "addr:street": "Boulevard François Grosso",
+          "check_date": "2026-02-10",
+          "name": "Maxime Bouquin",
+          "ref:FR:SIRET": "79183271000010",
+          "shop": "books",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1867139373,
+        "lat": 43.7003859,
+        "lon": 7.2683646,
+        "tags": {
+          "brand": "Brioche Dorée",
+          "brand:wikidata": "Q2925606",
+          "brand:wikipedia": "fr:Brioche Dorée",
+          "contact:phone": "+33 4 93 80 79 75",
+          "indoor_seating": "yes",
+          "name": "Brioche Dorée",
+          "official_name": "Brioche Dorée Nice - Médecin",
+          "opening_hours": "Mo-Sa 08:00-19:30; Su 09:30-17:30",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "31890659100835",
+          "shop": "bakery",
+          "website": "https://www.briochedoree.fr/store-finder/194003"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1867139433,
+        "lat": 43.6960693,
+        "lon": 7.273711,
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "check_date": "2023-07-05",
+          "name": "Vival",
+          "operator": "Vival",
+          "shop": "convenience",
+          "website": "https://magasins.vival.fr/fr/vival-nice-gassin",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1878296362,
+        "lat": 43.71002,
+        "lon": 7.2613493,
+        "tags": {
+          "addr:housenumber": "1",
+          "addr:street": "Boulevard Joseph Garnier",
+          "description": "Épicerie fine de la mer",
+          "name": "La Fisherie",
+          "note": "vends de produits de la mer (pas poisson frais apparemment, à vérifier)",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "52017408700038",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07",
+          "website": "https://la-fisherie.fr/fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1878296376,
+        "lat": 43.7100202,
+        "lon": 7.2612649,
+        "tags": {
+          "addr:housenumber": "1",
+          "addr:street": "Boulevard Joseph Garnier",
+          "check_date": "2026-04-12",
+          "name": "Maison J. Marc Regel",
+          "ref:FR:NAF": "10.71D",
+          "ref:FR:SIREN": "514406594",
+          "ref:FR:SIRET": "51440659400028",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1914013389,
+        "lat": 43.6986055,
+        "lon": 7.2716063,
+        "tags": {
+          "name": "Comme",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1922208878,
+        "lat": 43.7072803,
+        "lon": 7.2610631,
+        "tags": {
+          "addr:housenumber": "16",
+          "addr:street": "Rue Vernier",
+          "check_date": "2024-09-24",
+          "name": "Camoes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIRET": "78878897400020",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1944633345,
+        "lat": 43.7115609,
+        "lon": 7.2629495,
+        "tags": {
+          "facebook": "https://www.facebook.com/p/Librairie-Lalbatros-100068866275740/",
+          "name": "L'albatros",
+          "phone": "+33 4 93 52 58 99",
+          "ref:FR:SIRET": "40867781300011",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1950618131,
+        "lat": 43.7018738,
+        "lon": 7.261077,
+        "tags": {
+          "addr:housenumber": "32",
+          "addr:street": "Avenue Georges Clemenceau",
+          "name": "Alimentation Clem's",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "911568798",
+          "ref:FR:SIRET": "91156879800019",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1950618133,
+        "lat": 43.7000366,
+        "lon": 7.2621308,
+        "tags": {
+          "branch": "Nice Baquis",
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "name": "U Express",
+          "opening_hours": "Mo-Su 08:00-21:00; Su 09:00-13:00",
+          "operator": "Système U",
+          "phone": "+33 4 93 87 49 53",
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/magasin/uexpress-nicebaquis"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2000541970,
+        "lat": 43.7147233,
+        "lon": 7.2715872,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "39 ter",
+          "addr:street": "Boulevard de Cimiez",
+          "name": "Azur Santé",
+          "ref:FR:SIRET": "34079835400015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2000541989,
+        "lat": 43.7153478,
+        "lon": 7.2716414,
+        "tags": {
+          "addr:housenumber": "5",
+          "addr:postcode": "06000",
+          "addr:street": "Rue du Professeur Maurice Sureau",
+          "name": "Pain et délices",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2000541992,
+        "lat": 43.7153732,
+        "lon": 7.2716446,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "5",
+          "addr:postcode": "06000",
+          "addr:street": "Rue du Professeur Maurice Sureau",
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "name": "Utile",
+          "ref:FR:SIRET": "57375061902480",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2024661358,
+        "lat": 43.7045433,
+        "lon": 7.2648869,
+        "tags": {
+          "contact:housenumber": "1",
+          "contact:street": "Rue de Belgique",
+          "name": "Deniz Alimentation",
+          "ref:FR:SIRET": "81376403200013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2043561837,
+        "lat": 43.713987,
+        "lon": 7.2624559,
+        "tags": {
+          "addr:housenumber": "105",
+          "addr:street": "Avenue Saint-Lambert",
+          "name": "Aux délices de Jeanne d'Arc",
+          "opening_hours": "06:00-19:00; We off",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "493679823",
+          "ref:FR:SIRET": "49367982300010",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "website": "https://auxdelicesdejeannedarc.eatbu.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2044108402,
+        "lat": 43.7011345,
+        "lon": 7.2756741,
+        "tags": {
+          "email": "contact@multari.fr",
+          "name": "Multari",
+          "opening_hours": "Mo-Sa 06:00-20:00;Su 07:00-14:00",
+          "ref:FR:SIRET": "81137489100018",
+          "shop": "bakery",
+          "website": "https://www.multari.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2044146254,
+        "lat": 43.710222,
+        "lon": 7.2604172,
+        "tags": {
+          "addr:housenumber": "8",
+          "addr:street": "Boulevard Joseph Garnier",
+          "name": "Le Biscador",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "511743536",
+          "ref:FR:SIRET": "51174353600035",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2120968503,
+        "lat": 43.700085,
+        "lon": 7.2767669,
+        "tags": {
+          "addr:housenumber": "3",
+          "addr:street": "Rue Alfred Mortier",
+          "email": "alfa-bd@orange.fr",
+          "name": "Alfa BD",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "514380138",
+          "ref:FR:SIRET": "51438013800032",
+          "shop": "books",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.alfa-bd.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2211046571,
+        "lat": 43.6956928,
+        "lon": 7.2584121,
+        "tags": {
+          "addr:housenumber": "7",
+          "addr:street": "Rue de Rivoli",
+          "name": "Moulin de Flor",
+          "opening_hours": "Mo-Su 07:00-19:30",
+          "ref:FR:NAF": "10.71B",
+          "ref:FR:SIREN": "805010949",
+          "ref:FR:SIRET": "80501094900016",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2286648422,
+        "lat": 43.7176207,
+        "lon": 7.2571768,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "8",
+          "addr:street": "Boulevard Gorbella",
+          "name": "GB",
+          "ref:FR:NAF": "56.10C",
+          "ref:FR:SIREN": "830420857",
+          "ref:FR:SIRET": "83042085700013",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2466605164,
+        "lat": 43.7002774,
+        "lon": 7.2563573,
+        "tags": {
+          "addr:housenumber": "44 bis",
+          "addr:street": "Boulevard Gambetta",
+          "name": "My Bakery",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "989285929",
+          "ref:FR:SIRET": "98928592900018",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2783277653,
+        "lat": 43.7009976,
+        "lon": 7.2737818,
+        "tags": {
+          "branch": "Nice Foncet",
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "fr:Système U",
+          "name": "Utile",
+          "opening_hours": "Mo-Th,Fr,Sa 07:00-20:30; Su 08:00-20:30",
+          "shop": "convenience",
+          "website": "https://magasins.utile-upf.fr/170-utile-nice-foncet"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2816551771,
+        "lat": 43.6963937,
+        "lon": 7.2560866,
+        "tags": {
+          "description": "Pâtissier chocolatier",
+          "name": "Canet",
+          "opening_hours": "Tu-Sa 08:00-19:30; Su 08:00-13:00;Mo off",
+          "pastry_shop": "only",
+          "phone": "+33 4 93 96 46 06",
+          "ref:FR:SIRET": "49516808000010",
+          "shop": "bakery",
+          "website": "https://patisseriecanet.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3013883557,
+        "lat": 43.6969387,
+        "lon": 7.2564562,
+        "tags": {
+          "addr:housenumber": "26",
+          "addr:street": "Boulevard Gambetta",
+          "email": "contact@multari.fr",
+          "name": "J. Multari",
+          "opening_hours": "Mo-Su 06:00-20:00",
+          "ref:FR:NAF": "56.10C",
+          "ref:FR:SIREN": "913953337",
+          "ref:FR:SIRET": "91395333700015",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.multari.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3039344563,
+        "lat": 43.6958453,
+        "lon": 7.2613454,
+        "tags": {
+          "name": "Les Petits pain de Méditerranée",
+          "ref:FR:SIRET": "90095461100027",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3633297080,
+        "lat": 43.705129,
+        "lon": 7.2645926,
+        "tags": {
+          "addr:housenumber": "1",
+          "addr:street": "Avenue Thiers",
+          "indoor_seating": "no",
+          "name": "La Pétrie de la Gare",
+          "opening_hours": "We-Mo 06:30-19:30",
+          "outdoor_seating": "yes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "798359600",
+          "ref:FR:SIRET": "79835960000029",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3667118260,
+        "lat": 43.7008317,
+        "lon": 7.2565966,
+        "tags": {
+          "check_date": "2026-07-13",
+          "name": "Maison Rolfo",
+          "phone": "+33 4 93 87 24 10",
+          "ref:FR:SIRET": "39205550500011",
+          "shop": "bakery",
+          "start_date": "1950",
+          "website": "https://www.boulangeriepatisserierolfo.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3737625337,
+        "lat": 43.7156208,
+        "lon": 7.2628774,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "112",
+          "addr:street": "Avenue Saint-Lambert",
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "brand:wikipedia": "fr:Leader Price",
+          "check_date": "2025-12-04",
+          "name": "Spar",
+          "ref:FR:SIRET": "42826802342996",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3775626088,
+        "lat": 43.6946186,
+        "lon": 7.2538339,
+        "tags": {
+          "addr:housenumber": "82",
+          "addr:street": "Rue de France",
+          "check_date": "2025-11-20",
+          "name": "Moulin de Flor",
+          "opening_hours": "Mo-Fr 07:00-19:30",
+          "ref:FR:NAF": "10.71B",
+          "ref:FR:SIREN": "805028438",
+          "ref:FR:SIRET": "80502843800010",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3782404073,
+        "lat": 43.706122,
+        "lon": 7.2611329,
+        "tags": {
+          "check_date": "2023-01-24",
+          "name": "Atlas Délices",
+          "opening_hours": "Mo,We-Su 06:00-20:00; Tu off",
+          "ref:FR:SIRET": "44085313300013",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3876751106,
+        "lat": 43.7105263,
+        "lon": 7.263381,
+        "tags": {
+          "addr:housenumber": "11",
+          "addr:street": "Rue Raiberti",
+          "diet:kosher": "only",
+          "name": "André Krief",
+          "opening_hours": "Mo-Th 08:30-19:30; Fr 08:30-15:00; Sa off; Su 09:00-13:30",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "82447434000026",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.andrekrief.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4030235053,
+        "lat": 43.703103,
+        "lon": 7.2701002,
+        "tags": {
+          "facebook": "https://www.facebook.com/lesfictionautes",
+          "name": "Les fictionautes",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "43878330000017",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4200457230,
+        "lat": 43.7108594,
+        "lon": 7.2559505,
+        "tags": {
+          "addr:housenumber": "12",
+          "addr:street": "Boulevard de Cessole",
+          "email": "contact@lepitchoun-traiteur.fr",
+          "name": "Le Pitchoun",
+          "pastry": "yes",
+          "ref:FR:SIRET": "84915183200029",
+          "shop": "bakery",
+          "website": "https://lepitchoun-traiteur.fr/index.php/boutique/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4200517933,
+        "lat": 43.7182419,
+        "lon": 7.2522907,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "1",
+          "addr:postcode": "06100",
+          "addr:street": "Rue Contesso",
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "name": "Utile",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4316765834,
+        "lat": 43.6964045,
+        "lon": 7.2730756,
+        "tags": {
+          "brand": "Eric Kayser",
+          "brand:wikidata": "Q99231745",
+          "email": "ecommerce@maison-kayser.com",
+          "name": "Eric Kayser",
+          "opening_hours": "Mo-Su 06:30-20:00",
+          "pastry": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 4 93 87 54 70",
+          "ref:FR:SIRET": "80770348300014",
+          "shop": "bakery",
+          "website": "https://www.maison-kayser.com/fr/boulangeries/100004009-vieux-nice.html",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4541869790,
+        "lat": 43.695662,
+        "lon": 7.2721484,
+        "tags": {
+          "addr:housenumber": "8",
+          "addr:street": "Rue Saint-François de Paule",
+          "amenity": "cafe",
+          "check_date": "2026-02-05",
+          "name": "Jeannot",
+          "opening_hours": "Mo-Su 07:00-19:00",
+          "outdoor_seating": "yes",
+          "phone": "+33493807193",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "815311006",
+          "ref:FR:SIRET": "81531100600010",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.boulangeriejeannot.com/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4574006072,
+        "lat": 43.694382,
+        "lon": 7.2602839,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:street": "Promenade des Anglais",
+          "name:signed": "no",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4580280158,
+        "lat": 43.702198,
+        "lon": 7.267411,
+        "tags": {
+          "check_date": "2025-02-18",
+          "contact:city": "Nice",
+          "noname": "yes",
+          "shop": "kiosk",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4717171956,
+        "lat": 43.6961969,
+        "lon": 7.2728397,
+        "tags": {
+          "name": "Red Mood",
+          "shop": "kiosk",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4718990502,
+        "lat": 43.6966154,
+        "lon": 7.2731305,
+        "tags": {
+          "brand": "Spar",
+          "brand:wikidata": "Q610492",
+          "brand:wikipedia": "en:SPAR (retailer)",
+          "name": "Spar",
+          "opening_hours": "Mo-Sa 07:30-22:00; Su 09:00-22:00",
+          "phone": "+33 4 93 85 18 74",
+          "ref:FR:SIRET": "82089381600018",
+          "shop": "convenience",
+          "website": "https://magasins.spar.fr/fr/s/spar-nice-bosio"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4759987739,
+        "lat": 43.6954719,
+        "lon": 7.2654497,
+        "tags": {
+          "addr:housenumber": "2",
+          "addr:street": "Rue Halévy",
+          "name": "Nha Trang",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "531858991",
+          "ref:FR:SIRET": "53185899100015",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4809964043,
+        "lat": 43.7112235,
+        "lon": 7.2645193,
+        "tags": {
+          "addr:housenumber": "13",
+          "addr:street": "Rue François Pellos",
+          "name": "Blé d'azur",
+          "pastry": "yes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "913074910",
+          "ref:FR:SIRET": "91307491000013",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5309066751,
+        "lat": 43.6930551,
+        "lon": 7.2491543,
+        "tags": {
+          "addr:housenumber": "2",
+          "addr:street": "Rue Henri Cordier",
+          "name": "Palais des Arts",
+          "opening_hours": "Mo-Su 06:30-20:00",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "820845477",
+          "ref:FR:SIRET": "82084547700018",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5348034936,
+        "lat": 43.7091785,
+        "lon": 7.2533917,
+        "tags": {
+          "addr:housenumber": "15",
+          "addr:street": "Avenue de Pessicart",
+          "name": "La table de Tunis",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5348050811,
+        "lat": 43.7094729,
+        "lon": 7.2561512,
+        "tags": {
+          "check_date": "2025-06-26",
+          "name": "Cave à Cigare",
+          "opening_hours": "Mo-Sa 06:00-24:00; Su 07:00-24:00",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5348051026,
+        "lat": 43.708147,
+        "lon": 7.2561994,
+        "tags": {
+          "name": "Le Secret du Pain",
+          "ref:FR:SIRET": "82895796900011",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5618020852,
+        "lat": 43.6926571,
+        "lon": 7.2498858,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "77",
+          "addr:street": "Promenade des Anglais",
+          "brand": "monop'",
+          "brand:wikidata": "Q3321241",
+          "brand:wikipedia": "fr:Monoprix (France)",
+          "name": "Monop'",
+          "opening_hours": "24/7",
+          "shop": "convenience",
+          "website": "https://www.monoprix.fr/1921.html"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5619735523,
+        "lat": 43.6948941,
+        "lon": 7.2564528,
+        "tags": {
+          "addr:housenumber": "5",
+          "addr:street": "Boulevard Gambetta",
+          "check_date": "2026-07-22",
+          "check_date:opening_hours": "2026-07-22",
+          "name": "Gastronomie Russe",
+          "name:en": "Russian products",
+          "name:ru": "Русские продукты",
+          "opening_hours": "Mo-Su 09:00-21:00",
+          "phone": "+33 4 93 79 77 54",
+          "ref:FR:NAF": "47.29Z",
+          "ref:FR:SIREN": "794540393",
+          "ref:FR:SIRET": "79454039300012",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5620206100,
+        "lat": 43.6956215,
+        "lon": 7.2544174,
+        "tags": {
+          "addr:housenumber": "11",
+          "addr:street": "Rue Joseph Fricéro",
+          "check_date": "2025-11-02",
+          "name": "La Fragola",
+          "opening_hours": "Mo-Su 06:00-19:00",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "949684153",
+          "ref:FR:SIRET": "94968415300016",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.instagram.com/lafragolanice/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5623112980,
+        "lat": 43.6948001,
+        "lon": 7.2543872,
+        "tags": {
+          "addr:housenumber": "76",
+          "addr:street": "Rue de France",
+          "check_date": "2025-12-10",
+          "name": "Sisters Market",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "529646796",
+          "ref:FR:SIRET": "52964679600019",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5625394517,
+        "lat": 43.6942679,
+        "lon": 7.2526114,
+        "tags": {
+          "addr:housenumber": "90",
+          "addr:street": "Rue de France",
+          "email": "serviceclients.charmand@gmail.com",
+          "name": "Armand",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "phone": "+33 4 92 10 05 42",
+          "ref:FR:NAF": "56.10C",
+          "ref:FR:SIREN": "917986390",
+          "ref:FR:SIRET": "91798639000016",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.armandnice.com/nos-3-boutiques"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6438379153,
+        "lat": 43.7037763,
+        "lon": 7.2662431,
+        "tags": {
+          "amenity": "cafe",
+          "contact:city": "Nice",
+          "contact:housenumber": "50",
+          "contact:street": "Avenue Jean Médecin",
+          "facebook": "https://www.facebook.com/profile.php?id=100065404783108",
+          "indoor_seating": "yes",
+          "name": "La Brioche Chaude",
+          "opening_hours": "Mo-Su 07:30-20:00",
+          "outdoor_seating": "yes",
+          "ref:FR:NAF": "56.10C",
+          "ref:FR:SIREN": "853896215",
+          "ref:FR:SIRET": "85389621500011",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6953181336,
+        "lat": 43.697936,
+        "lon": 7.2767579,
+        "tags": {
+          "brand": "Ronde des Pains",
+          "brand:wikidata": "Q3441707",
+          "check_date": "2024-12-07",
+          "check_date:opening_hours": "2024-12-07",
+          "indoor_seating": "no",
+          "name": "Ronde des Pains",
+          "opening_hours": "We-Su 07:30-15:00",
+          "outdoor_seating": "no",
+          "shop": "bakery",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7190756123,
+        "lat": 43.7190158,
+        "lon": 7.2520726,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "95",
+          "addr:postcode": "06100",
+          "addr:street": "Boulevard de Cessole",
+          "check_date": "2025-06-26",
+          "check_date:opening_hours": "2023-03-03",
+          "name": "Les Pains de l'Horloge",
+          "opening_hours": "Mo-Su 06:15-20:00",
+          "phone": "+33 4 93 51 81 26",
+          "shop": "bakery",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7291814297,
+        "lat": 43.717101,
+        "lon": 7.2532578,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "82",
+          "addr:street": "Boulevard de Cessole",
+          "check_date:opening_hours": "2023-03-03",
+          "description": "boulangerie",
+          "fixme": "Corriger Téléphone",
+          "name": "La baguette magique",
+          "opening_hours": "Tu-Sa 07:00-19:30; Su 07:00-13:30",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "0 892 31 62 05",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "813624756",
+          "ref:FR:SIRET": "81362475600017",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7727292796,
+        "lat": 43.6963311,
+        "lon": 7.2766084,
+        "tags": {
+          "addr:housenumber": "26",
+          "addr:street": "Rue Benoit Bunico",
+          "check_date": "2024-12-07",
+          "check_date:opening_hours": "2024-12-07",
+          "name": "Epicerie",
+          "opening_hours": "Mo-Su 08:00-23:00",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "882538598",
+          "ref:FR:SIRET": "88253859800013",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7818206293,
+        "lat": 43.7107559,
+        "lon": 7.2559661,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "10",
+          "addr:street": "Boulevard de Cessole",
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "brand:wikipedia": "en:Vival (shop)",
+          "name": "Vival",
+          "opening_hours": "Mo-Su 08:00-13:00,15:00-20:00",
+          "shop": "convenience",
+          "website": "https://magasins.vival.fr/fr/vival-nice-cessole"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7876966855,
+        "lat": 43.6947049,
+        "lon": 7.2541408,
+        "tags": {
+          "addr:housenumber": "78",
+          "addr:street": "Rue de France",
+          "check_date": "2025-11-20",
+          "facebook": "https://www.facebook.com/boulangerieroylecapitole/",
+          "name": "Frédéric Roy",
+          "opening_hours": "Tu-Sa 07:00-14:00, 15:00-19:30; Su 07:00-13:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 4 22 16 73 21",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "403083967",
+          "ref:FR:SIRET": "40308396700055",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8222435094,
+        "lat": 43.7041593,
+        "lon": 7.2698458,
+        "tags": {
+          "addr:housenumber": "13",
+          "addr:street": "Rue de Lépante",
+          "name": "Mama Baker",
+          "opening_hours": "Tu-Fr 07:00-13:30,15:30-18:30; Sa 07:00-17:00",
+          "organic": "only",
+          "phone": "+33 6 23 91 33 86",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "811754977",
+          "ref:FR:SIRET": "81175497700015",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8848091317,
+        "lat": 43.6962205,
+        "lon": 7.2769063,
+        "tags": {
+          "addr:housenumber": "26",
+          "addr:street": "Rue de la Préfecture",
+          "check_date": "2026-06-04",
+          "name": "Épicerie Provençale",
+          "opening_hours": "Mo-Su 08:00-00:30",
+          "ref:FR:NAF": "47.19B",
+          "ref:FR:SIREN": "921814604",
+          "ref:FR:SIRET": "92181460400010",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8868276057,
+        "lat": 43.7032652,
+        "lon": 7.2740737,
+        "tags": {
+          "addr:housenumber": "4",
+          "addr:street": "Rue Pierre Devoluy",
+          "bulk_purchase": "only",
+          "email": "alter.nativesbio06@gmail.com",
+          "name": "Alter Natives",
+          "opening_hours": "Mo 11:00-17:00; Tu-Fr 11:00-17:30; Sa-Su off",
+          "organic": "only",
+          "phone": "+33 9 83 48 13 71",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "887516029",
+          "ref:FR:SIRET": "88751602900022",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.facebook.com/alternatives06/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9214715566,
+        "lat": 43.7120735,
+        "lon": 7.2594981,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "31 bis",
+          "addr:street": "Rue Michel-Ange",
+          "email": "support@alloj.com",
+          "name": "Super K",
+          "opening_hours": "Mo-Th 08:00-19:00; Fr 08:00-13:00; Sa off; Su 08:00-13:00",
+          "phone": "+33493830622",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "537658361",
+          "ref:FR:SIRET": "53765836100028",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.alloj.com/fr/supermarche-cacher/super-k-nice-nice.html"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9380199322,
+        "lat": 43.7034872,
+        "lon": 7.2644462,
+        "tags": {
+          "addr:housenumber": "25",
+          "addr:street": "Rue d'Angleterre",
+          "name": "La Goulette",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "441723988",
+          "ref:FR:SIRET": "44172398800016",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9575288645,
+        "lat": 43.702441,
+        "lon": 7.2759614,
+        "tags": {
+          "books": "children",
+          "facebook": "https://www.facebook.com/librairielesparleuses/",
+          "name": "Les parleuses",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "phone": "+33 4 93 01 27 34",
+          "ref:FR:SIRET": "84138376300015",
+          "shop": "books",
+          "website": "https://www.lesparleuses.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9575288646,
+        "lat": 43.7022899,
+        "lon": 7.2758552,
+        "tags": {
+          "addr:housenumber": "5",
+          "addr:street": "Place Général Marshall",
+          "amenity": "cafe",
+          "check_date": "2025-06-21",
+          "description": "Café littéraire",
+          "diet:vegetarian": "no",
+          "name": "Les parleuses",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "outdoor_seating": "yes",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIRET": "84138376300023",
+          "shop": "books",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.lesparleuses.com/",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9689821715,
+        "lat": 43.7052339,
+        "lon": 7.2665794,
+        "tags": {
+          "check_date": "2025-07-09",
+          "check_date:opening_hours": "2025-07-09",
+          "name": "Alimentation générale",
+          "opening_hours": "Mo-Sa 10:30-18:30; Su off",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9739763621,
+        "lat": 43.7062115,
+        "lon": 7.2598249,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "6",
+          "addr:street": "Rue des Combattants d'Afrique du Nord",
+          "cuisine": "portuguese",
+          "facebook": "https://www.facebook.com/CasaportuguesaNice/",
+          "name": "La Casa Portuguesa",
+          "ref:FR:SIRET": "88811059000013",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9739763622,
+        "lat": 43.6968899,
+        "lon": 7.2516215,
+        "tags": {
+          "addr:housenumber": "22",
+          "addr:street": "Boulevard François Grosso",
+          "description": "pain, viennoiserie, sandwitchs, coucous…",
+          "name": "Les délices de Chalchoul",
+          "pastry": "yes",
+          "ref:FR:NAF": "56.10C",
+          "ref:FR:SIREN": "829849314",
+          "ref:FR:SIRET": "82984931400010",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9905562866,
+        "lat": 43.7014806,
+        "lon": 7.274176,
+        "tags": {
+          "check_date": "2025-07-11",
+          "contact:email": "meyer.bernini@gmail.com",
+          "name": "Librairie Meyer & Bernini",
+          "opening_hours": "Mo-Fr 10:00-12:15,14:00-19:00; Sa 10:00-12:15,14:00-18:00; Su off",
+          "phone": "+33 4 93 62 91 29",
+          "ref:FR:SIRET": "81778156000013",
+          "second_hand": "only",
+          "shop": "books",
+          "website": "https://librairie-bouquiniste-meyer-bernini-associes.business.site/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10050508691,
+        "lat": 43.694214,
+        "lon": 7.2532223,
+        "tags": {
+          "addr:housenumber": "113",
+          "addr:street": "Rue de France",
+          "check_date": "2025-11-20",
+          "name": "Drink Market",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "889982989",
+          "ref:FR:SIRET": "88998298900028",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10069025306,
+        "lat": 43.6976616,
+        "lon": 7.2706754,
+        "tags": {
+          "name": "Flamme et fumee",
+          "ref:FR:SIRET": "30964604000019",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10139253344,
+        "lat": 43.6974813,
+        "lon": 7.2744862,
+        "tags": {
+          "name": "Le Pti' Kiosk",
+          "opening_hours": "Mo-Su 08:00-00:30",
+          "ref:FR:SIRET": "91515565900013",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10149234390,
+        "lat": 43.7070043,
+        "lon": 7.2598919,
+        "tags": {
+          "check_date": "2023-06-27",
+          "facebook": "https://www.facebook.com/sasksm/",
+          "name": "Euro Alimentation",
+          "ref:FR:SIRET": "81749197000015",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10314454869,
+        "lat": 43.714209,
+        "lon": 7.2749895,
+        "tags": {
+          "addr:housenumber": "118",
+          "addr:street": "Avenue des Arènes de Cimiez",
+          "name": "Tartine",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10536657845,
+        "lat": 43.6935226,
+        "lon": 7.251356,
+        "tags": {
+          "check_date": "2026-04-09",
+          "facebook": "https://www.facebook.com/lecitronepicerie/",
+          "name": "Le Citron",
+          "opening_hours": "10:00-22:00",
+          "ref:FR:SIRET": "88249670600012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10570297049,
+        "lat": 43.6966506,
+        "lon": 7.2603048,
+        "tags": {
+          "addr:housenumber": "19",
+          "addr:street": "Rue Meyerbeer",
+          "check_date": "2025-03-02",
+          "name": "Matrioshka",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "90043464800029",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10570297050,
+        "lat": 43.6972882,
+        "lon": 7.2614412,
+        "tags": {
+          "addr:housenumber": "7",
+          "addr:street": "Rue Dalpozzo",
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "check_date": "2025-03-19",
+          "name": "Utile",
+          "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-13:00",
+          "ref:FR:SIRET": "57375061901391",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10669860926,
+        "lat": 43.6952084,
+        "lon": 7.2567151,
+        "tags": {
+          "facebook": "https://www.facebook.com/MaisonBertaina",
+          "indoor_seating": "yes",
+          "name": "Maison Bertaina",
+          "outdoor_seating": "yes",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10678742046,
+        "lat": 43.6970565,
+        "lon": 7.2648822,
+        "tags": {
+          "addr:housenumber": "3",
+          "addr:street": "Rue Maccarani",
+          "email": "contact@multari.fr",
+          "name": "Multari",
+          "opening_hours": "Mo-Su 06:00-20:00",
+          "ref:FR:NAF": "56.10C",
+          "ref:FR:SIREN": "753921436",
+          "ref:FR:SIRET": "75392143600030",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.multari.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10680962293,
+        "lat": 43.7000245,
+        "lon": 7.2704253,
+        "tags": {
+          "name": "Délices & Gourmandises",
+          "ref:FR:SIRET": "89174509300015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10691316964,
+        "lat": 43.6967191,
+        "lon": 7.2714834,
+        "tags": {
+          "name": "Le petit Massena",
+          "opening_hours": "Mo-Sa 07:30-24:00, Su,PH 08:00-24:00",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10736622042,
+        "lat": 43.695831,
+        "lon": 7.2596173,
+        "tags": {
+          "addr:housenumber": "46",
+          "addr:street": "Rue de France",
+          "coffee": "yes",
+          "cuisine": "salad;sandwich;coffee_shop",
+          "email": "contact@biobrod.fr",
+          "name": "Bio Brod",
+          "opening_hours": "Mo-Fr 07:30-20:00;Sa 07:30-15:00;Su off",
+          "organic": "yes",
+          "outdoor_seating": "yes",
+          "phone": "+33 4 93 92 43 95",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "911120095",
+          "ref:FR:SIRET": "91112009500011",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.biobrod.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10738762766,
+        "lat": 43.6958213,
+        "lon": 7.2764736,
+        "tags": {
+          "check_date": "2026-06-04",
+          "name": "Multari",
+          "opening_hours": "Mo-Su 06:00-19:30",
+          "ref:FR:SIRET": "51975911200088",
+          "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10743196265,
+        "lat": 43.6971089,
+        "lon": 7.2617349,
+        "tags": {
+          "addr:housenumber": "20",
+          "addr:street": "Rue de la Buffa",
+          "facebook": "https://www.facebook.com/Auxdelicesdelabuffa/",
+          "name": "Aux Délices de la Buffa",
+          "opening_hours": "Mo-Fr 07:00-18:00;Sa 07:00-13:00;Su off",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "843235623",
+          "ref:FR:SIRET": "84323562300017",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10867607190,
+        "lat": 43.7017217,
+        "lon": 7.2679003,
+        "tags": {
+          "brand": "Brioche Dorée",
+          "brand:wikidata": "Q2925606",
+          "check_date": "2026-05-06",
+          "indoor_seating": "yes",
+          "level": "0",
+          "name": "Brioche Dorée",
+          "opening_hours": "Mo-Sa 10:00-19:30;Su 11:00-19:00",
+          "outdoor_seating": "no",
+          "shop": "bakery",
+          "website": "https://www.briochedoree.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10923821808,
+        "lat": 43.6969097,
+        "lon": 7.2743359,
+        "tags": {
+          "name": "Lou Pastrouil",
+          "ref:FR:SIRET": "81143258200047",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10926279778,
+        "lat": 43.702716,
+        "lon": 7.2664489,
+        "tags": {
+          "addr:housenumber": "35",
+          "addr:street": "Avenue Jean Médecin",
+          "name": "Tabac de l'étoile",
+          "ref:FR:NAF": "47.26Z",
+          "ref:FR:SIREN": "802224808",
+          "ref:FR:SIRET": "80222480800013",
+          "shop": "kiosk",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10926279780,
+        "lat": 43.702542,
+        "lon": 7.2656637,
+        "tags": {
+          "addr:housenumber": "18",
+          "addr:street": "Rue de Russie",
+          "check_date": "2026-01-30",
+          "indoor_seating": "yes",
+          "name": "Albert Planchais",
+          "outdoor_seating": "no",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10936313507,
+        "lat": 43.7002844,
+        "lon": 7.2645311,
+        "tags": {
+          "name": "Le Floride",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10936313508,
+        "lat": 43.7005355,
+        "lon": 7.2644131,
+        "tags": {
+          "name": "DOM",
+          "pastry": "yes",
+          "ref:FR:SIRET": "82416842100025",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11040349598,
+        "lat": 43.7026786,
+        "lon": 7.2626655,
+        "tags": {
+          "addr:housenumber": "10 bis",
+          "addr:street": "Avenue Durante",
+          "indoor_seating": "yes",
+          "name": "La Clémentine",
+          "outdoor_seating": "yes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "830218178",
+          "ref:FR:SIRET": "83021817800010",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11076438519,
+        "lat": 43.7073304,
+        "lon": 7.2639444,
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "name": "Utile",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11136692065,
+        "lat": 43.7040976,
+        "lon": 7.264479,
+        "tags": {
+          "addr:housenumber": "31",
+          "addr:street": "Rue d'Angleterre",
+          "description": "Librairie spécialisée en Bande Dessinée",
+          "email": "nice@bdfugue.com",
+          "name": "BD fugue",
+          "phone": "+33 4 93 87 49 22",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "479805319",
+          "ref:FR:SIRET": "47980531900015",
+          "shop": "books",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11178515973,
+        "lat": 43.6997075,
+        "lon": 7.2610268,
+        "tags": {
+          "check_date": "2023-10-28",
+          "name": "Le Petrin de Marie",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11181632025,
+        "lat": 43.6993196,
+        "lon": 7.2590969,
+        "tags": {
+          "addr:housenumber": "7",
+          "addr:street": "Rue Berlioz",
+          "check_date": "2026-05-07",
+          "name": "Berlioz",
+          "opening_hours": "Mo 06:45-14:00;Tu off;We-Fr 06:45-18:00;Sa 06:45-13:30, 15:00-18:00;Su 07:00-13:00",
+          "ref:FR:SIRET": "37770203000018",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11257946427,
+        "lat": 43.7007168,
+        "lon": 7.2534107,
+        "tags": {
+          "addr:housenumber": "24",
+          "addr:street": "Rue de Châteauneuf",
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "name": "Vival",
+          "opening_hours": "Mo-Su 09:00-22:00",
+          "phone": "+33 4 22 16 16 45",
+          "shop": "convenience",
+          "website": "https://magasins.vival.fr/fr/vival-nice-chateauneuf"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11257946435,
+        "lat": 43.7018017,
+        "lon": 7.255999,
+        "tags": {
+          "addr:housenumber": "73",
+          "addr:street": "Boulevard Gambetta",
+          "check_date": "2025-08-01",
+          "name": "Les Boulanges",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIRET": "91482423000033",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11257987439,
+        "lat": 43.7034761,
+        "lon": 7.2602624,
+        "tags": {
+          "addr:housenumber": "16",
+          "addr:street": "Avenue Thiers",
+          "branch": "Super",
+          "brand": "Proxi",
+          "brand:wikidata": "Q3408522",
+          "name": "Proxi",
+          "phone": "+33 6 28 91 77 68",
+          "shop": "convenience",
+          "website": "https://superproxythiers.clicdrive.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11277739002,
+        "lat": 43.6989056,
+        "lon": 7.2718991,
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "name": "Utile",
+          "opening_hours": "Mo-Sa 07:30-20:30, Su 09:00-13:00",
+          "phone": "+33 4 93 85 47 30",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11341643557,
+        "lat": 43.6964477,
+        "lon": 7.2536065,
+        "tags": {
+          "check_date": "2025-11-12",
+          "name": "Gribouille",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11357612325,
+        "lat": 43.7008147,
+        "lon": 7.272217,
+        "tags": {
+          "addr:housenumber": "19",
+          "addr:street": "Rue Gubernatis",
+          "check_date": "2025-11-20",
+          "facebook": "https://www.facebook.com/MaisonJeanMarcBordonnat/",
+          "name": "Pierre Bordonnat",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "388506586",
+          "ref:FR:SIRET": "38850658600014",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11361323460,
+        "lat": 43.7021745,
+        "lon": 7.273607,
+        "tags": {
+          "addr:housenumber": "9",
+          "addr:street": "Rue Pastorelli",
+          "name": "Carabacel",
+          "opening_hours": "Sep-Jun: Mo,Tu,Th,Fr 07:00-19:00; Sep-Jun: Sa 07:00-14:00; Sep-Jun: Su 07:00-13:00; Jul-Aug: Th-Tu 07:00-14:00; Sep-Jun: We off; Jul-Aug: We off",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "893343046",
+          "ref:FR:SIRET": "89334304600015",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11370378583,
+        "lat": 43.6996823,
+        "lon": 7.2557791,
+        "tags": {
+          "check_date": "2026-05-21",
+          "name": "Armand",
+          "opening_hours": "Mo-Su 07:00-19:00",
+          "ref:FR:SIRET": "47787448100021",
+          "shop": "bakery",
+          "website": "https://bakeronline.fr/fr-fr/armandgambetta/info",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11373857217,
+        "lat": 43.7007027,
+        "lon": 7.2539652,
+        "tags": {
+          "addr:housenumber": "19",
+          "addr:street": "Rue de Châteauneuf",
+          "name": "Les Boulanges",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIRET": "91482423000025",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11881102529,
+        "lat": 43.7057525,
+        "lon": 7.2563128,
+        "tags": {
+          "addr:housenumber": "43",
+          "addr:street": "Rue Trachel",
+          "check_date": "2026-07-23",
+          "facebook": "https://www.facebook.com/p/Boulangerie-p%C3%A2tisserie-les-%C3%A9toiles-100054479949711/",
+          "name": "Les Etoiles",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "517937884",
+          "ref:FR:SIRET": "51793788400016",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11895354092,
+        "lat": 43.7049181,
+        "lon": 7.2631462,
+        "tags": {
+          "brand": "Eric Kayser",
+          "brand:wikidata": "Q99231745",
+          "email": "ecommerce@maison-kayser.com",
+          "name": "Eric Kayser",
+          "opening_hours": "Mo-Su 06:30-21:30",
+          "pastry": "yes",
+          "shop": "bakery",
+          "website": "https://www.maison-kayser.com/fr/boulangeries/100004016-iconic.html"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11970552673,
+        "lat": 43.7062931,
+        "lon": 7.2607042,
+        "tags": {
+          "addr:housenumber": "28",
+          "addr:street": "Rue Trachel",
+          "name": "Le Pain d'Or",
+          "ref:FR:SIRET": "79401513100012",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11983804649,
+        "lat": 43.7001778,
+        "lon": 7.2734241,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "23",
+          "addr:postcode": "06000",
+          "addr:street": "Rue de l'Hôtel des Postes",
+          "contact:facebook": "https://www.facebook.com/profile.php?id=100063502993062",
+          "name": "Au Brouillon de Culture — À La Sorbonne",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "operator": "Sorbonne Bouquinerie",
+          "panoramax": "ad35391d-e374-47a8-8349-2cb24b7086aa",
+          "phone": "+33 4 93 62 28 32",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "402072136",
+          "ref:FR:SIRET": "40207213600052",
+          "second_hand": "yes",
+          "shop": "books",
+          "source": "INSEE - 2026-07",
+          "website": "https://www.sorbonne-librairie.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11983804655,
+        "lat": 43.7000357,
+        "lon": 7.2731478,
+        "tags": {
+          "addr:housenumber": "25",
+          "addr:street": "Rue de l'Hôtel des Postes",
+          "name": "Tabac Wilson",
+          "ref:FR:NAF": "47.26Z",
+          "ref:FR:SIREN": "422643288",
+          "ref:FR:SIRET": "42264328800026",
+          "shop": "kiosk",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12072004936,
+        "lat": 43.7060477,
+        "lon": 7.265866,
+        "tags": {
+          "description": "Boulangerie, pâtisserie, viennoiseries, snack",
+          "name": "The Moon",
+          "pastry": "yes",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12091903560,
+        "lat": 43.7038525,
+        "lon": 7.2642525,
+        "tags": {
+          "name": "AGORAé",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12091917786,
+        "lat": 43.7049561,
+        "lon": 7.2646033,
+        "tags": {
+          "name": "Grocer",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12091917787,
+        "lat": 43.7031429,
+        "lon": 7.264045,
+        "tags": {
+          "addr:housenumber": "16",
+          "addr:street": "Rue de Suisse",
+          "name": "Le Message",
+          "ref:FR:SIRET": "41815906700010",
+          "shop": "books",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12091919724,
+        "lat": 43.703239,
+        "lon": 7.2645163,
+        "tags": {
+          "addr:housenumber": "23",
+          "addr:street": "Rue d'Angleterre",
+          "name": "Market Sultan",
+          "opening_hours": "Mo-Sa 09:00-13:00",
+          "ref:FR:SIRET": "50461710100028",
+          "shop": "convenience",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12091922232,
+        "lat": 43.7018826,
+        "lon": 7.2627163,
+        "tags": {
+          "addr:housenumber": "6",
+          "addr:street": "Avenue Durante",
+          "name": "Alim Durante",
+          "ref:FR:SIRET": "98193802000014",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12091922237,
+        "lat": 43.7025648,
+        "lon": 7.2643781,
+        "tags": {
+          "addr:housenumber": "15",
+          "addr:street": "Rue d'Italie",
+          "name": "Épicerie provençale",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "829481449",
+          "ref:FR:SIRET": "82948144900017",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12216731178,
+        "lat": 43.7039302,
+        "lon": 7.270524,
+        "tags": {
+          "addr:housenumber": "18",
+          "addr:street": "Avenue du Maréchal Foch",
+          "description": "librairie spécialisée en romance et romantasy",
+          "name": "L'envolée",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "989726781",
+          "ref:FR:SIRET": "98972678100028",
+          "shop": "books",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12303814797,
+        "lat": 43.7017302,
+        "lon": 7.2610605,
+        "tags": {
+          "addr:housenumber": "37 Bis",
+          "addr:street": "Avenue Georges Clemenceau",
+          "description": "Boulangerie - Traiteur - Restaurant Cacher",
+          "name": "Le Kineret",
+          "opening_hours": "Mo-Th 07:00-18:00; Fr,Su 07:00-15:00",
+          "phone": "+334 93 87 56 36",
+          "shop": "bakery",
+          "website": "https://www.le-kineret.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12309670902,
+        "lat": 43.7021127,
+        "lon": 7.259701,
+        "tags": {
+          "addr:housenumber": "38",
+          "addr:street": "Rue Berlioz",
+          "name": "ELA Market",
+          "opening_hours": "Mo-Su 10:00-00:30",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "933757312",
+          "ref:FR:SIRET": "93375731200014",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12314304089,
+        "lat": 43.7100229,
+        "lon": 7.2614332,
+        "tags": {
+          "name:signed": "no",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12422060989,
+        "lat": 43.7015404,
+        "lon": 7.2626242,
+        "tags": {
+          "addr:housenumber": "4 ter",
+          "addr:street": "Avenue Durante",
+          "name": "Mini Market",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "928167113",
+          "ref:FR:SIRET": "92816711300010",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12434434912,
+        "lat": 43.7062816,
+        "lon": 7.2684935,
+        "tags": {
+          "addr:housenumber": "31",
+          "addr:street": "Rue de Lépante",
+          "check_date": "2025-07-10",
+          "cuisine": "romanian",
+          "description": "épicerie roumaine",
+          "money_transfer": "ria",
+          "name": "Tisa",
+          "opening_hours": "Mo off; Tu-Su 10:00-19:00",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "932806284",
+          "ref:FR:SIRET": "93280628400018",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12434434913,
+        "lat": 43.701378,
+        "lon": 7.2636672,
+        "tags": {
+          "description": "livres anciens",
+          "email": "info@librairie-escurial.com",
+          "name": "Librairie de l'Escurial",
+          "ref:FR:SIRET": "52119282300032",
+          "second_hand": "only",
+          "shop": "books",
+          "website": "https://www.librairie-escurial.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12497967650,
+        "lat": 43.6962014,
+        "lon": 7.2624671,
+        "tags": {
+          "name": "Pégase",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12741888811,
+        "lat": 43.7063586,
+        "lon": 7.2666981,
+        "tags": {
+          "description": "Alimentation générale et bazar",
+          "name": "La maison Marrakech",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12774585162,
+        "lat": 43.7021391,
+        "lon": 7.2515271,
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "name": "Vival",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12855092254,
+        "lat": 43.7102595,
+        "lon": 7.2500537,
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "55",
+          "addr:postcode": "06100",
+          "addr:street": "Avenue de Pessicart",
+          "name": "Le petit fournil de Pessicart",
+          "opening_hours": "Mo-Su 08:00-22:00",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "843959263",
+          "ref:FR:SIRET": "84395926300016",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12920933047,
+        "lat": 43.7194577,
+        "lon": 7.2620963,
+        "tags": {
+          "addr:housenumber": "91",
+          "addr:street": "Avenue Alfred Borriglione",
+          "name": "Bernardi & Co",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12991850094,
+        "lat": 43.7052845,
+        "lon": 7.2688222,
+        "tags": {
+          "name": "Librairie Osiris",
+          "opening_hours": "Tu-Sa 10:10-13:00,14:30-18:50",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13009668532,
+        "lat": 43.706574,
+        "lon": 7.2673687,
+        "tags": {
+          "addr:housenumber": "19",
+          "addr:street": "Boulevard Raimbaldi",
+          "description": "produits exotiques",
+          "name": "Produits du monde",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "82522961000027",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13019412245,
+        "lat": 43.7075328,
+        "lon": 7.2657153,
+        "tags": {
+          "addr:housenumber": "5",
+          "addr:street": "Rue Diderot",
+          "description": "épicerie africaine et indienne",
+          "name": "Dukan",
+          "ref:FR:NAF": "47.29Z",
+          "ref:FR:SIREN": "942646456",
+          "ref:FR:SIRET": "94264645600015",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13041040075,
+        "lat": 43.6999029,
+        "lon": 7.2563382,
+        "tags": {
+          "addr:housenumber": "2",
+          "addr:street": "Place Franklin",
+          "check_date": "2025-08-01",
+          "name": "Vatra",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "932795891",
+          "ref:FR:SIRET": "93279589100013",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13183750719,
+        "lat": 43.7092452,
+        "lon": 7.2516847,
+        "tags": {
+          "name": "Baoli Market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13183766845,
+        "lat": 43.709709,
+        "lon": 7.2558328,
+        "tags": {
+          "addr:housenumber": "149",
+          "addr:street": "Boulevard Gambetta",
+          "name": "Guillaume Falconnet",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "917562738",
+          "ref:FR:SIRET": "91756273800018",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13267062226,
+        "lat": 43.7163522,
+        "lon": 7.2612475,
+        "tags": {
+          "addr:housenumber": "63",
+          "addr:street": "Avenue Alfred Borriglione",
+          "name": "L'épi d'argent",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "948683339",
+          "ref:FR:SIRET": "94868333900014",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13267095016,
+        "lat": 43.715217,
+        "lon": 7.2626756,
+        "tags": {
+          "addr:housenumber": "102",
+          "addr:street": "Avenue Saint-Lambert",
+          "name": "One Market",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "988270542",
+          "ref:FR:SIRET": "98827054200018",
+          "shop": "convenience",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13316765923,
+        "lat": 43.7074575,
+        "lon": 7.2558585,
+        "tags": {
+          "brand": "Esso",
+          "brand:wikidata": "Q867662",
+          "name": "Esso",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13342188579,
+        "lat": 43.6979265,
+        "lon": 7.2617338,
+        "tags": {
+          "name": "Le Country Store",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13377931270,
+        "lat": 43.6963414,
+        "lon": 7.2723842,
+        "tags": {
+          "brand": "Monop'",
+          "brand:wikidata": "Q89913683",
+          "name": "Monop'",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13769549485,
+        "lat": 43.6972049,
+        "lon": 7.260312,
+        "tags": {
+          "addr:housenumber": "25",
+          "addr:street": "Rue Meyerbeer",
+          "amenity": "cafe",
+          "indoor_seating": "yes",
+          "name": "La Base",
+          "opening_hours": "Mo off;Tu-We 08:00-18:30;Th off;Fr-Su 08:00-18:30",
+          "outdoor_seating": "no",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "990233090",
+          "ref:FR:SIRET": "99023309000028",
+          "shop": "bakery",
+          "source": "INSEE - 2026-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14026197473,
+        "lat": 43.7073425,
+        "lon": 7.2631929,
+        "tags": {
+          "name": "Top Market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "way",
+        "id": 140067357,
+        "center": {
+          "lat": 43.708596,
+          "lon": 7.2753035
+        },
+        "tags": {
+          "addr:city": "Nice",
+          "addr:housenumber": "74",
+          "addr:street": "Avenue des Arènes de Cimiez",
+          "building": "retail",
+          "check_date": "2025-10-14",
+          "height": "3",
+          "name": "alimentation générale des arènes de cimiez",
+          "ref:FR:SIRET": "43325086700010",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+        }
+      },
+      {
+        "type": "way",
+        "id": 144377699,
+        "center": {
+          "lat": 43.7105625,
+          "lon": 7.2591481
+        },
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "building": "retail",
+          "height": "7",
+          "name": "Utile",
+          "opening_hours": "Mo-Sa 08:00-20:00; Su 08:30-12:30",
+          "operator": "Système U",
+          "payment:cash": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 4 93 51 76 27",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 487459475,
+        "center": {
+          "lat": 43.6949669,
+          "lon": 7.2705278
+        },
+        "tags": {
+          "building": "yes",
+          "height": "3",
+          "name:signed": "no",
+          "shop": "kiosk",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1103884055,
+        "center": {
+          "lat": 43.6974909,
+          "lon": 7.2650049
+        },
+        "tags": {
+          "building": "kiosk",
+          "name:signed": "no",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1104008457,
+        "center": {
+          "lat": 43.6962967,
+          "lon": 7.2738828
+        },
+        "tags": {
+          "building": "yes",
+          "name": "Presse",
+          "power": "substation",
+          "shop": "kiosk",
+          "source": "opendata.agenceore.fr - 2026-07"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1108113383,
+        "center": {
+          "lat": 43.6973803,
+          "lon": 7.2737241
+        },
+        "tags": {
+          "building": "yes",
+          "shop": "kiosk",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1337722310,
+        "center": {
+          "lat": 43.7015854,
+          "lon": 7.2562928
+        },
+        "tags": {
+          "building": "kiosk",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1378672230,
+        "center": {
+          "lat": 43.6971228,
+          "lon": 7.2695847
+        },
+        "tags": {
+          "building": "yes",
+          "shop": "kiosk"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

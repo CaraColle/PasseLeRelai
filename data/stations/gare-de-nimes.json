@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      4.34592,
-      43.82158,
-      4.374993,
-      43.842627
+      4.351214,
+      43.82514,
+      4.37085,
+      43.839137
     ],
     "features": [
       {
@@ -137,8 +137,8 @@
                 43.832827
               ],
               [
-                4.35128,
-                43.832378
+                4.351214,
+                43.83225
               ],
               [
                 4.351271,
@@ -197,12 +197,20 @@
                 43.831203
               ],
               [
-                4.369774,
-                43.835562
+                4.369904,
+                43.835527
+              ],
+              [
+                4.36968,
+                43.835809
               ],
               [
                 4.368605,
                 43.836993
+              ],
+              [
+                4.363536,
+                43.839114
               ],
               [
                 4.36347,
@@ -236,158 +244,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            4.361596376550814,
-            43.83231895723072
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                4.350546,
-                43.838121
-              ],
-              [
-                4.347903,
-                43.834871
-              ],
-              [
-                4.34592,
-                43.832078
-              ],
-              [
-                4.345927,
-                43.831718
-              ],
-              [
-                4.348824,
-                43.827664
-              ],
-              [
-                4.350228,
-                43.825783
-              ],
-              [
-                4.351857,
-                43.824779
-              ],
-              [
-                4.355979,
-                43.823237
-              ],
-              [
-                4.361446,
-                43.821916
-              ],
-              [
-                4.361875,
-                43.821705
-              ],
-              [
-                4.362194,
-                43.82158
-              ],
-              [
-                4.362554,
-                43.821596
-              ],
-              [
-                4.365129,
-                43.822115
-              ],
-              [
-                4.36959,
-                43.823528
-              ],
-              [
-                4.370135,
-                43.823929
-              ],
-              [
-                4.374819,
-                43.827377
-              ],
-              [
-                4.374865,
-                43.827462
-              ],
-              [
-                4.374993,
-                43.830567
-              ],
-              [
-                4.37481,
-                43.832627
-              ],
-              [
-                4.373935,
-                43.836336
-              ],
-              [
-                4.373078,
-                43.838514
-              ],
-              [
-                4.370429,
-                43.8402
-              ],
-              [
-                4.366862,
-                43.84166
-              ],
-              [
-                4.366284,
-                43.841796
-              ],
-              [
-                4.36317,
-                43.84249
-              ],
-              [
-                4.363167,
-                43.842491
-              ],
-              [
-                4.360191,
-                43.842627
-              ],
-              [
-                4.358459,
-                43.842243
-              ],
-              [
-                4.35596,
-                43.841612
-              ],
-              [
-                4.354018,
-                43.840933
-              ],
-              [
-                4.352055,
-                43.839789
-              ],
-              [
-                4.350546,
-                43.838121
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785809772671,
+      "timestamp": 1785863499420,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -399,8 +261,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -413,7 +274,1437 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T02:15:00.165Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-08-04T17:13:06Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 462244521,
+        "lat": 43.8412513,
+        "lon": 4.3705847,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:country": "FR",
+          "addr:housenumber": "49",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Richelieu",
+          "name": "Aux délices de Richelieu",
+          "opening_hours": "Tu-Su 07:00-13:00",
+          "phone": "+33 4 66 06 49 69",
+          "ref:FR:SIRET": "84760617500010",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 462244526,
+        "lat": 43.8413102,
+        "lon": 4.366826,
+        "tags": {
+          "addr:country": "FR",
+          "name": "Du Soleil et des Pains",
+          "ref:FR:SIRET": "83973889500011",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 462244529,
+        "lat": 43.8418718,
+        "lon": 4.3675994,
+        "tags": {
+          "addr:housenumber": "28",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Vincent Faïta",
+          "name": "U",
+          "name:fr": "Utile",
+          "opening_hours": "Mo-Sa 07:00-20:00; Su 08:00-13:00",
+          "operator": "Cocci Market",
+          "phone": "+33466360897",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 463774208,
+        "lat": 43.8381606,
+        "lon": 4.3582705,
+        "tags": {
+          "addr:city": "NIMES",
+          "addr:housenumber": "1",
+          "addr:postcode": "30000",
+          "addr:street": "Place de l'Horloge",
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "en:Système U",
+          "description": "Alimentation, supérette",
+          "name": "Utile",
+          "opening_hours": "Mo-Su 08:00-20:00",
+          "ref:FR:SIRET": "57375061900534",
+          "shop": "convenience",
+          "website": "https://www.capsud-utile.fr/magasin-utile-nimes-horloge-m124.php"
+        }
+      },
+      {
+        "type": "node",
+        "id": 464784182,
+        "lat": 43.8382928,
+        "lon": 4.3731346,
+        "tags": {
+          "name": "Épicerie de Nîmes",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 466389617,
+        "lat": 43.8411926,
+        "lon": 4.3753003,
+        "tags": {
+          "addr:country": "FR",
+          "brand": "Ronde des Pains",
+          "brand:wikidata": "Q3441707",
+          "brand:wikipedia": "fr:Ronde des Pains",
+          "name": "L'amandine",
+          "ref:FR:SIRET": "39510868100044",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 497149334,
+        "lat": 43.8392243,
+        "lon": 4.3757081,
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "name": "Vival",
+          "operator": "Vival",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 517363422,
+        "lat": 43.8380965,
+        "lon": 4.3659104,
+        "tags": {
+          "addr:city": "Nimes",
+          "addr:housenumber": "16",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Séguier",
+          "name": "Bouzanquet",
+          "opening_hours": "Tu-Su 05:45-19:00",
+          "phone": "+33 4 66 21 07 94",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 525873032,
+        "lat": 43.8393464,
+        "lon": 4.367078,
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "name": "Vival",
+          "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:00",
+          "operator": "Vival",
+          "phone": "+33 4 66 23 08 78",
+          "shop": "convenience",
+          "website": "https://magasins.vival.fr/fr/vival-nimes-beaucaire"
+        }
+      },
+      {
+        "type": "node",
+        "id": 537128414,
+        "lat": 43.8369235,
+        "lon": 4.3652802,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:country": "FR",
+          "addr:housenumber": "19",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Notre-Dame",
+          "name": "Le Fournil Notre-Dame",
+          "opening_hours": "Mo-Sa 08:00-20:00",
+          "phone": "+33 4 66 76 28 76",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 537130399,
+        "lat": 43.8367159,
+        "lon": 4.3650325,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "16",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Notre-Dame",
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q17561658",
+          "name": "CocciMarket",
+          "opening_hours": "Mo-Sa 08:00-21:00, Su 09:00-21:00",
+          "phone": "+33 4 11 83 45 88",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 537540735,
+        "lat": 43.8399626,
+        "lon": 4.3627985,
+        "tags": {
+          "name:signed": "no",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 549760836,
+        "lat": 43.8232227,
+        "lon": 4.3513863,
+        "tags": {
+          "addr:country": "FR",
+          "name": "La Pétrie",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 560730875,
+        "lat": 43.8374238,
+        "lon": 4.3668801,
+        "tags": {
+          "addr:city": "Nimes",
+          "addr:housenumber": "28 bis",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Notre-Dame",
+          "description": "Boutique bio implantée depuis presque 10 ans à deux pas des Arènes",
+          "email": "contact@bioboutique.info",
+          "name": "Bio Boutique",
+          "opening_hours": "Mo 14:00-19:30; Tu-Sa 09:00-13:00,15:00-19:30",
+          "organic": "only",
+          "phone": "+33 4 66 64 60 22",
+          "shop": "convenience",
+          "website": "https://www.bioboutiquenimes.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 561274779,
+        "lat": 43.8282761,
+        "lon": 4.3729868,
+        "tags": {
+          "name": "Au Pain Paysan",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 563884384,
+        "lat": 43.8305903,
+        "lon": 4.3528038,
+        "tags": {
+          "name": "Millefeuilles et Macarons",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 563884386,
+        "lat": 43.8318281,
+        "lon": 4.3556053,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "15",
+          "addr:postcode": "30000",
+          "addr:street": "Rue du Cirque Romain",
+          "description": "Boulangerie, pâtisserie et salon de thé",
+          "email": "f.casta@neuf.fr",
+          "name": "Le Refuge des Saveurs",
+          "opening_hours": "Mo-Fr 07:30-13:00,16:00-19:00",
+          "phone": "+33 4 66 67 56 03",
+          "ref:FR:SIRET": "89361726600018",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 577383704,
+        "lat": 43.8285607,
+        "lon": 4.3726163,
+        "tags": {
+          "name": "Épicerie du Bonheur",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 579952968,
+        "lat": 43.8366418,
+        "lon": 4.3570969,
+        "tags": {
+          "addr:housenumber": "34",
+          "addr:postcode": "30000",
+          "addr:street": "Boulevard Victor Hugo",
+          "description": "Pour votre satisfaction, nous disposons de pas moins de 25 000 références de livres (romans, polars, régionaux, jeunesse, bandes dessinées, mangas) réparties sur trois niveaux. Notre librairie dispose également d’un coin où vous pouvez trouver vos fournit",
+          "email": "librairie.goyard@free.fr",
+          "name": "Goyard",
+          "opening_hours": "Mo-Sa 09:45-13:00,14:30-19:00",
+          "phone": "+33 4 66 67 20 51",
+          "ref:FR:SIRET": "30634742800022",
+          "shop": "books",
+          "website": "www.librairie-goyard.com",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 579980978,
+        "lat": 43.832261,
+        "lon": 4.3578026,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "12 bis",
+          "addr:postcode": "30000",
+          "addr:street": "Rue de la République",
+          "name": "Le Fournil des Gourmands",
+          "opening_hours": "Mo-Fr 07:00-18:30",
+          "phone": "+33 4 66 23 90 87",
+          "ref:FR:SIRET": "81294244900016",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 579986460,
+        "lat": 43.8395553,
+        "lon": 4.3590585,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:country": "FR",
+          "addr:housenumber": "6bis",
+          "addr:postcode": "30000",
+          "addr:street": "Rue des Halles",
+          "contact:email": "lepainetlevain@orange.fr",
+          "contact:facebook": "https://www.facebook.com/people/Boulangerie-le-Pain-Et-Levain/100063679136794/",
+          "contact:phone": "+33 4 66 67 57 06",
+          "description": "Tous nos produits sont fait maison - Pain de tradition française fabriqué avec une farine label Rouge - pâtisserie fine associant tradition et innovation",
+          "name": "Le Pain et Levain",
+          "opening_hours": "Tu-Sa 06:30-19:00; Su 07:00-13:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:visa": "yes",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 582591041,
+        "lat": 43.8384044,
+        "lon": 4.3584666,
+        "tags": {
+          "addr:city": "NIMES",
+          "addr:housenumber": "4",
+          "addr:postcode": "30000",
+          "addr:street": "Place de l'Horloge",
+          "description": "Retrouvez notre CARAMEL AU BEURRE SALÉ fabriqué par nos soins pour accompagner vos crêpes et vos gaufres !",
+          "email": "oceane.zbl@hotmail.fr",
+          "name": "La Gourmandise",
+          "opening_hours": "Mo-Sa 09:00-19:00",
+          "phone": "+33 4 11 83 11 09",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 582598079,
+        "lat": 43.8465703,
+        "lon": 4.362994,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "22",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Bonfa",
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "brand:wikipedia": "en:Vival (shop)",
+          "name": "Vival",
+          "opening_hours": "Mo-Sa 08:00-12:00,16:00-19:30",
+          "phone": "+33 9 62 64 60 13",
+          "shop": "convenience",
+          "website": "https://www.vival.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 582608581,
+        "lat": 43.8308703,
+        "lon": 4.35031,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:country": "FR",
+          "addr:housenumber": "2",
+          "addr:postcode": "30900",
+          "addr:street": "Rue Henri Esperandieu",
+          "name": "Au Vieux Pétrin",
+          "opening_hours": "Mo-Sa 07:00-12:30",
+          "phone": "+33 4 66 64 73 93",
+          "ref:FR:SIRET": "80917157200013",
+          "shop": "bakery",
+          "website": "https://fr-fr.facebook.com/AU-VIEUX-PETRIN/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 582612024,
+        "lat": 43.828011,
+        "lon": 4.3739372,
+        "tags": {
+          "name": "La Graine d'Or",
+          "ref:FR:SIRET": "51402518800012",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 588080436,
+        "lat": 43.8402942,
+        "lon": 4.3595824,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "30",
+          "addr:postcode": "30000",
+          "addr:street": "Boulevard Gambetta",
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "en:Système U",
+          "name": "Utile",
+          "opening_hours": "Mo-Su 07:00-23:00",
+          "ref:FR:SIRET": "57375061901169",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 590540522,
+        "lat": 43.8382348,
+        "lon": 4.3629282,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "17",
+          "addr:postcode": "30000",
+          "addr:street": "Boulevard Amiral Courbet",
+          "description": "achats et échange de la littérature, de livres d'arts, d'enfants, de psychologie, de cuisine..etc.",
+          "name": "Book'in",
+          "phone": "+33 4 66 67 62 35",
+          "ref:FR:SIRET": "41480903800014",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 590540525,
+        "lat": 43.8391902,
+        "lon": 4.3631888,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "25",
+          "addr:postcode": "30000",
+          "addr:street": "Boulevard Amiral Courbet",
+          "name": "Librairie Papeterie Olle",
+          "opening_hours": "Mo-Sa 09:00-19:00",
+          "phone": "+33 4 66 67 30 30",
+          "shop": "books",
+          "website": "www.edition-lacour.com"
+        }
+      },
+      {
+        "type": "node",
+        "id": 661309279,
+        "lat": 43.8417645,
+        "lon": 4.3614998,
+        "tags": {
+          "addr:country": "FR",
+          "name": "Rangueil",
+          "ref:FR:SIRET": "83135149900015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 680265375,
+        "lat": 43.8390289,
+        "lon": 4.3554492,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "12",
+          "addr:postcode": "30000",
+          "addr:street": "Boulevard Alphonse Daudet",
+          "contact:facebook": "https://www.facebook.com/AuxLettresDeMonMoulin",
+          "description": "Littérature adulte et jeunesse de plus de 10000 références, Rencontres auteurs pour \"Les soirées aux lettres\". Livres numériques disponibles.",
+          "email": "auxlettresdemonmoulin@orange.fr",
+          "name": "Librairie Aux Lettres de mon Moulin",
+          "opening_hours": "Tu-Fr 09:00-12:30,14:00-19:00; Sa 10:00-12:30,14:00-19:00",
+          "phone": "+33 4 66 67 21 58",
+          "ref:FR:SIRET": "43138214200021",
+          "ref:vatin": "FR83431382142",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+          "website": "https://www.auxlettresdemonmoulin.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 680342557,
+        "lat": 43.8321625,
+        "lon": 4.357756,
+        "tags": {
+          "addr:housenumber": "16",
+          "addr:postcode": "30000",
+          "addr:street": "Rue de la République",
+          "name": "Canal BD Le Réseau",
+          "opening_hours": "Mo-Sa 10:00-13:00,15:00-18:00",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 919915478,
+        "lat": 43.8358884,
+        "lon": 4.3610918,
+        "tags": {
+          "contact:email": "librairie.teissier@gmail.com",
+          "contact:housenumber": "11",
+          "contact:street": "Rue Régale",
+          "description": "Livres en français, Livres en langues étrangères, Livres numériques, Conseils de libraires, Sélections thématiques",
+          "name": "Librairie Teissier",
+          "name:fr": "Librairie Teissier",
+          "opening_hours": "Mo-Sa 09:30-12:30,14:00-19:00",
+          "phone": "+33 4 66 67 44 06",
+          "ref:FR:SIRET": "42244413300017",
+          "ref:vatin": "FR57422444133",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      },
+      {
+        "type": "node",
+        "id": 919915496,
+        "lat": 43.8360781,
+        "lon": 4.3606429,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "7",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Régale",
+          "contact:facebook": "https://www.facebook.com/eauvive.nimes/",
+          "contact:mastodon": "https://mastodon.social/@librairieleauvivenimes",
+          "description": "librairie jeunesse",
+          "email": "eauvive.nimes@gmail.com",
+          "name": "L'eau vive",
+          "name:fr": "L'eau vive",
+          "opening_hours": "Tu-Sa 10:00-13:00,14:00-19:00",
+          "operator": "La puce à l'oreille",
+          "phone": "+33 4 66 67 21 58",
+          "ref:FR:SIRET": "48094893400017",
+          "ref:vatin": "FR41480948934",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+          "website": "https://www.librairie-eauvive.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 919915552,
+        "lat": 43.8363265,
+        "lon": 4.36013,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "2",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Régale",
+          "description": "doyenne des enseignes nîmoises spécialisées dans la BD",
+          "name": "La Bulle",
+          "opening_hours": "Mo 10:00-19:00, 09:00-18:00; Tu-Sa 09:30-19:00",
+          "phone": "+33 4 66 76 05 91",
+          "ref:FR:SIRET": "42067055600026",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+          "website": "https://www.la-bulle.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1667455498,
+        "lat": 43.8362462,
+        "lon": 4.3510488,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:country": "FR",
+          "addr:housenumber": "15",
+          "addr:postcode": "30900",
+          "addr:street": "Avenue Jean Jaurès",
+          "name": "La Fournée Paysanne.",
+          "opening_hours": "Mo-Fr 06:30-18:00; Su 06:30-14:00",
+          "phone": "+33 4 66 70 02 45",
+          "ref:FR:SIRET": "79032952800018",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1697818713,
+        "lat": 43.8211057,
+        "lon": 4.3557859,
+        "tags": {
+          "addr:country": "FR",
+          "name": "Fournil de l'Europe",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1711217239,
+        "lat": 43.8378203,
+        "lon": 4.358508,
+        "tags": {
+          "addr:housenumber": "13",
+          "addr:postcode": "30000",
+          "addr:street": "Rue de la Madeleine",
+          "contact:phone": "+33 4 66 67 41 79",
+          "description": "Cette boulangerie-pâtisserie élégante et boisée à la devanture verte possède une spécialité : le croquant.",
+          "email": "maison-villaret@orange.fr",
+          "name": "Maison Villaret",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su 07:30-19:30",
+          "payment:american_express": "yes",
+          "payment:cards": "yes",
+          "payment:cash": "yes",
+          "payment:mastercard": "yes",
+          "payment:meal_voucher": "yes",
+          "payment:visa": "yes",
+          "payment:visa_electron": "yes",
+          "ref:FR:SIRET": "58020008700014",
+          "shop": "bakery",
+          "website": "https://maison-villaret.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2179757534,
+        "lat": 43.8339618,
+        "lon": 4.3526888,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "26",
+          "addr:postcode": "30900",
+          "addr:street": "Rue de l'Hotel-Dieu",
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "en:Système U",
+          "description": "magasin de proximité",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 07:00-20:00; Su 08:00-13:00, 17:30-20:00",
+          "operator": "Magasin U",
+          "phone": "+33 4 66 21 27 65",
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3206762634,
+        "lat": 43.8345092,
+        "lon": 4.3506667,
+        "tags": {
+          "name": "Le Pantel",
+          "opening_hours": "Mo-Th 06:00-20:30, Fr-Sa 06:00-21:00, Su 07:00-13:00",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3206762635,
+        "lat": 43.8363401,
+        "lon": 4.3510257,
+        "tags": {
+          "noname": "yes",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3714296835,
+        "lat": 43.8376418,
+        "lon": 4.3668698,
+        "tags": {
+          "addr:city": "Nimes",
+          "addr:housenumber": "27 bis",
+          "addr:postcode": "30900",
+          "addr:street": "Rue Notre-Dame",
+          "description": "Un commerce de proximité ? Oui, mais avec des produits différents ... des produits de terroirs sélectionnés. Mary-Lyne et Laurent vous accueillent dans leur magasin Les Saveurs de Notre Dame depuis 10 ans.",
+          "name": "Les Saveurs de Notre Dame",
+          "opening_hours": "Tu-Fr 08:00-19:00; Sa 09:00-13:00",
+          "phone": "+33 4 34 28 50 30",
+          "ref:FR:SIRET": "53162977200017",
+          "shop": "convenience",
+          "website": "https://www.lessaveursdenotredame.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3714328124,
+        "lat": 43.8261866,
+        "lon": 4.3619295,
+        "tags": {
+          "name": "Épicerie solidaire",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3942035389,
+        "lat": 43.8192797,
+        "lon": 4.350901,
+        "tags": {
+          "brand": "Marie Blachère",
+          "brand:wikidata": "Q62082410",
+          "brand:wikipedia": "fr:Marie Blachère",
+          "check_date": "2025-06-10",
+          "name": "Marie Blachère",
+          "ref:FR:SIRET": "47845579300396",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4181833291,
+        "lat": 43.8363936,
+        "lon": 4.3600576,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "1",
+          "addr:postcode": "30000",
+          "addr:street": "Rue de l'Hôtel de Ville",
+          "description": "Pain fait artisanalement sur place, ainsi que les spécialités telles les focaccerias, les quiches ou autres gourmandises",
+          "name": "La Focacceria",
+          "opening_hours": "Mo-Sa 07:00-18:30",
+          "ref:FR:SIRET": "83917661700026",
+          "shop": "bakery",
+          "website": "https://www.myboulange.fr/30/nimes/la-focacceria-12566#:~:text=Boulangerie%20La%20Focacceria%20la%20Boulangerie%20La%20Focacceria%20vous,accueillir%20et%20vous%20faire%20profiter%20de%20son%20expertise."
+        }
+      },
+      {
+        "type": "node",
+        "id": 4185369548,
+        "lat": 43.8388857,
+        "lon": 4.3631131,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "23",
+          "addr:postcode": "30000",
+          "addr:street": "Boulevard Amiral Courbet",
+          "name": "Siloë Librairies",
+          "opening_hours": "Mo-Sa 08:30-19:00",
+          "phone": "+33 4 66 67 88 01",
+          "ref:FR:SIRET": "80991151400010",
+          "shop": "books",
+          "website": "https://www.librairiesiloebiblica.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4441893398,
+        "lat": 43.8240833,
+        "lon": 4.3664888,
+        "tags": {
+          "addr:housenumber": "205",
+          "addr:postcode": "30000",
+          "addr:street": "Rue du Forez",
+          "name": "Ador",
+          "name:fr": "Ador",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4703581389,
+        "lat": 43.8405913,
+        "lon": 4.3617628,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "41",
+          "addr:postcode": "30000",
+          "addr:street": "Boulevard Gambetta",
+          "name": "Matriochka",
+          "name:en": "Matryoshka",
+          "name:ru": "Матрёшка",
+          "opening_hours": "Mo-Sa 10:30-22:30; Su 11:00-18:00",
+          "phone": "+33 9 52 25 68 30",
+          "ref:FR:SIRET": "49935244100020",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4733518923,
+        "lat": 43.8402768,
+        "lon": 4.3616034,
+        "tags": {
+          "name": "Label'vie Market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5076167746,
+        "lat": 43.8327942,
+        "lon": 4.3502091,
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "en:Système U",
+          "name": "Utile",
+          "ref:FR:SIRET": "52095999000026",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5265613558,
+        "lat": 43.8450873,
+        "lon": 4.3674329,
+        "tags": {
+          "name": "City Market",
+          "opening_hours": "Mo-Sa 18:00-00:00; Su 18:00-24:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5672328594,
+        "lat": 43.8366382,
+        "lon": 4.3647904,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "27",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Roussy",
+          "name": "Mille Feuilles et Macarons",
+          "phone": "+33 4 66 29 87 84",
+          "ref:FR:SIRET": "79004322800036",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5949178010,
+        "lat": 43.832977,
+        "lon": 4.3590936,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "9 bis",
+          "addr:postcode": "30000",
+          "addr:street": "Rue de la République",
+          "books": "religion",
+          "check_date": "2023-06-04",
+          "name": "Certitude",
+          "opening_hours": "Tu-Sa 09:00-12:00, 14:00-18:30",
+          "phone": "+33 4 66 21 08 76",
+          "ref:FR:SIRET": "49340268900084",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6649473472,
+        "lat": 43.8342133,
+        "lon": 4.3578895,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "20",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Jean Reboul",
+          "description": "Boulangerie Pâtisserie Artisanale",
+          "name": "Maison Poulain",
+          "opening_hours": "Su 08:30-13:00; Tu-Fr 08:30-14:00,15:30-18:00; Sa 08:30-13:00,15:30-18:00",
+          "phone": "+33 4 66 06 43 27",
+          "ref:FR:SIRET": "82872945900010",
+          "shop": "bakery",
+          "website": "https://m.facebook.com/boulangeriepatisseriepoulain/?locale2=fr_FR"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6758711161,
+        "lat": 43.8374375,
+        "lon": 4.3468437,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "16",
+          "addr:postcode": "30900",
+          "addr:street": "Rue de Sauve",
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "name": "Vival",
+          "opening_hours": "Mo-Fr 07:30-12:15,15:30-19:00; Sa 07:30-12:15; Su 09:00-12:00",
+          "phone": "+33 4 66 23 21 02",
+          "shop": "convenience",
+          "website": "https://www.vival.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6760727980,
+        "lat": 43.838454,
+        "lon": 4.3732482,
+        "tags": {
+          "name": "Le Jardin du Languedoc",
+          "ref:FR:SIRET": "84956299600017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6766238543,
+        "lat": 43.8350082,
+        "lon": 4.3505036,
+        "tags": {
+          "brand": "Ronde des Pains",
+          "brand:wikidata": "Q3441707",
+          "brand:wikipedia": "fr:Ronde des Pains",
+          "fixme": "This place is permanently closed",
+          "name": "Ronde des Pains",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6766238545,
+        "lat": 43.8306647,
+        "lon": 4.352861,
+        "tags": {
+          "name": "Épicerie",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7092632939,
+        "lat": 43.8268814,
+        "lon": 4.3638313,
+        "tags": {
+          "name": "Tour Alimentation",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7192331991,
+        "lat": 43.8318055,
+        "lon": 4.3514672,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "60",
+          "addr:postcode": "30000",
+          "addr:street": "Avenue Jean Jaurès",
+          "email": "sophie@boutiquedeproducteur.fr",
+          "name": "Les Douceurs de Sophie",
+          "opening_hours": "Mo-Fr 10:00-13:00,14:30-19:00; Sa 09:30-12:30",
+          "organic": "yes",
+          "phone": "+33 4 34 28 03 11",
+          "ref:FR:SIRET": "50906442400021",
+          "shop": "bakery",
+          "website": "boutiquedeproducteurs.fr"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7218698052,
+        "lat": 43.8295754,
+        "lon": 4.3623321,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "144",
+          "addr:postcode": "30000",
+          "addr:street": "Boulevard du Sergent Triaire",
+          "name": "24 Cityshop",
+          "opening_hours": "24/7",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7221502959,
+        "lat": 43.8416565,
+        "lon": 4.3615473,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "16",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Rangueil",
+          "name": "Le Petit Potager de Rangueil",
+          "opening_hours": "Mo-Sa 08:30-18:00",
+          "phone": "+33 6 46 69 82 82",
+          "ref:FR:SIRET": "88300223000018",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7221529975,
+        "lat": 43.8396763,
+        "lon": 4.3601245,
+        "tags": {
+          "check_date:opening_hours": "2024-09-06",
+          "name": "Lebara",
+          "opening_hours:signed": "no",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7221529982,
+        "lat": 43.8401358,
+        "lon": 4.3603068,
+        "tags": {
+          "name:signed": "no",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7221567975,
+        "lat": 43.8366896,
+        "lon": 4.3595619,
+        "tags": {
+          "addr:housenumber": "15",
+          "addr:postcode": "30000",
+          "addr:street": "Rue de l'Aspic",
+          "brand": "France Loisirs",
+          "brand:wikidata": "Q3080726",
+          "brand:wikipedia": "fr:France Loisirs",
+          "description": "Le club propose à ses 3 millions d’adhérents une sélection de livres en tout genre, ainsi qu’un large éventail de loisirs culturels, de produits de bien-être, les innovations beauté... mais aussi des produits exclusifs à travers son catalogue",
+          "name": "France Loisirs",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "phone": "+33 4 66 67 58 37",
+          "ref:FR:SIRET": "70201990203407",
+          "shop": "books",
+          "website": "https://www.franceloisirs.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7231829640,
+        "lat": 43.8403548,
+        "lon": 4.3552354,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "1",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Pasteur",
+          "description": "Boissons à emporter, Parking, Pain aux céréales, Pain de seigle, Pain au levain, Pain complet, Pain bio, Pain de mie.",
+          "name": "Au fournil nîmois",
+          "opening_hours": "Mo-Fr 06:30-19:30, Sa 06:30-12:30",
+          "phone": "+33 4 66 21 79 09",
+          "shop": "bakery",
+          "website": "https://www.facebook.com/Au-Fournil-N%C3%AEmois-317631821720664"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7265600440,
+        "lat": 43.83454,
+        "lon": 4.3477524,
+        "tags": {
+          "name": "Super Market du Pompidou",
+          "opening_hours": "PH,Mo-Su 08:00-24:00",
+          "ref:FR:SIRET": "84118150600012",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7278479316,
+        "lat": 43.8400771,
+        "lon": 4.3624146,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "72",
+          "addr:postcode": "30000",
+          "addr:street": "Boulevard Gambetta",
+          "name": "Épicerie Shop",
+          "phone": "+33 9 53 37 80 55",
+          "ref:FR:SIRET": "89454744700017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7403766182,
+        "lat": 43.8215457,
+        "lon": 4.3626256,
+        "tags": {
+          "name": "Passion du Pain",
+          "ref:FR:SIRET": "48793346700028",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7403810085,
+        "lat": 43.8218824,
+        "lon": 4.3636958,
+        "tags": {
+          "name": "Asia'n Shop",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8116440745,
+        "lat": 43.837401,
+        "lon": 4.3574858,
+        "tags": {
+          "addr:housenumber": "28",
+          "addr:postcode": "30000",
+          "addr:street": "Rue de la Madeleine",
+          "brand": "Maxilivres",
+          "brand:wikidata": "Q3302434",
+          "brand:wikipedia": "fr:Maxi-Livres",
+          "contact:phone": "+33 4 66 26 47 94",
+          "description": "Gamme complète de livres à prix réduits pour enfants et adultes",
+          "email": "contact@maxilivres.fr",
+          "name": "Maxilivres",
+          "opening_hours": "Tu-Fr 10:00-19:00",
+          "ref:FR:SIRET": "32612603400254",
+          "shop": "books",
+          "website": "https://maxilivres.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8134113282,
+        "lat": 43.8367179,
+        "lon": 4.3557414,
+        "tags": {
+          "email": "librairiediderot@orange.fr",
+          "name": "Librairie Diderot",
+          "opening_hours": "Tu-Sa 10:00-12:00, 14:30-18:30",
+          "phone": "+33 4 66 67 96 03",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8134303472,
+        "lat": 43.8390394,
+        "lon": 4.3617712,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "8",
+          "addr:postcode": "30000",
+          "addr:street": "Place du Château",
+          "name": "Librairie Terre-2",
+          "phone": "+33 4 66 36 17 01",
+          "shop": "books",
+          "website": "https://www.terre-2.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8135770711,
+        "lat": 43.8380927,
+        "lon": 4.3567647,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "22",
+          "addr:postcode": "30000",
+          "addr:street": "Rue de l'Horloge",
+          "description": "Librairie, Livres, Livres spécialisés, Création culturelle, Création littéraire, Magazines.",
+          "name": "Le Carré BD",
+          "opening_hours": "Tu-Sa 09:00-19:00",
+          "phone": "+33 4 66 67 70 12",
+          "shop": "books",
+          "website": "https://www.bede.fr/librairie-bd-nimes-la-bulle",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8137549271,
+        "lat": 43.8395435,
+        "lon": 4.3587828,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "22",
+          "addr:postcode": "30000",
+          "addr:street": "Boulevard Gambetta",
+          "description": "Artisans boulangers-pâtissiers",
+          "name": "Le Moulin des Aumières",
+          "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-19:30",
+          "phone": "+33 7 82 84 73 81",
+          "shop": "bakery",
+          "website": "https://www.boulangeriespatisseries.fr/le-moulin-des-aumieres-nimes.html#:~:text=L%27entreprise%20Le%20Moulin%20Des%20Aumieres%20est%20une%20boulangerie,Des%20Aumieres%20a%20commenc%C3%A9%20son%20activit%C3%A9%20en%201993."
+        }
+      },
+      {
+        "type": "node",
+        "id": 8154517834,
+        "lat": 43.827811,
+        "lon": 4.3526547,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "88",
+          "addr:postcode": "30900",
+          "addr:street": "Avenue Jean Jaurès",
+          "name": "Quint et Sens",
+          "opening_hours": "Mo-Fr 06:30-19:00; Su 07:00-12:30",
+          "phone": "+33 4 66 40 11 94",
+          "ref:FR:SIRET": "83366613400022",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8219865035,
+        "lat": 43.8405869,
+        "lon": 4.3618547,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "43",
+          "addr:postcode": "30000",
+          "addr:street": "Boulevard Gambetta",
+          "description": "Journal d'information générales et d'annonces légales GARD (30)",
+          "email": "contact@lereveildumifi.fr",
+          "name": "Le reveil du Midi",
+          "opening_hours": "Mo-Th 08:00-20:00",
+          "phone": "+33 4 66 76 18 90",
+          "shop": "books",
+          "website": "https://www.lereveildumidi.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8383158033,
+        "lat": 43.8360726,
+        "lon": 4.3603817,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "1",
+          "addr:postcode": "30000",
+          "addr:street": "Rue de la Violette",
+          "description": "ACHAT ET VENTE de LIVRES ANCIENS ET RECENTS aux particuliers (lots importants ou à la pièce, bibliothèques complètes, SUCCESSIONS, DEMENAGEMENTS, autres).",
+          "name": "Au bon Livre",
+          "opening_hours": "Mo-Sa 10:00-12:00, 14:30-19:00",
+          "phone": "+33 6 71 15 46 33",
+          "shop": "books",
+          "website": "https://aubonlivre.site-solocal.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11073877704,
+        "lat": 43.8228269,
+        "lon": 4.3508949,
+        "tags": {
+          "name": "Market express 7/7",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11073906035,
+        "lat": 43.8302493,
+        "lon": 4.356396,
+        "tags": {
+          "name": "By Night",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11073909166,
+        "lat": 43.830186,
+        "lon": 4.356353,
+        "tags": {
+          "name": "Bazar Park's",
+          "opening_hours": "Mo-Su,PH 09:00-24:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11077618661,
+        "lat": 43.8394637,
+        "lon": 4.3618453,
+        "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11078824786,
+        "lat": 43.835382,
+        "lon": 4.3562932,
+        "tags": {
+          "name": "Street drive market",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11078838771,
+        "lat": 43.8378417,
+        "lon": 4.3618375,
+        "tags": {
+          "name": "Reliure Deschamps",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11078975579,
+        "lat": 43.8359267,
+        "lon": 4.35908,
+        "tags": {
+          "check_date": "2025-10-21",
+          "check_date:opening_hours": "2024-05-29",
+          "name": "L'itinéraire",
+          "opening_hours:signed": "no",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12041943167,
+        "lat": 43.8410071,
+        "lon": 4.3664037,
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "12",
+          "addr:postcode": "30000",
+          "addr:street": "Rue Vincent Faïta",
+          "name": "Masa Mama",
+          "opening_hours": "Tu-Fr 08:30-19:00; Sa 08:30-13:30",
+          "phone": "+33951624683",
+          "ref:FR:SIRET": "90066966400022",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13620421588,
+        "lat": 43.8303953,
+        "lon": 4.3565187,
+        "tags": {
+          "name": "Yemma Donuts",
+          "ref:FR:SIRET": "91008139700010",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13620920966,
+        "lat": 43.8293704,
+        "lon": 4.3554529,
+        "tags": {
+          "books": "comic",
+          "name": "Manga Pop Librairie",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13620920968,
+        "lat": 43.8298541,
+        "lon": 4.3558445,
+        "tags": {
+          "name": "Epicerie Zouzou",
+          "phone": "+33 9 80 39 25 33",
+          "ref:FR:SIRET": "53178709100036",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13620920978,
+        "lat": 43.8315182,
+        "lon": 4.3571776,
+        "tags": {
+          "name": "Good Market",
+          "opening_hours": "Mo-Su 07:00-23:59",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13685191156,
+        "lat": 43.8363294,
+        "lon": 4.3613495,
+        "tags": {
+          "addr:housenumber": "16",
+          "addr:street": "Rue des Fourbisseurs",
+          "name": "Multi-Service de la Mairie",
+          "ref:FR:SIRET": "84056440500016",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "way",
+        "id": 40199939,
+        "center": {
+          "lat": 43.8363724,
+          "lon": 4.3600624
+        },
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "1",
+          "addr:postcode": "30000;30900",
+          "addr:street": "Rue de l'Hôtel de Ville",
+          "building": "yes",
+          "fixme": "This place is definitely closed",
+          "name": "Briocherie",
+          "ref:FR:RNB": "43A2YF8BZ45B",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
+        }
+      },
+      {
+        "type": "way",
+        "id": 641228975,
+        "center": {
+          "lat": 43.8332919,
+          "lon": 4.3652522
+        },
+        "tags": {
+          "addr:city": "Nîmes",
+          "addr:housenumber": "15",
+          "addr:postcode": "30000",
+          "addr:street": "Avenue Feuchères",
+          "building": "yes",
+          "height": "3",
+          "name": "La gare aux livres",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIRET": "92842228600015",
+          "shop": "books"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "staleDataWarning": false
 }

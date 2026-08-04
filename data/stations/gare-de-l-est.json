@@ -1,16 +1,16 @@
 {
   "station": {
     "name": "Gare de l'Est",
-    "lat": 48.876,
-    "lng": 2.3597
+    "lat": 48.8768,
+    "lng": 2.359
   },
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      2.348739,
-      48.869077,
-      2.368885,
-      48.882829
+      2.349208,
+      48.870133,
+      2.367295,
+      48.882638
     ],
     "features": [
       {
@@ -19,92 +19,136 @@
           "group_index": 0,
           "value": 300,
           "center": [
-            2.35969832208838,
-            48.875995606821135
+            2.359002003225824,
+            48.87680338305862
           ]
         },
         "geometry": {
           "coordinates": [
             [
               [
-                2.354156,
-                48.876521
+                2.355151,
+                48.87726
               ],
               [
-                2.354133,
-                48.876156
+                2.354835,
+                48.876853
               ],
               [
-                2.35572,
-                48.874207
+                2.354788,
+                48.876496
               ],
               [
-                2.357551,
-                48.872815
+                2.354773,
+                48.876055
               ],
               [
-                2.357861,
-                48.872631
+                2.356204,
+                48.874305
               ],
               [
-                2.358003,
-                48.872629
+                2.356796,
+                48.873733
               ],
               [
-                2.359292,
-                48.872672
+                2.356804,
+                48.873731
               ],
               [
-                2.360597,
-                48.873044
+                2.358221,
+                48.873602
               ],
               [
-                2.362787,
-                48.873715
+                2.358675,
+                48.873614
               ],
               [
-                2.363102,
-                48.873889
+                2.360704,
+                48.874046
               ],
               [
-                2.363206,
-                48.873959
+                2.361813,
+                48.874297
               ],
               [
-                2.3647,
-                48.876683
+                2.362358,
+                48.874637
               ],
               [
-                2.36465,
-                48.876917
+                2.363059,
+                48.87508
               ],
               [
-                2.36449,
-                48.877272
+                2.363375,
+                48.87661
               ],
               [
-                2.362624,
-                48.879087
+                2.3634,
+                48.877433
               ],
               [
-                2.36064,
-                48.879674
+                2.363396,
+                48.877446
               ],
               [
-                2.355226,
-                48.877714
+                2.362737,
+                48.878714
               ],
               [
-                2.354939,
-                48.877618
+                2.362508,
+                48.878991
               ],
               [
-                2.354939,
-                48.877618
+                2.361791,
+                48.879586
               ],
               [
-                2.354156,
-                48.876521
+                2.36152,
+                48.879763
+              ],
+              [
+                2.361276,
+                48.879919
+              ],
+              [
+                2.360936,
+                48.880038
+              ],
+              [
+                2.36002,
+                48.880032
+              ],
+              [
+                2.358311,
+                48.879563
+              ],
+              [
+                2.358228,
+                48.879537
+              ],
+              [
+                2.358152,
+                48.879506
+              ],
+              [
+                2.35675,
+                48.878731
+              ],
+              [
+                2.356661,
+                48.878672
+              ],
+              [
+                2.356508,
+                48.878554
+              ],
+              [
+                2.355295,
+                48.877444
+              ],
+              [
+                2.355151,
+                48.87726
               ]
             ]
           ],
@@ -117,128 +161,128 @@
           "group_index": 0,
           "value": 600,
           "center": [
-            2.35969832208838,
-            48.875995606821135
+            2.359002003225824,
+            48.87680338305862
           ]
         },
         "geometry": {
           "coordinates": [
             [
               [
-                2.348808,
-                48.877621
+                2.349263,
+                48.877583
               ],
               [
-                2.348739,
-                48.877267
+                2.349245,
+                48.87755
               ],
               [
-                2.34877,
-                48.877181
+                2.349208,
+                48.877476
               ],
               [
-                2.3511,
-                48.873604
+                2.349216,
+                48.877226
               ],
               [
-                2.352842,
-                48.871477
+                2.349314,
+                48.877016
               ],
               [
-                2.355508,
-                48.869126
+                2.35193,
+                48.873388
               ],
               [
-                2.355619,
-                48.869091
+                2.353292,
+                48.871484
               ],
               [
-                2.355876,
-                48.869077
+                2.353358,
+                48.871397
               ],
               [
-                2.360524,
-                48.869295
+                2.35452,
+                48.870468
               ],
               [
-                2.362918,
-                48.869461
+                2.354833,
+                48.87029
               ],
               [
-                2.365574,
-                48.870432
+                2.356391,
+                48.870133
               ],
               [
-                2.367547,
-                48.871873
+                2.357703,
+                48.870158
               ],
               [
-                2.36773,
-                48.872184
+                2.361909,
+                48.870242
               ],
               [
-                2.368866,
-                48.875802
+                2.364881,
+                48.871526
               ],
               [
-                2.368885,
-                48.876501
+                2.366304,
+                48.872643
               ],
               [
-                2.36883,
-                48.878069
+                2.3665,
+                48.872945
               ],
               [
-                2.36757,
-                48.880034
+                2.367295,
+                48.876735
               ],
               [
-                2.366148,
-                48.881812
+                2.367294,
+                48.876946
               ],
               [
-                2.365999,
-                48.881964
+                2.367252,
+                48.877494
               ],
               [
-                2.363421,
-                48.882772
+                2.3672,
+                48.877851
               ],
               [
-                2.363366,
-                48.882782
+                2.367045,
+                48.878499
               ],
               [
-                2.362376,
-                48.882829
+                2.365895,
+                48.881748
               ],
               [
-                2.362065,
-                48.882818
+                2.363203,
+                48.882637
               ],
               [
-                2.356663,
-                48.881765
+                2.361974,
+                48.882638
               ],
               [
-                2.352376,
-                48.880896
+                2.358778,
+                48.882606
               ],
               [
-                2.352082,
-                48.880814
+                2.357012,
+                48.882483
               ],
               [
-                2.350076,
-                48.879042
+                2.352573,
+                48.880726
               ],
               [
-                2.348973,
-                48.87795
+                2.350352,
+                48.878876
               ],
               [
-                2.348808,
-                48.877621
+                2.349263,
+                48.877583
               ]
             ]
           ],
@@ -249,14 +293,14 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785859577254,
+      "timestamp": 1785862660462,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
         "locations": [
           [
-            2.3597,
-            48.876
+            2.359,
+            48.8768
           ]
         ],
         "range": [
@@ -278,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-04T16:04:25Z",
+      "timestamp_osm_base": "2026-08-04T16:56:40Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -381,27 +425,6 @@
       },
       {
         "type": "node",
-        "id": 294162557,
-        "lat": 48.8779686,
-        "lon": 2.374312,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "100",
-          "addr:postcode": "75019",
-          "addr:street": "Avenue Simón Bolívar",
-          "check_date:opening_hours": "2026-07-26",
-          "indoor_seating": "no",
-          "name": "Le fournil de Bolivar",
-          "opening_hours:signed": "no",
-          "outdoor_seating": "no",
-          "ref:FR:SIRET": "83361179100017",
-          "shop": "bakery",
-          "takeaway": "only",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 294164283,
         "lat": 48.8781153,
         "lon": 2.3727187,
@@ -454,23 +477,6 @@
           "ref:FR:SIRET": "82925376400023",
           "shop": "bakery",
           "website": "https://www.mamiche.fr/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 496119026,
-        "lat": 48.8615446,
-        "lon": 2.374183,
-        "tags": {
-          "addr:housenumber": "69",
-          "addr:street": "Boulevard Voltaire",
-          "check_date": "2024-11-25",
-          "email": "frappeboulangerie@outlook.com",
-          "name": "Frappe",
-          "opening_hours": "Tu-Sa 08:00-20:00; Su 08:00-18:00",
-          "ref:FR:SIRET": "97965282300019",
-          "shop": "bakery",
-          "website": "https://www.frappeboulangerie.fr/"
         }
       },
       {
@@ -832,6 +838,23 @@
       },
       {
         "type": "node",
+        "id": 1236518959,
+        "lat": 48.8782649,
+        "lon": 2.3446579,
+        "tags": {
+          "addr:housenumber": "31",
+          "addr:street": "Rue de Maubeuge",
+          "check_date:opening_hours": "2022-10-10",
+          "name": "Pâtisserie Hubert",
+          "opening_hours": "Th-Tu 07:00-20:00",
+          "ref:FR:SIRET": "79488603600019",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
         "id": 1256923857,
         "lat": 48.8645661,
         "lon": 2.3724976,
@@ -966,6 +989,25 @@
           "ref:FR:SIRET": "40822251100011",
           "shop": "books",
           "website": "http://www.librairienordest.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1430900314,
+        "lat": 48.8913599,
+        "lon": 2.3617633,
+        "tags": {
+          "contact:housenumber": "42",
+          "contact:street": "Rue de Torcy",
+          "description": "Librairie indépendante",
+          "email": "librairie@lerideaurouge.com",
+          "name": "Le Rideau Rouge",
+          "opening_hours": "Mo-Sa 10:00-19:30",
+          "phone": "+33 1 46 07 16 06",
+          "ref:FR:SIRET": "47927653700012",
+          "ref:vatin": "FR78479276537",
+          "shop": "books",
+          "website": "https://www.lerideaurouge.com"
         }
       },
       {
@@ -1125,6 +1167,30 @@
           "ref:FR:SIRET": "79464455900021",
           "shop": "bakery",
           "stroller": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1619521174,
+        "lat": 48.8912153,
+        "lon": 2.3736577,
+        "tags": {
+          "name": "LST",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1657942853,
+        "lat": 48.8914035,
+        "lon": 2.347632,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "21",
+          "addr:postcode": "75018",
+          "addr:street": "Rue Eugène Sue",
+          "shop": "convenience"
         }
       },
       {
@@ -1483,17 +1549,6 @@
       },
       {
         "type": "node",
-        "id": 2003145899,
-        "lat": 48.861308,
-        "lon": 2.353309,
-        "tags": {
-          "name": "Le kiosque de Paris",
-          "shop": "kiosk",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 2007769277,
         "lat": 48.8644856,
         "lon": 2.3715446,
@@ -1536,19 +1591,6 @@
       },
       {
         "type": "node",
-        "id": 2074923971,
-        "lat": 48.8808019,
-        "lon": 2.3745966,
-        "tags": {
-          "check_date:opening_hours": "2024-09-15",
-          "name": "La tradition de Bolivar",
-          "opening_hours": "Su-Fr 06:00-21:00",
-          "ref:FR:SIRET": "83845887500013",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 2074923980,
         "lat": 48.8815782,
         "lon": 2.3721285,
@@ -1579,23 +1621,6 @@
           "opening_hours": "Mo-Sa 05:00-20:30",
           "ref:FR:SIRET": "38346352800026",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2137762219,
-        "lat": 48.86105,
-        "lon": 2.3506093,
-        "tags": {
-          "check_date": "2024-07-25",
-          "contact:facebook": "https://www.facebook.com/186293098063862/",
-          "contact:phone": "+33 1 42 71 58 03",
-          "email": "librairiewb@gmail.com",
-          "name": "Librairie Wallonie-Bruxelles",
-          "opening_hours": "Tu-Sa 11:00-19:30",
-          "shop": "books",
-          "website": "https://www.librairiewb.com/",
-          "wheelchair": "no"
         }
       },
       {
@@ -1731,6 +1756,16 @@
       },
       {
         "type": "node",
+        "id": 2279711290,
+        "lat": 48.8910685,
+        "lon": 2.361031,
+        "tags": {
+          "name": "Amiral Store",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 2279711291,
         "lat": 48.8908274,
         "lon": 2.3601975,
@@ -1799,6 +1834,16 @@
       },
       {
         "type": "node",
+        "id": 2310467211,
+        "lat": 48.8916927,
+        "lon": 2.3600481,
+        "tags": {
+          "name": "supermarket shukriya",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 2310467213,
         "lat": 48.8896101,
         "lon": 2.3601399,
@@ -1806,6 +1851,16 @@
           "check_date": "2024-06-23",
           "name": "Istanbul Oriental",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2329728022,
+        "lat": 48.8917249,
+        "lon": 2.3596358,
+        "tags": {
+          "name": "Les délices de la Chapelle",
+          "shop": "bakery"
         }
       },
       {
@@ -2063,6 +2118,19 @@
       },
       {
         "type": "node",
+        "id": 2409683713,
+        "lat": 48.8764887,
+        "lon": 2.3444554,
+        "tags": {
+          "check_date": "2024-09-23",
+          "name": "Miche de Pain",
+          "opening_hours": "Mo-Sa 07:00-20:00",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
         "id": 2446076854,
         "lat": 48.8684127,
         "lon": 2.3652972,
@@ -2098,11 +2166,42 @@
       },
       {
         "type": "node",
+        "id": 2478201179,
+        "lat": 48.8658877,
+        "lon": 2.3444778,
+        "tags": {
+          "addr:floor": ";0",
+          "addr:housenumber": "53",
+          "addr:street": "Rue Montmartre",
+          "check_date": "2026-01-28",
+          "indoor_seating": "no",
+          "level": "0;0",
+          "name": "Bon & Bô",
+          "opening_hours": "Mo-Fr 07:00-20:00",
+          "outdoor_seating": "no",
+          "shop": "bakery",
+          "source": "survey 11/2017",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
         "id": 2482552799,
         "lat": 48.8769453,
         "lon": 2.3613353,
         "tags": {
           "name": "Libre Service de la Gare",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2502812300,
+        "lat": 48.891799,
+        "lon": 2.3613256,
+        "tags": {
+          "name": "AG Exotique",
           "shop": "convenience"
         }
       },
@@ -2236,24 +2335,13 @@
       },
       {
         "type": "node",
-        "id": 2888136899,
-        "lat": 48.8786596,
-        "lon": 2.3744814,
+        "id": 2850255351,
+        "lat": 48.8913564,
+        "lon": 2.3630079,
         "tags": {
-          "check_date": "2024-08-18",
-          "name": "Uthaya mini market",
-          "ref:FR:SIRET": "90164370000015",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2888142451,
-        "lat": 48.8798388,
-        "lon": 2.3745491,
-        "tags": {
-          "name": "Contini",
-          "shop": "bakery"
+          "name": "Thave Exo",
+          "shop": "convenience",
+          "source": "Observations personnelles"
         }
       },
       {
@@ -2277,22 +2365,6 @@
           "name": "Patistory",
           "ref:FR:SIRET": "44030885600010",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2951290281,
-        "lat": 48.8832585,
-        "lon": 2.3740142,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "16",
-          "addr:postcode": "75019",
-          "addr:street": "Rue Lally-Tollendal",
-          "name": "DF Alim",
-          "ref:FR:SIRET": "88833587400010",
-          "shop": "convenience",
-          "source": "survey"
         }
       },
       {
@@ -2359,25 +2431,6 @@
           "name": "Mamma Africa",
           "ref:FR:SIRET": "92881035700014",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3056183261,
-        "lat": 48.8730063,
-        "lon": 2.3746994,
-        "tags": {
-          "check_date": "2024-08-19",
-          "check_date:opening_hours": "2023-08-19",
-          "contact:city": "Paris",
-          "contact:housenumber": "28",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Buisson Saint-Louis",
-          "name": "Bolas market",
-          "opening_hours": "Mo-Th 09:30-00:30, Fr-Su 09:30-01:30",
-          "ref:FR:SIRET": "87904830400015",
-          "shop": "convenience",
-          "wheelchair": "yes"
         }
       },
       {
@@ -2533,20 +2586,6 @@
       },
       {
         "type": "node",
-        "id": 3194078985,
-        "lat": 48.8615294,
-        "lon": 2.3704064,
-        "tags": {
-          "indoor_seating": "no",
-          "opening_hours": "Mo-Fr 08:00-20:00",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "takeaway": "only",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 3207365681,
         "lat": 48.8656385,
         "lon": 2.365618,
@@ -2587,31 +2626,6 @@
           "shop": "convenience",
           "source": "survey 2017",
           "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3209228076,
-        "lat": 48.8613831,
-        "lon": 2.364748,
-        "tags": {
-          "branch": "Turenne",
-          "brand": "Proxi",
-          "brand:wikidata": "Q3408522",
-          "check_date": "2024-08-10",
-          "name": "Proxi",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3221464044,
-        "lat": 48.8611982,
-        "lon": 2.369166,
-        "tags": {
-          "name": "L'Enfant Lyre",
-          "opening_hours": "Tu-Sa 10:30-19:15",
-          "shop": "books"
         }
       },
       {
@@ -2765,6 +2779,22 @@
           "ref:FR:SIREN": "921040440",
           "shop": "bakery",
           "website": "https://christophelouie.com/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3286287467,
+        "lat": 48.8909676,
+        "lon": 2.344404,
+        "tags": {
+          "addr:housenumber": "18",
+          "addr:postcode": "75018",
+          "addr:street": "Rue Hermel",
+          "contact:instagram": "racines.epicerie.fromagerie",
+          "name": "Racines",
+          "opening_hours": "Tu-Fr 10:30-14:30, 15:30-20:00; Sa 10:00-20:00; Su 10:00-13:00",
+          "phone": "+33181703239",
+          "shop": "convenience"
         }
       },
       {
@@ -4095,6 +4125,18 @@
           "shop": "books",
           "website": "http://www.ofrsystem.com/",
           "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4125480964,
+        "lat": 48.8773403,
+        "lon": 2.3445278,
+        "tags": {
+          "name": "Chez Cali",
+          "opening_hours": "Mo 18:00-24:00, Tu-Su 16:00-01:30",
+          "shop": "convenience",
+          "start_date": "1986"
         }
       },
       {
@@ -5968,6 +6010,30 @@
       },
       {
         "type": "node",
+        "id": 6049767635,
+        "lat": 48.8669909,
+        "lon": 2.3442875,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:floor": "0",
+          "addr:housenumber": "33",
+          "addr:street": "Rue d'Aboukir",
+          "check_date": "2026-05-25",
+          "indoor_seating": "no",
+          "level": "0",
+          "name": "La Miche et Lulu",
+          "opening_hours": "Mo-Fr 07:00-20:00",
+          "outdoor_seating": "no",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "51164728100019",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
         "id": 6049882127,
         "lat": 48.8649314,
         "lon": 2.346713,
@@ -6061,22 +6127,6 @@
       },
       {
         "type": "node",
-        "id": 6100665120,
-        "lat": 48.8885492,
-        "lon": 2.3745596,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "64",
-          "addr:postcode": "75019",
-          "addr:street": "Avenue de Flandre",
-          "check_date": "2026-02-17",
-          "name": "Jaanu store",
-          "ref:FR:SIRET": "91753744100029",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 6109260235,
         "lat": 48.8708643,
         "lon": 2.3586579,
@@ -6127,23 +6177,6 @@
           "opening_hours:signed": "no",
           "ref:FR:SIRET": "87982263300027",
           "shop": "convenience",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6109649600,
-        "lat": 48.8737955,
-        "lon": 2.3746812,
-        "tags": {
-          "check_date": "2026-05-05",
-          "check_date:opening_hours": "2026-05-05",
-          "indoor_seating": "no",
-          "noname": "yes",
-          "opening_hours": "Mo-Sa 06:00-22:00",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "takeaway": "only",
           "wheelchair": "no"
         }
       },
@@ -6263,19 +6296,6 @@
           "ref:FR:SIRET": "85234785500037",
           "shop": "convenience",
           "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6239545376,
-        "lat": 48.8695968,
-        "lon": 2.3740685,
-        "tags": {
-          "check_date": "2025-03-30",
-          "name": "J.K mini marché",
-          "shop": "convenience",
-          "source": "survey",
-          "wheelchair": "limited"
         }
       },
       {
@@ -6513,21 +6533,6 @@
       },
       {
         "type": "node",
-        "id": 6549902863,
-        "lat": 48.8655643,
-        "lon": 2.3746877,
-        "tags": {
-          "addr:housenumber": "88 ter",
-          "addr:postcode": "75011",
-          "addr:street": "Avenue Parmentier",
-          "check_date": "2026-02-06",
-          "name": "Maison Coupinot",
-          "opening_hours": "Mo-Fr 07:00-20:00; PH off",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 6707642919,
         "lat": 48.8889875,
         "lon": 2.3466053,
@@ -6606,6 +6611,17 @@
           "shop": "convenience",
           "source": "survey",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6982527566,
+        "lat": 48.8917773,
+        "lon": 2.3490535,
+        "tags": {
+          "name": "Superette",
+          "opening_hours:signed": "no",
+          "shop": "convenience"
         }
       },
       {
@@ -6930,6 +6946,20 @@
           "addr:postcode": "75001",
           "check_date": "2025-08-04",
           "name:signed": "no",
+          "shop": "kiosk",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7995599808,
+        "lat": 48.8671428,
+        "lon": 2.3440231,
+        "tags": {
+          "check_date": "2025-10-01",
+          "name:signed": "no",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "shop": "kiosk",
           "wheelchair": "yes"
         }
@@ -7359,6 +7389,20 @@
       },
       {
         "type": "node",
+        "id": 8985854951,
+        "lat": 48.8910861,
+        "lon": 2.3477181,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "22",
+          "addr:postcode": "75018",
+          "addr:street": "Rue Simart",
+          "name:signed": "no",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 9045029717,
         "lat": 48.8788103,
         "lon": 2.3507317,
@@ -7444,17 +7488,6 @@
       },
       {
         "type": "node",
-        "id": 9403908060,
-        "lat": 48.8657862,
-        "lon": 2.3743551,
-        "tags": {
-          "check_date": "2024-08-22",
-          "name": "U Market",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 9421445420,
         "lat": 48.8809194,
         "lon": 2.3637029,
@@ -7508,6 +7541,16 @@
           "ref:FR:SIRET": "88479668100010",
           "shop": "convenience",
           "source": "survey 01/2022"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9536755817,
+        "lat": 48.8917253,
+        "lon": 2.3499909,
+        "tags": {
+          "name": "Au Moulin du 18",
+          "shop": "bakery"
         }
       },
       {
@@ -8058,15 +8101,6 @@
       },
       {
         "type": "node",
-        "id": 11197420838,
-        "lat": 48.8613676,
-        "lon": 2.3585907,
-        "tags": {
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
         "id": 11215211926,
         "lat": 48.8722681,
         "lon": 2.3542079,
@@ -8320,23 +8354,6 @@
           "name": "Exola",
           "ref:FR:SIRET": "48508625000027",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11556836068,
-        "lat": 48.8611623,
-        "lon": 2.350469,
-        "tags": {
-          "alt_name": "CLC Paris",
-          "check_date": "2024-07-25",
-          "contact:facebook": "https://www.facebook.com/clcparis/",
-          "contact:instagram": "https://www.instagram.com/clcparis",
-          "name": "Librairie Chrétienne",
-          "opening_hours": "Mo-Sa 10:00-19:00",
-          "shop": "books",
-          "website": "https://www.clcfrance.com/",
-          "wheelchair": "yes"
         }
       },
       {
@@ -8596,31 +8613,6 @@
       },
       {
         "type": "node",
-        "id": 12438733022,
-        "lat": 48.8611288,
-        "lon": 2.3479354,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "2",
-          "addr:postcode": "75001",
-          "addr:street": "Rue Pierre Lescot",
-          "check_date": "2026-04-10",
-          "diet:vegan": "only",
-          "indoor_seating": "yes",
-          "name": "Land&Monkeys Les Halles",
-          "opening_hours": "Mo-Su 08:00-20:30",
-          "outdoor_seating": "pedestrian_zone",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "phone": "+33142331480",
-          "ref:FR:SIRET": "92831087900020",
-          "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 12458631757,
         "lat": 48.8904946,
         "lon": 2.3506952,
@@ -8638,6 +8630,21 @@
           "name": "Gomon Exotique",
           "ref:FR:SIRET": "39323355600017",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12670399901,
+        "lat": 48.8895708,
+        "lon": 2.3441399,
+        "tags": {
+          "addr:housenumber": "54",
+          "addr:postcode": "75018",
+          "addr:street": "Rue Custine",
+          "name": "Chamboule",
+          "opening_hours": "Su 08:00-18:00; Tu-Fr 07:30-20:00; Sa 08:00-20:00",
+          "ref:FR:SIRET": "93141926100025",
+          "shop": "bakery"
         }
       },
       {
@@ -8668,20 +8675,6 @@
         "tags": {
           "name:signed": "no",
           "shop": "kiosk"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12770926725,
-        "lat": 48.8732933,
-        "lon": 2.3746357,
-        "tags": {
-          "check_date:opening_hours": "2025-05-09",
-          "name": "Yummy World",
-          "opening_hours:signed": "no",
-          "ref:FR:SIRET": "91778834100019",
-          "shop": "convenience",
-          "wheelchair": "limited"
         }
       },
       {
@@ -9079,18 +9072,6 @@
       },
       {
         "type": "node",
-        "id": 13398682011,
-        "lat": 48.8610554,
-        "lon": 2.3661393,
-        "tags": {
-          "amenity": "cafe",
-          "bar": "yes",
-          "name": "Thibaut",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
         "id": 13432041043,
         "lat": 48.8647583,
         "lon": 2.3496684,
@@ -9392,6 +9373,23 @@
       },
       {
         "type": "way",
+        "id": 69418186,
+        "center": {
+          "lat": 48.8828096,
+          "lon": 2.3440405
+        },
+        "tags": {
+          "building": "retail",
+          "building:levels": "1",
+          "name:signed": "no",
+          "opening_hours:signed": "no",
+          "roof:levels": "0",
+          "shop": "kiosk",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      },
+      {
+        "type": "way",
         "id": 145620318,
         "center": {
           "lat": 48.8699372,
@@ -9472,58 +9470,6 @@
           "name": "Bread & Co",
           "room": "shop",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "way",
-        "id": 512295050,
-        "center": {
-          "lat": 48.8616954,
-          "lon": 2.3464163
-        },
-        "tags": {
-          "brand": "Brioche Dorée",
-          "brand:website": "https://www.briochedoree.fr",
-          "brand:wikidata": "Q2925606",
-          "brand:wikipedia": "fr:Brioche dorée",
-          "contact:phone": "+33 1 40 13 76 79",
-          "cuisine": "french;sandwich",
-          "indoor": "room",
-          "indoor_seating": "yes",
-          "level": "-4",
-          "name": "Brioche Dorée",
-          "opening_hours": "Mo-Fr 06:00-20:00; Sa 06:00-19:00; Su 09:00-17:00",
-          "operator": "Groupe Le Duff",
-          "outdoor_seating": "no",
-          "ref:FR:SIRET": "31890659101890",
-          "room": "yes",
-          "shop": "bakery",
-          "smoking": "no",
-          "source": "survey",
-          "website": "https://www.briochedoree.fr/restaurants/65-paris-1er-forum-des-halles-1-rue-basse",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "way",
-        "id": 630959373,
-        "center": {
-          "lat": 48.8611957,
-          "lon": 2.3475717
-        },
-        "tags": {
-          "branch": "Marks & Spencer Food",
-          "brand": "Monop'",
-          "brand:wikidata": "Q89913683",
-          "indoor": "room",
-          "level": "-4",
-          "name": "Monop'",
-          "opening_hours": "Mo-Fr 07:00-21:30; Sa 11:00-21:00",
-          "operator": "Relay",
-          "phone": "+33 1 40 28 16 30",
-          "shop": "convenience",
-          "source": "Survey 11/2022",
-          "wheelchair": "yes"
         }
       },
       {
@@ -9618,20 +9564,6 @@
       },
       {
         "type": "way",
-        "id": 1054288708,
-        "center": {
-          "lat": 48.8653462,
-          "lon": 2.3746007
-        },
-        "tags": {
-          "check_date": "2026-03-21",
-          "name:signed": "no",
-          "shop": "kiosk",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "way",
         "id": 1083522962,
         "center": {
           "lat": 48.8753743,
@@ -9660,6 +9592,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-04T16:03:11.851Z",
+  "fetchedAt": "2026-08-04T16:57:39.202Z",
   "staleDataWarning": false
 }
