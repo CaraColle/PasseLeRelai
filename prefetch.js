@@ -340,22 +340,44 @@ out center tags;
 }
 
 /**
+ * Create an empty shops response object.
+ */
+function createEmptyShopsResponse() {
+  return {
+    version: 0.6,
+    generator: 'Overpass API (fallback)',
+    osm3s: {},
+    elements: []
+  };
+}
+
+/**
  * Fetch shops via Overpass with retries and fallback endpoints.
  */
 async function fetchShops(lat, lng, radius = 1500) {
   const query = buildShopQueryAround(lat, lng, radius);
   let lastError = null;
 
+  console.log(`  [DEBUG] Querying Overpass for (${lat}, ${lng}) with radius ${radius}m`);
+
   for (const endpoint of OVERPASS_ENDPOINTS) {
     for (let attempt = 1; attempt <= 2; attempt++) {
       try {
+        console.log(`  [DEBUG] Attempt ${attempt}/2 at ${endpoint}...`);
+
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 60000); // 60s timeout
+
         const res = await fetch(endpoint, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/x-www-form-urlencoded'
           },
-          body: `data=${encodeURIComponent(query)}`
+          body: `data=${encodeURIComponent(query)}`,
+          signal: controller.signal
         });
+
+        clearTimeout(timeoutId);
 
         if (!res.ok) {
           const text = await res.text();
@@ -365,6 +387,7 @@ async function fetchShops(lat, lng, radius = 1500) {
         }
 
         const data = await res.json();
+        console.log(`  [DEBUG] Success! Got ${data.elements?.length ?? 0} elements`);
 
         return {
           ...data,
@@ -374,17 +397,21 @@ async function fetchShops(lat, lng, radius = 1500) {
         lastError = err;
 
         console.warn(
-          `  [WARN] Overpass attempt ${attempt} failed at ${endpoint}: ${err.message}`
+          `  [WARN] Overpass attempt ${attempt}/2 at ${endpoint}: ${err.message}`
         );
 
         if (attempt < 2) {
-          await sleep(3000);
+          console.log(`  [DEBUG] Waiting 5s before retry...`);
+          await sleep(5000);
         }
       }
     }
   }
 
-  throw lastError || new Error('All Overpass endpoints failed');
+  console.error(`  [ERROR] All Overpass endpoints exhausted. Last error: ${lastError?.message}`);
+
+  // Return empty array instead of failing completely
+  return createEmptyShopsResponse();
 }
 
 // ---------------------------------------------------------------------------
@@ -514,7 +541,8 @@ async function main() {
       );
 
       staleDataWarning = true;
-      shopsData = existing.shops ?? null;
+      // Fall back to existing data, or use empty array (never null)
+      shopsData = existing.shops ?? createEmptyShopsResponse();
     }
 
     // ---------------------------------------------------------
