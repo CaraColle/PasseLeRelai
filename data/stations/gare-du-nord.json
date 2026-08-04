@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      2.339849,
-      48.870649,
-      2.369545,
-      48.890659
+      2.345297,
+      48.874161,
+      2.364361,
+      48.886958
     ],
     "features": [
       {
@@ -133,8 +133,8 @@
           "coordinates": [
             [
               [
-                2.345575,
-                48.882208
+                2.345537,
+                48.882386
               ],
               [
                 2.345481,
@@ -173,8 +173,8 @@
                 48.874844
               ],
               [
-                2.355478,
-                48.874173
+                2.35523,
+                48.874167
               ],
               [
                 2.357528,
@@ -193,28 +193,28 @@
                 48.87433
               ],
               [
+                2.3607,
+                48.876337
+              ],
+              [
                 2.360817,
                 48.876448
               ],
               [
-                2.361073,
-                48.876759
+                2.361087,
+                48.876745
               ],
               [
-                2.364268,
-                48.880993
+                2.364361,
+                48.880971
               ],
               [
-                2.364157,
-                48.881405
+                2.364265,
+                48.881318
               ],
               [
-                2.364143,
-                48.881436
-              ],
-              [
-                2.363542,
-                48.882293
+                2.363762,
+                48.882017
               ],
               [
                 2.361999,
@@ -233,12 +233,12 @@
                 48.886906
               ],
               [
-                2.356358,
-                48.88692
+                2.356355,
+                48.886958
               ],
               [
-                2.356233,
-                48.886918
+                2.356289,
+                48.886958
               ],
               [
                 2.354062,
@@ -249,210 +249,28 @@
                 48.886339
               ],
               [
+                2.348808,
+                48.884777
+              ],
+              [
                 2.348793,
                 48.884767
               ],
               [
-                2.345717,
-                48.882539
+                2.348579,
+                48.884619
               ],
               [
-                2.345575,
-                48.882208
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            2.3552453655400987,
-            48.880911605175974
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                2.342026,
-                48.88431
+                2.345679,
+                48.882566
               ],
               [
-                2.341454,
-                48.883638
+                2.345673,
+                48.882562
               ],
               [
-                2.340349,
-                48.882318
-              ],
-              [
-                2.340309,
-                48.882252
-              ],
-              [
-                2.339966,
-                48.881037
-              ],
-              [
-                2.339849,
-                48.880329
-              ],
-              [
-                2.340676,
-                48.876859
-              ],
-              [
-                2.340804,
-                48.876436
-              ],
-              [
-                2.3419,
-                48.875202
-              ],
-              [
-                2.341959,
-                48.875159
-              ],
-              [
-                2.342025,
-                48.875113
-              ],
-              [
-                2.342932,
-                48.874492
-              ],
-              [
-                2.346563,
-                48.872806
-              ],
-              [
-                2.349622,
-                48.871246
-              ],
-              [
-                2.350013,
-                48.871138
-              ],
-              [
-                2.353451,
-                48.870696
-              ],
-              [
-                2.355233,
-                48.870649
-              ],
-              [
-                2.356509,
-                48.870702
-              ],
-              [
-                2.360615,
-                48.870877
-              ],
-              [
-                2.361186,
-                48.871064
-              ],
-              [
-                2.363575,
-                48.873334
-              ],
-              [
-                2.363641,
-                48.873401
-              ],
-              [
-                2.366733,
-                48.876692
-              ],
-              [
-                2.368799,
-                48.87894
-              ],
-              [
-                2.368975,
-                48.879254
-              ],
-              [
-                2.369545,
-                48.882392
-              ],
-              [
-                2.369532,
-                48.882452
-              ],
-              [
-                2.369463,
-                48.882743
-              ],
-              [
-                2.369441,
-                48.882801
-              ],
-              [
-                2.368192,
-                48.884224
-              ],
-              [
-                2.36589,
-                48.885995
-              ],
-              [
-                2.362349,
-                48.888449
-              ],
-              [
-                2.362115,
-                48.888585
-              ],
-              [
-                2.362034,
-                48.888623
-              ],
-              [
-                2.359935,
-                48.889321
-              ],
-              [
-                2.356093,
-                48.890631
-              ],
-              [
-                2.355835,
-                48.890659
-              ],
-              [
-                2.355585,
-                48.890636
-              ],
-              [
-                2.352821,
-                48.889936
-              ],
-              [
-                2.348039,
-                48.888412
-              ],
-              [
-                2.347131,
-                48.887982
-              ],
-              [
-                2.346619,
-                48.887611
-              ],
-              [
-                2.342127,
-                48.884426
-              ],
-              [
-                2.342026,
-                48.88431
+                2.345537,
+                48.882386
               ]
             ]
           ],
@@ -463,7 +281,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785806640308,
+      "timestamp": 1785807465267,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -475,8 +293,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -493,7 +310,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-04T01:22:51Z",
+      "timestamp_osm_base": "2026-08-04T01:36:12Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -571,67 +388,6 @@
       },
       {
         "type": "node",
-        "id": 281001675,
-        "lat": 48.8703138,
-        "lon": 2.3531191,
-        "tags": {
-          "amenity": "parcel_locker",
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "check_date": "2026-06-30",
-          "check_date:opening_hours": "2022-11-16",
-          "contact:city": "Paris",
-          "contact:housenumber": "12",
-          "contact:phone": "+33 1 40 18 05 09",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Denis",
-          "contact:website": "https://www.carrefour.fr/magasin/city-paris-faubourg-saint-denis-12",
-          "indoor": "yes",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 08:00-22:00, Su 09:00-22:00",
-          "operator": "Groupe Carrefour;VintedGo",
-          "operator:wikidata": "Q3117359",
-          "operator:wikipedia": "fr:Groupe Carrefour",
-          "parcel_mail_in": "yes",
-          "parcel_pickup": "yes",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "payment:visa": "yes",
-          "ref:FR:SIRET": "84415567100044",
-          "shop": "convenience",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 286818703,
-        "lat": 48.8729563,
-        "lon": 2.3536136,
-        "tags": {
-          "alt_name": "Papica",
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2026-06-30",
-          "contact:city": "Paris",
-          "contact:housenumber": "7",
-          "contact:phone": "+33 1 45 23 46 28",
-          "contact:postcode": "75010",
-          "contact:street": "Rue des Petites-Écuries",
-          "contact:website": "https://www.franprix.fr/magasins/5070",
-          "int_name": "Franprix",
-          "name": "Franprix",
-          "old_name": "Habarnam",
-          "opening_hours": "Mo-Sa 07:30-23:00; Su 08:30-23:00",
-          "operator": "Groupe Casino",
-          "ref:FR:SIRET": "31971274100010",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 293986500,
         "lat": 48.8666873,
         "lon": 2.3679348,
@@ -641,30 +397,6 @@
           "opening_hours": "Mo-Su 11:00-02:00",
           "shop": "convenience",
           "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 304964998,
-        "lat": 48.8738805,
-        "lon": 2.3578984,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2025-10-17",
-          "contact:city": "Paris",
-          "contact:housenumber": "55",
-          "contact:phone": "+33 1 46 07 37 66",
-          "contact:postcode": "75010",
-          "contact:street": "Boulevard de Magenta",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:00-21:45, Su 09:00-11:45",
-          "operator": "Groupe Casino",
-          "ref:FR:SIRET": "85009637100024",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/1103",
-          "wheelchair": "limited"
         }
       },
       {
@@ -692,59 +424,6 @@
       },
       {
         "type": "node",
-        "id": 326948277,
-        "lat": 48.8801829,
-        "lon": 2.3650646,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2026-06-27",
-          "contact:city": "Paris",
-          "contact:housenumber": "16",
-          "contact:phone": "+33 1 42 09 70 10",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Alexandre Parodi",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 07:30-22:00; Su 09:00-12:00",
-          "operator": "Groupe Casino",
-          "ref:FR:SIRET": "31873171800017",
-          "shop": "convenience",
-          "toilets:wheelchair": "no",
-          "website": "https://www.franprix.fr/magasins/5067",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 361128869,
-        "lat": 48.8711773,
-        "lon": 2.3598989,
-        "tags": {
-          "addr:housenumber": "9",
-          "addr:street": "Rue Lucien Sampaix",
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "check_date": "2025-06-23",
-          "contact:phone": "+33142039259",
-          "level": "0",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-23:00; Su 09:00-20:00",
-          "operator": "Groupe Carrefour",
-          "operator:wikidata": "Q3117359",
-          "operator:wikipedia": "fr:Groupe Carrefour",
-          "organic": "yes",
-          "ref:FR:SIRET": "81540090800027",
-          "shop": "convenience",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-          "toilets": "no",
-          "website": "https://www.carrefour.fr/magasin/city-paris-lucien-sampaix",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 361128870,
         "lat": 48.8705667,
         "lon": 2.3596696,
@@ -760,73 +439,6 @@
           "ref:FR:SIRET": "82925376400023",
           "shop": "bakery",
           "website": "https://www.mamiche.fr/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 416711600,
-        "lat": 48.8684943,
-        "lon": 2.3689987,
-        "tags": {
-          "addr:housenumber": "8",
-          "addr:street": "Rue de la Fontaine au Roi",
-          "air_conditioning": "yes",
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "check_date": "2026-05-28",
-          "contact:website": "https://www.carrefour.fr/magasin/city-paris-fontaine-au-roi",
-          "internet_access": "no",
-          "level": "0",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-13:00",
-          "operator": "Groupe Carrefour",
-          "operator:wikidata": "Q3117359",
-          "operator:wikipedia": "fr:Groupe Carrefour",
-          "organic": "yes",
-          "payment:mastercard": "yes",
-          "payment:visa": "yes",
-          "phone": "+33 1 49 23 53 96",
-          "shop": "convenience",
-          "stroller": "yes",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 418061334,
-        "lat": 48.8668657,
-        "lon": 2.36718,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "check_date": "2025-07-08",
-          "name": "Carrefour City",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/city-paris-malte"
-        }
-      },
-      {
-        "type": "node",
-        "id": 626615231,
-        "lat": 48.8958633,
-        "lon": 2.3466104,
-        "tags": {
-          "name": "Maison Marquet",
-          "opening_hours": "Mo,Th off; Tu,We,Fr-Su 06:00-21:00",
-          "operator": "BOULANGERIE ZOUARI",
-          "payment:apple_pay": "yes",
-          "payment:cash": "yes",
-          "payment:coins": "yes",
-          "payment:contactless": "yes",
-          "payment:google_pay": "yes",
-          "payment:mastercard": "yes",
-          "payment:visa": "yes",
-          "phone": "+33183066442",
-          "ref:FR:SIRET": "91449775500019",
-          "shop": "bakery",
-          "source": "survey 2017",
-          "website": "https://boulangerie-zouari.eatbu.com"
         }
       },
       {
@@ -882,48 +494,6 @@
       },
       {
         "type": "node",
-        "id": 724327864,
-        "lat": 48.8885532,
-        "lon": 2.3534751,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "54",
-          "contact:phone": "+33 1 53 41 04 12",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Boulangerie Pâtisserie Chocolatier",
-          "opening_hours": "We-Mo 06:00-24:00",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 725097222,
-        "lat": 48.871713,
-        "lon": 2.368283,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2025-06",
-          "contact:city": "Paris",
-          "contact:housenumber": "22",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Alibert",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
-          "operator": "Groupe Casino",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "ref:FR:SIRET": "44982074500015",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/5487",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 735171971,
         "lat": 48.8810408,
         "lon": 2.3648349,
@@ -967,71 +537,6 @@
       },
       {
         "type": "node",
-        "id": 766532211,
-        "lat": 48.8855543,
-        "lon": 2.3653665,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2025-08-24",
-          "level": "0",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:00-22:00, Su 09:00-22:00",
-          "operator": "Groupe Casino",
-          "organic": "yes",
-          "shop": "convenience",
-          "toilets": "no",
-          "website": "https://www.franprix.fr/magasins/6769",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 775370004,
-        "lat": 48.8704507,
-        "lon": 2.3578003,
-        "tags": {
-          "addr:floor": "0",
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2025-09-22",
-          "level": "0",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 07:30-21:30; Su 09:00-21:00",
-          "operator": "Groupe Casino",
-          "ref:FR:SIRET": "89792749700023",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/1043",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 784452777,
-        "lat": 48.874219,
-        "lon": 2.3636454,
-        "tags": {
-          "addr:housenumber": "108-110",
-          "addr:street": "Quai de Jemmapes",
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2026-05-22",
-          "internet_access": "wlan",
-          "internet_access:fee": "no",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 07:30-22:00, Su 09:00-22:00",
-          "ref:FR:SIRET": "47994345800022",
-          "shop": "convenience",
-          "source": "survey",
-          "website": "https://www.franprix.fr/supermarket/1875",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 877958868,
         "lat": 48.8827594,
         "lon": 2.3615206,
@@ -1066,31 +571,6 @@
       },
       {
         "type": "node",
-        "id": 879496698,
-        "lat": 48.8826348,
-        "lon": 2.3600678,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "check_date": "2026-03-07",
-          "check_date:opening_hours": "2024-09-20",
-          "contact:city": "Paris",
-          "contact:housenumber": "17",
-          "contact:phone": "+33 1 42 05 45 30",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Cail",
-          "contact:website": "https://www.franprix.fr/magasins/1386",
-          "name": "Franprix",
-          "old_name": "G20",
-          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-21:00",
-          "ref:FR:SIRET": "48520094300010",
-          "shop": "convenience",
-          "source": "survey 12/2022",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 883484108,
         "lat": 48.880156,
         "lon": 2.3645743,
@@ -1108,54 +588,6 @@
           "ref:FR:SIRET": "42163063300038",
           "ref:vatin": "FR77421630633",
           "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 885984841,
-        "lat": 48.8701333,
-        "lon": 2.3495998,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "check_date": "2026-05-22",
-          "internet_access": "no",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Su 07:00-23:00",
-          "operator": "Groupe Carrefour",
-          "operator:wikidata": "Q3117359",
-          "operator:wikipedia": "fr:Groupe Carrefour",
-          "organic": "yes",
-          "payment:cards": "yes",
-          "payment:cash": "yes",
-          "payment:qr_code": "no",
-          "phone": "+33 1 40 13 04 95",
-          "shop": "convenience",
-          "source": "survey",
-          "toilets": "no",
-          "website": "https://www.carrefour.fr/magasin/city-paris-bonne-nouvelle"
-        }
-      },
-      {
-        "type": "node",
-        "id": 895570218,
-        "lat": 48.8825669,
-        "lon": 2.366687,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:email": "moh.mohamed@hotmail.fr",
-          "contact:housenumber": "241",
-          "contact:phone": "+33 6 84 32 92 71",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "contact:website": "https://boulangerie-du-faubourg-saint-martin.eatbu.com",
-          "level": "0",
-          "name": "Boulangerie Faubourg Saint-Martin",
-          "opening_hours": "Mo-Fr 06:00-21:00; Tu off; Sa,Su 07:00-21:00",
-          "ref:FR:SIRET": "85114397400018",
-          "shop": "bakery",
-          "source": "survey 01/2022"
         }
       },
       {
@@ -1199,30 +631,6 @@
           "ref:FR:SIRET": "53159116200015",
           "shop": "bakery",
           "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 917299795,
-        "lat": 48.8822005,
-        "lon": 2.3667566,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2025-10-17",
-          "contact:city": "Paris",
-          "contact:housenumber": "246",
-          "contact:phone": "+33 1 42 05 00 87",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "contact:website": "https://www.franprix.fr/magasins/1872",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-13:00",
-          "operator": "Groupe Casino",
-          "ref:FR:SIRET": "93316307300028",
-          "shop": "convenience",
-          "wheelchair": "yes"
         }
       },
       {
@@ -1285,48 +693,6 @@
           "shop": "bakery",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
           "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1294579498,
-        "lat": 48.8759937,
-        "lon": 2.3404635,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "level": "0",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-23:00; Su 09:00-23:00",
-          "organic": "yes",
-          "shop": "convenience",
-          "toilets": "no",
-          "website": "https://www.carrefour.fr/magasin/city-paris-chateaudun",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1309369347,
-        "lat": 48.8730539,
-        "lon": 2.3622468,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "check_date": "2026-02-28",
-          "contact:city": "Paris",
-          "contact:housenumber": "31",
-          "contact:postcode": "75010",
-          "contact:street": "Rue des Vinaigriers",
-          "contact:website": "https://www.carrefour.fr/magasin/city-paris-vinaigriers",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-21:00; Su 09:00-20:00",
-          "operator": "Groupe Carrefour",
-          "operator:wikidata": "Q3117359",
-          "operator:wikipedia": "fr:Groupe Carrefour",
-          "ref:FR:SIRET": "53022482300043",
-          "shop": "convenience"
         }
       },
       {
@@ -1454,27 +820,6 @@
       },
       {
         "type": "node",
-        "id": 1486314054,
-        "lat": 48.8710449,
-        "lon": 2.3446309,
-        "tags": {
-          "addr:floor": "0",
-          "addr:housenumber": "19",
-          "addr:street": "Boulevard Poissonnière",
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2026-06-05",
-          "level": "0",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:00-23:00; Su 08:00-22:00",
-          "operator": "Franprix",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/6737"
-        }
-      },
-      {
-        "type": "node",
         "id": 1486314146,
         "lat": 48.8728211,
         "lon": 2.3503316,
@@ -1549,30 +894,6 @@
       },
       {
         "type": "node",
-        "id": 1490090155,
-        "lat": 48.8678917,
-        "lon": 2.3455591,
-        "tags": {
-          "addr:floor": "0",
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "check_date": "2026-02-28",
-          "check_date:opening_hours": "2026-02-28",
-          "level": "0",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-22:00",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "payment:visa": "yes",
-          "shop": "convenience",
-          "source": "survey",
-          "website": "https://www.carrefour.fr/magasin/city-paris-clery-15",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 1491381460,
         "lat": 48.8776775,
         "lon": 2.3492392,
@@ -1617,23 +938,6 @@
           "ref:FR:SIRET": "79464455900021",
           "shop": "bakery",
           "stroller": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1657926101,
-        "lat": 48.8912289,
-        "lon": 2.3475673,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "24",
-          "addr:postcode": "75018",
-          "addr:street": "Rue Simart",
-          "name": "Boulangerie Simart.",
-          "opening_hours": "Mo-Fr 07:30-20:00; Sa-Su 07:30-19:30",
-          "operator": "Muriel & Christophe Przystaniak",
-          "phone": "+33 1 42 51 06 82",
-          "shop": "bakery"
         }
       },
       {
@@ -1740,24 +1044,6 @@
       },
       {
         "type": "node",
-        "id": 1669024634,
-        "lat": 48.894102,
-        "lon": 2.341431,
-        "tags": {
-          "brand": "Naturalia",
-          "brand:wikidata": "Q3337081",
-          "brand:wikipedia": "fr:Naturalia",
-          "check_date": "2024-10-26",
-          "description": "Supermarché bio",
-          "name": "Naturalia",
-          "operator": "Groupe Casino",
-          "organic": "only",
-          "shop": "convenience",
-          "website": "https://naturalia.fr/"
-        }
-      },
-      {
-        "type": "node",
         "id": 1670120528,
         "lat": 48.8699762,
         "lon": 2.3603085,
@@ -1799,33 +1085,6 @@
           "payment:debit_cards": "yes",
           "ref:FR:SIRET": "51932391900018",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1670163081,
-        "lat": 48.8688286,
-        "lon": 2.3633449,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2026-01-12",
-          "contact:city": "Paris",
-          "contact:housenumber": "2",
-          "contact:phone": "+33 1 42 45 98 17",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Beaurepaire",
-          "contact:website": "https://www.franprix.fr/supermarket/1441",
-          "internet_access": "no",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 07:30-22:00; Su 09:00-22:00",
-          "operator": "Franprix",
-          "payment:mastercard": "yes",
-          "payment:visa": "yes",
-          "ref:FR:SIRET": "92074852200025",
-          "shop": "convenience",
-          "wheelchair": "yes"
         }
       },
       {
@@ -2050,23 +1309,6 @@
       },
       {
         "type": "node",
-        "id": 1827699345,
-        "lat": 48.875823,
-        "lon": 2.3427579,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-12:00+",
-          "operator": "Groupe Casino",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/6214",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 1843639346,
         "lat": 48.8662042,
         "lon": 2.3409974,
@@ -2078,24 +1320,6 @@
           "name": "Au Cœur Immaculé de Marie",
           "opening_hours": "Mo-Sa 10:00-19:00",
           "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1868445228,
-        "lat": 48.8879982,
-        "lon": 2.348721,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "contact:housenumber": "10",
-          "contact:street": "Rue Custine",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-13:00",
-          "operator": "Groupe Casino",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/4196"
         }
       },
       {
@@ -2124,39 +1348,6 @@
           "contact:street": "Rue Doudeauville",
           "name": "Tout Kin",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1868469470,
-        "lat": 48.8870451,
-        "lon": 2.353578,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "33",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Myrha",
-          "name": "Tembely Boulangerie",
-          "opening_hours": "Tu-Sa,PH 06:45-20:00; Su 06:45-14:30",
-          "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1869833283,
-        "lat": 48.8887877,
-        "lon": 2.3498107,
-        "tags": {
-          "brand": "Carrefour Market",
-          "brand:wikidata": "Q2689639",
-          "brand:wikipedia": "fr:Carrefour Market",
-          "name": "Carrefour Market",
-          "opening_hours": "Mo-Sa 09:00-22:30",
-          "operator": "Carrefour",
-          "phone": "+33 1 42 51 06 20",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/market-paris-barbes"
         }
       },
       {
@@ -2289,53 +1480,6 @@
       },
       {
         "type": "node",
-        "id": 2068414431,
-        "lat": 48.8680949,
-        "lon": 2.3600653,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "check_date": "2026-06-24",
-          "check_date:opening_hours": "2026-06-24",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-22:00",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/city-paris-saint-martin"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2081283324,
-        "lat": 48.869469,
-        "lon": 2.3559887,
-        "tags": {
-          "addr:floor": "0",
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "check_date": "2026-02-04",
-          "contact:city": "Paris",
-          "contact:housenumber": "8",
-          "contact:phone": "+33 1 40 18 05 09",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "contact:website": "https://www.carrefour.fr/magasin/city-paris-faubourg-saint-martin",
-          "fixme": "Vérifier les horaires d'ouverture car ceux actuellement indiqués ne correspondent pas au site web.",
-          "level": "0",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-23:00; Su 09:00-20:00",
-          "operator": "Groupe Carrefour",
-          "operator:wikidata": "Q3117359",
-          "operator:wikipedia": "fr:Groupe Carrefour",
-          "organic": "yes",
-          "ref:FR:SIRET": "95352907000021",
-          "shop": "convenience",
-          "toilets": "no",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 2082018762,
         "lat": 48.893059,
         "lon": 2.342435,
@@ -2348,22 +1492,6 @@
           "opening_hours": "Tu-Sa 07:15-20:00; Su 08:00-14:00",
           "shop": "bakery",
           "website": "https://www.gana.fr/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2082405594,
-        "lat": 48.895031,
-        "lon": 2.345234,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date:opening_hours": "2022-09-13",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-21:00",
-          "operator": "Groupe Casino",
-          "shop": "convenience"
         }
       },
       {
@@ -2382,29 +1510,6 @@
           "opening_hours": "Mo-Sa 05:00-20:30",
           "ref:FR:SIRET": "38346352800026",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2125571197,
-        "lat": 48.8720384,
-        "lon": 2.3430498,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "level": "0",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-23:00; Su 09:00-23:00",
-          "operator": "Groupe Carrefour",
-          "operator:wikidata": "Q3117359",
-          "operator:wikipedia": "fr:Groupe Carrefour",
-          "organic": "yes",
-          "phone": "+33 1 47 70 08 02",
-          "shop": "convenience",
-          "source": "survey",
-          "toilets": "no",
-          "website": "https://www.carrefour.fr/magasin/city-paris-faubourg-montmartre-9"
         }
       },
       {
@@ -2431,56 +1536,6 @@
           "name": "L'Orée de Montmartre",
           "shop": "convenience",
           "source": "survey"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2160594534,
-        "lat": 48.8763592,
-        "lon": 2.3483732,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:30-22:00; Su 09:00-13:00",
-          "operator": "Groupe Casino",
-          "shop": "convenience",
-          "source": "survey:2016-06-03",
-          "website": "https://www.franprix.fr/",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2160622352,
-        "lat": 48.8700105,
-        "lon": 2.3521338,
-        "tags": {
-          "addr:floor": "0",
-          "brand": "Naturalia",
-          "brand:wikidata": "Q3337081",
-          "brand:wikipedia": "fr:Naturalia",
-          "check_date": "2026-05-20",
-          "contact:city": "Paris",
-          "contact:housenumber": "8",
-          "contact:phone": "+33 1 48 00 06 52",
-          "contact:postcode": "75010",
-          "contact:street": "Boulevard de Bonne Nouvelle",
-          "contact:website": "https://magasins.naturalia.fr/naturalia/fr/store/france/ile-de-france/paris/paris/bonne-nouvelle/4978",
-          "internet_access": "no",
-          "level": "0",
-          "name": "Naturalia",
-          "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-13:00",
-          "operator": "Groupe Casino",
-          "organic": "only",
-          "payment:cards": "yes",
-          "payment:cash": "yes",
-          "payment:qr_code": "no",
-          "shop": "convenience",
-          "source": "survey",
-          "toilets": "no",
-          "wheelchair": "yes"
         }
       },
       {
@@ -2551,26 +1606,6 @@
       },
       {
         "type": "node",
-        "id": 2247185904,
-        "lat": 48.8899534,
-        "lon": 2.3615002,
-        "tags": {
-          "branch": "Paris Riquet",
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-13:00",
-          "operator": "Groupe Carrefour",
-          "operator:wikidata": "Q3117359",
-          "operator:wikipedia": "fr:Groupe Carrefour",
-          "phone": "+33 1 40 37 31 98",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/city-paris-riquet"
-        }
-      },
-      {
-        "type": "node",
         "id": 2247186025,
         "lat": 48.8908758,
         "lon": 2.3611663,
@@ -2582,23 +1617,6 @@
           "shop": "bakery",
           "source": "survey",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2254950104,
-        "lat": 48.8905323,
-        "lon": 2.3596305,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2024-04-01",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:30-21:00; Su 10:00-20:00",
-          "operator": "Groupe Casino",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/4323"
         }
       },
       {
@@ -2640,16 +1658,6 @@
           "shop": "books",
           "source": "survey 11/2017",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2274029189,
-        "lat": 48.8901273,
-        "lon": 2.3615642,
-        "tags": {
-          "name": "Boulangerie OSO",
-          "shop": "bakery"
         }
       },
       {
@@ -2781,22 +1789,6 @@
       },
       {
         "type": "node",
-        "id": 2349338102,
-        "lat": 48.8864482,
-        "lon": 2.3599362,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:30-21:30; Su 09:00-13:00",
-          "operator": "Groupe Casino",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/4139"
-        }
-      },
-      {
-        "type": "node",
         "id": 2349357721,
         "lat": 48.8891783,
         "lon": 2.3600864,
@@ -2917,24 +1909,6 @@
           "smoking": "outside",
           "toilets": "yes",
           "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2384235584,
-        "lat": 48.8673506,
-        "lon": 2.3480275,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2025-12-30",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:30-22:00; Su 09:00-13:00",
-          "operator": "Groupe Casino",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/paris/102-104-rue-reaumur/magasin/",
-          "wheelchair": "no"
         }
       },
       {
@@ -3188,32 +2162,6 @@
       },
       {
         "type": "node",
-        "id": 2729637417,
-        "lat": 48.8851647,
-        "lon": 2.3598483,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "check_date": "2023-07-16",
-          "contact:city": "Paris",
-          "contact:housenumber": "4",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Marx Dormoy",
-          "level": "0",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-23:00; Su 09:00-13:00",
-          "operator": "Groupe Carrefour",
-          "operator:wikidata": "Q3117359",
-          "operator:wikipedia": "fr:Groupe Carrefour",
-          "phone": "+33 1 40 37 25 33",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/city-paris-marx-dormoy",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 2750250782,
         "lat": 48.8662189,
         "lon": 2.3411008,
@@ -3299,28 +2247,6 @@
       },
       {
         "type": "node",
-        "id": 2990208554,
-        "lat": 48.8784016,
-        "lon": 2.3448577,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "33",
-          "addr:street": "Rue de Maubeuge",
-          "brand": "Carrefour Market",
-          "brand:wikidata": "Q2689639",
-          "brand:wikipedia": "fr:Carrefour Market",
-          "name": "Carrefour Market",
-          "opening_hours": "Mo-Sa 08:30-22:00; Su 09:00-19:30",
-          "operator": "Carrefour",
-          "phone": "+33 1 48 74 41 28",
-          "ref:FR:SIRET": "44028375208211",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/market-paris-maubeuge",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 3089664460,
         "lat": 48.870864,
         "lon": 2.3661878,
@@ -3341,32 +2267,6 @@
           "ref:FR:SIRET": "52402969100028",
           "shop": "convenience",
           "website": "https://www.magasins-u.com/magasin/uexpress-parisjemmapes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3103772197,
-        "lat": 48.8892046,
-        "lon": 2.3493709,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "53",
-          "addr:postcode": "75018",
-          "addr:street": "Boulevard Barbès",
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "contact:city": "Paris",
-          "contact:housenumber": "53",
-          "contact:postcode": "75018",
-          "contact:street": "Boulevard Barbès",
-          "contact:website": "https://www.franprix.fr/magasins/6398",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:00-21:00",
-          "phone": "+33 1 71 19 90 95",
-          "shop": "convenience",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014",
-          "wheelchair": "yes"
         }
       },
       {
@@ -3483,23 +2383,6 @@
           "opening_hours": "Tu-Fr 10:30-14:30, 15:30-20:00; Sa 10:00-20:00; Su 10:00-13:00",
           "phone": "+33181703239",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3286368361,
-        "lat": 48.8805691,
-        "lon": 2.3528398,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "contact:city": "Paris",
-          "contact:housenumber": "24",
-          "contact:postcode": "75010",
-          "contact:street": "Rue de Dunkerque",
-          "name": "Carrefour City",
-          "shop": "convenience",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
         }
       },
       {
@@ -3659,66 +2542,6 @@
       },
       {
         "type": "node",
-        "id": 3431738092,
-        "lat": 48.8738732,
-        "lon": 2.350645,
-        "tags": {
-          "check_date": "2025-09-04",
-          "contact:city": "Paris",
-          "contact:housenumber": "46",
-          "contact:postcode": "75010",
-          "contact:street": "Rue d'Hauteville",
-          "indoor_seating": "no",
-          "name": "Boulangerie Mariel",
-          "operator": "Mariel Rachelle Grégoire",
-          "outdoor_seating": "no",
-          "phone": "+33 1 47 70 53 34",
-          "ref:FR:SIRET": "82391939400010",
-          "shop": "bakery",
-          "source": "survey",
-          "takeaway": "only"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3438053659,
-        "lat": 48.8759009,
-        "lon": 2.3451202,
-        "tags": {
-          "brand": "Intermarché Express",
-          "brand:wikidata": "Q98278043",
-          "diet:halal": "yes",
-          "name": "Intermarché Express",
-          "opening_hours": "Mo-Sa 08:30-21:30; Su 09:00-21:30",
-          "operator": "Groupement des Mousquetaires",
-          "phone": "+33 1 48 24 93 86",
-          "shop": "convenience",
-          "source": "survey:2015-03-28",
-          "website": "https://www.supermarchesg20.com/nos-magasins/baltaian-cie"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3450271993,
-        "lat": 48.8681898,
-        "lon": 2.3549614,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "343",
-          "addr:postcode": "75003",
-          "addr:street": "Rue Saint-Martin",
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2026-02-04",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 07:30-22:00; Su 08:30-20:00",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/4145"
-        }
-      },
-      {
-        "type": "node",
         "id": 3461586504,
         "lat": 48.8664865,
         "lon": 2.3472959,
@@ -3786,33 +2609,6 @@
           "shop": "bakery",
           "takeaway": "only",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3501719703,
-        "lat": 48.8754265,
-        "lon": 2.3508345,
-        "tags": {
-          "addr:housenumber": "63",
-          "addr:street": "Rue d'Hauteville",
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "check_date": "2026-05-20",
-          "contact:city": "Paris",
-          "contact:housenumber": "63",
-          "contact:postcode": "75010",
-          "contact:street": "Rue d'Hauteville",
-          "level": "0",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-22:00,Su 09:00-13:00",
-          "organic": "yes",
-          "ref:FR:SIRET": "92239334300012",
-          "shop": "convenience",
-          "source": "local_knowledge",
-          "toilets": "no",
-          "website": "https://www.carrefour.fr/magasin/city-paris-hauteville-63",
-          "wheelchair": "no"
         }
       },
       {
@@ -3900,29 +2696,6 @@
       },
       {
         "type": "node",
-        "id": 3531449479,
-        "lat": 48.8794357,
-        "lon": 2.3628422,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2025-04-10",
-          "contact:city": "Paris",
-          "contact:housenumber": "189",
-          "contact:phone": "+33 1 40 34 12 11",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "contact:website": "https://www.franprix.fr/magasins/4324",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-12:00",
-          "ref:FR:SIRET": "47796344100019",
-          "shop": "convenience",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 3562130098,
         "lat": 48.8765775,
         "lon": 2.3483671,
@@ -3953,44 +2726,6 @@
       },
       {
         "type": "node",
-        "id": 3564245495,
-        "lat": 48.873393,
-        "lon": 2.343509,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "5",
-          "addr:postcode": "75009",
-          "addr:street": "Rue Geoffroy Marie",
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 07:30-22:00",
-          "shop": "convenience",
-          "source": "survey",
-          "website": "https://www.franprix.fr/magasins/6323",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3616984277,
-        "lat": 48.8684129,
-        "lon": 2.3550844,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "351",
-          "addr:postcode": "75003",
-          "addr:street": "Rue Saint-Martin",
-          "check_date": "2026-05-13",
-          "name": "La Boulangerie des Artistes",
-          "opening_hours": "Mo-Sa 08:00-20:00",
-          "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 3621462896,
         "lat": 48.8772619,
         "lon": 2.3697708,
@@ -4004,31 +2739,6 @@
           "ref:FR:SIRET": "85137736600014",
           "shop": "convenience",
           "source": "survey"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3621462897,
-        "lat": 48.8764843,
-        "lon": 2.3690081,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "check_date": "2025-10-11",
-          "contact:city": "Paris",
-          "contact:housenumber": "24",
-          "contact:phone": "+33 1 42 01 39 80",
-          "contact:postcode": "75010",
-          "contact:street": "Rue de la Grange aux Belles",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-13:00",
-          "operator": "Groupe Carrefour",
-          "operator:wikidata": "Q3117359",
-          "operator:wikipedia": "fr:Groupe Carrefour",
-          "ref:FR:SIRET": "81000098400031",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/city-paris-grange-aux-belles-24"
         }
       },
       {
@@ -4265,31 +2975,6 @@
       },
       {
         "type": "node",
-        "id": 3660910261,
-        "lat": 48.8912392,
-        "lon": 2.3518906,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:country": "FR",
-          "addr:housenumber": "26 quater",
-          "addr:postcode": "75018",
-          "addr:street": "Rue Ordener",
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 07:30-22:00; Su 08:30-22:00",
-          "operator": "Groupe Casino",
-          "phone": "+33 9 70 17 14 14",
-          "shop": "convenience",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015",
-          "website": "https://www.franprix.fr/magasins/5005",
-          "wheelchair": "yes",
-          "wheelchair:description": "Portes automatiques à l'entrée"
-        }
-      },
-      {
-        "type": "node",
         "id": 3690974443,
         "lat": 48.8826437,
         "lon": 2.3605978,
@@ -4355,55 +3040,6 @@
       },
       {
         "type": "node",
-        "id": 3701327926,
-        "lat": 48.8746739,
-        "lon": 2.3535193,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "check_date": "2026-06-30",
-          "contact:city": "Paris",
-          "contact:housenumber": "18",
-          "contact:phone": "+33 1 44 79 01 78",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Martel",
-          "level": "0",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-02:00, Su 09:00-02:00",
-          "operator": "Groupe Carrefour",
-          "operator:wikidata": "Q3117359",
-          "operator:wikipedia": "fr:Groupe Carrefour",
-          "shop": "convenience",
-          "toilets": "no",
-          "website": "https://www.carrefour.fr/magasin/city-paris-martel-paradis",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3701328225,
-        "lat": 48.8707972,
-        "lon": 2.3530477,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2026-07-21",
-          "contact:city": "Paris",
-          "contact:housenumber": "27",
-          "contact:phone": "+33 1 47 70 19 50",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Denis",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:30-22:00, Su 09:00-13:00",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/5242",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 3701328326,
         "lat": 48.8740833,
         "lon": 2.3480437,
@@ -4444,21 +3080,6 @@
           "ref:FR:SIRET": "98795274400025",
           "shop": "convenience",
           "source": "survey"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3708580901,
-        "lat": 48.8835784,
-        "lon": 2.3421109,
-        "tags": {
-          "brand": "Carrefour Express",
-          "brand:wikidata": "Q2940190",
-          "name": "Carrefour Express",
-          "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-13:00",
-          "phone": "+33 1 46 06 02 16",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/express-paris-orsel"
         }
       },
       {
@@ -4709,31 +3330,6 @@
       },
       {
         "type": "node",
-        "id": 4016900395,
-        "lat": 48.8761955,
-        "lon": 2.357113,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "13",
-          "addr:postcode": "75010",
-          "addr:street": "Rue du 8 Mai 1945",
-          "branch": "Rue du 8 Mai 1945",
-          "brand": "Monop'",
-          "brand:wikidata": "Q89913683",
-          "brand:wikipedia": "fr:Monoprix (France)",
-          "check_date": "2024-08-25",
-          "name": "Monop'",
-          "opening_hours": "Mo-Sa 07:30-23:50, Su 08:00-21:00",
-          "operator": "Groupe Casino",
-          "phone": "+33 1 40 38 82 80",
-          "shop": "convenience",
-          "toilets": "yes",
-          "website": "https://www.monoprix.fr/monop-rue-du-08-mai-1945-paris-75010-s/",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 4038906192,
         "lat": 48.879595,
         "lon": 2.3460528,
@@ -4752,32 +3348,6 @@
           "name": "Mille et une Saveur",
           "ref:FR:SIRET": "80442095800014",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4056750489,
-        "lat": 48.8752993,
-        "lon": 2.3516071,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2025-08-22",
-          "check_date:opening_hours": "2023-09-18",
-          "contact:city": "Paris",
-          "contact:housenumber": "32",
-          "contact:postcode": "75010",
-          "contact:street": "Rue de Paradis",
-          "level": "0",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 07:30-22:00",
-          "operator": "Groupe Casino",
-          "organic": "yes",
-          "ref:FR:SIRET": "90096212700024",
-          "shop": "convenience",
-          "toilets": "no",
-          "wheelchair": "yes"
         }
       },
       {
@@ -4824,39 +3394,6 @@
           "name": "Easy Goo",
           "ref:FR:SIRET": "85210437100020",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4448519359,
-        "lat": 48.8738936,
-        "lon": 2.3480813,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2026-06-12",
-          "contact:city": "Paris",
-          "contact:housenumber": "42",
-          "contact:phone": "+33 1 42 47 20 35",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Poissonnière",
-          "contact:website": "https://www.franprix.fr/magasins/5739",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 07:30-22:00; Su 08:30-20:00",
-          "operator": "Groupe Casino",
-          "ref:FR:SIRET": "53153861900028",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4508016689,
-        "lat": 48.8804627,
-        "lon": 2.3406679,
-        "tags": {
-          "name": "La Boulangerie Verte",
-          "shop": "bakery"
         }
       },
       {
@@ -4919,45 +3456,6 @@
       },
       {
         "type": "node",
-        "id": 4639074993,
-        "lat": 48.8800763,
-        "lon": 2.3438157,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "43",
-          "addr:postcode": "75009",
-          "addr:street": "Rue Condorcet",
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "name": "Franprix",
-          "name:fr": "Franprix",
-          "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
-          "phone": "+33 1 42 81 23 40",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/6321"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4639084689,
-        "lat": 48.8806231,
-        "lon": 2.3461742,
-        "tags": {
-          "brand": "Carrefour Market",
-          "brand:wikidata": "Q2689639",
-          "brand:wikipedia": "fr:Carrefour Market",
-          "name": "Carrefour Market",
-          "name:fr": "Carrefour Market",
-          "opening_hours": "Mo-Sa 08:30-22:00",
-          "ref:FR:SIRET": "44028375208294",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/market-paris-turgot",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 4671414944,
         "lat": 48.8869417,
         "lon": 2.3527266,
@@ -4989,22 +3487,6 @@
         "tags": {
           "name": "Tibet Shop",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4718424100,
-        "lat": 48.8955636,
-        "lon": 2.3621951,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2024-02-12",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:30-22:00; Su 09:00-22:00",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/5734"
         }
       },
       {
@@ -5094,34 +3576,6 @@
           "shop": "bakery",
           "takeaway": "only",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4825695211,
-        "lat": 48.8789789,
-        "lon": 2.3563569,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "check_date": "2026-01-30",
-          "check_date:opening_hours": "2023-10-30",
-          "contact:city": "Paris",
-          "contact:housenumber": "152",
-          "contact:phone": "+33 1 46 07 38 42",
-          "contact:postcode": "75010",
-          "contact:street": "Rue La Fayette",
-          "contact:website": "https://www.carrefour.fr/magasin/city-paris-lafayette",
-          "level": "0",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-13:00",
-          "operator": "Groupe Carrefour",
-          "operator:wikidata": "Q3117359",
-          "operator:wikipedia": "fr:Groupe Carrefour",
-          "ref:FR:SIRET": "78985853700010",
-          "shop": "convenience",
-          "source": "survey 01/2022"
         }
       },
       {
@@ -5339,21 +3793,6 @@
         "tags": {
           "name": "Les Arpenteurs",
           "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4886248007,
-        "lat": 48.8898436,
-        "lon": 2.3413051,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/3989"
         }
       },
       {
@@ -5770,17 +4209,6 @@
       },
       {
         "type": "node",
-        "id": 5513864043,
-        "lat": 48.8839297,
-        "lon": 2.3471945,
-        "tags": {
-          "name": "Boulangerie de Clignancourt",
-          "opening_hours": "Mo-Sa 06:00-21:00",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 5514870089,
         "lat": 48.869248,
         "lon": 2.3601629,
@@ -5794,32 +4222,6 @@
           "opening_hours": "Mo-Sa 10:00-23:00",
           "ref:FR:SIRET": "87880726200018",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5559619019,
-        "lat": 48.874621,
-        "lon": 2.3701162,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2025-03-06",
-          "contact:city": "Paris",
-          "contact:housenumber": "7",
-          "contact:postcode": "75010",
-          "contact:street": "Avenue Claude Vellefaux",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 07:30-22:00; Su 09:00-22:00",
-          "payment:cash": "yes",
-          "payment:mastercard": "yes",
-          "payment:visa": "yes",
-          "phone": "+33 9 70 17 14 14",
-          "ref:FR:SIRET": "32066050900029",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/4107",
-          "wheelchair": "yes"
         }
       },
       {
@@ -5934,29 +4336,6 @@
           "ref:FR:SIRET": "48522413300028",
           "ref:vatin": "FR07485224133",
           "shop": "books",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5842449644,
-        "lat": 48.8675693,
-        "lon": 2.3530019,
-        "tags": {
-          "addr:floor": "0",
-          "addr:housenumber": "121",
-          "addr:street": "Boulevard de Sébastopol",
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "check_date": "2025-12-09",
-          "level": "0",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:00-21:30; Su 09:00-21:30",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "payment:visa": "yes",
-          "shop": "convenience",
           "wheelchair": "yes"
         }
       },
@@ -6302,20 +4681,6 @@
       },
       {
         "type": "node",
-        "id": 6004897945,
-        "lat": 48.8888244,
-        "lon": 2.3564375,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "24",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Boulangerie - Pâtisserie",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 6007337347,
         "lat": 48.8874189,
         "lon": 2.3535664,
@@ -6386,21 +4751,6 @@
           "name": "So'Foods",
           "ref:FR:SIRET": "79986212300020",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6010103750,
-        "lat": 48.886571,
-        "lon": 2.3563698,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "23",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Stephenson",
-          "name": "Artisan Boulanger Pâtissier",
-          "ref:FR:SIRET": "90011050300019",
-          "shop": "bakery"
         }
       },
       {
@@ -6493,20 +4843,6 @@
           "name": "Le Petit Marché",
           "ref:FR:SIRET": "93923445600019",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6010571960,
-        "lat": 48.8867773,
-        "lon": 2.3506541,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "15",
-          "contact:postcode": "75018",
-          "contact:street": "Rue des Poissonniers",
-          "name": "Confiserie Artisan Boulanger",
-          "shop": "bakery"
         }
       },
       {
@@ -7112,22 +5448,6 @@
       },
       {
         "type": "node",
-        "id": 6414063222,
-        "lat": 48.8840393,
-        "lon": 2.3446277,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
-          "ref:FR:SIRET": "82391116900022",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/6373"
-        }
-      },
-      {
-        "type": "node",
         "id": 6416604793,
         "lat": 48.885104,
         "lon": 2.3504174,
@@ -7188,25 +5508,6 @@
       },
       {
         "type": "node",
-        "id": 6482655663,
-        "lat": 48.893585,
-        "lon": 2.3457741,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "50",
-          "addr:postcode": "75018",
-          "addr:street": "Rue Hermel",
-          "contact:instagram": "la_boulangerie_du_square",
-          "name": "Boulangerie Pâtisserie du Square",
-          "opening_hours": "Tu-Sa 07:30-20:00",
-          "phone": "+33 1 55 79 09 30",
-          "ref:FR:SIRET": "83413336500017",
-          "shop": "bakery",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 6498942882,
         "lat": 48.8863636,
         "lon": 2.3453454,
@@ -7244,28 +5545,6 @@
           "ref:FR:SIRET": "93069626500014",
           "shop": "bakery",
           "website": "https://www.land-and-monkeys.com"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6707946127,
-        "lat": 48.8886844,
-        "lon": 2.3465008,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "check_date": "2025-03-29",
-          "contact:city": "Paris",
-          "contact:housenumber": "29-31",
-          "contact:phone": "+33 1 56 55 52 61",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Ramey",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-22:00",
-          "ref:FR:SIRET": "78968066700027",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/city-paris-ramey"
         }
       },
       {
@@ -7348,55 +5627,6 @@
       },
       {
         "type": "node",
-        "id": 7089145288,
-        "lat": 48.8753888,
-        "lon": 2.3482944,
-        "tags": {
-          "check_date": "2026-06-12",
-          "contact:city": "Paris",
-          "contact:housenumber": "60",
-          "contact:phone": "+33 1 53 62 00 58",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Poissonnière",
-          "contact:website": "https://www.boulangerie-michalak.com/",
-          "name": "La Boulangerie Michalak",
-          "name:fr": "La Boulangerie Michalak",
-          "opening_hours": "Tu-Fr 08:30-19:30; Sa 08:30-19:00; Mo 09:30-19:00",
-          "ref:FR:NAF": "1071C",
-          "ref:FR:SIRET": "89915945300013",
-          "ref:vatin": "FR36899159453",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7217022973,
-        "lat": 48.8718842,
-        "lon": 2.3663941,
-        "tags": {
-          "check_date": "2022-07-22",
-          "contact:city": "Paris",
-          "contact:email": "contact@sain-boulangerie.com",
-          "contact:facebook": "https://www.facebook.com/734342236595455",
-          "contact:housenumber": "15",
-          "contact:instagram": "https://www.instagram.com/sain_boulangerie",
-          "contact:phone": "+33 7 61 23 49 44",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Marie et Louise",
-          "contact:website": "https://www.sain-boulangerie.com/",
-          "name": "Sain Boulangerie",
-          "opening_hours": "Tu-Fr 07:30-19:30; Su 08:00-13:00, Su closed",
-          "organic": "only",
-          "outdoor_seating": "yes",
-          "ref:FR:SIRET": "79435234400012",
-          "shop": "bakery",
-          "takeaway": "only",
-          "toilets": "no",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 7356623336,
         "lat": 48.866928,
         "lon": 2.3629569,
@@ -7417,27 +5647,6 @@
           "website": "https://www.maisonlandemaine.com/",
           "wheelchair": "no",
           "wikidata": "Q22921389"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7407641032,
-        "lat": 48.868614,
-        "lon": 2.3679849,
-        "tags": {
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "brand:wikipedia": "fr:Franprix",
-          "check_date": "2026-05-28",
-          "internet_access": "no",
-          "name": "Franprix",
-          "opening_hours": "Mo-Sa 07:30-22:00; Su 09:00-13:00",
-          "operator": "Groupe Casino",
-          "payment:mastercard": "yes",
-          "payment:visa": "yes",
-          "ref:FR:SIRET": "53483951900020",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/6739"
         }
       },
       {
@@ -7481,22 +5690,6 @@
           "opening_hours:signed": "no",
           "ref:FR:SIRET": "98850181300014",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7445130170,
-        "lat": 48.8761953,
-        "lon": 2.3687915,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "1",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Vicq d'Azir",
-          "name": "Boulangerie Vico",
-          "ref:FR:SIRET": "91286002000011",
-          "shop": "bakery",
-          "wheelchair": "no"
         }
       },
       {
@@ -7597,25 +5790,6 @@
       },
       {
         "type": "node",
-        "id": 7948525471,
-        "lat": 48.8928566,
-        "lon": 2.3631798,
-        "tags": {
-          "indoor_seating": "no",
-          "name": "Artisan Boulanger",
-          "opening_hours": "Mo-Th 07:00-20:00; Sa,Su 07:00-19:30",
-          "outdoor_seating": "no",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "ref:FR:SIRET": "84995799800016",
-          "shop": "bakery",
-          "source": "Observations personnelles",
-          "takeaway": "only",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 7972587890,
         "lat": 48.8725284,
         "lon": 2.3597312,
@@ -7652,31 +5826,6 @@
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "shop": "kiosk",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7995599814,
-        "lat": 48.8689377,
-        "lon": 2.3433785,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "brand:wikipedia": "fr:Carrefour City",
-          "check_date": "2025-10-17",
-          "level": "0",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-21:00; Su 09:00-22:00",
-          "organic": "yes",
-          "payment:american_express": "yes",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "payment:visa": "yes",
-          "ref:FR:SIRET": "80859774400040",
-          "shop": "convenience",
-          "toilets": "no",
           "wheelchair": "yes"
         }
       },
@@ -7784,23 +5933,6 @@
       },
       {
         "type": "node",
-        "id": 8121418998,
-        "lat": 48.8928787,
-        "lon": 2.3483229,
-        "tags": {
-          "branch": "Paris Ornano",
-          "brand": "Carrefour Market",
-          "brand:wikidata": "Q2689639",
-          "name": "Carrefour Market",
-          "opening_hours": "Mo-Sa 08:30-21:30; Su 09:00-19:00",
-          "phone": "+33 1 49 25 81 10",
-          "ref:FR:SIRET": "91921772900012",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/market-paris-ornano"
-        }
-      },
-      {
-        "type": "node",
         "id": 8198763217,
         "lat": 48.8675553,
         "lon": 2.3570853,
@@ -7833,27 +5965,6 @@
           "level": "0",
           "shop": "kiosk",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 8281431507,
-        "lat": 48.8909585,
-        "lon": 2.3493634,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "71 bis",
-          "addr:postcode": "75018",
-          "addr:street": "Boulevard Barbès",
-          "brand": "E. Leclerc Relais",
-          "brand:wikidata": "Q1273376",
-          "brand:wikipedia": "fr:E.Leclerc",
-          "name": "E. Leclerc Relais",
-          "opening_hours": "Mo-Sa 10:00-19:00",
-          "phone": "+33 1 42 51 02 34",
-          "shop": "convenience",
-          "website": "https://www.chezmoi.leclerc",
-          "wheelchair": "limited"
         }
       },
       {
@@ -8259,20 +6370,6 @@
       },
       {
         "type": "node",
-        "id": 9455171470,
-        "lat": 48.8755141,
-        "lon": 2.3417532,
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Sa 07:00-22:00; Su 10:00-22:00",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/city-paris-buffault"
-        }
-      },
-      {
-        "type": "node",
         "id": 9536755817,
         "lat": 48.8917253,
         "lon": 2.3499909,
@@ -8289,25 +6386,6 @@
         "tags": {
           "name": "Natural",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9558740917,
-        "lat": 48.8804379,
-        "lon": 2.3408823,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "74",
-          "addr:postcode": "75009",
-          "addr:street": "Rue Condorcet",
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "name": "Franprix",
-          "opening_hours": "Mo-Su 10:00-22:00",
-          "ref:FR:SIRET": "80491764900043",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/4159"
         }
       },
       {
@@ -8350,22 +6428,6 @@
           "name": "Saisonniers",
           "ref:FR:SIRET": "94806147800020",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9571461321,
-        "lat": 48.8711096,
-        "lon": 2.3566239,
-        "tags": {
-          "check_date": "2025-10-17",
-          "contact:city": "Paris",
-          "contact:housenumber": "47",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "name": "Artisan Boulanger",
-          "ref:FR:SIRET": "52960949700019",
-          "shop": "bakery"
         }
       },
       {
@@ -8426,16 +6488,6 @@
           "opening_hours": "Tu-Sa 10:00-20:00; Su 10:00-13:00",
           "organic": "yes",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9884599917,
-        "lat": 48.8838897,
-        "lon": 2.3471745,
-        "tags": {
-          "name": "Boulangerie Clignancourt",
-          "shop": "bakery"
         }
       },
       {
@@ -8915,24 +6967,6 @@
       },
       {
         "type": "node",
-        "id": 11240494238,
-        "lat": 48.8666733,
-        "lon": 2.3420384,
-        "tags": {
-          "addr:housenumber": "9",
-          "addr:street": "Rue du Mail",
-          "brand": "Franprix",
-          "brand:wikidata": "Q2420096",
-          "check_date": "2026-04-12",
-          "name": "Franprix",
-          "opening_hours": "Mo 07:00-23:55; Tu 07:00-24:00; We 07:00-22:00; Th-Sa 07:00-24:00; Su 08:00-24:00",
-          "ref:FR:SIRET": "89499604000024",
-          "shop": "convenience",
-          "website": "https://www.franprix.fr/magasins/4613"
-        }
-      },
-      {
-        "type": "node",
         "id": 11279744937,
         "lat": 48.883703,
         "lon": 2.368115,
@@ -9205,22 +7239,6 @@
       },
       {
         "type": "node",
-        "id": 11991420068,
-        "lat": 48.8918727,
-        "lon": 2.3486096,
-        "tags": {
-          "addr:housenumber": "50",
-          "addr:street": "Rue Ordener",
-          "indoor_seating": "no",
-          "name": "Artisan Boulanger",
-          "opening_hours": "Tu-Su 06:00-21:00",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "takeaway": "only"
-        }
-      },
-      {
-        "type": "node",
         "id": 12022933963,
         "lat": 48.879971,
         "lon": 2.3456103,
@@ -9359,27 +7377,6 @@
       },
       {
         "type": "node",
-        "id": 12458627205,
-        "lat": 48.8905444,
-        "lon": 2.3516192,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "68",
-          "addr:postcode": "75018",
-          "addr:street": "Rue des Poissonniers",
-          "brand": "Carrefour Express",
-          "brand:wikidata": "Q2940190",
-          "check_date": "2026-06-10",
-          "check_date:opening_hours": "2026-06-10",
-          "name": "Carrefour Express",
-          "opening_hours": "Mo-Sa 08:00-20:45",
-          "ref:FR:SIRET": "53904584900061",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/express-paris-poissonniers-68"
-        }
-      },
-      {
-        "type": "node",
         "id": 12458631757,
         "lat": 48.8904946,
         "lon": 2.3506952,
@@ -9465,44 +7462,6 @@
       },
       {
         "type": "node",
-        "id": 12833261907,
-        "lat": 48.8746522,
-        "lon": 2.3428699,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "12",
-          "addr:postcode": "75009",
-          "addr:street": "Rue Cadet",
-          "contact:instagram": "victoire.boulangerie",
-          "name": "Boulangerie Victoire",
-          "opening_hours": "Mo-Fr 07:30-20:00, Sa 08:30-19:00",
-          "organic": "yes",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12836846408,
-        "lat": 48.8679056,
-        "lon": 2.3489745,
-        "tags": {
-          "addr:floor": "0",
-          "addr:housenumber": "47",
-          "addr:street": "Rue du Caire",
-          "check_date": "2026-06-19",
-          "level": "0",
-          "name": "La Boulangerie du Sentier",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "payment:visa": "yes",
-          "ref:FR:SIRET": "89776212600026",
-          "shop": "bakery",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 12839755115,
         "lat": 48.8675708,
         "lon": 2.3509209,
@@ -9563,20 +7522,6 @@
           "phone": "+33 7 67 63 33 36",
           "shop": "books",
           "website": "https://www.mottodistribution.com"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12901923665,
-        "lat": 48.8682802,
-        "lon": 2.3534275,
-        "tags": {
-          "addr:housenumber": "133",
-          "addr:street": "Boulevard de Sébastopol",
-          "check_date": "2025-06-10",
-          "name": "E.Leclerc Relais",
-          "opening_hours": "Mo-Sa 09:00-21:00; Su off",
-          "shop": "convenience"
         }
       },
       {
@@ -9824,23 +7769,6 @@
       },
       {
         "type": "node",
-        "id": 13408687801,
-        "lat": 48.8815672,
-        "lon": 2.3661419,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "206",
-          "contact:instagram": "baseboulangerie",
-          "contact:postcode": "75010",
-          "contact:street": "Rue La Fayette",
-          "name": "BASE boulangerie La Fayette",
-          "opening_hours": "Mo, We-Fr 07:00-20:30; Tu, Sa 07:00-20:00; Su 07:30-20:00",
-          "ref:FR:SIRET": "94417824300019",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 13437661948,
         "lat": 48.8699821,
         "lon": 2.3523591,
@@ -9971,20 +7899,6 @@
           "check_date": "2026-05-22",
           "name": "Mina Market",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13871199301,
-        "lat": 48.8940186,
-        "lon": 2.3474224,
-        "tags": {
-          "addr:housenumber": "29",
-          "addr:postcode": "75018",
-          "addr:street": "Boulevard Ornano",
-          "name": "Boulangerie Nora",
-          "shop": "bakery",
-          "website": "http://boulangerie-nora.eatbu.com"
         }
       },
       {
@@ -10170,33 +8084,6 @@
       },
       {
         "type": "way",
-        "id": 69220168,
-        "center": {
-          "lat": 48.8728273,
-          "lon": 2.3433945
-        },
-        "tags": {
-          "addr:housenumber": "16",
-          "addr:postcode": "75009",
-          "addr:street": "Rue du Faubourg Montmartre",
-          "brand": "Monop'",
-          "brand:wikidata": "Q89913683",
-          "building": "retail",
-          "building:levels": "5",
-          "check_date": "2026-05-22",
-          "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:00-23:50; Su 08:00-13:00",
-          "operator": "Groupe Casino",
-          "phone": "+33 1 44 79 35 10",
-          "shop": "convenience",
-          "source": "Cadastre. Mise à jour : 2010;survey",
-          "supermarket": "yes",
-          "supermarket:FR": "supermarché",
-          "website": "https://www.monoprix.fr/monop-faubourg-montmartre-paris-09-75009-s"
-        }
-      },
-      {
-        "type": "way",
         "id": 69418186,
         "center": {
           "lat": 48.8828096,
@@ -10253,43 +8140,6 @@
       },
       {
         "type": "way",
-        "id": 280670927,
-        "center": {
-          "lat": 48.8772468,
-          "lon": 2.3592216
-        },
-        "tags": {
-          "check_date": "2026-06-27",
-          "indoor": "room",
-          "indoor_seating": "no",
-          "level": "0",
-          "name": "Le pain quotidien",
-          "opening_hours": "Mo-Th 06:00-21:00; Fr 06:00-21:30; Sa 06:00-21:00; Su 08:00-21:30",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "takeaway": "only",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "way",
-        "id": 401291611,
-        "center": {
-          "lat": 48.8767262,
-          "lon": 2.3586136
-        },
-        "tags": {
-          "indoor": "room",
-          "level": "0",
-          "name": "Carrefour express",
-          "opening_hours": "Mo-Sa 06:00-21:00; Su 07:00-21:00",
-          "shop": "convenience",
-          "source": "survey;knowledge",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "way",
         "id": 402515940,
         "center": {
           "lat": 48.8768913,
@@ -10300,46 +8150,6 @@
           "level": "0",
           "name": "Dalloyau",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "way",
-        "id": 402687329,
-        "center": {
-          "lat": 48.8768838,
-          "lon": 2.359508
-        },
-        "tags": {
-          "brand": "Paul",
-          "brand:wikidata": "Q3370417",
-          "brand:wikipedia": "en:Paul (bakery)",
-          "indoor": "room",
-          "level": "-1",
-          "name": "Paul",
-          "opening_hours": "Mo-Th,Sa 06:00-21:00, Fr 06:00-21:30, Sa 06:00-21:00",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "way",
-        "id": 402687387,
-        "center": {
-          "lat": 48.8764871,
-          "lon": 2.3594715
-        },
-        "tags": {
-          "brand": "Casino Shop",
-          "brand:wikidata": "Q89029601",
-          "indoor": "room",
-          "level": "-1",
-          "name": "Casino Shop",
-          "opening_hours": "Mo-Th 06:00-21:00, Fr 06:00-21:30, Sa 07:00-21:00, PH,Su 10:00-21:00",
-          "organic": "yes",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "shop": "convenience",
-          "toilets": "no",
-          "wheelchair": "yes"
         }
       },
       {
@@ -10375,29 +8185,6 @@
       },
       {
         "type": "way",
-        "id": 407735593,
-        "center": {
-          "lat": 48.8773026,
-          "lon": 2.3590362
-        },
-        "tags": {
-          "brand": "Paul",
-          "brand:wikidata": "Q3370417",
-          "brand:wikipedia": "en:Paul (bakery)",
-          "check_date": "2026-06-27",
-          "indoor": "room",
-          "indoor_seating": "no",
-          "level": "0",
-          "name": "Paul",
-          "opening_hours": "Mo-Th 06:00-21:00; Fr 06:00-21:30; Sa 06:00-21:00; Su 08:00-21:30",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "takeaway": "only",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "way",
         "id": 703841939,
         "center": {
           "lat": 48.877033,
@@ -10412,33 +8199,6 @@
           "outdoor_seating": "no",
           "shop": "bakery",
           "takeaway": "only",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "way",
-        "id": 703958736,
-        "center": {
-          "lat": 48.8801129,
-          "lon": 2.3557926
-        },
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "12",
-          "addr:postcode": "75010",
-          "addr:street": "Rue de Dunkerque",
-          "brand": "Paul",
-          "brand:wikidata": "Q3370417",
-          "indoor": "room",
-          "indoor_seating": "no",
-          "level": "0",
-          "name": "Paul",
-          "opening_hours": "Mo-Su 06:00-21:00",
-          "outdoor_seating": "no",
-          "room": "shop",
-          "shop": "bakery",
-          "takeaway": "only",
-          "website": "https://www.paul.fr",
           "wheelchair": "yes"
         }
       },
@@ -10484,26 +8244,6 @@
           "shop": "bakery",
           "short_name": "Pret",
           "takeaway": "yes"
-        }
-      },
-      {
-        "type": "way",
-        "id": 736289984,
-        "center": {
-          "lat": 48.8802961,
-          "lon": 2.3548346
-        },
-        "tags": {
-          "brand": "Carrefour City",
-          "brand:wikidata": "Q2940187",
-          "fixme": "Tracé approximatif",
-          "indoor": "room",
-          "level": "-1",
-          "name": "Carrefour City",
-          "opening_hours": "Mo-Su 06:00-21:00",
-          "shop": "convenience",
-          "website": "https://www.carrefour.fr/magasin/city-paris-gare-du-nord",
-          "wheelchair": "yes"
         }
       },
       {
@@ -10560,28 +8300,9 @@
           "name:signed": "no",
           "shop": "kiosk"
         }
-      },
-      {
-        "type": "way",
-        "id": 1343702922,
-        "center": {
-          "lat": 48.8814177,
-          "lon": 2.3544837
-        },
-        "tags": {
-          "brand": "Paul",
-          "brand:wikidata": "Q3370417",
-          "brand:wikipedia": "en:Paul (bakery)",
-          "indoor": "room",
-          "indoor_seating": "yes",
-          "level": "1",
-          "name": "Paul",
-          "outdoor_seating": "no",
-          "shop": "bakery"
-        }
       }
     ]
   },
-  "fetchedAt": "2026-08-04T01:23:46.566Z",
+  "fetchedAt": "2026-08-04T01:37:31.157Z",
   "staleDataWarning": false
 }
