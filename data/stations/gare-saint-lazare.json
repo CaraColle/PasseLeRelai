@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      2.309824,
-      48.866597,
-      2.339624,
-      48.886191
+      2.315198,
+      48.869981,
+      2.333964,
+      48.882661
     ],
     "features": [
       {
@@ -189,16 +189,12 @@
                 48.877073
               ],
               [
-                2.333086,
-                48.877942
+                2.332743,
+                48.878423
               ],
               [
-                2.332692,
-                48.878437
-              ],
-              [
-                2.332439,
-                48.878694
+                2.332487,
+                48.878677
               ],
               [
                 2.330788,
@@ -244,174 +240,12 @@
           ],
           "type": "Polygon"
         }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            2.324307213511334,
-            48.876802669548226
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                2.309934,
-                48.877541
-              ],
-              [
-                2.309827,
-                48.876069
-              ],
-              [
-                2.309824,
-                48.876018
-              ],
-              [
-                2.310787,
-                48.872747
-              ],
-              [
-                2.310821,
-                48.872729
-              ],
-              [
-                2.310821,
-                48.872729
-              ],
-              [
-                2.310854,
-                48.872711
-              ],
-              [
-                2.313841,
-                48.871012
-              ],
-              [
-                2.31576,
-                48.870093
-              ],
-              [
-                2.319985,
-                48.866834
-              ],
-              [
-                2.320419,
-                48.866723
-              ],
-              [
-                2.320801,
-                48.866636
-              ],
-              [
-                2.322095,
-                48.866597
-              ],
-              [
-                2.326747,
-                48.867043
-              ],
-              [
-                2.330266,
-                48.867661
-              ],
-              [
-                2.333094,
-                48.868418
-              ],
-              [
-                2.333524,
-                48.868622
-              ],
-              [
-                2.334899,
-                48.869546
-              ],
-              [
-                2.337476,
-                48.872247
-              ],
-              [
-                2.339599,
-                48.875727
-              ],
-              [
-                2.339624,
-                48.876086
-              ],
-              [
-                2.339383,
-                48.876871
-              ],
-              [
-                2.339287,
-                48.877058
-              ],
-              [
-                2.336637,
-                48.881228
-              ],
-              [
-                2.332426,
-                48.883868
-              ],
-              [
-                2.330195,
-                48.885252
-              ],
-              [
-                2.326686,
-                48.886191
-              ],
-              [
-                2.321104,
-                48.885529
-              ],
-              [
-                2.319767,
-                48.885759
-              ],
-              [
-                2.318266,
-                48.886051
-              ],
-              [
-                2.316793,
-                48.885781
-              ],
-              [
-                2.316784,
-                48.885776
-              ],
-              [
-                2.313159,
-                48.883262
-              ],
-              [
-                2.313108,
-                48.883224
-              ],
-              [
-                2.312167,
-                48.882432
-              ],
-              [
-                2.309934,
-                48.877541
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
       }
     ],
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785812447329,
+      "timestamp": 1785812638231,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -423,8 +257,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -496,199 +329,6 @@
       },
       {
         "type": "node",
-        "id": 672842501,
-        "lat": 48.8793624,
-        "lon": 2.3337517,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:postcode": "75009",
-          "check_date": "2024-07-23",
-          "name": "Mini Market",
-          "shop": "convenience",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
-        }
-      },
-      {
-        "type": "node",
-        "id": 686810242,
-        "lat": 48.8701285,
-        "lon": 2.3349193,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "14",
-          "addr:postcode": "75002",
-          "addr:street": "Rue de la Michodière",
-          "check_date": "2024-09-26",
-          "name": "The Little Miches",
-          "opening_hours": "Mo-Th 07:00-19:30; Fr 07:00-18:30",
-          "operator": "Gaetan Romp",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "phone": "+33 6 65 44 95 05",
-          "shop": "bakery",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 687044641,
-        "lat": 48.8708675,
-        "lon": 2.3343357,
-        "tags": {
-          "check_date": "2025-08-08",
-          "name": "Kiosque de Paris",
-          "shop": "kiosk",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
-        }
-      },
-      {
-        "type": "node",
-        "id": 729117556,
-        "lat": 48.8803918,
-        "lon": 2.3352607,
-        "tags": {
-          "addr:housenumber": "64",
-          "addr:postcode": "75009",
-          "addr:street": "Rue Notre-Dame-de-Lorette",
-          "indoor_seating": "yes",
-          "name": "Cyprien",
-          "opening_hours": "Tu-Su 07:00-20:30",
-          "outdoor_seating": "yes",
-          "phone": "+33 1 44 63 94 20",
-          "shop": "bakery",
-          "source": "survey 2018",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 813769751,
-        "lat": 48.8721203,
-        "lon": 2.3123396,
-        "tags": {
-          "check_date": "2026-04-13",
-          "name": "Au Saint-Honoré",
-          "opening_hours": "Mo-Fr 07:00-20:00",
-          "shop": "bakery",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 814014124,
-        "lat": 48.8737653,
-        "lon": 2.3157665,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "29",
-          "addr:postcode": "75008",
-          "addr:street": "Rue La Boétie",
-          "brand": "Eric Kayser",
-          "brand:wikidata": "Q99231745",
-          "chocolate": "yes",
-          "cuisine": "regional",
-          "diet:vegetarian": "yes",
-          "email": "boetie@maison-kayser.com",
-          "indoor_seating": "yes",
-          "name": "Eric Kayser",
-          "opening_hours": "Mo-Fr 06:30-20:30; Sa 07:00-20:30",
-          "outdoor_seating": "no",
-          "pastry": "yes",
-          "payment:cash": "yes",
-          "payment:coins": "yes",
-          "payment:contactless": "yes",
-          "payment:credit_cards": "yes",
-          "payment:mastercard": "yes",
-          "payment:visa": "yes",
-          "phone": "+33 1 45 22 55 50",
-          "shop": "bakery",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010;survey;visual survey",
-          "website": "https://www.maison-kayser.com/fr/boulangeries/100001019-boetie-miromesnil.html"
-        }
-      },
-      {
-        "type": "node",
-        "id": 840951257,
-        "lat": 48.8722755,
-        "lon": 2.3119496,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "101",
-          "contact:postcode": "75008",
-          "contact:street": "Rue du Faubourg Saint-Honoré",
-          "name": "Dalloyau",
-          "shop": "bakery",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 841786590,
-        "lat": 48.8810541,
-        "lon": 2.3157148,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "11",
-          "contact:postcode": "75008",
-          "contact:street": "Boulevard de Courcelles",
-          "indoor_seating": "yes",
-          "name": "Pâtisserie Pages Blanches",
-          "opening_hours": "We-Su 10:30-19:00",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1234207306,
-        "lat": 48.8824281,
-        "lon": 2.3336567,
-        "tags": {
-          "name": "Vivéco Market",
-          "ref:FR:FINESS": "750017014",
-          "shop": "convenience",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011;Celtipharm - 10/2014",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1272037735,
-        "lat": 48.8829113,
-        "lon": 2.3174747,
-        "tags": {
-          "brand": "Votre Marché",
-          "brand:wikidata": "Q89135338",
-          "name": "Votre Marché",
-          "opening_hours": "Mo 14:30-01:30; Tu-Th 10:30-02:00; Su 10:00-01:00; Fr,Sa 10:30-02:00",
-          "shop": "convenience",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1293541716,
-        "lat": 48.8765786,
-        "lon": 2.3385925,
-        "tags": {
-          "alt_name": "Le Pain au naturel",
-          "check_date": "2025-11-05",
-          "indoor_seating": "yes",
-          "name": "Moisan",
-          "outdoor_seating": "yes",
-          "ref:FR:SIRET": "79926578000020",
-          "shop": "bakery",
-          "source": "survey"
-        }
-      },
-      {
-        "type": "node",
         "id": 1430808020,
         "lat": 48.8754781,
         "lon": 2.316167,
@@ -715,21 +355,6 @@
       },
       {
         "type": "node",
-        "id": 1483017736,
-        "lat": 48.8767816,
-        "lon": 2.3351954,
-        "tags": {
-          "disused": "yes",
-          "name": "Pain Lazare",
-          "opening_hours": "Mo-Th 08:00-18:00; Fr 08:00-16:00",
-          "ref:FR:SIRET": "85215112500014",
-          "shop": "bakery",
-          "source": "survey",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 1512074307,
         "lat": 48.8730999,
         "lon": 2.3298644,
@@ -751,36 +376,6 @@
           "source": "survey",
           "website": "https://www.monoprix.fr/trouver-mon-magasin/monoprix-lafayet-gourm-haus-paris-573.html",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1675144787,
-        "lat": 48.8838523,
-        "lon": 2.3212469,
-        "tags": {
-          "books": "comic",
-          "check_date:opening_hours": "2025-08-28",
-          "contact:city": "Paris 17eme Arrondissement",
-          "contact:housenumber": "54",
-          "contact:phone": "+33 9 53 31 12 92",
-          "contact:postcode": "75017",
-          "contact:street": "Rue des Dames",
-          "contact:website": "http://www.bullesentete.com/",
-          "delivery": "yes",
-          "internet_access": "no",
-          "name": "Bulles en tête",
-          "opening_hours": "Mo-Sa 10:00-20:00",
-          "operator": "Nakache Jean-Pierre",
-          "payment:american_express": "yes",
-          "payment:cash": "yes",
-          "payment:cheque": "yes",
-          "payment:credit_cards": "yes",
-          "payment:mastercard": "yes",
-          "payment:visa": "yes",
-          "ref:FR:SIRET": "52090868200021",
-          "shop": "books",
-          "wheelchair": "no"
         }
       },
       {
@@ -869,52 +464,6 @@
       },
       {
         "type": "node",
-        "id": 1824509089,
-        "lat": 48.874364,
-        "lon": 2.3328049,
-        "tags": {
-          "brand": "Brioche Dorée",
-          "brand:website": "https://www.briochedoree.fr",
-          "brand:wikidata": "Q2925606",
-          "brand:wikipedia": "fr:Brioche dorée",
-          "contact:phone": "+33 1 45 96 35 15",
-          "cuisine": "sandwich",
-          "indoor_seating": "yes",
-          "internet_access": "wlan",
-          "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 07:30-20:00; Su 10:00-19:00",
-          "operator": "Groupe Le Duff",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "source": "survey",
-          "website": "https://www.briochedoree.fr/restaurants/214-paris-56-rue-de-la-chaussee-dantin",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1877525959,
-        "lat": 48.8837994,
-        "lon": 2.3268783,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "7;9;11",
-          "addr:postcode": "75017",
-          "addr:street": "Place de Clichy",
-          "check_date": "2025-03-10",
-          "check_date:opening_hours": "2020-12-22",
-          "name": "Librairie de Paris",
-          "opening_hours": "Mo-Sa 10:00-20:00",
-          "phone": "+33 1 45 22 47 81",
-          "ref:FR:SIRET": "58210524300015",
-          "shop": "books",
-          "source": "local_knowledge",
-          "website": "https://www.librairie-de-paris.fr/",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 1959990894,
         "lat": 48.8822169,
         "lon": 2.3210674,
@@ -945,16 +494,6 @@
           "name": "Supermarket du Rocher",
           "shop": "convenience",
           "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2093603869,
-        "lat": 48.8778292,
-        "lon": 2.3144145,
-        "tags": {
-          "name": "83",
-          "shop": "convenience"
         }
       },
       {
@@ -1049,29 +588,6 @@
       },
       {
         "type": "node",
-        "id": 3174271865,
-        "lat": 48.8755206,
-        "lon": 2.3107673,
-        "tags": {
-          "name": "Librairie - Caisses",
-          "shop": "books",
-          "source": "survey"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3312585461,
-        "lat": 48.878053,
-        "lon": 2.3157385,
-        "tags": {
-          "check_date": "2023-07-25",
-          "name": "Le Kiosque de Paris",
-          "shop": "kiosk",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 3312588761,
         "lat": 48.8766368,
         "lon": 2.3153755,
@@ -1083,122 +599,6 @@
           "opening_hours": "Mo-Sa 08:00-20:00",
           "shop": "convenience",
           "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3323690062,
-        "lat": 48.882677,
-        "lon": 2.3321419,
-        "tags": {
-          "indoor_seating": "no",
-          "name": "Aux Délices du Moulin",
-          "opening_hours": "Tu-Su 07:00-20:00",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "source": "survey",
-          "takeaway": "only",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3401882293,
-        "lat": 48.8816743,
-        "lon": 2.3162137,
-        "tags": {
-          "indoor_seating": "no",
-          "name": "Maison Marques",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3414484827,
-        "lat": 48.8848081,
-        "lon": 2.3270062,
-        "tags": {
-          "check_date": "2026-04-09",
-          "level": "0",
-          "name": "Mini super market",
-          "phone": "+33 1 43 87 66 81",
-          "shop": "convenience",
-          "source": "local_knowledge"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3429929584,
-        "lat": 48.8703842,
-        "lon": 2.3328924,
-        "tags": {
-          "air_conditioning": "yes",
-          "brand": "Brioche Dorée",
-          "brand:website": "https://www.briochedoree.fr",
-          "brand:wikidata": "Q2925606",
-          "brand:wikipedia": "fr:Brioche Dorée",
-          "check_date": "2026-07-10",
-          "indoor_seating": "no",
-          "name": "Brioche Dorée",
-          "opening_hours": "Mo-Fr 07:00-20:30; Sa 07:30-20:30; Su 07:30-20:00",
-          "operator": "Groupe Le Duff",
-          "outdoor_seating": "no",
-          "phone": "+33 1 44 51 99 76",
-          "ref:FR:SIRET": "31890659102344",
-          "shop": "bakery",
-          "takeaway": "only",
-          "website": "https://www.briochedoree.fr/restaurants/44-paris-4-place-de-lopera",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3429930018,
-        "lat": 48.8716137,
-        "lon": 2.3184777,
-        "tags": {
-          "brand": "Proxi",
-          "brand:wikidata": "Q3408522",
-          "check_date": "2026-07-08",
-          "name": "Proxi",
-          "shop": "convenience",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3438437291,
-        "lat": 48.8841682,
-        "lon": 2.3234782,
-        "tags": {
-          "brand": "Coccimarket",
-          "name": "Superette des Dames",
-          "ref:FR:SIRET": "79170604700010",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3461765594,
-        "lat": 48.8687099,
-        "lon": 2.3232611,
-        "tags": {
-          "mapillary": "514703693000349",
-          "shop": "kiosk",
-          "survey:date": "2019-02-17"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3616128367,
-        "lat": 48.882628,
-        "lon": 2.3241332,
-        "tags": {
-          "name": "Les Saveurs de Batignolles",
-          "opening_hours": "Mo,We-Sa 07:00-20:30; Su 07:00-20:00",
-          "shop": "bakery"
         }
       },
       {
@@ -1230,16 +630,6 @@
       },
       {
         "type": "node",
-        "id": 3770622890,
-        "lat": 48.869785,
-        "lon": 2.3308247,
-        "tags": {
-          "name": "La Marché de l'Opéra",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 3772933657,
         "lat": 48.88074,
         "lon": 2.324951,
@@ -1248,21 +638,6 @@
           "name": "O' Délices",
           "opening_hours": "Mo-Fr 06:30-20:00, Sa 07:30-19:00",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3811412260,
-        "lat": 48.8731824,
-        "lon": 2.3340919,
-        "tags": {
-          "branch": "La Fayette",
-          "brand": "Ernest & Valentin",
-          "name": "Ernest & Valentin",
-          "ref:FR:SIRET": "88104863100017",
-          "shop": "bakery",
-          "website": "https://ernestetvalentin.com/boulangeries/",
-          "wheelchair": "no"
         }
       },
       {
@@ -1282,122 +657,12 @@
       },
       {
         "type": "node",
-        "id": 3980828290,
-        "lat": 48.8679291,
-        "lon": 2.3249888,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "400",
-          "contact:postcode": "75001",
-          "contact:street": "Rue Saint-Honoré",
-          "name": "Aux délices de Manon",
-          "ref:FR:SIRET": "39098420100041",
-          "shop": "bakery",
-          "was:amenity": "cafe",
-          "was:contact:fax": "+33 1 49 27 02 51",
-          "was:contact:phone": "+33 1 43 26 08 303",
-          "was:contact:website": "https://auxdelicesdemanon.business.site/",
-          "was:name:fr": "Aux délices de Manon",
-          "was:opening_hours": "Mo-Sa 06:00-22:00; Su 06:00-20:00"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3985131177,
-        "lat": 48.8722493,
-        "lon": 2.3128859,
-        "tags": {
-          "email": "hepicard@aol.com",
-          "name": "Librairie Picard",
-          "shop": "books",
-          "website": "https://www.librairiepicard.paris/",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3991869889,
-        "lat": 48.8713814,
-        "lon": 2.31594,
-        "tags": {
-          "check_date": "2026-04-13",
-          "name": "Lardanchet",
-          "opening_hours": "Tu-Fr 12:00-18:00; Sa 14:00-18:00; PH,Su,Mo off",
-          "shop": "books",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3999929410,
-        "lat": 48.8837213,
-        "lon": 2.3281583,
-        "tags": {
-          "name": "Kiosque de Paris",
-          "shop": "kiosk",
-          "source": "survey:2016-02-10"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4025396593,
-        "lat": 48.8847898,
-        "lon": 2.3209381,
-        "tags": {
-          "name": "Aux Pains d'Émile",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 4198820784,
         "lat": 48.8723008,
         "lon": 2.325378,
         "tags": {
           "name": "La Castellane",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4291571638,
-        "lat": 48.8687751,
-        "lon": 2.3336516,
-        "tags": {
-          "addr:housenumber": "43",
-          "addr:postcode": "75002",
-          "addr:street": "Rue Saint-Augustin",
-          "check_date": "2025-05-21",
-          "contact:city": "Paris",
-          "contact:housenumber": "43",
-          "contact:phone": "+33 1 40 07 93 57",
-          "contact:postcode": "75002",
-          "contact:street": "Rue Saint-Augustin",
-          "description": "Supérette coréenne vendant des également des produits japonais",
-          "name": "ACE Mart Opera",
-          "opening_hours": "Mo-Sa 10:30-20:00; Su 12:00-20:00",
-          "outdoor_seating": "no",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4369183796,
-        "lat": 48.8695162,
-        "lon": 2.3268024,
-        "tags": {
-          "brand": "Monop'",
-          "brand:wikidata": "Q89913683",
-          "brand:wikipedia": "fr:Monoprix (France)",
-          "contact:city": "Paris",
-          "contact:housenumber": "9",
-          "contact:postcode": "75001",
-          "contact:street": "Boulevard de la Madeleine",
-          "name": "Monop'",
-          "opening_hours": "Mo-Sa 07:45-23:50; Su 08:00-21:00",
-          "ref:FR:SIRET": "98956057800027",
-          "shop": "convenience",
-          "wheelchair": "yes"
         }
       },
       {
@@ -1456,66 +721,6 @@
       },
       {
         "type": "node",
-        "id": 4887337426,
-        "lat": 48.8823413,
-        "lon": 2.3143864,
-        "tags": {
-          "name": "Meat My Fish",
-          "shop": "convenience",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5146120391,
-        "lat": 48.8828241,
-        "lon": 2.3146691,
-        "tags": {
-          "contact:phone": "+33181807580",
-          "indoor_seating": "no",
-          "name": "Poîlane",
-          "opening_hours": "We-Sa 07:00-20:30; Tu,Su 08:00-14:00,15:00-19:00; Mo off",
-          "outdoor_seating": "no",
-          "ref:FR:SIRET": "32444503000079",
-          "shop": "bakery",
-          "takeaway": "only",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5155886608,
-        "lat": 48.8853946,
-        "lon": 2.3165044,
-        "tags": {
-          "name": "Épicerie Legendre",
-          "opening_hours": "Mo,We-Sa 08:30-12:00,13:30-20:00; Tu 12:00-19:45",
-          "post_office:parcel_pickup": "yes",
-          "shop": "convenience",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5157479880,
-        "lat": 48.8822798,
-        "lon": 2.3153004,
-        "tags": {
-          "contact:email": "direction.delmontel@gmail.com",
-          "contact:phone": "+33 142271545",
-          "indoor_seating": "no",
-          "name": "Maison Delmontel Lévis",
-          "opening_hours": "Mo, We-Su 07:00-20:30",
-          "organic": "yes",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "takeaway": "only",
-          "website": "https://www.epicery.com/epiceries/delmontel-levis",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 5774833349,
         "lat": 48.8793876,
         "lon": 2.3214277,
@@ -1540,25 +745,6 @@
           "opening_hours:signed": "no",
           "shop": "convenience",
           "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5941386170,
-        "lat": 48.8841098,
-        "lon": 2.3303939,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "75 bis",
-          "addr:postcode": "75018",
-          "addr:street": "Boulevard de Clichy",
-          "check_date:opening_hours": "2024-02-02",
-          "description": "Alimentation générale",
-          "name": "Superette Fraîcheur",
-          "opening_hours:signed": "no",
-          "shop": "convenience",
-          "source": "survey;local knowledge",
-          "survey:date": "2018-09-08"
         }
       },
       {
@@ -1593,21 +779,6 @@
           "ref:FR:SIRET": "47816206800017",
           "shop": "books",
           "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6685470750,
-        "lat": 48.8690332,
-        "lon": 2.329413,
-        "tags": {
-          "addr:housenumber": "1",
-          "addr:postcode": "75002",
-          "addr:street": "Rue Volney",
-          "name": "Au Coin Gourmand",
-          "phone": "+33149260791",
-          "shop": "bakery",
-          "website": "https://www.aucoingourmand.fr/"
         }
       },
       {
@@ -1657,68 +828,6 @@
       },
       {
         "type": "node",
-        "id": 7416888778,
-        "lat": 48.8807858,
-        "lon": 2.3168667,
-        "tags": {
-          "indoor_seating": "yes",
-          "name": "L. Pinzani",
-          "opening_hours": "Mo-Fr 07:00-20:00",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7434200732,
-        "lat": 48.8832698,
-        "lon": 2.3308027,
-        "tags": {
-          "addr:housenumber": "50 bis",
-          "addr:street": "Rue de Douai",
-          "indoor_seating": "yes",
-          "name": "Jus",
-          "opening_hours": "Mo-Fr 07:30-20:00; Sa 08:00-20:00; Su 08:00-14:00",
-          "outdoor_seating": "yes",
-          "shop": "bakery",
-          "website": "http://jus.world"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7578080216,
-        "lat": 48.8835969,
-        "lon": 2.3140447,
-        "tags": {
-          "contact:housenumber": "48",
-          "contact:street": "Rue de Lévis",
-          "name": "Librairie Fontaine",
-          "opening_hours": "Mo 10:00-19:00; Tu-Sa 09:30-19:30; Su 10:00-13:30",
-          "phone": "+33 1 44 40 44 40",
-          "ref:FR:SIRET": "35218664700017",
-          "ref:vatin": "FR63352186647",
-          "shop": "books",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-          "website": "https://www.librairiesfontaine.com/villiers/",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7722291296,
-        "lat": 48.8817716,
-        "lon": 2.3148201,
-        "tags": {
-          "check_date:opening_hours": "2024-05-22",
-          "name": "Le Kiosque de Paris",
-          "opening_hours:signed": "no",
-          "shop": "kiosk",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 7959241186,
         "lat": 48.8774348,
         "lon": 2.326789,
@@ -1762,114 +871,6 @@
       },
       {
         "type": "node",
-        "id": 7995899164,
-        "lat": 48.8838754,
-        "lon": 2.3214365,
-        "tags": {
-          "check_date": "2025-05-04",
-          "check_date:opening_hours": "2025-05-04",
-          "name": "La librairie de JB",
-          "opening_hours": "Mo-Fr 13:00-20:00",
-          "ref:FR:SIRET": "41297417200022",
-          "shop": "books",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7995899169,
-        "lat": 48.88281,
-        "lon": 2.3218576,
-        "tags": {
-          "check_date": "2024-03-24",
-          "name": "Librairie de l'Épi",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 8440760058,
-        "lat": 48.8829718,
-        "lon": 2.3312573,
-        "tags": {
-          "indoor_seating": "no",
-          "name": "Delmontel",
-          "opening_hours": "We-Sa 09:00-14:00,14:30-18:00; Mo 08:00-18:00; Su 08:00-14:00",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "takeaway": "only"
-        }
-      },
-      {
-        "type": "node",
-        "id": 8440760070,
-        "lat": 48.8834896,
-        "lon": 2.3294904,
-        "tags": {
-          "check_date": "2023-05-25",
-          "name": "Librairie-Papeterie du Lycée",
-          "second_hand": "no",
-          "shop": "books",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 8463717251,
-        "lat": 48.8681181,
-        "lon": 2.3306876,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "33",
-          "addr:postcode": "75001",
-          "addr:street": "Rue Danielle Casanova",
-          "brand": "Eric Kayser",
-          "brand:wikidata": "Q99231745",
-          "check_date": "2025-05-21",
-          "food": "sandwich;salad",
-          "name": "Eric Kayser",
-          "opening_hours": "Mo-Th,Sa 07:00-20:30; Fr 07:00-15:00",
-          "pastry": "yes",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "phone": "+33 1 42 97 59 29",
-          "ref:FR:SIRET": "47946703700012",
-          "shop": "bakery",
-          "website": "https://maison-kayser.com/boulangerie/vendome/",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 8494638136,
-        "lat": 48.8846874,
-        "lon": 2.3198645,
-        "tags": {
-          "name": "P.B General Shop",
-          "shop": "convenience",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 8662577730,
-        "lat": 48.8848807,
-        "lon": 2.3247895,
-        "tags": {
-          "branch": "Batignolles",
-          "indoor_seating": "yes",
-          "name": "Tranché",
-          "opening_hours": "Mo-Fr 08:00-20:30; Sa,Su 08:30-19:30",
-          "outdoor_seating": "no",
-          "ref:FR:SIRET": "95323826800015",
-          "shop": "bakery",
-          "website": "https://www.tranchegroupe.com/batignolles",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 9041882122,
         "lat": 48.8714642,
         "lon": 2.3272158,
@@ -1881,41 +882,6 @@
           "contact:website": "https://www.maisondelaradiesthesie.fr/",
           "name": "Maison de la radiesthésie",
           "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9481321107,
-        "lat": 48.8848292,
-        "lon": 2.3255557,
-        "tags": {
-          "check_date": "2025-07-25",
-          "name": "Métro Délices",
-          "opening_hours": "Mo-Sa 11:00-13:00,16:00-22:00; Su 16:00-22:00",
-          "ref:FR:SIRET": "52054098000015",
-          "shop": "convenience",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9542944846,
-        "lat": 48.8834953,
-        "lon": 2.3258034,
-        "tags": {
-          "name": "Le marché Lecluse",
-          "ref:FR:SIRET": "92888593800029",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9542944876,
-        "lat": 48.8843929,
-        "lon": 2.3271248,
-        "tags": {
-          "name:signed": "no",
-          "shop": "kiosk"
         }
       },
       {
@@ -1940,26 +906,6 @@
       },
       {
         "type": "node",
-        "id": 9864287769,
-        "lat": 48.8792223,
-        "lon": 2.3370568,
-        "tags": {
-          "name": "Alimentation Générale",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9864287773,
-        "lat": 48.8795639,
-        "lon": 2.3371923,
-        "tags": {
-          "name:signed": "no",
-          "shop": "kiosk"
-        }
-      },
-      {
-        "type": "node",
         "id": 10202515242,
         "lat": 48.8722979,
         "lon": 2.3248518,
@@ -1980,16 +926,6 @@
       },
       {
         "type": "node",
-        "id": 10940347384,
-        "lat": 48.8828333,
-        "lon": 2.3333108,
-        "tags": {
-          "name": "Mini Market",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 11056215840,
         "lat": 48.8769006,
         "lon": 2.3157733,
@@ -1997,27 +933,6 @@
           "name": "Gros Calin",
           "shop": "books",
           "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11085549498,
-        "lat": 48.8771371,
-        "lon": 2.3150159,
-        "tags": {
-          "description": "épicerie italienne",
-          "name": "La Mia",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11085574311,
-        "lat": 48.8774782,
-        "lon": 2.3147748,
-        "tags": {
-          "name": "l'atelier des pain & co",
-          "shop": "bakery"
         }
       },
       {
@@ -2038,15 +953,6 @@
         "id": 11144335248,
         "lat": 48.8812539,
         "lon": 2.3269863,
-        "tags": {
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11159231607,
-        "lat": 48.8832287,
-        "lon": 2.3323616,
         "tags": {
           "shop": "convenience"
         }
@@ -2094,38 +1000,6 @@
       },
       {
         "type": "node",
-        "id": 11370120155,
-        "lat": 48.8848397,
-        "lon": 2.3305724,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "9",
-          "addr:postcode": "75018",
-          "addr:street": "Avenue Rachel",
-          "name": "ExpresShop",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11467712666,
-        "lat": 48.8812966,
-        "lon": 2.3361251,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "65",
-          "addr:postcode": "75009",
-          "addr:street": "Rue Jean-Baptiste Pigalle",
-          "check_date": "2023-08-01",
-          "indoor_seating": "no",
-          "name": "The French Bastards",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "takeaway": "only"
-        }
-      },
-      {
-        "type": "node",
         "id": 11672956101,
         "lat": 48.8742972,
         "lon": 2.3296264,
@@ -2149,142 +1023,11 @@
       },
       {
         "type": "node",
-        "id": 12159940493,
-        "lat": 48.8839003,
-        "lon": 2.3215344,
-        "tags": {
-          "contact:facebook": "https://www.facebook.com/librairieaubonheurdeslivres",
-          "contact:housenumber": "52",
-          "contact:street": "Rue des Dames",
-          "name": "Au bonheur des livres",
-          "opening_hours": "Tu-Sa 10:30-19:30; Su 11:00-19:00",
-          "phone": "+33 1 83 79 92 47",
-          "ref:FR:SIRET": "91795003200016",
-          "ref:vatin": "FR29917950032",
-          "shop": "books",
-          "website": "http://www.aubonheurdeslivres.fr/",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12197444335,
-        "lat": 48.8829102,
-        "lon": 2.3145906,
-        "tags": {
-          "indoor_seating": "no",
-          "name": "Maison Julien",
-          "opening_hours": "Mo-Su 07:00-20:00",
-          "outdoor_seating": "no",
-          "ref:FR:SIRET": "83173520400016",
-          "shop": "bakery",
-          "takeaway": "only",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12465444142,
-        "lat": 48.8809704,
-        "lon": 2.3348083,
-        "tags": {
-          "check_date": "2026-05-29",
-          "name": "MT Brothers",
-          "shop": "convenience",
-          "survey:date": "2024-12-31",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 12504061807,
         "lat": 48.8746764,
         "lon": 2.3208377,
         "tags": {
           "shop": "kiosk"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12641044283,
-        "lat": 48.8805926,
-        "lon": 2.3346704,
-        "tags": {
-          "indoor_seating": "yes",
-          "name": "Maison Blavette",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "wheelchair": "no",
-          "wheelchair:description:fr": "Deux marches à l'entrée."
-        }
-      },
-      {
-        "type": "node",
-        "id": 12641078884,
-        "lat": 48.8802682,
-        "lon": 2.3354353,
-        "tags": {
-          "check_date": "2026-05-29",
-          "name": "Rapid'Market",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12641083849,
-        "lat": 48.8827694,
-        "lon": 2.3298493,
-        "tags": {
-          "check_date": "2026-07-20",
-          "name": "Livres anciens",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12964345802,
-        "lat": 48.8675021,
-        "lon": 2.3223862,
-        "tags": {
-          "addr:housenumber": "5",
-          "addr:postcode": "75008",
-          "addr:street": "Rue Royale",
-          "name": "Copains Rue Royale",
-          "opening_hours": "Mo-Sa 08:00-20:00; Su 08:30-19:30",
-          "shop": "bakery",
-          "website": "https://www.copains-paris.com/nos-adresses/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13875248482,
-        "lat": 48.8820691,
-        "lon": 2.332727,
-        "tags": {
-          "indoor_seating": "yes",
-          "name": "Pétrin Café",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13900433917,
-        "lat": 48.8815925,
-        "lon": 2.3342877,
-        "tags": {
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13900437752,
-        "lat": 48.8828233,
-        "lon": 2.3330696,
-        "tags": {
-          "name": "HK Alimentation générale",
-          "shop": "convenience"
         }
       },
       {
@@ -2301,6 +1044,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-04T03:00:37.235Z",
+  "fetchedAt": "2026-08-04T03:03:49.300Z",
   "staleDataWarning": true
 }

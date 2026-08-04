@@ -7,10 +7,10 @@
   "isochrones": {
     "type": "FeatureCollection",
     "bbox": [
-      2.339849,
-      48.870649,
-      2.369545,
-      48.890659
+      2.345297,
+      48.874161,
+      2.364361,
+      48.886958
     ],
     "features": [
       {
@@ -133,8 +133,8 @@
           "coordinates": [
             [
               [
-                2.345575,
-                48.882208
+                2.345537,
+                48.882386
               ],
               [
                 2.345481,
@@ -173,8 +173,8 @@
                 48.874844
               ],
               [
-                2.355478,
-                48.874173
+                2.35523,
+                48.874167
               ],
               [
                 2.357528,
@@ -193,28 +193,28 @@
                 48.87433
               ],
               [
+                2.3607,
+                48.876337
+              ],
+              [
                 2.360817,
                 48.876448
               ],
               [
-                2.361073,
-                48.876759
+                2.361087,
+                48.876745
               ],
               [
-                2.364268,
-                48.880993
+                2.364361,
+                48.880971
               ],
               [
-                2.364157,
-                48.881405
+                2.364265,
+                48.881318
               ],
               [
-                2.364143,
-                48.881436
-              ],
-              [
-                2.363542,
-                48.882293
+                2.363762,
+                48.882017
               ],
               [
                 2.361999,
@@ -233,12 +233,12 @@
                 48.886906
               ],
               [
-                2.356358,
-                48.88692
+                2.356355,
+                48.886958
               ],
               [
-                2.356233,
-                48.886918
+                2.356289,
+                48.886958
               ],
               [
                 2.354062,
@@ -249,210 +249,28 @@
                 48.886339
               ],
               [
+                2.348808,
+                48.884777
+              ],
+              [
                 2.348793,
                 48.884767
               ],
               [
-                2.345717,
-                48.882539
+                2.348579,
+                48.884619
               ],
               [
-                2.345575,
-                48.882208
-              ]
-            ]
-          ],
-          "type": "Polygon"
-        }
-      },
-      {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 900,
-          "center": [
-            2.3552453655400987,
-            48.880911605175974
-          ]
-        },
-        "geometry": {
-          "coordinates": [
-            [
-              [
-                2.342026,
-                48.88431
+                2.345679,
+                48.882566
               ],
               [
-                2.341454,
-                48.883638
+                2.345673,
+                48.882562
               ],
               [
-                2.340349,
-                48.882318
-              ],
-              [
-                2.340309,
-                48.882252
-              ],
-              [
-                2.339966,
-                48.881037
-              ],
-              [
-                2.339849,
-                48.880329
-              ],
-              [
-                2.340676,
-                48.876859
-              ],
-              [
-                2.340804,
-                48.876436
-              ],
-              [
-                2.3419,
-                48.875202
-              ],
-              [
-                2.341959,
-                48.875159
-              ],
-              [
-                2.342025,
-                48.875113
-              ],
-              [
-                2.342932,
-                48.874492
-              ],
-              [
-                2.346563,
-                48.872806
-              ],
-              [
-                2.349622,
-                48.871246
-              ],
-              [
-                2.350013,
-                48.871138
-              ],
-              [
-                2.353451,
-                48.870696
-              ],
-              [
-                2.355233,
-                48.870649
-              ],
-              [
-                2.356509,
-                48.870702
-              ],
-              [
-                2.360615,
-                48.870877
-              ],
-              [
-                2.361186,
-                48.871064
-              ],
-              [
-                2.363575,
-                48.873334
-              ],
-              [
-                2.363641,
-                48.873401
-              ],
-              [
-                2.366733,
-                48.876692
-              ],
-              [
-                2.368799,
-                48.87894
-              ],
-              [
-                2.368975,
-                48.879254
-              ],
-              [
-                2.369545,
-                48.882392
-              ],
-              [
-                2.369532,
-                48.882452
-              ],
-              [
-                2.369463,
-                48.882743
-              ],
-              [
-                2.369441,
-                48.882801
-              ],
-              [
-                2.368192,
-                48.884224
-              ],
-              [
-                2.36589,
-                48.885995
-              ],
-              [
-                2.362349,
-                48.888449
-              ],
-              [
-                2.362115,
-                48.888585
-              ],
-              [
-                2.362034,
-                48.888623
-              ],
-              [
-                2.359935,
-                48.889321
-              ],
-              [
-                2.356093,
-                48.890631
-              ],
-              [
-                2.355835,
-                48.890659
-              ],
-              [
-                2.355585,
-                48.890636
-              ],
-              [
-                2.352821,
-                48.889936
-              ],
-              [
-                2.348039,
-                48.888412
-              ],
-              [
-                2.347131,
-                48.887982
-              ],
-              [
-                2.346619,
-                48.887611
-              ],
-              [
-                2.342127,
-                48.884426
-              ],
-              [
-                2.342026,
-                48.88431
+                2.345537,
+                48.882386
               ]
             ]
           ],
@@ -463,7 +281,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785812441866,
+      "timestamp": 1785812633015,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -475,8 +293,7 @@
         ],
         "range": [
           300,
-          600,
-          900
+          600
         ],
         "range_type": "time",
         "units": "m"
@@ -497,25 +314,6 @@
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
-      {
-        "type": "node",
-        "id": 735171971,
-        "lat": 48.8810408,
-        "lon": 2.3648349,
-        "tags": {
-          "check_date": "2026-02-24",
-          "contact:city": "Paris",
-          "contact:housenumber": "219",
-          "contact:phone": "+33 1 42 06 83 13",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "name": "Grandpré",
-          "ref:FR:SIRET": "83429017300022",
-          "shop": "bakery",
-          "source": "survey 10/2017",
-          "wheelchair": "limited"
-        }
-      },
       {
         "type": "node",
         "id": 877958868,
@@ -552,173 +350,6 @@
       },
       {
         "type": "node",
-        "id": 883484108,
-        "lat": 48.880156,
-        "lon": 2.3645743,
-        "tags": {
-          "check_date": "2026-02-24",
-          "contact:city": "Paris",
-          "contact:facebook": "https://www.facebook.com/librairielitote/",
-          "contact:housenumber": "17",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Alexandre Parodi",
-          "description": "Librairie indépendante",
-          "name": "Litote en Tête",
-          "opening_hours": "Mo 11:00-19:00; Tu-Sa 10:00-20:00; Su 10:00-13:00,15:00-19:00",
-          "phone": "+33 1 44 65 90 04",
-          "ref:FR:SIRET": "42163063300038",
-          "ref:vatin": "FR77421630633",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 916690280,
-        "lat": 48.8796417,
-        "lon": 2.363634,
-        "tags": {
-          "check_date": "2025-04-08",
-          "contact:city": "Paris",
-          "contact:housenumber": "210",
-          "contact:phone": "+33 9 83 61 99 10",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "contact:website": "https://les-gamins-du-faubourg.g4r.net/",
-          "level": "0",
-          "name": "Les Gamins du Faubourg",
-          "opening_hours": "Mo-Sa 07:00-20:00",
-          "ref:FR:SIRET": "89791963500010",
-          "shop": "bakery",
-          "source": "survey 11/2017",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 916861455,
-        "lat": 48.8763944,
-        "lon": 2.3610284,
-        "tags": {
-          "check_date:opening_hours": "2025-08-27",
-          "contact:city": "Paris",
-          "contact:email": "lesdelices.75012@gmail.com",
-          "contact:facebook": "https://www.facebook.com/people/Les-D%C3%A9lices-Des-Faubourgs/100066824049322/",
-          "contact:housenumber": "156",
-          "contact:phone": "+33 1 40 36 92 40",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "name": "Délices du Faubourg",
-          "opening_hours:signed": "no",
-          "ref:FR:SIRET": "53159116200015",
-          "shop": "bakery",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 987614312,
-        "lat": 48.8805156,
-        "lon": 2.3664741,
-        "tags": {
-          "brand": "Monop'",
-          "brand:wikidata": "Q89913683",
-          "brand:wikipedia": "fr:Monoprix (France)",
-          "check_date": "2024-11-05",
-          "contact:city": "Paris",
-          "contact:housenumber": "22",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Louis Blanc",
-          "contact:website": "https://www.monoprix.fr/2195.html",
-          "name": "Monop'",
-          "old_name": "Pôle Emploi",
-          "opening_hours": "Mo-Fr 07:00-23:50; Sa 07:30-23:50; Su 08:00-21:00",
-          "ref:FR:SIRET": "95314802000035",
-          "shop": "convenience",
-          "source": "survey 05/2018",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1045005595,
-        "lat": 48.8862628,
-        "lon": 2.3608446,
-        "tags": {
-          "name": "Autour du Fournil",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1236518959,
-        "lat": 48.8782649,
-        "lon": 2.3446579,
-        "tags": {
-          "addr:housenumber": "31",
-          "addr:street": "Rue de Maubeuge",
-          "check_date:opening_hours": "2022-10-10",
-          "name": "Pâtisserie Hubert",
-          "opening_hours": "Th-Tu 07:00-20:00",
-          "ref:FR:SIRET": "79488603600019",
-          "shop": "bakery",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1336880566,
-        "lat": 48.8750332,
-        "lon": 2.3432145,
-        "tags": {
-          "addr:housenumber": "18",
-          "addr:street": "Rue Cadet",
-          "check_date": "2023-04-29",
-          "name": "Detrad",
-          "opening_hours": "Mo-Sa 11:00-12:00; Mo-Fr 13:00-20:00; Sa 13:00-19:00",
-          "shop": "books",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-          "website": "https://www.detrad.com/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1401461534,
-        "lat": 48.8844456,
-        "lon": 2.3668035,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "224",
-          "addr:postcode": "75019",
-          "addr:street": "Boulevard de la Villette",
-          "check_date": "2026-01-04",
-          "check_date:opening_hours": "2026-01-04",
-          "indoor_seating": "no",
-          "level": "0",
-          "name": "Les Délices de la Villette",
-          "opening_hours": "Mo-Su 00:00-00:00",
-          "outdoor_seating": "no",
-          "ref:FR:SIRET": "83754755300011",
-          "shop": "bakery",
-          "takeaway": "only",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1401461542,
-        "lat": 48.8845155,
-        "lon": 2.3669129,
-        "tags": {
-          "check_date": "2023-04-16",
-          "name": "Alimentation Générale",
-          "ref:FR:SIRET": "53108899500018",
-          "shop": "convenience",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 1430900312,
         "lat": 48.8809778,
         "lon": 2.3506944,
@@ -735,40 +366,6 @@
           "ref:FR:SIRET": "40822251100011",
           "shop": "books",
           "website": "http://www.librairienordest.fr/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1486313972,
-        "lat": 48.8735918,
-        "lon": 2.3522925,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "18",
-          "contact:postcode": "75010",
-          "contact:street": "Rue des Petites-Écuries",
-          "name": "Dharma Sangh",
-          "operator": "Divedi Raphael",
-          "phone": "+33 1 40 22 03 41",
-          "shop": "books",
-          "source": "survey:16-01-28"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1486314146,
-        "lat": 48.8728211,
-        "lon": 2.3503316,
-        "tags": {
-          "check_date": "2026-05-20",
-          "contact:city": "Paris",
-          "contact:housenumber": "28",
-          "contact:postcode": "75010",
-          "contact:street": "Rue d'Hauteville",
-          "name": "Easy Blue",
-          "ref:FR:SIRET": "95134289800016",
-          "shop": "convenience",
-          "source": "local_knowledge"
         }
       },
       {
@@ -851,105 +448,11 @@
       },
       {
         "type": "node",
-        "id": 1585551915,
-        "lat": 48.8730875,
-        "lon": 2.3615562,
-        "tags": {
-          "check_date": "2026-02-28",
-          "contact:city": "Paris",
-          "contact:housenumber": "39",
-          "contact:phone": "+33 1 42 05 51 76",
-          "contact:postcode": "75010",
-          "contact:street": "Rue des Vinaigriers",
-          "contact:website": "https://www.liberte-paris.com/pages/liberte-vinaigriers",
-          "indoor_seating": "yes",
-          "level": "0",
-          "name": "Pâtisserie Liberté",
-          "opening_hours": "Mo-Fr 07:30-20:30; Sa 08:30-20:30",
-          "outdoor_seating": "yes",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:mastercard": "yes",
-          "payment:visa": "yes",
-          "ref:FR:SIRET": "79464455900021",
-          "shop": "bakery",
-          "stroller": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1775899193,
-        "lat": 48.8864063,
-        "lon": 2.3474421,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "43",
-          "addr:postcode": "75018",
-          "addr:street": "Rue de Clignancourt",
-          "check_date": "2025-04-30",
-          "name": "La Montmartroise",
-          "name:fr": "La montmartroise",
-          "shop": "bakery",
-          "source": "local knowledge"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1791378696,
-        "lat": 48.8873578,
-        "lon": 2.3512342,
-        "tags": {
-          "name": "Akoui",
-          "shop": "bakery",
-          "source": "local knowledge"
-        }
-      },
-      {
-        "type": "node",
         "id": 1793087781,
         "lat": 48.8847246,
         "lon": 2.3539243,
         "tags": {
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1868448867,
-        "lat": 48.8872558,
-        "lon": 2.349255,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "1",
-          "addr:postcode": "75018",
-          "addr:street": "Rue Custine",
-          "opening_hours": "Tu off",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1868462009,
-        "lat": 48.8883991,
-        "lon": 2.3510703,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "80",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Tout Kin",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1872840175,
-        "lat": 48.8838907,
-        "lon": 2.3674937,
-        "tags": {
-          "name": "TRJ Cash and Carry",
-          "shop": "convenience",
-          "wheelchair": "yes"
         }
       },
       {
@@ -967,18 +470,6 @@
           "origin": "indian",
           "ref:FR:SIRET": "51795776700018",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1872840196,
-        "lat": 48.8831227,
-        "lon": 2.3652929,
-        "tags": {
-          "check_date": "2025-08-23",
-          "name": "STR Alimentation Générale",
-          "shop": "convenience",
-          "wheelchair": "yes"
         }
       },
       {
@@ -1052,30 +543,6 @@
       },
       {
         "type": "node",
-        "id": 2161445635,
-        "lat": 48.8814636,
-        "lon": 2.3449718,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "15",
-          "addr:postcode": "75009",
-          "addr:street": "Avenue Trudaine",
-          "check_date": "2026-05-29",
-          "disused": "shop",
-          "indoor_seating": "yes",
-          "name": "Léonie",
-          "name:fr": "Léonie",
-          "note:fr": "Boulangerie, Pâtisserie",
-          "opening_hours": "Tu-Sa 07:00-20:00; Su 07:30-19:00",
-          "operator": "Léonie Sacré Cœur",
-          "outdoor_seating": "yes",
-          "phone": "+33981069183",
-          "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 2193383785,
         "lat": 48.8771647,
         "lon": 2.3515562,
@@ -1138,39 +605,6 @@
       },
       {
         "type": "node",
-        "id": 2349357721,
-        "lat": 48.8891783,
-        "lon": 2.3600864,
-        "tags": {
-          "name": "SP Africain, asie, orientale",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2409683713,
-        "lat": 48.8764887,
-        "lon": 2.3444554,
-        "tags": {
-          "check_date": "2024-09-23",
-          "name": "Miche de Pain",
-          "opening_hours": "Mo-Sa 07:00-20:00",
-          "shop": "bakery",
-          "source": "survey"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2482552799,
-        "lat": 48.8769453,
-        "lon": 2.3613353,
-        "tags": {
-          "name": "Libre Service de la Gare",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 2619533016,
         "lat": 48.8769218,
         "lon": 2.3487061,
@@ -1179,30 +613,6 @@
           "name": "Le Fournil du Faubourg",
           "shop": "bakery",
           "source": "survey:15-05-21"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2692650182,
-        "lat": 48.8737124,
-        "lon": 2.3451304,
-        "tags": {
-          "name": "Trévise",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2704908570,
-        "lat": 48.8889311,
-        "lon": 2.3606709,
-        "tags": {
-          "amenity": "cafe",
-          "indoor_seating": "yes",
-          "name": "Mandeeq",
-          "name:fr": "Mandeeq",
-          "outdoor_seating": "no",
-          "shop": "convenience"
         }
       },
       {
@@ -1227,59 +637,6 @@
       },
       {
         "type": "node",
-        "id": 2962984477,
-        "lat": 48.8844621,
-        "lon": 2.3665427,
-        "tags": {
-          "addr:housenumber": "226",
-          "addr:postcode": "75019",
-          "addr:street": "Boulevard de la Villette",
-          "check_date": "2026-03-05",
-          "level": "0",
-          "name": "Anexo",
-          "ref:FR:SIRET": "43186685400018",
-          "shop": "convenience",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2962988265,
-        "lat": 48.8844723,
-        "lon": 2.3664242,
-        "tags": {
-          "name": "Épicerie Stalingrad",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2963004417,
-        "lat": 48.8845519,
-        "lon": 2.3651864,
-        "tags": {
-          "name": "Mamma Africa",
-          "ref:FR:SIRET": "92881035700014",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3208004450,
-        "lat": 48.8746019,
-        "lon": 2.3590172,
-        "tags": {
-          "check_date": "2025-10-17",
-          "level": "0",
-          "name": "Alimentation Générale",
-          "opening_hours": "Mo-Su 11:00-12:00",
-          "shop": "convenience",
-          "source": "survey 2017",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 3224123096,
         "lat": 48.8837723,
         "lon": 2.3605451,
@@ -1295,23 +652,6 @@
           "ref:FR:SIRET": "50214585700012",
           "shop": "convenience",
           "source": "survey 01/2022"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3240753451,
-        "lat": 48.8758793,
-        "lon": 2.347715,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "2",
-          "addr:postcode": "75009",
-          "addr:street": "Rue Bleue",
-          "contact:instagram": "https://www.instagram.com/union_boulangerie/?hl=fr",
-          "name": "Union",
-          "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-15:00",
-          "operator": "Maëva Manchon et Charles Ye",
-          "shop": "bakery"
         }
       },
       {
@@ -1420,52 +760,6 @@
       },
       {
         "type": "node",
-        "id": 3421390877,
-        "lat": 48.8729787,
-        "lon": 2.3580533,
-        "tags": {
-          "check_date": "2026-06-12",
-          "check_date:opening_hours": "2026-06-12",
-          "contact:city": "Paris",
-          "contact:housenumber": "96",
-          "contact:instagram": "lepaindescopains",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "name": "Le Pain des Copains",
-          "opening_hours": "Mo-Fr 06:30-19:30; Sa 06:30-19:00",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "ref:FR:SIRET": "85067203100026",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3501719707,
-        "lat": 48.8720532,
-        "lon": 2.3501265,
-        "tags": {
-          "addr:floor": "0",
-          "check_date": "2026-06-15",
-          "check_date:opening_hours": "2026-06-15",
-          "contact:city": "Paris",
-          "contact:housenumber": "18 bis",
-          "contact:postcode": "75010",
-          "contact:street": "Rue d'Hauteville",
-          "indoor_seating": "no",
-          "level": "0",
-          "name": "La Baguette d'Hauteville",
-          "opening_hours": "Mo-Sa 07:00-20:30",
-          "outdoor_seating": "no",
-          "ref:FR:SIRET": "83186883100015",
-          "shop": "bakery",
-          "source": "local_knowledge",
-          "takeaway": "only",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 3501719739,
         "lat": 48.8775674,
         "lon": 2.3519019,
@@ -1514,16 +808,6 @@
       },
       {
         "type": "node",
-        "id": 3521487839,
-        "lat": 48.8858885,
-        "lon": 2.359257,
-        "tags": {
-          "name:signed": "no",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 3562130098,
         "lat": 48.8765775,
         "lon": 2.3483671,
@@ -1550,17 +834,6 @@
           "phone": "+33 1 47 70 44 46",
           "ref:FR:SIRET": "77812784500106",
           "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3623709097,
-        "lat": 48.8832447,
-        "lon": 2.3416521,
-        "tags": {
-          "name": "Super Market de la Place",
-          "shop": "convenience",
-          "source": "survey"
         }
       },
       {
@@ -1733,24 +1006,6 @@
       },
       {
         "type": "node",
-        "id": 3652513971,
-        "lat": 48.8885992,
-        "lon": 2.3538692,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "50",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "indoor_seating": "no",
-          "name": "L'Amandine",
-          "opening_hours": "Mo-Sa 07:00-24:00",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "takeaway": "only"
-        }
-      },
-      {
-        "type": "node",
         "id": 3690974443,
         "lat": 48.8826437,
         "lon": 2.3605978,
@@ -1764,26 +1019,6 @@
           "opening_hours": "Tu-Su 09:00-21:00",
           "shop": "convenience",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3690974444,
-        "lat": 48.8714475,
-        "lon": 2.3543194,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "87",
-          "contact:instagram": "velan.paris",
-          "contact:postcode": "75010",
-          "contact:street": "Passage Brady",
-          "cuisine": "indian",
-          "email": "velan.paris@gmail.com",
-          "name": "Velan",
-          "opening_hours": "Mo-Sa 10:00-20:00",
-          "ref:FR:SIRET": "40763532500019",
-          "shop": "convenience",
-          "website": "https://velan.paris/"
         }
       },
       {
@@ -1812,33 +1047,6 @@
           "ref:FR:SIRET": "78880651100010",
           "shop": "convenience",
           "source": "survey"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3701328326,
-        "lat": 48.8740833,
-        "lon": 2.3480437,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "44",
-          "addr:postcode": "75010",
-          "addr:street": "Rue du Faubourg Poissonnière",
-          "atm": "yes",
-          "brand": "NOUS anti-gaspi",
-          "brand:wikidata": "Q130144283",
-          "check_date": "2026-06-12",
-          "contact:city": "Paris",
-          "contact:housenumber": "44",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Poissonnière",
-          "description": "Anciennement :  LCL",
-          "email": "direction-parispoissonniere@nousantigaspi.com",
-          "name": "NOUS anti-gaspi",
-          "opening_hours": "Su-Fr 10:00-20:00; Sa 10:00-13:00",
-          "phone": "+33 1 47 70 11 17",
-          "shop": "convenience",
-          "website": "https://www.nousantigaspi.com/magasin-paris-poissonniere"
         }
       },
       {
@@ -1878,120 +1086,6 @@
       },
       {
         "type": "node",
-        "id": 3927836579,
-        "lat": 48.8709573,
-        "lon": 2.3578703,
-        "tags": {
-          "check_date": "2025-12-28",
-          "contact:city": "Paris",
-          "contact:housenumber": "25",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Bouchardon",
-          "name": "Le Village",
-          "opening_hours": "Mo-Su 09:00-19:00",
-          "phone": "+33 1 42 02 10 50",
-          "ref:FR:SIRET": "48371664300026",
-          "shop": "convenience",
-          "website": "http://www.facebook.com/Levillageepiceriefine"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3969301651,
-        "lat": 48.8726118,
-        "lon": 2.3552495,
-        "tags": {
-          "check_date": "2022-09-01",
-          "contact:city": "Paris",
-          "contact:email": "contact@globusfrance.fr",
-          "contact:housenumber": "74",
-          "contact:phone": "+33 1 42 47 00 58",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Château d'Eau",
-          "contact:website": "http://www.globusfrance.fr/",
-          "name": "Globus France",
-          "operator": "Djorgovic",
-          "ref:FR:SIRET": "33314776700029",
-          "shop": "convenience",
-          "source": "survey:16-01-28"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3969301652,
-        "lat": 48.8727615,
-        "lon": 2.3548803,
-        "tags": {
-          "check_date": "2025-06-30",
-          "contact:city": "Paris",
-          "contact:email": "contact@globusfrance.fr",
-          "contact:housenumber": "76",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Château d'Eau",
-          "contact:website": "http://www.globusfrance.fr/",
-          "name": "Globus Star",
-          "operator": "Djorgovic",
-          "phone": "+33 1 47 70 01 06",
-          "shop": "convenience",
-          "source": "survey:16-01-28"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3975063025,
-        "lat": 48.8738117,
-        "lon": 2.3512232,
-        "tags": {
-          "check_date": "2025-09-04",
-          "contact:city": "Paris",
-          "contact:housenumber": "30",
-          "contact:postcode": "75010",
-          "contact:street": "Rue des Petites-Écuries",
-          "name": "Easy Goo",
-          "ref:FR:SIRET": "89797178400011",
-          "shop": "convenience",
-          "source": "survey:16-01-28",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3978232563,
-        "lat": 48.8778585,
-        "lon": 2.3650649,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:full": "3 Rue Eugène Varlin 75010 Paris",
-          "addr:housenumber": "3",
-          "addr:postcode": "75010",
-          "addr:street": "Rue Eugène Varlin",
-          "check_date": "2026-06-27",
-          "contact:facebook": "https://www.facebook.com/lalibrairieducanal",
-          "contact:phone": "+33 1 42 08 72 78",
-          "contact:website": "http://www.lalibrairieducanal.fr/",
-          "level": "0",
-          "name": "Librairie du Canal",
-          "opening_hours": "Mo 12:00-20:00; Tu-Sa 10:00-20:00; Su 11:00-19:30",
-          "ref:FR:SIRET": "81204997100011",
-          "ref:vatin": "FR66812049971",
-          "shop": "books",
-          "source": "survey",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4004469362,
-        "lat": 48.8828674,
-        "lon": 2.3452792,
-        "tags": {
-          "name": "Bangla mart",
-          "shop": "convenience",
-          "source": "survey"
-        }
-      },
-      {
-        "type": "node",
         "id": 4014961768,
         "lat": 48.8811499,
         "lon": 2.3499316,
@@ -2006,22 +1100,6 @@
           "opening_hours": "Sa 08:00-19:30; Tu-Fr 07:45-19:30",
           "ref:FR:SIRET": "83518647900019",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4016830490,
-        "lat": 48.8736068,
-        "lon": 2.3580369,
-        "tags": {
-          "check_date": "2025-10-17",
-          "contact:city": "Paris",
-          "contact:housenumber": "101",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "name": "Saint-Supermarché",
-          "ref:FR:SIRET": "97990295400010",
-          "shop": "convenience"
         }
       },
       {
@@ -2060,104 +1138,6 @@
           "name": "Mille et une Saveur",
           "ref:FR:SIRET": "80442095800014",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4125480964,
-        "lat": 48.8773403,
-        "lon": 2.3445278,
-        "tags": {
-          "name": "Chez Cali",
-          "opening_hours": "Mo 18:00-24:00, Tu-Su 16:00-01:30",
-          "shop": "convenience",
-          "start_date": "1986"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4257493189,
-        "lat": 48.8732237,
-        "lon": 2.3623587,
-        "tags": {
-          "check_date": "2025-11-09",
-          "contact:city": "Paris",
-          "contact:housenumber": "32",
-          "contact:postcode": "75010",
-          "contact:street": "Rue des Vinaigriers",
-          "level": "0",
-          "name": "Philippe le Libraire",
-          "opening_hours": "We-Mo 11:11-14:14,15:15-19:00",
-          "ref:FR:SIRET": "49390277900013",
-          "shop": "books",
-          "source": "survey 02/2019"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4508911816,
-        "lat": 48.874191,
-        "lon": 2.3481612,
-        "tags": {
-          "check_date": "2023-11-21",
-          "contact:city": "Paris",
-          "contact:housenumber": "46",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Poissonnière",
-          "name": "Coopérative Latte Cisternino",
-          "opening_hours": "Mo-Sa 10:00-13:30,16:30-20:00",
-          "owner": "Barbierato Alessandro",
-          "phone": "+33 1 47 70 30 36",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4639074095,
-        "lat": 48.8801084,
-        "lon": 2.3435839,
-        "tags": {
-          "addr:housenumber": "45",
-          "addr:postcode": "75009",
-          "addr:street": "Rue Condorcet",
-          "name": "Mamiche",
-          "opening_hours": "Mo-Fr 08:00-20:00, Sa 08:00-19:00",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4671414944,
-        "lat": 48.8869417,
-        "lon": 2.3527266,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "43",
-          "addr:postcode": "75018",
-          "addr:street": "Rue Myrha",
-          "contact:city": "Paris",
-          "contact:housenumber": "43",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Myrha",
-          "cuisine": "teahouse",
-          "internet_access": "wlan",
-          "name": "La Régulière",
-          "opening_hours": "Mo-Sa 10:00-19:00; Su 13:00-19:00",
-          "phone": "+33 9 83 43 40 69",
-          "shop": "books",
-          "start_date": "2016-10-18",
-          "website": "https://lareguliere.fr/",
-          "wikidata": "Q109349331"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4701892927,
-        "lat": 48.8850219,
-        "lon": 2.3651181,
-        "tags": {
-          "name": "Tibet Shop",
-          "shop": "convenience"
         }
       },
       {
@@ -2229,17 +1209,6 @@
           "ref:FR:SIRET": "75353657200013",
           "shop": "convenience",
           "source": "survey 2017"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4843622427,
-        "lat": 48.8824887,
-        "lon": 2.3450927,
-        "tags": {
-          "check_date": "2026-05-30",
-          "name": "Supermarket",
-          "shop": "convenience"
         }
       },
       {
@@ -2323,174 +1292,10 @@
       },
       {
         "type": "node",
-        "id": 4880630724,
-        "lat": 48.8707926,
-        "lon": 2.3533724,
-        "tags": {
-          "check_date": "2026-05-20",
-          "contact:city": "Paris",
-          "contact:housenumber": "22-24",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Denis",
-          "name": "Épicerie du Faubourg",
-          "opening_hours": "Mo-Su 08:00-24:00",
-          "phone": "+33 1 47 70 71 42",
-          "shop": "convenience",
-          "website": "https://epicerie-du-faubourg.com/",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4885486426,
-        "lat": 48.8771429,
-        "lon": 2.3427833,
-        "tags": {
-          "name": "La Petite Découverte",
-          "name:fr": "La petite découverte",
-          "ref:FR:SIRET": "49413647600020",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4885511822,
-        "lat": 48.877449,
-        "lon": 2.3410189,
-        "tags": {
-          "name": "Les Arpenteurs",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4984397530,
-        "lat": 48.8838427,
-        "lon": 2.3683084,
-        "tags": {
-          "check_date": "2024-08-31",
-          "contact:city": "Paris",
-          "contact:email": "devis.bichon@gmail.com",
-          "contact:housenumber": "267",
-          "contact:phone": "+33 1 53 26 50 03",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "contact:website": "https://maisonbichon.com/",
-          "indoor_seating": "yes",
-          "name": "Maison Bichon",
-          "opening_hours": "Mo-Su 07:00-20:00",
-          "outdoor_seating": "no",
-          "ref:FR:SIRET": "79368004200025",
-          "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4988195235,
-        "lat": 48.8857766,
-        "lon": 2.3596326,
-        "tags": {
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4988195237,
-        "lat": 48.8862198,
-        "lon": 2.3592771,
-        "tags": {
-          "check_date": "2024-03-16",
-          "name": "Mama Super Marché La Chapelle",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4988198434,
-        "lat": 48.8860996,
-        "lon": 2.3597114,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "22",
-          "addr:postcode": "75018",
-          "addr:street": "Rue Marx Dormoy",
-          "name": "Sabbah Orientale",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4988198437,
-        "lat": 48.8868641,
-        "lon": 2.3533293,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "1",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Léon",
-          "name": "Alimentation Générale",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 4988198529,
         "lat": 48.8847932,
         "lon": 2.3526303,
         "tags": {
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4988214321,
-        "lat": 48.8862608,
-        "lon": 2.3596626,
-        "tags": {
-          "name": "Sabbah",
-          "name:fr": "Sabbah",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5050724467,
-        "lat": 48.886545,
-        "lon": 2.3477393,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "36",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Clignancourt",
-          "name": "Alimentation Générale",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5050724479,
-        "lat": 48.8877941,
-        "lon": 2.3479841,
-        "tags": {
-          "name": "Oriental",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5064547122,
-        "lat": 48.8740107,
-        "lon": 2.3549878,
-        "tags": {
-          "check_date": "2025-08-22",
-          "contact:city": "Paris",
-          "contact:housenumber": "89",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Denis",
-          "diet:halal": "yes",
-          "name": "Lahore Supermarché",
-          "ref:FR:SIRET": "84953445800021",
           "shop": "convenience"
         }
       },
@@ -2511,23 +1316,6 @@
           "opening_hours": "Mo-Su 07:00-20:00",
           "outdoor_seating": "no",
           "ref:FR:SIRET": "89915124500029",
-          "shop": "bakery",
-          "takeaway": "only"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5150224621,
-        "lat": 48.8754667,
-        "lon": 2.3433075,
-        "tags": {
-          "check_date": "2023-04-29",
-          "indoor_seating": "no",
-          "name": "Maison Dupuy",
-          "opening_hours": "Mo,We-Sa 07:00-20:00; Su 07:00-13:30",
-          "outdoor_seating": "no",
-          "ref:FR:SIREN": "318918877",
-          "ref:FR:SIRET": "31891887700024",
           "shop": "bakery",
           "takeaway": "only"
         }
@@ -2563,43 +1351,6 @@
           "level": "0",
           "name": "Shah Cash and Carry",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5201093522,
-        "lat": 48.8822833,
-        "lon": 2.3687368,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "230",
-          "contact:postcode": "75010",
-          "contact:street": "Rue La Fayette",
-          "name": "Valmy Market",
-          "ref:FR:SIRET": "93293447400010",
-          "shop": "convenience",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5219328093,
-        "lat": 48.8820121,
-        "lon": 2.3637751,
-        "tags": {
-          "branch": "Oriental Express",
-          "brand": "Proxi",
-          "brand:wikidata": "Q3408522",
-          "contact:city": "Paris",
-          "contact:housenumber": "46",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Louis Blanc",
-          "level": "0",
-          "name": "Proxi",
-          "ref:FR:ANFR": "98309187700016",
-          "ref:FR:SIRET": "98309187700016",
-          "shop": "convenience",
-          "source": "survey 10/2017"
         }
       },
       {
@@ -2664,435 +1415,6 @@
       },
       {
         "type": "node",
-        "id": 5645720952,
-        "lat": 48.8717961,
-        "lon": 2.360355,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "32",
-          "contact:postcode": "75010",
-          "contact:street": "Boulevard de Magenta",
-          "name": "Alimentation générale",
-          "ref:FR:SIRET": "93066734000010",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5842507272,
-        "lat": 48.8854454,
-        "lon": 2.3492126,
-        "tags": {
-          "addr:housenumber": "15",
-          "addr:postcode": "75018",
-          "addr:street": "Boulevard Barbès",
-          "alt_name": "Gibert Joseph Barbès",
-          "brand": "Gibert Joseph",
-          "brand:wikidata": "Q3105347",
-          "contact:city": "Paris",
-          "contact:fax": "+33 1 42 64 17 96",
-          "contact:housenumber": "15",
-          "contact:phone": "+33 1 53 09 35 15",
-          "contact:postcode": "75018",
-          "contact:street": "Boulevard Barbès",
-          "contact:website": "https://www.gibert.com/stores/paris-xviii-gibert-joseph-librairie-papeterie-musique-video",
-          "level": "0",
-          "music": "yes",
-          "name": "Gibert Joseph Paris",
-          "opening_hours": "Mo-Sa 10:00-19:30",
-          "ref:FR:SIRET": "43504471400101",
-          "second_hand": "yes",
-          "shop": "books",
-          "source": "Connaissance locale",
-          "stationery": "yes",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5938779677,
-        "lat": 48.8884169,
-        "lon": 2.3538391,
-        "tags": {
-          "name": "Danny Exotique",
-          "ref:FR:SIRET": "90109077900017",
-          "shop": "convenience",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5957957787,
-        "lat": 48.8872504,
-        "lon": 2.3561532,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "29",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Stephenson",
-          "name": "La Brioche de Barbès",
-          "outdoor_seating": "yes",
-          "ref:FR:SIRET": "82377028400011",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5975662598,
-        "lat": 48.8887432,
-        "lon": 2.3555763,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "36",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Mini Château Rouge",
-          "ref:FR:SIRET": "83270746700011",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5975760908,
-        "lat": 48.8882553,
-        "lon": 2.3519733,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "59",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Marché Gouro d'Abidjan",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5975760910,
-        "lat": 48.8882683,
-        "lon": 2.3521165,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "57",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Alimentation Générale Produits Africains",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5975760911,
-        "lat": 48.8882744,
-        "lon": 2.3522178,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "57",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "SARL Madiba",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5975760913,
-        "lat": 48.8882935,
-        "lon": 2.3524177,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "55",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Forum d'Adjamé",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5975760917,
-        "lat": 48.8883725,
-        "lon": 2.3533739,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "43",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Yatalie",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5975803055,
-        "lat": 48.888456,
-        "lon": 2.3524017,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "66",
-          "contact:phone": "+33 1 42 51 67 65",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Au Marché de la Côte d'Ivoire",
-          "ref:FR:SIRET": "80179571700017",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5975803056,
-        "lat": 48.8884654,
-        "lon": 2.3524912,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "66",
-          "contact:phone": "+33 9 50 70 30 67",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Basil International",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5975872882,
-        "lat": 48.8886181,
-        "lon": 2.3540958,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "50",
-          "contact:phone": "+33 9 84 18 66 87",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Exotique LKN Africa",
-          "organic": "yes",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5975872883,
-        "lat": 48.8886389,
-        "lon": 2.354329,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "48",
-          "contact:phone": "+33 6 50 07 36 40;+33 7 61 40 18 96",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Guinée Store",
-          "ref:FR:SIRET": "80007168000022",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5975872884,
-        "lat": 48.8886474,
-        "lon": 2.3544002,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "46",
-          "contact:phone": "+33 9 51 06 27 62",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Doudeauville",
-          "name": "Bikamwa Exotique",
-          "organic": "only",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5975873985,
-        "lat": 48.8884746,
-        "lon": 2.3544715,
-        "tags": {
-          "books": "fanzine",
-          "contact:housenumber": "33 bis",
-          "name": "BATT COOP",
-          "ref:FR:SIRET": "82179748700021",
-          "shop": "books",
-          "start_date": "2017-06",
-          "website": "https://battcoop.org/fr/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5977971962,
-        "lat": 48.8881022,
-        "lon": 2.3509236,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "37",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Poulet",
-          "name": "BA Paris",
-          "ref:FR:SIRET": "80952027300016",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5978165804,
-        "lat": 48.8877122,
-        "lon": 2.3501535,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "25",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Poulet",
-          "name": "Horizon Uni",
-          "phone": "+33 1 44 92 00 71",
-          "ref:FR:SIRET": "39215701200015",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5978202123,
-        "lat": 48.8879678,
-        "lon": 2.3510454,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "36",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Poulet",
-          "name": "Supérette Africaine",
-          "ref:FR:SIRET": "89295505500017",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5978202127,
-        "lat": 48.887832,
-        "lon": 2.3507886,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "32",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Poulet",
-          "name": "Exo Sympa",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5978202130,
-        "lat": 48.8877015,
-        "lon": 2.3505201,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "28",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Poulet",
-          "name": "El Mundo",
-          "opening_hours:signed": "no",
-          "ref:FR:SIRET": "52226565100011",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5987094564,
-        "lat": 48.8820154,
-        "lon": 2.366875,
-        "tags": {
-          "level": "0",
-          "name": "Au Petit Marché",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5993664579,
-        "lat": 48.8870007,
-        "lon": 2.3530481,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "39",
-          "contact:phone": "+33 1 42 52 96 06",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Myrha",
-          "name": "Librairie Islamique",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6007337347,
-        "lat": 48.8874189,
-        "lon": 2.3535664,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "12",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Léon",
-          "name": "Le Petit Pointe à Pitre",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6007337356,
-        "lat": 48.8879866,
-        "lon": 2.3535984,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "20",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Léon",
-          "name": "Épicerie Africaine",
-          "ref:FR:SIRET": "83414350500016",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6007337361,
-        "lat": 48.8883227,
-        "lon": 2.3534751,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "29",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Léon",
-          "description": "Wenze ya 6 Chez Jeannette",
-          "name": "Exotique JK Congo",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6010103737,
-        "lat": 48.8883441,
-        "lon": 2.3559949,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "45",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Stephenson",
-          "name": "SARL Djenebou - Alimentation Générale",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6010103738,
-        "lat": 48.888291,
-        "lon": 2.3560084,
-        "tags": {
-          "brand": "Lycamobile",
-          "contact:city": "Paris",
-          "contact:housenumber": "45",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Stephenson",
-          "name": "So'Foods",
-          "ref:FR:SIRET": "79986212300020",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 6010103755,
         "lat": 48.8854055,
         "lon": 2.3568436,
@@ -3103,498 +1425,6 @@
           "contact:street": "Rue Stephenson",
           "name": "Little Market",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6010571925,
-        "lat": 48.887155,
-        "lon": 2.3547614,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "17",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Myrha",
-          "name": "Librairie Bazar",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6010571932,
-        "lat": 48.887231,
-        "lon": 2.3540062,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "30",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Myrha",
-          "name": "Librairie",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6010571933,
-        "lat": 48.8870906,
-        "lon": 2.3539389,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "29",
-          "contact:phone": "+33 9 81 73 18 62",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Myrha",
-          "contact:website": "https://ptitgeorges.com/",
-          "name": "P'tit Georges",
-          "opening_hours": "Mo 11:00-20:00; Tu-Sa 09:00-20:00; Su 09:00-19:00",
-          "ref:FR:SIRET": "81231141300015",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6010571943,
-        "lat": 48.8868956,
-        "lon": 2.3523365,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "47",
-          "contact:phone": "+33 6 27 43 48 63;+33 6 14 59 66 58",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Myrha",
-          "description": "Vente de produits exotiques",
-          "name": "Koyaka Market",
-          "ref:FR:SIRET": "51744092100016",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6010571959,
-        "lat": 48.8866589,
-        "lon": 2.3508369,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "65 bis",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Myrha",
-          "name": "Le Petit Marché",
-          "ref:FR:SIRET": "93923445600019",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6010571964,
-        "lat": 48.8865962,
-        "lon": 2.3503809,
-        "tags": {
-          "brand": "Lebara",
-          "contact:city": "Paris",
-          "contact:housenumber": "69",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Myrha",
-          "name": "CM Exotique",
-          "ref:FR:SIRET": "94798205400019",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6010571972,
-        "lat": 48.8865323,
-        "lon": 2.3499131,
-        "tags": {
-          "brand": "Lebara",
-          "contact:city": "Paris",
-          "contact:housenumber": "75",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Myrha",
-          "name": "Myhra Tropical",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782142,
-        "lat": 48.8875527,
-        "lon": 2.3530917,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:fax": "+33 1 42 55 04 71",
-          "contact:housenumber": "1",
-          "contact:phone": "+33 1 42 55 04 62",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Panama",
-          "name": "La Calebasse d'Afrique",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782143,
-        "lat": 48.8875457,
-        "lon": 2.3529978,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "3",
-          "contact:phone": "+33 9 86 25 57 34",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "JDC Africa - Le Grenier d'Afrique",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782144,
-        "lat": 48.8875227,
-        "lon": 2.3528986,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "3",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "Suez Bazar",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782146,
-        "lat": 48.887491,
-        "lon": 2.3527269,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "5",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "Poisson du Monde",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782148,
-        "lat": 48.8875952,
-        "lon": 2.3524672,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "2",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "Soul Food",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782149,
-        "lat": 48.8874353,
-        "lon": 2.3524524,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "9",
-          "contact:phone": "+33 1 53 41 61 36;+33 6 50 07 36 40;+33 7 61 40 18 96",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "Guinée Store",
-          "ref:FR:SIRET": "80007168000014",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782150,
-        "lat": 48.8875426,
-        "lon": 2.3522359,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "4",
-          "contact:phone": "+33 1 42 51 07 66;+33 6 18 33 48 12;+33 6 17 59 91 61",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "Exotique Merveilles d'Afrique",
-          "ref:FR:SIRET": "53286175400010",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782151,
-        "lat": 48.8875309,
-        "lon": 2.3521607,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "6",
-          "contact:phone": "+33 1 46 06 32 19",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "D4 Cosmétique",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782153,
-        "lat": 48.8875068,
-        "lon": 2.3520391,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "6",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "Épicerie",
-          "ref:FR:SIRET": "53286175400010",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782156,
-        "lat": 48.8874811,
-        "lon": 2.3518751,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "8",
-          "contact:phone": "+33 1 42 59 50 29",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "Diaby-Kaba",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782157,
-        "lat": 48.8874594,
-        "lon": 2.3517938,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "10",
-          "contact:phone": "+33 1 46 06 02 62",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "Société Caprice Comestique",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782158,
-        "lat": 48.8873071,
-        "lon": 2.3518351,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "15",
-          "contact:phone": "+33 1 42 51 16 20",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "Boucherie Supermarket Haïti",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782159,
-        "lat": 48.8872935,
-        "lon": 2.3517524,
-        "tags": {
-          "brand": "Lebara",
-          "contact:city": "Paris",
-          "contact:housenumber": "17",
-          "contact:phone": "+33 1 46 06 02 62",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "Star Com",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782161,
-        "lat": 48.8872645,
-        "lon": 2.3515759,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "19",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "Afrika Boboto",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015782162,
-        "lat": 48.8873663,
-        "lon": 2.3513717,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "14",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Suez",
-          "name": "Vingtekhong",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015820431,
-        "lat": 48.8877253,
-        "lon": 2.3529868,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "4",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Panama",
-          "name": "Boboto Bondeko Kimia",
-          "ref:FR:SIRET": "44118935400018",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015820432,
-        "lat": 48.8877598,
-        "lon": 2.352791,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "6",
-          "contact:phone": "+33 1 42 59 78 84",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Panama",
-          "name": "RDC Bio Na Bio",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015820433,
-        "lat": 48.8876745,
-        "lon": 2.3524256,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:email": "trioafrica@yahoo.fr",
-          "contact:housenumber": "3",
-          "contact:phone": "+33 9 82 34 48 24",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Panama",
-          "name": "Trio Africa",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015820436,
-        "lat": 48.8876981,
-        "lon": 2.3523236,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "5",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Panama",
-          "name": "La Grande Poissonnerie",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015820441,
-        "lat": 48.8879284,
-        "lon": 2.3518899,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "16",
-          "contact:phone": "+33 6 22 64 54 87",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Panama",
-          "name": "Congo Exotique",
-          "ref:FR:SIRET": "82764091300014",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015820442,
-        "lat": 48.8879553,
-        "lon": 2.3517476,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "18",
-          "contact:postcode": "75018",
-          "contact:street": "Rue de Panama",
-          "name": "Yatalie",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6015820443,
-        "lat": 48.8880135,
-        "lon": 2.3515303,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "34",
-          "contact:phone": "+33 1 42 52 84 45",
-          "contact:postcode": "75018",
-          "contact:street": "Rue des Poissonniers",
-          "name": "Number One - Produits Africains",
-          "ref:FR:SIRET": "88180834900016",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6095513190,
-        "lat": 48.8866773,
-        "lon": 2.35411,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "19",
-          "addr:postcode": "75018",
-          "addr:street": "Rue Cavé",
-          "description": "Maison d'édition associative (loi 1901)",
-          "email": "xerographes@free.fr",
-          "name": "Les Xérographes éditions",
-          "phone": "+33 1 42 39 59 30",
-          "shop": "books",
-          "website": "http://xerographes.free.fr/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6109260235,
-        "lat": 48.8708643,
-        "lon": 2.3586579,
-        "tags": {
-          "check_date": "2025-12-07",
-          "contact:city": "Paris",
-          "contact:housenumber": "29 ter",
-          "contact:phone": "+33140278863",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Château d'Eau",
-          "name": "Univers BD",
-          "opening_hours": "Tu-Fr 11:00-19:30; Sa 11:00-20:00",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "shop": "books",
-          "website": "https://www.univers-bd.fr/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6109818937,
-        "lat": 48.8873706,
-        "lon": 2.3499637,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "48",
-          "contact:postcode": "75018",
-          "contact:street": "Boulevard Barbès",
-          "name": "Le Fournil de Paris",
-          "shop": "bakery"
         }
       },
       {
@@ -3638,281 +1468,6 @@
           "organic": "only",
           "shop": "convenience",
           "website": "https://m.facebook.com/paubourdet/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6470447213,
-        "lat": 48.8858471,
-        "lon": 2.3463656,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "1",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Feutrier",
-          "name": "Raphaëlle",
-          "opening_hours": "PH,Th-Tu 07:30-20:00",
-          "ref:FR:SIRET": "51383415000015",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6498942882,
-        "lat": 48.8863636,
-        "lon": 2.3453454,
-        "tags": {
-          "check_date": "2025-04-30",
-          "contact:city": "Paris",
-          "contact:housenumber": "21",
-          "contact:postcode": "75018",
-          "contact:street": "Rue Muller",
-          "name": "Alimentation Générale",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6932803072,
-        "lat": 48.8871762,
-        "lon": 2.3607978,
-        "tags": {
-          "name": "Boutique wad jaba",
-          "shop": "convenience",
-          "source": "GPS"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6932803083,
-        "lat": 48.888853,
-        "lon": 2.3606873,
-        "tags": {
-          "name": "Xamar-cade shop",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6948196335,
-        "lat": 48.8711629,
-        "lon": 2.3611317,
-        "tags": {
-          "air_conditioning": "no",
-          "contact:city": "Paris",
-          "contact:housenumber": "8",
-          "contact:postcode": "75010",
-          "contact:street": "Place Jacques Bonsergent",
-          "indoor_seating": "no",
-          "name": "Aux Gourmands de la Place",
-          "opening_hours": "Th-Tu 06:15-21:00",
-          "outdoor_seating": "no",
-          "ref:FR:SIRET": "88175083000013",
-          "shop": "bakery",
-          "takeaway": "only"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7414322774,
-        "lat": 48.8837288,
-        "lon": 2.3438336,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "33",
-          "addr:postcode": "75018",
-          "addr:street": "Rue d'Orsel",
-          "branch": "Montmartre",
-          "brand": "Les Fournils de France",
-          "brand:wikidata": "Q104649900",
-          "name": "Les Fournils de France",
-          "opening_hours": "Mo-Su 07:00-20:00",
-          "operator": "Groupe Les Fournils de France - Franchise",
-          "payment:cash": "yes",
-          "payment:coins": "yes",
-          "payment:credit_cards": "yes",
-          "payment:mastercard": "yes",
-          "payment:meal_voucher": "yes",
-          "payment:visa": "yes",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7857286112,
-        "lat": 48.8883247,
-        "lon": 2.3605752,
-        "tags": {
-          "contact:instagram": "lalunedesmoissons",
-          "name": "La Lune des Moissons",
-          "opening_hours": "Mo-Fr 16:00-19:00, Tu-Fr 12:00-13:00, Sa 09:30-12:30",
-          "ref:FR:SIREN": "928685346",
-          "ref:FR:SIRET": "92868534600019",
-          "ref:vatin": "FR31928685346",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7923610560,
-        "lat": 48.8731474,
-        "lon": 2.3544459,
-        "tags": {
-          "check_date": "2026-04-14",
-          "contact:city": "Paris",
-          "contact:housenumber": "77",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Denis",
-          "name": "Alimentation du Faubourg",
-          "ref:FR:SIRET": "49202667900018",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7972587890,
-        "lat": 48.8725284,
-        "lon": 2.3597312,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "44",
-          "contact:postcode": "75010",
-          "contact:street": "Boulevard de Magenta",
-          "name": "Ottugui Mart",
-          "ref:FR:SIRET": "98247688900018",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7973719664,
-        "lat": 48.8870699,
-        "lon": 2.3610346,
-        "tags": {
-          "name": "Gambax",
-          "ref:FR:SIRET": "85003058600018",
-          "shop": "convenience",
-          "source": "GPS"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7995599875,
-        "lat": 48.8866745,
-        "lon": 2.3460881,
-        "tags": {
-          "name": "P.T.S. SARL",
-          "ref:FR:SIRET": "85085766500010",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 8001409001,
-        "lat": 48.8876279,
-        "lon": 2.3487924,
-        "tags": {
-          "check_date": "2025-06-07",
-          "contact:email": "contact@librairielepiedaterre.com",
-          "contact:housenumber": "9",
-          "contact:phone": "+33 1 44 85 20 68",
-          "contact:street": "Rue Custine",
-          "facebook": "https://www.facebook.com/librairielepiedaterre/",
-          "name": "Le Pied à Terre",
-          "opening_hours": "Mo 11:00-20:00; Tu-Sa 10:00-20:00; Su 11:00-19:00",
-          "ref:FR:SIRET": "88398276100016",
-          "ref:vatin": "FR14883982761",
-          "shop": "books",
-          "website": "https://librairielepiedaterre.com/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 8013873985,
-        "lat": 48.8802739,
-        "lon": 2.3413815,
-        "tags": {
-          "addr:housenumber": "65",
-          "addr:postcode": "75009",
-          "addr:street": "Rue Condorcet",
-          "name": "Babka Zana",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 8380350417,
-        "lat": 48.8719712,
-        "lon": 2.3537467,
-        "tags": {
-          "addr:floor": "0",
-          "check_date": "2026-07-21",
-          "contact:city": "Paris",
-          "contact:housenumber": "57",
-          "contact:phone": "+33 1 47 70 92 08",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Denis",
-          "level": "0",
-          "name": "Le Pain à la Broche",
-          "opening_hours": "Mo,We-Sa 07:00-21:00",
-          "panoramax": "4902973e-a2e9-4da0-b412-07d59f985c40",
-          "ref:FR:SIRET": "53143530300015",
-          "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 8493896719,
-        "lat": 48.8821685,
-        "lon": 2.3415794,
-        "tags": {
-          "check_date": "2024-05-12",
-          "name": "Mini Supermarket",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 8613200073,
-        "lat": 48.8823854,
-        "lon": 2.3682491,
-        "tags": {
-          "check_date": "2026-01-11",
-          "check_date:opening_hours": "2026-01-11",
-          "contact:city": "Paris",
-          "contact:housenumber": "237",
-          "contact:postcode": "75010",
-          "contact:street": "Rue La Fayette",
-          "name": "Alimentation générale",
-          "opening_hours:signed": "no",
-          "operator": "SARL GAZI",
-          "ref:FR:SIRET": "85274526400014",
-          "shop": "convenience",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 8879556218,
-        "lat": 48.8773552,
-        "lon": 2.3425331,
-        "tags": {
-          "brand": "Biocoop",
-          "brand:wikidata": "Q2904039",
-          "brand:wikipedia": "fr:Biocoop",
-          "contact:city": "Paris",
-          "contact:housenumber": "4",
-          "contact:phone": "+33 1 40 38 61 08",
-          "contact:postcode": "75009",
-          "contact:street": "Rue Choron",
-          "contact:website": "https://www.biocoopchoron.fr",
-          "name": "Biocoop",
-          "official_name": "Biocoop Choron",
-          "opening_hours": "Mo-Sa 10:00-20:00",
-          "organic": "only",
-          "ref:FR:SIRET": "88377415000014",
-          "shop": "convenience"
         }
       },
       {
@@ -4005,42 +1560,6 @@
       },
       {
         "type": "node",
-        "id": 9432191911,
-        "lat": 48.8853084,
-        "lon": 2.3614104,
-        "tags": {
-          "check_date": "2026-07-04",
-          "name": "Africano Store",
-          "shop": "convenience",
-          "source": "survey 01/2022",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9432191912,
-        "lat": 48.8862549,
-        "lon": 2.3612056,
-        "tags": {
-          "level": "0",
-          "name": "Sithi Vinayaka",
-          "ref:FR:SIRET": "88479668100010",
-          "shop": "convenience",
-          "source": "survey 01/2022"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9558699355,
-        "lat": 48.8782122,
-        "lon": 2.3405577,
-        "tags": {
-          "name": "Natural",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 9569438617,
         "lat": 48.879974,
         "lon": 2.3510545,
@@ -4079,36 +1598,6 @@
           "name": "Saisonniers",
           "ref:FR:SIRET": "94806147800020",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9571485317,
-        "lat": 48.8707732,
-        "lon": 2.3564234,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "41",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "name": "SPN Telecom",
-          "ref:FR:SIRET": "89480959900018",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9943064222,
-        "lat": 48.8841203,
-        "lon": 2.3421126,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "5",
-          "addr:postcode": "75018",
-          "addr:street": "Rue Tardieu",
-          "name": "Au Pied de la Lettre",
-          "phone": "+33146061405",
-          "shop": "books"
         }
       },
       {
@@ -4249,19 +1738,6 @@
       },
       {
         "type": "node",
-        "id": 11054613864,
-        "lat": 48.8739539,
-        "lon": 2.3559069,
-        "tags": {
-          "check_date": "2026-04-14",
-          "name": "Books After 8",
-          "ref:FR:SIRET": "82096516800025",
-          "shop": "books",
-          "wikidata": "Q124036690"
-        }
-      },
-      {
-        "type": "node",
         "id": 11054617914,
         "lat": 48.8743219,
         "lon": 2.3568085,
@@ -4272,30 +1748,6 @@
           "contact:street": "Boulevard de Strasbourg",
           "name": "GM Exo Supermarché",
           "ref:FR:SIRET": "51186544600013",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11065360471,
-        "lat": 48.8884386,
-        "lon": 2.3507538,
-        "tags": {
-          "name": "Ilwaco Alimentation",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11114080057,
-        "lat": 48.8753489,
-        "lon": 2.3432095,
-        "tags": {
-          "name:signed": "no",
-          "official_name": "Veskar",
-          "ref:FR:SIREN": "944974294",
-          "ref:FR:SIRET": "94497429400018",
-          "ref:vatin": "FR21944974294",
           "shop": "convenience"
         }
       },
@@ -4327,80 +1779,6 @@
       },
       {
         "type": "node",
-        "id": 11215211926,
-        "lat": 48.8722681,
-        "lon": 2.3542079,
-        "tags": {
-          "addr:housenumber": "56",
-          "addr:street": "Rue du Faubourg Saint-Denis",
-          "check_date": "2026-06-30",
-          "contact:city": "Paris",
-          "contact:housenumber": "54",
-          "contact:phone": "+33 1 48 00 01 40",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Denis",
-          "contact:website": "https://www.julhesparis.eu/nos-magasins-/",
-          "name": "Julhès Paris",
-          "official_name": "Julhès Fournil à pains",
-          "opening_hours": "Mo-Fr 07:30-20:00; Sa,Su 08:00-20:00",
-          "ref:FR:SIRET": "41062031400030",
-          "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11215236884,
-        "lat": 48.87405,
-        "lon": 2.3553452,
-        "tags": {
-          "check_date": "2026-01-30",
-          "name": "Épicerie Sadaqat",
-          "ref:FR:SIRET": "41871786400015",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11215237551,
-        "lat": 48.8740811,
-        "lon": 2.3553608,
-        "tags": {
-          "addr:housenumber": "90",
-          "addr:street": "Rue du Faubourg Saint-Denis",
-          "check_date": "2025-08-22",
-          "name": "Royal Sweets",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11230512091,
-        "lat": 48.8716941,
-        "lon": 2.3532612,
-        "tags": {
-          "check_date": "2026-05-20",
-          "contact:city": "Paris",
-          "contact:housenumber": "2",
-          "contact:postcode": "75010",
-          "contact:street": "Rue d'Enghien",
-          "name": "Épicerie Paris",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11232569423,
-        "lat": 48.888815,
-        "lon": 2.3561563,
-        "tags": {
-          "name": "Bioqueria",
-          "opening_hours": "Mo-Sa 08:30-20:00; Su 10:00-20:00",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 11233059930,
         "lat": 48.8769609,
         "lon": 2.3518357,
@@ -4413,100 +1791,10 @@
       },
       {
         "type": "node",
-        "id": 11279744937,
-        "lat": 48.883703,
-        "lon": 2.368115,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "265",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "name": "Chez Ramy",
-          "ref:FR:SIRET": "81355101700011",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11281514333,
-        "lat": 48.8840788,
-        "lon": 2.3657391,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "163",
-          "contact:postcode": "75010",
-          "contact:street": "Boulevard de la Villette",
-          "name": "Kani Market",
-          "ref:FR:SIRET": "81446035800017",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11281523795,
-        "lat": 48.8840917,
-        "lon": 2.3655806,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "165",
-          "contact:postcode": "75010",
-          "contact:street": "Boulevard de la Villette",
-          "name": "Papa Afrika",
-          "ref:FR:SIRET": "89106832200017",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11281546773,
-        "lat": 48.8840967,
-        "lon": 2.3654812,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "165",
-          "contact:postcode": "75010",
-          "contact:street": "Boulevard de la Villette",
-          "name": "Mini Alimentation",
-          "ref:FR:SIRET": "92744044600015",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11287948413,
-        "lat": 48.8814996,
-        "lon": 2.3648877,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "217",
-          "contact:postcode": "75010",
-          "contact:street": "Rue La Fayette",
-          "name": "Solution Center St Shop",
-          "ref:FR:SIRET": "93292535700018",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 11372148367,
         "lat": 48.8854092,
         "lon": 2.3595842,
         "tags": {
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11409713764,
-        "lat": 48.8740852,
-        "lon": 2.3466877,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "14",
-          "addr:postcode": "75009",
-          "addr:street": "Rue Richer",
-          "check_date": "2026-05-27",
-          "name": "Quignon",
           "shop": "bakery"
         }
       },
@@ -4539,92 +1827,12 @@
       },
       {
         "type": "node",
-        "id": 11494422728,
-        "lat": 48.884798,
-        "lon": 2.3652681,
-        "tags": {
-          "name": "Viliano Market",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11494429297,
-        "lat": 48.8847552,
-        "lon": 2.3652358,
-        "tags": {
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11494439520,
-        "lat": 48.884615,
-        "lon": 2.3650956,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "2",
-          "addr:postcode": "75019",
-          "addr:street": "Rue d'Aubervilliers",
-          "name": "Exola",
-          "ref:FR:SIRET": "48508625000027",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 11610961897,
         "lat": 48.8795204,
         "lon": 2.3468913,
         "tags": {
           "name": "Chez Karim",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11619184251,
-        "lat": 48.8835319,
-        "lon": 2.3639947,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "35",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Château Landon",
-          "name:signed": "no",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11682533822,
-        "lat": 48.8735182,
-        "lon": 2.3619885,
-        "tags": {
-          "brand": "Monop'",
-          "brand:wikidata": "Q89913683",
-          "check_date": "2025-06-23",
-          "contact:city": "Paris",
-          "contact:housenumber": "40",
-          "contact:phone": "+33 1 44 63 70 71",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Lucien Sampaix",
-          "contact:website": "https://www.monoprix.fr/2692.html",
-          "name": "Monop'",
-          "official_name": "Monop Villemin",
-          "opening_hours": "Mo-Sa 08:00-23:00; Su 09:00-21:00",
-          "ref:FR:SIRET": "44465668001228",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11876240584,
-        "lat": 48.8852049,
-        "lon": 2.3656455,
-        "tags": {
-          "name:signed": "no",
-          "shop": "bakery"
         }
       },
       {
@@ -4643,44 +1851,6 @@
           "phone": "+33 9 53 11 01 61",
           "shop": "books",
           "website": "https://libelluleetcoccinelle.fr/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12022960491,
-        "lat": 48.8887486,
-        "lon": 2.3493733,
-        "tags": {
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12149875559,
-        "lat": 48.8846096,
-        "lon": 2.3635572,
-        "tags": {
-          "name": "Awash Alimentation Génerale",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12248155201,
-        "lat": 48.880318,
-        "lon": 2.3639578,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "207",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "contact:website": "https://patisseriemrjacques.com/",
-          "level": "0",
-          "name": "M. Jacques",
-          "opening_hours": "Tu-Su 07:00-20:00",
-          "organic": "yes",
-          "ref:FR:SIRET": "90400197100020",
-          "shop": "bakery"
         }
       },
       {
@@ -4728,17 +1898,6 @@
       },
       {
         "type": "node",
-        "id": 12290487966,
-        "lat": 48.8746626,
-        "lon": 2.3590627,
-        "tags": {
-          "name": "Nava super marché",
-          "ref:FR:SIRET": "88887189400018",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 12353636531,
         "lat": 48.8810852,
         "lon": 2.358506,
@@ -4746,17 +1905,6 @@
           "level": "0",
           "name": "Kaveri store",
           "ref:FR:SIRET": "82289838300010",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12585422209,
-        "lat": 48.8882621,
-        "lon": 2.3503783,
-        "tags": {
-          "name": "Gomon Exotique",
-          "ref:FR:SIRET": "39323355600017",
           "shop": "convenience"
         }
       },
@@ -4782,34 +1930,6 @@
       },
       {
         "type": "node",
-        "id": 12964197953,
-        "lat": 48.8708006,
-        "lon": 2.3553388,
-        "tags": {
-          "addr:housenumber": "18",
-          "addr:street": "Boulevard de Strasbourg",
-          "check_date": "2025-09-22",
-          "name": "N.T.A. Market",
-          "ref:FR:SIRET": "95190614800014",
-          "shop": "convenience",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13052073202,
-        "lat": 48.8886951,
-        "lon": 2.3548832,
-        "tags": {
-          "addr:housenumber": "42",
-          "addr:street": "Rue Doudeauville",
-          "name": "Canaan Exo",
-          "ref:FR:SIRET": "48918938100028",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 13094307266,
         "lat": 48.8792765,
         "lon": 2.3541281,
@@ -4819,127 +1939,6 @@
           "contact:street": "Boulevard de Denain",
           "name": "Supermarket L20",
           "ref:FR:SIRET": "93875922200012",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13098975574,
-        "lat": 48.8855729,
-        "lon": 2.3660288,
-        "tags": {
-          "name": "Assila Market",
-          "ref:FR:SIRET": "94167334500018",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13098988260,
-        "lat": 48.8849583,
-        "lon": 2.3654178,
-        "tags": {
-          "name": "Sarl paristars",
-          "ref:FR:SIRET": "82365627700030",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13098994516,
-        "lat": 48.8850308,
-        "lon": 2.3654903,
-        "tags": {
-          "name": "Produits exotiques SKS",
-          "ref:FR:SIRET": "48508625000050",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13098998433,
-        "lat": 48.88528,
-        "lon": 2.3657242,
-        "tags": {
-          "name": "Exola distribution",
-          "ref:FR:SIRET": "48508625000035",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13123697201,
-        "lat": 48.871611,
-        "lon": 2.3496795,
-        "tags": {
-          "addr:housenumber": "35",
-          "addr:street": "Rue d'Enghien",
-          "check_date": "2026-06-30",
-          "contact:city": "Paris",
-          "contact:housenumber": "35",
-          "contact:instagram": "fox.garden.librairie",
-          "contact:postcode": "75000",
-          "contact:street": "Rue de l'Échiquier",
-          "name": "Fox garden",
-          "ref:FR:SIRET": "94249479000028",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13190881064,
-        "lat": 48.8744441,
-        "lon": 2.345485,
-        "tags": {
-          "name": "Ohr Moshe",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13197694417,
-        "lat": 48.873803,
-        "lon": 2.3570405,
-        "tags": {
-          "check_date": "2026-02-10",
-          "contact:city": "Paris",
-          "contact:facebook": "https://www.facebook.com/people/Coxs-Supermarch%C3%A9/61558658573755/",
-          "contact:housenumber": "60",
-          "contact:postcode": "75010",
-          "contact:street": "Boulevard de Strasbourg",
-          "name": "Cox’s Supermarket",
-          "ref:FR:SIRET": "92836591500018",
-          "shop": "convenience",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13514698958,
-        "lat": 48.873361,
-        "lon": 2.3549092,
-        "tags": {
-          "check_date": "2026-01-30",
-          "contact:city": "Paris",
-          "contact:housenumber": "78",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Denis",
-          "name": "Punjab Alimentation Générale",
-          "ref:FR:SIRET": "99892878200015",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13540731064,
-        "lat": 48.8736765,
-        "lon": 2.3564425,
-        "tags": {
-          "check_date": "2026-02-10",
-          "contact:city": "Paris",
-          "contact:housenumber": "65",
-          "contact:postcode": "75010",
-          "contact:street": "Boulevard de Strasbourg",
           "shop": "convenience"
         }
       },
@@ -4958,33 +1957,6 @@
       },
       {
         "type": "node",
-        "id": 13844176145,
-        "lat": 48.8851403,
-        "lon": 2.3474008,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "18",
-          "addr:postcode": "75018",
-          "addr:street": "Rue de Clignancourt",
-          "name": "Urban Bakery Clignancourt",
-          "opening_hours": "Mo-Su 08:00-19:30",
-          "shop": "bakery",
-          "website": "https://urbakery.com/boutique/clignancourt"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13851538840,
-        "lat": 48.8718327,
-        "lon": 2.3523244,
-        "tags": {
-          "check_date": "2026-05-20",
-          "name": "J. Duvinage",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
         "id": 13890849203,
         "lat": 48.8821449,
         "lon": 2.3464815,
@@ -4996,45 +1968,9 @@
           "name": "Chez Carla",
           "shop": "bakery"
         }
-      },
-      {
-        "type": "node",
-        "id": 13985624899,
-        "lat": 48.875976,
-        "lon": 2.3458783,
-        "tags": {
-          "check_date": "2026-07-03",
-          "name": "Le Lys Bleu",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 14026665356,
-        "lat": 48.8791387,
-        "lon": 2.3433723,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "25",
-          "addr:postcode": "75009",
-          "addr:street": "Rue Louise-Émilie de La Tour d'Auvergne",
-          "name": "Supérette de la Tour d'Auvergne",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 14030384191,
-        "lat": 48.8719909,
-        "lon": 2.3537715,
-        "tags": {
-          "check_date": "2026-07-21",
-          "name": "Alimentation Generale Julien",
-          "shop": "convenience"
-        }
       }
     ]
   },
-  "fetchedAt": "2026-08-04T03:00:37.235Z",
+  "fetchedAt": "2026-08-04T03:03:49.300Z",
   "staleDataWarning": true
 }
