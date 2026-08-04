@@ -17,6 +17,8 @@ const stations = [
   { name: 'Gare Saint-Lazare', lat: 48.8768, lng: 2.3243 },
   { name: 'Gare de l\'Est',    lat: 48.8760, lng: 2.3597 },
   { name: 'Gare d\'Austerlitz',lat: 48.8418, lng: 2.3646 },
+  { name: 'Gare de Lille-Flandres',lat: 50.6365, lng: 3.0708 },
+  { name: "Gare de Lille-Europe",   lat: 50.6395, lng: 3.0755 }
 ];
 
 // ---------------------------------------------------------------------------
