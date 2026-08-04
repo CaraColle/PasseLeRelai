@@ -115,23 +115,280 @@
   };
 
   const cities = {
-    paris: {
-      label: "Paris",
-      center: [48.8566, 2.3522],
-      zoom: 12,
-      stationNames: [
-        "Gare de Lyon", "Gare du Nord", "Gare de l'Est",
-        "Gare Montparnasse", "Gare Saint-Lazare", "Gare d'Austerlitz"
-      ]
-    },
-    lille: {
-      label: "Lille",
-      center: [50.6292, 3.0573], zoom: 12,
-      stationNames: [
-        "Gare de Lille-Flandres", "Gare de Lille-Europe"
-      ]
-    }
-  };
+  amiens: {
+    label: "Amiens",
+    center: [49.8942, 2.2957],
+    zoom: 13,
+    stationNames: [
+      "Gare d'Amiens"
+    ]
+  },
+  angers: {
+    label: "Angers",
+    center: [47.4784, -0.5632],
+    zoom: 13,
+    stationNames: [
+      "Gare d'Angers-Saint-Laud"
+    ]
+  },
+  "aix-en-provence": {
+    label: "Aix-en-Provence",
+    center: [43.5297, 5.4474],
+    zoom: 13,
+    stationNames: [
+      "Gare d'Aix-en-Provence TGV"
+    ]
+  },
+  besancon: {
+    label: "Besançon",
+    center: [47.2378, 6.0241],
+    zoom: 13,
+    stationNames: [
+      "Gare de Besançon-Viotte"
+    ]
+  },
+  bordeaux: {
+    label: "Bordeaux",
+    center: [44.8378, -0.5792],
+    zoom: 12,
+    stationNames: [
+      "Gare de Bordeaux-Saint-Jean"
+    ]
+  },
+  brest: {
+    label: "Brest",
+    center: [48.3904, -4.4861],
+    zoom: 13,
+    stationNames: [
+      "Gare de Brest"
+    ]
+  },
+  caen: {
+    label: "Caen",
+    center: [49.1829, -0.3707],
+    zoom: 13,
+    stationNames: [
+      "Gare de Caen"
+    ]
+  },
+  "clermont-ferrand": {
+    label: "Clermont-Ferrand",
+    center: [45.7772, 3.0870],
+    zoom: 13,
+    stationNames: [
+      "Gare de Clermont-Ferrand"
+    ]
+  },
+  dijon: {
+    label: "Dijon",
+    center: [47.3220, 5.0415],
+    zoom: 13,
+    stationNames: [
+      "Gare de Dijon-Ville"
+    ]
+  },
+  grenoble: {
+    label: "Grenoble",
+    center: [45.1885, 5.7245],
+    zoom: 13,
+    stationNames: [
+      "Gare de Grenoble"
+    ]
+  },
+  "le-havre": {
+    label: "Le Havre",
+    center: [49.4944, 0.1079],
+    zoom: 13,
+    stationNames: [
+      "Gare du Havre"
+    ]
+  },
+  "le-mans": {
+    label: "Le Mans",
+    center: [48.0077, 0.1984],
+    zoom: 13,
+    stationNames: [
+      "Gare du Mans"
+    ]
+  },
+  limoges: {
+    label: "Limoges",
+    center: [45.8336, 1.2611],
+    zoom: 13,
+    stationNames: [
+      "Gare de Limoges-Bénédictins"
+    ]
+  },
+  lille: {
+    label: "Lille",
+    center: [50.6292, 3.0573],
+    zoom: 12,
+    stationNames: [
+      "Gare de Lille-Flandres", "Gare de Lille-Europe"
+    ]
+  },
+  lyon: {
+    label: "Lyon",
+    center: [45.7640, 4.8357],
+    zoom: 12,
+    stationNames: [
+      "Gare de Lyon-Part-Dieu", "Gare de Lyon-Perrache"
+    ]
+  },
+  marseille: {
+    label: "Marseille",
+    center: [43.2965, 5.3698],
+    zoom: 12,
+    stationNames: [
+      "Gare de Marseille-Saint-Charles"
+    ]
+  },
+  metz: {
+    label: "Metz",
+    center: [49.1193, 6.1757],
+    zoom: 13,
+    stationNames: [
+      "Gare de Metz-Ville"
+    ]
+  },
+  montpellier: {
+    label: "Montpellier",
+    center: [43.6100, 3.9060],
+    zoom: 13,
+    stationNames: [
+      "Gare de Montpellier Saint-Roch", "Gare de Montpellier Sud de France"
+    ]
+  },
+  mulhouse: {
+    label: "Mulhouse",
+    center: [47.7508, 7.3359],
+    zoom: 13,
+    stationNames: [
+      "Gare de Mulhouse-Ville"
+    ]
+  },
+  nancy: {
+    label: "Nancy",
+    center: [48.6921, 6.1844],
+    zoom: 13,
+    stationNames: [
+      "Gare de Nancy-Ville"
+    ]
+  },
+  nantes: {
+    label: "Nantes",
+    center: [47.2184, -1.5536],
+    zoom: 12,
+    stationNames: [
+      "Gare de Nantes"
+    ]
+  },
+  nice: {
+    label: "Nice",
+    center: [43.7102, 7.2620],
+    zoom: 12,
+    stationNames: [
+      "Gare de Nice-Ville"
+    ]
+  },
+  nimes: {
+    label: "Nîmes",
+    center: [43.8367, 4.3601],
+    zoom: 13,
+    stationNames: [
+      "Gare de Nîmes"
+    ]
+  },
+  orleans: {
+    label: "Orléans",
+    center: [47.9029, 1.9093],
+    zoom: 13,
+    stationNames: [
+      "Gare d'Orléans"
+    ]
+  },
+  paris: {
+    label: "Paris",
+    center: [48.8566, 2.3522],
+    zoom: 12,
+    stationNames: [
+      "Gare de Lyon", "Gare du Nord", "Gare de l'Est",
+      "Gare Montparnasse", "Gare Saint-Lazare", "Gare d'Austerlitz"
+    ]
+  },
+  perpignan: {
+    label: "Perpignan",
+    center: [42.6986, 2.8955],
+    zoom: 13,
+    stationNames: [
+      "Gare de Perpignan"
+    ]
+  },
+  reims: {
+    label: "Reims",
+    center: [49.2583, 4.0317],
+    zoom: 13,
+    stationNames: [
+      "Gare de Reims"
+    ]
+  },
+  rennes: {
+    label: "Rennes",
+    center: [48.1173, -1.6778],
+    zoom: 13,
+    stationNames: [
+      "Gare de Rennes"
+    ]
+  },
+  rouen: {
+    label: "Rouen",
+    center: [49.4431, 1.0993],
+    zoom: 13,
+    stationNames: [
+      "Gare de Rouen-Rive-Droite"
+    ]
+  },
+  "saint-etienne": {
+    label: "Saint-Étienne",
+    center: [45.4397, 4.3872],
+    zoom: 13,
+    stationNames: [
+      "Gare de Saint-Étienne-Châteaucreux"
+    ]
+  },
+  strasbourg: {
+    label: "Strasbourg",
+    center: [48.5734, 7.7521],
+    zoom: 12,
+    stationNames: [
+      "Gare de Strasbourg-Ville"
+    ]
+  },
+  toulouse: {
+    label: "Toulouse",
+    center: [43.6047, 1.4442],
+    zoom: 12,
+    stationNames: [
+      "Gare de Toulouse-Matabiau"
+    ]
+  },
+  toulon: {
+    label: "Toulon",
+    center: [43.1242, 5.9280],
+    zoom: 13,
+    stationNames: [
+      "Gare de Toulon"
+    ]
+  },
+  tours: {
+    label: "Tours",
+    center: [47.3941, 0.6848],
+    zoom: 13,
+    stationNames: [
+      "Gare de Tours"
+    ]
+  }
+};
 
   let map = null;
   let stationMarkersLayer = null;
