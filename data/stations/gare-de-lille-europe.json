@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785815466527,
+      "timestamp": 1785844359863,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -254,7 +254,177 @@
       }
     }
   },
-  "shops": null,
-  "fetchedAt": "2026-08-04T03:49:47.443Z",
-  "staleDataWarning": true
+  "shops": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-06-12T12:14:17Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 4391952289,
+        "lat": 50.6347202,
+        "lon": 3.0722672,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:housenumber": "22",
+          "contact:phone": "+33 3 20 74 50 23",
+          "contact:postcode": "59800",
+          "contact:street": "Rue de Tournai",
+          "name": "La p'tite boulangerie",
+          "name:fr": "La p'tite boulangerie",
+          "opening_hours": "Mo-Fr 07:00-19:00",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4504620806,
+        "lat": 50.6356843,
+        "lon": 3.0680579,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:housenumber": "2",
+          "contact:postcode": "59000",
+          "contact:street": "Rue Saint-Genois",
+          "name": "Boulangerie du Renard",
+          "opening_hours": "Mo-Fr 06:30-19:30; Sa 07:00-19:00",
+          "ref:FR:SIRET": "80398995300010",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5856187373,
+        "lat": 50.6366398,
+        "lon": 3.0671798,
+        "tags": {
+          "check_date": "2025-09-15",
+          "check_date:opening_hours": "2025-09-15",
+          "contact:city": "Lille",
+          "contact:facebook": "https://www.facebook.com/Crocbook-Lille-1606523822922831/",
+          "contact:housenumber": "28",
+          "contact:phone": "+33 320514905",
+          "contact:postcode": "59000",
+          "contact:street": "Rue des Ponts de Comines",
+          "contact:website": "https://www.crocbook.fr",
+          "name": "Crocbook",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "84307153100019",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6506248319,
+        "lat": 50.6379914,
+        "lon": 3.0681757,
+        "tags": {
+          "name": "Mamatte",
+          "opening_hours": "Mo-Sa 07:30-19:00; Su 07:30-13:00",
+          "phone": "+33 3 20 31 44 20",
+          "shop": "bakery",
+          "website": "https://www.mamatte.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7230131499,
+        "lat": 50.637321,
+        "lon": 3.084036,
+        "tags": {
+          "name": "Croustibaguette",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7416672420,
+        "lat": 50.6349772,
+        "lon": 3.0689255,
+        "tags": {
+          "contact:city": "Lille",
+          "contact:housenumber": "40",
+          "contact:phone": "+33 3 20 15 36 36",
+          "contact:postcode": "59800",
+          "contact:street": "Rue du Molinel",
+          "contact:website": "http://www.clcfrance.com/lille",
+          "drinking_water:refill": "yes",
+          "drinking_water:refill:network": "Gourde Friendly",
+          "name": "Librairie Chrétienne CLC",
+          "opening_hours": "Tu-Fr 10:30-13:00,14:00-18:30; Sa 10:30-13:00,14:00-18:00",
+          "ref:FR:SIRET": "77557197900258",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9066682566,
+        "lat": 50.638021,
+        "lon": 3.0668816,
+        "tags": {
+          "amenity": "cafe",
+          "contact:facebook": "https://www.facebook.com/people/Librairie-La-Parenth%C3%A8se/61558677360859/",
+          "contact:instagram": "laparentheselibrairie_lille",
+          "description": "Librairie & Salon de thé",
+          "name": "La Parenthèse",
+          "opening_hours": "Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "98419340900013",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9338777645,
+        "lat": 50.63575,
+        "lon": 3.0699878,
+        "tags": {
+          "check_date": "2026-04-13",
+          "contact:instagram": "paolina_lille",
+          "name": "Paolina",
+          "opening_hours": "Mo-Su 07:30-20:30",
+          "ref:FR:SIRET": "98210109900017",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 84920553,
+        "center": {
+          "lat": 50.6372351,
+          "lon": 3.0847996
+        },
+        "tags": {
+          "building": "retail",
+          "building:levels": "3",
+          "name": "Boulangerie Dalia",
+          "ref:FR:SIRET": "49483953300010",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      },
+      {
+        "type": "way",
+        "id": 84939752,
+        "center": {
+          "lat": 50.6417124,
+          "lon": 3.0849712
+        },
+        "tags": {
+          "building": "retail",
+          "building:levels": "4",
+          "dog": "yes",
+          "name": "Hépi",
+          "opening_hours": "Mo-Sa 07:30-19:30; Su 08:00-13:00",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+        }
+      }
+    ]
+  },
+  "fetchedAt": "2026-08-04T11:49:51.831Z",
+  "staleDataWarning": false
 }
