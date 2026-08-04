@@ -41,24 +41,79 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+/**
+ * Point-in-polygon test using ray casting algorithm.
+ * Returns true if point [lng, lat] is inside the polygon.
+ */
+function pointInPolygon(point, polygon) {
+  const [lng, lat] = point;
+  let inside = false;
+
+  for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
+    const [xi, yi] = polygon[i];
+    const [xj, yj] = polygon[j];
+
+    if (
+      yi > lat !== yj > lat &&
+      lng < ((xj - xi) * (lat - yi)) / (yj - yi) + xi
+    ) {
+      inside = !inside;
+    }
+  }
+
+  return inside;
+}
+
+/**
+ * Check if a point is inside any isochrone polygon.
+ */
+function isPointInIsochrone(point, isochrones) {
+  if (!isochrones || !isochrones.features) return false;
+
+  for (const feature of isochrones.features) {
+    const geometry = feature.geometry;
+    if (!geometry) continue;
+
+    // Handle Polygon
+    if (geometry.type === 'Polygon') {
+      const exterior = geometry.coordinates[0]; // Outer ring
+      if (pointInPolygon(point, exterior)) {
+        return true;
+      }
+    }
+    // Handle MultiPolygon
+    else if (geometry.type === 'MultiPolygon') {
+      for (const polygon of geometry.coordinates) {
+        const exterior = polygon[0];
+        if (pointInPolygon(point, exterior)) {
+          return true;
+        }
+      }
+    }
+  }
+
+  return false;
+}
+
 /** Build an Overpass QL query to find shops around a point within radius meters. */
-function buildShopQueryAround(lat, lng, radius = 800) {
-  const types = ['bakery', 'convenience', 'supermarket'];
-  const typeQuery = types.map(t => `node["shop"="${t}"]`).join('\n        ');
+function buildShopQueryAround(lat, lng, radius = 1500) {
+  const delta = radius / 111000; // Convert meters to degrees (rough approximation)
   return `
 [out:json][timeout:60];
 (
-  ${typeQuery}
-)->.shops;
-(
-  node.wkts_around(.shops, ${lat}, ${lng}, ${radius});
-)->.result;
-.result out body;
+  node["shop"="bakery"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  way["shop"="bakery"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  node["shop"="convenience"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  way["shop"="convenience"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  node["shop"="supermarket"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+  way["shop"="supermarket"](${lat - delta},${lng - delta},${lat + delta},${lng + delta});
+);
+out center tags;
 `.trim();
 }
 
 /** Fetch shops via Overpass API. */
-async function fetchShops(lat, lng, radius = 800) {
+async function fetchShops(lat, lng, radius = 1500) {
   const query = buildShopQueryAround(lat, lng, radius);
   const url = 'https://overpass-api.de/api/interpreter';
   const res = await fetch(url, {
@@ -146,7 +201,7 @@ async function main() {
     try {
       console.log(`  Fetching shops from Overpass...`);
       shopsData = await fetchShops(station.lat, station.lng);
-      console.log(`  Shops fetched: ${shopsData.elements?.length ?? 0} elements`);
+      console.log(`  Shops fetched: ${shopsData.elements?.length ?? 0} total elements`);
     } catch (err) {
       console.error(`  [WARN] Shops fetch failed: ${err.message}. Using existing data if available.`);
       staleDataWarning = true;
@@ -162,6 +217,25 @@ async function main() {
       console.error(`  [WARN] Isochrones fetch failed: ${err.message}. Using existing data if available.`);
       staleDataWarning = true;
       isochronesData = existing.isochrones ?? null;
+    }
+
+    // Filter shops to only those inside isochrones
+    if (shopsData && isochronesData) {
+      const shopsInsideIsochrones = shopsData.elements.filter(shop => {
+        const point = shop.lon !== undefined && shop.lat !== undefined 
+          ? [shop.lon, shop.lat]
+          : null;
+        
+        if (!point) return false;
+        return isPointInIsochrone(point, isochronesData);
+      });
+
+      console.log(`  Filtered to ${shopsInsideIsochrones.length} shops inside isochrones`);
+      
+      shopsData = {
+        ...shopsData,
+        elements: shopsInsideIsochrones,
+      };
     }
 
     const stationData = {
