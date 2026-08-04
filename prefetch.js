@@ -125,14 +125,14 @@ async function fetchShops(lat, lng, radius = 1500) {
   return res.json();
 }
 
-/** Fetch isochrones via ORS API (foot-walking, 300/600/900 seconds). */
+/** Fetch isochrones via ORS API (foot-walking, 300/600). */
 async function fetchIsochrones(lat, lng) {
   const apiKey = process.env.ORS_API_KEY;
   if (!apiKey) throw new Error('ORS_API_KEY environment variable is not set');
 
   const body = {
     locations: [[lng, lat]],
-    range: [300, 600, 900],
+    range: [300, 600],
     range_type: 'time',
     profile: 'foot-walking',
     units: 'm',
