@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785862660114,
+      "timestamp": 1785929924217,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-04T16:56:40Z",
+      "timestamp_osm_base": "2026-08-05T11:37:35Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -515,28 +515,6 @@
           "opening_hours": "Mo-Sa 07:00-20:00; Su off",
           "operator": "M. et Mme Brillault",
           "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 968924214,
-        "lat": 48.8408422,
-        "lon": 2.3172666,
-        "tags": {
-          "amenity": "fuel",
-          "brand": "8 à Huit",
-          "brand:wikidata": "Q2818601",
-          "brand:wikipedia": "fr:BP (entreprise)",
-          "compressed_air": "yes",
-          "fuel:e10": "yes",
-          "fuel:octane_98": "yes",
-          "name": "8 à Huit",
-          "opening_hours": "24/7",
-          "ref:FR:prix-carburants": "75015031",
-          "shop": "convenience",
-          "source": "Ministère de l'Economie, de l'Industrie et du Numérique - 03/2020",
-          "toilets": "yes",
           "wheelchair": "yes"
         }
       },
@@ -4565,6 +4543,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "fetchedAt": "2026-08-05T11:38:43.454Z",
   "staleDataWarning": false
 }

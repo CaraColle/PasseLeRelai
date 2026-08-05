@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785863815336,
+      "timestamp": 1785931311371,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-04T17:17:09Z",
+      "timestamp_osm_base": "2026-08-05T12:02:02Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1004,16 +1004,6 @@
       },
       {
         "type": "node",
-        "id": 2795799877,
-        "lat": 45.8394006,
-        "lon": 1.2574317,
-        "tags": {
-          "shop": "bakery",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 2795829956,
         "lat": 45.8408059,
         "lon": 1.2578654,
@@ -1390,6 +1380,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-04T16:57:39.202Z",
+  "fetchedAt": "2026-08-05T11:38:43.454Z",
   "staleDataWarning": false
 }
