@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785930215901,
+      "timestamp": 1786017498126,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-05T11:43:41Z",
+      "timestamp_osm_base": "2026-08-06T12:00:55Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1388,16 +1388,19 @@
         "lon": -1.5537828,
         "tags": {
           "books": "religion",
-          "check_date": "2025-10-12",
+          "check_date": "2026-08-05",
+          "check_date:opening_hours": "2026-08-05",
+          "contact:email": "lelivrechretien@free.fr",
+          "contact:housenumber": "8",
           "contact:phone": "+33 2 40 89 44 79",
           "contact:street": "Quai de Versailles",
           "contact:website": "https://librairie-le-livre.fr",
           "description": "Librairie chrétienne",
-          "email": "lelivrechretien@free.fr",
           "name": "Le Livre",
           "opening_hours": "Tu-Sa 10:00-19:00",
           "ref:FR:SIRET": "44755019500021",
-          "shop": "books"
+          "shop": "books",
+          "wheelchair": "yes"
         }
       },
       {
@@ -2519,6 +2522,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-05T11:38:43.454Z",
+  "fetchedAt": "2026-08-06T11:52:22.603Z",
   "staleDataWarning": false
 }

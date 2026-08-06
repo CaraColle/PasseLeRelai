@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785930336701,
+      "timestamp": 1786017756846,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-05T11:46:46Z",
+      "timestamp_osm_base": "2026-08-06T12:02:59Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -771,12 +771,12 @@
         "lat": 50.6356114,
         "lon": 3.0588461,
         "tags": {
+          "check_date": "2026-08-06",
           "contact:facebook": "https://www.facebook.com/maisonpapillon59/",
           "name": "Maison Papillon",
           "opening_hours": "Mo-Su 07:00-20:00",
           "ref:FR:SIRET": "81379900400011",
           "shop": "bakery",
-          "survey:date": "2018-12",
           "website": "https://boulangeriepapillon.fr",
           "wheelchair": "limited"
         }
@@ -1674,6 +1674,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-05T11:38:43.454Z",
+  "fetchedAt": "2026-08-06T11:52:22.603Z",
   "staleDataWarning": false
 }

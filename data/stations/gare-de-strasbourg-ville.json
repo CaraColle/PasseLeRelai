@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785930307866,
+      "timestamp": 1786017665795,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-05T11:45:44Z",
+      "timestamp_osm_base": "2026-08-06T12:00:55Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -847,9 +847,9 @@
           "addr:housenumber": "4",
           "addr:postcode": "67000",
           "addr:street": "Place de l'Homme de Fer",
-          "name": "Poulaillon Homme de Fer",
+          "name": "Poulaillon",
           "opening_hours": "Mo-Sa 06:00-19:30",
-          "phone": "+33388329660",
+          "phone": "+33 3 88 32 96 60",
           "ref:FR:SIRET": "43020123600253",
           "shop": "bakery",
           "website": "https://www.poulaillon.fr/",
@@ -1201,7 +1201,7 @@
           "check_date": "2026-07-29",
           "name": "La Mie Câline",
           "opening_hours": "Mo-Su 07:00-20:00",
-          "phone": "+33388353094",
+          "phone": "+33 3 88 35 30 94",
           "ref:FR:SIRET": "78926721800020",
           "shop": "bakery",
           "website": "https://lamiecaline.com/magasin/strasbourg/323"
@@ -1332,7 +1332,7 @@
           "addr:street": "Rue des Orfèvres",
           "name": "Le Pain des Fromagers",
           "opening_hours": "Tu-Fr 08:00-19:15; Sa 08:00-19:00",
-          "phone": "+33388225645",
+          "phone": "+33 3 88 22 56 45",
           "shop": "bakery",
           "wheelchair": "no"
         }
@@ -1788,6 +1788,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-05T11:38:43.454Z",
+  "fetchedAt": "2026-08-06T11:52:22.603Z",
   "staleDataWarning": false
 }

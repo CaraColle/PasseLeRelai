@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785929949211,
+      "timestamp": 1786017153095,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-05T11:40:39Z",
+      "timestamp_osm_base": "2026-08-06T11:54:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2747,8 +2747,13 @@
         "lat": 48.8504046,
         "lon": 2.3797312,
         "tags": {
+          "check_date": "2026-08-05",
+          "check_date:opening_hours": "2026-08-05",
           "name": "Sabah",
-          "shop": "convenience"
+          "opening_hours": "Mo 10:30-20:00; Tu-Su 09:00-20:00",
+          "ref:FR:SIRET": "34866698400039",
+          "shop": "convenience",
+          "website": "https://www.epicerie-sabah.fr"
         }
       },
       {
@@ -4324,21 +4329,6 @@
       },
       {
         "type": "way",
-        "id": 56206056,
-        "center": {
-          "lat": 48.8535613,
-          "lon": 2.3659254
-        },
-        "tags": {
-          "building": "yes",
-          "noname": "yes",
-          "shop": "kiosk",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "way",
         "id": 56208771,
         "center": {
           "lat": 48.852639,
@@ -4853,6 +4843,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-05T11:38:43.454Z",
+  "fetchedAt": "2026-08-06T11:52:22.603Z",
   "staleDataWarning": false
 }

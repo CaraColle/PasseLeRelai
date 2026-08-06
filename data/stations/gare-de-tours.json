@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785931224244,
+      "timestamp": 1786018216009,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-05T12:00:57Z",
+      "timestamp_osm_base": "2026-08-06T12:12:15Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -376,6 +376,7 @@
           "addr:postcode": "37000",
           "addr:street": "Rue Auguste Chevallier",
           "check_date": "2024-08-02",
+          "check_date:opening_hours": "2026-06-20",
           "contact:city": "Tours",
           "contact:facebook": "aroundthebread",
           "contact:housenumber": "3",
@@ -389,10 +390,11 @@
           "name": "Around the Bread",
           "opening_hours": "Tu-Fr 07:00-13:30, 15:30-19:30; Sa 07:00-13:30; Su 07:00-13:00",
           "organic": "yes",
+          "panoramax": "587d92e8-0ff1-489f-b280-ebb97382b0a0",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
-          "ref:FR:SIRET": "88089614700019",
+          "ref:FR:SIRET": "92100220000027",
           "shop": "bakery",
           "website": "https://www.monpetit-epeautre.fr/",
           "wheelchair": "no"
@@ -1425,17 +1427,17 @@
         "lat": 47.3801318,
         "lon": 0.6926826,
         "tags": {
-          "addr:city": "Tours",
-          "addr:housenumber": "125",
-          "addr:postcode": "37000",
-          "addr:street": "Avenue de Grammont",
           "check_date": "2026-08-04",
           "check_date:opening_hours": "2026-08-04",
+          "contact:city": "Tours",
+          "contact:housenumber": "125",
+          "contact:postcode": "37000",
+          "contact:street": "Avenue de Grammont",
           "name": "Liberté Market",
           "opening_hours": "Mo-Sa 09:00-21:00; Su 12:00-21:00",
           "opening_hours:signed": "no",
           "phone": "+33 7 82 99 26 33",
-          "ref:FR:SIRET": "81333513000023",
+          "ref:FR:SIRET": "80935882300031",
           "shop": "convenience",
           "source": "INSEE - 2021-11"
         }
@@ -1852,6 +1854,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-05T11:38:43.454Z",
+  "fetchedAt": "2026-08-06T11:52:22.603Z",
   "staleDataWarning": false
 }

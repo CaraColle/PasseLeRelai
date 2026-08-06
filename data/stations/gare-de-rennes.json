@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785930419969,
+      "timestamp": 1786017778622,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-05T11:49:50Z",
+      "timestamp_osm_base": "2026-08-06T12:02:59Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1971,9 +1971,16 @@
         "lat": 48.1045954,
         "lon": -1.6717995,
         "tags": {
+          "contact:city": "Rennes",
+          "contact:housenumber": "34",
+          "contact:postcode": "35000",
+          "contact:street": "Avenue Louis Barthou",
           "level": "0",
           "name": "Épicerie de la Gare",
           "opening_hours": "Mo-Su 11:00-22:00",
+          "operator": "SARL MKA Multiservices",
+          "ref:FR:NAF": "47.78C",
+          "ref:FR:SIRET": "98059418800024",
           "shop": "convenience",
           "wheelchair": "no"
         }
@@ -2204,6 +2211,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-05T11:38:43.454Z",
+  "fetchedAt": "2026-08-06T11:52:22.603Z",
   "staleDataWarning": false
 }

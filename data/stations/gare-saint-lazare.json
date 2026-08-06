@@ -305,7 +305,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1785929939313,
+      "timestamp": 1786017146766,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -334,7 +334,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-05T11:38:36Z",
+      "timestamp_osm_base": "2026-08-06T11:53:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1549,8 +1549,16 @@
         "lat": 48.882628,
         "lon": 2.3241332,
         "tags": {
+          "contact:city": "Paris",
+          "contact:housenumber": "33",
+          "contact:phone": "+33 1 45 22 73 00",
+          "contact:postcode": "75008",
+          "contact:street": "Rue de Turin",
+          "cuisine": "sandwich",
+          "delivery": "yes",
           "name": "Les Saveurs de Batignolles",
-          "opening_hours": "Mo,We-Sa 07:00-20:30; Su 07:00-20:00",
+          "opening_hours": "Mo 06:30-20:30; We-Fr 06:30-20:30; Sa-Su 06:30-20:00",
+          "pastry": "yes",
           "shop": "bakery"
         }
       },
@@ -4681,6 +4689,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-05T11:38:43.454Z",
+  "fetchedAt": "2026-08-06T11:52:22.603Z",
   "staleDataWarning": false
 }
