@@ -18,6 +18,13 @@
     --muted: #7a7268;
     --bakery: #b3792c;
   }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120px;
+    height: auto;
+  }
   * { box-sizing: border-box; }
   body{ margin:0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--paper); color: var(--ink); }
   .hero{ max-width: 720px; margin: 0 auto; padding: 56px 24px 20px; text-align: center; }
@@ -55,13 +62,6 @@
   .leaflet-popup-content h3{ margin: 0 0 4px; font-size: 0.92rem; }
   .leaflet-popup-content p{ margin: 2px 0; font-size: 0.82rem; }
   .leaflet-popup-content a{ font-size: 0.8rem; }
-  .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 120px;
-    height: auto;
-  }
 </style>
 
 <div class="hero">
@@ -76,6 +76,22 @@
       <option value="">Ville</option>
     </select>
   </div>
+</div>
+
+<div class="why">
+  <h2>Pourquoi ?</h2>
+  <p>
+    En 2023, la célèbre enseigne de kiosques de gare a été phagocytée par le groupe d'un légèrement controversé milliairdaire breton
+    <sup><a href="https://www.lagardere.com/actionnaires-et-investisseurs/offre-publique-dachat-initiee-par-vivendi-se/" target="_blank" rel="noopener">[1]</a></sup>. 
+    Depuis, la sélection littéraire proposée pour nous accompagner en place 63 de la voiture 5 a quelque peu était modifiée pour servir un certain projet civilisationnel
+    <sup><a href="https://multinationales.org/fr/enquetes/le-systeme-bollore/le-dernier-maillon-de-la-chaine-les-magasins-relay-ligne-de-front-dans-la" target="_blank" rel="noopener">[2]</a></sup>.
+    La France a atteint son niveau le plus bas depuis un quart de siècle au Classement mondial de la liberté de la presse de Reporters sans frontières, et ce, notamment 
+    parce que "l’expansion du groupe Bolloré [...] inquiète le secteur du fait des méthodes brutales et interventionnistes de l’actionnaire et du défaut de pluralisme interne, 
+    faisant craindre le triomphe de l’opinion sur les faits."<sup><a href="https://rsf.org/fr/pays/france" target="_blank" rel="noopener">[3]</a></sup>. Quelque soit notre bord politique, 
+    acheter son sandwich triangle ou bien le dernier Picsou Magazine dans un kioske, une boulangerie ou 
+    une librairie indépendante serait non seuleument un moyen de soutenir les commerces locaux, mais permettrait également de protester contre la privatisation de la 
+    médiasphère française. Alors si mamie nous dépose 1h30 en avance à la gare, marchons donc quelque minutes pour mener bon train la résistance citoyenne.
+  </p>
 </div>
 
 <div id="map-section">
@@ -100,24 +116,6 @@
       <ul class="station-list" id="station-list"></ul>
     </aside>
   </div>
-</div>
-
-<div class="why">
-  <h2>Pourquoi ?</h2>
-  <p>
-    En 2023, la célèbre enseigne de kiosques de gare a été phagocytée par le groupe d'un légèrement controversé milliairdaire breton
-    <sup><a href="https://www.lagardere.com/actionnaires-et-investisseurs/offre-publique-dachat-initiee-par-vivendi-se/" target="_blank" rel="noopener">[1]</a></sup>.
-    Depuis, la sélection littéraire proposée pour nous accompagner en place 63 de la voiture 5 a quelque peu était modifiée pour servir un certain projet civilisationnel
-    <sup><a href="https://multinationales.org/fr/enquetes/le-systeme-bollore/le-dernier-maillon-de-la-chaine-les-magasins-relay-ligne-de-front-dans-la" target="_blank" rel="noopener">[2]</a></sup>.
-    La France a atteint son niveau le plus bas depuis un quart de siècle au Classement mondial de la liberté de la presse de Reporters sans frontières, et ce, notamment
-    parce que "l’expansion du groupe Bolloré [...] inquiète le secteur du fait des méthodes brutales et interventionnistes de l’actionnaire et du défaut de pluralisme interne,
-    faisant craindre le triomphe de l’opinion sur les faits."<sup><a href="https://rsf.org/fr/pays/france" target="_blank" rel="noopener">[3]</a></sup>. Quelque soit notre bord politique,
-    acheter son sandwich triangle ou bien le dernier Picsou Magazine dans un kioske, une boulangerie ou
-    une librairie indépendante serait non seuleument un moyen de soutenir les commerces locaux, mais permettrait également de protester contre la privatisation de la
-    médiasphère française. Alors si mamie nous dépose 1h30 en avance à la gare, marchons donc quelque minutes pour mener bon train la résistance citoyenne.
-  </p>
-  <h2>Pourquoi ?</h2>
-  
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -202,7 +200,6 @@
     ]
   },
   grenoble: {
-    label: "Grenoble",
     label: "Grenoble",
     center: [45.1885, 5.7245],
     zoom: 13,
@@ -652,7 +649,7 @@
 
       // Check if point is in 5-min isochrone
       const inFiveMin = fiveMinFeature && isPointInSpecificIsochrone(point, fiveMinFeature);
-
+      
       // Check if point is in 10-min isochrone (but not in 5-min)
       const inTenMin = tenMinFeature && isPointInSpecificIsochrone(point, tenMinFeature) && !inFiveMin;
 
@@ -722,6 +719,6 @@
   }
 </script>
 
-<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa199e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5"}' crossorigin="anonymous"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5"}' crossorigin="anonymous"></script>
 </body>
 </html>
