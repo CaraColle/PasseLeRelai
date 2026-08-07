@@ -18,6 +18,9 @@
     --muted: #7a7268;
     --bakery: #b3792c;
   }
+  * { box-sizing: border-box; }
+  body{ margin:0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--paper); color: var(--ink); }
+
   .logo {
     display: block;
     margin-left: auto;
@@ -25,70 +28,125 @@
     max-width: 120px;
     height: auto;
   }
-  * { box-sizing: border-box; }
-  body{ margin:0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--paper); color: var(--ink); }
+
   .hero{ max-width: 720px; margin: 0 auto; padding: 56px 24px 20px; text-align: center; }
   .hero h1 .tilt{ display: inline-block; transform: rotate(-15deg); transform-origin: left bottom; margin-left: 0.2em; }
   .subtitle{ margin: 14px 0 24px; font-size: 1.05rem; color: #4a4640; }
+
   .city-picker{ display:inline-flex; align-items:center; gap: 10px; }
   .city-picker select{ font-size: 1rem; padding: 9px 14px; border-radius: 8px; border: 1px solid var(--line); background: white; cursor: pointer; }
+
+  /* MAP SECTION */
+  #map-section{ max-width: 1100px; margin: 0 auto 60px; padding: 0 24px; }
+
+  .map-header{ display:flex; align-items:baseline; justify-content: space-between; margin-bottom: 12px; }
+  .map-header.hidden{ display:none; }
+
+  #map-title{ font-size: 1.3rem; margin: 0; }
+
+  #back-btn{
+    display:none;
+    background: none;
+    border: none;
+    color: var(--accent);
+    font-size: 0.95rem;
+    cursor: pointer;
+    padding: 6px 10px;
+  }
+  #back-btn:hover{ text-decoration: underline; }
+
+  .map-layout{ display:flex; gap: 20px; align-items:flex-start; }
+
+  .map-wrap{ flex: 1 1 65%; }
+  .map-wrap.empty{ display:none; }
+
+  #map{ height: 520px; width: 100%; border-radius: 10px; border: 1px solid var(--line); }
+
+  .legend{
+    margin-top: 10px;
+    display:flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .legend > div{ display:flex; align-items:center; gap:6px; }
+  .swatch{ display:inline-block; width:14px; height:14px; border-radius:3px; }
+  .dot{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:18px;height:18px;
+    border-radius:50%;
+    color:white;
+    font-size: 11px;
+  }
+
+  #station-panel{
+    flex: 1 1 35%;
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 16px;
+    max-height: 520px;
+    overflow-y: auto;
+    display:none;
+  }
+  #station-panel.visible{ display:block; }
+  #station-panel h3{ margin-top:0; font-size: 1.05rem; }
+  #station-panel .station-item{
+    padding: 8px 0;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+  }
+  #station-panel .station-item:hover{ color: var(--accent); }
+
+  .poi-marker{
+    width: 28px; height:28px;
+    border-radius: 50%;
+    display:flex; align-items:center; justify-content:center;
+    font-size: 14px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    color:white;
+  }
+
+  /* FAQ SECTION */
   .faq{ max-width: 680px; margin: 10px auto 40px; padding: 24px 28px; background: white; border: 1px solid var(--line); border-radius: 10px; }
   .faq-item{ margin-bottom: 16px; border-bottom: 1px solid var(--line); }
-  .faq-question{ padding: 12px 0; font-size: 1.1rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px; }
+  .faq-question{ padding: 12px 0; font-size: 1.1rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px; justify-content: space-between; }
   .faq-question::after { content: '⌄'; font-size: 0.8rem; transition: transform 0.2s; }
   .faq-question.active::after { transform: rotate(180deg); }
   .faq-answer{ max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding: 0 0 0 24px; }
   .faq-answer p{ margin: 0; font-size: 0.95rem; line-height: 1.6; color: #3a352e; text-align: justify;}
   .faq-answer a{ color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
   .faq-answer a:hover{ opacity: 0.75; }
-  .faq-answer sup a{ border-bottom: none; font-size: 0.75rem; }
-  #map-section{ max-width: 1100px; margin: 0 auto 60px; padding: 0 24px; }
-  #map-section.visible{ display:block; }
-  .map-header{ display:flex; align-items:baseline; justify-content: space-between; margin-bottom: 12px; }
-  .map-header h2{ font-size: 1.1rem; margin: 0; }
-  #back-btn{ display:none; border: none; background: none; color: var(--accent); font-size: 0.85rem; cursor: pointer; padding: 0; }
-  #back-btn.visible{ display:inline; }
-  .map-layout{ display:flex; border: 1px solid var(--line); border-radius: 10px; overflow:hidden; height: 560px; }
-  .map-wrap{ position: relative; flex: 1 1 65%; height: 100%; }
-  #map{ height: 100%; }
-  aside{ flex: 1 1 35%; max-width: 340px; overflow-y: auto; background: white; border-left: 1px solid var(--line); }
-  .station-list{ list-style:none; margin:0; padding:0; }
-  .station-list li{ padding: 13px 18px; border-bottom: 1px solid var(--line); cursor: pointer; font-size: 0.92rem; }
-  .station-list li:hover, .station-list li.active{ background: var(--accent-soft); }
-  #poi-status{ padding: 14px 18px; font-size: 0.82rem; color: var(--muted); border-bottom: 1px solid var(--line); }
-  .stale-warning{ padding: 10px 18px; font-size: 0.76rem; color: #8a5a10; background: #fff6e6; border-bottom: 1px solid var(--line); }
-  .legend{ position:absolute; z-index: 500; bottom: 16px; left: 16px; background: white; border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; font-size: 0.78rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); display:none; }
-  .legend.visible{ display:block; }
-  .legend div{ display:flex; align-items:center; gap: 7px; margin: 3px 0; }
-  .legend .swatch{ width: 13px; height: 13px; border-radius: 3px; display:inline-block; }
-  .legend .dot{ width: 16px; height:16px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; font-size:10px; color:white; }
-  .poi-marker{ width: 28px; height: 28px; border-radius: 50%; display:flex; align-items:center; justify-content:center; font-size: 15px; border: 2px solid white; box-shadow: 0 1px 4px rgba(0,0,0,0.35); }
-  .leaflet-popup-content h3{ margin: 0 0 4px; font-size: 0.92rem; }
-  .leaflet-popup-content p{ margin: 2px 0; font-size: 0.82rem; }
-  .leaflet-popup-content a{ font-size: 0.8rem; }
 </style>
+</head>
+<body>
 
 <div class="hero">
-  <header>
-    <img src="frog4.svg" alt="Logo" class="logo" style="max-width: 120px; margin-bottom: 16px;">
-  </header>
-  <h1>passe le&nbsp;<span class="tilt">RELAIS</span></h1>
-  <p class="subtitle">Découvre les alternatives autour de ta gare !</p>
+  <img src="logo.png" alt="Logo" class="logo">
+  <h1>passe le <span class="tilt">RELAIS</span></h1>
+  <p class="subtitle">Trouve un kiosque, une librairie ou une boulangerie près d'une gare.</p>
+
   <div class="city-picker">
-    <label for="city-select">Choisis une... </label>
+    <label for="city-select">Choisis une ville :</label>
     <select id="city-select">
-      <option value="">Ville</option>
+      <option value="" selected disabled>-- Sélectionne une ville --</option>
+      <option value="franec">Francheville</option>
+      <!-- add more cities here -->
     </select>
   </div>
 </div>
 
 <div id="map-section">
-  <div class="map-header">
+  <div class="map-header hidden" id="map-header">
     <h2 id="map-title"></h2>
     <button id="back-btn">← Retour à la vue d'ensemble</button>
   </div>
+
   <div class="map-layout">
-    <div class="map-wrap">
+    <div class="map-wrap empty" id="map-wrap">
       <div id="map"></div>
       <div class="legend" id="legend">
         <div><span class="swatch" style="background:#2f5d50;"></span> 5 min à pied</div>
@@ -98,391 +156,50 @@
         <div><span class="dot" style="background:#b3792c;">🥖</span> Boulangerie</div>
       </div>
     </div>
-    <aside>
-      <div id="stale-warning" class="stale-warning" style="display:none;"></div>
-      <div id="poi-status"></div>
-      <ul class="station-list" id="station-list"></ul>
-    </aside>
+
+    <div id="station-panel"></div>
   </div>
 </div>
 
 <div class="faq">
-  <h2>Foire aux questions</h2>
-
   <div class="faq-item">
-    <div class="faq-question">Pourquoi privilégier les commerces indépendants autour des gares ?</div>
+    <div class="faq-question">Pourquoi ce site ?</div>
     <div class="faq-answer">
-      <p>
-        En 2023, la célèbre enseigne de kiosques de gare a été phagocytée par le groupe d'un légèrement controversé milliardaire breton
-        <sup><a href="https://www.lagardere.com/actionnaires-et-investisseurs/offre-publique-dachat-initiee-par-vivendi-se/" target="_blank" rel="noopener">[1]</a></sup>. 
-        Depuis, la sélection littéraire proposée pour nous accompagner en place 63 de la voiture 5 a quelque peu était modifiée pour servir un certain projet civilisationnel
-        <sup><a href="https://multinationales.org/fr/enquetes/le-systeme-bollore/le-dernier-maillon-de-la-chaine-les-magasins-relay-ligne-de-front-dans-la" target="_blank" rel="noopener">[2]</a></sup>.
-        La France a atteint son niveau le plus bas depuis un quart de siècle au Classement mondial de la liberté de la presse de Reporters sans frontières, et ce, notamment
-        parce que "l’expansion du groupe Bolloré [...] inquiète le secteur du fait des méthodes brutales et interventionnistes de l’actionnaire et du défaut de pluralisme interne,
-        faisant craindre le triomphe de l’opinion sur les faits."<sup><a href="https://rsf.org/fr/pays/france" target="_blank" rel="noopener">[3]</a></sup>. Quelque soit notre bord politique,
-        acheter son sandwich triangle ou bien le dernier Picsou Magazine dans un kioske, une boulangerie ou
-        une librairie indépendante serait non seuleument un moyen de soutenir les commerces locaux, mais permettrait également de protester contre la privatisation de la
-        médiasphère française. Alors si mamie nous dépose 1h30 en avance à la gare, marchons donc quelque minutes pour mener bon train la résistance citoyenne.
-      </p>
+      <p>Ce site permet de trouver facilement les points de vente de presse, librairies et boulangeries proches des gares françaises.</p>
     </div>
   </div>
-
   <div class="faq-item">
-    <div class="faq-question">Quel est le rôle de l'IA sur ce site ?</div>
+    <div class="faq-question">Comment ça marche ?</div>
     <div class="faq-answer">
-      <p>
-        L'IA générative a été utilisée pour donner vie à l'idée de ce site. Celle-ci a servi à écrire les scripts HTML / JavaScript, mais n'a en aucun cas
-        été employée pour écrire du texte, suggérer des idées, concevoir l'esthétisme ou choisir quoi représenter ou non sur cette page.
-      </p>
-    </div>
-  </div>
-
-  <div class="faq-item">
-    <div class="faq-question">Comment contacter les responsables du projet ?</div>
-    <div class="faq-answer">
-      <p>
-        Ecrivez-nous !
-      </p>
+      <p>Sélectionne une ville dans le menu déroulant, clique sur une gare, et découvre les commerces à proximité.</p>
     </div>
   </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
-  // FAQ Accordion functionality
-  document.querySelectorAll('.faq-question').forEach(question => {
-    question.addEventListener('click', () => {
-      const answer = question.nextElementSibling;
-      const isActive = question.classList.contains('active');
-
-      // Close all other FAQ items
-      document.querySelectorAll('.faq-question').forEach(q => {
-        q.classList.remove('active');
-        q.nextElementSibling.style.maxHeight = null;
-      });
-
-      // Toggle current item
-      if (!isActive) {
-        question.classList.add('active');
-        answer.style.maxHeight = answer.scrollHeight + 'px';
-      }
-    });
-  });
-
-  const CATEGORIES = {
-    kiosk:     { emoji: "📰", label: "Kiosque",     color: "#c8202f" },
-    bookstore: { emoji: "📚", label: "Librairie",   color: "#2f5d50" },
-    bakery:    { emoji: "🥖", label: "Boulangerie", color: "#b3792c" }
-  };
-
-  const cities = {
-  amiens: {
-    label: "Amiens",
-    center: [49.8942, 2.2957],
-    zoom: 13,
-    stationNames: [
-      "Gare d'Amiens"
-    ]
-  },
-  angers: {
-    label: "Angers",
-    center: [47.4784, -0.5632],
-    zoom: 13,
-    stationNames: [
-      "Gare d'Angers-Saint-Laud"
-    ]
-  },
-  "aix-en-provence": {
-    label: "Aix-en-Provence",
-    center: [43.5297, 5.4474],
-    zoom: 13,
-    stationNames: [
-      "Gare d'Aix-en-Provence TGV"
-    ]
-  },
-  besancon: {
-    label: "Besançon",
-    center: [47.2378, 6.0241],
-    zoom: 13,
-    stationNames: [
-      "Gare de Besançon-Viotte"
-    ]
-  },
-  bordeaux: {
-    label: "Bordeaux",
-    center: [44.8378, -0.5792],
-    zoom: 12,
-    stationNames: [
-      "Gare de Bordeaux-Saint-Jean"
-    ]
-  },
-  brest: {
-    label: "Brest",
-    center: [48.3904, -4.4861],
-    zoom: 13,
-    stationNames: [
-      "Gare de Brest"
-    ]
-  },
-  caen: {
-    label: "Caen",
-    center: [49.1829, -0.3707],
-    zoom: 13,
-    stationNames: [
-      "Gare de Caen"
-    ]
-  },
-  "clermont-ferrand": {
-    label: "Clermont-Ferrand",
-    center: [45.7772, 3.0870],
-    zoom: 13,
-    stationNames: [
-      "Gare de Clermont-Ferrand"
-    ]
-  },
-  dijon: {
-    label: "Dijon",
-    center: [47.3220, 5.0415],
-    zoom: 13,
-    stationNames: [
-      "Gare de Dijon-Ville"
-    ]
-  },
-  grenoble: {
-    label: "Grenoble",
-    center: [45.1885, 5.7245],
-    zoom: 13,
-    stationNames: [
-      "Gare de Grenoble"
-    ]
-  },
-  "le-havre": {
-    label: "Le Havre",
-    center: [49.4944, 0.1079],
-    zoom: 13,
-    stationNames: [
-      "Gare du Havre"
-    ]
-  },
-  "le-mans": {
-    label: "Le Mans",
-    center: [48.0077, 0.1984],
-    zoom: 13,
-    stationNames: [
-      "Gare du Mans"
-    ]
-  },
-  limoges: {
-    label: "Limoges",
-    center: [45.8336, 1.2611],
-    zoom: 13,
-    stationNames: [
-      "Gare de Limoges-Bénédictins"
-    ]
-  },
-  lille: {
-    label: "Lille",
-    center: [50.6292, 3.0573],
-    zoom: 12,
-    stationNames: [
-      "Gare de Lille-Flandres", "Gare de Lille-Europe"
-    ]
-  },
-  lyon: {
-    label: "Lyon",
-    center: [45.7640, 4.8357],
-    zoom: 12,
-    stationNames: [
-      "Gare de Lyon-Part-Dieu", "Gare de Lyon-Perrache"
-    ]
-  },
-  marseille: {
-    label: "Marseille",
-    center: [43.2965, 5.3698],
-    zoom: 12,
-    stationNames: [
-      "Gare de Marseille-Saint-Charles"
-    ]
-  },
-  metz: {
-    label: "Metz",
-    center: [49.1193, 6.1757],
-    zoom: 13,
-    stationNames: [
-      "Gare de Metz-Ville"
-    ]
-  },
-  montpellier: {
-    label: "Montpellier",
-    center: [43.6100, 3.9060],
-    zoom: 13,
-    stationNames: [
-      "Gare de Montpellier Saint-Roch", "Gare de Montpellier Sud de France"
-    ]
-  },
-  mulhouse: {
-    label: "Mulhouse",
-    center: [47.7508, 7.3359],
-    zoom: 13,
-    stationNames: [
-      "Gare de Mulhouse-Ville"
-    ]
-  },
-  nancy: {
-    label: "Nancy",
-    center: [48.6921, 6.1844],
-    zoom: 13,
-    stationNames: [
-      "Gare de Nancy-Ville"
-    ]
-  },
-  nantes: {
-    label: "Nantes",
-    center: [47.2184, -1.5536],
-    zoom: 12,
-    stationNames: [
-      "Gare de Nantes"
-    ]
-  },
-  nice: {
-    label: "Nice",
-    center: [43.7102, 7.2620],
-    zoom: 12,
-    stationNames: [
-      "Gare de Nice-Ville"
-    ]
-  },
-  nimes: {
-    label: "Nîmes",
-    center: [43.8367, 4.3601],
-    zoom: 13,
-    stationNames: [
-      "Gare de Nîmes"
-    ]
-  },
-  orleans: {
-    label: "Orléans",
-    center: [47.9029, 1.9093],
-    zoom: 13,
-    stationNames: [
-      "Gare d'Orléans"
-    ]
-  },
-  paris: {
-    label: "Paris",
-    center: [48.8566, 2.3522],
-    zoom: 12,
-    stationNames: [
-      "Gare de Lyon", "Gare du Nord", "Gare de l'Est",
-      "Gare Montparnasse", "Gare Saint-Lazare", "Gare d'Austerlitz"
-    ]
-  },
-  perpignan: {
-    label: "Perpignan",
-    center: [42.6986, 2.8955],
-    zoom: 13,
-    stationNames: [
-      "Gare de Perpignan"
-    ]
-  },
-  reims: {
-    label: "Reims",
-    center: [49.2583, 4.0317],
-    zoom: 13,
-    stationNames: [
-      "Gare de Reims"
-    ]
-  },
-  rennes: {
-    label: "Rennes",
-    center: [48.1173, -1.6778],
-    zoom: 13,
-    stationNames: [
-      "Gare de Rennes"
-    ]
-  },
-  rouen: {
-    label: "Rouen",
-    center: [49.4431, 1.0993],
-    zoom: 13,
-    stationNames: [
-      "Gare de Rouen-Rive-Droite"
-    ]
-  },
-  "saint-etienne": {
-    label: "Saint-Étienne",
-    center: [45.4397, 4.3872],
-    zoom: 13,
-    stationNames: [
-      "Gare de Saint-Étienne-Châteaucreux"
-    ]
-  },
-  strasbourg: {
-    label: "Strasbourg",
-    center: [48.5734, 7.7521],
-    zoom: 12,
-    stationNames: [
-      "Gare de Strasbourg-Ville"
-    ]
-  },
-  toulouse: {
-    label: "Toulouse",
-    center: [43.6047, 1.4442],
-    zoom: 12,
-    stationNames: [
-      "Gare de Toulouse-Matabiau"
-    ]
-  },
-  toulon: {
-    label: "Toulon",
-    center: [43.1242, 5.9280],
-    zoom: 13,
-    stationNames: [
-      "Gare de Toulon"
-    ]
-  },
-  tours: {
-    label: "Tours",
-    center: [47.3941, 0.6848],
-    zoom: 13,
-    stationNames: [
-      "Gare de Tours"
-    ]
-  }
-};
-
   let map = null;
-  let stationMarkersLayer = null;
   let isoLayer = null;
   let poiLayer = null;
-  let currentCityKey = null;
+  let stationMarkers = [];
 
-  let stationsIndex = null;
-  const stationDataCache = new Map();
+  const CATEGORIES = {
+    kiosk: { emoji: '📰', label: 'Kiosque', color: '#c8202f' },
+    bookstore: { emoji: '📚', label: 'Librairie', color: '#2f5d50' },
+    bakery: { emoji: '🥖', label: 'Boulangerie', color: '#b3792c' }
+  };
 
-  let requestToken = 0;
-
-  async function loadStationsIndex() {
-    if (stationsIndex) return stationsIndex;
-    const res = await fetch('data/stations-index.json');
-    if (!res.ok) throw new Error(`Failed to load stations index: ${res.status}`);
-    stationsIndex = await res.json();
-    return stationsIndex;
-  }
-
-  function populateCityDropdown() {
-    const select = document.getElementById('city-select');
-    const sortedKeys = Object.keys(cities).sort((a, b) =>
-      cities[a].label.localeCompare(cities[b].label, 'fr', { sensitivity: 'base' })
-    );
-    sortedKeys.forEach(key => {
-      const opt = document.createElement('option');
-      opt.value = key;
-      opt.textContent = cities[key].label;
-      select.appendChild(opt);
-    });
-  }
-  populateCityDropdown();
+  const CITIES = {
+    franec: {
+      label: 'Francheville',
+      center: [45.7280, 4.7460],
+      zoom: 13,
+      stations: [
+        // Example stations - replace with real data
+        { name: "Gare de Francheville", lat: 45.7280, lon: 4.7460 }
+      ]
+    }
+  };
 
   function ensureMap() {
     if (map) return;
@@ -495,256 +212,83 @@
     poiLayer = L.layerGroup().addTo(map);
   }
 
-  // Initialize map to show France by default
+  // Initialize map to show empty France view (no stations, no wrap visible)
   function initDefaultMapView() {
     ensureMap();
-    // Set initial view to France
     map.setView([46.6034, 1.8883], 6);
-    requestAnimationFrame(() => map.invalidateSize());
 
-    // Set the title for the default view
-    document.getElementById('map-title').textContent = 'Sélectionne une ville pour voir les gares';
+    document.getElementById('map-wrap').classList.add('empty');
+    document.getElementById('map-header').classList.add('hidden');
+    document.getElementById('map-title').textContent = '';
     document.getElementById('back-btn').style.display = 'none';
+    document.getElementById('station-panel').classList.remove('visible');
+
+    requestAnimationFrame(() => map.invalidateSize());
   }
 
-  // Load stations when page loads
-  document.addEventListener('DOMContentLoaded', () => {
-    initDefaultMapView();
-  });
+  function clearStationMarkers() {
+    stationMarkers.forEach(m => map.removeLayer(m));
+    stationMarkers = [];
+  }
 
-  async function renderCityStations(cityKey) {
-    const city = cities[cityKey];
+  function renderCityStations(cityKey) {
+    const city = CITIES[cityKey];
     if (!city) return;
-
-    const section = document.getElementById('map-section');
-    const listEl = document.getElementById('station-list');
-    const titleEl = document.getElementById('map-title');
-    const backBtn = document.getElementById('back-btn');
-    const staleEl = document.getElementById('stale-warning');
-
-    const myToken = ++requestToken;
-
-    currentCityKey = cityKey;
-    section.classList.add('visible');
-    titleEl.textContent = `Gares grandes lignes — ${city.label}`;
-    document.getElementById('poi-status').textContent = '';
-    document.getElementById('legend').classList.remove('visible');
-    staleEl.style.display = 'none';
-    backBtn.classList.remove('visible');
-    listEl.innerHTML = 'Chargement des gares…';
-
-    let index;
-    try {
-      index = await loadStationsIndex();
-    } catch (err) {
-      console.error(err);
-      listEl.innerHTML = '';
-      document.getElementById('poi-status').textContent = "Erreur lors du chargement de la liste des gares.";
-      return;
-    }
-
-    if (myToken !== requestToken) return;
-
-    listEl.innerHTML = '';
 
     ensureMap();
     isoLayer.clearLayers();
     poiLayer.clearLayers();
-    if (stationMarkersLayer) stationMarkersLayer.clearLayers();
-    stationMarkersLayer = L.layerGroup();
+    clearStationMarkers();
+
+    document.getElementById('map-wrap').classList.remove('empty');
+    document.getElementById('map-header').classList.remove('hidden');
+    document.getElementById('map-title').textContent = `Gares grandes lignes — ${city.label}`;
+    document.getElementById('back-btn').style.display = 'inline-block';
 
     map.setView(city.center, city.zoom);
     requestAnimationFrame(() => map.invalidateSize());
 
-    const fragment = document.createDocumentFragment();
-
-    const stationsForCity = index.stations.filter(s => city.stationNames.includes(s.name));
-
-    stationsForCity.forEach(station => {
-      const marker = L.marker([station.lat, station.lng]);
-      marker.bindPopup(`<h3>${station.name}</h3>`);
-      marker.addTo(stationMarkersLayer);
-
-      const li = document.createElement('li');
-      li.textContent = station.name;
-
-      const activate = () => {
-        document.querySelectorAll('.station-list li').forEach(el => el.classList.remove('active'));
-        li.classList.add('active');
-        enterStationDetail(station);
-      };
-
-      marker.on('click', activate);
-      li.addEventListener('click', activate);
-      fragment.appendChild(li);
+    city.stations.forEach(station => {
+      const marker = L.marker([station.lat, station.lon])
+        .addTo(map)
+        .bindPopup(`<b>${station.name}</b>`)
+        .on('click', () => renderStationPanel(station, cityKey));
+      stationMarkers.push(marker);
     });
 
-    listEl.appendChild(fragment);
-    stationMarkersLayer.addTo(map);
-    document.getElementById('poi-status').textContent = `${stationsForCity.length} gare(s) dans ${city.label}.`;
+    renderAllCityStationsPanel(city, cityKey);
   }
 
-  document.getElementById('city-select').addEventListener('change', (e) => {
-    if (e.target.value) {
-      renderCityStations(e.target.value);
-    } else {
-      initDefaultMapView();
-    }
-  });
+  function renderAllCityStationsPanel(city, cityKey) {
+    const panel = document.getElementById('station-panel');
+    panel.classList.add('visible');
+    panel.innerHTML = `<h3>Gares — ${city.label}</h3>` +
+      city.stations.map(s => `<div class="station-item" data-name="${s.name}">${s.name}</div>`).join('');
 
-  document.getElementById('back-btn').addEventListener('click', () => {
-    if (currentCityKey) {
-      renderCityStations(currentCityKey);
-    }
-  });
-
-  async function enterStationDetail(station) {
-    const titleEl = document.getElementById('map-title');
-    const statusEl = document.getElementById('poi-status');
-    const legendEl = document.getElementById('legend');
-    const backBtn = document.getElementById('back-btn');
-    const staleEl = document.getElementById('stale-warning');
-
-    const myToken = ++requestToken;
-
-    titleEl.textContent = station.name;
-    backBtn.classList.add('visible');
-    legendEl.classList.remove('visible');
-    staleEl.style.display = 'none';
-    isoLayer.clearLayers();
-    poiLayer.clearLayers();
-
-    statusEl.textContent = 'Chargement…';
-    map.setView([station.lat, station.lng], 16, { animate: true });
-    requestAnimationFrame(() => map.invalidateSize());
-
-    try {
-      let data = stationDataCache.get(station.slug);
-      if (!data) {
-        const res = await fetch(station.file);
-        if (!res.ok) throw new Error(`Failed to load station data: ${res.status}`);
-        data = await res.json();
-        stationDataCache.set(station.slug, data);
-      }
-
-      if (myToken !== requestToken) return;
-
-      if (data.staleDataWarning) {
-        staleEl.style.display = 'block';
-        staleEl.textContent = `⚠️ Données mises à jour le ${new Date(data.fetchedAt).toLocaleString('fr-FR')} — certaines informations peuvent être incomplètes.`;
-      }
-
-      renderIsoAndShops(data, statusEl, legendEl);
-    } catch (err) {
-      console.error(err);
-      if (myToken === requestToken) {
-        statusEl.textContent = "Erreur lors du chargement des données de la gare.";
-      }
-    }
-  }
-
-  function pointInPolygon(point, polygon) {
-    const [lng, lat] = point;
-    let inside = false;
-
-    for (let i = 0, j = polygon.length - 1; i < polygon.length; j = i++) {
-      const [xi, yi] = polygon[i];
-      const [xj, yj] = polygon[j];
-
-      if (
-        yi > lat !== yj > lat &&
-        lng < ((xj - xi) * (lat - yi)) / (yj - yi) + xi
-      ) {
-        inside = !inside;
-      }
-    }
-
-    return inside;
-  }
-
-  function isPointInSpecificIsochrone(point, feature) {
-    if (!feature || !feature.geometry) return false;
-
-    const geometry = feature.geometry;
-
-    if (geometry.type === 'Polygon') {
-      const exterior = geometry.coordinates[0];
-      return pointInPolygon(point, exterior);
-    }
-    else if (geometry.type === 'MultiPolygon') {
-      for (const polygon of geometry.coordinates) {
-        const exterior = polygon[0];
-        if (pointInPolygon(point, exterior)) {
-          return true;
-        }
-      }
-    }
-
-    return false;
-  }
-
-  function renderIsoAndShops(data, statusEl, legendEl) {
-    isoLayer.clearLayers();
-    poiLayer.clearLayers();
-
-    const isoGeojson = data.isochrones;
-    if (isoGeojson && isoGeojson.features && isoGeojson.features.length) {
-      drawIsochrones(isoGeojson);
-      legendEl.classList.add('visible');
-    }
-
-    if (!data.shops || !data.shops.elements || data.shops.elements.length === 0) {
-      statusEl.textContent = "Données sur les commerces indisponibles pour cette gare pour l'instant.";
-      return;
-    }
-
-    const fiveMinFeature = isoGeojson.features.find(f => f.properties.value === 300);
-    const tenMinFeature = isoGeojson.features.find(f => f.properties.value === 600);
-
-    let count5 = 0, count10 = 0;
-    const markers = [];
-
-    data.shops.elements.forEach(el => {
-      const lat = el.type === 'node' ? el.lat : (el.center && el.center.lat);
-      const lon = el.type === 'node' ? el.lon : (el.center && el.center.lon);
-      if (lat == null || lon == null) return;
-
-      const category = categoryFromTags(el.tags);
-      if (!category) return;
-
-      const point = [lon, lat];
-
-      const inFiveMin = fiveMinFeature && isPointInSpecificIsochrone(point, fiveMinFeature);
-      const inTenMin = tenMinFeature && isPointInSpecificIsochrone(point, tenMinFeature) && !inFiveMin;
-
-      if (!inFiveMin && !inTenMin) return;
-
-      markers.push(buildShopMarker(lat, lon, el, category));
-
-      if (inFiveMin) {
-        count5++;
-      } else if (inTenMin) {
-        count10++;
-      }
+    panel.querySelectorAll('.station-item').forEach((item, idx) => {
+      item.addEventListener('click', () => {
+        const station = city.stations[idx];
+        map.setView([station.lat, station.lon], 16);
+        renderStationPanel(station, cityKey);
+      });
     });
-
-    markers.forEach(m => m.addTo(poiLayer));
-
-    const total = count5 + count10;
-    statusEl.textContent = total > 0
-      ? `${count5} commerce(s) à moins de 5 min à pied, ${count10} de plus à moins de 10 min.`
-      : "Aucun commerce trouvé dans ce périmètre pour l'instant.";
   }
 
-  function drawIsochrones(geojson) {
-    const colorByValue = { 300: "#2f5d50", 600: "#d98c2b" };
-    const sorted = [...geojson.features].sort((a, b) => b.properties.value - a.properties.value);
-    sorted.forEach(feature => {
-      const color = colorByValue[feature.properties.value] || "#999";
-      L.geoJSON(feature, {
-        style: { color, weight: 1, fillColor: color, fillOpacity: 0.2 }
-      }).addTo(isoLayer);
-    });
+  function renderStationPanel(station, cityKey) {
+    const panel = document.getElementById('station-panel');
+    panel.classList.add('visible');
+    panel.innerHTML = `
+      <h3>${station.name}</h3>
+      <p>Commerces à proximité :</p>
+      <div id="poi-list">Chargement...</div>
+    `;
+    fetchNearbyShops(station.lat, station.lon);
+  }
+
+  function fetchNearbyShops(lat, lon) {
+    // Placeholder: implement Overpass API call here
+    const poiList = document.getElementById('poi-list');
+    if (poiList) poiList.textContent = "Aucune donnée pour le moment.";
   }
 
   function categoryFromTags(tags) {
@@ -780,8 +324,34 @@
 
     return L.marker([lat, lon], { icon }).bindPopup(popupHtml);
   }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    initDefaultMapView();
+
+    document.getElementById('city-select').addEventListener('change', (e) => {
+      const cityKey = e.target.value;
+      if (cityKey) renderCityStations(cityKey);
+    });
+
+    document.getElementById('back-btn').addEventListener('click', () => {
+      initDefaultMapView();
+      document.getElementById('city-select').value = '';
+    });
+
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.addEventListener('click', () => {
+        const answer = q.nextElementSibling;
+        const isActive = q.classList.contains('active');
+        document.querySelectorAll('.faq-question').forEach(fq => fq.classList.remove('active'));
+        document.querySelectorAll('.faq-answer').forEach(fa => fa.style.maxHeight = null);
+        if (!isActive) {
+          q.classList.add('active');
+          answer.style.maxHeight = answer.scrollHeight + 'px';
+        }
+      });
+    });
+  });
 </script>
 
-<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5"}' crossorigin="anonymous"></script>
 </body>
 </html>
