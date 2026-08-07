@@ -44,6 +44,10 @@
   .faq-answer sup a{ border-bottom: none; font-size: 0.75rem; }
   #map-section{ max-width: 1100px; margin: 0 auto 60px; padding: 0 24px; }
   #map-section.visible{ display:block; }
+  .map-header{ display:flex; align-items:baseline; justify-content: space-between; margin-bottom: 12px; }
+  .map-header h2{ font-size: 1.1rem; margin: 0; }
+  #back-btn{ display:none; border: none; background: none; color: var(--accent); font-size: 0.85rem; cursor: pointer; padding: 0; }
+  #back-btn.visible{ display:inline; }
   .map-layout{ display:flex; border: 1px solid var(--line); border-radius: 10px; overflow:hidden; height: 560px; }
   .map-wrap{ position: relative; flex: 1 1 65%; height: 100%; }
   #map{ height: 100%; }
@@ -80,6 +84,10 @@
 </div>
 
 <div id="map-section">
+  <div class="map-header">
+    <h2 id="map-title"></h2>
+    <button id="back-btn">← Retour à la vue d'ensemble</button>
+  </div>
   <div class="map-layout">
     <div class="map-wrap empty">
       <div id="map"></div>
@@ -749,3 +757,37 @@
     if (!tags) return null;
     if (tags.shop === 'kiosk') return 'kiosk';
     if (tags.shop === 'books') return 'bookstore';
+    if (tags.shop === 'bakery') return 'bakery';
+    return null;
+  }
+
+  function buildShopMarker(lat, lon, el, categoryKey) {
+    const cat = CATEGORIES[categoryKey];
+    const icon = L.divIcon({
+      className: '',
+      html: `<div class="poi-marker" style="background:${cat.color}">${cat.emoji}</div>`,
+      iconSize: [28, 28],
+      iconAnchor: [14, 14]
+    });
+
+    const tags = el.tags || {};
+    const name = tags.name || "Nom non renseigné";
+    const opening = tags.opening_hours || "Horaires non renseignés";
+    const addrParts = [tags['addr:housenumber'], tags['addr:street']].filter(Boolean).join(' ');
+    const osmLink = `https://www.openstreetmap.org/${el.type}/${el.id}`;
+
+    const popupHtml = `
+      <h3>${name}</h3>
+      <p>${cat.emoji} ${cat.label}</p>
+      <p>🕐 ${opening}</p>
+      ${addrParts ? `<p>📍 ${addrParts}</p>` : ''}
+      <p><a href="${osmLink}" target="_blank" rel="noopener">Voir la fiche OSM</a></p>
+    `;
+
+    return L.marker([lat, lon], { icon }).bindPopup(popupHtml);
+  }
+</script>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5"}' crossorigin="anonymous"></script>
+</body>
+</html>
