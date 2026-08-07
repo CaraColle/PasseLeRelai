@@ -51,6 +51,7 @@
   .map-layout{ display:flex; border: 1px solid var(--line); border-radius: 10px; overflow:hidden; height: 560px; }
   .map-wrap{ position: relative; flex: 1 1 65%; height: 100%; }
   #map{ height: 100%; }
+  .map-wrap.empty { display: none; }
   aside{ flex: 1 1 35%; max-width: 340px; overflow-y: auto; background: white; border-left: 1px solid var(--line); }
   .station-list{ list-style:none; margin:0; padding:0; }
   .station-list li{ padding: 13px 18px; border-bottom: 1px solid var(--line); cursor: pointer; font-size: 0.92rem; }
@@ -88,7 +89,7 @@
     <button id="back-btn">← Retour à la vue d'ensemble</button>
   </div>
   <div class="map-layout">
-    <div class="map-wrap">
+    <div class="map-wrap empty">
       <div id="map"></div>
       <div class="legend" id="legend">
         <div><span class="swatch" style="background:#2f5d50;"></span> 5 min à pied</div>
@@ -119,7 +120,7 @@
         <sup><a href="https://multinationales.org/fr/enquetes/le-systeme-bollore/le-dernier-maillon-de-la-chaine-les-magasins-relay-ligne-de-front-dans-la" target="_blank" rel="noopener">[2]</a></sup>.
         La France a atteint son niveau le plus bas depuis un quart de siècle au Classement mondial de la liberté de la presse de Reporters sans frontières, et ce, notamment
         parce que "l’expansion du groupe Bolloré [...] inquiète le secteur du fait des méthodes brutales et interventionnistes de l’actionnaire et du défaut de pluralisme interne,
-        faisant craindre le triomphe de l’opinion sur les faits."<sup><a href="https://rsf.org/fr/pays/france" target="_blank" rel="noopener">[3]</a></sup>. Quelque soit notre bord politique,
+        faisant craindre le triomphe de l'opinion sur les faits."<sup><a href="https://rsf.org/fr/pays/france" target="_blank" rel="noopener">[3]</a></sup>. Quelque soit notre bord politique,
         acheter son sandwich triangle ou bien le dernier Picsou Magazine dans un kioske, une boulangerie ou
         une librairie indépendante serait non seuleument un moyen de soutenir les commerces locaux, mais permettrait également de protester contre la privatisation de la
         médiasphère française. Alors si mamie nous dépose 1h30 en avance à la gare, marchons donc quelque minutes pour mener bon train la résistance citoyenne.
@@ -168,16 +169,6 @@
       }
     });
   });
-
-  // Function to find city by station name
-  function findCityByStationName(stationName) {
-    for (const [key, city] of Object.entries(cities)) {
-      if (city.stationNames.includes(stationName)) {
-        return key;
-      }
-    }
-    return null;
-  }
 
   const CATEGORIES = {
     kiosk:     { emoji: "📰", label: "Kiosque",     color: "#c8202f" },
@@ -513,97 +504,29 @@
     requestAnimationFrame(() => map.invalidateSize());
 
     // Set the title for the default view
-    document.getElementById('map-title').textContent = 'Carte des gares en France';
+    document.getElementById('map-title').textContent = 'Sélectionne une ville pour voir les gares';
     document.getElementById('back-btn').style.display = 'none';
   }
 
   // Load stations when page loads
-  document.addEventListener('DOMContentLoaded', async () => {
+  document.addEventListener('DOMContentLoaded', () => {
     initDefaultMapView();
-    await renderAllStations();
   });
 
-  async function renderAllStations() {
-    let index;
-    try {
-      index = await loadStationsIndex();
-    } catch (err) {
-      console.error(err);
-      return;
-    }
+  async function renderCityStations(cityKey) {
+    const city = cities[cityKey];
+    if (!city) return;
 
-    const listEl = document.getElementById('station-list');
-    const statusEl = document.getElementById('poi-status');
-    listEl.innerHTML = 'Chargement des gares…';
-
-    ensureMap();
-    isoLayer.clearLayers();
-    poiLayer.clearLayers();
-    if (stationMarkersLayer) stationMarkersLayer.clearLayers();
-    stationMarkersLayer = L.layerGroup();
-
-    const fragment = document.createDocumentFragment();
-
-    // Add all stations to the map
-    index.stations.forEach(station => {
-      const marker = L.marker([station.lat, station.lng]);
-      marker.bindPopup(`<h3>${station.name}</h3>`);
-      marker.addTo(stationMarkersLayer);
-
-      const li = document.createElement('li');
-      li.textContent = station.name;
-
-      const activate = () => {
-        document.querySelectorAll('.station-list li').forEach(el => el.classList.remove('active'));
-        li.classList.add('active');
-        enterStationDetail(station);
-      };
-
-      // When a marker is clicked, update the city dropdown to match the station's city
-      marker.on('click', () => {
-        const cityKey = findCityByStationName(station.name);
-        if (cityKey) {
-          document.getElementById('city-select').value = cityKey;
-        }
-        activate();
-      });
-
-      // When a list item is clicked, update the city dropdown to match the station's city
-      li.addEventListener('click', () => {
-        const cityKey = findCityByStationName(station.name);
-        if (cityKey) {
-          document.getElementById('city-select').value = cityKey;
-        }
-        activate();
-      });
-
-      fragment.appendChild(li);
-    });
-
-    listEl.innerHTML = '';
-    listEl.appendChild(fragment);
-    stationMarkersLayer.addTo(map);
-
-    statusEl.textContent = `${index.stations.length} gares affichées sur la carte.`;
-  }
-
-  async function renderCity(key) {
     const section = document.getElementById('map-section');
     const listEl = document.getElementById('station-list');
     const titleEl = document.getElementById('map-title');
     const backBtn = document.getElementById('back-btn');
     const staleEl = document.getElementById('stale-warning');
+    const mapWrap = document.querySelector('.map-wrap');
 
-    requestToken++;
+    const myToken = ++requestToken;
 
-    if (!key) {
-      initDefaultMapView();
-      renderAllStations();
-      return;
-    }
-
-    currentCityKey = key;
-    const city = cities[key];
+    currentCityKey = cityKey;
     section.classList.add('visible');
     titleEl.textContent = `Gares grandes lignes — ${city.label}`;
     document.getElementById('poi-status').textContent = '';
@@ -611,6 +534,9 @@
     staleEl.style.display = 'none';
     backBtn.classList.remove('visible');
     listEl.innerHTML = 'Chargement des gares…';
+
+    // Remove the empty class to show the map wrap
+    mapWrap.classList.remove('empty');
 
     let index;
     try {
@@ -621,6 +547,8 @@
       document.getElementById('poi-status').textContent = "Erreur lors du chargement de la liste des gares.";
       return;
     }
+
+    if (myToken !== requestToken) return;
 
     listEl.innerHTML = '';
 
@@ -651,26 +579,29 @@
         enterStationDetail(station);
       };
 
-      // When a marker is clicked, update the city dropdown to match the station's city
-      marker.on('click', () => {
-        document.getElementById('city-select').value = key;
-        activate();
-      });
-
-      li.addEventListener('click', () => {
-        document.getElementById('city-select').value = key;
-        activate();
-      });
-
+      marker.on('click', activate);
+      li.addEventListener('click', activate);
       fragment.appendChild(li);
     });
 
     listEl.appendChild(fragment);
     stationMarkersLayer.addTo(map);
+    document.getElementById('poi-status').textContent = `${stationsForCity.length} gare(s) dans ${city.label}.`;
   }
 
-  document.getElementById('city-select').addEventListener('change', (e) => renderCity(e.target.value));
-  document.getElementById('back-btn').addEventListener('click', () => renderCity(currentCityKey));
+  document.getElementById('city-select').addEventListener('change', (e) => {
+    if (e.target.value) {
+      renderCityStations(e.target.value);
+    } else {
+      initDefaultMapView();
+    }
+  });
+
+  document.getElementById('back-btn').addEventListener('click', () => {
+    if (currentCityKey) {
+      renderCityStations(currentCityKey);
+    }
+  });
 
   async function enterStationDetail(station) {
     const titleEl = document.getElementById('map-title');
@@ -678,6 +609,7 @@
     const legendEl = document.getElementById('legend');
     const backBtn = document.getElementById('back-btn');
     const staleEl = document.getElementById('stale-warning');
+    const mapWrap = document.querySelector('.map-wrap');
 
     const myToken = ++requestToken;
 
@@ -856,4 +788,6 @@
   }
 </script>
 
-<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5"}' crossorigin="anonymous"></script>
+</body>
+</html>
