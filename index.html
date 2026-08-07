@@ -42,7 +42,7 @@
   .faq-answer a{ color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
   .faq-answer a:hover{ opacity: 0.75; }
   .faq-answer sup a{ border-bottom: none; font-size: 0.75rem; }
-  #map-section{ display:none; max-width: 1100px; margin: 0 auto 60px; padding: 0 24px; }
+  #map-section{ max-width: 1100px; margin: 0 auto 60px; padding: 0 24px; }
   #map-section.visible{ display:block; }
   .map-header{ display:flex; align-items:baseline; justify-content: space-between; margin-bottom: 12px; }
   .map-header h2{ font-size: 1.1rem; margin: 0; }
@@ -495,6 +495,72 @@
     poiLayer = L.layerGroup().addTo(map);
   }
 
+  // Initialize map to show France by default
+  function initDefaultMapView() {
+    ensureMap();
+    // Set initial view to France
+    map.setView([46.6034, 1.8883], 6);
+    requestAnimationFrame(() => map.invalidateSize());
+
+    // Set the title for the default view
+    document.getElementById('map-title').textContent = 'Carte des gares en France';
+    document.getElementById('back-btn').style.display = 'none';
+  }
+
+  // Load stations when page loads
+  document.addEventListener('DOMContentLoaded', async () => {
+    initDefaultMapView();
+    renderAllStations();
+  });
+
+  async function renderAllStations() {
+    let index;
+    try {
+      index = await loadStationsIndex();
+    } catch (err) {
+      console.error(err);
+      return;
+    }
+
+    const listEl = document.getElementById('station-list');
+    const statusEl = document.getElementById('poi-status');
+    listEl.innerHTML = 'Chargement des gares…';
+
+    ensureMap();
+    isoLayer.clearLayers();
+    poiLayer.clearLayers();
+    if (stationMarkersLayer) stationMarkersLayer.clearLayers();
+    stationMarkersLayer = L.layerGroup();
+
+    const fragment = document.createDocumentFragment();
+
+    // Add all stations to the map
+    index.stations.forEach(station => {
+      const marker = L.marker([station.lat, station.lng]);
+      marker.bindPopup(`<h3>${station.name}</h3>`);
+      marker.addTo(stationMarkersLayer);
+
+      const li = document.createElement('li');
+      li.textContent = station.name;
+
+      const activate = () => {
+        document.querySelectorAll('.station-list li').forEach(el => el.classList.remove('active'));
+        li.classList.add('active');
+        enterStationDetail(station);
+      };
+
+      marker.on('click', activate);
+      li.addEventListener('click', activate);
+      fragment.appendChild(li);
+    });
+
+    listEl.innerHTML = '';
+    listEl.appendChild(fragment);
+    stationMarkersLayer.addTo(map);
+
+    statusEl.textContent = `${index.stations.length} gares affichées sur la carte.`;
+  }
+
   async function renderCity(key) {
     const section = document.getElementById('map-section');
     const listEl = document.getElementById('station-list');
@@ -505,7 +571,8 @@
     requestToken++;
 
     if (!key) {
-      section.classList.remove('visible');
+      initDefaultMapView();
+      renderAllStations();
       return;
     }
 
