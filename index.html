@@ -18,6 +18,13 @@
     --muted: #7a7268;
     --bakery: #b3792c;
   }
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120px;
+    height: auto;
+  }
   * { box-sizing: border-box; }
   body{ margin:0; font-family: -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--paper); color: var(--ink); }
   .hero{ max-width: 720px; margin: 0 auto; padding: 56px 24px 20px; text-align: center; }
@@ -58,6 +65,9 @@
 </style>
 
 <div class="hero">
+  <header>
+    <img src="assets/frog4.svg" alt="Logo" class="logo" style="max-width: 120px; margin-bottom: 16px;">
+  </header>
   <h1>passe le&nbsp;<span class="tilt">RELAIS</span></h1>
   <p class="subtitle">Découvre les alternatives autour de ta gare !</p>
   <div class="city-picker">
