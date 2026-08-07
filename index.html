@@ -32,12 +32,16 @@
   .subtitle{ margin: 14px 0 24px; font-size: 1.05rem; color: #4a4640; }
   .city-picker{ display:inline-flex; align-items:center; gap: 10px; }
   .city-picker select{ font-size: 1rem; padding: 9px 14px; border-radius: 8px; border: 1px solid var(--line); background: white; cursor: pointer; }
-  .why{ max-width: 680px; margin: 10px auto 40px; padding: 24px 28px; background: white; border: 1px solid var(--line); border-radius: 10px; }
-  .why h2{ margin: 0 0 10px; font-size: 1.1rem; text-align: justify;}
-  .why p{ margin: 0; font-size: 0.95rem; line-height: 1.6; color: #3a352e; text-align: justify;}
-  .why a{ color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
-  .why a:hover{ opacity: 0.75; }
-  .why sup a{ border-bottom: none; font-size: 0.75rem; }
+  .faq{ max-width: 680px; margin: 10px auto 40px; padding: 24px 28px; background: white; border: 1px solid var(--line); border-radius: 10px; }
+  .faq-item{ margin-bottom: 16px; border-bottom: 1px solid var(--line); }
+  .faq-question{ padding: 12px 0; font-size: 1.1rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px; }
+  .faq-question::after { content: '⌄'; font-size: 0.8rem; transition: transform 0.2s; }
+  .faq-question.active::after { transform: rotate(180deg); }
+  .faq-answer{ max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out, padding 0.3s ease-out; padding: 0 0 0 24px; }
+  .faq-answer p{ margin: 0; font-size: 0.95rem; line-height: 1.6; color: #3a352e; text-align: justify;}
+  .faq-answer a{ color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent); }
+  .faq-answer a:hover{ opacity: 0.75; }
+  .faq-answer sup a{ border-bottom: none; font-size: 0.75rem; }
   #map-section{ display:none; max-width: 1100px; margin: 0 auto 60px; padding: 0 24px; }
   #map-section.visible{ display:block; }
   .map-header{ display:flex; align-items:baseline; justify-content: space-between; margin-bottom: 12px; }
@@ -102,33 +106,69 @@
   </div>
 </div>
 
-<div class="why">
-  <h2>Question 1</h2>
-  <p>
-    En 2023, la célèbre enseigne de kiosques de gare a été phagocytée par le groupe d'un légèrement controversé milliairdaire breton
-    <sup><a href="https://www.lagardere.com/actionnaires-et-investisseurs/offre-publique-dachat-initiee-par-vivendi-se/" target="_blank" rel="noopener">[1]</a></sup>. 
-    Depuis, la sélection littéraire proposée pour nous accompagner en place 63 de la voiture 5 a quelque peu était modifiée pour servir un certain projet civilisationnel
-    <sup><a href="https://multinationales.org/fr/enquetes/le-systeme-bollore/le-dernier-maillon-de-la-chaine-les-magasins-relay-ligne-de-front-dans-la" target="_blank" rel="noopener">[2]</a></sup>.
-    La France a atteint son niveau le plus bas depuis un quart de siècle au Classement mondial de la liberté de la presse de Reporters sans frontières, et ce, notamment 
-    parce que "l’expansion du groupe Bolloré [...] inquiète le secteur du fait des méthodes brutales et interventionnistes de l’actionnaire et du défaut de pluralisme interne, 
-    faisant craindre le triomphe de l’opinion sur les faits."<sup><a href="https://rsf.org/fr/pays/france" target="_blank" rel="noopener">[3]</a></sup>. Quelque soit notre bord politique, 
-    acheter son sandwich triangle ou bien le dernier Picsou Magazine dans un kioske, une boulangerie ou 
-    une librairie indépendante serait non seuleument un moyen de soutenir les commerces locaux, mais permettrait également de protester contre la privatisation de la 
-    médiasphère française. Alors si mamie nous dépose 1h30 en avance à la gare, marchons donc quelque minutes pour mener bon train la résistance citoyenne.
-  </p>
-  <h2>Question 2</h2>
-  <p>
-    L'IA générative a été utilisée pour donner vie à l'idée de ce site. Celle-ci a servi à écrire les scripts HTML / JavaScript, mais n'a en aucun cas 
-    été employée pour écrire du texte, suggérer des idées, concevoir l'esthétisme ou choisir quoi représenter ou non sur cette page.
-  </p>
-  <h2>Question 3</h2>
-  <p>
-    Ecrivez nous !
-  </p>
+<div class="faq">
+  <h2>Foire aux questions</h2>
+
+  <div class="faq-item">
+    <div class="faq-question">Pourquoi privilégier les commerces indépendants autour des gares ?</div>
+    <div class="faq-answer">
+      <p>
+        En 2023, la célèbre enseigne de kiosques de gare a été phagocytée par le groupe d'un légèrement controversé milliardaire breton
+        <sup><a href="https://www.lagardere.com/actionnaires-et-investisseurs/offre-publique-dachat-initiee-par-vivendi-se/" target="_blank" rel="noopener">[1]</a></sup>. 
+        Depuis, la sélection littéraire proposée pour nous accompagner en place 63 de la voiture 5 a quelque peu était modifiée pour servir un certain projet civilisationnel
+        <sup><a href="https://multinationales.org/fr/enquetes/le-systeme-bollore/le-dernier-maillon-de-la-chaine-les-magasins-relay-ligne-de-front-dans-la" target="_blank" rel="noopener">[2]</a></sup>.
+        La France a atteint son niveau le plus bas depuis un quart de siècle au Classement mondial de la liberté de la presse de Reporters sans frontières, et ce, notamment
+        parce que "l’expansion du groupe Bolloré [...] inquiète le secteur du fait des méthodes brutales et interventionnistes de l’actionnaire et du défaut de pluralisme interne,
+        faisant craindre le triomphe de l’opinion sur les faits."<sup><a href="https://rsf.org/fr/pays/france" target="_blank" rel="noopener">[3]</a></sup>. Quelque soit notre bord politique,
+        acheter son sandwich triangle ou bien le dernier Picsou Magazine dans un kioske, une boulangerie ou
+        une librairie indépendante serait non seuleument un moyen de soutenir les commerces locaux, mais permettrait également de protester contre la privatisation de la
+        médiasphère française. Alors si mamie nous dépose 1h30 en avance à la gare, marchons donc quelque minutes pour mener bon train la résistance citoyenne.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Quel est le rôle de l'IA sur ce site ?</div>
+    <div class="faq-answer">
+      <p>
+        L'IA générative a été utilisée pour donner vie à l'idée de ce site. Celle-ci a servi à écrire les scripts HTML / JavaScript, mais n'a en aucun cas
+        été employée pour écrire du texte, suggérer des idées, concevoir l'esthétisme ou choisir quoi représenter ou non sur cette page.
+      </p>
+    </div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-question">Comment contacter les responsables du projet ?</div>
+    <div class="faq-answer">
+      <p>
+        Ecrivez-nous !
+      </p>
+    </div>
+  </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
+  // FAQ Accordion functionality
+  document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      const isActive = question.classList.contains('active');
+
+      // Close all other FAQ items
+      document.querySelectorAll('.faq-question').forEach(q => {
+        q.classList.remove('active');
+        q.nextElementSibling.style.maxHeight = null;
+      });
+
+      // Toggle current item
+      if (!isActive) {
+        question.classList.add('active');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+      }
+    });
+  });
+
   const CATEGORIES = {
     kiosk:     { emoji: "📰", label: "Kiosque",     color: "#c8202f" },
     bookstore: { emoji: "📚", label: "Librairie",   color: "#2f5d50" },
@@ -575,10 +615,6 @@
     }
   }
 
-  /**
-   * Point-in-polygon test using ray casting algorithm.
-   * Returns true if point [lng, lat] is inside the polygon.
-   */
   function pointInPolygon(point, polygon) {
     const [lng, lat] = point;
     let inside = false;
@@ -598,20 +634,15 @@
     return inside;
   }
 
-  /**
-   * Check if a point is inside a specific isochrone feature (300 or 600 seconds).
-   */
   function isPointInSpecificIsochrone(point, feature) {
     if (!feature || !feature.geometry) return false;
 
     const geometry = feature.geometry;
 
-    // Handle Polygon
     if (geometry.type === 'Polygon') {
-      const exterior = geometry.coordinates[0]; // Outer ring
+      const exterior = geometry.coordinates[0];
       return pointInPolygon(point, exterior);
     }
-    // Handle MultiPolygon
     else if (geometry.type === 'MultiPolygon') {
       for (const polygon of geometry.coordinates) {
         const exterior = polygon[0];
@@ -639,7 +670,6 @@
       return;
     }
 
-    // Get the 5-min (300s) and 10-min (600s) isochrone features
     const fiveMinFeature = isoGeojson.features.find(f => f.properties.value === 300);
     const tenMinFeature = isoGeojson.features.find(f => f.properties.value === 600);
 
@@ -656,13 +686,9 @@
 
       const point = [lon, lat];
 
-      // Check if point is in 5-min isochrone
       const inFiveMin = fiveMinFeature && isPointInSpecificIsochrone(point, fiveMinFeature);
-      
-      // Check if point is in 10-min isochrone (but not in 5-min)
       const inTenMin = tenMinFeature && isPointInSpecificIsochrone(point, tenMinFeature) && !inFiveMin;
 
-      // Only display if in 5-min OR 10-min isochrone
       if (!inFiveMin && !inTenMin) return;
 
       markers.push(buildShopMarker(lat, lon, el, category));
