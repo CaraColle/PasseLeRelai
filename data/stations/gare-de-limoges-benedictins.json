@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786018217793,
+      "timestamp": 1786091950751,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-06T12:12:15Z",
+      "timestamp_osm_base": "2026-08-07T08:38:46Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -294,6 +294,7 @@
         "tags": {
           "addr:housenumber": "4",
           "addr:street": "Place de la Motte",
+          "check_date:opening_hours": "2026-08-06",
           "email": "contact@pageetplume.fr",
           "name": "Page et Plume",
           "opening_hours": "Tu-Sa 09:00-19:00; Mo 14:00-19:00",
@@ -1380,6 +1381,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-06T11:52:22.603Z",
+  "fetchedAt": "2026-08-07T08:19:55.798Z",
   "staleDataWarning": false
 }

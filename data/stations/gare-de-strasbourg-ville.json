@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786017665795,
+      "timestamp": 1786091207236,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-06T12:00:55Z",
+      "timestamp_osm_base": "2026-08-07T08:28:30Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -367,7 +367,6 @@
           "check_date": "2025-03-17",
           "name": "Les Mains Dans la Farine",
           "operator": "Hotel Vandome",
-          "phone": "+33 9 50 31 76 95",
           "shop": "bakery",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
           "wheelchair": "no"
@@ -625,10 +624,6 @@
         "lat": 48.5802054,
         "lon": 7.7462745,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "9",
-          "addr:postcode": "67000",
-          "addr:street": "Rue des Serruriers",
           "contact:city": "Strasbourg",
           "contact:housenumber": "9",
           "contact:postcode": "67000",
@@ -637,7 +632,7 @@
           "name": "Maison Alsacienne de Biscuiterie",
           "opening_hours": "Mo-Su 09:00-19:00",
           "outdoor_seating": "no",
-          "phone": "+33 389 218510",
+          "phone": "+33 3 89 21 85 10",
           "ref:FR:SIRET": "80376212900127",
           "shop": "bakery",
           "takeaway": "only",
@@ -725,7 +720,6 @@
           "addr:street": "Petite Rue de la Course",
           "name": "O P'train",
           "opening_hours": "Mo-Fr 06:00-19:00; Sa 06:00-16:30; Su,PH off",
-          "phone": "+33388327965",
           "shop": "bakery",
           "source": "survey",
           "wheelchair": "no"
@@ -882,10 +876,6 @@
         "lat": 48.5803582,
         "lon": 7.7468784,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "10",
-          "addr:postcode": "67000",
-          "addr:street": "Rue de la Division Leclerc",
           "check_date": "2025-10-28",
           "contact:housenumber": "10",
           "contact:street": "Rue de la Division Leclerc",
@@ -978,10 +968,6 @@
         "lat": 48.5827314,
         "lon": 7.7417524,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "16",
-          "addr:postcode": "67000",
-          "addr:street": "Rue du 22 Novembre",
           "check_date": "2026-04-25",
           "check_date:opening_hours": "2026-04-25",
           "contact:city": "Strasbourg",
@@ -1101,7 +1087,7 @@
           "contact:facebook": "https://www.facebook.com/people/Boulangerie-p%C3%A2tisserie-traiteur-chez-steph/100064915735639/",
           "name": "Chez Steph",
           "opening_hours": "Mo-Fr 06:00-14:30,16:00-19:00; Sa 06:00-13:00",
-          "phone": "+33388326044",
+          "phone": "+33 3 88 32 60 44",
           "ref:FR:SIRET": "79335639500020",
           "shop": "bakery",
           "source": "survey",
@@ -1131,10 +1117,6 @@
         "lat": 48.5814225,
         "lon": 7.7442309,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "116",
-          "addr:postcode": "67000",
-          "addr:street": "Grand'Rue",
           "contact:city": "Strasbourg",
           "contact:email": "monatelier116@gmail.com",
           "contact:facebook": "monatelier116",
@@ -1398,8 +1380,7 @@
           "addr:postcode": "67000",
           "addr:street": "Ruelle des Pelletiers",
           "check_date": "2026-07-29",
-          "name": "XOXO Brunch & Salon de thé",
-          "phone": "+33 3 69 61 22 08",
+          "name": "Xoxo",
           "ref:FR:SIRET": "51199094700059",
           "shop": "bakery",
           "website": "https://fournil-kristof.com/"
@@ -1743,7 +1724,7 @@
           "brand:website": "https://www.poulaillon.fr",
           "check_date": "2026-07-29",
           "level": "1",
-          "name": "Poulaillon Strasbourg Halles",
+          "name": "Poulaillon",
           "ref": "55",
           "shop": "bakery"
         }
@@ -1788,6 +1769,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-06T11:52:22.603Z",
+  "fetchedAt": "2026-08-07T08:19:55.798Z",
   "staleDataWarning": false
 }

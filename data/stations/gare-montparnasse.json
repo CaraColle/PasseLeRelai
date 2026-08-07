@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786017143528,
+      "timestamp": 1786090796581,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-12T12:14:17Z",
+      "timestamp_osm_base": "2026-08-07T08:20:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -312,7 +312,9 @@
         "lat": 48.8513353,
         "lon": 2.3265742,
         "tags": {
+          "check_date:opening_hours": "2026-07-31",
           "name:signed": "no",
+          "opening_hours:signed": "no",
           "shop": "kiosk"
         }
       },
@@ -332,8 +334,10 @@
         "lat": 48.8513169,
         "lon": 2.3332154,
         "tags": {
-          "check_date": "2024-10-13",
+          "check_date": "2026-07-31",
+          "check_date:opening_hours": "2026-07-31",
           "name": "Le kiosque de Paris",
+          "opening_hours:signed": "no",
           "shop": "kiosk",
           "wheelchair": "yes"
         }
@@ -511,28 +515,6 @@
           "opening_hours": "Mo-Sa 07:00-20:00; Su off",
           "operator": "M. et Mme Brillault",
           "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 968924214,
-        "lat": 48.8408422,
-        "lon": 2.3172666,
-        "tags": {
-          "amenity": "fuel",
-          "brand": "8 à Huit",
-          "brand:wikidata": "Q2818601",
-          "brand:wikipedia": "fr:BP (entreprise)",
-          "compressed_air": "yes",
-          "fuel:e10": "yes",
-          "fuel:octane_98": "yes",
-          "name": "8 à Huit",
-          "opening_hours": "24/7",
-          "ref:FR:prix-carburants": "75015031",
-          "shop": "convenience",
-          "source": "Ministère de l'Economie, de l'Industrie et du Numérique - 03/2020",
-          "toilets": "yes",
           "wheelchair": "yes"
         }
       },
@@ -1571,6 +1553,7 @@
           "shop": "bakery",
           "source": "survey",
           "source:heritage": "Ministère de la Culture - 06/2019",
+          "start_date": "2018",
           "takeaway": "only",
           "toilets": "no",
           "wheelchair": "yes",
@@ -1716,10 +1699,11 @@
         "lat": 48.8303164,
         "lon": 2.3194557,
         "tags": {
-          "check_date:opening_hours": "2022-10-20",
+          "check_date": "2026-08-02",
+          "check_date:opening_hours": "2026-08-02",
           "indoor_seating": "yes",
-          "name": "Talmaitre",
-          "opening_hours": "Mo-Fr 07:00-20:30; Sa 07:00-20:00",
+          "name": "Talmaître",
+          "opening_hours": "Mo-Sa 07:00-20:30; Su 08:00-14:00",
           "outdoor_seating": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -1934,6 +1918,7 @@
         "lat": 48.8320177,
         "lon": 2.3277707,
         "tags": {
+          "changing_table": "no",
           "check_date": "2026-01-12",
           "indoor_seating": "yes",
           "name": "Yana",
@@ -2196,6 +2181,21 @@
       },
       {
         "type": "node",
+        "id": 5422620892,
+        "lat": 48.8437677,
+        "lon": 2.306075,
+        "tags": {
+          "addr:housenumber": "68",
+          "addr:street": "Rue Lecourbe",
+          "brand": "NOUS anti-gaspi",
+          "brand:wikidata": "Q130144283",
+          "name": "NOUS anti-gaspi",
+          "shop": "convenience",
+          "website": "https://www.nousantigaspi.com/magasins/paris_lecourbe/"
+        }
+      },
+      {
+        "type": "node",
         "id": 5430785259,
         "lat": 48.8542701,
         "lon": 2.3069316,
@@ -2299,7 +2299,7 @@
           "addr:postcode": "75014",
           "addr:street": "Place de Moro-Giafferi",
           "bulk_purchase": "only",
-          "check_date": "2024-06-12",
+          "check_date": "2026-07-18",
           "contact:facebook": "https://www.facebook.com/despotsetduvrac/",
           "name": "Entre Pots",
           "opening_hours": "Tu-Th 10:00-13:30,15:30-20:00; Fr 10:00-13:30,15:30-19:00; Sa 10:00-19:00",
@@ -2358,7 +2358,7 @@
         "lon": 2.3342054,
         "tags": {
           "name": "Delpire & Co.",
-          "opening_hours": "We-Sa 11:00-19:00",
+          "opening_hours": "Tu-Sa 11:00-19:00",
           "shop": "books",
           "website": "https://delpireandco.com"
         }
@@ -2970,6 +2970,7 @@
           "check_date": "2024-09-06",
           "name": "Coccinelle Express",
           "opening_hours": "Mo-Su 08:00-24:00",
+          "phone": "+33 1 43 56 67 38",
           "shop": "convenience",
           "website": "https://www.coccinelle.fr/Trouver_Un_Magasin/Details/coccinelle-express/paris/22-rue-st-amand",
           "wheelchair": "yes"
@@ -3075,7 +3076,7 @@
           "addr:housenumber": "125",
           "addr:postcode": "75006",
           "addr:street": "Boulevard du Montparnasse",
-          "check_date": "2025-11-27",
+          "check_date": "2026-08-02",
           "level": "0",
           "name": "Librairie Tschann",
           "opening_hours": "Mo-We 10:00-20:00, Th-Sa 10:00-22:00, Su 10:00-19:00",
@@ -3116,6 +3117,7 @@
           "addr:housenumber": "18",
           "addr:postcode": "75006",
           "addr:street": "Rue Le Verrier",
+          "check_date": "2026-08-02",
           "name": "Les Libres Champs",
           "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-14:00,15:00-18:00",
           "shop": "books"
@@ -3187,6 +3189,7 @@
           "books": "textbook",
           "contact:email": "leneuviemepays@gmail.com",
           "name": "Le neuvième pays",
+          "opening_hours": "Tu-Sa 11:30-19:30",
           "operator": "Sophie Semin-Handke",
           "owner": "Sophie Semin-Handke",
           "phone": "+33 975385780",
@@ -3230,6 +3233,22 @@
       },
       {
         "type": "node",
+        "id": 9742587466,
+        "lat": 48.8357053,
+        "lon": 2.3215138,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "27",
+          "addr:postcode": "75014",
+          "addr:street": "Rue Raymond Losserand",
+          "check_date:opening_hours": "2026-06-30",
+          "name": "Euro Market",
+          "opening_hours:signed": "no",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 9776709633,
         "lat": 48.8529459,
         "lon": 2.335558,
@@ -3245,6 +3264,7 @@
         "lat": 48.850571,
         "lon": 2.3194445,
         "tags": {
+          "name": "Niwa",
           "shop": "bakery"
         }
       },
@@ -3533,12 +3553,13 @@
       {
         "type": "node",
         "id": 10130786576,
-        "lat": 48.8387799,
-        "lon": 2.3220853,
+        "lat": 48.8388971,
+        "lon": 2.3220366,
         "tags": {
           "name": "Le kiosque de Paris",
           "opening_hours": "Mo-Sa 08:00-20:00",
-          "shop": "kiosk"
+          "shop": "kiosk",
+          "wheelchair": "yes"
         }
       },
       {
@@ -3916,6 +3937,17 @@
       },
       {
         "type": "node",
+        "id": 11730925384,
+        "lat": 48.8353876,
+        "lon": 2.3233079,
+        "tags": {
+          "level": "0",
+          "name": "Vsk supermarché",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 11769942500,
         "lat": 48.8553571,
         "lon": 2.3248259,
@@ -4046,6 +4078,7 @@
         "lat": 48.8319332,
         "lon": 2.3280917,
         "tags": {
+          "check_date:opening_hours": "2026-07-31",
           "name": "Flora Lit",
           "opening_hours": "Tu-Sa 10:30-19:30",
           "ref:FR:SIREN": "913787438",
@@ -4195,6 +4228,16 @@
         }
       },
       {
+        "type": "node",
+        "id": 14064571599,
+        "lat": 48.8331741,
+        "lon": 2.3249585,
+        "tags": {
+          "name": "Access Multiservices",
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 62296339,
         "center": {
@@ -4217,6 +4260,7 @@
         },
         "tags": {
           "building": "yes",
+          "check_date": "2026-07-03",
           "name": "Le kiosque de Paris",
           "shop": "kiosk",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
@@ -4251,7 +4295,7 @@
         "tags": {
           "indoor": "room",
           "level": "2",
-          "name": "Gontran Cherrier",
+          "name": "Bo & Mie",
           "opening_hours": "Mo-Su,PH 06:00-22:00",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -4499,6 +4543,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-06T11:52:22.603Z",
+  "fetchedAt": "2026-08-07T08:19:55.798Z",
   "staleDataWarning": false
 }

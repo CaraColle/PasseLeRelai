@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786018216009,
+      "timestamp": 1786091859818,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-06T12:12:15Z",
+      "timestamp_osm_base": "2026-08-07T08:37:41Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1575,18 +1575,8 @@
         "lat": 47.3902011,
         "lon": 0.6910174,
         "tags": {
-          "check_date:opening_hours": "2025-06-06",
-          "contact:city": "Tours",
-          "contact:housename": "Galerie du Grand Passage",
-          "contact:housenumber": "18",
-          "contact:postcode": "37000",
-          "contact:street": "Rue de Bordeaux",
-          "name": "Comme Avant",
-          "opening_hours": "Mo-Fr 08:00-19:15; Sa 09:00-15:00",
-          "operator": "Franck Nouveau",
-          "ref:FR:SIRET": "34985139400016",
-          "shop": "bakery",
-          "source:opening_hours": "sur place"
+          "name": "Au Passage Gourmand",
+          "shop": "bakery"
         }
       },
       {
@@ -1681,6 +1671,7 @@
         "lon": 0.6897185,
         "tags": {
           "books": "antiquarian",
+          "check_date": "2026-07-14",
           "check_date:opening_hours": "2026-01-23",
           "contact:city": "Tours",
           "contact:housenumber": "55",
@@ -1690,8 +1681,9 @@
           "opening_hours:signed": "no",
           "operator": "Jean-Michel Theureau",
           "panoramax": "90493281-e90d-4860-ab06-be8b2d14b5e7",
+          "panoramax:0": "ffdaa2e1-fcd9-47fe-b931-3e265ae29005",
           "phone": "+33 2 47 05 92 30",
-          "ref:FR:SIRET": "48761038800018",
+          "ref:FR:SIRET": "34827896100043",
           "second_hand": "only",
           "shop": "books",
           "start_date": "1988"
@@ -1854,6 +1846,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-06T11:52:22.603Z",
+  "fetchedAt": "2026-08-07T08:19:55.798Z",
   "staleDataWarning": false
 }
