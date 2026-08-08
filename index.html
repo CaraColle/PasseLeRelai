@@ -48,9 +48,19 @@
   .map-header h2{ font-size: 1.1rem; margin: 0; }
   #back-btn{ display:none; border: none; background: none; color: var(--accent); font-size: 0.85rem; cursor: pointer; padding: 0; }
   #back-btn.visible{ display:inline; }
-  .map-layout{ display:flex; border: 1px solid var(--line); border-radius: 10px; overflow:hidden; height: 560px; }
+  .map-layout{ display:flex; border: 1px solid var(--line); border-radius: 10px; overflow:hidden; height: 450px; }
   .map-wrap{ position: relative; flex: 1 1 100%; height: 100%; }
   #map{ height: 100%; }
+  
+  @media (max-width: 768px) {
+    .map-layout { height: 350px; }
+    aside { max-width: 100%; border-left: none; border-top: 1px solid var(--line); }
+  }
+  
+  @media (max-width: 480px) {
+    .map-layout { height: 300px; }
+    .map-header { flex-direction: column; align-items: flex-start; gap: 8px; }
+  }
   aside{ flex: 1 1 0%; max-width: 340px; overflow-y: auto; background: white; border-left: 1px solid var(--line); }
   .station-list{ list-style:none; margin:0; padding:0; }
   .station-list li{ padding: 13px 18px; border-bottom: 1px solid var(--line); cursor: pointer; font-size: 0.92rem; }
