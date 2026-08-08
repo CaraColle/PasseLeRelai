@@ -503,7 +503,7 @@
     requestAnimationFrame(() => map.invalidateSize());
 
     // Set the title for the default view
-    document.getElementById('map-title').textContent = 'Sélectionne une ville pour voir les gares';
+    document.getElementById('map-title').textContent = '';
     document.getElementById('back-btn').style.display = 'none';
   }
 
@@ -526,7 +526,7 @@
 
     currentCityKey = cityKey;
     section.classList.add('visible');
-    titleEl.textContent = `Gares grandes lignes — ${city.label}`;
+    titleEl.textContent = ``;
     document.getElementById('poi-status').textContent = '';
     document.getElementById('legend').classList.remove('visible');
     staleEl.style.display = 'none';
