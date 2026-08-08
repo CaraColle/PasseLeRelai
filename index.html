@@ -518,7 +518,7 @@
 
     const section = document.getElementById('map-section');
     const listEl = document.getElementById('station-list');
-    const titleEl = document.getElementById('');
+    const titleEl = document.getElementById('map-title');
     const backBtn = document.getElementById('back-btn');
     const staleEl = document.getElementById('stale-warning');
 
@@ -607,7 +607,7 @@
 
     const myToken = ++requestToken;
 
-    titleEl.textContent = station.name;
+    titleEl.textContent = '';
     backBtn.classList.add('visible');
     legendEl.classList.remove('visible');
     staleEl.style.display = 'none';
