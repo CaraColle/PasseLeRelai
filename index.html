@@ -503,8 +503,8 @@
     requestAnimationFrame(() => map.invalidateSize());
 
     // Set the title for the default view
-    document.getElementById('map-title').textContent = '';
-    document.getElementById('back-btn').style.display = 'none';
+    //document.getElementById('map-title').textContent = '';
+    //document.getElementById('back-btn').style.display = 'none';
   }
 
   // Load stations when page loads
@@ -729,10 +729,12 @@
     });
 
     markers.forEach(m => m.addTo(poiLayer));
-
+    
+    //${count5} commerce(s) à moins de 5 min à pied, ${count10} de plus à moins de 10 min.
+    
     const total = count5 + count10;
     statusEl.textContent = total > 0
-      ? `${count5} commerce(s) à moins de 5 min à pied, ${count10} de plus à moins de 10 min.`
+      ? ``
       : "Aucun commerce trouvé dans ce périmètre pour l'instant.";
   }
 
