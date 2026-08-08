@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786092322463,
+      "timestamp": 1786169985877,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-07T08:46:01Z",
+      "timestamp_osm_base": "2026-08-08T06:19:34Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -952,8 +952,10 @@
           "contact:street": "Rue Saint-Michel",
           "name": "CocciMarket",
           "opening_hours": "PH,Mo-Su 08:00-21:30",
+          "phone": "+33 2 31 84 98 53",
           "ref:FR:SIRET": "82822518500010",
           "shop": "convenience",
+          "website": "https://www.coccinelle.fr/magasin/caen-7",
           "wheelchair": "yes"
         }
       },
@@ -1062,6 +1064,7 @@
           "phone": "+33 2 31 52 09 20",
           "ref:FR:SIRET": "52364875600022",
           "shop": "convenience",
+          "website": "https://www.coccinelle.fr/magasin/caen-6",
           "wheelchair": "limited"
         }
       },
@@ -1398,6 +1401,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-07T08:19:55.798Z",
+  "fetchedAt": "2026-08-08T06:06:05.714Z",
   "staleDataWarning": false
 }

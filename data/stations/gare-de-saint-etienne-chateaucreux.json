@@ -233,7 +233,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786091480548,
+      "timestamp": 1786169585658,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -262,7 +262,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-07T08:32:35Z",
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -478,19 +478,11 @@
         "lat": 45.4401122,
         "lon": 4.3889443,
         "tags": {
-          "addr:city": "Saint-Étienne",
-          "addr:housenumber": "22",
-          "addr:street": "Rue Louis Braille",
-          "books": "comic",
           "check_date:opening_hours": "2026-05-10",
-          "description": "Librairie indépendante spécialisée en bandes dessinées.",
-          "email": "librairielesintrus@gmail.com",
           "name": "Les Intrus",
           "opening_hours": "Tu-Sa 10:00-19:00",
-          "phone": "+33 4 77 50 73 67",
           "ref:FR:SIRET": "97748103500011",
-          "shop": "books",
-          "website": "https://www.librairielesintrus.com/"
+          "shop": "books"
         }
       },
       {
@@ -511,7 +503,7 @@
         "lon": 4.3908836,
         "tags": {
           "name": "Halaby Market",
-          "ref:FR:SIRET": "10528641300015",
+          "ref:FR:SIRET": "92937346200019",
           "shop": "convenience"
         }
       },
@@ -580,12 +572,7 @@
         "tags": {
           "amenity": "cafe",
           "cafe": "board_game",
-          "contact:email": "levoyageur42000@gmail.com",
-          "contact:facebook": "https://www.facebook.com/people/Le-Voyageur/61557700950287/",
-          "contact:instagram": "https://www.instagram.com/levoyageur42/",
-          "contact:phone": "+33 6 83 84 67 53",
           "name": "Le Voyageur",
-          "opening_hours": "Tu-We 10:00-19:00; Th-Sa 10:00-01:00; Su 14:00-19:00",
           "ref:FR:SIRET": "98469008100018",
           "shop": "books",
           "website": "https://www.librairievoyageur.fr/"
@@ -726,10 +713,6 @@
         "tags": {
           "alt_name": "Nature Primeur",
           "name": "Au Cœur du Vrac",
-          "post_office": "post_partner",
-          "post_office:brand": "La Poste",
-          "post_office:brand:wikidata": "Q373724",
-          "ref:FR:LaPoste": "23412D",
           "ref:FR:SIRET": "83006794800018",
           "shop": "convenience",
           "website": "https://natureprimeur.fr/"
@@ -747,7 +730,6 @@
           "contact:phone": "+33 6 52 01 47 93",
           "name": "Le Pain du Loup",
           "opening_hours": "We-Fr 11:00-19:00",
-          "operator:type": "cooperative",
           "ref:FR:SIRET": "90432726900018",
           "shop": "bakery"
         }
@@ -850,6 +832,16 @@
           "ref:FR:SIRET": "75260101300010",
           "shop": "bakery",
           "website": "https://www.lecroqenbouche.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7162420641,
+        "lat": 45.433952,
+        "lon": 4.3914033,
+        "tags": {
+          "noname": "yes",
+          "shop": "convenience"
         }
       },
       {
@@ -1273,12 +1265,21 @@
       },
       {
         "type": "node",
+        "id": 13092465600,
+        "lat": 45.4404401,
+        "lon": 4.3901017,
+        "tags": {
+          "name": "Épicerie de la Ville",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 13115326973,
         "lat": 45.4417191,
         "lon": 4.4130101,
         "tags": {
           "name": "Gusti & Sapori",
-          "origin": "italian",
           "shop": "convenience"
         }
       },
@@ -1323,6 +1324,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-07T08:19:55.798Z",
+  "fetchedAt": "2026-08-08T06:06:05.714Z",
   "staleDataWarning": false
 }

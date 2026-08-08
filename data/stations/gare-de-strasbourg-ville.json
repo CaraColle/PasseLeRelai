@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786091207236,
+      "timestamp": 1786169390982,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-07T08:28:30Z",
+      "timestamp_osm_base": "2026-08-08T06:10:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -535,7 +535,6 @@
           "addr:postcode": "67000",
           "addr:street": "Boulevard de Lyon",
           "name": "Blé d'Or",
-          "phone": "+33388231070",
           "ref:FR:SIRET": "34478120800014",
           "shop": "bakery",
           "source": "survey"
@@ -797,7 +796,6 @@
           "addr:street": "Rue des Orfèvres",
           "check_date": "2026-07-30",
           "name": "Les Mains Dans la Farine",
-          "phone": "+33980834356",
           "ref:FR:SIRET": "89740402600014",
           "shop": "bakery"
         }
@@ -1195,10 +1193,6 @@
         "lat": 48.5787998,
         "lon": 7.7421487,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "14",
-          "addr:postcode": "67000",
-          "addr:street": "Rue Finkwiller",
           "brand": "Ronde des Pains",
           "contact:city": "Strasbourg",
           "contact:housenumber": "14",
@@ -1769,6 +1763,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-07T08:19:55.798Z",
+  "fetchedAt": "2026-08-08T06:06:05.714Z",
   "staleDataWarning": false
 }

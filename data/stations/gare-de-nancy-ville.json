@@ -245,7 +245,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786092323973,
+      "timestamp": 1786170000020,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-07T08:46:01Z",
+      "timestamp_osm_base": "2026-06-01T08:52:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -462,8 +462,8 @@
       {
         "type": "node",
         "id": 1975553475,
-        "lat": 48.6906666,
-        "lon": 6.1843562,
+        "lat": 48.6906624,
+        "lon": 6.1843197,
         "tags": {
           "addr:housenumber": "19",
           "contact:email": "autre.rive.nancy@wanadoo.fr",
@@ -569,6 +569,8 @@
         "lat": 48.7036584,
         "lon": 6.1820246,
         "tags": {
+          "addr:housenumber": "47",
+          "addr:street": "Rue de Malzéville",
           "contact:facebook": "lesmerveillesdeLily1",
           "name": "Les merveilles de Lily",
           "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-13:00",
@@ -706,6 +708,17 @@
       },
       {
         "type": "node",
+        "id": 4378671455,
+        "lat": 48.6873043,
+        "lon": 6.1849161,
+        "tags": {
+          "name": "À Jeanne d'Arc",
+          "shop": "books",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
         "id": 4396408240,
         "lat": 48.6912053,
         "lon": 6.1808933,
@@ -769,8 +782,6 @@
           "email": "nancy@equilivre.net",
           "name": "La Maison de la Bible",
           "opening_hours": "Tu-Sa 09:30-12:30,14:00-18:30",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
           "phone": "+33 3 83 35 08 97",
           "ref:FR:SIRET": "56206144000037",
           "shop": "books",
@@ -886,6 +897,22 @@
           "shop": "books",
           "source": "survey",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5441089449,
+        "lat": 48.6886129,
+        "lon": 6.1847875,
+        "tags": {
+          "contact:housenumber": "29",
+          "contact:street": "Rue des Sœurs Macarons",
+          "name": "Le Cahier Bleu",
+          "opening_hours": "Tu-Sa 10:00-18:30",
+          "phone": "+33 3 83183564",
+          "ref:FR:SIRET": "53131639600021",
+          "shop": "books",
+          "source": "survey"
         }
       },
       {
@@ -1065,9 +1092,26 @@
       },
       {
         "type": "node",
+        "id": 7363189312,
+        "lat": 48.6924119,
+        "lon": 6.180018,
+        "tags": {
+          "contact:email": "contact@green-planet.fr",
+          "contact:housenumber": "1",
+          "contact:street": "Rue des Carmes",
+          "name": "Green Planet",
+          "phone": "+33 3 87 37 25 74",
+          "ref:FR:SIRET": "84053291500039",
+          "shop": "convenience",
+          "website": "https://www.green-planet.fr",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
         "id": 7366818859,
-        "lat": 48.6931493,
-        "lon": 6.1826224,
+        "lat": 48.6931557,
+        "lon": 6.1826529,
         "tags": {
           "contact:housenumber": "1",
           "contact:street": "Place Stanislas",
@@ -1314,8 +1358,8 @@
       {
         "type": "node",
         "id": 11775608754,
-        "lat": 48.6909277,
-        "lon": 6.1842379,
+        "lat": 48.6909263,
+        "lon": 6.1842111,
         "tags": {
           "contact:housenumber": "9",
           "contact:street": "Rue du Pont Mouja",
@@ -1368,7 +1412,7 @@
           "contact:website": "https://magasins.naturalia.fr/naturalia/fr/store/france/grand-est/meurthe-et-moselle/nancy/nancy/3939",
           "level": "0",
           "name": "Naturalia",
-          "opening_hours": "Mo-Sa 09:00-20:00, Su closed",
+          "opening_hours": "Mo-Sa 9:00-20:00, Su closed",
           "organic": "only",
           "payment:cash": "yes",
           "payment:debit_cards": "yes",
@@ -1456,57 +1500,6 @@
         }
       },
       {
-        "type": "node",
-        "id": 13949165707,
-        "lat": 48.6877115,
-        "lon": 6.1834956,
-        "tags": {
-          "name": "Comptoir exotique",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 14011400718,
-        "lat": 48.6874431,
-        "lon": 6.1847924,
-        "tags": {
-          "addr:city": "Nancy",
-          "addr:housenumber": "116",
-          "addr:postcode": "54000",
-          "addr:street": "Rue Saint-Dizier",
-          "name": "Le Cahier bleu",
-          "ref:FR:SIRET": "53131639600039",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 14014520719,
-        "lat": 48.6917056,
-        "lon": 6.185011,
-        "tags": {
-          "addr:city": "Nancy",
-          "addr:housenumber": "49",
-          "addr:postcode": "54000",
-          "addr:street": "Rue Saint-Georges",
-          "name": "St Georges Market",
-          "ref:FR:SIRET": "10463687300010",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 14046675707,
-        "lat": 48.6981047,
-        "lon": 6.1783925,
-        "tags": {
-          "name": "Les Paniers du Primeur",
-          "ref:FR:SIRET": "88163561900029",
-          "shop": "convenience"
-        }
-      },
-      {
         "type": "way",
         "id": 1449410606,
         "center": {
@@ -1549,6 +1542,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-07T08:19:55.798Z",
+  "fetchedAt": "2026-08-08T06:06:05.714Z",
   "staleDataWarning": false
 }
