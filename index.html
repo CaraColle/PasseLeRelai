@@ -32,8 +32,7 @@
   .subtitle{ margin: 14px 0 24px; font-size: 1.05rem; color: #4a4640; }
   .city-picker{ display:inline-flex; align-items:center; gap: 10px; }
   .city-picker select{ font-size: 1rem; padding: 9px 14px; border-radius: 8px; border: 1px solid var(--line); background: white; cursor: pointer; }
-  //border: 1px solid var(--line); border-radius: 10px; 
-  .faq{ max-width: 680px; margin: 10px auto 40px; padding: 24px 28px; background: var(--paper); color: var(--ink);}
+  .faq{ max-width: 680px; margin: 10px auto 40px; padding: 24px 28px; background: var(--paper); color: var(--ink);border: 1px solid var(--line); border-radius: 10px; }
   .faq-item{ margin-bottom: 16px; border-bottom: 1px solid var(--line); }
   .faq-question{ padding: 12px 0; font-size: 1.1rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px; }
   .faq-question::after { content: '⌄'; font-size: 0.8rem; transition: transform 0.2s; }
@@ -111,7 +110,7 @@
   <h2>Foire aux questions</h2>
 
   <div class="faq-item">
-    <div class="faq-question">Pourquoi privilégier les commerces indépendants autour des gares ?</div>
+    <div class="faq-question">Pourquoi ce site ?</div>
     <div class="faq-answer">
       <p>
         En 2023, la célèbre enseigne de kiosques de gare a été phagocytée par le groupe d'un légèrement controversé milliardaire breton
@@ -129,17 +128,17 @@
   </div>
 
   <div class="faq-item">
-    <div class="faq-question">Quel est le rôle de l'IA sur ce site ?</div>
+    <div class="faq-question">L'IA a-t-elle été utilisée ?</div>
     <div class="faq-answer">
       <p>
-        L'IA générative a été utilisée pour donner vie à l'idée de ce site. Celle-ci a servi à écrire les scripts HTML / JavaScript, mais n'a en aucun cas
-        été employée pour écrire du texte, suggérer des idées, concevoir l'esthétisme ou choisir quoi représenter ou non sur cette page.
+        L'IA générative a été utilisée pour donner vie à ce site en écrivant les scripts HTML et JavaScript. Cependant, elle n'a en aucun cas
+        été employée pour suggérer des idées, concevoir l'esthétisme, rédiger les textes, ou choisir quoi présenter ou non sur cette page.
       </p>
     </div>
   </div>
 
   <div class="faq-item">
-    <div class="faq-question">Comment contacter les responsables du projet ?</div>
+    <div class="faq-question">Contact</div>
     <div class="faq-answer">
       <p>
         Ecrivez-nous !
@@ -731,11 +730,11 @@
 
     markers.forEach(m => m.addTo(poiLayer));
     
-    //${count5} commerce(s) à moins de 5 min à pied, ${count10} de plus à moins de 10 min.
+    //
     
     const total = count5 + count10;
     statusEl.textContent = total > 0
-      ? ``
+      ? `${count5} commerce(s) à moins de 5 min, ${count10} à moins de 10 min.`
       : "Aucun commerce trouvé dans ce périmètre pour l'instant.";
   }
 
