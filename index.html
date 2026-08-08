@@ -51,12 +51,12 @@
   .map-layout{ display:flex; border: 1px solid var(--line); border-radius: 10px; overflow:hidden; height: 450px; }
   .map-wrap{ position: relative; flex: 1 1 100%; height: 100%; }
   #map{ height: 100%; }
-  
+
   @media (max-width: 768px) {
     .map-layout { height: 350px; }
     aside { max-width: 100%; border-left: none; border-top: 1px solid var(--line); }
   }
-  
+
   @media (max-width: 480px) {
     .map-layout { height: 300px; }
     .map-header { flex-direction: column; align-items: flex-start; gap: 8px; }
@@ -79,24 +79,23 @@
 .relais-logo {
     display: inline-block;
     margin-left: 0.2em;
-    /* Remove or reduce this line: */
-    letter-spacing: -0.1em; /* or 0em */
+    letter-spacing: -0.1em;
     margin-top: 0.25em;
   }
-  
+
   .relais-letter {
     display: inline-block;
     position: relative;
   }
-  .relais-letter:nth-child(1) { top: -0.42em; }  /* R - normal position */
-  .relais-letter:nth-child(2) { top: -0.45em; }
-  .relais-letter:nth-child(3) { top: -0.48em; }
-  .relais-letter:nth-child(4) { top: -0.51em; }
-  .relais-letter:nth-child(5) { top: -0.54em; }
-  .relais-letter:nth-child(6) { top: -0.57em; }
-  .relais-letter:nth-child(7) { top: -0.6em; }
+  .relais-letter:nth-child(1) { top: 0.3em; }
+  .relais-letter:nth-child(2) { top: 0.2em; }
+  .relais-letter:nth-child(3) { top: 0.1em; }
+  .relais-letter:nth-child(4) { top: 0em; }
+  .relais-letter:nth-child(5) { top: -0.1em; }
+  .relais-letter:nth-child(6) { top: -0.2em; }
+  .relais-letter:nth-child(7) { top: -0.3em; }
 </style>
-  
+
 <div class="hero">
   <header>
     <img src="frog4.svg" alt="Logo" class="logo" style="max-width: 120px; margin-bottom: 16px;">
@@ -114,9 +113,9 @@
   </h1>
   <p class="subtitle">Découvre les alternatives autour de ta gare !</p>
   <div class="city-picker">
-    <label for="city-select">Choisis une... </label>
-    <select id="city-select">
-      <option value="">Ville</option>
+    <label for="station-select">Choisis une gare... </label>
+    <select id="station-select">
+      <option value="">Gare</option>
     </select>
   </div>
 </div>
@@ -494,7 +493,7 @@
   let stationMarkersLayer = null;
   let isoLayer = null;
   let poiLayer = null;
-  let currentCityKey = null;
+  let currentStationKey = null;
 
   let stationsIndex = null;
   const stationDataCache = new Map();
@@ -509,19 +508,32 @@
     return stationsIndex;
   }
 
-  function populateCityDropdown() {
-    const select = document.getElementById('city-select');
-    const sortedKeys = Object.keys(cities).sort((a, b) =>
-      cities[a].label.localeCompare(cities[b].label, 'fr', { sensitivity: 'base' })
-    );
-    sortedKeys.forEach(key => {
+  function populateStationDropdown() {
+    const select = document.getElementById('station-select');
+    const stationOptions = [];
+
+    // Create station options in "City - Station Name" format
+    Object.keys(cities).forEach(cityKey => {
+      const city = cities[cityKey];
+      city.stationNames.forEach(stationName => {
+        stationOptions.push({
+          value: `${cityKey}|${stationName}`,
+          text: `${city.label} - ${stationName}`
+        });
+      });
+    });
+
+    // Sort stations alphabetically
+    stationOptions.sort((a, b) => a.text.localeCompare(b.text, 'fr', { sensitivity: 'base' }));
+
+    // Add options to dropdown
+    stationOptions.forEach(option => {
       const opt = document.createElement('option');
-      opt.value = key;
-      opt.textContent = cities[key].label;
+      opt.value = option.value;
+      opt.textContent = option.text;
       select.appendChild(opt);
     });
   }
-  populateCityDropdown();
 
   function ensureMap() {
     if (map) return;
@@ -540,18 +552,19 @@
     // Set initial view to France
     map.setView([46.6034, 1.8883], 6);
     requestAnimationFrame(() => map.invalidateSize());
-
-    // Set the title for the default view
-    //document.getElementById('map-title').textContent = '';
-    //document.getElementById('back-btn').style.display = 'none';
   }
 
   // Load stations when page loads
   document.addEventListener('DOMContentLoaded', () => {
+    populateStationDropdown();
     initDefaultMapView();
   });
 
-  async function renderCityStations(cityKey) {
+  async function renderStationDetail(stationKey) {
+    const parts = stationKey.split('|');
+    const cityKey = parts[0];
+    const stationName = parts[1];
+
     const city = cities[cityKey];
     if (!city) return;
 
@@ -563,14 +576,14 @@
 
     const myToken = ++requestToken;
 
-    currentCityKey = cityKey;
+    currentStationKey = stationKey;
     section.classList.add('visible');
-    titleEl.textContent = ``;
+    titleEl.textContent = '';
     document.getElementById('poi-status').textContent = '';
     document.getElementById('legend').classList.remove('visible');
     staleEl.style.display = 'none';
     backBtn.classList.remove('visible');
-    listEl.innerHTML = 'Chargement des gares…';
+    listEl.innerHTML = 'Chargement des données de la gare…';
 
     let index;
     try {
@@ -578,13 +591,11 @@
     } catch (err) {
       console.error(err);
       listEl.innerHTML = '';
-      document.getElementById('poi-status').textContent = "Erreur lors du chargement de la liste des gares.";
+      document.getElementById('poi-status').textContent = "Erreur lors du chargement des données de la gare.";
       return;
     }
 
     if (myToken !== requestToken) return;
-
-    listEl.innerHTML = '';
 
     ensureMap();
     isoLayer.clearLayers();
@@ -592,71 +603,29 @@
     if (stationMarkersLayer) stationMarkersLayer.clearLayers();
     stationMarkersLayer = L.layerGroup();
 
-    map.setView(city.center, city.zoom);
-    requestAnimationFrame(() => map.invalidateSize());
-
-    const fragment = document.createDocumentFragment();
-
-    const stationsForCity = index.stations.filter(s => city.stationNames.includes(s.name));
-
-    stationsForCity.forEach(station => {
-      const marker = L.marker([station.lat, station.lng]);
-      marker.bindPopup(`<h3>${station.name}</h3>`);
-      marker.addTo(stationMarkersLayer);
-
-      const li = document.createElement('li');
-      li.textContent = station.name;
-
-      const activate = () => {
-        document.querySelectorAll('.station-list li').forEach(el => el.classList.remove('active'));
-        li.classList.add('active');
-        enterStationDetail(station);
-      };
-
-      marker.on('click', activate);
-      li.addEventListener('click', activate);
-      fragment.appendChild(li);
-    });
-
-    listEl.appendChild(fragment);
-    stationMarkersLayer.addTo(map);
-    document.getElementById('poi-status').textContent = `${stationsForCity.length} gare(s) dans ${city.label}.`;
-  }
-
-  document.getElementById('city-select').addEventListener('change', (e) => {
-    if (e.target.value) {
-      renderCityStations(e.target.value);
-    } else {
-      initDefaultMapView();
+    // Find the station in the index
+    const station = index.stations.find(s => s.name === stationName);
+    if (!station) {
+      document.getElementById('poi-status').textContent = "Gare non trouvée dans les données.";
+      return;
     }
-  });
 
-  document.getElementById('back-btn').addEventListener('click', () => {
-    if (currentCityKey) {
-      renderCityStations(currentCityKey);
-    }
-  });
-
-  async function enterStationDetail(station) {
-    const titleEl = document.getElementById('map-title');
-    const statusEl = document.getElementById('poi-status');
-    const legendEl = document.getElementById('legend');
-    const backBtn = document.getElementById('back-btn');
-    const staleEl = document.getElementById('stale-warning');
-
-    const myToken = ++requestToken;
-
-    titleEl.textContent = '';
-    backBtn.classList.add('visible');
-    legendEl.classList.remove('visible');
-    staleEl.style.display = 'none';
-    isoLayer.clearLayers();
-    poiLayer.clearLayers();
-
-    statusEl.textContent = 'Chargement…';
+    // Center map on the station and ensure it's visible
     map.setView([station.lat, station.lng], 16, { animate: true });
     requestAnimationFrame(() => map.invalidateSize());
 
+    // Add marker for the station
+    const stationMarker = L.marker([station.lat, station.lng], {
+      icon: L.divIcon({
+        className: 'poi-marker',
+        html: `<div style="background:#2f5d50">🚂</div>`,
+        iconSize: [28, 28],
+        iconAnchor: [14, 14]
+      })
+    }).addTo(stationMarkersLayer);
+    stationMarker.bindPopup(`<h3>${stationName}</h3><p>Gare principale</p>`);
+
+    // Load and display station data
     try {
       let data = stationDataCache.get(station.slug);
       if (!data) {
@@ -673,14 +642,35 @@
         staleEl.textContent = `⚠️ Données mises à jour le ${new Date(data.fetchedAt).toLocaleString('fr-FR')} — certaines informations peuvent être incomplètes.`;
       }
 
-      renderIsoAndShops(data, statusEl, legendEl);
+      renderIsoAndShops(data, document.getElementById('poi-status'), document.getElementById('legend'));
     } catch (err) {
       console.error(err);
       if (myToken === requestToken) {
-        statusEl.textContent = "Erreur lors du chargement des données de la gare.";
+        document.getElementById('poi-status').textContent = "Erreur lors du chargement des données de la gare.";
       }
     }
+
+    // Update UI
+    titleEl.textContent = stationName;
+    backBtn.classList.add('visible');
+    document.getElementById('legend').classList.remove('visible');
+    listEl.innerHTML = '';
+    stationMarkersLayer.addTo(map);
   }
+
+  document.getElementById('station-select').addEventListener('change', (e) => {
+    if (e.target.value) {
+      renderStationDetail(e.target.value);
+    } else {
+      initDefaultMapView();
+    }
+  });
+
+  document.getElementById('back-btn').addEventListener('click', () => {
+    if (currentStationKey) {
+      renderStationDetail(currentStationKey);
+    }
+  });
 
   function pointInPolygon(point, polygon) {
     const [lng, lat] = point;
@@ -768,9 +758,7 @@
     });
 
     markers.forEach(m => m.addTo(poiLayer));
-    
-    //
-    
+
     const total = count5 + count10;
     statusEl.textContent = total > 0
       ? `${count5} commerce(s) à moins de 5 min, ${count10} à moins de 10 min.`
