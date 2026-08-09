@@ -51,12 +51,12 @@
   .map-layout{ display:flex; border: 1px solid var(--line); border-radius: 10px; overflow:hidden; height: 450px; }
   .map-wrap{ position: relative; flex: 1 1 100%; height: 100%; }
   #map{ height: 100%; }
-  
+
   @media (max-width: 768px) {
     .map-layout { height: 350px; }
     aside { max-width: 100%; border-left: none; border-top: 1px solid var(--line); }
   }
-  
+
   @media (max-width: 480px) {
     .map-layout { height: 300px; }
     .map-header { flex-direction: column; align-items: flex-start; gap: 8px; }
@@ -79,16 +79,15 @@
 .relais-logo {
     display: inline-block;
     margin-left: 0.2em;
-    /* Remove or reduce this line: */
-    letter-spacing: -0.1em; /* or 0em */
+    letter-spacing: -0.1em;
     margin-top: 0.25em;
   }
-  
+
   .relais-letter {
     display: inline-block;
     position: relative;
   }
-  .relais-letter:nth-child(1) { top: -0.42em; }  /* R - normal position */
+  .relais-letter:nth-child(1) { top: -0.42em; }
   .relais-letter:nth-child(2) { top: -0.45em; }
   .relais-letter:nth-child(3) { top: -0.48em; }
   .relais-letter:nth-child(4) { top: -0.51em; }
@@ -96,7 +95,7 @@
   .relais-letter:nth-child(6) { top: -0.57em; }
   .relais-letter:nth-child(7) { top: -0.6em; }
 </style>
-  
+
 <div class="hero">
   <header>
     <img src="frog4.svg" alt="Logo" class="logo" style="max-width: 120px; margin-bottom: 16px;">
@@ -114,9 +113,9 @@
   </h1>
   <p class="subtitle">Découvre les alternatives autour de ta gare !</p>
   <div class="city-picker">
-    <label for="city-select">Choisis une... </label>
-    <select id="city-select">
-      <option value="">Ville</option>
+    <label for="station-select">Choisis une gare... </label>
+    <select id="station-select">
+      <option value="">Gare</option>
     </select>
   </div>
 </div>
@@ -140,7 +139,6 @@
     <aside>
       <div id="stale-warning" class="stale-warning" style="display:none;"></div>
       <div id="poi-status"></div>
-      <ul class="station-list" id="station-list"></ul>
     </aside>
   </div>
 </div>
@@ -189,23 +187,21 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
   // FAQ Accordion functionality
-  document.querySelectorAll('.faq-question').forEach(question => {
-    question.addEventListener('click', () => {
-      const answer = question.nextElementSibling;
-      const isActive = question.classList.contains('active');
+  document.querySelectorAll('.faq-question').forEventListener('click', () => {
+    const answer = question.nextElementSibling;
+    const isActive = question.classList.contains('active');
 
-      // Close all other FAQ items
-      document.querySelectorAll('.faq-question').forEach(q => {
-        q.classList.remove('active');
-        q.nextElementSibling.style.maxHeight = null;
-      });
-
-      // Toggle current item
-      if (!isActive) {
-        question.classList.add('active');
-        answer.style.maxHeight = answer.scrollHeight + 'px';
-      }
+    // Close all other FAQ items
+    document.querySelectorAll('.faq-question').forEach(q => {
+      q.classList.remove('active');
+      q.nextElementSibling.style.maxHeight = null;
     });
+
+    // Toggle current item
+    if (!isActive) {
+      question.classList.add('active');
+      answer.style.maxHeight = answer.scrollHeight + 'px';
+    }
   });
 
   const CATEGORIES = {
@@ -214,287 +210,309 @@
     bakery:    { emoji: "🥖", label: "Boulangerie", color: "#b3792c" }
   };
 
-  const cities = {
-  amiens: {
-    label: "Amiens",
-    center: [49.8942, 2.2957],
-    zoom: 13,
-    stationNames: [
-      "Gare d'Amiens"
-    ]
-  },
-  angers: {
-    label: "Angers",
-    center: [47.4784, -0.5632],
-    zoom: 13,
-    stationNames: [
-      "Gare d'Angers-Saint-Laud"
-    ]
-  },
-  "aix-en-provence": {
-    label: "Aix-en-Provence",
-    center: [43.5297, 5.4474],
-    zoom: 13,
-    stationNames: [
-      "Gare d'Aix-en-Provence TGV"
-    ]
-  },
-  besancon: {
-    label: "Besançon",
-    center: [47.2378, 6.0241],
-    zoom: 13,
-    stationNames: [
-      "Gare de Besançon-Viotte"
-    ]
-  },
-  bordeaux: {
-    label: "Bordeaux",
-    center: [44.8378, -0.5792],
-    zoom: 12,
-    stationNames: [
-      "Gare de Bordeaux-Saint-Jean"
-    ]
-  },
-  brest: {
-    label: "Brest",
-    center: [48.3904, -4.4861],
-    zoom: 13,
-    stationNames: [
-      "Gare de Brest"
-    ]
-  },
-  caen: {
-    label: "Caen",
-    center: [49.1829, -0.3707],
-    zoom: 13,
-    stationNames: [
-      "Gare de Caen"
-    ]
-  },
-  "clermont-ferrand": {
-    label: "Clermont-Ferrand",
-    center: [45.7772, 3.0870],
-    zoom: 13,
-    stationNames: [
-      "Gare de Clermont-Ferrand"
-    ]
-  },
-  dijon: {
-    label: "Dijon",
-    center: [47.3220, 5.0415],
-    zoom: 13,
-    stationNames: [
-      "Gare de Dijon-Ville"
-    ]
-  },
-  grenoble: {
-    label: "Grenoble",
-    center: [45.1885, 5.7245],
-    zoom: 13,
-    stationNames: [
-      "Gare de Grenoble"
-    ]
-  },
-  "le-havre": {
-    label: "Le Havre",
-    center: [49.4944, 0.1079],
-    zoom: 13,
-    stationNames: [
-      "Gare du Havre"
-    ]
-  },
-  "le-mans": {
-    label: "Le Mans",
-    center: [48.0077, 0.1984],
-    zoom: 13,
-    stationNames: [
-      "Gare du Mans"
-    ]
-  },
-  limoges: {
-    label: "Limoges",
-    center: [45.8336, 1.2611],
-    zoom: 13,
-    stationNames: [
-      "Gare de Limoges-Bénédictins"
-    ]
-  },
-  lille: {
-    label: "Lille",
-    center: [50.6292, 3.0573],
-    zoom: 12,
-    stationNames: [
-      "Gare de Lille-Flandres", "Gare de Lille-Europe"
-    ]
-  },
-  lyon: {
-    label: "Lyon",
-    center: [45.7640, 4.8357],
-    zoom: 12,
-    stationNames: [
-      "Gare de Lyon-Part-Dieu", "Gare de Lyon-Perrache"
-    ]
-  },
-  marseille: {
-    label: "Marseille",
-    center: [43.2965, 5.3698],
-    zoom: 12,
-    stationNames: [
-      "Gare de Marseille-Saint-Charles"
-    ]
-  },
-  metz: {
-    label: "Metz",
-    center: [49.1193, 6.1757],
-    zoom: 13,
-    stationNames: [
-      "Gare de Metz-Ville"
-    ]
-  },
-  montpellier: {
-    label: "Montpellier",
-    center: [43.6100, 3.9060],
-    zoom: 13,
-    stationNames: [
-      "Gare de Montpellier Saint-Roch", "Gare de Montpellier Sud de France"
-    ]
-  },
-  mulhouse: {
-    label: "Mulhouse",
-    center: [47.7508, 7.3359],
-    zoom: 13,
-    stationNames: [
-      "Gare de Mulhouse-Ville"
-    ]
-  },
-  nancy: {
-    label: "Nancy",
-    center: [48.6921, 6.1844],
-    zoom: 13,
-    stationNames: [
-      "Gare de Nancy-Ville"
-    ]
-  },
-  nantes: {
-    label: "Nantes",
-    center: [47.2184, -1.5536],
-    zoom: 12,
-    stationNames: [
-      "Gare de Nantes"
-    ]
-  },
-  nice: {
-    label: "Nice",
-    center: [43.7102, 7.2620],
-    zoom: 12,
-    stationNames: [
-      "Gare de Nice-Ville"
-    ]
-  },
-  nimes: {
-    label: "Nîmes",
-    center: [43.8367, 4.3601],
-    zoom: 13,
-    stationNames: [
-      "Gare de Nîmes"
-    ]
-  },
-  orleans: {
-    label: "Orléans",
-    center: [47.9029, 1.9093],
-    zoom: 13,
-    stationNames: [
-      "Gare d'Orléans"
-    ]
-  },
-  paris: {
-    label: "Paris",
-    center: [48.8566, 2.3522],
-    zoom: 12,
-    stationNames: [
-      "Gare de Lyon", "Gare du Nord", "Gare de l'Est",
-      "Gare Montparnasse", "Gare Saint-Lazare", "Gare d'Austerlitz"
-    ]
-  },
-  perpignan: {
-    label: "Perpignan",
-    center: [42.6986, 2.8955],
-    zoom: 13,
-    stationNames: [
-      "Gare de Perpignan"
-    ]
-  },
-  reims: {
-    label: "Reims",
-    center: [49.2583, 4.0317],
-    zoom: 13,
-    stationNames: [
-      "Gare de Reims"
-    ]
-  },
-  rennes: {
-    label: "Rennes",
-    center: [48.1173, -1.6778],
-    zoom: 13,
-    stationNames: [
-      "Gare de Rennes"
-    ]
-  },
-  rouen: {
-    label: "Rouen",
-    center: [49.4431, 1.0993],
-    zoom: 13,
-    stationNames: [
-      "Gare de Rouen-Rive-Droite"
-    ]
-  },
-  "saint-etienne": {
-    label: "Saint-Étienne",
-    center: [45.4397, 4.3872],
-    zoom: 13,
-    stationNames: [
-      "Gare de Saint-Étienne-Châteaucreux"
-    ]
-  },
-  strasbourg: {
-    label: "Strasbourg",
-    center: [48.5734, 7.7521],
-    zoom: 12,
-    stationNames: [
-      "Gare de Strasbourg-Ville"
-    ]
-  },
-  toulouse: {
-    label: "Toulouse",
-    center: [43.6047, 1.4442],
-    zoom: 12,
-    stationNames: [
-      "Gare de Toulouse-Matabiau"
-    ]
-  },
-  toulon: {
-    label: "Toulon",
-    center: [43.1242, 5.9280],
-    zoom: 13,
-    stationNames: [
-      "Gare de Toulon"
-    ]
-  },
-  tours: {
-    label: "Tours",
-    center: [47.3941, 0.6848],
-    zoom: 13,
-    stationNames: [
-      "Gare de Tours"
-    ]
-  }
-};
+  // Create a stations object with formatted names
+  const stations = {
+    "paris-lyon": {
+      label: "Paris - Gare de Lyon",
+      city: "Paris",
+      stationName: "Gare de Lyon",
+      center: [48.8446, 2.3719],
+      zoom: 15
+    },
+    "paris-nord": {
+      label: "Paris - Gare du Nord",
+      city: "Paris",
+      stationName: "Gare du Nord",
+      center: [48.8808, 2.3533],
+      zoom: 15
+    },
+    "paris-est": {
+      label: "Paris - Gare de l'Est",
+      city: "Paris",
+      stationName: "Gare de l'Est",
+      center: [48.8758, 2.3613],
+      zoom: 15
+    },
+    "paris-montparnasse": {
+      label: "Paris - Gare Montparnasse",
+      city: "Paris",
+      stationName: "Gare Montparnasse",
+      center: [48.8407, 2.3223],
+      zoom: 15
+    },
+    "paris-saint-lazare": {
+      label: "Paris - Gare Saint-Lazare",
+      city: "Paris",
+      stationName: "Gare Saint-Lazare",
+      center: [48.8769, 2.3268],
+      zoom: 15
+    },
+    "paris-austerlitz": {
+      label: "Paris - Gare d'Austerlitz",
+      city: "Paris",
+      stationName: "Gare d'Austerlitz",
+      center: [48.8406, 2.3686],
+      zoom: 15
+    },
+    "lyon-part-dieu": {
+      label: "Lyon - Gare de Lyon-Part-Dieu",
+      city: "Lyon",
+      stationName: "Gare de Lyon-Part-Dieu",
+      center: [45.7606, 4.8584],
+      zoom: 15
+    },
+    "lyon-perrache": {
+      label: "Lyon - Gare de Lyon-Perrache",
+      city: "Lyon",
+      stationName: "Gare de Lyon-Perrache",
+      center: [45.7406, 4.8389],
+      zoom: 15
+    },
+    "lille-flandres": {
+      label: "Lille - Gare de Lille-Flandres",
+      city: "Lille",
+      stationName: "Gare de Lille-Flandres",
+      center: [50.6286, 3.0611],
+      zoom: 15
+    },
+    "lille-europe": {
+      label: "Lille - Gare de Lille-Europe",
+      city: "Lille",
+      stationName: "Gare de Lille-Europe",
+      center: [50.6309, 3.0668],
+      zoom: 15
+    },
+    "marseille-saint-charles": {
+      label: "Marseille - Gare de Marseille-Saint-Charles",
+      city: "Marseille",
+      stationName: "Gare de Marseille-Saint-Charles",
+      center: [43.2965, 5.3709],
+      zoom: 15
+    },
+    "bordeaux-saint-jean": {
+      label: "Bordeaux - Gare de Bordeaux-Saint-Jean",
+      city: "Bordeaux",
+      stationName: "Gare de Bordeaux-Saint-Jean",
+      center: [44.8378, -0.5792],
+      zoom: 15
+    },
+    "nantes": {
+      label: "Nantes - Gare de Nantes",
+      city: "Nantes",
+      stationName: "Gare de Nantes",
+      center: [47.2184, -1.5536],
+      zoom: 15
+    },
+    "strasbourg-ville": {
+      label: "Strasbourg - Gare de Strasbourg-Ville",
+      city: "Strasbourg",
+      stationName: "Gare de Strasbourg-Ville",
+      center: [48.5734, 7.7521],
+      zoom: 15
+    },
+    "montpellier-saint-roch": {
+      label: "Montpellier - Gare de Montpellier Saint-Roch",
+      city: "Montpellier",
+      stationName: "Gare de Montpellier Saint-Roch",
+      center: [43.6100, 3.8760],
+      zoom: 15
+    },
+    "montpellier-sud": {
+      label: "Montpellier - Gare de Montpellier Sud de France",
+      city: "Montpellier",
+      stationName: "Gare de Montpellier Sud de France",
+      center: [43.6047, 3.9060],
+      zoom: 15
+    },
+    "toulouse-matabiau": {
+      label: "Toulouse - Gare de Toulouse-Matabiau",
+      city: "Toulouse",
+      stationName: "Gare de Toulouse-Matabiau",
+      center: [43.6047, 1.4442],
+      zoom: 15
+    },
+    "nice-ville": {
+      label: "Nice - Gare de Nice-Ville",
+      city: "Nice",
+      stationName: "Gare de Nice-Ville",
+      center: [43.7071, 7.2619],
+      zoom: 15
+    },
+    "rennes": {
+      label: "Rennes - Gare de Rennes",
+      city: "Rennes",
+      stationName: "Gare de Rennes",
+      center: [48.1173, -1.6778],
+      zoom: 15
+    },
+    "grenoble": {
+      list: "Grenoble - Gare de Grenoble",
+      city: "Grenoble",
+      stationName: "Gare de Grenoble",
+      center: [45.1885, 5.7245],
+      zoom: 15
+    },
+    "dijon-ville": {
+      label: "Dijon - Gare de Dijon-Ville",
+      city: "Dijon",
+      stationName: "Gare de Dijon-Ville",
+      center: [47.3220, 5.0415],
+      zoom: 15
+    },
+    "amiens": {
+      label: "Amiens - Gare d'Amiens",
+      city: "Amiens",
+      stationName: "Gare d'Amiens",
+      center: [49.8942, 2.2957],
+      zoom: 15
+    },
+    "angers-saint-laud": {
+      label: "Angers - Gare d'Angers-Saint-Laud",
+      city: "Angers",
+      stationName: "Gare d'Angers-Saint-Laud",
+      center: [47.4784, -0.5632],
+      zoom: 15
+    },
+    "aix-en-provence-tgv": {
+      label: "Aix-en-Provence - Gare d'Aix-en-Provence TGV",
+      city: "Aix-en-Provence",
+      stationName: "Gare d'Aix-en-Provence TGV",
+      center: [43.5297, 5.4474],
+      zoom: 15
+    },
+    "besancon-viotte": {
+      label: "Besançon - Gare de Besançon-Viotte",
+      city: "Besançon",
+      stationName: "Gare de Besançon-Viotte",
+      center: [47.2378, 6.0241],
+      zoom: 15
+    },
+    "brest": {
+      label: "Brest - Gare de Brest",
+      city: "Brest",
+      stationName: "Gare de Brest",
+      center: [48.3904, -4.4861],
+      zoom: 15
+    },
+    "caen": {
+      label: "Caen - Gare de Caen",
+      city: "Caen",
+      stationName: "Gare de Caen",
+      center: [49.1829, -0.3707],
+      zoom: 15
+    },
+    "clermont-ferrand": {
+      label: "Clermont-Ferrand - Gare de Clermont-Ferrand",
+      city: "Clermont-Ferrand",
+      stationName: "Gare de Clermont-Ferrand",
+      center: [45.7772, 3.0870],
+      zoom: 15
+    },
+    "le-havre": {
+      label: "Le Havre - Gare du Havre",
+      city: "Le Havre",
+      stationName: "Gare du Havre",
+      center: [49.4944, 0.1079],
+      zoom: 15
+    },
+    "le-mans": {
+      label: "Le Mans - Gare du Mans",
+      city: "Le Mans",
+      stationName: "Gare du Mans",
+      center: [48.0077, 0.1984],
+      zoom: 15
+    },
+    "limoges-benedictins": {
+      label: "Limoges - Gare de Limoges-Bénédictins",
+      city: "Limoges",
+      stationName: "Gare de Limoges-Bénédictins",
+      center: [45.8336, 1.2611],
+      zoom: 15
+    },
+    "metz-ville": {
+      label: "Metz - Gare de Metz-Ville",
+      city: "Metz",
+      stationName: "Gare de Metz-Ville",
+      center: [49.1193, 6.1757],
+      zoom: 15
+    },
+    "perpignan": {
+      label: "Perpignan - Gare de Perpignan",
+      city: "Perpignan",
+      stationName: "Gare de Perpignan",
+      center: [42.6986, 2.8955],
+      zoom: 15
+    },
+    "reims": {
+      label: "Reims - Gare de Reims",
+      city: "Reims",
+      stationName: "Gare de Reims",
+      center: [49.2583, 4.0317],
+      zoom: 15
+    },
+    "rouen-rive-droite": {
+      label: "Rouen - Gare de Rouen-Rive-Droite",
+      city: "Rouen",
+      stationName: "Gare de Rouen-Rive-Droite",
+      center: [49.4431, 1.0993],
+      zoom: 15
+    },
+    "saint-etienne-chateaucreux": {
+      label: "Saint-Étienne - Gare de Saint-Étienne-Châteaucreux",
+      city: "Saint-Étienne",
+      stationName: "Gare de Saint-Étienne-Châteaucreux",
+      center: [45.4397, 4.3872],
+      zoom: 15
+    },
+    "toulon": {
+      label: "Toulon - Gare de Toulon",
+      city: "Toulon",
+      stationName: "Gare de Toulon",
+      center: [43.1242, 5.9280],
+      zoom: 15
+    },
+    "tours": {
+      label: "Tours - Gare de Tours",
+      city: "Tours",
+      stationName: "Gare de Tours",
+      center: [47.3941, 0.6848],
+      zoom: 15
+    },
+    "orleans": {
+      label: "Orléans - Gare d'Orléans",
+      city: "Orléans",
+      stationName: "Gare d'Orléans",
+      center: [47.9029, 1.9093],
+      zoom: 15
+    },
+    "nimes": {
+      label: "Nîmes - Gare de Nîmes",
+      city: "Nîmes",
+      stationName: "Gare de Nîmes",
+      center: [43.8367, 4.3601],
+      zoom: 15
+    },
+    "mulhouse-ville": {
+      label: "Mulhouse - Gare de Mulhouse-Ville",
+      city: "Mulhouse",
+      stationName: "Gare de Mulhouse-Ville",
+      center: [47.7508, 7.3359],
+      zoom: 15
+    },
+    "nancy-ville": {
+      label: "Nancy - Gare de Nancy-Ville",
+      city: "Nancy",
+      stationName: "Gare de Nancy-Ville",
+      center: [48.6921, 6.1844],
+      zoom: 15
+    }
+  };
 
   let map = null;
   let stationMarkersLayer = null;
   let isoLayer = null;
   let poiLayer = null;
-  let currentCityKey = null;
+  let currentStationKey = null;
 
   let stationsIndex = null;
   const stationDataCache = new Map();
@@ -509,19 +527,19 @@
     return stationsIndex;
   }
 
-  function populateCityDropdown() {
-    const select = document.getElementById('city-select');
-    const sortedKeys = Object.keys(cities).sort((a, b) =>
-      cities[a].label.localeCompare(cities[b].label, 'fr', { sensitivity: 'base' })
+  function populateStationDropdown() {
+    const select = document.getElementById('station-select');
+    const sortedKeys = Object.keys(stations).sort((a, b) =>
+      stations[a].label.localeCompare(stations[b].label, 'fr', { sensitivity: 'base' })
     );
     sortedKeys.forEach(key => {
       const opt = document.createElement('option');
       opt.value = key;
-      opt.textContent = cities[key].label;
+      opt.textContent = stations[key].label;
       select.appendChild(opt);
     });
   }
-  populateCityDropdown();
+  populateStationDropdown();
 
   function ensureMap() {
     if (map) return;
@@ -540,10 +558,6 @@
     // Set initial view to France
     map.setView([46.6034, 1.8883], 6);
     requestAnimationFrame(() => map.invalidateSize());
-
-    // Set the title for the default view
-    //document.getElementById('map-title').textContent = '';
-    //document.getElementById('back-btn').style.display = 'none';
   }
 
   // Load stations when page loads
@@ -551,40 +565,11 @@
     initDefaultMapView();
   });
 
-  async function renderCityStations(cityKey) {
-    const city = cities[cityKey];
-    if (!city) return;
-
-    const section = document.getElementById('map-section');
-    const listEl = document.getElementById('station-list');
-    const titleEl = document.getElementById('map-title');
-    const backBtn = document.getElementById('back-btn');
-    const staleEl = document.getElementById('stale-warning');
+  async function loadStationData(stationKey) {
+    const station = stations[stationKey];
+    if (!station) return null;
 
     const myToken = ++requestToken;
-
-    currentCityKey = cityKey;
-    section.classList.add('visible');
-    titleEl.textContent = ``;
-    document.getElementById('poi-status').textContent = '';
-    document.getElementById('legend').classList.remove('visible');
-    staleEl.style.display = 'none';
-    backBtn.classList.remove('visible');
-    listEl.innerHTML = 'Chargement des gares…';
-
-    let index;
-    try {
-      index = await loadStationsIndex();
-    } catch (err) {
-      console.error(err);
-      listEl.innerHTML = '';
-      document.getElementById('poi-status').textContent = "Erreur lors du chargement de la liste des gares.";
-      return;
-    }
-
-    if (myToken !== requestToken) return;
-
-    listEl.innerHTML = '';
 
     ensureMap();
     isoLayer.clearLayers();
@@ -592,52 +577,46 @@
     if (stationMarkersLayer) stationMarkersLayer.clearLayers();
     stationMarkersLayer = L.layerGroup();
 
-    map.setView(city.center, city.zoom);
+    // Make map section visible
+    const section = document.getElementById('map-section');
+    section.classList.add('visible');
+
+    // Set map view to show the station area without centering too closely
+    map.setView(station.center, station.zoom);
     requestAnimationFrame(() => map.invalidateSize());
 
-    const fragment = document.createDocumentFragment();
+    let index;
+    try {
+      index = await loadStationsIndex();
+    } catch (err) {
+      console.error(err);
+      document.getElementById('poi-status').textContent = "Erreur lors du chargement des données de la gare.";
+      return null;
+    }
 
-    const stationsForCity = index.stations.filter(s => city.stationNames.includes(s.name));
+    if (myToken !== requestToken) return null;
 
-    stationsForCity.forEach(station => {
-      const marker = L.marker([station.lat, station.lng]);
-      marker.bindPopup(`<h3>${station.name}</h3>`);
+    const stationsForStation = index.stations.filter(s => s.name === station.stationName);
+
+    if (stationsForStation.length === 0) {
+      document.getElementById('poi-status').textContent = "Aucune donnée disponible pour cette gare.";
+      return null;
+    }
+
+    // Add station marker to the map
+    stationsForStation.forEach(stationData => {
+      const marker = L.marker([stationData.lat, stationData.lng]);
+      marker.bindPopup(`<h3>${stationData.name}</h3>`);
       marker.addTo(stationMarkersLayer);
-
-      const li = document.createElement('li');
-      li.textContent = station.name;
-
-      const activate = () => {
-        document.querySelectorAll('.station-list li').forEach(el => el.classList.remove('active'));
-        li.classList.add('active');
-        enterStationDetail(station);
-      };
-
-      marker.on('click', activate);
-      li.addEventListener('click', activate);
-      fragment.appendChild(li);
     });
 
-    listEl.appendChild(fragment);
     stationMarkersLayer.addTo(map);
-    document.getElementById('poi-status').textContent = `${stationsForCity.length} gare(s) dans ${city.label}.`;
+    document.getElementById('poi-status').textContent = `${stationsForStation.length} gare(s) correspondante(s).`;
+
+    return stationsForStation[0]; // Return first matching station
   }
 
-  document.getElementById('city-select').addEventListener('change', (e) => {
-    if (e.target.value) {
-      renderCityStations(e.target.value);
-    } else {
-      initDefaultMapView();
-    }
-  });
-
-  document.getElementById('back-btn').addEventListener('click', () => {
-    if (currentCityKey) {
-      renderCityStations(currentCityKey);
-    }
-  });
-
-  async function enterStationDetail(station) {
+  async function showStationShops(station) {
     const titleEl = document.getElementById('map-title');
     const statusEl = document.getElementById('poi-status');
     const legendEl = document.getElementById('legend');
@@ -646,15 +625,14 @@
 
     const myToken = ++requestToken;
 
-    titleEl.textContent = '';
+    titleEl.textContent = station.name;
     backBtn.classList.add('visible');
     legendEl.classList.remove('visible');
     staleEl.style.display = 'none';
-    isoLayer.clearLayers();
-    poiLayer.clearLayers();
+    document.getElementById('stale-warning').style.display = 'none';
 
-    statusEl.textContent = 'Chargement…';
-    map.setView([station.lat, station.lng], 16, { animate: true });
+    statusEl.textContent = 'Chargement des commerces…';
+    map.setView([station.lat, station.lng], 16, { animate: false });
     requestAnimationFrame(() => map.invalidateSize());
 
     try {
@@ -681,6 +659,24 @@
       }
     }
   }
+
+  document.getElementById('station-select').addEventListener('change', async (e) => {
+    if (e.target.value) {
+      const station = await loadStationData(e.target.value);
+      if (station) {
+        await showStationShops(station);
+      }
+    } else {
+      initDefaultMapView();
+    }
+  });
+
+  document.getElementById('back-btn').addEventListener('click', () => {
+    if (currentStationKey) {
+      document.getElementById('station-select').value = currentStationKey;
+      loadStationData(currentStationKey);
+    }
+  });
 
   function pointInPolygon(point, polygon) {
     const [lng, lat] = point;
@@ -768,9 +764,7 @@
     });
 
     markers.forEach(m => m.addTo(poiLayer));
-    
-    //
-    
+
     const total = count5 + count10;
     statusEl.textContent = total > 0
       ? `${count5} commerce(s) à moins de 5 min, ${count10} à moins de 10 min.`
