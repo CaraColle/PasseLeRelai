@@ -31,7 +31,15 @@
   .hero h1 .tilt{ display: inline-block; transform: rotate(-10deg); transform-origin: left bottom; margin-left: 0.2em; }
   .subtitle{ margin: 14px 0 24px; font-size: 1.05rem; color: #4a4640; }
   .city-picker{ display:inline-flex; align-items:center; gap: 10px; }
-  .city-picker select{ font-size: 1rem; padding: 9px 14px; border-radius: 8px; border: 1px solid var(--line); background: white; cursor: pointer; }
+  .city-picker select {
+    width: 180px;
+    font-size: 1rem;
+    padding: 9px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+    background: white;
+    cursor: pointer;
+  }
   .faq{ max-width: 680px; margin: 10px auto 40px; padding: 24px 28px; background: var(--paper); color: var(--ink);border: 1px solid var(--line); border-radius: 10px; }
   .faq-item{ margin-bottom: 16px; border-bottom: 1px solid var(--line); }
   .faq-question{ padding: 12px 0; font-size: 1.1rem; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 8px; }
@@ -693,25 +701,22 @@ stationSelect.addEventListener('keydown', event => {
   }
 });
 
-  stationSelect.addEventListener('change', async event => {
-    const stationKey = event.target.value;
-  
-    if (stationKey) {
-      const station = await loadStationData(stationKey);
-  
-      if (station) {
-        await showStationShops(station);
-      }
-  
-      showSelectedCityOnly();
-    } else {
-      initDefaultMapView();
-    }
-  });
-  
-  stationSelect.addEventListener('blur', () => {
+stationSelect.addEventListener('change', async event => {
+  const stationKey = event.target.value;
+
+  if (stationKey) {
+    // Immediately display only the city
     showSelectedCityOnly();
-  });
+
+    const station = await loadStationData(stationKey);
+
+    if (station) {
+      await showStationShops(station);
+    }
+  } else {
+    initDefaultMapView();
+  }
+});
 
   function pointInPolygon(point, polygon) {
     const [lng, lat] = point;
