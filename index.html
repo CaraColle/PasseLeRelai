@@ -708,8 +708,10 @@ stationSelect.addEventListener('change', async event => {
   const stationKey = event.target.value;
 
   if (stationKey) {
-    // Immediately display only the city
-    showSelectedCityOnly();
+    // Wait until the native dropdown has closed
+    setTimeout(() => {
+      showSelectedCityOnly();
+    }, 0);
 
     const station = await loadStationData(stationKey);
 
