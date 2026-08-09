@@ -187,21 +187,23 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
   // FAQ Accordion functionality
-  document.querySelectorAll('.faq-question').forEventListener('click', () => {
-    const answer = question.nextElementSibling;
-    const isActive = question.classList.contains('active');
+  document.querySelectorAll('.faq-question').forEach(question => {
+    question.addEventListener('click', () => {
+      const answer = question.nextElementSibling;
+      const isActive = question.classList.contains('active');
 
-    // Close all other FAQ items
-    document.querySelectorAll('.faq-question').forEach(q => {
-      q.classList.remove('active');
-      q.nextElementSibling.style.maxHeight = null;
+      // Close all other FAQ items
+      document.querySelectorAll('.faq-question').forEach(q => {
+        q.classList.remove('active');
+        q.nextElementSibling.style.maxHeight = null;
+      });
+
+      // Toggle current item
+      if (!isActive) {
+        question.classList.add('active');
+        answer.style.maxHeight = answer.scrollHeight + 'px';
+      }
     });
-
-    // Toggle current item
-    if (!isActive) {
-      question.classList.add('active');
-      answer.style.maxHeight = answer.scrollHeight + 'px';
-    }
   });
 
   const CATEGORIES = {
@@ -252,258 +254,6 @@
       city: "Paris",
       stationName: "Gare d'Austerlitz",
       center: [48.8406, 2.3686],
-      zoom: 15
-    },
-    "lyon-part-dieu": {
-      label: "Lyon - Gare de Lyon-Part-Dieu",
-      city: "Lyon",
-      stationName: "Gare de Lyon-Part-Dieu",
-      center: [45.7606, 4.8584],
-      zoom: 15
-    },
-    "lyon-perrache": {
-      label: "Lyon - Gare de Lyon-Perrache",
-      city: "Lyon",
-      stationName: "Gare de Lyon-Perrache",
-      center: [45.7406, 4.8389],
-      zoom: 15
-    },
-    "lille-flandres": {
-      label: "Lille - Gare de Lille-Flandres",
-      city: "Lille",
-      stationName: "Gare de Lille-Flandres",
-      center: [50.6286, 3.0611],
-      zoom: 15
-    },
-    "lille-europe": {
-      label: "Lille - Gare de Lille-Europe",
-      city: "Lille",
-      stationName: "Gare de Lille-Europe",
-      center: [50.6309, 3.0668],
-      zoom: 15
-    },
-    "marseille-saint-charles": {
-      label: "Marseille - Gare de Marseille-Saint-Charles",
-      city: "Marseille",
-      stationName: "Gare de Marseille-Saint-Charles",
-      center: [43.2965, 5.3709],
-      zoom: 15
-    },
-    "bordeaux-saint-jean": {
-      label: "Bordeaux - Gare de Bordeaux-Saint-Jean",
-      city: "Bordeaux",
-      stationName: "Gare de Bordeaux-Saint-Jean",
-      center: [44.8378, -0.5792],
-      zoom: 15
-    },
-    "nantes": {
-      label: "Nantes - Gare de Nantes",
-      city: "Nantes",
-      stationName: "Gare de Nantes",
-      center: [47.2184, -1.5536],
-      zoom: 15
-    },
-    "strasbourg-ville": {
-      label: "Strasbourg - Gare de Strasbourg-Ville",
-      city: "Strasbourg",
-      stationName: "Gare de Strasbourg-Ville",
-      center: [48.5734, 7.7521],
-      zoom: 15
-    },
-    "montpellier-saint-roch": {
-      label: "Montpellier - Gare de Montpellier Saint-Roch",
-      city: "Montpellier",
-      stationName: "Gare de Montpellier Saint-Roch",
-      center: [43.6100, 3.8760],
-      zoom: 15
-    },
-    "montpellier-sud": {
-      label: "Montpellier - Gare de Montpellier Sud de France",
-      city: "Montpellier",
-      stationName: "Gare de Montpellier Sud de France",
-      center: [43.6047, 3.9060],
-      zoom: 15
-    },
-    "toulouse-matabiau": {
-      label: "Toulouse - Gare de Toulouse-Matabiau",
-      city: "Toulouse",
-      stationName: "Gare de Toulouse-Matabiau",
-      center: [43.6047, 1.4442],
-      zoom: 15
-    },
-    "nice-ville": {
-      label: "Nice - Gare de Nice-Ville",
-      city: "Nice",
-      stationName: "Gare de Nice-Ville",
-      center: [43.7071, 7.2619],
-      zoom: 15
-    },
-    "rennes": {
-      label: "Rennes - Gare de Rennes",
-      city: "Rennes",
-      stationName: "Gare de Rennes",
-      center: [48.1173, -1.6778],
-      zoom: 15
-    },
-    "grenoble": {
-      list: "Grenoble - Gare de Grenoble",
-      city: "Grenoble",
-      stationName: "Gare de Grenoble",
-      center: [45.1885, 5.7245],
-      zoom: 15
-    },
-    "dijon-ville": {
-      label: "Dijon - Gare de Dijon-Ville",
-      city: "Dijon",
-      stationName: "Gare de Dijon-Ville",
-      center: [47.3220, 5.0415],
-      zoom: 15
-    },
-    "amiens": {
-      label: "Amiens - Gare d'Amiens",
-      city: "Amiens",
-      stationName: "Gare d'Amiens",
-      center: [49.8942, 2.2957],
-      zoom: 15
-    },
-    "angers-saint-laud": {
-      label: "Angers - Gare d'Angers-Saint-Laud",
-      city: "Angers",
-      stationName: "Gare d'Angers-Saint-Laud",
-      center: [47.4784, -0.5632],
-      zoom: 15
-    },
-    "aix-en-provence-tgv": {
-      label: "Aix-en-Provence - Gare d'Aix-en-Provence TGV",
-      city: "Aix-en-Provence",
-      stationName: "Gare d'Aix-en-Provence TGV",
-      center: [43.5297, 5.4474],
-      zoom: 15
-    },
-    "besancon-viotte": {
-      label: "Besançon - Gare de Besançon-Viotte",
-      city: "Besançon",
-      stationName: "Gare de Besançon-Viotte",
-      center: [47.2378, 6.0241],
-      zoom: 15
-    },
-    "brest": {
-      label: "Brest - Gare de Brest",
-      city: "Brest",
-      stationName: "Gare de Brest",
-      center: [48.3904, -4.4861],
-      zoom: 15
-    },
-    "caen": {
-      label: "Caen - Gare de Caen",
-      city: "Caen",
-      stationName: "Gare de Caen",
-      center: [49.1829, -0.3707],
-      zoom: 15
-    },
-    "clermont-ferrand": {
-      label: "Clermont-Ferrand - Gare de Clermont-Ferrand",
-      city: "Clermont-Ferrand",
-      stationName: "Gare de Clermont-Ferrand",
-      center: [45.7772, 3.0870],
-      zoom: 15
-    },
-    "le-havre": {
-      label: "Le Havre - Gare du Havre",
-      city: "Le Havre",
-      stationName: "Gare du Havre",
-      center: [49.4944, 0.1079],
-      zoom: 15
-    },
-    "le-mans": {
-      label: "Le Mans - Gare du Mans",
-      city: "Le Mans",
-      stationName: "Gare du Mans",
-      center: [48.0077, 0.1984],
-      zoom: 15
-    },
-    "limoges-benedictins": {
-      label: "Limoges - Gare de Limoges-Bénédictins",
-      city: "Limoges",
-      stationName: "Gare de Limoges-Bénédictins",
-      center: [45.8336, 1.2611],
-      zoom: 15
-    },
-    "metz-ville": {
-      label: "Metz - Gare de Metz-Ville",
-      city: "Metz",
-      stationName: "Gare de Metz-Ville",
-      center: [49.1193, 6.1757],
-      zoom: 15
-    },
-    "perpignan": {
-      label: "Perpignan - Gare de Perpignan",
-      city: "Perpignan",
-      stationName: "Gare de Perpignan",
-      center: [42.6986, 2.8955],
-      zoom: 15
-    },
-    "reims": {
-      label: "Reims - Gare de Reims",
-      city: "Reims",
-      stationName: "Gare de Reims",
-      center: [49.2583, 4.0317],
-      zoom: 15
-    },
-    "rouen-rive-droite": {
-      label: "Rouen - Gare de Rouen-Rive-Droite",
-      city: "Rouen",
-      stationName: "Gare de Rouen-Rive-Droite",
-      center: [49.4431, 1.0993],
-      zoom: 15
-    },
-    "saint-etienne-chateaucreux": {
-      label: "Saint-Étienne - Gare de Saint-Étienne-Châteaucreux",
-      city: "Saint-Étienne",
-      stationName: "Gare de Saint-Étienne-Châteaucreux",
-      center: [45.4397, 4.3872],
-      zoom: 15
-    },
-    "toulon": {
-      label: "Toulon - Gare de Toulon",
-      city: "Toulon",
-      stationName: "Gare de Toulon",
-      center: [43.1242, 5.9280],
-      zoom: 15
-    },
-    "tours": {
-      label: "Tours - Gare de Tours",
-      city: "Tours",
-      stationName: "Gare de Tours",
-      center: [47.3941, 0.6848],
-      zoom: 15
-    },
-    "orleans": {
-      label: "Orléans - Gare d'Orléans",
-      city: "Orléans",
-      stationName: "Gare d'Orléans",
-      center: [47.9029, 1.9093],
-      zoom: 15
-    },
-    "nimes": {
-      label: "Nîmes - Gare de Nîmes",
-      city: "Nîmes",
-      stationName: "Gare de Nîmes",
-      center: [43.8367, 4.3601],
-      zoom: 15
-    },
-    "mulhouse-ville": {
-      label: "Mulhouse - Gare de Mulhouse-Ville",
-      city: "Mulhouse",
-      stationName: "Gare de Mulhouse-Ville",
-      center: [47.7508, 7.3359],
-      zoom: 15
-    },
-    "nancy-ville": {
-      label: "Nancy - Gare de Nancy-Ville",
-      city: "Nancy",
-      stationName: "Gare de Nancy-Ville",
-      center: [48.6921, 6.1844],
       zoom: 15
     }
   };
