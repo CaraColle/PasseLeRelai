@@ -805,14 +805,27 @@ stationSelect.addEventListener('change', async event => {
 
     markers.forEach(m => m.addTo(poiLayer));
   }
-
   function drawIsochrones(geojson) {
-    const colorByValue = { 300: "#2f5d50", 600: "#d98c2b" };
-    const sorted = [...geojson.features].sort((a, b) => b.properties.value - a.properties.value);
+    const colorByValue = {
+      300: "#1f4d40", // darker green: 5 minutes
+      600: "#c47718"  // darker orange: 10 minutes
+    };
+  
+    const sorted = [...geojson.features].sort(
+      (a, b) => b.properties.value - a.properties.value
+    );
+  
     sorted.forEach(feature => {
       const color = colorByValue[feature.properties.value] || "#999";
+  
       L.geoJSON(feature, {
-        style: { color, weight: 1, fillColor: color, fillOpacity: 0.2 }
+        style: {
+          color: color,
+          weight: 2,
+          opacity: 1,
+          fillColor: color,
+          fillOpacity: 0.35
+        }
       }).addTo(isoLayer);
     });
   }
