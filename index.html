@@ -530,18 +530,47 @@
 
   function populateStationDropdown() {
     const select = document.getElementById('station-select');
+  
     const sortedKeys = Object.keys(stations).sort((a, b) =>
-      stations[a].label.localeCompare(stations[b].label, 'fr', { sensitivity: 'base' })
+      stations[a].label.localeCompare(
+        stations[b].label,
+        'fr',
+        { sensitivity: 'base' }
+      )
     );
+  
     sortedKeys.forEach(key => {
       const opt = document.createElement('option');
+  
       opt.value = key;
       opt.textContent = stations[key].label;
+      opt.dataset.fullLabel = stations[key].label;
+      opt.dataset.city = stations[key].city;
+  
       select.appendChild(opt);
     });
   }
   populateStationDropdown();
-
+  
+  function showFullStationLabels() {
+    const select = document.getElementById('station-select');
+  
+    Array.from(select.options).forEach(option => {
+      if (option.dataset.fullLabel) {
+        option.textContent = option.dataset.fullLabel;
+      }
+    });
+  }
+  
+  function showSelectedCityOnly() {
+    const select = document.getElementById('station-select');
+    const selectedOption = select.options[select.selectedIndex];
+  
+    if (selectedOption?.dataset.city) {
+      selectedOption.textContent = selectedOption.dataset.city;
+    }
+  }
+  
   function ensureMap() {
     if (map) return;
     map = L.map('map', { preferCanvas: true });
@@ -646,15 +675,42 @@
     }
   }
 
-  document.getElementById('station-select').addEventListener('change', async (e) => {
-    if (e.target.value) {
-      const station = await loadStationData(e.target.value);
+const stationSelect = document.getElementById('station-select');
+
+/* Restore complete labels immediately before opening the menu. */
+stationSelect.addEventListener('pointerdown', () => {
+  showFullStationLabels();
+});
+
+stationSelect.addEventListener('keydown', event => {
+  if (
+    event.key === 'Enter' ||
+    event.key === ' ' ||
+    event.key === 'ArrowDown' ||
+    event.key === 'ArrowUp'
+  ) {
+    showFullStationLabels();
+  }
+});
+
+  stationSelect.addEventListener('change', async event => {
+    const stationKey = event.target.value;
+  
+    if (stationKey) {
+      const station = await loadStationData(stationKey);
+  
       if (station) {
         await showStationShops(station);
       }
+  
+      showSelectedCityOnly();
     } else {
       initDefaultMapView();
     }
+  });
+  
+  stationSelect.addEventListener('blur', () => {
+    showSelectedCityOnly();
   });
 
   function pointInPolygon(point, polygon) {
