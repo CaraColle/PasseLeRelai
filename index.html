@@ -648,7 +648,10 @@
 
     stationMarkersLayer.addTo(map);
 
-    return stationsForStation[0]; // Return first matching station
+    return {
+      ...stationsForStation[0],
+      zoom: station.zoom
+    };
   }
 
   async function showStationShops(station) {
@@ -660,7 +663,7 @@
     titleEl.textContent = station.name;
     legendEl.classList.remove('visible');
   
-    map.setView([station.lat, station.lng], 16, { animate: false });
+    map.setView([station.lat, station.lng], station.zoom, { animate: false });
     requestAnimationFrame(() => map.invalidateSize());
   
     try {
