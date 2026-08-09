@@ -289,7 +289,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786169602328,
+      "timestamp": 1786256231670,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -318,7 +318,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-08T06:13:21Z",
+      "timestamp_osm_base": "2026-08-09T06:17:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1495,12 +1495,12 @@
           "addr:housenumber": "5",
           "addr:postcode": "38000",
           "addr:street": "Rue Ampère",
-          "check_date": "2026-01-24",
-          "check_date:opening_hours": "2025-06-20",
+          "check_date": "2026-08-08",
+          "check_date:opening_hours": "2026-08-08",
           "contact:phone": "+33 4 76 09 76 09",
           "indoor_seating": "yes",
           "name": "Maison Lenoir",
-          "opening_hours": "Mo-Su 06:00-20:00",
+          "opening_hours": "Mo-Sa 06:30-20:00; Su 07:00-19:00",
           "outdoor_seating": "no",
           "panoramax": "81f23755-b14d-4e64-af73-dac9ceea456a",
           "payment:cash": "yes",
@@ -2818,6 +2818,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-08T06:06:05.714Z",
+  "fetchedAt": "2026-08-09T06:10:54.236Z",
   "staleDataWarning": false
 }

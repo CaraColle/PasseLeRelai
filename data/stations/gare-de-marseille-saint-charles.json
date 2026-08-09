@@ -205,7 +205,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786169198653,
+      "timestamp": 1786255884857,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -234,7 +234,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-08T06:06:20Z",
+      "timestamp_osm_base": "2026-07-02T16:51:45Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -490,7 +490,7 @@
         "tags": {
           "books": "music",
           "name": "Librairie Musicale Internationale",
-          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-13:00,14:00-19:00",
+          "opening_hours": "Tu-Sa 10:00-13:00, Tu-Sa 14:00-19:00, Mo 14:00-19:00",
           "ref:FR:SIRET": "41863343400018",
           "shop": "books",
           "website": "https://www.lmi-partitions.com/"
@@ -541,14 +541,8 @@
         "lat": 43.2924989,
         "lon": 5.3732992,
         "tags": {
-          "contact:facebook": "https://www.facebook.com/librairielesarcenaulx",
-          "contact:housenumber": "25",
-          "contact:street": "Cours Honoré d'Estienne d'Orves",
           "name": "Librairie Jeanne Laffitte",
-          "opening_hours": "Mo 12:00-19:00; Tu-Sa 10:00-19:15",
-          "phone": "+33 4 91 59 80 37",
           "ref:FR:SIRET": "90466768000022",
-          "ref:vatin": "FR88904667680",
           "shop": "books",
           "website": "https://www.jeanne-laffitte.com/"
         }
@@ -559,17 +553,14 @@
         "lat": 43.2955408,
         "lon": 5.3911784,
         "tags": {
-          "addr:housenumber": "77",
-          "addr:street": "Boulevard Eugène Pierre",
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "en:Système U",
-          "name": "U Express",
+          "name": "Utile",
           "opening_hours": "Mo-Sa 08:00-19:45; Su 08:30-12:45",
           "operator": "Système U",
-          "phone": "+33 4 96 12 12 30",
           "shop": "convenience",
-          "website": "https://www.magasins-u.com/magasin/uexpress-marseille.m90174",
+          "website": "https://www.magasins-u.com/magasin/superu-marseillesaintpierre.m90249",
           "wheelchair": "no"
         }
       },
@@ -1205,8 +1196,7 @@
           "opening_hours": "Tu-Sa 08:00-19:30; Su 09:00-13:30",
           "organic": "yes",
           "ref:FR:SIRET": "94910466500011",
-          "shop": "convenience",
-          "website": "https://www.marche-argonautes.fr/"
+          "shop": "convenience"
         }
       },
       {
@@ -2615,15 +2605,12 @@
         "lat": 43.2900551,
         "lon": 5.3743958,
         "tags": {
-          "addr:housenumber": "49",
-          "addr:street": "Cours Pierre Puget",
           "books": "manga",
           "name": "Tsundoku",
           "opening_hours": "Mo 14:00-20:00; Tu-Su 10:00-20:00",
           "ref:FR:SIRET": "91146696900019",
           "shop": "books",
-          "source": "INSEE - 2022-08",
-          "website": "https://www.tsundokulibrairie.fr/"
+          "source": "INSEE - 2022-08"
         }
       },
       {
@@ -2673,6 +2660,19 @@
         "tags": {
           "opening_hours": "Mo-Sa 09:00-19:00",
           "origin": "african",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10876292790,
+        "lat": 43.291566,
+        "lon": 5.3714237,
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "name": "Utile",
+          "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:00",
           "shop": "convenience"
         }
       },
@@ -2805,7 +2805,6 @@
         "lon": 5.3696409,
         "tags": {
           "brand": "Vival",
-          "brand:wikidata": "Q7937525",
           "name": "Vival",
           "shop": "convenience"
         }
@@ -3595,6 +3594,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-08T06:06:05.714Z",
+  "fetchedAt": "2026-08-09T06:10:54.236Z",
   "staleDataWarning": false
 }

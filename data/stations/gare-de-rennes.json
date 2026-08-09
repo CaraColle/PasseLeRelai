@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786169513328,
+      "timestamp": 1786256169914,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-08T06:12:21Z",
+      "timestamp_osm_base": "2026-08-09T06:15:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2054,6 +2054,8 @@
           "contact:street": "rue Ginguené",
           "name": "Breadly & Co",
           "opening_hours": "Mo-Sa 07:30-19:00",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIRET": "98834698700015",
           "shop": "bakery"
         }
       },
@@ -2211,6 +2213,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-08T06:06:05.714Z",
+  "fetchedAt": "2026-08-09T06:10:54.236Z",
   "staleDataWarning": false
 }

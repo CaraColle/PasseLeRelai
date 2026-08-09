@@ -265,7 +265,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786169270836,
+      "timestamp": 1786255965841,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -294,7 +294,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-08-09T06:13:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -343,6 +343,19 @@
       },
       {
         "type": "node",
+        "id": 831557164,
+        "lat": 45.7470426,
+        "lon": 4.8248313,
+        "tags": {
+          "indoor_seating": "yes",
+          "name": "La Maison du Goût",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "87769180800019",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
         "id": 832463267,
         "lat": 45.7579644,
         "lon": 4.812109,
@@ -387,6 +400,8 @@
         "lat": 45.7484393,
         "lon": 4.8396913,
         "tags": {
+          "contact:email": "antoinettepainetbrioche@gmail.com",
+          "contact:website": "https://www.antoinettepainetbrioche.fr/",
           "description": "organic flour Etc , leaven (often >18h)also,",
           "name": "Antoinette Pain & Brioche",
           "opening_hours": "Tu-Sa 08:00-19:30",
@@ -515,23 +530,6 @@
       },
       {
         "type": "node",
-        "id": 1777579784,
-        "lat": 45.7570165,
-        "lon": 4.8298327,
-        "tags": {
-          "check_date:opening_hours": "2025-03-19",
-          "contact:facebook": "https://www.facebook.com/Decitre",
-          "harassment_prevention": "ask_angela",
-          "name": "Decitre",
-          "opening_hours": "Mo-Sa 09:30-19:00",
-          "phone": "+33 4 26 68 00 10",
-          "ref:FR:SIRET": "95651314700051",
-          "shop": "books",
-          "website": "https://www.decitre.fr/"
-        }
-      },
-      {
-        "type": "node",
         "id": 1790677737,
         "lat": 45.7548774,
         "lon": 4.8297205,
@@ -634,7 +632,9 @@
           "brand": "CocciMarket",
           "brand:wikidata": "Q90020480",
           "brand:wikipedia": "fr:Cocci Market",
+          "check_date:opening_hours": "2026-06-01",
           "name": "CocciMarket",
+          "opening_hours:signed": "no",
           "operator": "Cocci Market",
           "shop": "convenience",
           "wheelchair": "yes"
@@ -663,6 +663,7 @@
         "lat": 45.7597987,
         "lon": 4.8268966,
         "tags": {
+          "check_date:opening_hours": "2026-06-01",
           "name": "Perroudon",
           "opening_hours": "Fr-Su 08:15-19:00",
           "phone": "+33 4 78 37 30 75",
@@ -759,7 +760,9 @@
         "tags": {
           "brand": "CocciMarket",
           "brand:wikidata": "Q90020480",
+          "check_date:opening_hours": "2026-07-22",
           "name": "CocciMarket",
+          "opening_hours:signed": "no",
           "shop": "convenience"
         }
       },
@@ -927,6 +930,7 @@
           "brand:wikidata": "Q3213589",
           "brand:wikipedia": "fr:La Vie claire",
           "bulk_purchase": "yes",
+          "check_date:opening_hours": "2026-07-13",
           "contact:facebook": "https://www.facebook.com/Lavieclaire",
           "name": "La Vie Claire",
           "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-12:30",
@@ -945,8 +949,9 @@
         "tags": {
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
+          "diet:gluten_free": "yes",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:00-22:50; Su 09:00-21:00",
+          "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-21:00",
           "ref:FR:SIRET": "44465668000865",
           "shop": "convenience"
         }
@@ -1277,14 +1282,15 @@
         "lat": 45.7565056,
         "lon": 4.8349565,
         "tags": {
-          "check_date:opening_hours": "2023-04-16",
+          "check_date:opening_hours": "2026-08-02",
           "description": "Specialized in graphic novels; comics, manga…",
           "name": "Expérience",
-          "opening_hours": "Tu-Sa 10:00-19:00; Mo 14:00-19:00",
+          "opening_hours": "Mo-Sa 10:00-19:00",
           "phone": "+33 4 72 41 84 14",
           "ref:FR:SIRET": "43363179300026",
           "shop": "books",
-          "website": "https://www.librairie-experience.com/"
+          "website": "https://www.librairie-experience.com/",
+          "wheelchair": "no"
         }
       },
       {
@@ -1730,7 +1736,9 @@
         "lat": 45.7524906,
         "lon": 4.8405943,
         "tags": {
+          "check_date:opening_hours": "2026-07-05",
           "name": "Super Marché International",
+          "opening_hours:signed": "no",
           "shop": "convenience"
         }
       },
@@ -1878,10 +1886,10 @@
           "addr:housenumber": "4",
           "addr:postcode": "69002",
           "addr:street": "Rue Jacqueline et Roland de Pury",
-          "check_date": "2026-02-17",
+          "check_date": "2026-07-08",
           "level": "0",
           "name": "Arotoma",
-          "opening_hours": "We-Fr 10:30-14:30,16:30-19:30; Mo,Tu 10:30-14:30",
+          "opening_hours": "Mo-Fr 09:00-19:30",
           "ref:FR:SIRET": "98860201700010",
           "shop": "bakery",
           "wheelchair": "yes"
@@ -2171,6 +2179,18 @@
         }
       },
       {
+        "type": "node",
+        "id": 13947301848,
+        "lat": 45.756537,
+        "lon": 4.8204757,
+        "tags": {
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "name": "U Express",
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 47067552,
         "center": {
@@ -2251,6 +2271,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-08T06:06:05.714Z",
+  "fetchedAt": "2026-08-09T06:10:54.236Z",
   "staleDataWarning": false
 }

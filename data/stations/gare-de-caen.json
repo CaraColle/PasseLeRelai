@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786169985877,
+      "timestamp": 1786256636683,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-08T06:19:34Z",
+      "timestamp_osm_base": "2026-08-09T06:23:26Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -816,11 +816,13 @@
         "lat": 49.1912094,
         "lon": -0.3598411,
         "tags": {
-          "check_date": "2024-05-06",
+          "check_date": "2026-08-08",
+          "check_date:opening_hours": "2026-08-08",
           "contact:housenumber": "49",
           "contact:street": "Rue de la Délivrande",
           "indoor_seating": "no",
           "name": "Aux Délices d'Edimbourg",
+          "opening_hours": "Mo-Fr 06:30-19:30",
           "outdoor_seating": "yes",
           "phone": "+33 2 31 44 49 15",
           "ref:FR:SIRET": "81847671500029",
@@ -1401,6 +1403,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-08T06:06:05.714Z",
+  "fetchedAt": "2026-08-09T06:10:54.236Z",
   "staleDataWarning": false
 }
