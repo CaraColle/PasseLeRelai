@@ -47,7 +47,11 @@
   .map-header{ display:flex; align-items:baseline; justify-content: space-between; margin-bottom: 12px; }
   .map-header h2{ font-size: 1.1rem; margin: 0; }
   .map-layout{ display:flex; border: 1px solid var(--line); border-radius: 10px; overflow:hidden; height: 450px; }
-  .map-wrap{ position: relative; flex: 1 1 100%; height: 100%; }
+  .map-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
   #map{ height: 100%; }
 
   @media (max-width: 768px) {
@@ -59,7 +63,6 @@
     .map-layout { height: 300px; }
     .map-header { flex-direction: column; align-items: flex-start; gap: 8px; }
   }
-  aside{ flex: 1 1 0%; max-width: 340px; overflow-y: auto; background: white; border-left: 1px solid var(--line); }
   .station-list{ list-style:none; margin:0; padding:0; }
   .station-list li{ padding: 13px 18px; border-bottom: 1px solid var(--line); cursor: pointer; font-size: 0.92rem; }
   .station-list li:hover, .station-list li.active{ background: var(--accent-soft); }
@@ -133,10 +136,6 @@
         <div><span class="dot" style="background:#b3792c;">🥖</span> Boulangerie</div>
       </div>
     </div>
-    <aside>
-      <div id="stale-warning" class="stale-warning" style="display:none;"></div>
-      <div id="poi-status"></div>
-    </aside>
   </div>
 </div>
 
@@ -592,7 +591,6 @@
       index = await loadStationsIndex();
     } catch (err) {
       console.error(err);
-      document.getElementById('poi-status').textContent = "Erreur lors du chargement des données de la gare.";
       return null;
     }
 
@@ -601,7 +599,6 @@
     const stationsForStation = index.stations.filter(s => s.name === station.stationName);
 
     if (stationsForStation.length === 0) {
-      document.getElementById('poi-status').textContent = "Aucune donnée disponible pour cette gare.";
       return null;
     }
 
@@ -613,28 +610,22 @@
     });
 
     stationMarkersLayer.addTo(map);
-    document.getElementById('poi-status').textContent = `${stationsForStation.length} gare(s) correspondante(s).`;
 
     return stationsForStation[0]; // Return first matching station
   }
 
   async function showStationShops(station) {
     const titleEl = document.getElementById('map-title');
-    const statusEl = document.getElementById('poi-status');
     const legendEl = document.getElementById('legend');
-    const staleEl = document.getElementById('stale-warning');
-
+  
     const myToken = ++requestToken;
-
+  
     titleEl.textContent = station.name;
     legendEl.classList.remove('visible');
-    staleEl.style.display = 'none';
-    document.getElementById('stale-warning').style.display = 'none';
-
-    statusEl.textContent = 'Chargement des commerces…';
+  
     map.setView([station.lat, station.lng], 16, { animate: false });
     requestAnimationFrame(() => map.invalidateSize());
-
+  
     try {
       let data = stationDataCache.get(station.slug);
       if (!data) {
@@ -646,16 +637,11 @@
 
       if (myToken !== requestToken) return;
 
-      if (data.staleDataWarning) {
-        staleEl.style.display = 'block';
-        staleEl.textContent = `⚠️ Données mises à jour le ${new Date(data.fetchedAt).toLocaleString('fr-FR')} — certaines informations peuvent être incomplètes.`;
-      }
-
-      renderIsoAndShops(data, statusEl, legendEl);
+      renderIsoAndShops(data, legendEl);
     } catch (err) {
       console.error(err);
       if (myToken === requestToken) {
-        statusEl.textContent = "Erreur lors du chargement des données de la gare.";
+        console.error("Erreur lors du chargement des données de la gare.");
       }
     }
   }
@@ -711,7 +697,7 @@
     return false;
   }
 
-  function renderIsoAndShops(data, statusEl, legendEl) {
+  function renderIsoAndShops(data, legendEl) {
     isoLayer.clearLayers();
     poiLayer.clearLayers();
 
@@ -721,10 +707,7 @@
       legendEl.classList.add('visible');
     }
 
-    if (!data.shops || !data.shops.elements || data.shops.elements.length === 0) {
-      statusEl.textContent = "Données sur les commerces indisponibles pour cette gare pour l'instant.";
-      return;
-    }
+    if (!data.shops?.elements?.length) return;
 
     const fiveMinFeature = isoGeojson.features.find(f => f.properties.value === 300);
     const tenMinFeature = isoGeojson.features.find(f => f.properties.value === 600);
@@ -757,11 +740,6 @@
     });
 
     markers.forEach(m => m.addTo(poiLayer));
-
-    const total = count5 + count10;
-    statusEl.textContent = total > 0
-      ? `${count5} commerce(s) à moins de 5 min, ${count10} à moins de 10 min.`
-      : "Aucun commerce trouvé dans ce périmètre pour l'instant.";
   }
 
   function drawIsochrones(geojson) {
