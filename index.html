@@ -31,14 +31,101 @@
   .hero h1 .tilt{ display: inline-block; transform: rotate(-10deg); transform-origin: left bottom; margin-left: 0.2em; }
   .subtitle{ margin: 14px 0 24px; font-size: 1.05rem; color: #4a4640; }
   .city-picker{ display:inline-flex; align-items:center; gap: 10px; }
-  .city-picker select {
-    width: 180px;
-    font-size: 1rem;
-    padding: 9px 14px;
-    border-radius: 8px;
+  .custom-dropdown {
+    position: relative;
+    width: 260px;
+    text-align: left;
+  }
+  
+  .custom-dropdown-button {
+    position: relative;
+    width: 100%;
+    padding: 9px 38px 9px 14px;
     border: 1px solid var(--line);
+    border-radius: 8px;
     background: white;
+    color: var(--ink);
+    font: inherit;
+    font-size: 1rem;
+    text-align: left;
     cursor: pointer;
+  }
+  
+  .custom-dropdown-button::after {
+    content: "⌄";
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    transform: translateY(-55%);
+    transition: transform 0.2s;
+  }
+  
+  .custom-dropdown.open .custom-dropdown-button::after {
+    transform: translateY(-35%) rotate(180deg);
+  }
+  
+  .custom-dropdown-button:focus-visible,
+  .dropdown-option:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    top: calc(100% + 4px);
+    left: 0;
+    width: max-content;
+    min-width: 100%;
+    max-width: min(440px, calc(100vw - 48px));
+    max-height: 260px;
+    overflow-y: auto;
+    padding: 4px 0;
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  }
+  
+  .custom-dropdown.open .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-option {
+    padding: 9px 14px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 0.95rem;
+  }
+  
+  .dropdown-option:hover,
+  .dropdown-option.keyboard-active {
+    background: var(--accent-soft);
+  }
+  
+  .dropdown-option[aria-selected="true"] {
+    color: var(--accent);
+    font-weight: 600;
+  }
+  
+  @media (max-width: 480px) {
+    .city-picker {
+      flex-direction: column;
+    }
+  
+    .custom-dropdown {
+      width: 260px;
+      max-width: calc(100vw - 48px);
+    }
+  
+    .dropdown-menu {
+      width: 100%;
+    }
+  
+    .dropdown-option {
+      white-space: normal;
+    }
   }
   .faq{ max-width: 680px; margin: 10px auto 40px; padding: 24px 28px; background: var(--paper); color: var(--ink);border: 1px solid var(--line); border-radius: 10px; }
   .faq-item{ margin-bottom: 16px; border-bottom: 1px solid var(--line); }
@@ -105,6 +192,8 @@
   .relais-letter:nth-child(7) { top: -0.6em; }
 </style>
 
+</head>
+<body>
 <div class="hero">
   <header>
     <img src="frog4.svg" alt="Logo" class="logo" style="max-width: 140px; margin-bottom: 16px;">
@@ -122,12 +211,30 @@
   </h1>
   <p class="subtitle">Découvre les alternatives autour de ta gare !</p>
   <div class="city-picker">
-    <label for="station-select">Choisis une... </label>
-    <select id="station-select">
-      <option value="">Gare</option>
-    </select>
+    <span id="station-label">Choisis une...</span>
+  
+    <div class="custom-dropdown" id="station-dropdown">
+      <button
+        class="custom-dropdown-button"
+        id="station-button"
+        type="button"
+        aria-haspopup="listbox"
+        aria-expanded="false"
+        aria-controls="station-menu"
+        aria-labelledby="station-label station-button"
+      >
+        Gare
+      </button>
+  
+      <div
+        class="dropdown-menu"
+        id="station-menu"
+        role="listbox"
+        aria-labelledby="station-label"
+        tabindex="-1"
+      ></div>
+    </div>
   </div>
-</div>
 
 <div id="map-section">
   <div class="map-header">
@@ -537,48 +644,237 @@
     return stationsIndex;
   }
 
-  function populateStationDropdown() {
-    const select = document.getElementById('station-select');
-  
-    const sortedKeys = Object.keys(stations).sort((a, b) =>
-      stations[a].label.localeCompare(
-        stations[b].label,
-        'fr',
-        { sensitivity: 'base' }
-      )
+  const stationDropdown = document.getElementById('station-dropdown');
+const stationButton = document.getElementById('station-button');
+const stationMenu = document.getElementById('station-menu');
+
+let stationOptions = [];
+let activeOptionIndex = -1;
+
+function populateStationDropdown() {
+  const sortedKeys = Object.keys(stations).sort((a, b) =>
+    stations[a].label.localeCompare(
+      stations[b].label,
+      'fr',
+      { sensitivity: 'base' }
+    )
+  );
+
+  stationMenu.innerHTML = '';
+
+  sortedKeys.forEach(key => {
+    const option = document.createElement('div');
+
+    option.className = 'dropdown-option';
+    option.id = `station-option-${key}`;
+    option.dataset.key = key;
+    option.textContent = stations[key].label;
+    option.setAttribute('role', 'option');
+    option.setAttribute('aria-selected', 'false');
+    option.setAttribute('tabindex', '-1');
+
+    option.addEventListener('click', () => {
+      selectStation(key);
+    });
+
+    option.addEventListener('mousemove', () => {
+      const index = stationOptions.indexOf(option);
+      setActiveOption(index, false);
+    });
+
+    stationMenu.appendChild(option);
+  });
+
+  stationOptions = Array.from(
+    stationMenu.querySelectorAll('.dropdown-option')
+  );
+}
+
+function openStationDropdown(preferredIndex = null) {
+  stationDropdown.classList.add('open');
+  stationButton.setAttribute('aria-expanded', 'true');
+
+  let index = preferredIndex;
+
+  if (index === null) {
+    index = stationOptions.findIndex(
+      option => option.dataset.key === currentStationKey
     );
-  
-    sortedKeys.forEach(key => {
-      const opt = document.createElement('option');
-  
-      opt.value = key;
-      opt.textContent = stations[key].label;
-      opt.dataset.fullLabel = stations[key].label;
-      opt.dataset.city = stations[key].city;
-  
-      select.appendChild(opt);
+  }
+
+  if (index < 0) {
+    index = 0;
+  }
+
+  setActiveOption(index, true);
+}
+
+function closeStationDropdown(returnFocus = false) {
+  stationDropdown.classList.remove('open');
+  stationButton.setAttribute('aria-expanded', 'false');
+  stationButton.removeAttribute('aria-activedescendant');
+
+  stationOptions.forEach(option => {
+    option.classList.remove('keyboard-active');
+  });
+
+  activeOptionIndex = -1;
+
+  if (returnFocus) {
+    stationButton.focus();
+  }
+}
+
+function toggleStationDropdown() {
+  const isOpen = stationDropdown.classList.contains('open');
+
+  if (isOpen) {
+    closeStationDropdown(true);
+  } else {
+    openStationDropdown();
+  }
+}
+
+function setActiveOption(index, scrollIntoView = true) {
+  if (!stationOptions.length) return;
+
+  if (index < 0) {
+    index = stationOptions.length - 1;
+  }
+
+  if (index >= stationOptions.length) {
+    index = 0;
+  }
+
+  stationOptions.forEach(option => {
+    option.classList.remove('keyboard-active');
+  });
+
+  activeOptionIndex = index;
+
+  const activeOption = stationOptions[activeOptionIndex];
+  activeOption.classList.add('keyboard-active');
+
+  stationButton.setAttribute(
+    'aria-activedescendant',
+    activeOption.id
+  );
+
+  if (scrollIntoView) {
+    activeOption.scrollIntoView({
+      block: 'nearest'
     });
   }
-  populateStationDropdown();
-  
-  function showFullStationLabels() {
-    const select = document.getElementById('station-select');
-  
-    Array.from(select.options).forEach(option => {
-      if (option.dataset.fullLabel) {
-        option.textContent = option.dataset.fullLabel;
+}
+
+async function selectStation(stationKey) {
+  const selectedStation = stations[stationKey];
+  if (!selectedStation) return;
+
+  currentStationKey = stationKey;
+
+  /*
+   * The closed button displays only the city.
+   * For example: "Paris".
+   */
+  stationButton.textContent = selectedStation.city;
+
+  stationOptions.forEach(option => {
+    option.setAttribute(
+      'aria-selected',
+      String(option.dataset.key === stationKey)
+    );
+  });
+
+  closeStationDropdown(true);
+
+  const stationData = await loadStationData(stationKey);
+
+  if (stationData) {
+    await showStationShops(stationData);
+  }
+}
+
+stationButton.addEventListener('click', event => {
+  event.stopPropagation();
+  toggleStationDropdown();
+});
+
+stationButton.addEventListener('keydown', event => {
+  const isOpen = stationDropdown.classList.contains('open');
+
+  switch (event.key) {
+    case 'ArrowDown':
+      event.preventDefault();
+
+      if (!isOpen) {
+        openStationDropdown(0);
+      } else {
+        setActiveOption(activeOptionIndex + 1);
       }
-    });
+      break;
+
+    case 'ArrowUp':
+      event.preventDefault();
+
+      if (!isOpen) {
+        openStationDropdown(stationOptions.length - 1);
+      } else {
+        setActiveOption(activeOptionIndex - 1);
+      }
+      break;
+
+    case 'Home':
+      if (isOpen) {
+        event.preventDefault();
+        setActiveOption(0);
+      }
+      break;
+
+    case 'End':
+      if (isOpen) {
+        event.preventDefault();
+        setActiveOption(stationOptions.length - 1);
+      }
+      break;
+
+    case 'Enter':
+    case ' ':
+      event.preventDefault();
+
+      if (!isOpen) {
+        openStationDropdown();
+      } else if (activeOptionIndex >= 0) {
+        const stationKey =
+          stationOptions[activeOptionIndex].dataset.key;
+
+        selectStation(stationKey);
+      }
+      break;
+
+    case 'Escape':
+      if (isOpen) {
+        event.preventDefault();
+        closeStationDropdown(true);
+      }
+      break;
+
+    case 'Tab':
+      if (isOpen) {
+        closeStationDropdown(false);
+      }
+      break;
   }
-  
-  function showSelectedCityOnly() {
-    const select = document.getElementById('station-select');
-    const selectedOption = select.options[select.selectedIndex];
-  
-    if (selectedOption?.dataset.city) {
-      selectedOption.textContent = selectedOption.dataset.city;
-    }
+});
+
+/* Close the menu when clicking anywhere outside it. */
+document.addEventListener('click', event => {
+  if (!stationDropdown.contains(event.target)) {
+    closeStationDropdown(false);
   }
+});
+
+populateStationDropdown();
   
   function ensureMap() {
     if (map) return;
@@ -686,43 +982,6 @@
       }
     }
   }
-
-const stationSelect = document.getElementById('station-select');
-
-/* Restore complete labels immediately before opening the menu. */
-stationSelect.addEventListener('pointerdown', () => {
-  showFullStationLabels();
-});
-
-stationSelect.addEventListener('keydown', event => {
-  if (
-    event.key === 'Enter' ||
-    event.key === ' ' ||
-    event.key === 'ArrowDown' ||
-    event.key === 'ArrowUp'
-  ) {
-    showFullStationLabels();
-  }
-});
-
-stationSelect.addEventListener('change', async event => {
-  const stationKey = event.target.value;
-
-  if (stationKey) {
-    // Wait until the native dropdown has closed
-    setTimeout(() => {
-      showSelectedCityOnly();
-    }, 0);
-
-    const station = await loadStationData(stationKey);
-
-    if (station) {
-      await showStationShops(station);
-    }
-  } else {
-    initDefaultMapView();
-  }
-});
 
   function pointInPolygon(point, polygon) {
     const [lng, lat] = point;
