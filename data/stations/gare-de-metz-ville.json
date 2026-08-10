@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786256612100,
+      "timestamp": 1786353320974,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-09T06:22:20Z",
+      "timestamp_osm_base": "2026-08-10T09:16:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1370,6 +1370,18 @@
       },
       {
         "type": "node",
+        "id": 11129181693,
+        "lat": 49.1229792,
+        "lon": 6.1797657,
+        "tags": {
+          "name": "Mini Market Metz",
+          "shop": "convenience",
+          "was:name": "Figa e Mimosa",
+          "was:shop": "florist"
+        }
+      },
+      {
+        "type": "node",
         "id": 11683880169,
         "lat": 49.1121482,
         "lon": 6.1720191,
@@ -1599,9 +1611,18 @@
           "shop": "convenience",
           "wheelchair": "no"
         }
+      },
+      {
+        "type": "node",
+        "id": 14083630925,
+        "lat": 49.1053431,
+        "lon": 6.1740899,
+        "tags": {
+          "shop": "bakery"
+        }
       }
     ]
   },
-  "fetchedAt": "2026-08-09T06:10:54.236Z",
+  "fetchedAt": "2026-08-10T09:01:07.743Z",
   "staleDataWarning": false
 }

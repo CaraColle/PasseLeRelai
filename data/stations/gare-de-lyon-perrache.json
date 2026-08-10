@@ -265,7 +265,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786255965841,
+      "timestamp": 1786352552842,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -294,7 +294,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-09T06:13:21Z",
+      "timestamp_osm_base": "2026-08-10T09:02:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1359,24 +1359,6 @@
       },
       {
         "type": "node",
-        "id": 6977929711,
-        "lat": 45.7546684,
-        "lon": 4.8303181,
-        "tags": {
-          "brand": "Monop'",
-          "brand:wikidata": "Q89913683",
-          "check_date": "2025-05-10",
-          "check_date:opening_hours": "2025-05-10",
-          "contact:phone": "+33451262354",
-          "name": "Monop'",
-          "opening_hours": "Mo-Sa 07:30-21:50; Su 08:00-19:50",
-          "ref:FR:SIRET": "44465668001210",
-          "shop": "convenience",
-          "website": "https://www.monoprix.fr/2791.html"
-        }
-      },
-      {
-        "type": "node",
         "id": 6978214470,
         "lat": 45.7555265,
         "lon": 4.8308606,
@@ -1448,6 +1430,7 @@
         "lat": 45.7505629,
         "lon": 4.830251,
         "tags": {
+          "check_date": "2026-08-10",
           "contact:facebook": "https://www.facebook.com/Librairieadrienne/",
           "contact:housenumber": "70",
           "contact:street": "Rue de la Charité",
@@ -1457,8 +1440,7 @@
           "phone": "+33 4 81 65 50 49",
           "ref:FR:SIRET": "90056647200024",
           "ref:vatin": "FR41900566472",
-          "shop": "books",
-          "survey:date": "2023-08-19"
+          "shop": "books"
         }
       },
       {
@@ -2271,6 +2253,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-09T06:10:54.236Z",
+  "fetchedAt": "2026-08-10T09:01:07.743Z",
   "staleDataWarning": false
 }

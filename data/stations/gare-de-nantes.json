@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786256017310,
+      "timestamp": 1786352632281,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-09T06:13:21Z",
+      "timestamp_osm_base": "2026-08-10T09:03:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -623,16 +623,17 @@
         "lon": -1.5524479,
         "tags": {
           "check_date": "2026-01-26",
-          "contact:city": "Nantes",
-          "contact:country": "FR",
-          "contact:facebook": "https://www.facebook.com/arnoboulangerie",
+          "contact:email": "arnoboulangeriecreative@gmail.com",
+          "contact:facebook": "arnoboulangerie",
           "contact:housenumber": "16",
+          "contact:instagram": "arno_boulangerie_nantes",
           "contact:phone": "+33 2 40 74 83 65",
-          "contact:postcode": "44000",
           "contact:street": "Rue de Verdun",
           "name": "ArnO",
           "opening_hours": "Mo-Fr 07:30-19:30; Sa 08:00-19:00",
           "organic": "yes",
+          "pastry": "yes",
+          "produced_on_site": "yes",
           "ref:FR:SIRET": "82859925800013",
           "shop": "bakery",
           "wheelchair": "yes"
@@ -2522,6 +2523,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-09T06:10:54.236Z",
+  "fetchedAt": "2026-08-10T09:01:07.743Z",
   "staleDataWarning": false
 }

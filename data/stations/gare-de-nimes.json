@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786256329486,
+      "timestamp": 1786353101219,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-09T06:19:20Z",
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -294,7 +294,7 @@
           "addr:postcode": "30000",
           "addr:street": "Rue Richelieu",
           "name": "Aux délices de Richelieu",
-          "opening_hours": "Tu-Su 07:00-13:00",
+          "opening_hours": "Tu-Su 7:00-13:00",
           "phone": "+33 4 66 06 49 69",
           "ref:FR:SIRET": "84760617500010",
           "shop": "bakery"
@@ -399,7 +399,7 @@
           "addr:postcode": "30000",
           "addr:street": "Rue Séguier",
           "name": "Bouzanquet",
-          "opening_hours": "Tu-Su 05:45-19:00",
+          "opening_hours": "Tu-Su 5:45-19:00",
           "phone": "+33 4 66 21 07 94",
           "shop": "bakery"
         }
@@ -638,7 +638,7 @@
           "brand:wikidata": "Q7937525",
           "brand:wikipedia": "en:Vival (shop)",
           "name": "Vival",
-          "opening_hours": "Mo-Sa 08:00-12:00,16:00-19:30",
+          "opening_hours": "Mo-Sa 08:00,12:00-16:00,19:30",
           "phone": "+33 9 62 64 60 13",
           "shop": "convenience",
           "website": "https://www.vival.fr/"
@@ -1239,7 +1239,7 @@
           "addr:postcode": "30000",
           "addr:street": "Boulevard du Sergent Triaire",
           "name": "24 Cityshop",
-          "opening_hours": "24/7",
+          "opening_hours": "24h/24 7J/7",
           "shop": "convenience"
         }
       },
@@ -1316,7 +1316,7 @@
           "addr:street": "Rue Pasteur",
           "description": "Boissons à emporter, Parking, Pain aux céréales, Pain de seigle, Pain au levain, Pain complet, Pain bio, Pain de mie.",
           "name": "Au fournil nîmois",
-          "opening_hours": "Mo-Fr 06:30-19:30, Sa 06:30-12:30",
+          "opening_hours": "Mo-Fr 6:30-19:30, Sa 06:30-12:30",
           "phone": "+33 4 66 21 79 09",
           "shop": "bakery",
           "website": "https://www.facebook.com/Au-Fournil-N%C3%AEmois-317631821720664"
@@ -1454,7 +1454,7 @@
           "addr:street": "Boulevard Gambetta",
           "description": "Artisans boulangers-pâtissiers",
           "name": "Le Moulin des Aumières",
-          "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-19:30",
+          "opening_hours": "Mo-Fr 8:00-19:00; Sa 8:00-19:30",
           "phone": "+33 7 82 84 73 81",
           "shop": "bakery",
           "website": "https://www.boulangeriespatisseries.fr/le-moulin-des-aumieres-nimes.html#:~:text=L%27entreprise%20Le%20Moulin%20Des%20Aumieres%20est%20une%20boulangerie,Des%20Aumieres%20a%20commenc%C3%A9%20son%20activit%C3%A9%20en%201993."
@@ -1471,7 +1471,7 @@
           "addr:postcode": "30900",
           "addr:street": "Avenue Jean Jaurès",
           "name": "Quint et Sens",
-          "opening_hours": "Mo-Fr 06:30-19:00; Su 07:00-12:30",
+          "opening_hours": "Mo-Fr 6:30-19:00; Su 7:00-12:30",
           "phone": "+33 4 66 40 11 94",
           "ref:FR:SIRET": "83366613400022",
           "shop": "bakery"
@@ -1490,7 +1490,7 @@
           "description": "Journal d'information générales et d'annonces légales GARD (30)",
           "email": "contact@lereveildumifi.fr",
           "name": "Le reveil du Midi",
-          "opening_hours": "Mo-Th 08:00-20:00",
+          "opening_hours": "Mo-Th 8:00-20:00",
           "phone": "+33 4 66 76 18 90",
           "shop": "books",
           "website": "https://www.lereveildumidi.fr/"
@@ -1599,7 +1599,7 @@
           "addr:postcode": "30000",
           "addr:street": "Rue Vincent Faïta",
           "name": "Masa Mama",
-          "opening_hours": "Tu-Fr 08:30-19:00; Sa 08:30-13:30",
+          "opening_hours": "tu-fr 08:30-19:00 sa 08:30-13:30",
           "phone": "+33951624683",
           "ref:FR:SIRET": "90066966400022",
           "shop": "bakery"
@@ -1678,7 +1678,6 @@
           "building": "yes",
           "fixme": "This place is definitely closed",
           "name": "Briocherie",
-          "ref:FR:RNB": "43A2YF8BZ45B",
           "shop": "bakery",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
         }
@@ -1705,6 +1704,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-09T06:10:54.236Z",
+  "fetchedAt": "2026-08-10T09:01:07.743Z",
   "staleDataWarning": false
 }
