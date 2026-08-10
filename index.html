@@ -20,6 +20,9 @@
     --bakery: #b3792c;
     --radius: 10px;
     --shadow: 0 6px 18px rgba(28, 26, 23, 0.14);
+
+    /* Equal vertical spacing between main elements */
+    --element-gap: 30px;
   }
 
   *,
@@ -67,12 +70,12 @@
     width: 100%;
     max-width: 720px;
     margin: 0 auto;
-    padding: 56px 24px 72px;
+    padding: 56px 24px 0;
     text-align: center;
   }
 
   .hero h1 {
-    margin: 0;
+    margin: 0 0 var(--element-gap);
     line-height: 1.15;
   }
 
@@ -85,7 +88,7 @@
 
   .subtitle {
     max-width: 620px;
-    margin: 18px auto 30px;
+    margin: 0 auto var(--element-gap);
     color: #4a4640;
     font-size: 1.05rem;
     line-height: 1.6;
@@ -100,6 +103,7 @@
     align-items: center;
     justify-content: center;
     gap: 12px;
+    margin-bottom: 0;
   }
 
   .custom-dropdown {
@@ -212,7 +216,7 @@
     z-index: 1;
     display: none;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto 64px;
     padding: 0 24px;
   }
@@ -398,8 +402,8 @@
 
   .faq {
     width: calc(100% - 48px);
-    max-width: 680px;
-    margin-top: 32px auto 56px;
+    max-width: 820px;
+    margin: var(--element-gap) auto 56px;
     padding: 24px 28px;
     background: var(--paper);
     color: var(--ink);
@@ -455,7 +459,6 @@
     color: #3a352e;
     font-size: 0.95rem;
     line-height: 1.65;
-    text-align: left;
     text-align: justify;
   }
 
@@ -504,11 +507,12 @@
 
   @media (max-width: 768px) {
     .hero {
-      padding: 42px 24px 38px;
+      padding: 42px 24px 0;
     }
 
     #map-section {
       margin-bottom: 48px;
+      padding: 0 20px;
     }
 
     .map-layout {
@@ -522,7 +526,7 @@
     }
 
     .faq {
-      margin-bottom: 40px;
+      margin: var(--element-gap) auto 40px;
     }
   }
 
@@ -536,11 +540,10 @@
     }
 
     .hero {
-      padding: 32px 20px 56px;
+      padding: 32px 20px 0;
     }
 
     .subtitle {
-      margin: 16px auto 24px;
       font-size: 1rem;
     }
 
@@ -606,8 +609,7 @@
 
     .faq {
       width: calc(100% - 32px);
-      margin-top: 32px auto 32px;
-      margin-bottom: 32px;
+      margin: var(--element-gap) auto 32px;
       padding: 20px;
     }
 
