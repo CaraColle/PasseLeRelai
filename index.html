@@ -30,6 +30,15 @@
   .hero{ max-width: 720px; margin: 0 auto; padding: 56px 24px 20px; text-align: center; }
   .hero h1 .tilt{ display: inline-block; transform: rotate(-10deg); transform-origin: left bottom; margin-left: 0.2em; }
   .subtitle{ margin: 14px 0 24px; font-size: 1.05rem; color: #4a4640; }
+  .hero {
+    position: relative;
+    z-index: 2000;
+  }
+  
+  #map-section {
+    position: relative;
+    z-index: 1;
+  }
   .city-picker{ display:inline-flex; align-items:center; gap: 10px; }
   .custom-dropdown {
     position: relative;
