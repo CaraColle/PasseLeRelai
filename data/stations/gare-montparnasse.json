@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786352468706,
+      "timestamp": 1786435149803,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-10T09:00:01Z",
+      "timestamp_osm_base": "2026-08-11T07:58:26Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -951,7 +951,7 @@
         "lon": 2.3068009,
         "tags": {
           "books": "comic",
-          "check_date": "2025-09-28",
+          "check_date": "2026-08-10",
           "check_date:opening_hours": "2025-09-28",
           "contact:city": "Paris 15eme Arrondissement",
           "contact:housenumber": "235",
@@ -960,8 +960,12 @@
           "contact:street": "Rue de Vaugirard",
           "name": "Bulles en tête Vaugirard",
           "opening_hours": "Mo-Sa 10:00-20:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "ref:FR:SIRET": "89318668400021",
-          "shop": "books"
+          "shop": "books",
+          "wheelchair": "limited"
         }
       },
       {
@@ -4544,6 +4548,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-10T09:01:07.743Z",
+  "fetchedAt": "2026-08-11T07:59:08.875Z",
   "staleDataWarning": false
 }
