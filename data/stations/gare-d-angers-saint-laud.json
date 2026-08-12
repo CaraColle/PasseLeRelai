@@ -245,7 +245,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786435992160,
+      "timestamp": 1786524718332,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-11T08:14:46Z",
+      "timestamp_osm_base": "2026-06-28T23:40:30Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1260,7 +1260,6 @@
         "lat": 47.471633,
         "lon": -0.5668201,
         "tags": {
-          "diet:halal": "yes",
           "name": "Asia boucherie",
           "shop": "convenience"
         }
@@ -1367,6 +1366,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-11T07:59:08.875Z",
+  "fetchedAt": "2026-08-12T08:48:29.936Z",
   "staleDataWarning": false
 }

@@ -225,7 +225,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786435708116,
+      "timestamp": 1786524570943,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -254,7 +254,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-11T08:08:34Z",
+      "timestamp_osm_base": "2026-08-12T08:48:47Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -622,6 +622,8 @@
           "addr:housenumber": "112",
           "addr:postcode": "33130",
           "addr:street": "Avenue Alexis Capelle",
+          "brand": "Ronde des Pains",
+          "brand:wikidata": "Q3441707",
           "description": "Horaires d'ouverture : Du lundi au vendredi : de 7h à 14h et de 16h à 19h30 Samedi, dimanche : de 6h30 à 13h",
           "fixme": "Emplacement vacant",
           "name": "Ronde des Pains",
@@ -1474,6 +1476,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-11T07:59:08.875Z",
+  "fetchedAt": "2026-08-12T08:48:29.936Z",
   "staleDataWarning": false
 }
