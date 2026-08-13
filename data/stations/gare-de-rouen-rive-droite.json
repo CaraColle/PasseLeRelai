@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786525131771,
+      "timestamp": 1786612355610,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-12T08:58:02Z",
+      "timestamp_osm_base": "2026-08-13T09:13:08Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -404,10 +404,14 @@
         "lat": 49.4498543,
         "lon": 1.1036206,
         "tags": {
+          "addr:city": "Rouen",
           "addr:housenumber": "51",
+          "addr:postcode": "76000",
+          "addr:street": "Rue de Bihorel",
           "brand": "CocciMarket",
           "brand:wikidata": "Q90020480",
           "name": "CocciMarket",
+          "opening_hours": "Mo-Su 9:00-21:00",
           "operator": "Cocci Market",
           "phone": "+33 2 35 89 66 18",
           "ref:FR:SIRET": "52487355100039",
@@ -2188,6 +2192,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-12T08:48:29.936Z",
+  "fetchedAt": "2026-08-13T08:52:20.907Z",
   "staleDataWarning": false
 }

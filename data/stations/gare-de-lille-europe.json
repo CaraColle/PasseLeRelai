@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786524578555,
+      "timestamp": 1786611555991,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-12T08:48:47Z",
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -528,6 +528,29 @@
       },
       {
         "type": "node",
+        "id": 5348005209,
+        "lat": 50.6349394,
+        "lon": 3.0644412,
+        "tags": {
+          "brand": "Brioche Dorée",
+          "brand:website": "https://www.briochedoree.fr",
+          "brand:wikidata": "Q2925606",
+          "brand:wikipedia": "fr:Brioche dorée",
+          "contact:phone": "+33 3 20 57 13 95",
+          "indoor_seating": "yes",
+          "name": "Brioche Dorée",
+          "opening_hours": "Mo-Fr 08:00-18:15; Sa 08:00-18:45",
+          "operator": "Groupe Le Duff",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "31890659101015",
+          "shop": "bakery",
+          "source": "survey",
+          "takeaway": "yes",
+          "website": "https://www.briochedoree.fr/restaurants/149-lille-13-rue-de-bethune"
+        }
+      },
+      {
+        "type": "node",
         "id": 5348005761,
         "lat": 50.6369724,
         "lon": 3.0686107,
@@ -648,7 +671,6 @@
           "check_date": "2025-07-18",
           "name": "CocciMarket",
           "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:30",
-          "phone": "+33 6 49 49 46 40",
           "shop": "convenience",
           "website": "https://www.coccinelle.fr/magasin/lille"
         }
@@ -725,7 +747,6 @@
           "brand:wikidata": "Q90020480",
           "name": "CocciMarket",
           "opening_hours": "Mo-Su 08:00-22:00",
-          "phone": "+33 9 62 58 00 42",
           "ref:FR:SIRET": "83070434200013",
           "shop": "convenience",
           "website": "https://www.coccinelle.fr/Trouver_Un_Magasin/Details/coccimarket/lille-fives/72-rue-eugene-jacquet"
@@ -1400,6 +1421,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-12T08:48:29.936Z",
+  "fetchedAt": "2026-08-13T08:52:20.907Z",
   "staleDataWarning": false
 }

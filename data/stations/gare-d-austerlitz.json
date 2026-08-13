@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786524526694,
+      "timestamp": 1786611153816,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-12T08:47:47Z",
+      "timestamp_osm_base": "2026-08-13T08:52:58Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1555,7 +1555,7 @@
           "contact:instagram": "boulangerie.cyrico",
           "indoor_seating": "no",
           "name": "Cyrico Artisan",
-          "opening_hours": "07:00-20:00; ph, Su 07:30-19:00; we closed",
+          "opening_hours": "07:00-20:00; PH,Su 07:30-19:00; We closed",
           "outdoor_seating": "no",
           "shop": "bakery",
           "takeaway": "only",
@@ -4857,6 +4857,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-12T08:48:29.936Z",
+  "fetchedAt": "2026-08-13T08:52:20.907Z",
   "staleDataWarning": false
 }

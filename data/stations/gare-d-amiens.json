@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786525109873,
+      "timestamp": 1786612032936,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-12T08:57:02Z",
+      "timestamp_osm_base": "2026-08-13T09:11:07Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -262,6 +262,16 @@
           "phone": "+33 3 22 91 42 31",
           "ref:FR:SIRET": "90868560500010",
           "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1241643213,
+        "lat": 49.8892795,
+        "lon": 2.2953643,
+        "tags": {
+          "name": "Froc",
+          "shop": "kiosk"
         }
       },
       {
@@ -1173,6 +1183,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-12T08:48:29.936Z",
+  "fetchedAt": "2026-08-13T08:52:20.907Z",
   "staleDataWarning": false
 }

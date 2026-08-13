@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786525122670,
+      "timestamp": 1786612120616,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-12T08:58:02Z",
+      "timestamp_osm_base": "2026-05-06T03:25:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -288,7 +288,7 @@
         "lat": 49.1190666,
         "lon": 6.1740799,
         "tags": {
-          "check_date": "2026-07-01",
+          "check_date": "2025-10-19",
           "contact:facebook": "https://www.facebook.com/librairie.hisler",
           "contact:housenumber": "1",
           "contact:instagram": "https://www.instagram.com/librairiehisler/",
@@ -308,8 +308,8 @@
       {
         "type": "node",
         "id": 1190832112,
-        "lat": 49.0999208,
-        "lon": 6.1774548,
+        "lat": 49.099938,
+        "lon": 6.177457,
         "tags": {
           "check_date": "2026-04-12",
           "contact:housenumber": "13",
@@ -442,12 +442,7 @@
         "lat": 49.1189055,
         "lon": 6.1740987,
         "tags": {
-          "check_date": "2026-07-01",
-          "contact:email": "bouquinerie.metz@gmail.com",
-          "contact:facebook": "bouquinerieducentre.metz",
           "contact:housenumber": "19",
-          "contact:instagram": "bouquinerie_du_centre",
-          "contact:phone": "+33 3 87 75 34 40",
           "contact:street": "Rue du Palais",
           "name": "Bouquinerie du Centre",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
@@ -533,11 +528,10 @@
           "fair_trade": "only",
           "name": "Artisans du Monde",
           "office": "association",
-          "opening_hours": "Tu 10:00-17:00; We 10:00-14:00; Fr 15:00-18:00; Sa 10:00-18:00",
+          "opening_hours": "Tu-Fr 14:00-18:00; We 10:00-18:00; Sa 09:00-13:00,14:00-18:30",
           "ref:FR:SIRET": "40431339700014",
           "shop": "convenience",
-          "website": "http://metz.artisansdumonde.org",
-          "wheelchair": "yes"
+          "website": "http://metz.artisansdumonde.org"
         }
       },
       {
@@ -600,7 +594,7 @@
           "contact:street": "Rue Saint-Livier",
           "contact:website": "https://www.ceciledoretto.fr/",
           "name": "Cécile Doretto",
-          "opening_hours": "We-Sa 07:30-19:00; Su 08:00-13:00",
+          "opening_hours": "We-Sa 7:30-19:00; Su 8:00-13:00",
           "ref:FR:SIRET": "92494096800010",
           "shop": "bakery"
         }
@@ -646,7 +640,7 @@
         "lat": 49.121044,
         "lon": 6.1752422,
         "tags": {
-          "check_date": "2026-08-07",
+          "check_date": "2026-04-21",
           "name": "L'Ami du Pain",
           "opening_hours": "Mo-Fr 07:00-19:00",
           "ref:FR:SIRET": "44149178400019",
@@ -781,16 +775,6 @@
           "contact:street": "Rue des Allemands",
           "name": "La Pagode",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4110781627,
-        "lat": 49.1142858,
-        "lon": 6.1838523,
-        "tags": {
-          "shop": "convenience",
-          "source": "survey"
         }
       },
       {
@@ -1063,7 +1047,7 @@
           "contact:street": "Rue des Messageries",
           "indoor:level": "1",
           "level": "1",
-          "name": "Poulaillon",
+          "name": "Au Moulin Poulaillon",
           "opening_hours": "Mo-Sa 10:00-19:00",
           "payment:cash": "yes",
           "payment:contactless": "yes",
@@ -1071,9 +1055,7 @@
           "payment:visa": "yes",
           "ref:FR:SIRET": "43020123600493",
           "shop": "bakery",
-          "short_name": "Poulaillon",
-          "website": "https://www.poulaillon.fr",
-          "wheelchair": "yes"
+          "short_name": "Poulaillon"
         }
       },
       {
@@ -1151,6 +1133,18 @@
       },
       {
         "type": "node",
+        "id": 7636660769,
+        "lat": 49.1172119,
+        "lon": 6.1848551,
+        "tags": {
+          "shop": "convenience",
+          "was:craft": "brewery",
+          "was:name": "La Mère Fouettard",
+          "was:shop": "alcohol"
+        }
+      },
+      {
+        "type": "node",
         "id": 7722402976,
         "lat": 49.1058106,
         "lon": 6.1688145,
@@ -1164,17 +1158,6 @@
       },
       {
         "type": "node",
-        "id": 7746716203,
-        "lat": 49.1216317,
-        "lon": 6.1705052,
-        "tags": {
-          "name": "Aux petits choux",
-          "ref:FR:SIRET": "98915246700019",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 9688527833,
         "lat": 49.1084593,
         "lon": 6.1659729,
@@ -1183,7 +1166,6 @@
           "check_date:opening_hours": "2026-03-14",
           "contact:email": "lapenseesauvagelibrairie@gmail.com",
           "contact:housenumber": "23",
-          "contact:instagram": "librairie_lapenseesauvage",
           "contact:phone": "+33 9 73 20 37 25",
           "contact:street": "Avenue de Nancy",
           "name": "La Pensée Sauvage",
@@ -1216,7 +1198,6 @@
         "lat": 49.1181426,
         "lon": 6.1765884,
         "tags": {
-          "check_date": "2026-07-03",
           "contact:phone": "+33 3 72 39 56 26",
           "contact:website": "https://www.boulangerie-dudot.com/",
           "indoor_seating": "yes",
@@ -1279,11 +1260,22 @@
       },
       {
         "type": "node",
+        "id": 10106834803,
+        "lat": 49.1242078,
+        "lon": 6.1647698,
+        "tags": {
+          "name": "Épicerie du Fort",
+          "ref:FR:SIRET": "98436979300018",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
         "id": 10914118683,
         "lat": 49.1004966,
         "lon": 6.1628724,
         "tags": {
-          "changing_table": "no",
           "contact:housenumber": "60",
           "contact:instagram": "boulangerie_priscilla_et_remi",
           "contact:street": "Rue du XXe Corps Américain",
@@ -1294,7 +1286,6 @@
           "outdoor_seating": "no",
           "ref:FR:SIRET": "98161646900012",
           "shop": "bakery",
-          "smoking": "no",
           "wheelchair": "yes"
         }
       },
@@ -1324,11 +1315,8 @@
         "lat": 49.1160374,
         "lon": 6.1720648,
         "tags": {
-          "contact:email": "momiemetz@momie.fr",
           "contact:housenumber": "1",
-          "contact:phone": "+33 3 87 74 98 77",
           "contact:street": "Avenue Ney",
-          "contact:website": "https://www.momie.fr/",
           "indoor": "yes",
           "level": "-1",
           "name": "Momie Metz",
@@ -1343,11 +1331,8 @@
         "lat": 49.1082251,
         "lon": 6.1731765,
         "tags": {
-          "contact:email": "metz@certitude.fr",
           "contact:housenumber": "15",
-          "contact:phone": "+33 9 50 30 30 03",
           "contact:street": "Rue Lafayette",
-          "contact:website": "https://certitude.fr/librairies?store=12",
           "name": "Certitude",
           "official_name": "Librairie biblique Certitude",
           "opening_hours": "Tu-Fr 09:30-12:30, Tu 14:30-20:00, We-Fr 14:30-19:00, Sa 10:00-18:00",
@@ -1366,18 +1351,6 @@
           "name": "Librairie Moresi",
           "ref:FR:SIRET": "53893898600014",
           "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11129181693,
-        "lat": 49.1229792,
-        "lon": 6.1797657,
-        "tags": {
-          "name": "Mini Market Metz",
-          "shop": "convenience",
-          "was:name": "Figa e Mimosa",
-          "was:shop": "florist"
         }
       },
       {
@@ -1407,16 +1380,6 @@
       },
       {
         "type": "node",
-        "id": 12099191893,
-        "lat": 49.1137021,
-        "lon": 6.1723821,
-        "tags": {
-          "name": "Exotique Etoile",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 12763095375,
         "lat": 49.1105729,
         "lon": 6.1723027,
@@ -1441,6 +1404,24 @@
           "source": "survey",
           "stroller": "limited",
           "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12951087120,
+        "lat": 49.1157618,
+        "lon": 6.1785187,
+        "tags": {
+          "contact:housenumber": "63",
+          "contact:phone": "+33 3 87 76 03 96",
+          "contact:street": "Place Saint-Louis",
+          "name": "Atelier Bon",
+          "opening_hours": "We-Fr 10:00-14:00,15:00-18:00; Sa 10:00-16:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "83190188900012",
+          "shop": "bakery",
+          "wheelchair": "limited"
         }
       },
       {
@@ -1496,15 +1477,9 @@
         "lat": 49.1053568,
         "lon": 6.1745419,
         "tags": {
-          "check_date": "2026-06-27",
-          "check_date:opening_hours": "2026-06-27",
-          "level": "0",
           "name": "Sablon Exotiq'",
-          "opening_hours": "Mo-Su 09:30-21:00",
-          "phone": "+33 3 54 73 60 56",
           "ref:FR:SIRET": "94284917500016",
-          "shop": "convenience",
-          "website": "https://www.sablonexotiq.fr/"
+          "shop": "convenience"
         }
       },
       {
@@ -1598,31 +1573,9 @@
           "ref:FR:SIRET": "88445724300027",
           "shop": "convenience"
         }
-      },
-      {
-        "type": "node",
-        "id": 14057222061,
-        "lat": 49.1025954,
-        "lon": 6.1633315,
-        "tags": {
-          "name": "Ahmadi Market",
-          "opening_hours": "Mo-Su 07:00-21:00",
-          "ref:FR:SIRET": "10567335400012",
-          "shop": "convenience",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 14083630925,
-        "lat": 49.1053431,
-        "lon": 6.1740899,
-        "tags": {
-          "shop": "bakery"
-        }
       }
     ]
   },
-  "fetchedAt": "2026-08-12T08:48:29.936Z",
+  "fetchedAt": "2026-08-13T08:52:20.907Z",
   "staleDataWarning": false
 }
