@@ -8,7 +8,7 @@
     "type": "FeatureCollection",
     "bbox": [
       -0.565181,
-      44.81932,
+      44.819319,
       -0.548486,
       44.831554
     ],
@@ -149,12 +149,12 @@
                 44.81953
               ],
               [
-                -0.555178,
-                44.81932
+                -0.555176,
+                44.819319
               ],
               [
-                -0.55327,
-                44.819742
+                -0.554229,
+                44.819357
               ],
               [
                 -0.550575,
@@ -225,7 +225,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786611412239,
+      "timestamp": 1786697133609,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -245,8 +245,8 @@
       "engine": {
         "version": "9.9.0",
         "build_date": "2026-06-12T10:08:58Z",
-        "graph_date": "2026-07-28T19:03:26Z",
-        "osm_date": "2026-07-20T00:00:00Z"
+        "graph_date": "2026-08-10T18:08:45Z",
+        "osm_date": "2026-08-03T00:00:02Z"
       }
     }
   },
@@ -254,7 +254,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-13T08:58:02Z",
+      "timestamp_osm_base": "2026-08-14T08:46:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1476,6 +1476,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-13T08:52:20.907Z",
+  "fetchedAt": "2026-08-14T08:42:02.355Z",
   "staleDataWarning": false
 }
