@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786697131767,
+      "timestamp": 1786770262278,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-07-21T11:03:16Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -435,11 +435,17 @@
         "lat": 48.5905873,
         "lon": 7.746593,
         "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "27",
+          "addr:postcode": "67000",
+          "addr:street": "Rue Finkmatt",
           "contact:city": "Strasbourg",
           "contact:housenumber": "27",
           "contact:postcode": "67000",
           "contact:street": "Rue Finkmatt",
-          "name": "Les petits pétrins",
+          "name": "La Mie Do Ré",
+          "opening_hours": "Mo-We 06:30-19:30; Th 08:00-14:00; Su 08:00-14:30",
+          "phone": "+33388365259",
           "shop": "bakery",
           "source": "survey"
         }
@@ -450,6 +456,10 @@
         "lat": 48.5913333,
         "lon": 7.7496823,
         "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "40",
+          "addr:postcode": "67000",
+          "addr:street": "Boulevard Clemenceau",
           "diet:kosher": "only",
           "name": "Hanau",
           "opening_hours": "Mo-Fr 05:00-20:00; Su 06:00-13:00",
@@ -976,10 +986,11 @@
           "addr:housenumber": "27",
           "addr:postcode": "67000",
           "addr:street": "Rue du Faubourg de Saverne",
+          "air_conditioning": "yes",
           "brand": "Paris Store",
           "brand:wikidata": "Q3365297",
           "brand:wikipedia": "fr:Paris Store",
-          "check_date": "2026-02-24",
+          "check_date": "2026-07-18",
           "contact:housenumber": "27",
           "contact:street": "Rue du Faubourg de Saverne",
           "name": "Paris Store Strasbourg",
@@ -1143,21 +1154,6 @@
           "name": "Ronde des Pains",
           "opening_hours": "Mo-Fr 07:00-19:00; Sa 09:00-13:00; Su 08:00-13:00",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5873788936,
-        "lat": 48.5850462,
-        "lon": 7.7383833,
-        "tags": {
-          "check_date": "2023-08-23",
-          "name": "Pâtisserie Heiligenstein",
-          "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-17:00",
-          "phone": "+33 3 88 32 01 86",
-          "ref:FR:SIRET": "44105962300013",
-          "shop": "bakery",
-          "website": "https://patisserie-heiligenstein.fr/"
         }
       },
       {
@@ -1421,6 +1417,9 @@
           "addr:street": "Rue Kageneck",
           "bulk_purchase": "yes",
           "check_date": "2026-02-16",
+          "contact:bluesky": "https://bsky.app/profile/coopalim.bsky.social",
+          "contact:facebook": "coopalim.strasbourg",
+          "contact:instagram": "coopalimstrasbourg",
           "email": "coopalim@gmail.com",
           "name": "Coopalim",
           "opening_hours": "\"Épicerie participative avec horaires affichés qui varient suivant les mois\"",
@@ -1564,22 +1563,6 @@
       },
       {
         "type": "node",
-        "id": 12616183830,
-        "lat": 48.584996,
-        "lon": 7.7343431,
-        "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "20",
-          "addr:postcode": "67000",
-          "addr:street": "Place de la Gare",
-          "brand": "Monop'",
-          "brand:wikidata": "Q89913683",
-          "name": "Monop'",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 13019079204,
         "lat": 48.5851283,
         "lon": 7.7347337,
@@ -1588,6 +1571,7 @@
           "addr:housenumber": "20",
           "addr:postcode": "67000",
           "addr:street": "Place de la Gare",
+          "diet:halal": "no",
           "level": "0",
           "name": "Terres d'Alsace",
           "opening_hours": "Su-Fr 07:30-20:00; Sa 07:30-19:00",
@@ -1627,6 +1611,30 @@
           "ref:FR:SIREN": "531290765",
           "ref:FR:SIRET": "53129076500019",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13980082376,
+        "lat": 48.5884822,
+        "lon": 7.74554,
+        "tags": {
+          "addr:city": "Strasbourg",
+          "addr:housenumber": "39",
+          "addr:postcode": "67000",
+          "addr:street": "Rue du Faubourg de Pierre",
+          "name": "Rouge Tomate",
+          "official_name": "Rouge Tomate Faubourg",
+          "opening_hours": "Mo-Fr 08:30-13:00,15:00-19:30; Sa 08:00-18:00",
+          "operator": "Rouge Tomate",
+          "organic": "only",
+          "phone": "+33 3 88 68 19 12",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "104714597",
+          "ref:FR:SIRET": "10471459700010",
+          "shop": "convenience",
+          "website": "https://www.rouge-tomate.fr/",
+          "wheelchair": "limited"
         }
       },
       {
@@ -1742,8 +1750,10 @@
           "amenity": "fast_food",
           "brand": "La Croissanterie",
           "brand:wikidata": "Q3207961",
-          "check_date": "2025-11-14",
+          "check_date": "2026-07-17",
+          "check_date:diet:vegetarian": "2026-07-17",
           "cuisine": "sandwich",
+          "diet:vegetarian": "yes",
           "indoor": "room",
           "indoor_seating": "yes",
           "internet_access": "wlan",
@@ -1762,6 +1772,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-14T08:42:02.355Z",
+  "fetchedAt": "2026-08-15T05:00:49.829Z",
   "staleDataWarning": false
 }

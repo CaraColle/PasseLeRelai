@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786697829029,
+      "timestamp": 1786770575478,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-14T08:58:34Z",
+      "timestamp_osm_base": "2026-07-08T21:45:59Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -646,7 +646,7 @@
         "lat": 49.121044,
         "lon": 6.1752422,
         "tags": {
-          "check_date": "2026-08-07",
+          "check_date": "2026-04-21",
           "name": "L'Ami du Pain",
           "opening_hours": "Mo-Fr 07:00-19:00",
           "ref:FR:SIRET": "44149178400019",
@@ -1063,7 +1063,7 @@
           "contact:street": "Rue des Messageries",
           "indoor:level": "1",
           "level": "1",
-          "name": "Poulaillon",
+          "name": "Au Moulin Poulaillon",
           "opening_hours": "Mo-Sa 10:00-19:00",
           "payment:cash": "yes",
           "payment:contactless": "yes",
@@ -1071,9 +1071,7 @@
           "payment:visa": "yes",
           "ref:FR:SIRET": "43020123600493",
           "shop": "bakery",
-          "short_name": "Poulaillon",
-          "website": "https://www.poulaillon.fr",
-          "wheelchair": "yes"
+          "short_name": "Poulaillon"
         }
       },
       {
@@ -1147,6 +1145,18 @@
           "ref:FR:SIRET": "81445415300010",
           "shop": "books",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7636660769,
+        "lat": 49.1172119,
+        "lon": 6.1848551,
+        "tags": {
+          "shop": "convenience",
+          "was:craft": "brewery",
+          "was:name": "La Mère Fouettard",
+          "was:shop": "alcohol"
         }
       },
       {
@@ -1279,6 +1289,18 @@
       },
       {
         "type": "node",
+        "id": 10106834803,
+        "lat": 49.1242078,
+        "lon": 6.1647698,
+        "tags": {
+          "name": "Épicerie du Fort",
+          "ref:FR:SIRET": "98436979300018",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
         "id": 10914118683,
         "lat": 49.1004966,
         "lon": 6.1628724,
@@ -1343,11 +1365,8 @@
         "lat": 49.1082251,
         "lon": 6.1731765,
         "tags": {
-          "contact:email": "metz@certitude.fr",
           "contact:housenumber": "15",
-          "contact:phone": "+33 9 50 30 30 03",
           "contact:street": "Rue Lafayette",
-          "contact:website": "https://certitude.fr/librairies?store=12",
           "name": "Certitude",
           "official_name": "Librairie biblique Certitude",
           "opening_hours": "Tu-Fr 09:30-12:30, Tu 14:30-20:00, We-Fr 14:30-19:00, Sa 10:00-18:00",
@@ -1366,18 +1385,6 @@
           "name": "Librairie Moresi",
           "ref:FR:SIRET": "53893898600014",
           "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11129181693,
-        "lat": 49.1229792,
-        "lon": 6.1797657,
-        "tags": {
-          "name": "Mini Market Metz",
-          "shop": "convenience",
-          "was:name": "Figa e Mimosa",
-          "was:shop": "florist"
         }
       },
       {
@@ -1504,7 +1511,7 @@
           "phone": "+33 3 54 73 60 56",
           "ref:FR:SIRET": "94284917500016",
           "shop": "convenience",
-          "website": "https://www.sablonexotiq.fr/"
+          "website": "http://www.sablonexotiq.fr"
         }
       },
       {
@@ -1598,31 +1605,9 @@
           "ref:FR:SIRET": "88445724300027",
           "shop": "convenience"
         }
-      },
-      {
-        "type": "node",
-        "id": 14057222061,
-        "lat": 49.1025954,
-        "lon": 6.1633315,
-        "tags": {
-          "name": "Ahmadi Market",
-          "opening_hours": "Mo-Su 07:00-21:00",
-          "ref:FR:SIRET": "10567335400012",
-          "shop": "convenience",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 14083630925,
-        "lat": 49.1053431,
-        "lon": 6.1740899,
-        "tags": {
-          "shop": "bakery"
-        }
       }
     ]
   },
-  "fetchedAt": "2026-08-14T08:42:02.355Z",
+  "fetchedAt": "2026-08-15T05:00:49.829Z",
   "staleDataWarning": false
 }

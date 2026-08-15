@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786696984709,
+      "timestamp": 1786770169978,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-18T22:46:43Z",
+      "timestamp_osm_base": "2026-06-01T08:52:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1451,7 +1451,6 @@
         "lat": 43.6962205,
         "lon": 7.2769063,
         "tags": {
-          "check_date": "2026-06-04",
           "name": "Épicerie Provençale",
           "opening_hours": "Mo-Su 08:00-00:30",
           "ref:FR:SIRET": "92181460400010",
@@ -1783,7 +1782,7 @@
         "lat": 43.6958213,
         "lon": 7.2764736,
         "tags": {
-          "check_date": "2026-06-04",
+          "check_date": "2023-07-05",
           "name": "Multari",
           "opening_hours": "Mo-Su 06:00-19:30",
           "ref:FR:SIRET": "51975911200088",
@@ -2516,8 +2515,6 @@
         "lat": 43.6963414,
         "lon": 7.2723842,
         "tags": {
-          "brand": "Monop'",
-          "brand:wikidata": "Q89913683",
           "name": "Monop'",
           "shop": "convenience"
         }
@@ -2658,6 +2655,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-14T08:42:02.355Z",
+  "fetchedAt": "2026-08-15T05:00:49.829Z",
   "staleDataWarning": false
 }

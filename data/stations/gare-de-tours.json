@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786697726381,
+      "timestamp": 1786770528855,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-14T08:55:35Z",
+      "timestamp_osm_base": "2026-06-19T19:45:41Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -316,12 +316,10 @@
         "lat": 47.378392,
         "lon": 0.6933809,
         "tags": {
-          "contact:housenumber": "157",
-          "contact:street": "Avenue de Grammont",
-          "name": "Tours Market",
+          "name": "37 Market",
           "opening_hours": "Mo-Su 00:00-02:00, 09:00-00:00",
-          "panoramax": "98051d58-8fad-490f-b90c-6b6b0cee7c07",
           "phone": "+33 2 47 66 41 57",
+          "ref:FR:SIRET": "51006075900030",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -376,7 +374,6 @@
           "addr:postcode": "37000",
           "addr:street": "Rue Auguste Chevallier",
           "check_date": "2024-08-02",
-          "check_date:opening_hours": "2026-06-20",
           "contact:city": "Tours",
           "contact:facebook": "aroundthebread",
           "contact:housenumber": "3",
@@ -390,11 +387,10 @@
           "name": "Around the Bread",
           "opening_hours": "Tu-Fr 07:00-13:30, 15:30-19:30; Sa 07:00-13:30; Su 07:00-13:00",
           "organic": "yes",
-          "panoramax": "587d92e8-0ff1-489f-b280-ebb97382b0a0",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
-          "ref:FR:SIRET": "92100220000027",
+          "ref:FR:SIRET": "88089614700019",
           "shop": "bakery",
           "website": "https://www.monpetit-epeautre.fr/",
           "wheelchair": "no"
@@ -520,7 +516,6 @@
         "lat": 47.381602,
         "lon": 0.6926217,
         "tags": {
-          "check_date:opening_hours": "2026-07-31",
           "contact:city": "Tours",
           "contact:housenumber": "104",
           "contact:postcode": "37000",
@@ -592,6 +587,29 @@
       },
       {
         "type": "node",
+        "id": 3359422379,
+        "lat": 47.391276,
+        "lon": 0.6937194,
+        "tags": {
+          "contact:city": "Tours",
+          "contact:facebook": "https://www.facebook.com/memelaboulange/",
+          "contact:housenumber": "76",
+          "contact:instagram": "memelaboulange",
+          "contact:postcode": "37000",
+          "contact:street": "Rue Bernard Palissy",
+          "diet:vegan": "yes",
+          "diet:vegetarian": "only",
+          "email": "memelaboulange@outlook.fr",
+          "name": "Mémé la boulange",
+          "opening_hours": "Tu-Sa 11:30-14:00,16:00-19:00",
+          "panoramax": "ead21a2f-19ac-4c98-866f-edf5d4a4e4b4",
+          "ref:FR:SIRET": "88003746000024",
+          "shop": "bakery",
+          "source:opening_hours": "contact:facebook"
+        }
+      },
+      {
+        "type": "node",
         "id": 3359422392,
         "lat": 47.3930872,
         "lon": 0.6934189,
@@ -614,7 +632,6 @@
         "lat": 47.3932086,
         "lon": 0.6931745,
         "tags": {
-          "check_date": "2026-06-20",
           "contact:city": "Tours",
           "contact:housenumber": "23",
           "contact:postcode": "37000",
@@ -625,8 +642,7 @@
           "opening_hours": "Tu-Sa 07:00-20:00; Su 07:00-19:30",
           "outdoor_seating": "no",
           "panoramax": "845157d6-f228-4393-a94a-0a4e60fc6f13",
-          "panoramax:0": "f2eb1740-f152-48fd-8522-c5800410a0e6",
-          "ref:FR:SIRET": "91074109900014",
+          "ref:FR:SIRET": "82862279500015",
           "shop": "bakery",
           "takeaway": "only",
           "wheelchair": "limited"
@@ -660,20 +676,6 @@
           "opening_hours": "Tu-Sa 07:00-14:00,15:30-19:30; Su 07:00-13:30",
           "ref:FR:SIRET": "51185163600015",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3517649484,
-        "lat": 47.3757373,
-        "lon": 0.6944554,
-        "tags": {
-          "contact:housenumber": "207",
-          "contact:street": "Avenue de Grammont",
-          "name": "Market",
-          "panoramax": "0399b993-63bb-457e-88ed-e9285a326743",
-          "ref:FR:SIRET": "10583448500028",
-          "shop": "convenience"
         }
       },
       {
@@ -752,7 +754,7 @@
           "fixme": "vérifier les horaires car ceux du website au 2024-08-07 sont Tu-Fr 10:00-12:30,14:00-18:30; Sa 10:00-12:30,14:30-18:30",
           "name": "Librairie Saint-Étienne",
           "opening_hours": "Tu-Sa 10:00-12:30,14:00-18:30; Mo 14:00-18:30",
-          "ref:FR:SIRET": "10037092300029",
+          "ref:FR:SIRET": "81047143300013",
           "shop": "books"
         }
       },
@@ -809,8 +811,7 @@
         "lat": 47.3798392,
         "lon": 0.6918606,
         "tags": {
-          "check_date": "2026-08-04",
-          "check_date:opening_hours": "2026-08-04",
+          "check_date": "2024-05-28",
           "contact:city": "Tours",
           "contact:housenumber": "3",
           "contact:postcode": "37000",
@@ -883,18 +884,13 @@
         "lat": 47.3903246,
         "lon": 0.6841631,
         "tags": {
-          "check_date": "2026-07-04",
-          "check_date:opening_hours": "2026-08-08",
+          "check_date": "2023-08-09",
+          "contact:phone": "+33 2 47 20 49 17",
           "currency:XLT": "GBAR",
           "name": "Pleine Forme",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 09:00-19:00",
-          "panoramax": "57dcd37d-e85e-432b-aa2d-bbfeee8137af",
           "payment:cash:XLT-GBAR": "yes",
-          "phone": "+33 2 47 20 49 17",
-          "ref:FR:SIRET": "34165882100036",
-          "shop": "convenience",
-          "source:opening_hours": "website",
-          "website": "https://pleine-forme.net/"
+          "shop": "convenience"
         }
       },
       {
@@ -907,7 +903,6 @@
           "bulk_purchase": "only",
           "check_date": "2025-07-12",
           "contact:city": "Tours",
-          "contact:facebook": "https://www.facebook.com/lafourchettepaysannetours/",
           "contact:housenumber": "2 bis",
           "contact:instagram": "https://www.instagram.com/lafourchettepaysanne/",
           "contact:postcode": "37000",
@@ -928,6 +923,27 @@
       },
       {
         "type": "node",
+        "id": 5316398756,
+        "lat": 47.3928315,
+        "lon": 0.6849359,
+        "tags": {
+          "contact:email": "librairielesomnambulle@outlook.fr",
+          "contact:facebook": "https://www.facebook.com/people/Le-Somnambulle/61552017481903/",
+          "contact:housenumber": "20",
+          "contact:instagram": "https://www.instagram.com/le_somnambulle/",
+          "contact:mobile": "+33 6 67 81 04 03",
+          "contact:street": "Rue Richelieu",
+          "name": "Le Somnambulle",
+          "opening_hours": "Tu-Fr 10:00-13:00,14:00-19:00; Sa 11:00-19:00",
+          "operator": "Timothée Chartier",
+          "second_hand": "yes",
+          "shop": "books",
+          "source:opening_hours": "vitrine",
+          "url": "https://www.lanouvellerepublique.fr/tours/tours-timothee-chartier-un-fougueux-somnambulle-rue-richelieu"
+        }
+      },
+      {
+        "type": "node",
         "id": 5429064321,
         "lat": 47.3948813,
         "lon": 0.6833954,
@@ -941,7 +957,7 @@
           "contact:street": "Rue du Commerce",
           "name": "Imaginaute",
           "opening_hours:signed": "no",
-          "ref:FR:SIRET": "51776766100021",
+          "ref:FR:SIRET": "51776766100013",
           "shop": "books",
           "strapline": "La librairie de l'imaginaire",
           "wheelchair": "yes"
@@ -953,13 +969,10 @@
         "lat": 47.3918057,
         "lon": 0.7018432,
         "tags": {
-          "contact:housenumber": "105",
-          "contact:street": "Rue du Rempart",
           "name": "Épi Service",
           "name:-2020": "Le Coin Bières",
-          "note": "Le commerce était de l'autre côté en diagonale (apparemment à cause d'un auvent qui risquait de tomber).\nPeut-être fermé",
+          "note": "Le commerce était de l'autre côté en diagonale (apparemment à cause d'un auvent qui risquait de tomber)",
           "old_name": "Le Coin Bières;Le Coin Bio",
-          "ref:FR:SIRET": "80343048700030",
           "shop": "convenience",
           "start_date": "2024-03"
         }
@@ -1067,11 +1080,9 @@
         "lon": 0.6924564,
         "tags": {
           "check_date:opening_hours": "2026-04-30",
-          "contact:housenumber": "107",
-          "contact:street": "Avenue de Grammont",
           "name": "Rivages",
+          "note": "Probablement une ancienne boucherie, fermée avant 2008 (local inutilisé depuis)",
           "opening_hours:signed": "no",
-          "ref:FR:SIRET": "40181381100072",
           "shop": "convenience"
         }
       },
@@ -1094,22 +1105,12 @@
       },
       {
         "type": "node",
-        "id": 6223115624,
-        "lat": 47.3802202,
-        "lon": 0.6890219,
-        "tags": {
-          "name": "o Pain 37",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 6224974984,
         "lat": 47.3948133,
         "lon": 0.6829167,
         "tags": {
           "books": "comic",
-          "check_date:opening_hours": "2026-06-23",
+          "check_date:opening_hours": "2022-09-12",
           "contact:city": "Tours",
           "contact:email": "bedeliretourslib@canalbd.net",
           "contact:facebook": "https://www.facebook.com/bedelire.tours",
@@ -1421,11 +1422,9 @@
         "lat": 47.3807831,
         "lon": 0.6929466,
         "tags": {
-          "check_date": "2026-08-04",
-          "check_date:opening_hours": "2026-08-04",
+          "check_date": "2024-10-25",
           "name": "Shajani Supermarché",
           "opening_hours": "Mo-Su 10:00-20:00",
-          "opening_hours:signed": "no",
           "ref:FR:SIRET": "94899021300019",
           "shop": "convenience",
           "source": "INSEE - 2021-11"
@@ -1437,17 +1436,15 @@
         "lat": 47.3801318,
         "lon": 0.6926826,
         "tags": {
-          "check_date": "2026-08-04",
-          "check_date:opening_hours": "2026-08-04",
-          "contact:city": "Tours",
-          "contact:housenumber": "125",
-          "contact:postcode": "37000",
-          "contact:street": "Avenue de Grammont",
+          "addr:city": "Tours",
+          "addr:housenumber": "125",
+          "addr:postcode": "37000",
+          "addr:street": "Avenue de Grammont",
+          "check_date": "2024-05-28",
           "name": "Liberté Market",
           "opening_hours": "Mo-Sa 09:00-21:00; Su 12:00-21:00",
-          "opening_hours:signed": "no",
           "phone": "+33 7 82 99 26 33",
-          "ref:FR:SIRET": "80935882300031",
+          "ref:FR:SIRET": "81333513000023",
           "shop": "convenience",
           "source": "INSEE - 2021-11"
         }
@@ -1585,8 +1582,18 @@
         "lat": 47.3902011,
         "lon": 0.6910174,
         "tags": {
-          "name": "Au Passage Gourmand",
-          "shop": "bakery"
+          "check_date:opening_hours": "2025-06-06",
+          "contact:city": "Tours",
+          "contact:housename": "Galerie du Grand Passage",
+          "contact:housenumber": "18",
+          "contact:postcode": "37000",
+          "contact:street": "Rue de Bordeaux",
+          "name": "Comme Avant",
+          "opening_hours": "Mo-Fr 08:00-19:15; Sa 09:00-15:00",
+          "operator": "Franck Nouveau",
+          "ref:FR:SIRET": "34985139400016",
+          "shop": "bakery",
+          "source:opening_hours": "sur place"
         }
       },
       {
@@ -1599,10 +1606,13 @@
           "contact:housenumber": "108",
           "contact:postcode": "37000",
           "contact:street": "Avenue de Grammont",
+          "email": "contact@lehavredufume.fr",
           "name": "Noor Tours",
-          "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-19:00; Su 11:00-18:00",
-          "ref:FR:SIRET": "99510191200013",
-          "shop": "convenience"
+          "opening_hours": "Mo,Tu,Th-Sa 10:00-13:00, Mo,Tu 14:00-19:00, We 14:00-19:00",
+          "phone": "+33 9 82 26 51 06",
+          "ref:FR:SIRET": "98253464600020",
+          "shop": "convenience",
+          "website": "https://www.lehavredufume.fr"
         }
       },
       {
@@ -1681,7 +1691,6 @@
         "lon": 0.6897185,
         "tags": {
           "books": "antiquarian",
-          "check_date": "2026-07-14",
           "check_date:opening_hours": "2026-01-23",
           "contact:city": "Tours",
           "contact:housenumber": "55",
@@ -1691,9 +1700,8 @@
           "opening_hours:signed": "no",
           "operator": "Jean-Michel Theureau",
           "panoramax": "90493281-e90d-4860-ab06-be8b2d14b5e7",
-          "panoramax:0": "ffdaa2e1-fcd9-47fe-b931-3e265ae29005",
           "phone": "+33 2 47 05 92 30",
-          "ref:FR:SIRET": "34827896100043",
+          "ref:FR:SIRET": "48761038800018",
           "second_hand": "only",
           "shop": "books",
           "start_date": "1988"
@@ -1740,6 +1748,22 @@
           "source:start_date": "website",
           "start_date": "1925",
           "website": "https://www.librairiedenis.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13019685631,
+        "lat": 47.394219,
+        "lon": 0.6799227,
+        "tags": {
+          "contact:city": "Tours",
+          "contact:housenumber": "44",
+          "contact:postcode": "37000",
+          "contact:street": "Rue du Grand Marché",
+          "name": "Albina",
+          "panoramax": "1e99bdfa-a8fd-41fd-83c8-0ebb42e591b6",
+          "ref:FR:SIRET": "91978669900018",
+          "shop": "convenience"
         }
       },
       {
@@ -1796,9 +1820,6 @@
         "lon": 0.6839292,
         "tags": {
           "check_date:opening_hours": "2026-05-03",
-          "contact:housenumber": "17",
-          "contact:street": "Rue Constantine",
-          "contact:tiktok": "https://www.tiktok.com/@sora.tours",
           "name": "Sora",
           "opening_hours:signed": "no",
           "shop": "convenience"
@@ -1847,7 +1868,7 @@
           "name": "Palais Sucré",
           "outdoor_seating": "no",
           "ref": "15",
-          "ref:FR:SIRET": "99101254300013",
+          "ref:FR:SIRET": "80049736400029",
           "room": "shop",
           "shop": "bakery",
           "takeaway": "only",
@@ -1856,6 +1877,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-14T08:42:02.355Z",
+  "fetchedAt": "2026-08-15T05:00:49.829Z",
   "staleDataWarning": false
 }

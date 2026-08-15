@@ -205,7 +205,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786696942100,
+      "timestamp": 1786770063966,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -234,7 +234,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-18T11:57:45Z",
+      "timestamp_osm_base": "2026-08-15T05:00:57Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -559,14 +559,17 @@
         "lat": 43.2955408,
         "lon": 5.3911784,
         "tags": {
+          "addr:housenumber": "77",
+          "addr:street": "Boulevard Eugène Pierre",
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "en:Système U",
-          "name": "Utile",
+          "name": "U Express",
           "opening_hours": "Mo-Sa 08:00-19:45; Su 08:30-12:45",
           "operator": "Système U",
+          "phone": "+33 4 96 12 12 30",
           "shop": "convenience",
-          "website": "https://www.magasins-u.com/magasin/superu-marseillesaintpierre.m90249",
+          "website": "https://www.magasins-u.com/magasin/uexpress-marseille.m90174",
           "wheelchair": "no"
         }
       },
@@ -1504,7 +1507,7 @@
           "brand:wikipedia": "fr:Système U",
           "contact:website": "https://www.magasins-u.com/magasin/uexpress-marseillegrandrue",
           "name": "U Express",
-          "opening_hours": "Mo-Fr 08:15-20:00; Sa 08:30-20:00; Su 08:30-13:00",
+          "opening_hours": "Mo-Sa 08:30-20:00; Su 08:30-13:00",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "phone": "+33 4 91 90 34 26",
@@ -2675,19 +2678,6 @@
       },
       {
         "type": "node",
-        "id": 10876292790,
-        "lat": 43.291566,
-        "lon": 5.3714237,
-        "tags": {
-          "brand": "Utile",
-          "brand:wikidata": "Q2529029",
-          "name": "Utile",
-          "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:00",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 10876292791,
         "lat": 43.2908976,
         "lon": 5.3717787,
@@ -3605,6 +3595,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-14T08:42:02.355Z",
+  "fetchedAt": "2026-08-15T05:00:49.829Z",
   "staleDataWarning": false
 }
