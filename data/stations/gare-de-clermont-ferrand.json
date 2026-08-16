@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786770516088,
+      "timestamp": 1786857299411,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-08-16T05:14:57Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -663,6 +663,7 @@
         "lon": 3.0908392,
         "tags": {
           "name": "Les Gourmandises de Saint Jacques",
+          "phone": "+33 4 73 26 59 37",
           "shop": "bakery"
         }
       },
@@ -779,7 +780,7 @@
         "lon": 3.0866012,
         "tags": {
           "name": "Le Fournil de Jean",
-          "opening_hours": "Mo-Sa 08:00-19:30",
+          "opening_hours": "Mo-Fr 06:30-20:00; Sa 06:30-19:30; Su 07:30-13:00",
           "shop": "bakery"
         }
       },
@@ -1026,12 +1027,30 @@
           "contact:street": "Rue des Liondards",
           "contact:website": "https://www.facebook.com/fournildesebastien",
           "name": "Fournil de Sébastien",
-          "opening_hours": "Tu-Sa 06:45-13:30; Tu-Sa 15:30-19:00; Sa-Su 7:00-13:00",
+          "opening_hours": "Tu-Sa 06:45-13:30; Tu-Sa 15:30-19:00; Sa-Su 07:00-13:00",
           "payment:cash": "yes",
           "payment:visa": "yes",
           "phone": "+33 4 63 08 11 21",
           "ref:FR:SIRET": "80128739200048",
           "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9811400126,
+        "lat": 45.7779047,
+        "lon": 3.0836649,
+        "tags": {
+          "addr:city": "Clermont-Ferrand",
+          "addr:housenumber": "30",
+          "addr:postcode": "63000",
+          "addr:street": "Rue des Petits Gras",
+          "name": "Le Grenier des Chimères",
+          "opening_hours": "Mo-We 11:00-00:00; Th-Sa 11:00-03:00; Su 12:00-23:00",
+          "phone": "+33 9 55 21 10 76",
+          "ref:FR:SIRET": "95151009800019",
+          "shop": "books",
+          "website": "https://www.legrenierdeschimeres.com"
         }
       },
       {
@@ -1051,7 +1070,7 @@
           "diet:vegetarian": "yes",
           "drive_through": "no",
           "name": "Kookies",
-          "opening_hours": "Tu-Fri 11:00-19:00; Sa 10:00-19:00",
+          "opening_hours": "Tu-Fr 11:00-19:00; Sa 10:00-19:00",
           "payment:cards": "yes",
           "payment:cash": "yes",
           "payment:coins": "yes",
@@ -1202,6 +1221,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-15T05:00:49.829Z",
+  "fetchedAt": "2026-08-16T05:05:34.278Z",
   "staleDataWarning": false
 }

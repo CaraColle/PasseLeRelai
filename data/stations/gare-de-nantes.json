@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786770238015,
+      "timestamp": 1786856919122,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-08-16T05:08:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -328,10 +328,12 @@
         "lat": 47.2211885,
         "lon": -1.5481305,
         "tags": {
-          "check_date": "2026-02-07",
+          "check_date": "2026-06-13",
+          "check_date:diet:gluten_free": "2026-06-13",
           "check_date:opening_hours": "2026-02-07",
           "contact:housenumber": "46",
           "contact:street": "Rue Maréchal Joffre",
+          "diet:gluten_free": "no",
           "indoor_seating": "no",
           "name": "La Fournaise",
           "opening_hours": "Mo-Fr 06:45-20:00; Sa 06:45-18:00; PH off",
@@ -382,6 +384,7 @@
         "lat": 47.226946,
         "lon": -1.5428998,
         "tags": {
+          "check_date": "2026-07-07",
           "contact:city": "Nantes",
           "contact:country": "FR",
           "contact:housenumber": "150",
@@ -396,7 +399,6 @@
           "ref:FR:SIRET": "91371686600011",
           "shop": "bakery",
           "source": "INSEE - 2025-08",
-          "survey:date": "2024-01-29",
           "wheelchair": "no"
         }
       },
@@ -475,12 +477,13 @@
         "lat": 47.2208831,
         "lon": -1.5556217,
         "tags": {
-          "addr:city": "Nantes",
-          "addr:housenumber": "5",
-          "addr:postcode": "44000",
-          "addr:street": "Rue Paul Bellamy",
-          "check_date": "2025-05-17",
+          "check_date": "2026-08-11",
+          "contact:city": "Nantes",
+          "contact:housenumber": "5",
           "contact:phone": "+33 2 40 20 37 00",
+          "contact:postcode": "44000",
+          "contact:street": "Rue Paul Bellamy",
+          "contact:website": "https://www.franceboulangerie.fr/boulangeries/le-fournil-bossard-nantes",
           "cuisine": "sandwich",
           "delivery": "no",
           "name": "Chez Bossard",
@@ -491,7 +494,49 @@
           "ref:FR:SIRET": "85046663200013",
           "shop": "bakery",
           "was:name": "Fournil Bossard",
-          "website": "https://www.franceboulangerie.fr/boulangeries/le-fournil-bossard-nantes"
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2258874077,
+        "lat": 47.2161595,
+        "lon": -1.5551042,
+        "tags": {
+          "amenity": "cafe",
+          "check_date": "2026-07-12",
+          "contact:housenumber": "14",
+          "contact:instagram": "kook_nantes",
+          "contact:street": "Rue des Carmes",
+          "contact:website": "https://kookbakery.com",
+          "cuisine": "coffee_shop",
+          "name": "Køok",
+          "note": "Ouverture annoncée en novembre 2026 sur le site web",
+          "opening_hours": "off \"En travaux\"",
+          "shop": "bakery",
+          "was:name": "Jean-Claude Biguine",
+          "was:shop": "hairdresser",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2258874088,
+        "lat": 47.2160887,
+        "lon": -1.5550762,
+        "tags": {
+          "brand": "Graines d'ici",
+          "brand:website": "https://www.grainesdici.fr",
+          "check_date": "2026-07-12",
+          "check_date:opening_hours": "2026-07-12",
+          "contact:housenumber": "10",
+          "contact:street": "Rue des Carmes",
+          "name": "Graines d'ici",
+          "opening_hours": "Tu-Fr 10:00-14:00,16:00-20:00; Sa 10:00-20:00",
+          "organic": "only",
+          "shop": "convenience",
+          "was:name": "Brieuc;Shoes In",
+          "was:shop": "confectionery;shoes"
         }
       },
       {
@@ -556,13 +601,10 @@
         "lat": 47.2191395,
         "lon": -1.5549832,
         "tags": {
-          "check_date": "2025-05-04",
+          "check_date": "2026-07-12",
           "check_date:opening_hours": "2025-05-04",
-          "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:housenumber": "6",
           "contact:phone": "+33 7 51 02 27 32",
-          "contact:postcode": "44000",
           "contact:street": "Rue Léon Blum",
           "name": "Épicerie du Ciel",
           "opening_hours:signed": "no",
@@ -571,7 +613,7 @@
           "ref:FR:SIREN": "529938615",
           "ref:FR:SIRET": "52993861500042",
           "shop": "convenience",
-          "source": "INSEE - 2025-07",
+          "source:ref:FR": "INSEE - 2025-07",
           "wheelchair": "no"
         }
       },
@@ -582,16 +624,17 @@
         "lon": -1.5524479,
         "tags": {
           "check_date": "2026-01-26",
-          "contact:city": "Nantes",
-          "contact:country": "FR",
-          "contact:facebook": "https://www.facebook.com/arnoboulangerie",
+          "contact:email": "arnoboulangeriecreative@gmail.com",
+          "contact:facebook": "arnoboulangerie",
           "contact:housenumber": "16",
+          "contact:instagram": "arno_boulangerie_nantes",
           "contact:phone": "+33 2 40 74 83 65",
-          "contact:postcode": "44000",
           "contact:street": "Rue de Verdun",
           "name": "ArnO",
           "opening_hours": "Mo-Fr 07:30-19:30; Sa 08:00-19:00",
           "organic": "yes",
+          "pastry": "yes",
+          "produced_on_site": "yes",
           "ref:FR:SIRET": "82859925800013",
           "shop": "bakery",
           "wheelchair": "yes"
@@ -664,27 +707,30 @@
         "tags": {
           "alt_name": "Les Bien-Aimés",
           "amenity": "cafe",
-          "check_date": "2025-12-08",
-          "check_date:opening_hours": "2025-12-08",
+          "check_date": "2026-08-14",
+          "check_date:opening_hours": "2026-07-28",
           "contact:email": "librairielesbienaimes@gmail.com",
+          "contact:facebook": "Librairie-café-Les-bien-aimées/100064554915304",
           "contact:housenumber": "2",
+          "contact:instagram": "librairielesbienaime.e.s",
+          "contact:mastodon": "@lesbienaimees@mastodon.social",
           "contact:phone": "+33 2 85 37 36 01",
           "contact:street": "Rue de la Paix",
-          "contact:website": "https://www.les-bien-aimes.fr",
+          "contact:website": "https://www.les-bien-aimes.fr/les-bien-aimes",
           "diet:gluten_free": "yes",
           "diet:vegan": "yes",
           "food:cake": "yes",
           "indoor_seating": "yes",
           "lgbtq": "welcome",
           "name": "Les Bien-Aimé·e·s",
-          "opening_hours": "Mo-Sa 11:00-19:00; Fr 11:00-21:30",
+          "opening_hours": "Mo-Sa 11:00-19:00; Fr 11:00-21:30; Aug: Tu-Sa 10:00-19:00",
           "outdoor_seating": "pedestrian_zone",
           "pastry": "yes",
           "ref:FR:NAF": "47.61Z",
           "ref:FR:SIREN": "793987108",
           "ref:FR:SIRET": "79398710800016",
           "shop": "books",
-          "source:ref": "INSEE - 2025-08",
+          "source:ref:FR": "INSEE - 2025-08",
           "toilets:wheelchair": "no",
           "wheelchair": "yes"
         }
@@ -903,11 +949,19 @@
         "lat": 47.2197087,
         "lon": -1.5345783,
         "tags": {
-          "check_date:opening_hours": "2025-04-02",
+          "check_date": "2026-06-11",
+          "check_date:opening_hours": "2026-06-11",
+          "contact:housenumber": "5",
+          "contact:street": "Rue de Coulmiers",
           "name": "Alimentation 7/7",
           "opening_hours": "Tu-Sa 10:30-12:30,16:00-24:00, Su 12:30-24:00",
+          "post_office": "post_partner",
+          "post_office:opening_hours": "Tu-Sa 10:30-12:30,16:00-24:00",
+          "post_office:parcel_from": "yes",
+          "post_office:parcel_pickup": "yes",
+          "post_office:parcel_to": "yes",
+          "post_office:service_provider": "Vinted Go;Mondial Relay",
           "shop": "convenience",
-          "survey:date": "2024-10-29",
           "wheelchair": "no"
         }
       },
@@ -917,7 +971,7 @@
         "lat": 47.2168105,
         "lon": -1.5555215,
         "tags": {
-          "check_date": "2026-02-08",
+          "check_date": "2026-08-14",
           "check_date:opening_hours": "2026-02-08",
           "contact:facebook": "Comptoir-de-Québec-1564974773818218",
           "contact:housenumber": "7",
@@ -1133,20 +1187,6 @@
       },
       {
         "type": "node",
-        "id": 3098624914,
-        "lat": 47.2116546,
-        "lon": -1.5519794,
-        "tags": {
-          "check_date": "2023-10-25",
-          "name": "La Rivière des Délices",
-          "opening_hours": "Mo-Fr 06:45-19:30",
-          "shop": "bakery",
-          "source": "survey",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 3210762313,
         "lat": 47.228479,
         "lon": -1.5414387,
@@ -1158,7 +1198,7 @@
           "contact:instagram": "pilepoids_",
           "contact:phone": "+33 6 64 44 30 03",
           "name": "Pile poids",
-          "opening_hours": "Tu 10:00-13:00,15:00-19:00; We-Sa 09:30-13:00,15:00-19:00;",
+          "opening_hours": "Tu 10:00-13:00,15:00-19:00; We-Sa 09:30-13:00,15:00-19:00",
           "organic": "yes",
           "ref:FR:NAF": "47.11B",
           "ref:FR:SIREN": "891853160",
@@ -1306,29 +1346,23 @@
         "lat": 47.2064723,
         "lon": -1.5544276,
         "tags": {
-          "check_date": "2025-07-28",
-          "check_date:opening_hours": "2025-07-28",
-          "contact:city": "Nantes",
-          "contact:country": "FR",
+          "check_date": "2026-06-29",
+          "check_date:opening_hours": "2026-06-29",
+          "contact:email": "ndeleshop12@gmail.com",
           "contact:housenumber": "15",
-          "contact:phone": "+33 6 66 35 62 75",
-          "contact:postcode": "44200",
           "contact:street": "Rue la Tour d'Auvergne",
-          "name": "Ivoire Market",
-          "opening_hours": "Tu-Sa 10:00-19:30",
+          "name": "Ndeleshop",
+          "opening_hours": "Mo-Su 11:00-21:00",
           "post_office": "post_partner",
           "post_office:brand": "Pickup",
           "post_office:parcel_from": "yes",
           "post_office:parcel_pickup": "dpd;colissimo;chronopost",
           "post_office:parcel_to": "yes",
           "post_office:service_provider": "colissimo;chronopost;dpd",
-          "ref:FR:NAF": "47.11B",
-          "ref:FR:SIREN": "934109315",
-          "ref:FR:SIRET": "93410931500028",
+          "ref:FR:SIRET": "98458489600026",
           "shop": "convenience",
-          "source": "INSEE - 2025-08",
-          "was:name": "Phone Repair 44",
-          "was:shop": "mobile_phone;beauty",
+          "was:name": "Ivoire Market;Phone Repair 44",
+          "was:shop": "convenience;mobile_phone;beauty",
           "wheelchair": "no"
         }
       },
@@ -1359,16 +1393,19 @@
         "lon": -1.5537828,
         "tags": {
           "books": "religion",
-          "check_date": "2025-10-12",
+          "check_date": "2026-08-05",
+          "check_date:opening_hours": "2026-08-05",
+          "contact:email": "lelivrechretien@free.fr",
+          "contact:housenumber": "8",
           "contact:phone": "+33 2 40 89 44 79",
           "contact:street": "Quai de Versailles",
           "contact:website": "https://librairie-le-livre.fr",
           "description": "Librairie chrétienne",
-          "email": "lelivrechretien@free.fr",
           "name": "Le Livre",
           "opening_hours": "Tu-Sa 10:00-19:00",
           "ref:FR:SIRET": "44755019500021",
-          "shop": "books"
+          "shop": "books",
+          "wheelchair": "yes"
         }
       },
       {
@@ -1377,26 +1414,21 @@
         "lat": 47.2085251,
         "lon": -1.5299644,
         "tags": {
-          "check_date": "2025-12-28",
-          "check_date:opening_hours": "2025-11-13",
+          "check_date": "2026-08-03",
+          "check_date:opening_hours": "2026-08-03",
           "contact:housenumber": "2",
-          "contact:phone": "+33 2 40 89 60 06",
           "contact:street": "Place de la Galarne",
           "craft": "bakery",
-          "indoor_seating": "no",
-          "internet_access": "no",
-          "name": "Le Fournil de la Galarne",
-          "opening_hours": "Mo-Fr 07:00-19:30; Su 07:30-13:00",
-          "outdoor_seating": "veranda",
+          "name": "Pains et Malice",
+          "note": "Ouverture le 17/08/2026 après travaux",
+          "opening_hours": "off \"En travaux\"",
           "pastry": "yes",
           "payment:cards": "yes",
           "payment:cash": "yes",
           "produced_on_site": "yes",
-          "ref:FR:NAF": "10.71C",
-          "ref:FR:SIREN": "978911139",
           "ref:FR:SIRET": "97891113900019",
           "shop": "bakery",
-          "source:ref": "INSEE - 2025-08",
+          "was:name": "Le Fournil de la Galarne",
           "wheelchair": "yes"
         }
       },
@@ -1406,7 +1438,7 @@
         "lat": 47.2203487,
         "lon": -1.5318712,
         "tags": {
-          "check_date": "2023-06-10",
+          "check_date": "2026-06-01",
           "contact:housenumber": "134",
           "contact:street": "Boulevard Ernest Dalby",
           "name": "L'epicier",
@@ -1433,48 +1465,6 @@
       },
       {
         "type": "node",
-        "id": 4303802400,
-        "lat": 47.2051133,
-        "lon": -1.5552909,
-        "tags": {
-          "amenity": "cafe",
-          "brewery": "Goudale;Soma Bio",
-          "changing_table": "no",
-          "check_date": "2026-04-12",
-          "cocktails": "yes",
-          "contact:email": "contact@painbar.fr",
-          "contact:facebook": "Painbar.Nantes",
-          "contact:housenumber": "5",
-          "contact:instagram": "painbar.nantes",
-          "contact:phone": "+33 9 54 05 27 46",
-          "contact:street": "Place de la République",
-          "contact:website": "https://www.painbar.fr",
-          "craft": "bakery",
-          "cuisine": "burger;sandwich;salad",
-          "description": "Bar et boulangerie avec des produits bio, locaux et de saison. Restauration le midi et le soir.",
-          "diet:vegetarian": "yes",
-          "indoor_seating": "yes",
-          "live_music": "yes",
-          "name": "Painbar",
-          "opening_hours": "Mo 11:45-14:30; Tu-Fr 11:45-14:30,17:00-23:00; Sa 12:00-15:00,17:00-23:00",
-          "organic": "yes",
-          "outdoor_seating": "sidewalk",
-          "pastry": "yes",
-          "produced_on_site": "yes",
-          "ref:FR:NAF": "10.71C",
-          "ref:FR:SIREN": "893034025",
-          "ref:FR:SIRET": "89303402500013",
-          "shop": "bakery",
-          "source:ref:FR": "INSEE - 2025-08",
-          "survey:date": "2025-08-04",
-          "takeaway": "yes",
-          "toilets": "yes",
-          "website:menu": "https://www.painbar.fr/#menu",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 4370012349,
         "lat": 47.2135556,
         "lon": -1.5389825,
@@ -1484,13 +1474,16 @@
           "contact:housenumber": "2",
           "contact:phone": "+33 2 40 48 03 76",
           "contact:street": "Rue de Cornulier",
+          "indoor_seating": "no",
           "name": "Le Fournil d'Erwan",
           "opening_hours": "Mo-Fr 07:00-19:00; PH off",
+          "outdoor_seating": "no",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "920313483",
           "ref:FR:SIRET": "92031348300017",
           "shop": "bakery",
           "source": "INSEE - 2025-08",
+          "takeaway": "only",
           "was:name": "Les douceurs de Saupin",
           "was:shop": "bakery",
           "wheelchair": "yes"
@@ -1524,6 +1517,7 @@
           "opening_hours": "Mo-Sa 18:00-02:00, Su 13:30-02:00",
           "payment:credit_cards": "no",
           "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "49350657000024",
           "shop": "convenience",
           "wheelchair": "limited"
         }
@@ -1573,7 +1567,7 @@
           "description": "Alimentation asiatique, fruits et légumes, produits secs",
           "description:zh": "中國超市",
           "name": "Château Express",
-          "opening_hours": "Tu-Sa 10:00-19:00; Su 10:30-16:00; 2025 Aug 04-Sep 01 off",
+          "opening_hours": "Tu-Sa 10:00-19:00; Su 10:30-16:00",
           "opening_hours:signed": "no",
           "phone": "+33 9 73 25 59 49",
           "ref:FR:NAF": "47.11C",
@@ -1586,11 +1580,21 @@
       },
       {
         "type": "node",
+        "id": 4837023996,
+        "lat": 47.2171539,
+        "lon": -1.5456128,
+        "tags": {
+          "name": "Bangla bazar",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 5171797652,
         "lat": 47.2145782,
         "lon": -1.5292467,
         "tags": {
-          "check_date": "2025-03-28",
+          "check_date": "2026-06-06",
           "check_date:opening_hours": "2025-03-28",
           "contact:phone": "+33 2 40745087",
           "description": "Boucherie, épicerie halal, charcuterie orientale",
@@ -1633,6 +1637,7 @@
           "contact:housenumber": "99",
           "contact:street": "Boulevard Ernest Dalby",
           "name": "Saveurs d'Afrique",
+          "opening_hours": "Mo 12:00-20:00; Tu-Fr 10:30-20:00; Su,PH 14:30-19:30",
           "ref:FR:NAF": "47.11B",
           "ref:FR:SIREN": "935272328",
           "ref:FR:SIRET": "93527232800029",
@@ -1649,18 +1654,23 @@
           "amenity": "restaurant",
           "branch": "Dhandi Nantes",
           "brand": "Dhandi",
+          "brunch": "Sa 11:00-15:00",
+          "check_date": "2026-07-12",
+          "check_date:diet:vegetarian": "2026-07-12",
+          "check_date:opening_hours": "2026-07-12",
           "chocolate": "yes",
-          "contact:city": "Nantes",
+          "contact:email": "laboutiquesolidaire@dhandi.fr",
           "contact:housenumber": "18",
           "contact:instagram": "__dhandi__",
           "contact:phone": "+33 7 64 20 83 43",
-          "contact:postcode": "44000",
           "contact:street": "Rue Saint-Léonard",
           "contact:website": "https://dhandi.fr/boutiques-restos/dhandi-dhandi-epicerie-cafe",
+          "cuisine": "french;salad",
           "delivery": "no",
+          "diet:vegetarian": "yes",
           "indoor_seating": "yes",
           "name": "Dhandi",
-          "opening_hours": "Mo-Sa 10:00-17:30",
+          "opening_hours": "Tu-Fr 10:00-15:00; Sa 10:00-18:00",
           "operator": "Adapeila",
           "organic": "yes",
           "outdoor_seating": "pedestrian_zone",
@@ -1677,9 +1687,13 @@
         "lat": 47.2169735,
         "lon": -1.5502339,
         "tags": {
-          "check_date": "2025-07-27",
-          "check_date:opening_hours": "2025-07-27",
+          "check_date": "2026-07-14",
+          "check_date:opening_hours": "2026-07-14",
+          "contact:email": "listesratures.librairie@gmail.com",
+          "contact:housenumber": "4",
+          "contact:mobile": "+33 6 26 80 58 46",
           "contact:phone": "+33 2 40 35 29 69",
+          "contact:street": "Rue Prémion",
           "contact:website": "http://www.librairie-listesratures.com",
           "name": "Lis Tes Ratures",
           "opening_hours": "Mo-Sa 10:00-12:00,14:00-19:00",
@@ -1687,20 +1701,6 @@
           "second_hand": "yes",
           "shop": "books",
           "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6010488590,
-        "lat": 47.2171256,
-        "lon": -1.5456763,
-        "tags": {
-          "check_date:opening_hours": "2025-03-09",
-          "name": "Jouma market",
-          "opening_hours": "08:00-02:00",
-          "ref:FR:SIRET": "82924097700035",
-          "shop": "convenience",
-          "wheelchair": "no"
         }
       },
       {
@@ -1849,13 +1849,13 @@
         "lat": 47.2043807,
         "lon": -1.5472047,
         "tags": {
+          "branch": "Madeleine Martyrs",
+          "brand": "Bonjour",
+          "brand:wikidata": "Q110278299",
           "contact:phone": "+33 2 40471587",
-          "contact:website": "http://store.total.fr/fr_FR/NF078022",
-          "name": "Madeleine Martyrs",
+          "name": "Bonjour",
           "opening_hours": "Mo-Fr 07:00-21:00; Sa,Su,PH 08:00-21:00",
-          "ref:FR:SIRET": "94919424500021",
-          "shop": "convenience",
-          "survey:date": "2018-11-25"
+          "shop": "convenience"
         }
       },
       {
@@ -1934,12 +1934,12 @@
         "lat": 47.2133958,
         "lon": -1.5540363,
         "tags": {
+          "check_date": "2026-06-03",
           "contact:housenumber": "3",
           "contact:street": "Rue Kervégan",
-          "name": "Aperouest",
           "opening_hours:signed": "no",
           "shop": "convenience",
-          "survey:date": "2024-07-18",
+          "was:name": "Aperouest",
           "wheelchair": "limited",
           "wheelchair:description": "Seuil de 1 cm à l'entrée et porte battante ouvrant vers l'intérieur"
         }
@@ -1954,7 +1954,7 @@
           "contact:street": "Rue Fouré",
           "name": "maison régionale de l'architecture",
           "office": "association",
-          "opening_hours": "Tu-Fr 14:00-17:30; Th 14:00-17:30; Jul-Sep 8: 14:00-19:00",
+          "opening_hours": "Jun 26-Sep 06: Tu-Su 13:00-19:00; Sep 06-Nov 28: Tu-Sa 14:00-18:00",
           "ref:FR:SIRET": "48139397300047",
           "shop": "books",
           "survey:date": "2024-06-25",
@@ -1986,8 +1986,10 @@
         "lat": 47.222347,
         "lon": -1.5306382,
         "tags": {
+          "check_date:opening_hours": "2026-06-01",
           "name": "Shop La Grace Africa",
           "opening_hours": "Mo-Sa 10:30-20:30, We 10:30-19:00",
+          "opening_hours:signed": "no",
           "phone": "+33 9 90 83 95 80",
           "ref:FR:SIRET": "92977697900015",
           "shop": "convenience",
@@ -2001,16 +2003,14 @@
         "lon": -1.5500745,
         "tags": {
           "charity": "yes",
-          "check_date": "2025-06-03",
+          "check_date": "2026-07-14",
           "check_date:opening_hours": "2024-10-20",
-          "contact:city": "Nantes",
           "contact:email": "nantes.ecologie@free.fr",
-          "contact:facebook": "https://www.facebook.com/nantesecologie",
+          "contact:facebook": "nantesecologie",
           "contact:housenumber": "3 bis",
-          "contact:instagram": "https://www.instagram.com/nanteseco",
+          "contact:instagram": "nanteseco",
           "contact:phone": "+33 2 40 47 18 27",
-          "contact:postcode": "44015",
-          "contact:street": "rue Prémion",
+          "contact:street": "Rue Prémion",
           "contact:website": "https://nantesecologie.wixsite.com/nantesecologie",
           "description": "Vous pouvez déposer ou acheter un très grand nombre de livres d'occasions. Local très bien rangé avec une quinzaine d'étagères, des ouvrages d'enfants aux romans, le tout classé par catégories. Gèré notamment par des emplois en réinsertion.",
           "mapillary": "310532974000325",
@@ -2024,7 +2024,8 @@
           "second_hand": "only",
           "shop": "books",
           "source": "Mieux trier à Nantes;CRESS Pays de la Loire",
-          "vending": "books;music;video"
+          "vending": "books;music;video",
+          "wheelchair": "no"
         }
       },
       {
@@ -2060,12 +2061,13 @@
         "lat": 47.2167456,
         "lon": -1.5532288,
         "tags": {
+          "check_date": "2026-07-14",
           "contact:housenumber": "11",
           "contact:phone": "+33 7 83 34 71 67",
           "contact:street": "Rue de Briord",
           "name": "Xamda Barkulan",
+          "opening_hours": "off \"Pour raisons sanitaires\"",
           "shop": "convenience",
-          "survey:date": "2026-02-01",
           "was:name": "Terra Brasil",
           "was:shop": "deli",
           "wheelchair": "no"
@@ -2332,10 +2334,19 @@
         "lat": 47.2170893,
         "lon": -1.5459831,
         "tags": {
-          "check_date:opening_hours": "2025-03-09",
+          "books": "comic;manga",
+          "check_date:opening_hours": "2026-06-07",
+          "contact:email": "lacabaneabulles.nantes@gmail.com",
+          "contact:housenumber": "17",
+          "contact:instagram": "lacabaneabulles.nantes",
+          "contact:phone": "+33 6 34 84 89 86",
+          "contact:street": "Allée Commandant Charcot",
+          "contact:website": "https://www.la-cabane-a-bulles.fr",
           "name": "La cabane à bulles",
+          "opening_hours": "Mo-We 13:00-18:00; Th-Sa 11:00-19:00",
           "opening_hours:signed": "no",
           "ref:FR:SIRET": "35247508100019",
+          "second_hand": "only",
           "shop": "books"
         }
       },
@@ -2378,7 +2389,7 @@
         "lon": -1.5558808,
         "tags": {
           "brand": "Chez Fred",
-          "check_date": "2026-04-18",
+          "check_date": "2026-07-31",
           "check_date:opening_hours": "2025-12-21",
           "contact:facebook": "chezfred.net",
           "contact:housenumber": "6 Bis",
@@ -2407,8 +2418,10 @@
           "contact:instagram": "panifacture_coulmiers",
           "contact:street": "Rue de Coulmiers",
           "craft": "bakery",
+          "indoor_seating": "no",
           "name": "Panifacture de Coulmiers",
           "opening_hours": "Tu-Sa 07:00-20:00",
+          "outdoor_seating": "no",
           "pastry": "yes",
           "produced_on_site": "yes",
           "ref:FR:NAF": "10.71C",
@@ -2417,7 +2430,19 @@
           "source": "INSEE - 2025-12",
           "start_date": "2025-12-09",
           "survey:date": "2025-12-12",
+          "takeaway": "only",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13900905744,
+        "lat": 47.2201157,
+        "lon": -1.531726,
+        "tags": {
+          "name": "Épicerie Africaine",
+          "opening_hours": "Mo 12:00-20:00; Tu-Sa 10:30-20:00; Su 14:30-19:30",
+          "shop": "convenience"
         }
       },
       {
@@ -2433,10 +2458,9 @@
           "brand:website": "https://www.briochedoree.fr",
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche Dorée",
-          "check_date": "2023-04-23",
+          "check_date": "2026-06-21",
           "contact:city": "Nantes",
           "contact:phone": "+33 2 40 20 60 95",
-          "contact:postcode": "44000",
           "contact:street": "Boulevard du Général de Gaulle",
           "cuisine": "sandwich;pastry",
           "indoor": "room",
@@ -2463,15 +2487,14 @@
           "brand": "Brioche Dorée",
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche dorée",
-          "check_date": "2025-05-16",
+          "check_date": "2026-06-04",
           "indoor": "room",
           "indoor_seating": "no",
           "level": "0",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Fr 06:00-21:00; Sa 06:00-20:00; Su,PH 07:00-21:00",
-          "outdoor_seating": "yes",
+          "opening_hours": "Mo-Sa 05:00-20:00; Su 06:00-20:00",
+          "outdoor_seating": "no",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/4388-nantes-gare",
           "wheelchair": "yes"
         }
       },
@@ -2483,7 +2506,7 @@
           "lon": -1.5558957
         },
         "tags": {
-          "check_date": "2026-03-29",
+          "check_date": "2026-07-31",
           "check_date:opening_hours": "2025-08-01",
           "contact:facebook": "Fermedelaforetvieillevigne44",
           "contact:instagram": "fermedelaforet.fr",
@@ -2500,6 +2523,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-15T05:00:49.829Z",
+  "fetchedAt": "2026-08-16T05:05:34.278Z",
   "staleDataWarning": false
 }

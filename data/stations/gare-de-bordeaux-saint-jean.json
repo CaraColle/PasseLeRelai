@@ -225,7 +225,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786770264440,
+      "timestamp": 1786857013945,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -254,7 +254,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-05-06T03:25:00Z",
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -353,6 +353,7 @@
         "lat": 44.8273053,
         "lon": -0.5585624,
         "tags": {
+          "check_date:opening_hours": "2026-05-11",
           "indoor_seating": "yes",
           "name": "Ki'Ski",
           "opening_hours": "Mo-Th 06:30-20:00; Fr 06:30-20:30; Sa,Su 07:00-20:00",
@@ -502,7 +503,7 @@
         "tags": {
           "addr:housenumber": "5",
           "addr:street": "Rue de la Cour des Aides",
-          "name": "A la recherche du pain perdu",
+          "name": "À la Recherche du Pain Perdu",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "417905080",
           "ref:FR:SIRET": "41790508000012",
@@ -1373,6 +1374,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-15T05:00:49.829Z",
+  "fetchedAt": "2026-08-16T05:05:34.278Z",
   "staleDataWarning": false
 }

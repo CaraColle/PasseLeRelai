@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786770408108,
+      "timestamp": 1786857249778,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-05-06T03:25:00Z",
+      "timestamp_osm_base": "2026-06-01T08:52:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -387,8 +387,8 @@
       {
         "type": "node",
         "id": 315986997,
-        "lat": 45.1912824,
-        "lon": 5.7209525,
+        "lat": 45.1912767,
+        "lon": 5.7209901,
         "tags": {
           "brand": "World Market",
           "brand:wikidata": "Q5174750",
@@ -586,7 +586,7 @@
         "tags": {
           "addr:housenumber": "11",
           "addr:street": "Rue de Stalingrad",
-          "check_date:opening_hours": "2025-02-23",
+          "check_date:opening_hours": "2026-05-07",
           "email": "contact@latalemelerie.com",
           "indoor_seating": "no",
           "name": "La Talemelerie",
@@ -810,7 +810,7 @@
           "addr:postcode": "38000",
           "addr:street": "Rue Nicolas Chorier",
           "alt_name": "Marché Exotique",
-          "check_date": "2024-08-21",
+          "check_date": "2026-05-22",
           "check_date:opening_hours": "2022-11-01",
           "contact:phone": "+33 4 76 96 40 45",
           "name": "Viet-Hung",
@@ -1081,8 +1081,8 @@
       {
         "type": "node",
         "id": 2306328319,
-        "lat": 45.1889127,
-        "lon": 5.7190113,
+        "lat": 45.1889084,
+        "lon": 5.7190408,
         "tags": {
           "check_date": "2026-04-21",
           "name": "Afghan Market",
@@ -1731,29 +1731,6 @@
           "opening_hours": "13:00-04:00",
           "ref:FR:SIRET": "93341728900032",
           "shop": "convenience",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2813136225,
-        "lat": 45.1866812,
-        "lon": 5.724053,
-        "tags": {
-          "addr:city": "Grenoble",
-          "addr:housenumber": "24",
-          "addr:postcode": "38000",
-          "addr:street": "Boulevard Gambetta",
-          "check_date": "2026-01-26",
-          "cuisine": "american",
-          "description": "Épicerie Américaine, Canadienne, Québécoise et Anglo-Saxonne",
-          "name": "Matt Store Is",
-          "opening_hours": "Mo 14:00-19:00, Tu-Su 10:00-13:00;14:00-19:00",
-          "phone": "+33 4 85 02 40 48",
-          "ref:FR:SIRET": "82811087400025",
-          "shop": "convenience",
-          "source": "survey",
-          "website": "https://matt-store-is.business.site/",
           "wheelchair": "no"
         }
       },
@@ -2467,7 +2444,7 @@
           "addr:postcode": "38000",
           "addr:street": "Rue Winston Churchill",
           "amenity": "restaurant",
-          "check_date": "2024-11-24",
+          "check_date": "2026-05-19",
           "name": "Pâtes et pains",
           "opening_hours": "Mo-Fr 07:00-16:00",
           "pastry": "yes",
@@ -2480,8 +2457,8 @@
       {
         "type": "node",
         "id": 9202772717,
-        "lat": 45.1914432,
-        "lon": 5.7198514,
+        "lat": 45.1914404,
+        "lon": 5.7198903,
         "tags": {
           "addr:city": "Grenoble",
           "addr:housenumber": "8",
@@ -2927,6 +2904,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-15T05:00:49.829Z",
+  "fetchedAt": "2026-08-16T05:05:34.278Z",
   "staleDataWarning": false
 }

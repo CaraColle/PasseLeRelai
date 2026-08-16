@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786770050561,
+      "timestamp": 1786856735405,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-15T04:59:49Z",
+      "timestamp_osm_base": "2026-07-24T11:04:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -312,9 +312,7 @@
         "lat": 48.8513353,
         "lon": 2.3265742,
         "tags": {
-          "check_date:opening_hours": "2026-07-31",
           "name:signed": "no",
-          "opening_hours:signed": "no",
           "shop": "kiosk"
         }
       },
@@ -334,10 +332,8 @@
         "lat": 48.8513169,
         "lon": 2.3332154,
         "tags": {
-          "check_date": "2026-07-31",
-          "check_date:opening_hours": "2026-07-31",
+          "check_date": "2024-10-13",
           "name": "Le kiosque de Paris",
-          "opening_hours:signed": "no",
           "shop": "kiosk",
           "wheelchair": "yes"
         }
@@ -515,6 +511,28 @@
           "opening_hours": "Mo-Sa 07:00-20:00; Su off",
           "operator": "M. et Mme Brillault",
           "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 968924214,
+        "lat": 48.8408422,
+        "lon": 2.3172666,
+        "tags": {
+          "amenity": "fuel",
+          "brand": "8 à Huit",
+          "brand:wikidata": "Q2818601",
+          "brand:wikipedia": "fr:BP (entreprise)",
+          "compressed_air": "yes",
+          "fuel:e10": "yes",
+          "fuel:octane_98": "yes",
+          "name": "8 à Huit",
+          "opening_hours": "24/7",
+          "ref:FR:prix-carburants": "75015031",
+          "shop": "convenience",
+          "source": "Ministère de l'Economie, de l'Industrie et du Numérique - 03/2020",
+          "toilets": "yes",
           "wheelchair": "yes"
         }
       },
@@ -951,7 +969,7 @@
         "lon": 2.3068009,
         "tags": {
           "books": "comic",
-          "check_date": "2026-08-10",
+          "check_date": "2025-09-28",
           "check_date:opening_hours": "2025-09-28",
           "contact:city": "Paris 15eme Arrondissement",
           "contact:housenumber": "235",
@@ -960,12 +978,8 @@
           "contact:street": "Rue de Vaugirard",
           "name": "Bulles en tête Vaugirard",
           "opening_hours": "Mo-Sa 10:00-20:00",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
           "ref:FR:SIRET": "89318668400021",
-          "shop": "books",
-          "wheelchair": "limited"
+          "shop": "books"
         }
       },
       {
@@ -1703,11 +1717,10 @@
         "lat": 48.8303164,
         "lon": 2.3194557,
         "tags": {
-          "check_date": "2026-08-02",
-          "check_date:opening_hours": "2026-08-02",
+          "check_date:opening_hours": "2022-10-20",
           "indoor_seating": "yes",
-          "name": "Talmaître",
-          "opening_hours": "Mo-Sa 07:00-20:30; Su 08:00-14:00",
+          "name": "Talmaitre",
+          "opening_hours": "Mo-Fr 07:00-20:30; Sa 07:00-20:00",
           "outdoor_seating": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -1922,7 +1935,6 @@
         "lat": 48.8320177,
         "lon": 2.3277707,
         "tags": {
-          "changing_table": "no",
           "check_date": "2026-01-12",
           "indoor_seating": "yes",
           "name": "Yana",
@@ -2362,7 +2374,7 @@
         "lon": 2.3342054,
         "tags": {
           "name": "Delpire & Co.",
-          "opening_hours": "Tu-Sa 11:00-19:00",
+          "opening_hours": "We-Sa 11:00-19:00",
           "shop": "books",
           "website": "https://delpireandco.com"
         }
@@ -3014,8 +3026,7 @@
           "brand:wikidata": "Q90020480",
           "name": "CocciMarket",
           "opening_hours": "Mo-Sa 07:30-01:00, Su 09:00-23:00",
-          "shop": "convenience",
-          "website": "https://www.coccinelle.fr/magasin/paris-15eme"
+          "shop": "convenience"
         }
       },
       {
@@ -3081,7 +3092,7 @@
           "addr:housenumber": "125",
           "addr:postcode": "75006",
           "addr:street": "Boulevard du Montparnasse",
-          "check_date": "2026-08-02",
+          "check_date": "2025-11-27",
           "level": "0",
           "name": "Librairie Tschann",
           "opening_hours": "Mo-We 10:00-20:00, Th-Sa 10:00-22:00, Su 10:00-19:00",
@@ -3122,7 +3133,6 @@
           "addr:housenumber": "18",
           "addr:postcode": "75006",
           "addr:street": "Rue Le Verrier",
-          "check_date": "2026-08-02",
           "name": "Les Libres Champs",
           "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-14:00,15:00-18:00",
           "shop": "books"
@@ -3194,7 +3204,6 @@
           "books": "textbook",
           "contact:email": "leneuviemepays@gmail.com",
           "name": "Le neuvième pays",
-          "opening_hours": "Tu-Sa 11:30-19:30",
           "operator": "Sophie Semin-Handke",
           "owner": "Sophie Semin-Handke",
           "phone": "+33 975385780",
@@ -3558,13 +3567,12 @@
       {
         "type": "node",
         "id": 10130786576,
-        "lat": 48.8388971,
-        "lon": 2.3220366,
+        "lat": 48.8387799,
+        "lon": 2.3220853,
         "tags": {
           "name": "Le kiosque de Paris",
           "opening_hours": "Mo-Sa 08:00-20:00",
-          "shop": "kiosk",
-          "wheelchair": "yes"
+          "shop": "kiosk"
         }
       },
       {
@@ -4083,7 +4091,6 @@
         "lat": 48.8319332,
         "lon": 2.3280917,
         "tags": {
-          "check_date:opening_hours": "2026-07-31",
           "name": "Flora Lit",
           "opening_hours": "Tu-Sa 10:30-19:30",
           "ref:FR:SIREN": "913787438",
@@ -4230,16 +4237,6 @@
           "phone": "+33 1 42 60 93 76",
           "shop": "books",
           "website": "https://www.librairie-des-femmes.fr/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 14064571599,
-        "lat": 48.8331741,
-        "lon": 2.3249585,
-        "tags": {
-          "name": "Access Multiservices",
-          "shop": "convenience"
         }
       },
       {
@@ -4548,6 +4545,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-15T05:00:49.829Z",
+  "fetchedAt": "2026-08-16T05:05:34.278Z",
   "staleDataWarning": false
 }

@@ -277,7 +277,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786770050343,
+      "timestamp": 1786856735132,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -306,7 +306,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-15T04:59:49Z",
+      "timestamp_osm_base": "2026-07-24T11:04:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -832,7 +832,7 @@
         "lat": 48.8553372,
         "lon": 2.387064,
         "tags": {
-          "check_date": "2026-07-27",
+          "check_date": "2026-03-07",
           "contact:housenumber": "36",
           "contact:street": "Rue Léon Frot",
           "description": "Librairie indépendante",
@@ -889,8 +889,7 @@
           "opening_hours:signed": "no",
           "phone": "+33 7 58 45 01 67",
           "ref:FR:SIRET": "98520563200013",
-          "shop": "convenience",
-          "website": "https://www.coccinelle.fr/magasin/paris-12eme"
+          "shop": "convenience"
         }
       },
       {
@@ -1000,14 +999,12 @@
           "addr:street": "Rue de la Roquette",
           "brand": "CocciMarket",
           "brand:wikidata": "Q90020480",
-          "check_date": "2026-07-30",
+          "check_date": "2026-01-15",
           "name": "CocciMarket",
           "opening_hours": "Tu-Su 08:00-23:00",
           "operator": "Cocci Market",
           "phone": "+33143727403",
-          "shop": "convenience",
-          "website": "https://www.coccinelle.fr/magasin/paris-11eme-0",
-          "wheelchair": "yes"
+          "shop": "convenience"
         }
       },
       {
@@ -1782,8 +1779,7 @@
           "name": "CocciMarket",
           "opening_hours": "Mo-Su 08:00-01:00",
           "shop": "convenience",
-          "source": "survey",
-          "website": "https://www.coccinelle.fr/magasin/paris-11eme"
+          "source": "survey"
         }
       },
       {
@@ -1874,11 +1870,9 @@
         "tags": {
           "brand": "Avia",
           "brand:wikidata": "Q300147",
-          "email": "laurence.achard75@gmail.com",
           "name": "Avia",
           "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-21:00",
           "operator": "Avia",
-          "phone": "+33 1 43 45 81 27",
           "shop": "convenience"
         }
       },
@@ -1971,11 +1965,11 @@
           "diet:vegan": "only",
           "indoor_seating": "yes",
           "name": "Land&Monkeys Roquette",
-          "opening_hours": "Mo-Fr 07:00-20:00; Sa, Su 07:00-19:30; Mo-Fr 07:30-19:30; Sa, Su 08:00-19:00",
+          "opening_hours": "Mo-Fr 07:00-20:00; Sa, Su 07:00-19:30",
           "outdoor_seating": "yes",
           "phone": "+33 9 52 06 98 19",
           "shop": "bakery",
-          "website": "https://www.land-and-monkeys.com/boulangerie/landmonkeys-roquette/",
+          "website": "https://www.land-and-monkeys.com",
           "wheelchair": "no"
         }
       },
@@ -2233,8 +2227,7 @@
           "indoor_seating": "yes",
           "name": "Murciano",
           "outdoor_seating": "no",
-          "shop": "bakery",
-          "wikidata": "Q111450567"
+          "shop": "bakery"
         }
       },
       {
@@ -2248,16 +2241,6 @@
           "ref:FR:SIRET": "56206144000185",
           "shop": "books",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3980461756,
-        "lat": 48.8553823,
-        "lon": 2.3609579,
-        "tags": {
-          "name": "Waterdrop",
-          "shop": "convenience"
         }
       },
       {
@@ -2611,8 +2594,8 @@
       {
         "type": "node",
         "id": 5325750896,
-        "lat": 48.8536792,
-        "lon": 2.3804384,
+        "lat": 48.8536713,
+        "lon": 2.3804307,
         "tags": {
           "addr:city": "Paris",
           "addr:postcode": "75011",
@@ -2757,13 +2740,8 @@
         "lat": 48.8504046,
         "lon": 2.3797312,
         "tags": {
-          "check_date": "2026-08-05",
-          "check_date:opening_hours": "2026-08-05",
           "name": "Sabah",
-          "opening_hours": "Mo 10:30-20:00; Tu-Su 09:00-20:00",
-          "ref:FR:SIRET": "34866698400039",
-          "shop": "convenience",
-          "website": "https://www.epicerie-sabah.fr"
+          "shop": "convenience"
         }
       },
       {
@@ -2885,7 +2863,6 @@
           "ref:FR:SIRET": "81315798900019",
           "shop": "bakery",
           "wheelchair": "no",
-          "wikidata": "Q2921692",
           "wikipedia": "fr:Boulangerie-pâtisserie Beaumarchais"
         }
       },
@@ -3257,6 +3234,19 @@
       },
       {
         "type": "node",
+        "id": 9219285734,
+        "lat": 48.8402227,
+        "lon": 2.3802112,
+        "tags": {
+          "check_date": "2025-11-16",
+          "check_date:opening_hours": "2025-11-16",
+          "name:signed": "no",
+          "opening_hours:signed": "no",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
         "id": 9288025806,
         "lat": 48.8456685,
         "lon": 2.3883237,
@@ -3349,6 +3339,26 @@
         "tags": {
           "name": "S'Mart",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9550219128,
+        "lat": 48.8553041,
+        "lon": 2.3792241,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "32",
+          "addr:postcode": "75011",
+          "addr:street": "Rue Basfroi",
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "check_date": "2024-03-10",
+          "name": "Vival",
+          "opening_hours": "Mo-Sa 08:30-20:30; Su 08:30-19:00",
+          "phone": "+33 6 52 61 23 46",
+          "shop": "convenience",
+          "website": "https://magasins.vival.fr/fr/vival-rgs-so-gernord-sasu"
         }
       },
       {
@@ -4277,8 +4287,8 @@
       {
         "type": "node",
         "id": 13929738193,
-        "lat": 48.8554592,
-        "lon": 2.3790967,
+        "lat": 48.8554689,
+        "lon": 2.3790833,
         "tags": {
           "level": "0",
           "name": "Marché Basfroi",
@@ -4334,6 +4344,21 @@
           "opening_hours": "Mo-Su 08:00-19:00",
           "shop": "kiosk",
           "source": "survey 2019-10-17"
+        }
+      },
+      {
+        "type": "way",
+        "id": 56206056,
+        "center": {
+          "lat": 48.8535613,
+          "lon": 2.3659254
+        },
+        "tags": {
+          "building": "yes",
+          "noname": "yes",
+          "shop": "kiosk",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+          "wheelchair": "yes"
         }
       },
       {
@@ -4857,6 +4882,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-15T05:00:49.829Z",
+  "fetchedAt": "2026-08-16T05:05:34.278Z",
   "staleDataWarning": false
 }

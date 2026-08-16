@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786770561033,
+      "timestamp": 1786857383623,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-05-06T03:25:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -271,7 +271,7 @@
         "lon": 2.8963519,
         "tags": {
           "name": "Fraîche Fontaine",
-          "opening_hours": "Tu,Sa 11:00-13:00,15:30-19:30; We-Fr 15:30-19:30",
+          "opening_hours": "Tu-Sa 15:30-19:30, Tu 11:00-13:00, Sa 11:00-13:00",
           "shop": "bakery"
         }
       },
@@ -298,7 +298,6 @@
         "lat": 42.6992396,
         "lon": 2.8902376,
         "tags": {
-          "addr:street": "Rue Docteur Pous",
           "contact:city": "Perpignan",
           "contact:facebook": "https://www.facebook.com/librairiecajelice/",
           "contact:housenumber": "10",
@@ -318,11 +317,8 @@
           "payment:visa": "yes",
           "payment:visa_debit": "yes",
           "phone": "+33 4 68 51 74 58",
-          "ref:FR:NAF": "47.61Z",
-          "ref:FR:SIREN": "798821500",
           "ref:FR:SIRET": "79882150000021",
           "shop": "books",
-          "source": "INSEE - 2026-05",
           "website": "http://www.cajelice.fr/",
           "wheelchair": "yes"
         }
@@ -348,8 +344,6 @@
         "lat": 42.6883862,
         "lon": 2.8945517,
         "tags": {
-          "addr:housenumber": "17",
-          "addr:street": "Rue Valentin Magnan",
           "brand": "Le Pain du Jour",
           "brand:wikidata": "Q114432625",
           "contact:facebook": "https://www.facebook.com/LePainduJour.Officiel/",
@@ -358,11 +352,8 @@
           "name": "Le Pain du Jour",
           "opening_hours": "06:00-20:00",
           "phone": "+33 4 68 89 23 81",
-          "ref:FR:NAF": "10.71B",
-          "ref:FR:SIREN": "811645258",
           "ref:FR:SIRET": "81164525800021",
           "shop": "bakery",
-          "source": "INSEE - 2026-05",
           "website": "https://www.le-pain-du-jour.com/",
           "wheelchair": "yes"
         }
@@ -399,14 +390,9 @@
         "lat": 42.697261,
         "lon": 2.8953126,
         "tags": {
-          "addr:housenumber": "15",
-          "addr:street": "Rue Grande-la-Réal",
           "name": "Épicerie la Réal",
-          "ref:FR:NAF": "47.11B",
-          "ref:FR:SIREN": "434464996",
           "ref:FR:SIRET": "43446499600090",
-          "shop": "convenience",
-          "source": "INSEE - 2026-05"
+          "shop": "convenience"
         }
       },
       {
@@ -424,11 +410,7 @@
           "name": "Panirosa",
           "old_name": "Boulangerie Saint-Jean",
           "opening_hours": "We-Fr 10:00-19:00; Sa 09:00-19:00; Tu 15:00-19:00",
-          "ref:FR:NAF": "10.71C",
-          "ref:FR:SIREN": "977848217",
-          "ref:FR:SIRET": "97784821700013",
           "shop": "bakery",
-          "source": "INSEE - 2026-05",
           "wheelchair": "yes"
         }
       },
@@ -531,11 +513,8 @@
           "email": "tinezmat@hotmail.com",
           "name": "Hybrid",
           "opening_hours": "Mo-Sa 10:00-19:00",
-          "ref:FR:NAF": "47.61Z",
-          "ref:FR:SIREN": "753775139",
           "ref:FR:SIRET": "75377513900029",
-          "shop": "books",
-          "source": "INSEE - 2026-05"
+          "shop": "books"
         }
       },
       {
@@ -563,14 +542,10 @@
         "lat": 42.704457,
         "lon": 2.8924555,
         "tags": {
-          "addr:housenumber": "1",
-          "addr:street": "Avenue Maréchal Joffre",
-          "name": "Le Moulin du Pain",
-          "ref:FR:NAF": "10.71B",
-          "ref:FR:SIREN": "452460843",
+          "name": "Le Moulin du pain",
           "ref:FR:SIRET": "45246084300033",
           "shop": "bakery",
-          "source": "INSEE - 2026-05"
+          "source": "survey 2019"
         }
       },
       {
@@ -595,15 +570,9 @@
         "lat": 42.693494,
         "lon": 2.8852214,
         "tags": {
-          "addr:housenumber": "13",
-          "addr:street": "Avenue Président Doumer",
           "check_date": "2024-06-30",
           "name": "Au Pain Catalan",
-          "ref:FR:NAF": "10.71C",
-          "ref:FR:SIREN": "910020239",
-          "ref:FR:SIRET": "91002023900018",
-          "shop": "bakery",
-          "source": "INSEE - 2026-05"
+          "shop": "bakery"
         }
       },
       {
@@ -612,15 +581,10 @@
         "lat": 42.7014045,
         "lon": 2.8913196,
         "tags": {
-          "addr:housenumber": "15",
-          "addr:street": "Rue Pierre Rameil",
           "name": "Neo",
           "organic": "yes",
-          "ref:FR:NAF": "10.71C",
-          "ref:FR:SIREN": "905021754",
           "ref:FR:SIRET": "90502175400015",
-          "shop": "bakery",
-          "source": "INSEE - 2026-05"
+          "shop": "bakery"
         }
       },
       {
@@ -649,15 +613,10 @@
         "lat": 42.6924378,
         "lon": 2.8923239,
         "tags": {
-          "addr:housenumber": "35",
-          "addr:street": "Boulevard Félix Mercader",
           "description": "Epicerie fine, spécialités russes et arméniennes",
           "name": "Alenka",
-          "ref:FR:NAF": "47.29Z",
-          "ref:FR:SIREN": "817820632",
           "ref:FR:SIRET": "81782063200013",
           "shop": "convenience",
-          "source": "INSEE - 2026-05",
           "survey:date": "2023-05-01"
         }
       },
@@ -763,8 +722,6 @@
         "lat": 42.6839793,
         "lon": 2.8816366,
         "tags": {
-          "addr:housenumber": "124",
-          "addr:street": "Avenue Victor Dalbiez",
           "brand": "Le Pain du Jour",
           "brand:wikidata": "Q114432625",
           "check_date:opening_hours": "2024-07-21",
@@ -773,11 +730,7 @@
           "name": "Le Pain du Jour",
           "opening_hours": "06:00-20:00",
           "phone": "+33 4 68 64 90 99",
-          "ref:FR:NAF": "10.71B",
-          "ref:FR:SIREN": "907658884",
-          "ref:FR:SIRET": "90765888400024",
           "shop": "bakery",
-          "source": "INSEE - 2026-05",
           "website": "https://www.le-pain-du-jour.com/"
         }
       },
@@ -809,11 +762,9 @@
           "addr:street": "Boulevard Henri Poincaré",
           "name": "Homer Market",
           "opening_hours": "24/7",
-          "ref:FR:NAF": "47.11B",
-          "ref:FR:SIREN": "904848488",
           "ref:FR:SIRET": "90484848800014",
           "shop": "convenience",
-          "source": "INSEE - 2026-05"
+          "source": "survey 2023"
         }
       },
       {
@@ -822,14 +773,10 @@
         "lat": 42.6911507,
         "lon": 2.8969316,
         "tags": {
-          "addr:housenumber": "52",
-          "addr:street": "Boulevard Henri Poincaré",
           "name": "Comptoir",
-          "ref:FR:NAF": "47.11B",
-          "ref:FR:SIREN": "979045168",
           "ref:FR:SIRET": "97904516800015",
           "shop": "convenience",
-          "source": "INSEE - 2026-05"
+          "source": "survey 2023"
         }
       },
       {
@@ -838,15 +785,9 @@
         "lat": 42.6963308,
         "lon": 2.8774497,
         "tags": {
-          "addr:housenumber": "2 bis",
-          "addr:street": "Rue Pascal-Marie Agasse",
           "name": "Le fournil des gourmands",
           "opening_hours": "Mo-Sa 06:30-19:00; Su 07:30-12:30",
-          "ref:FR:NAF": "10.71C",
-          "ref:FR:SIREN": "852907120",
-          "ref:FR:SIRET": "85290712000012",
-          "shop": "bakery",
-          "source": "INSEE - 2026-05"
+          "shop": "bakery"
         }
       },
       {
@@ -927,19 +868,13 @@
         "lat": 42.6980872,
         "lon": 2.8953085,
         "tags": {
-          "addr:housenumber": "9",
-          "addr:street": "Place de la République",
           "email": "leplacerep@orange.fr",
           "gambling": "lottery",
           "name": "La place r'ep",
           "opening_hours": "Mo-Sa 07:00-19:00; Su 08:00-12:30",
           "phone": "+33468343648",
-          "ref:FR:NAF": "47.26Z",
-          "ref:FR:SIREN": "911312023",
-          "ref:FR:SIRET": "91131202300011",
           "sells:tobacco": "yes",
-          "shop": "kiosk",
-          "source": "INSEE - 2026-05"
+          "shop": "kiosk"
         }
       },
       {
@@ -949,11 +884,8 @@
         "lon": 2.8899326,
         "tags": {
           "name": "Meunier Catalan",
-          "ref:FR:NAF": "47.24Z",
-          "ref:FR:SIREN": "534051099",
-          "ref:FR:SIRET": "53405109900016",
           "shop": "bakery",
-          "source": "INSEE - 2026-05"
+          "source": "survey 2024"
         }
       },
       {
@@ -1004,8 +936,6 @@
         "lat": 42.6990096,
         "lon": 2.8972373,
         "tags": {
-          "addr:housenumber": "7 bis",
-          "addr:street": "Rue de la Main-de-Fer",
           "amenity": "cafe",
           "check_date": "2025-11-01",
           "contact:facebook": "https://www.facebook.com/lapausepolar/",
@@ -1014,11 +944,7 @@
           "name": "La pause polar",
           "opening_hours": "Mo-Sa 10:00-18:30",
           "phone": "+33 6 14 90 92 92",
-          "ref:FR:NAF": "47.61Z",
-          "ref:FR:SIREN": "950994574",
-          "ref:FR:SIRET": "95099457400016",
           "shop": "books",
-          "source": "INSEE - 2026-05",
           "website": "https://lapausepolar.fr/",
           "website:menu": "https://lapausepolar.fr/carte/"
         }
@@ -1031,8 +957,6 @@
           "lon": 2.8894609
         },
         "tags": {
-          "addr:housenumber": "7",
-          "addr:street": "Place Jean Payra",
           "building": "yes",
           "contact:facebook": "https://www.facebook.com/llibreriacatalana",
           "email": "lallibreriaperpinya@gmail.com",
@@ -1040,11 +964,9 @@
           "name:ca": "Llibreria Catalana",
           "opening_hours": "Tu-Sa 09:30-12:30,14:00-19:00",
           "phone": "+33 4 68 34 33 74",
-          "ref:FR:NAF": "47.61Z",
-          "ref:FR:SIREN": "537713521",
           "ref:FR:SIRET": "53771352100020",
           "shop": "books",
-          "source": "INSEE - 2026-05",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
           "website": "http://www.llibreriacatalana.com/",
           "wikidata": "Q60561741",
           "wikipedia": "ca:Llibreria Catalana"
@@ -1068,6 +990,7 @@
           "contact:phone": "+33 4 68 56 62 97",
           "contact:postcode": "66000",
           "contact:street": "Avenue de Prades",
+          "contact:website": "https://www.biocoopperpignan.com/",
           "name": "Biocoop",
           "opening_hours": "Mo-Sa 09:00-19:30",
           "operator": "Biocoop",
@@ -1110,6 +1033,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-15T05:00:49.829Z",
+  "fetchedAt": "2026-08-16T05:05:34.278Z",
   "staleDataWarning": false
 }
