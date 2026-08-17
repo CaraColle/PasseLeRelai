@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786857115813,
+      "timestamp": 1786946358796,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-06-22T09:32:45Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -412,6 +412,23 @@
           "source:addr:version": "2016-04-01",
           "toilets": "no",
           "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1233462762,
+        "lat": 48.1143761,
+        "lon": -1.6585766,
+        "tags": {
+          "contact:city": "Rennes",
+          "contact:housenumber": "117",
+          "contact:instagram": "https://www.instagram.com/levaincoeur.boulangerie/",
+          "contact:postcode": "35000",
+          "contact:street": "Rue de Paris",
+          "name": "Levain Cœur",
+          "ref:FR:NAF": "70.10Z",
+          "ref:FR:SIRET": "10310877500018",
+          "shop": "bakery"
         }
       },
       {
@@ -590,7 +607,7 @@
           "books": "comic",
           "contact:facebook": "https://www.facebook.com/menfin.librairie/",
           "name": "M'enfin ?!",
-          "opening_hours": "Mo 15:00-19:30; Tu-Sa 10:00-19:30",
+          "opening_hours": "Mo 15:00-19:00; Tu-Sa 10:00-19:00",
           "payment:cash": "yes",
           "phone": "+33 2 99 38 07 83",
           "ref:FR:SIRET": "50273126800012",
@@ -1072,16 +1089,20 @@
           "addr:housenumber": "30",
           "addr:postcode": "35000",
           "addr:street": "Rue Saint-Hélier",
-          "bulk_purchase": "yes",
-          "contact:email": "daybyday.rennes@gmail.com",
-          "contact:facebook": "day by day",
+          "brand": "day by day",
+          "brand:wikidata": "Q48748765",
+          "bulk_purchase": "only",
+          "contact:email": "mae.daybyday.rennes@gmail.com",
+          "contact:facebook": "100093686373942",
+          "contact:instagram": "mae_daybyday_rennes35",
           "low_waste": "yes",
-          "name": "Day by day",
+          "name": "day by day",
           "opening_hours": "Tu-Fr 10:00-14:00,15:30-19:00; Sa 10:00-14:00,15:00-19:00",
           "organic": "yes",
           "payment:cash": "yes",
-          "phone": "+33 9 67 55 09 15",
-          "ref:FR:SIRET": "95236860300017",
+          "phone": "+33 2 99 05 27 33",
+          "ref:FR:NAF": "47.29Z",
+          "ref:FR:SIRET": "10288001000016",
           "shop": "convenience",
           "website": "https://daybyday-shop.com/magasin/rennes"
         }
@@ -1473,10 +1494,16 @@
           "brand:wikipedia": "fr:Naturalia",
           "bulk_purchase": "yes",
           "check_date:opening_hours": "2025-08-02",
+          "contact:city": "Rennes",
+          "contact:housenumber": "27",
+          "contact:postcode": "35000",
+          "contact:street": "Rue Saint-Hélier",
           "name": "Naturalia",
           "opening_hours": "Mo-Sa 08:00-20:00",
           "organic": "only",
           "phone": "+33 2 23 45 22 25",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "82795572500011",
           "shop": "convenience",
           "website": "https://magasins.naturalia.fr/naturalia/fr/store/france/bretagne/ille-et-vilaine/rennes/rennes/4905",
           "wheelchair": "yes"
@@ -1896,7 +1923,7 @@
           "phone": "+33 2 99 50 12 14",
           "ref:FR:SIRET": "90950319500028",
           "shop": "convenience",
-          "website": "https://www.nousantigaspi.com/"
+          "website": "https://www.nousantigaspi.com/magasins/rennes-liberte/"
         }
       },
       {
@@ -2132,6 +2159,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-16T05:05:34.278Z",
+  "fetchedAt": "2026-08-17T05:54:23.214Z",
   "staleDataWarning": false
 }

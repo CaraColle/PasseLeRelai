@@ -177,7 +177,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786857253011,
+      "timestamp": 1786946560317,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -206,7 +206,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-05-06T03:25:00Z",
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -217,6 +217,7 @@
         "lon": 5.0353708,
         "tags": {
           "name": "Erbil Market",
+          "ref:FR:SIRET": "98359781600013",
           "shop": "convenience"
         }
       },
@@ -289,6 +290,7 @@
         "tags": {
           "name": "Maison Roger",
           "network": "Banette",
+          "ref:FR:SIRET": "50959411500032",
           "shop": "bakery"
         }
       },
@@ -420,12 +422,12 @@
         "lat": 47.3087248,
         "lon": 5.036987,
         "tags": {
-          "addr:city": "Dijon",
-          "addr:postcode": "21000",
-          "addr:street": "Boulevard John Kennedy",
+          "contact:housenumber": "1",
+          "contact:street": "Boulevard John Kennedy",
           "name": "Maison Paroty",
-          "ref:FR:SIRET": "40122966100020",
+          "ref:FR:SIRET": "94312503900017",
           "shop": "bakery",
+          "was:ref:FR:SIRET": "40122966100020",
           "website": "https://paroty.fr/"
         }
       },
@@ -445,6 +447,7 @@
           "payment:coins": "yes",
           "payment:credit_cards": "yes",
           "phone": "+33 3 80 56 13 04",
+          "ref:FR:SIRET": "49253908500018",
           "shop": "bakery"
         }
       },
@@ -457,6 +460,7 @@
           "check_date": "2024-08-20",
           "name": "Cocorico Darcy",
           "opening_hours": "Mo-Su 9:00-0:00",
+          "ref:FR:SIRET": "43509589800019",
           "shop": "convenience"
         }
       },
@@ -506,6 +510,7 @@
           "addr:housenumber": "62",
           "addr:street": "Rue Berbisey",
           "name": "Le Barde Bourguignon",
+          "ref:FR:SIRET": "40447551900017",
           "second_hand": "only",
           "shop": "books",
           "wheelchair": "no"
@@ -565,6 +570,7 @@
         "tags": {
           "name": "Epi'Sourire",
           "opening_hours": "Mo-We 14:00-16:00; Th 11:00-13:00,15:00-17:00; Fr 11:00-13:00",
+          "ref:FR:SIRET": "49151283600025",
           "shop": "convenience",
           "website": "https://www.episourire.fr/"
         }
@@ -634,6 +640,7 @@
         "tags": {
           "name": "Maison Roger",
           "opening_hours": "Mo-Fr 06:00-19:30; Sa,Su 07:00-13:00",
+          "ref:FR:SIRET": "50959411500040",
           "shop": "bakery"
         }
       },
@@ -668,8 +675,9 @@
           "books": "comic",
           "name": "Planète BD",
           "opening_hours": "Mo 14:00-19:00; Tu-Fr 10:00-12:00,14:00-19:00; Sa 10:00-19:00",
+          "ref:FR:SIRET": "40287887000011",
           "shop": "books",
-          "source": "Observation personnelle"
+          "source": "survey"
         }
       },
       {
@@ -790,6 +798,8 @@
         "lon": 5.0352629,
         "tags": {
           "name": "Night Market",
+          "operator": "Mario Osmani",
+          "ref:FR:SIRET": "85098211700010",
           "shop": "convenience"
         }
       },
@@ -832,7 +842,7 @@
         "tags": {
           "addr:city": "Dijon",
           "addr:postcode": "21000",
-          "addr:street": "Cour de la Gare",
+          "addr:street": "Cour de la Gare Pierre Semard",
           "name": "Les Champs du Destin",
           "opening_hours": "Th 15:00-18:00",
           "outdoor": "yes",
@@ -859,10 +869,11 @@
       {
         "type": "node",
         "id": 12956676038,
-        "lat": 47.3194659,
-        "lon": 5.0285853,
+        "lat": 47.3194627,
+        "lon": 5.0285645,
         "tags": {
           "name": "Rolaks Super Marché",
+          "ref:FR:SIRET": "98311932200011",
           "shop": "convenience",
           "stroller": "no",
           "wheelchair": "no"
@@ -925,6 +936,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-16T05:05:34.278Z",
+  "fetchedAt": "2026-08-17T05:54:23.214Z",
   "staleDataWarning": false
 }

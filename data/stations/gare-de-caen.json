@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786857535631,
+      "timestamp": 1786946944562,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-16T05:19:01Z",
+      "timestamp_osm_base": "2026-06-01T08:52:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -479,8 +479,7 @@
           "ref:FR:SIRET": "90241259200013",
           "shop": "bakery",
           "takeaway": "yes",
-          "toilets:wheelchair": "no",
-          "wheelchair": "no"
+          "wheelchair": "limited"
         }
       },
       {
@@ -524,9 +523,9 @@
           "contact:instagram": "l_choux_patisserie",
           "contact:street": "Rue Léon Lecornu",
           "name": "L&Choux",
+          "note": "SIRET à ajouter quand disponible sur l'Annuaire des Entreprises",
           "old_name": "C&Choux",
           "phone": "+33 2 31 23 54 66",
-          "ref:FR:SIRET": "10043852200029",
           "shop": "bakery",
           "wheelchair": "limited"
         }
@@ -581,7 +580,6 @@
           "contact:street": "Rue Basse",
           "name": "Coccinelle Express",
           "note": "Erreur de SIRET > Adresse erronée sur l'annuaire des entreprises",
-          "phone": "+33 6 59 27 12 90",
           "ref:FR:SIRET": "85289587900017",
           "shop": "convenience",
           "website": "https://www.coccinelle.fr/trouver_un_magasin/details/coccinelle-express/caen/1-rue-basse"
@@ -619,7 +617,7 @@
           "opening_hours": "Mo-Sa 07:00-19:00",
           "outdoor_seating": "no",
           "phone": "+33 2 31 82 20 66",
-          "ref:FR:SIRET": "10212838600012",
+          "ref:FR:SIRET": "84843974100010",
           "shop": "bakery",
           "takeaway": "only",
           "wheelchair": "no"
@@ -766,7 +764,7 @@
         "tags": {
           "brand": "CocciMarket",
           "brand:wikidata": "Q90020480",
-          "check_date": "2026-07-19",
+          "check_date": "2024-04-01",
           "contact:housenumber": "63",
           "contact:street": "Rue Saint-Jean",
           "name": "CocciMarket",
@@ -817,13 +815,11 @@
         "lat": 49.1912094,
         "lon": -0.3598411,
         "tags": {
-          "check_date": "2026-08-08",
-          "check_date:opening_hours": "2026-08-08",
+          "check_date": "2024-05-06",
           "contact:housenumber": "49",
           "contact:street": "Rue de la Délivrande",
           "indoor_seating": "no",
           "name": "Aux Délices d'Edimbourg",
-          "opening_hours": "Mo-Fr 06:30-19:30",
           "outdoor_seating": "yes",
           "phone": "+33 2 31 44 49 15",
           "ref:FR:SIRET": "81847671500029",
@@ -915,16 +911,12 @@
         "lat": 49.1824024,
         "lon": -0.3620795,
         "tags": {
-          "check_date": "2026-08-14",
-          "check_date:diet:gluten_free": "2026-08-14",
+          "check_date": "2026-05-09",
           "contact:housenumber": "104",
           "contact:street": "Boulevard Maréchal Leclerc",
-          "diet:gluten_free": "yes",
           "email": "contact@lamaisonflorent.fr",
           "name": "La Maison Florent",
           "opening_hours": "Mo-Sa 07:00-19:30",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
           "phone": "+33 2 31 50 06 06",
           "ref:FR:SIRET": "80238538500025",
           "shop": "bakery",
@@ -959,10 +951,8 @@
           "contact:street": "Rue Saint-Michel",
           "name": "CocciMarket",
           "opening_hours": "PH,Mo-Su 08:00-21:30",
-          "phone": "+33 2 31 84 98 53",
           "ref:FR:SIRET": "82822518500010",
           "shop": "convenience",
-          "website": "https://www.coccinelle.fr/magasin/caen-7",
           "wheelchair": "yes"
         }
       },
@@ -977,7 +967,7 @@
           "contact:instagram": "pain_vivant",
           "contact:street": "Avenue de Rouen",
           "name": "Pain vivant",
-          "opening_hours": "Tu-Th 08:30-14:00,16:00-19:00; Sa 07:30-15:00; Fr 07:30-14:00,16:00-19:00",
+          "opening_hours": "Tu-Th 08:30-14:00, 16:00-19:00; Sa 07:30-15:00; Fr 07:30-14:00, 16:00-19:00",
           "organic": "only",
           "phone": "+33 6 40 37 43 47",
           "ref:FR:SIRET": "88146504100021",
@@ -1027,7 +1017,6 @@
           "contact:street": "Rue de Bernières",
           "name": "La Signare",
           "old_name": "Citibike L'Atelier",
-          "opening_hours": "Tu,We 09:00-13:30,14:30-21:30; Th,Fr 09:00-13:30,14:30-22:00; Sa 09:00-22:00; Su 08:00-21:00",
           "ref:FR:SIRET": "90216976200025",
           "shop": "convenience"
         }
@@ -1071,7 +1060,6 @@
           "phone": "+33 2 31 52 09 20",
           "ref:FR:SIRET": "52364875600022",
           "shop": "convenience",
-          "website": "https://www.coccinelle.fr/magasin/caen-6",
           "wheelchair": "limited"
         }
       },
@@ -1197,7 +1185,7 @@
           "contact:street": "Avenue Georges Clemenceau",
           "email": "labibivou@gmail.com",
           "name": "La Bibavou",
-          "opening_hours": "06:30-21:00",
+          "opening_hours": "6:30-21:00",
           "operator": "Allaoui Bacar",
           "outdoor_seating": "yes",
           "payment:cash": "yes",
@@ -1296,6 +1284,27 @@
       },
       {
         "type": "node",
+        "id": 12642229200,
+        "lat": 49.1830611,
+        "lon": -0.3573889,
+        "tags": {
+          "contact:email": "librairiegrevis@gmail.com",
+          "contact:facebook": "https://www.facebook.com/people/Editions-Grevis/100063970088755/",
+          "contact:housenumber": "1",
+          "contact:instagram": "https://www.instagram.com/editionsgrevis/",
+          "contact:mastodon": "https://mastodon.top/@editionsgrevis",
+          "contact:street": "Rue de la Miséricorde",
+          "contact:twitter": "https://x.com/Grevisedition",
+          "name": "Grevis",
+          "note": "Cas particulier : il s'agit du bureau de la maison d'édition du même nom mais qui organise de nombreux événement et ouvre une librairie (avec les livres édités) le dimanche. J'ai mis \"shop=books\" mais ce n'est peut être pas adapté. SIRET situé au siège so",
+          "opening_hours": "Su 10:00-14:00",
+          "ref:FR:SIRET": "83437382100026",
+          "shop": "books",
+          "website": "https://editionsgrevis.com/"
+        }
+      },
+      {
+        "type": "node",
         "id": 12736991388,
         "lat": 49.1750092,
         "lon": -0.3492425,
@@ -1389,18 +1398,18 @@
           "lon": -0.350888
         },
         "tags": {
+          "building": "yes",
           "contact:city": "Caen",
           "contact:facebook": "https://www.facebook.com/people/Saperlotte/61568159767490/",
           "contact:instagram": "saperlotte.librairiesolidaire",
           "contact:postcode": "14000",
           "contact:street": "Les Rives de l'Orne",
+          "disused:shop": "clothes",
           "email": "saperlotte.librairie@gmail.com",
-          "indoor": "room",
           "level": "0",
           "name": "Saperlotte",
           "old_name": "Timberland",
           "opening_hours": "Mo-Sa 10:00-20:00",
-          "room": "shop",
           "second_hand": "only",
           "shop": "books",
           "website": "https://www.saperlotte.org/"
@@ -1408,6 +1417,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-16T05:05:34.278Z",
+  "fetchedAt": "2026-08-17T05:54:23.214Z",
   "staleDataWarning": false
 }

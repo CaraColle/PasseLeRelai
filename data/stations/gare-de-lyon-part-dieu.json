@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786856864217,
+      "timestamp": 1786946195221,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-12T11:29:58Z",
+      "timestamp_osm_base": "2026-08-17T05:56:18Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -336,8 +336,9 @@
           "brand": "Avia",
           "brand:wikidata": "Q300147",
           "brand:wikipedia": "de:Avia International",
-          "check_date": "2024-06-28",
+          "check_date": "2026-07-17",
           "compressed_air": "yes",
+          "email": "avialbert@yahoo.com",
           "fuel:diesel": "yes",
           "fuel:e10": "yes",
           "fuel:octane_95": "yes",
@@ -345,6 +346,7 @@
           "name": "Avia",
           "opening_hours": "24/7",
           "operator": "Avia",
+          "phone": "+33 4 78 54 28 84",
           "ref:FR:SIRET": "35286063902674",
           "ref:FR:prix-carburants": "69003012",
           "shop": "convenience",
@@ -679,7 +681,7 @@
         "tags": {
           "indoor_seating": "yes",
           "name": "Bake house",
-          "opening_hours": "Mo-Fr 06:00-19:45; Su 06:00-13:30",
+          "opening_hours": "Su-Fr 06:00-19:45",
           "outdoor_seating": "yes",
           "ref:FR:SIRET": "33764501400024",
           "shop": "bakery"
@@ -744,7 +746,7 @@
         "lon": 4.8566959,
         "tags": {
           "branch": "Jolie",
-          "check_date:opening_hours": "2025-07-05",
+          "check_date:opening_hours": "2026-07-08",
           "email": "brotteaux@boulangeriechezjules.fr",
           "indoor_seating": "yes",
           "name": "Chez Jules",
@@ -894,7 +896,7 @@
           "addr:housenumber": "104",
           "addr:street": "Cours Émile Zola",
           "air_conditioning": "yes",
-          "check_date:opening_hours": "2025-06-09",
+          "check_date:opening_hours": "2026-07-26",
           "contact:instagram": "lettresacroquer",
           "email": "lettresacroquer@orange.fr",
           "level": "0",
@@ -937,9 +939,9 @@
         "tags": {
           "brand": "Spar",
           "brand:wikidata": "Q610492",
-          "check_date:opening_hours": "2025-07-07",
+          "check_date:opening_hours": "2026-07-24",
           "name": "Spar",
-          "opening_hours": "Mo-Su 07:00-24:00",
+          "opening_hours": "Mo-Sa 08:00-23:45; Su 09:00-12:30",
           "operator": "Spar",
           "ref:FR:SIRET": "49128309900035",
           "shop": "convenience",
@@ -1000,7 +1002,7 @@
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "fr:Système U",
-          "check_date:opening_hours": "2025-06-17",
+          "check_date:opening_hours": "2026-07-08",
           "name": "Utile",
           "opening_hours": "Mo-Sa 07:00-21:00; Su 08:30-13:00",
           "ref:FR:SIRET": "57375061901508",
@@ -1138,7 +1140,7 @@
           "bulk_purchase": "yes",
           "contact:facebook": "https://www.facebook.com/Lavieclaire",
           "name": "La Vie Claire",
-          "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-12:30",
+          "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-12:00",
           "organic": "only",
           "phone": "+33 4 72 74 26 30",
           "ref:FR:SIRET": "63200001401454",
@@ -1231,8 +1233,10 @@
         "lat": 45.7710409,
         "lon": 4.8615432,
         "tags": {
+          "check_date": "2026-08-14",
+          "check_date:opening_hours": "2026-08-14",
           "name": "Express City",
-          "opening_hours": "Mo-Fr 09:00-24:00, Sa 10:00-24:00, Su 10:00-22:00",
+          "opening_hours": "Mo-Su 12:00-00:00",
           "ref:FR:SIRET": "52477990700012",
           "shop": "convenience",
           "wheelchair": "yes"
@@ -1811,7 +1815,7 @@
         "lat": 45.762591,
         "lon": 4.8449661,
         "tags": {
-          "check_date:opening_hours": "2025-06-16",
+          "check_date:opening_hours": "2026-07-18",
           "name": "Daniel Boinon",
           "opening_hours": "Mo-Fr 06:30-20:00; Sa 06:30-19:00",
           "ref:FR:SIRET": "38776551400022",
@@ -1827,10 +1831,19 @@
           "brand": "U Express",
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "fr:Coopérative_U",
+          "check_date": "2026-07-06",
           "name": "U Express",
           "old_name": "Naturalia",
-          "shop": "convenience",
-          "survey:date": "2022-06-23"
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4723082347,
+        "lat": 45.7647214,
+        "lon": 4.8638038,
+        "tags": {
+          "shop": "bakery"
         }
       },
       {
@@ -2138,7 +2151,7 @@
         "lon": 4.8738521,
         "tags": {
           "name": "Euro Exo",
-          "opening_hours": "Mo-Su 10:00-0:00",
+          "opening_hours": "Mo-Su 10:00-24:00",
           "origin": "african",
           "phone": "+33 9 50 72 30 41",
           "ref:FR:SIRET": "83446772200015",
@@ -2328,10 +2341,10 @@
         "tags": {
           "addr:housenumber": "1",
           "addr:street": "rue Rebatel",
-          "check_date": "2025-11-10",
+          "check_date": "2026-07-17",
           "internet_access": "no",
           "name": "Maison Marie",
-          "opening_hours": "Mo-Sa 06:00-20:00; Su 07:00-16:00",
+          "opening_hours": "Mo-Sa 06:00-20:00; Su 07:00-16:00; PH 07:00-14:00; SH 07:00-14:00",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "phone": "+33 4 81 91 01 21",
@@ -2533,7 +2546,7 @@
         "lat": 45.7640505,
         "lon": 4.8483451,
         "tags": {
-          "check_date:opening_hours": "2025-04-11",
+          "check_date:opening_hours": "2026-07-16",
           "contact:email": "commande.pain.tisserie@gmail.com",
           "contact:phone": "+33437249699",
           "name": "Pain-tisserie",
@@ -2681,6 +2694,15 @@
           "name": "Le Basha",
           "pastry": "yes",
           "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8148895223,
+        "lat": 45.756324,
+        "lon": 4.8460432,
+        "tags": {
+          "shop": "convenience"
         }
       },
       {
@@ -2931,7 +2953,7 @@
         "lat": 45.7722603,
         "lon": 4.8664104,
         "tags": {
-          "check_date": "2023-12-26",
+          "check_date": "2026-07-18",
           "name": "Market",
           "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-15:00",
           "phone": "+33 6 52 74 51 75",
@@ -2999,6 +3021,7 @@
         "lat": 45.7651701,
         "lon": 4.8444148,
         "tags": {
+          "check_date:opening_hours": "2026-07-21",
           "contact:email": "commande.pain-tisserie@gmail.com",
           "contact:phone": "+33437728353",
           "name": "Pain-tisserie",
@@ -3218,6 +3241,19 @@
       },
       {
         "type": "node",
+        "id": 13277815184,
+        "lat": 45.763639,
+        "lon": 4.8703833,
+        "tags": {
+          "air_conditioning": "yes",
+          "name": "Asie City",
+          "opening_hours": "09:30-21:00",
+          "ref:FR:SIRET": "88862401200033",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 13313457881,
         "lat": 45.7585164,
         "lon": 4.8660604,
@@ -3261,7 +3297,7 @@
         "tags": {
           "brand": "La Panetière",
           "brand:wikidata": "Q100712234",
-          "check_date:opening_hours": "2024-04-13",
+          "check_date:opening_hours": "2026-07-18",
           "indoor_seating": "yes",
           "name": "La Panetière",
           "opening_hours": "Mo-Fr 07:00-20:00; Su 07:00-14:00",
@@ -3383,6 +3419,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-16T05:05:34.278Z",
+  "fetchedAt": "2026-08-17T05:54:23.214Z",
   "staleDataWarning": false
 }

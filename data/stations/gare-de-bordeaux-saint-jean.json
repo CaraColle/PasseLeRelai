@@ -225,7 +225,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786857013945,
+      "timestamp": 1786946317638,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -254,7 +254,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-05-31T22:37:44Z",
+      "timestamp_osm_base": "2026-08-17T05:58:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -518,20 +518,46 @@
         "lat": 44.8356623,
         "lon": -0.5672898,
         "tags": {
+          "addr:housenumber": "24",
+          "addr:street": "Cours Victor Hugo",
           "cuisine": "russian",
           "name": "Россия",
-          "shop": "convenience"
+          "origin": "slavic",
+          "shop": "convenience",
+          "survey:date": "2026-06-02"
         }
       },
       {
         "type": "node",
         "id": 4282730648,
-        "lat": 44.8361194,
-        "lon": -0.5671384,
+        "lat": 44.8361295,
+        "lon": -0.5671274,
         "tags": {
+          "addr:housenumber": "15",
+          "addr:street": "Cours Victor Hugo",
+          "indoor_seating": "yes",
           "name": "La Ronde des Pains",
           "note": "Cuisson de produits de boulangerie",
-          "shop": "bakery"
+          "opening_hours": "Mo-Sa 07:00-19:00; Su 08:00-15:00",
+          "outdoor_seating": "yes",
+          "shop": "bakery",
+          "survey:date": "2026-06-10",
+          "takeaway": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4321120200,
+        "lat": 44.836026,
+        "lon": -0.5665716,
+        "tags": {
+          "addr:housenumber": "8",
+          "addr:street": "Cours Victor Hugo",
+          "name": "Mr. Borek",
+          "old_name": "Le Coin du Sultan",
+          "shop": "convenience",
+          "survey:date": "2026-06-10",
+          "was:amenity": "bar"
         }
       },
       {
@@ -596,6 +622,8 @@
           "addr:housenumber": "112",
           "addr:postcode": "33130",
           "addr:street": "Avenue Alexis Capelle",
+          "brand": "Ronde des Pains",
+          "brand:wikidata": "Q3441707",
           "description": "Horaires d'ouverture : Du lundi au vendredi : de 7h à 14h et de 16h à 19h30 Samedi, dimanche : de 6h30 à 13h",
           "fixme": "Emplacement vacant",
           "name": "Ronde des Pains",
@@ -631,15 +659,17 @@
         "tags": {
           "addr:housenumber": "177",
           "addr:street": "Cours de la Marne",
+          "check_date": "2026-08-16",
+          "check_date:opening_hours": "2026-08-16",
           "indoor_seating": "yes",
-          "name": "Le fournil Saint Jean",
+          "name": "Le Fournil Saint Jean",
+          "opening_hours:signed": "no",
           "outdoor_seating": "no",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "912625357",
           "ref:FR:SIRET": "91262535700013",
           "shop": "bakery",
           "source": "INSEE - 2025-02",
-          "survey:date": "2025-11-12",
           "takeaway": "yes"
         }
       },
@@ -657,7 +687,8 @@
           "name": "Bazar Istanbul",
           "opening_hours": "Mo-Su 08:00-20:00",
           "ref:FR:SIRET": "50490249500010",
-          "shop": "convenience"
+          "shop": "convenience",
+          "survey:date": "2026-06-02"
         }
       },
       {
@@ -666,16 +697,16 @@
         "lat": 44.8348551,
         "lon": -0.5709237,
         "tags": {
-          "addr:city": "Bordeaux",
           "addr:housenumber": "102",
           "addr:postcode": "33000",
           "addr:street": "Cours Victor Hugo",
           "check_date": "2025-02-15",
           "contact:facebook": "https://www.facebook.com/QuaiDesLivres",
           "name": "Quai des Livres",
-          "opening_hours": "Mo-Su 10:30-19:00",
+          "opening_hours": "Mo-Sa 11:00-13:30,15:00-19:00; Su,PH 11:00-14:00,15:00-18:00",
           "second_hand": "yes",
-          "shop": "books"
+          "shop": "books",
+          "survey:date": "2026-06-10"
         }
       },
       {
@@ -696,21 +727,27 @@
         "lat": 44.837058,
         "lon": -0.5687805,
         "tags": {
+          "addr:street": "Rue du Muguet",
           "check_date:opening_hours": "2026-03-14",
           "name": "Librairie du Muguet",
+          "opening_hours": "We, Sa 15:00-19:00",
           "opening_hours:signed": "no",
-          "shop": "books"
+          "shop": "books",
+          "website": "https://www.atheneelibertaire.net/la-librairie-du-muguet/"
         }
       },
       {
         "type": "node",
         "id": 7161503273,
-        "lat": 44.8360512,
-        "lon": -0.5672734,
+        "lat": 44.8360692,
+        "lon": -0.5672904,
         "tags": {
-          "name": "Ulker Market",
+          "addr:housenumber": "19",
+          "addr:street": "Cours Victor Hugo",
+          "name": "Ülker Market",
           "ref:FR:SIRET": "83353893700032",
-          "shop": "convenience"
+          "shop": "convenience",
+          "survey:date": "2026-06-10"
         }
       },
       {
@@ -744,25 +781,6 @@
           "ref:FR:SIRET": "83370634400029",
           "shop": "convenience",
           "source": "INSEE - 2025-03"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7367940335,
-        "lat": 44.83735,
-        "lon": -0.5702681,
-        "tags": {
-          "contact:facebook": "https://www.facebook.com/lelocalstore/",
-          "contact:instagram": "https://www.instagram.com/lelocalstore/",
-          "name": "L'Épicerie Le Local",
-          "opening_hours": "Mo-Sa 09:30-19:30",
-          "organic": "yes",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "phone": "+33 5 01 23 45 67",
-          "shop": "convenience",
-          "source": "Mairie de Bordeaux 2020",
-          "website": "https://lelocal.store/"
         }
       },
       {
@@ -917,7 +935,7 @@
           "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
           "phone": "+335 57 83 33 24",
           "shop": "convenience",
-          "website": "https://www.nousantigaspi.com/"
+          "website": "https://www.nousantigaspi.com/magasins/bordeaux/"
         }
       },
       {
@@ -950,11 +968,15 @@
       {
         "type": "node",
         "id": 11360299043,
-        "lat": 44.8356856,
-        "lon": -0.5674556,
+        "lat": 44.835677,
+        "lon": -0.5674607,
         "tags": {
-          "name": "Ülker marché",
-          "shop": "convenience"
+          "addr:housenumber": "26",
+          "addr:street": "Cours Victor Hugo",
+          "name": "Abshar Market",
+          "old_name": "Ülker marché",
+          "shop": "convenience",
+          "survey:date": "2026-06-10"
         }
       },
       {
@@ -1011,10 +1033,13 @@
         "tags": {
           "addr:housenumber": "74",
           "addr:street": "Cours Victor Hugo",
+          "alt_name": "Balkan market",
           "check_date": "2024-11-23",
           "name": "Les Balkans",
+          "origin": "balkan",
           "ref:FR:SIRET": "95381402700017",
-          "shop": "convenience"
+          "shop": "convenience",
+          "survey:date": "2026-06-10"
         }
       },
       {
@@ -1264,6 +1289,89 @@
         }
       },
       {
+        "type": "node",
+        "id": 13904639246,
+        "lat": 44.8352356,
+        "lon": -0.5646567,
+        "tags": {
+          "addr:housenumber": "19",
+          "addr:street": "Quai des Salinières",
+          "name": "Dimi Stocks",
+          "shop": "convenience",
+          "survey:date": "2026-06-02"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13904639259,
+        "lat": 44.8350585,
+        "lon": -0.5666095,
+        "tags": {
+          "addr:housenumber": "55",
+          "addr:street": "Rue des Faures",
+          "shop": "convenience",
+          "survey:date": "2026-06-02"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13926479189,
+        "lat": 44.8351079,
+        "lon": -0.5697562,
+        "tags": {
+          "addr:housenumber": "78",
+          "addr:street": "Cours Victor Hugo",
+          "name": "Mama Market",
+          "shop": "convenience",
+          "survey:date": "2026-06-10"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13926489008,
+        "lat": 44.8356735,
+        "lon": -0.5690899,
+        "tags": {
+          "addr:housenumber": "59",
+          "addr:street": "Cours Victor Hugo",
+          "shop": "convenience",
+          "survey:date": "2026-06-10"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13926489021,
+        "lat": 44.8356491,
+        "lon": -0.5675843,
+        "tags": {
+          "addr:housenumber": "28",
+          "addr:street": "Cours Victor Hugo",
+          "shop": "convenience",
+          "survey:date": "2026-06-10"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14097569181,
+        "lat": 44.8310392,
+        "lon": -0.5681165,
+        "tags": {
+          "name": "Indian Shop33",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14098356661,
+        "lat": 44.828314,
+        "lon": -0.5610125,
+        "tags": {
+          "name": "Flash Market",
+          "opening_hours": "Su-We 14:00-24:00; Th-Sa 14:00-22:00",
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 159270607,
         "center": {
@@ -1325,6 +1433,23 @@
       },
       {
         "type": "way",
+        "id": 1163853057,
+        "center": {
+          "lat": 44.8266822,
+          "lon": -0.5559508
+        },
+        "tags": {
+          "amenity": "fast_food",
+          "indoor": "room",
+          "level": "-1",
+          "name": "Bo & Mie",
+          "operator": "Bo & Mie",
+          "shop": "bakery",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "way",
         "id": 1163927202,
         "center": {
           "lat": 44.8262046,
@@ -1374,6 +1499,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-16T05:05:34.278Z",
+  "fetchedAt": "2026-08-17T05:54:23.214Z",
   "staleDataWarning": false
 }

@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786857005399,
+      "timestamp": 1786946313541,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,43 +270,16 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-16T05:10:47Z",
+      "timestamp_osm_base": "2026-07-24T11:04:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
       {
         "type": "node",
-        "id": 380671212,
-        "lat": 48.5966573,
-        "lon": 7.7212934,
-        "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "69",
-          "addr:postcode": "67200",
-          "addr:street": "Rue de Heidenberg",
-          "brand": "Banette",
-          "brand:wikidata": "Q2882405",
-          "entrance": "shop",
-          "name": "Banette",
-          "opening_hours": "Mo-Sa 06:00-13:00, Mo-Fr 15:00-19:00, Su 07:00-12:00",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "ref:FR:SIRET": "49222212000015",
-          "shop": "bakery",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 462670932,
-        "lat": 48.5956896,
-        "lon": 7.7222433,
+        "lat": 48.595706,
+        "lon": 7.7222291,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "42",
-          "addr:postcode": "67200",
-          "addr:street": "Rue Saint-Florent",
           "check_date:opening_hours": "2024-10-22",
           "contact:phone": "+33 3 88 28 08 11",
           "currency:XLT": "STUK",
@@ -342,15 +315,11 @@
         "lat": 48.5840696,
         "lon": 7.7362668,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "8",
-          "addr:postcode": "67000",
-          "addr:street": "Place de la Gare",
           "name": "La Gare'Mandise",
           "opening_hours": "Mo-Fr 06:00-19:00; Sa 07:00-18:00; Su 08:00-13:00",
           "ref:FR:SIRET": "89300517300016",
           "shop": "bakery",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009",
           "wheelchair": "limited"
         }
       },
@@ -360,15 +329,12 @@
         "lat": 48.5841343,
         "lon": 7.7363504,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "9",
-          "addr:postcode": "67000",
+          "addr:housenumber": "8",
           "addr:street": "Place de la Gare",
           "check_date": "2025-03-17",
-          "name": "Les Mains Dans la Farine",
-          "operator": "Hotel Vandome",
+          "name": "Les mains dans la farine",
           "shop": "bakery",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009",
           "wheelchair": "no"
         }
       },
@@ -526,14 +492,41 @@
       },
       {
         "type": "node",
-        "id": 1245322799,
-        "lat": 48.5767361,
-        "lon": 7.731442,
+        "id": 1212096245,
+        "lat": 48.5899913,
+        "lon": 7.7447444,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "23",
-          "addr:postcode": "67000",
-          "addr:street": "Boulevard de Lyon",
+          "addr:housenumber": "67",
+          "addr:street": "Rue du Faubourg de Pierre",
+          "check_date": "2026-05-20",
+          "name": "Cyrille Keller",
+          "opening_hours": "Mo-Sa 05:30-19:00; Su,PH 07:00-12:00",
+          "phone": "+33388226660",
+          "ref:FR:SIRET": "40825523000018",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1245322650,
+        "lat": 48.5768882,
+        "lon": 7.7324524,
+        "tags": {
+          "name": "Amry père et fils",
+          "opening_hours": "Mo-Fr 06:30-13:30,15:30-19:00; Sa,Su 06:00-13:00",
+          "operator": "Bannette",
+          "ref:FR:SIRET": "49205884700012",
+          "shop": "bakery",
+          "source": "survey",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1245322799,
+        "lat": 48.5767177,
+        "lon": 7.7314255,
+        "tags": {
           "name": "Blé d'Or",
           "ref:FR:SIRET": "34478120800014",
           "shop": "bakery",
@@ -631,7 +624,7 @@
           "name": "Maison Alsacienne de Biscuiterie",
           "opening_hours": "Mo-Su 09:00-19:00",
           "outdoor_seating": "no",
-          "phone": "+33 3 89 21 85 10",
+          "phone": "+33 389 218510",
           "ref:FR:SIRET": "80376212900127",
           "shop": "bakery",
           "takeaway": "only",
@@ -690,10 +683,6 @@
         "lat": 48.5817426,
         "lon": 7.7479514,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "50",
-          "addr:postcode": "67000",
-          "addr:street": "Rue des Grandes Arcades",
           "check_date": "2025-10-28",
           "indoor_seating": "yes",
           "name": "Dreher",
@@ -713,10 +702,6 @@
         "lat": 48.583333,
         "lon": 7.7354963,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "11",
-          "addr:postcode": "67000",
-          "addr:street": "Petite Rue de la Course",
           "name": "O P'train",
           "opening_hours": "Mo-Fr 06:00-19:00; Sa 06:00-16:30; Su,PH off",
           "shop": "bakery",
@@ -790,12 +775,8 @@
         "lat": 48.5823395,
         "lon": 7.7490605,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "24B",
-          "addr:postcode": "67000",
-          "addr:street": "Rue des Orfèvres",
-          "check_date": "2026-07-30",
-          "name": "Les Mains Dans la Farine",
+          "check_date": "2022-09-26",
+          "name": "Les Mains dans la Farine",
           "ref:FR:SIRET": "89740402600014",
           "shop": "bakery"
         }
@@ -835,13 +816,11 @@
         "lat": 48.5838679,
         "lon": 7.7448545,
         "tags": {
-          "addr:city": "Strasbourg",
           "addr:housenumber": "4",
-          "addr:postcode": "67000",
           "addr:street": "Place de l'Homme de Fer",
           "name": "Poulaillon",
           "opening_hours": "Mo-Sa 06:00-19:30",
-          "phone": "+33 3 88 32 96 60",
+          "phone": "+33388329660",
           "ref:FR:SIRET": "43020123600253",
           "shop": "bakery",
           "website": "https://www.poulaillon.fr/",
@@ -888,6 +867,21 @@
       },
       {
         "type": "node",
+        "id": 4431494274,
+        "lat": 48.5816527,
+        "lon": 7.7433332,
+        "tags": {
+          "addr:housenumber": "98",
+          "addr:postcode": "67000",
+          "addr:street": "Grand'Rue",
+          "name": "Banette Bouali",
+          "noname": "yes",
+          "shop": "bakery",
+          "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
         "id": 4519297606,
         "lat": 48.5871687,
         "lon": 7.7432265,
@@ -929,24 +923,6 @@
       },
       {
         "type": "node",
-        "id": 4543001649,
-        "lat": 48.5807237,
-        "lon": 7.7473815,
-        "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "18",
-          "addr:postcode": "67000",
-          "addr:street": "Rue des Serruriers",
-          "check_date": "2026-02-24",
-          "name": "Biscottes Sante",
-          "opening_hours": "Mo-Sa 07:00-19:00",
-          "pastry": "yes",
-          "shop": "bakery",
-          "source": "survey"
-        }
-      },
-      {
-        "type": "node",
         "id": 4543001650,
         "lat": 48.5808665,
         "lon": 7.7473761,
@@ -963,8 +939,8 @@
       {
         "type": "node",
         "id": 4614044705,
-        "lat": 48.5827314,
-        "lon": 7.7417524,
+        "lat": 48.5827414,
+        "lon": 7.741781,
         "tags": {
           "check_date": "2026-04-25",
           "check_date:opening_hours": "2026-04-25",
@@ -1074,26 +1050,6 @@
       },
       {
         "type": "node",
-        "id": 5190858434,
-        "lat": 48.5821872,
-        "lon": 7.7387548,
-        "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "8",
-          "addr:postcode": "67000",
-          "addr:street": "Quai Turckheim",
-          "contact:facebook": "https://www.facebook.com/people/Boulangerie-p%C3%A2tisserie-traiteur-chez-steph/100064915735639/",
-          "name": "Chez Steph",
-          "opening_hours": "Mo-Fr 06:00-14:30,16:00-19:00; Sa 06:00-13:00",
-          "phone": "+33 3 88 32 60 44",
-          "ref:FR:SIRET": "79335639500020",
-          "shop": "bakery",
-          "source": "survey",
-          "source:date": "2017-06-08"
-        }
-      },
-      {
-        "type": "node",
         "id": 5190858436,
         "lat": 48.5816447,
         "lon": 7.7387337,
@@ -1172,16 +1128,11 @@
         "lat": 48.5838453,
         "lon": 7.7442201,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "5",
-          "addr:postcode": "67000",
-          "addr:street": "Place de l'Homme de Fer",
           "brand": "La Mie Câline",
           "brand:wikidata": "Q3210704",
-          "check_date": "2026-07-29",
+          "check_date": "2026-03-10",
           "name": "La Mie Câline",
           "opening_hours": "Mo-Su 07:00-20:00",
-          "phone": "+33 3 88 35 30 94",
           "ref:FR:SIRET": "78926721800020",
           "shop": "bakery",
           "website": "https://lamiecaline.com/magasin/strasbourg/323"
@@ -1190,18 +1141,18 @@
       {
         "type": "node",
         "id": 5860545385,
-        "lat": 48.5787998,
-        "lon": 7.7421487,
+        "lat": 48.5787607,
+        "lon": 7.7421441,
         "tags": {
           "brand": "Ronde des Pains",
+          "brand:wikidata": "Q3441707",
+          "brand:wikipedia": "fr:Ronde des Pains",
           "contact:city": "Strasbourg",
           "contact:housenumber": "14",
           "contact:postcode": "67000",
           "contact:street": "Rue Finkwiller",
-          "name": "Plein la moustache",
-          "not:brand:wikidata": "Q3441707",
+          "name": "Ronde des Pains",
           "opening_hours": "Mo-Fr 07:00-19:00; Sa 09:00-13:00; Su 08:00-13:00",
-          "phone": "+33 9 52 79 88 35",
           "shop": "bakery"
         }
       },
@@ -1302,13 +1253,8 @@
         "lat": 48.5829181,
         "lon": 7.7487618,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "1",
-          "addr:postcode": "67000",
-          "addr:street": "Rue des Orfèvres",
-          "name": "Le Pain des Fromagers",
+          "name": "Le pain des fromagers",
           "opening_hours": "Tu-Fr 08:00-19:15; Sa 08:00-19:00",
-          "phone": "+33 3 88 22 56 45",
           "shop": "bakery",
           "wheelchair": "no"
         }
@@ -1335,9 +1281,7 @@
         "lat": 48.5847309,
         "lon": 7.7385542,
         "tags": {
-          "addr:city": "Strasbourg",
           "addr:housenumber": "17",
-          "addr:postcode": "67000",
           "addr:street": "Rue Kageneck",
           "check_date": "2026-02-18",
           "check_date:opening_hours": "2026-02-18",
@@ -1369,12 +1313,8 @@
         "lat": 48.5826011,
         "lon": 7.7465859,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "2",
-          "addr:postcode": "67000",
-          "addr:street": "Ruelle des Pelletiers",
-          "check_date": "2026-07-29",
-          "name": "Xoxo",
+          "check_date": "2024-11-20",
+          "name": "Kristof",
           "ref:FR:SIRET": "51199094700059",
           "shop": "bakery",
           "website": "https://fournil-kristof.com/"
@@ -1407,9 +1347,7 @@
         "lat": 48.5820541,
         "lon": 7.7480166,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "73",
-          "addr:postcode": "67000",
+          "addr:housenumber": "73-75",
           "addr:street": "Rue des Grandes Arcades",
           "check_date": "2025-08-12",
           "contact:facebook": "https://www.facebook.com/Lesmainsdanslafarine67/",
@@ -1441,14 +1379,15 @@
           "addr:housenumber": "1",
           "addr:postcode": "67200",
           "addr:street": "Rue des Pinsons",
-          "check_date": "2026-08-03",
+          "check_date": "2026-03-25",
           "diet:halal": "yes",
           "level": "0",
           "name": "TAT Market",
           "opening_hours": "Mo-Su 08:00-21:00",
           "ref:FR:SIRET": "90430088600010",
           "shop": "convenience",
-          "source": "survey"
+          "source": "survey",
+          "survey:date": "2022-05-28"
         }
       },
       {
@@ -1498,14 +1437,8 @@
         "lat": 48.5824974,
         "lon": 7.736702,
         "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "30",
-          "addr:postcode": "67000",
-          "addr:street": "Rue du Faubourg National",
-          "brand": "Banette",
-          "brand:wikidata": "Q2882405",
           "indoor_seating": "yes",
-          "name": "Banette",
+          "name": "Le faubourg",
           "outdoor_seating": "no",
           "shop": "bakery",
           "wheelchair": "yes"
@@ -1642,10 +1575,7 @@
           "level": "0",
           "name": "Terres d'Alsace",
           "opening_hours": "Su-Fr 07:30-20:00; Sa 07:30-19:00",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "shop": "convenience",
-          "wheelchair": "yes"
+          "shop": "convenience"
         }
       },
       {
@@ -1708,25 +1638,6 @@
         }
       },
       {
-        "type": "node",
-        "id": 14058529352,
-        "lat": 48.5860414,
-        "lon": 7.7424881,
-        "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "24",
-          "addr:postcode": "67000",
-          "addr:street": "Place des Halles 1st floor",
-          "brand": "Poulaillon",
-          "brand:website": "https://www.poulaillon.fr",
-          "check_date": "2026-07-29",
-          "level": "1",
-          "name": "Poulaillon",
-          "ref": "55",
-          "shop": "bakery"
-        }
-      },
-      {
         "type": "way",
         "id": 40992798,
         "center": {
@@ -1763,9 +1674,73 @@
           "shop": "books",
           "website": "https://www.placedeshalles.com/france-loisirs/"
         }
+      },
+      {
+        "type": "way",
+        "id": 1001386063,
+        "center": {
+          "lat": 48.5870363,
+          "lon": 7.7410147
+        },
+        "tags": {
+          "brand": "Poulaillon",
+          "indoor": "room",
+          "level": "1",
+          "name": "Poulaillon",
+          "opening_hours": "Mo-Sa 09:00-20:00",
+          "phone": "+33 3 88 35 69 76",
+          "ref": "128",
+          "ref:FR:SIRET": "43020123600329",
+          "shop": "bakery",
+          "website": "https://www.placedeshalles.com/poulaillon/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1001406927,
+        "center": {
+          "lat": 48.5866822,
+          "lon": 7.7410551
+        },
+        "tags": {
+          "brand": "Brioche Dorée",
+          "brand:wikidata": "Q2925606",
+          "brand:wikipedia": "fr:Brioche dorée",
+          "contact:city": "Strasbourg",
+          "contact:postcode": "67000",
+          "contact:street": "Centre Commercial Place Des Halles",
+          "indoor": "room",
+          "level": "0",
+          "name": "Brioche Dorée",
+          "official_name": "Brioche Dorée Strasbourg - C.cial Les Halles",
+          "opening_hours": "Mo-Sa 09:00-20:00",
+          "phone": "+33 3 88 52 06 16",
+          "ref": "20",
+          "ref:FR:SIRET": "31890659101049",
+          "shop": "bakery",
+          "website": "https://www.briochedoree.fr/restaurants/55-strasbourg-c.cial-les-halles;https://www.placedeshalles.com/brioche-doree/"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1001458323,
+        "center": {
+          "lat": 48.5860484,
+          "lon": 7.7424837
+        },
+        "tags": {
+          "brand": "Poulaillon",
+          "brand:website": "https://www.poulaillon.fr",
+          "check_date": "2024-08-03",
+          "indoor": "area",
+          "level": "0",
+          "name": "Poulaillon",
+          "ref": "55",
+          "shop": "bakery"
+        }
       }
     ]
   },
-  "fetchedAt": "2026-08-16T05:05:34.278Z",
+  "fetchedAt": "2026-08-17T05:54:23.214Z",
   "staleDataWarning": false
 }

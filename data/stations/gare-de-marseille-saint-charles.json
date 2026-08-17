@@ -205,7 +205,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786856829325,
+      "timestamp": 1786946193511,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -234,7 +234,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-05-06T03:25:00Z",
+      "timestamp_osm_base": "2026-08-17T05:56:18Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -446,7 +446,7 @@
           "check_date": "2026-01-04",
           "name": "Librairie Maritime & Outremer",
           "shop": "books",
-          "website": "http://www.librairie-maritime.com/"
+          "website": "https://www.librairie-maritime.com/"
         }
       },
       {
@@ -490,6 +490,7 @@
         "tags": {
           "books": "music",
           "name": "Librairie Musicale Internationale",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-13:00,14:00-19:00",
           "ref:FR:SIRET": "41863343400018",
           "shop": "books",
           "website": "https://www.lmi-partitions.com/"
@@ -525,9 +526,11 @@
         "lat": 43.2946634,
         "lon": 5.3832453,
         "tags": {
-          "books": "children",
-          "name": "La Boîte à Histoires",
-          "ref:FR:SIRET": "97777484300014",
+          "addr:housenumber": "31",
+          "addr:place": "Cours Julien",
+          "email": "voixdeschapitres@gmail.com",
+          "name": "Les Voix des Chapitres",
+          "phone": "+33 4 91 48 61 60",
           "shop": "books",
           "wheelchair": "no"
         }
@@ -538,8 +541,14 @@
         "lat": 43.2924989,
         "lon": 5.3732992,
         "tags": {
+          "contact:facebook": "https://www.facebook.com/librairielesarcenaulx",
+          "contact:housenumber": "25",
+          "contact:street": "Cours Honoré d'Estienne d'Orves",
           "name": "Librairie Jeanne Laffitte",
+          "opening_hours": "Mo 12:00-19:00; Tu-Sa 10:00-19:15",
+          "phone": "+33 4 91 59 80 37",
           "ref:FR:SIRET": "90466768000022",
+          "ref:vatin": "FR88904667680",
           "shop": "books",
           "website": "https://www.jeanne-laffitte.com/"
         }
@@ -550,14 +559,17 @@
         "lat": 43.2955408,
         "lon": 5.3911784,
         "tags": {
+          "addr:housenumber": "77",
+          "addr:street": "Boulevard Eugène Pierre",
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "en:Système U",
-          "name": "Utile",
+          "name": "U Express",
           "opening_hours": "Mo-Sa 08:00-19:45; Su 08:30-12:45",
           "operator": "Système U",
+          "phone": "+33 4 96 12 12 30",
           "shop": "convenience",
-          "website": "https://www.magasins-u.com/magasin/superu-marseillesaintpierre.m90249",
+          "website": "https://www.magasins-u.com/magasin/uexpress-marseille.m90174",
           "wheelchair": "no"
         }
       },
@@ -632,11 +644,16 @@
         "lat": 43.2952055,
         "lon": 5.3923018,
         "tags": {
+          "addr:street": "Boulevard Chave",
           "amenity": "cafe",
           "contact:housenumber": "92",
           "name": "La Rêveuse",
           "opening_hours": "Tu-Sa 09:30-20:00",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "900048075",
+          "ref:FR:SIRET": "90004807500023",
           "shop": "books",
+          "source": "INSEE - 2026-06",
           "wheelchair": "no"
         }
       },
@@ -646,9 +663,15 @@
         "lat": 43.2954379,
         "lon": 5.3919108,
         "tags": {
+          "addr:housenumber": "75",
+          "addr:street": "Boulevard Chave",
           "name": "Tendance gourmande",
           "opening_hours": "Mo,Tu,Th-Sa 06:30-19:00; Su 07:00-13:00",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "749854550",
+          "ref:FR:SIRET": "74985455000011",
           "shop": "bakery",
+          "source": "INSEE - 2026-06",
           "wheelchair": "no"
         }
       },
@@ -659,7 +682,9 @@
         "lon": 5.371024,
         "tags": {
           "addr:country": "FR",
-          "name": "Les Trois Frères",
+          "indoor_seating": "yes",
+          "name": "Les Minots de République",
+          "outdoor_seating": "yes",
           "shop": "bakery"
         }
       },
@@ -1160,8 +1185,14 @@
         "lat": 43.3117386,
         "lon": 5.3725021,
         "tags": {
+          "addr:housenumber": "50",
+          "addr:street": "Avenue Roger Salengro",
           "name": "Le Fournil de Salengro",
-          "shop": "bakery"
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "510148638",
+          "ref:FR:SIRET": "51014863800016",
+          "shop": "bakery",
+          "source": "INSEE - 2026-06"
         }
       },
       {
@@ -1174,7 +1205,8 @@
           "opening_hours": "Tu-Sa 08:00-19:30; Su 09:00-13:30",
           "organic": "yes",
           "ref:FR:SIRET": "94910466500011",
-          "shop": "convenience"
+          "shop": "convenience",
+          "website": "https://www.marche-argonautes.fr/"
         }
       },
       {
@@ -1195,10 +1227,14 @@
         "lat": 43.3091994,
         "lon": 5.3729424,
         "tags": {
+          "addr:housenumber": "10",
+          "addr:street": "Rue de Ruffi",
           "name": "Little Discount",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "800596645",
           "ref:FR:SIRET": "80059664500013",
           "shop": "convenience",
-          "source": "survey"
+          "source": "INSEE - 2026-06"
         }
       },
       {
@@ -1257,7 +1293,7 @@
           "opening_hours": "Tu-Sa 09:30-19:00; Su,PH 10:00-16:00; Mo 13:30-19:00",
           "organic": "yes",
           "shop": "convenience",
-          "website": "http://baravrac.com/"
+          "website": "https://baravrac.com/"
         }
       },
       {
@@ -1300,9 +1336,14 @@
         "lat": 43.3167434,
         "lon": 5.3741602,
         "tags": {
+          "addr:housenumber": "104",
+          "addr:street": "Rue Felix Pyat",
           "name": "La Provençale",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "804873743",
           "ref:FR:SIRET": "80487374300012",
-          "shop": "bakery"
+          "shop": "bakery",
+          "source": "INSEE - 2026-06"
         }
       },
       {
@@ -1336,9 +1377,14 @@
         "lat": 43.3066434,
         "lon": 5.3736832,
         "tags": {
+          "addr:housenumber": "74",
+          "addr:street": "Avenue Camille Pelletan",
           "name": "Le Fournil de Saint-Lazare",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "840186183",
           "ref:FR:SIRET": "84018618300025",
-          "shop": "bakery"
+          "shop": "bakery",
+          "source": "INSEE - 2026-06"
         }
       },
       {
@@ -1461,7 +1507,7 @@
           "brand:wikipedia": "fr:Système U",
           "contact:website": "https://www.magasins-u.com/magasin/uexpress-marseillegrandrue",
           "name": "U Express",
-          "opening_hours": "Mo-Fr 08:15-20:00; Sa 08:30-20:00; Su 08:30-13:00",
+          "opening_hours": "Mo-Sa 08:30-20:00; Su 08:30-13:00",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "phone": "+33 4 91 90 34 26",
@@ -1576,9 +1622,15 @@
         "lat": 43.2955678,
         "lon": 5.3939032,
         "tags": {
+          "addr:housenumber": "117",
+          "addr:street": "Boulevard Chave",
           "name": "Les Mains Libres",
           "opening_hours": "Tu-Sa 07:30-13:00,16:00-19:30",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "814720710",
+          "ref:FR:SIRET": "81472071000015",
           "shop": "bakery",
+          "source": "INSEE - 2026-06",
           "website": "https://www.les-mains-libres.fr/"
         }
       },
@@ -1709,9 +1761,13 @@
         "lat": 43.3133408,
         "lon": 5.3862283,
         "tags": {
+          "addr:housenumber": "155",
+          "addr:street": "Rue Loubon",
           "name": "Le Pétrin",
+          "ref:FR:NAF": "10.71C",
           "ref:FR:SIRET": "53794335900027",
-          "shop": "bakery"
+          "shop": "bakery",
+          "source": "INSEE - 2026-06"
         }
       },
       {
@@ -1881,9 +1937,14 @@
           "addr:housenumber": "59",
           "addr:postcode": "13006",
           "addr:street": "Rue de Lodi",
+          "contact:email": "contact@sudsudest.fr",
+          "contact:website": "https://sudsudest.fr",
+          "description": "Boulangerie artisanale, biologique et coopérative",
           "name": "SUD·SUD·EST",
-          "opening_hours": "SH Mo 14:00-19:00; SH Tu-Fr 10:00-19:00",
-          "phone": "+33 4 84 89 65 16",
+          "opening_hours": "Mo-Fr 10:00-19:00",
+          "operator:type": "cooperative",
+          "organic": "only",
+          "phone": "+33 4 91 37 44 30",
           "ref:FR:SIRET": "94269308600012",
           "shop": "bakery"
         }
@@ -1957,11 +2018,17 @@
         "lat": 43.2947582,
         "lon": 5.3871564,
         "tags": {
+          "addr:housenumber": "39",
+          "addr:street": "Place Jean Jaures",
           "check_date": "2026-02-14",
           "name": "Le Petit Prince",
           "name:oc": "Lo Princilhon",
           "operator": "Tito",
+          "ref:FR:NAF": "47.29Z",
+          "ref:FR:SIREN": "508348828",
+          "ref:FR:SIRET": "50834882800015",
           "shop": "convenience",
+          "source": "INSEE - 2026-06",
           "source:name:oc": "ieo-bdtopoc"
         }
       },
@@ -2008,9 +2075,15 @@
         "lat": 43.3153161,
         "lon": 5.3871635,
         "tags": {
+          "addr:housenumber": "13",
+          "addr:street": "Boulevard Burel",
           "name": "Supérette Plombières",
           "name:oc": "Supereta dei Plombèras",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "792160327",
+          "ref:FR:SIRET": "79216032700013",
           "shop": "convenience",
+          "source": "INSEE - 2026-06",
           "source:name:oc": "ieo-bdtopoc"
         }
       },
@@ -2055,11 +2128,17 @@
         "lat": 43.2889647,
         "lon": 5.3663204,
         "tags": {
+          "addr:housenumber": "40",
+          "addr:street": "Rue d'Endoume",
           "check_date:opening_hours": "2023-09-01",
           "contact:phone": "+33 4 91 52 79 27",
           "name": "Les Massilious",
           "opening_hours": "Mo-Sa 06:30-20:00",
-          "shop": "bakery"
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "499116895",
+          "ref:FR:SIRET": "49911689500016",
+          "shop": "bakery",
+          "source": "INSEE - 2026-06"
         }
       },
       {
@@ -2079,10 +2158,16 @@
         "lat": 43.2989992,
         "lon": 5.3889797,
         "tags": {
+          "addr:housenumber": "55",
           "addr:postcode": "13005",
+          "addr:street": "Cours Franklin Roosevelt",
           "name": "Le four et le moulin",
           "opening_hours": "Mo-Su 06:30-21:00",
-          "shop": "bakery"
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "930067731",
+          "ref:FR:SIRET": "93006773100016",
+          "shop": "bakery",
+          "source": "INSEE - 2026-06"
         }
       },
       {
@@ -2274,9 +2359,14 @@
         "lat": 43.3121053,
         "lon": 5.3770254,
         "tags": {
+          "addr:housenumber": "302 a",
+          "addr:street": "Boulevard National",
           "name": "sas Atlas",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "819746793",
           "ref:FR:SIRET": "81974679300010",
-          "shop": "convenience"
+          "shop": "convenience",
+          "source": "INSEE - 2026-06"
         }
       },
       {
@@ -2310,9 +2400,14 @@
         "lat": 43.3102884,
         "lon": 5.378849,
         "tags": {
+          "addr:housenumber": "231",
+          "addr:street": "Boulevard National",
           "name": "Sagali",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "810597153",
           "ref:FR:SIRET": "81059715300016",
-          "shop": "convenience"
+          "shop": "convenience",
+          "source": "INSEE - 2026-06"
         }
       },
       {
@@ -2520,12 +2615,15 @@
         "lat": 43.2900551,
         "lon": 5.3743958,
         "tags": {
+          "addr:housenumber": "49",
+          "addr:street": "Cours Pierre Puget",
           "books": "manga",
           "name": "Tsundoku",
           "opening_hours": "Mo 14:00-20:00; Tu-Su 10:00-20:00",
           "ref:FR:SIRET": "91146696900019",
           "shop": "books",
-          "source": "INSEE - 2022-08"
+          "source": "INSEE - 2022-08",
+          "website": "https://www.tsundokulibrairie.fr/"
         }
       },
       {
@@ -2575,19 +2673,6 @@
         "tags": {
           "opening_hours": "Mo-Sa 09:00-19:00",
           "origin": "african",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 10876292790,
-        "lat": 43.291566,
-        "lon": 5.3714237,
-        "tags": {
-          "brand": "Utile",
-          "brand:wikidata": "Q2529029",
-          "name": "Utile",
-          "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:00",
           "shop": "convenience"
         }
       },
@@ -2720,6 +2805,7 @@
         "lon": 5.3696409,
         "tags": {
           "brand": "Vival",
+          "brand:wikidata": "Q7937525",
           "name": "Vival",
           "shop": "convenience"
         }
@@ -3102,9 +3188,15 @@
         "lat": 43.3118087,
         "lon": 5.3869289,
         "tags": {
+          "addr:housenumber": "14",
+          "addr:street": "Place Bernard Cadenat",
           "name": "Le Fournil de la Belle de Mai",
           "opening_hours": "Mo-Sa 06:00-20:00",
-          "shop": "bakery"
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "804533412",
+          "ref:FR:SIRET": "80453341200024",
+          "shop": "bakery",
+          "source": "INSEE - 2026-06"
         }
       },
       {
@@ -3156,9 +3248,14 @@
         "lat": 43.3056438,
         "lon": 5.3837072,
         "tags": {
+          "addr:housenumber": "71",
+          "addr:street": "Boulevard National",
           "name": "RD bas prix",
+          "ref:FR:NAF": "47.19B",
+          "ref:FR:SIREN": "934165127",
+          "ref:FR:SIRET": "93416512700010",
           "shop": "convenience",
-          "source": "survey",
+          "source": "INSEE - 2026-06",
           "survey:date": "2026-01-25"
         }
       },
@@ -3196,6 +3293,55 @@
           "addr:street": "Rue Saint-Saëns",
           "name": "Pain Pan",
           "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13866542254,
+        "lat": 43.2994636,
+        "lon": 5.3769546,
+        "tags": {
+          "name:signed": "no",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13871030241,
+        "lat": 43.3001844,
+        "lon": 5.388362,
+        "tags": {
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13871064307,
+        "lat": 43.3000785,
+        "lon": 5.3796573,
+        "tags": {
+          "name": "SASA alimentation",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13919353645,
+        "lat": 43.2947046,
+        "lon": 5.3756,
+        "tags": {
+          "addr:housenumber": "10",
+          "addr:postcode": "13001",
+          "addr:street": "Place du Général de Gaulle",
+          "check_date": "2026-06-08",
+          "internet_access": "no",
+          "name": "Bonne Miette",
+          "opening_hours": "Mo-Sa 08:00-19:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "bakery",
+          "wheelchair": "yes"
         }
       },
       {
@@ -3449,6 +3595,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-16T05:05:34.278Z",
+  "fetchedAt": "2026-08-17T05:54:23.214Z",
   "staleDataWarning": false
 }

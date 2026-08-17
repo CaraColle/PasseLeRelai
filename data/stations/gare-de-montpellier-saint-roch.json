@@ -265,7 +265,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786856992549,
+      "timestamp": 1786946300016,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -294,7 +294,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-16T05:09:51Z",
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -510,7 +510,7 @@
         "tags": {
           "addr:housenumber": "10",
           "addr:street": "Place du Nombre d'Or",
-          "name": "Le Fournil du nombre d'or",
+          "name": "Le Fournil Saint-Nicolas",
           "shop": "bakery",
           "wheelchair": "yes"
         }
@@ -641,6 +641,15 @@
         "lon": 3.8751422,
         "tags": {
           "noname": "yes",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 606954776,
+        "lat": 43.5923628,
+        "lon": 3.8668739,
+        "tags": {
           "shop": "bakery"
         }
       },
@@ -874,6 +883,20 @@
       },
       {
         "type": "node",
+        "id": 645736545,
+        "lat": 43.6074699,
+        "lon": 3.8667864,
+        "tags": {
+          "contact:city": "Montpellier",
+          "contact:housenumber": "28",
+          "contact:postcode": "34070",
+          "contact:street": "Rue du Faubourg Figuerolles",
+          "name": "Fresh Fruits et Légumes",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 660179402,
         "lat": 43.6045386,
         "lon": 3.8739954,
@@ -1009,7 +1032,7 @@
         "lon": 3.8695855,
         "tags": {
           "name": "Les Jardins du Midi",
-          "opening_hours": "Mo-Su 08:00-20:00",
+          "opening_hours": "Mo-Su 8:00-20:00",
           "ref:FR:SIRET": "80054196300016",
           "shop": "convenience"
         }
@@ -1408,19 +1431,6 @@
       },
       {
         "type": "node",
-        "id": 1666891258,
-        "lat": 43.6031042,
-        "lon": 3.8804208,
-        "tags": {
-          "addr:housenumber": "1",
-          "addr:street": "Boulevard de Strasbourg",
-          "name": "Boulan'Gio",
-          "opening_hours": "Tu-Sa 10:00-19:00",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 1666891260,
         "lat": 43.6031219,
         "lon": 3.8806088,
@@ -1480,7 +1490,7 @@
           "outdoor_seating": "yes",
           "ref:FR:SIRET": "81148584600018",
           "shop": "bakery",
-          "wheelchair": "yes"
+          "wheelchair": "limited"
         }
       },
       {
@@ -1974,7 +1984,7 @@
           "addr:street": "Rue Eugène Lisbonne",
           "check_date": "2025-02-05",
           "name": "Des Rêves et du Pain",
-          "opening_hours": "Tu-Fr 08:00-19:30; Sa 08:00-19:00",
+          "opening_hours": "Tu-Fr 8:00-19:30; Sa 08:00-19:00",
           "phone": "+33 4 67 91 21 15",
           "ref:FR:SIRET": "80492449600016",
           "shop": "bakery",
@@ -2146,22 +2156,6 @@
       },
       {
         "type": "node",
-        "id": 8741838352,
-        "lat": 43.6013716,
-        "lon": 3.8922167,
-        "tags": {
-          "brand": "Utile",
-          "brand:wikidata": "Q2529029",
-          "check_date": "2026-06-30",
-          "check_date:opening_hours": "2026-06-30",
-          "name": "Utile",
-          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-13:00, 16:00-20:00",
-          "shop": "convenience",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 8953272039,
         "lat": 43.6051749,
         "lon": 3.8825274,
@@ -2212,6 +2206,17 @@
       },
       {
         "type": "node",
+        "id": 10173218244,
+        "lat": 43.6081763,
+        "lon": 3.8672442,
+        "tags": {
+          "name": "Scrupule",
+          "shop": "books",
+          "website": "https://fr-fr.facebook.com/librairiescrupule/"
+        }
+      },
+      {
+        "type": "node",
         "id": 10212513117,
         "lat": 43.6054131,
         "lon": 3.8762947,
@@ -2239,12 +2244,10 @@
         "lat": 43.6028454,
         "lon": 3.8801975,
         "tags": {
-          "check_date": "2026-07-02",
-          "check_date:opening_hours": "2026-07-02",
           "name": "Pain d'Épi",
-          "opening_hours": "Mo-Fr 07:00-20:00; Su 07:00-19:00",
           "ref:FR:SIRET": "88105392000016",
-          "shop": "bakery"
+          "shop": "bakery",
+          "survey:date": "2023-01-25"
         }
       },
       {
@@ -2453,7 +2456,6 @@
           "contact:postcode": "34000",
           "contact:street": "Avenue des États du Languedoc",
           "name": "La Panetière",
-          "ref:FR:SIRET": "90419765400026",
           "shop": "bakery"
         }
       },
@@ -2478,21 +2480,10 @@
         "lat": 43.6112919,
         "lon": 3.8667445,
         "tags": {
-          "addr:city": "Montpellier",
-          "addr:postcode": "34000",
-          "addr:street": "Boulevard des Arceaux",
-          "check_date": "2026-06-22",
-          "check_date:opening_hours": "2026-06-22",
           "name": "Paing",
-          "opening_hours": "Mo-Sa 07:30-19:00; Su 07:30-17:30",
           "organic": "yes",
-          "payment:cards": "yes",
-          "payment:cash": "yes",
-          "payment:coins": "yes",
-          "ref:FR:SIRET": "99171569900013",
           "shop": "bakery",
-          "website": "https://www.instagram.com/paing.boulangerie/",
-          "wheelchair": "yes"
+          "survey:date": "2026-05-26"
         }
       },
       {
@@ -2584,6 +2575,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-16T05:05:34.278Z",
+  "fetchedAt": "2026-08-17T05:54:23.214Z",
   "staleDataWarning": false
 }

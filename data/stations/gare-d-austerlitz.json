@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786856814776,
+      "timestamp": 1786946185165,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-21T07:42:59Z",
+      "timestamp_osm_base": "2026-06-01T08:52:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -350,6 +350,19 @@
         "tags": {
           "name": "Dhouailly et Cie",
           "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 530272893,
+        "lat": 48.8461626,
+        "lon": 2.3737208,
+        "tags": {
+          "check_date:opening_hours": "2025-07-05",
+          "name:signed": "no",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "50234606700015",
+          "shop": "bakery"
         }
       },
       {
@@ -477,14 +490,10 @@
         "lat": 48.8496025,
         "lon": 2.3784904,
         "tags": {
-          "check_date": "2026-06-14",
-          "check_date:opening_hours": "2026-06-14",
-          "contact:housenumber": "17",
-          "contact:street": "Rue d'Aligre",
+          "addr:housenumber": "17",
+          "addr:street": "Rue d'Aligre",
           "name": "Ounissi",
-          "opening_hours": "Tu-Su 06:30-21:30",
-          "phone": "+33 1 46 28 91 79",
-          "ref:FR-SIRET": "79867433900014",
+          "opening_hours": "Tu-Su 07:00-21:00",
           "shop": "bakery"
         }
       },
@@ -542,17 +551,10 @@
         "lat": 48.8465635,
         "lon": 2.3541816,
         "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "23",
-          "addr:postcode": "75005",
-          "addr:street": "Rue Jussieu",
-          "check_date": "2026-06-07",
           "check_date:opening_hours": "2024-04-26",
           "cuisine": "sandwich",
-          "name": "Atelier Jussieu",
-          "opening_hours": "Mo-Fr 06:30-20:00",
+          "name": "L'Escale Douceur",
           "opening_hours:signed": "no",
-          "phone": "+331 43 54 39 69",
           "shop": "bakery"
         }
       },
@@ -636,7 +638,6 @@
           "addr:housenumber": "61",
           "addr:postcode": "75003",
           "addr:street": "Boulevard Beaumarchais",
-          "check_date": "2026-06-06",
           "name": "Rapid'Market",
           "opening_hours": "PH,Mo-Su 12:00-02:00",
           "shop": "convenience",
@@ -913,25 +914,15 @@
         "lat": 48.855065,
         "lon": 2.3736566,
         "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "58",
-          "addr:postcode": "75011",
-          "addr:street": "Rue de la Roquette",
-          "books": "adults;children;comic",
           "contact:city": "Paris",
           "contact:housenumber": "58",
           "contact:phone": "+33 1 47 00 79 70",
           "contact:postcode": "75011",
           "contact:street": "Rue de la Roquette",
-          "contact:website": "https://www.librest.com/librairies/La-Manoeuvre.html",
+          "contact:website": "http://www.lamanoeuvre.com/",
           "description": "Librairie indépendante",
-          "internet_access": "no",
           "name": "La Manoeuvre",
-          "opening_hours": "Tu-Sa 10:30-20:00; Su 11:30-19:30",
-          "payment:american_express": "yes",
-          "payment:cash": "yes",
-          "payment:contactless": "yes",
-          "payment:credit_cards": "yes",
+          "opening_hours": "Tu-Sa 10:30-20:00; Su 15:00-20:00",
           "shop": "books",
           "wheelchair": "limited"
         }
@@ -2250,7 +2241,7 @@
           "contact:street": "Rue Poliveau",
           "name": "Sri Ram City",
           "not:name": "Alimentation",
-          "ref:FR:SIRET": "82334718200011",
+          "ref:FR:SIRET": "823 347 182 00011",
           "ref:vatin": "FR93823347182",
           "shop": "convenience",
           "start_date": "2016-10-25",
@@ -2526,8 +2517,8 @@
           "not:name": "La vie est belle",
           "opening_hours": "Mo-Sa 06:30-20:00; Su 06:30-18:00",
           "outdoor_seating": "yes",
-          "phone": "+33 9 79 21 06 59",
-          "ref:FR:SIRET": "92161760100015",
+          "phone": "+33 979210659",
+          "ref:FR:SIRET": "921 617 601 00015",
           "ref:vatin": "FR26 921 617 601",
           "shop": "bakery",
           "start_date": "2022-11-22",
@@ -2909,7 +2900,7 @@
         "lat": 48.8527156,
         "lon": 2.3606537,
         "tags": {
-          "check_date": "2026-06-13",
+          "check_date": "2024-01-23",
           "name": "Sur le fil de Paris",
           "opening_hours": "Th,Fr,Su-Tu 14:00-19:00; Sa 11:00-19:00; We off",
           "ref:FR:SIRET": "52862609600036",
@@ -2946,11 +2937,16 @@
         "lon": 2.3523193,
         "tags": {
           "addr:postcode": "75005",
+          "amenity": "cafe",
+          "diet:vegan": "yes",
           "email": "librairiemajo@gmail.com",
+          "indoor_seating": "yes",
           "level": "0",
           "lgbtq": "primary",
           "name": "Librairie Majo",
+          "old_name": "Century 21",
           "opening_hours": "Tu-Sa 10:00-19:00; Su 14:00-19:15",
+          "outdoor_seating": "no",
           "phone": "+33 9 86 16 96 94",
           "second_hand": "no",
           "shop": "books",
@@ -3058,11 +3054,6 @@
         "lat": 48.8565597,
         "lon": 2.3614911,
         "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "20",
-          "addr:postcode": "75004",
-          "addr:street": "Rue Malher",
-          "check_date": "2026-06-06",
           "contact:facebook": "Magasin.KIOKO.Alimentation.Japonaise",
           "cuisine": "japanese",
           "email": "marais@kioko.fr",
@@ -3070,8 +3061,7 @@
           "opening_hours": "Tu-Su 11:00-19:00",
           "phone": "+33 1 57 95 15 72",
           "shop": "convenience",
-          "website": "https://www.kioko.fr/pages/magasin-sake-marais",
-          "wheelchair": "yes"
+          "website": "https://www.kioko.fr/pages/magasin-sake-marais"
         }
       },
       {
@@ -3238,11 +3228,7 @@
         "lat": 48.8440849,
         "lon": 2.352513,
         "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "65",
-          "addr:postcode": "75005",
-          "addr:street": "Rue Monge",
-          "check_date": "2026-06-12",
+          "check_date": "2024-10-23",
           "contact:instagram": "librairielepetitruisseau",
           "contact:phone": "+33 1 43 37 05 64",
           "name": "Le Petit Ruisseau",
@@ -3403,7 +3389,7 @@
           "level": "0",
           "name": "Neo Mart",
           "opening_hours": "Mo-Su 11:00-21:00",
-          "phone": "+33 1 42 23 28 74",
+          "phone": "+33 142232874",
           "shop": "convenience",
           "wheelchair": "no"
         }
@@ -3443,8 +3429,7 @@
         "lat": 48.852484,
         "lon": 2.3545678,
         "tags": {
-          "check_date": "2026-06-14",
-          "name": "Le Prestige de l'alimentation",
+          "name": "Le Prestige de l'Alimentation",
           "opening_hours": "Mo,We-Su 08:00-22:00",
           "shop": "convenience"
         }
@@ -3481,10 +3466,17 @@
       },
       {
         "type": "node",
-        "id": 9780876694,
-        "lat": 48.8329433,
-        "lon": 2.3613627,
+        "id": 9658084688,
+        "lat": 48.839127,
+        "lon": 2.3507861,
         "tags": {
+          "check_date": "2024-08-24",
+          "contact:city": "Paris",
+          "contact:housenumber": "116",
+          "contact:phone": "+33 1 43 37 46 77",
+          "contact:postcode": "75005",
+          "contact:street": "Rue Monge",
+          "name": "Rapide Market",
           "shop": "convenience"
         }
       },
@@ -4142,7 +4134,6 @@
         "lat": 48.8521724,
         "lon": 2.3557741,
         "tags": {
-          "check_date": "2026-06-14",
           "name": "La Tradition de l'Île",
           "shop": "bakery"
         }
@@ -4189,33 +4180,6 @@
         "tags": {
           "name": "Asia Market",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13915145623,
-        "lat": 48.8519876,
-        "lon": 2.3672175,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "2bis",
-          "addr:postcode": "75004",
-          "addr:street": "Rue Jacques Cœur",
-          "check_date": "2026-06-06",
-          "shop": "convenience",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13929738193,
-        "lat": 48.8554689,
-        "lon": 2.3790833,
-        "tags": {
-          "level": "0",
-          "name": "Marché Basfroi",
-          "shop": "convenience",
-          "wheelchair": "yes"
         }
       },
       {
@@ -4627,7 +4591,7 @@
           "lon": 2.3692164
         },
         "tags": {
-          "check_date": "2026-06-13",
+          "check_date": "2026-02-13",
           "check_date:opening_hours": "2024-06-12",
           "noname": "yes",
           "opening_hours:signed": "no",
@@ -4782,12 +4746,11 @@
         },
         "tags": {
           "building": "yes",
-          "check_date": "2026-06-17",
           "shop": "kiosk"
         }
       }
     ]
   },
-  "fetchedAt": "2026-08-16T05:05:34.278Z",
+  "fetchedAt": "2026-08-17T05:54:23.214Z",
   "staleDataWarning": false
 }

@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786857302088,
+      "timestamp": 1786946805350,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-16T05:14:57Z",
+      "timestamp_osm_base": "2026-05-06T03:25:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -326,17 +326,26 @@
       },
       {
         "type": "node",
+        "id": 738042139,
+        "lat": 48.3856352,
+        "lon": -4.4887878,
+        "tags": {
+          "check_date": "2026-03-27",
+          "check_date:opening_hours": "2026-03-27",
+          "contact:website": "https://www.enracines-brest.fr",
+          "name": "Enracinés!",
+          "note": "cantine, marché, café",
+          "opening_hours": "We 10:00-22:00, Th,Fr 10:00-01:00, Sa 11:00-15:00, Mo,Tu 11:00-15:00",
+          "shop": "convenience",
+          "start_date": "2021-06-03"
+        }
+      },
+      {
+        "type": "node",
         "id": 738042146,
         "lat": 48.387246,
         "lon": -4.4858116,
         "tags": {
-          "contact:city": "Brest",
-          "contact:facebook": "https://www.facebook.com/p/Nektar-La-P%C3%A2tisserie-Par-Les-Jardins-Du-Prieur%C3%A9-100063565743411/",
-          "contact:housenumber": "13",
-          "contact:instagram": "https://www.instagram.com/nektarpatisserieboulangerie/",
-          "contact:postcode": "29200",
-          "contact:street": "Rue de Lyon",
-          "contact:website": "https://patisserie-nektar.fr/boutiques/",
           "name": "Nektar",
           "opening_hours": "Mo-Sa 07:00-19:00; Su 07:00-13:30",
           "ref:FR:SIRET": "83999632900018",
@@ -395,15 +404,11 @@
         "lon": -4.4814041,
         "tags": {
           "addr:city": "Brest",
-          "air_conditioning": "no",
-          "check_date": "2026-08-02",
-          "check_date:opening_hours": "2026-05-14",
+          "check_date:opening_hours": "2025-03-02",
           "indoor_seating": "no",
           "name": "La Fournée à Brest",
           "opening_hours": "Mo-Sa 07:30-19:30",
-          "organic": "yes",
           "outdoor_seating": "no",
-          "pastry_shop": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "ref:FR:SIRET": "79517679100015",
@@ -435,27 +440,13 @@
         "tags": {
           "addr:housenumber": "4",
           "addr:street": "Rue Duquesne",
-          "air_conditioning": "yes",
-          "check_date": "2026-08-02",
-          "contact:facebook": "113748237159",
-          "contact:instagram": "boulangerie.le.signor",
-          "contact:twitter": "boulangeriebio",
-          "email": "contact@boulangerie.bio",
-          "level": "0",
+          "cuisine": "vietnamese",
           "name": "Le Signor",
           "opening_hours": "Tu-Sa 07:30-19:00; Su 08:00-13:00",
-          "organic": "only",
-          "pastry_shop": "yes",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "phone": "+33 2 19 00 52 05",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIRET": "81300766300038",
           "shop": "bakery",
-          "source": "INSEE - 2026-01",
-          "website": "https://boulangerie.bio/",
-          "wheelchair": "yes"
+          "source": "INSEE - 2026-01"
         }
       },
       {
@@ -485,15 +476,6 @@
           "brand:wikidata": "Q3210704",
           "check_date": "2025-02-24",
           "check_date:opening_hours": "2025-02-24",
-          "contact:city": "Brest",
-          "contact:facebook": "https://www.facebook.com/lamiecalinebrest/",
-          "contact:housenumber": "5",
-          "contact:postcode": "29000",
-          "contact:street": "Place Saint-Louis",
-          "contact:website": "https://www.lamiecaline.com/boutiques/brest-saint-louis/",
-          "delivery": "yes",
-          "delivery:partner": "Uber Eats",
-          "delivery:partner:wikidata": "Q21462723",
           "name": "La Mie Câline",
           "opening_hours": "Mo-Fr 07:00-19:00; Sa,Su,PH 08:00-19:30",
           "ref:FR:SIRET": "48965703100014",
@@ -511,10 +493,8 @@
           "addr:city": "Brest",
           "addr:housenumber": "55",
           "addr:street": "Rue Joseph Le Frapper",
-          "check_date": "2026-08-02",
           "name": "Book Shop",
           "ref:FR:SIRET": "43137899100019",
-          "second_hand": "only",
           "shop": "books"
         }
       },
@@ -548,12 +528,10 @@
         "lat": 48.3865547,
         "lon": -4.4900038,
         "tags": {
-          "contact:city": "Brest",
-          "contact:facebook": "https://www.facebook.com/mademoisellechoubrest/",
-          "contact:housenumber": "33",
-          "contact:phone": "+33 2 98 43 55 28",
-          "contact:postcode": "29200",
-          "contact:street": "Rue d'Aiguillon",
+          "addr:city": "Brest",
+          "addr:housenumber": "33",
+          "addr:postcode": "29200",
+          "addr:street": "Rue d'Aiguillon",
           "name": "Mademoiselle Chou",
           "opening_hours": "Mo-Sa 07:00-19:00; Su 08:00-13:00",
           "ref:FR:SIRET": "84169975400013",
@@ -625,14 +603,12 @@
         "lat": 48.3916677,
         "lon": -4.4841205,
         "tags": {
-          "addr:housenumber": "2",
-          "addr:street": "Rue Jean Jaurès",
           "brand": "Brioche Dorée",
           "brand:website": "https://www.briochedoree.fr",
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche Dorée",
-          "check_date": "2026-08-01",
-          "check_date:opening_hours": "2026-06-03",
+          "check_date": "2025-04-02",
+          "check_date:opening_hours": "2025-04-02",
           "contact:phone": "+33 2 98 44 44 01",
           "name": "Brioche Dorée",
           "opening_hours": "Mo-Sa 08:00-19:00",
@@ -654,7 +630,6 @@
           "addr:housenumber": "1",
           "addr:postcode": "29200",
           "addr:street": "Place de la Liberté",
-          "air_conditioning": "yes",
           "check_date": "2025-02-20",
           "check_date:opening_hours": "2025-02-20",
           "name": "Les enfants de Dialogues",
@@ -671,7 +646,7 @@
         "lon": -4.4838658,
         "tags": {
           "name": "Le Fournil des provinces",
-          "opening_hours": "Mo-Su 06:30-19:30",
+          "opening_hours": "Mo-Su 06:30-21:00",
           "shop": "bakery"
         }
       },
@@ -681,12 +656,10 @@
         "lat": 48.3870575,
         "lon": -4.4901664,
         "tags": {
-          "addr:street": "Rue de Siam",
-          "air_conditioning": "yes",
           "amenity": "fast_food",
           "brand": "Brioche Dorée",
           "brand:wikidata": "Q2925606",
-          "check_date": "2026-06-07",
+          "check_date": "2024-08-23",
           "name": "Brioche Dorée",
           "opening_hours": "Mo-Sa 08:00-19:00",
           "phone": "+33 2 98 44 25 78",
@@ -769,10 +742,6 @@
         "lat": 48.3875628,
         "lon": -4.4878568,
         "tags": {
-          "addr:city": "Brest",
-          "addr:housenumber": "4",
-          "addr:postcode": "29200",
-          "addr:street": "Rue Colonel Picot",
           "check_date:opening_hours": "2026-04-30",
           "name": "Ravito (épicerie, boutique, bar)",
           "note": "https://actu.fr/bretagne/brest_29019/boutique-epicerie-et-bar-ravito-un-lieu-pour-les-bons-vivants-dans-le-centre-ville-de-brest_62702922.html",
@@ -788,12 +757,11 @@
         "lat": 48.3938049,
         "lon": -4.4816486,
         "tags": {
-          "check_date:opening_hours": "2026-05-30",
+          "check_date:opening_hours": "2025-03-02",
           "contact:housenumber": "4",
           "contact:street": "Rue Monseigneur Graveran",
           "name": "La Nouvelle Culture",
-          "opening_hours": "Mo-Sa 10:00-19:00",
-          "opening_hours:signed": "yes",
+          "opening_hours:signed": "no",
           "phone": "+33 2 98 43 35 58",
           "ref:FR:SIRET": "33408120500026",
           "shop": "books"
@@ -984,7 +952,7 @@
         "lon": -4.4781194,
         "tags": {
           "name": "Saint Martin",
-          "opening_hours": "Tu-Th 10:00-20:00; Fr 10:00-13:00,15:00-20:00; Sa,Su 09:00-20:00",
+          "opening_hours": "Tu-Th 10:00-20:00; Fr 10:00-13:00,15:00-20:00; Sa,Su 10:00-20:00",
           "ref:FR:SIRET": "88443891200013",
           "shop": "convenience"
         }
@@ -995,10 +963,9 @@
         "lat": 48.3952222,
         "lon": -4.4785524,
         "tags": {
-          "check_date:opening_hours": "2026-05-30",
+          "check_date:opening_hours": "2024-09-03",
           "name": "Kito exotique",
-          "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-19:00",
-          "opening_hours:signed": "yes",
+          "opening_hours:signed": "no",
           "ref:FR:SIRET": "81976138800050",
           "shop": "convenience"
         }
@@ -1023,14 +990,17 @@
       },
       {
         "type": "node",
-        "id": 11210950966,
-        "lat": 48.4000126,
-        "lon": -4.4712593,
+        "id": 11210950965,
+        "lat": 48.3999658,
+        "lon": -4.4713318,
         "tags": {
-          "check_date:opening_hours": "2025-02-19",
-          "name": "Damas Market",
-          "opening_hours:signed": "no",
-          "ref:FR:SIRET": "92295379900017",
+          "description": "Alimentation Générale Libanaise - Syrienne",
+          "name": "Damas  market",
+          "opening_hours": "Mo-Fr 10:30-13:00,14:30-19:30; Su 14:30-18:30",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33986666253",
+          "ref:FR:SIRET": "84375312000016",
           "shop": "convenience"
         }
       },
@@ -1183,6 +1153,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-16T05:05:34.278Z",
+  "fetchedAt": "2026-08-17T05:54:23.214Z",
   "staleDataWarning": false
 }

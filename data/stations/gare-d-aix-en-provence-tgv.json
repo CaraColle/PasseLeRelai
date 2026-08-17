@@ -157,7 +157,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786857297597,
+      "timestamp": 1786946683267,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -186,7 +186,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-16T05:14:57Z",
+      "timestamp_osm_base": "2026-05-06T03:25:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -198,17 +198,11 @@
           "lon": 5.3168922
         },
         "tags": {
-          "amenity": "fast_food",
           "brand": "Prêt à Manger",
-          "brand:wikidata": "Q2109109",
-          "brand:wikipedia": "fr:Pret A Manger",
-          "cuisine": "sandwich",
-          "diet:vegetarian": "yes",
           "indoor": "room",
           "level": "0",
           "opening_hours": "Mo-Fr 05:00-21:00; Sa,Su 06:00-21:00; PH 06:00-21:30",
-          "shop": "bakery",
-          "takeaway": "yes"
+          "shop": "bakery"
         }
       },
       {
@@ -220,7 +214,6 @@
         },
         "tags": {
           "baby_feeding": "no",
-          "check_date": "2026-06-19",
           "indoor": "room",
           "level": "1",
           "name": "Bo&Mie",
@@ -231,6 +224,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-16T05:05:34.278Z",
+  "fetchedAt": "2026-08-17T05:54:23.214Z",
   "staleDataWarning": false
 }

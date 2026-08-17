@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786857369879,
+      "timestamp": 1786946876423,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-05-06T03:25:00Z",
+      "timestamp_osm_base": "2026-07-15T15:22:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -361,6 +361,7 @@
           "name": "Spar",
           "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-20:00",
           "phone": "+33 3 22 43 19 85",
+          "ref:FR:SIRET": "89890750600015",
           "shop": "convenience",
           "website": "https://magasins.spar.fr/fr/s/spar-amiens-beauville"
         }
@@ -392,6 +393,7 @@
           "contact:website": "http://www.librairiemartelle.com/",
           "name": "Librairie Martelle",
           "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "30107378900010",
           "shop": "books",
           "survey:date": "2025-12-19"
         }
@@ -583,6 +585,7 @@
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "phone": "+33 3 22 95 65 60",
+          "ref:FR:SIRET": "90111010600019",
           "shop": "bakery",
           "wheelchair": "yes"
         }
@@ -625,6 +628,7 @@
         "lon": 2.31105,
         "tags": {
           "name": "ZAC Exotique",
+          "ref:FR:SIRET": "49502168500013",
           "shop": "convenience"
         }
       },
@@ -767,7 +771,6 @@
           "name": "Les Saveurs du Pain",
           "opening_hours": "Mo-Su 06:30-21:00",
           "payment:apple_pay": "yes",
-          "payment:cash": "yes",
           "payment:coins": "yes",
           "payment:contactless": "yes",
           "payment:credit_cards": "yes",
@@ -803,6 +806,7 @@
           "contact:street": "Rue Saint-Leu",
           "contact:website": "https://www.instagram.com/librairiealeatoire/",
           "name": "Librairie Aléatoire",
+          "ref:FR:SIRET": "49954163900013",
           "shop": "books"
         }
       },
@@ -866,6 +870,7 @@
           "name": "La Pétrie",
           "opening_hours": "Mo-Sa 07:00-19:30",
           "organic": "yes",
+          "ref:FR:SIRET": "82194774400016",
           "shop": "bakery"
         }
       },
@@ -880,6 +885,7 @@
           "name": "Tradition du Pain",
           "opening_hours": "Mo-Su 07:00-20:00",
           "phone": "+33 7 83 61 51 52",
+          "ref:FR:SIRET": "88757807800024",
           "shop": "bakery"
         }
       },
@@ -948,6 +954,7 @@
           "name": "Supermarché G20",
           "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-19:00",
           "phone": "+33 3 22 52 13 05",
+          "ref:FR:SIRET": "81395303100016",
           "shop": "convenience",
           "website": "https://www.supermarchesg20.com/"
         }
@@ -1082,6 +1089,7 @@
           "name": "La Croustillante",
           "opening_hours": "Mo-Fr 07:00-19:30; Sa 07:00-19:00; Su off",
           "phone": "+33 3 22 42 24 14",
+          "ref:FR:SIRET": "48317512100019",
           "shop": "bakery",
           "website": "https://www.facebook.com/p/La-Croustillante-100063591460693/?locale=fr_FR"
         }
@@ -1118,6 +1126,7 @@
           "payment:cash": "yes",
           "payment:coins": "yes",
           "phone": "+33 7 58 29 06 75",
+          "ref:FR:SIRET": "10108854000014",
           "shop": "bakery"
         }
       },
@@ -1177,6 +1186,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-16T05:05:34.278Z",
+  "fetchedAt": "2026-08-17T05:54:23.214Z",
   "staleDataWarning": false
 }
