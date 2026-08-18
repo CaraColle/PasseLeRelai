@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786946510009,
+      "timestamp": 1787030492923,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-08-18T05:21:42Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -344,9 +344,10 @@
         "lat": 45.1867193,
         "lon": 5.7236654,
         "tags": {
-          "addr:housenumber": "6",
-          "addr:street": "Rue Lakanal",
+          "check_date": "2026-07-07",
           "contact:facebook": "https://www.facebook.com/lesmodernes",
+          "contact:housenumber": "6",
+          "contact:street": "Rue Lakanal",
           "name": "Les Modernes",
           "opening_hours": "Tu-Sa 10:00-13:00,14:00-19:00",
           "phone": "+33 4 76 27 41 50",
@@ -365,7 +366,7 @@
         "lon": 5.7204375,
         "tags": {
           "bulk_purchase": "only",
-          "check_date": "2025-12-06",
+          "check_date": "2026-07-07",
           "contact:city": "Grenoble",
           "contact:housenumber": "5",
           "contact:postcode": "38000",
@@ -409,7 +410,7 @@
         "lat": 45.1852283,
         "lon": 5.7199949,
         "tags": {
-          "check_date": "2023-07-08",
+          "check_date": "2026-07-07",
           "name": "Épicerie Plus",
           "opening_hours": "Mo-Su 10:00-13:00,16:00-22:00",
           "ref:FR:SIRET": "43377789300010",
@@ -455,7 +456,7 @@
           "addr:street": "Place Championnet",
           "brand": "La Talemelerie",
           "brand:wikidata": "Q130214384",
-          "check_date": "2025-06-25",
+          "check_date": "2026-07-07",
           "email": "contact@latalemelerie.com",
           "indoor_seating": "no",
           "name": "La Talemelerie",
@@ -586,6 +587,9 @@
         "tags": {
           "addr:housenumber": "11",
           "addr:street": "Rue de Stalingrad",
+          "brand": "La Talemelerie",
+          "brand:wikidata": "Q130214384",
+          "check_date": "2026-06-17",
           "check_date:opening_hours": "2026-05-07",
           "email": "contact@latalemelerie.com",
           "indoor_seating": "no",
@@ -630,15 +634,10 @@
           "addr:housenumber": "9",
           "addr:postcode": "38000",
           "addr:street": "Boulevard Agutte Sembat",
-          "check_date": "2025-05-02",
-          "name": "Le livre voyageur",
+          "name": "La Bouqinerie",
           "opening_hours": "Tu-Sa 11:00-18:00",
-          "phone": "+33 4 76 46 15 32",
-          "ref:FR:SIRET": "89077077900019",
-          "second_hand": "yes",
           "shop": "books",
-          "source": "survey",
-          "wheelchair": "limited"
+          "source": "survey"
         }
       },
       {
@@ -758,7 +757,7 @@
         "lat": 45.1875256,
         "lon": 5.7212638,
         "tags": {
-          "check_date": "2025-12-06",
+          "check_date": "2026-07-07",
           "check_date:opening_hours": "2025-12-06",
           "name": "Renaissance",
           "old_name": "À Fleur de Peau",
@@ -776,7 +775,7 @@
         "lat": 45.1876816,
         "lon": 5.7213691,
         "tags": {
-          "check_date": "2026-02-18",
+          "check_date": "2026-07-07",
           "name": "Épicerie Bulgare",
           "old_name": "Herboristerie Au Temps des Fées",
           "opening_hours": "09:00-20:00",
@@ -796,7 +795,6 @@
           "opening_hours": "Mo-Su 06:00-21:00",
           "opening_hours:signed": "no",
           "panoramax": "11aca2bc-b84d-4412-b3e0-091daea5677e",
-          "ref:FR:SIRET": "84067539100014",
           "shop": "bakery"
         }
       },
@@ -881,6 +879,8 @@
           "addr:housenumber": "44",
           "addr:postcode": "38000",
           "addr:street": "Avenue Alsace Lorraine",
+          "brand": "La Talemelerie",
+          "brand:wikidata": "Q130214384",
           "check_date": "2026-02-12",
           "diet:vegan": "yes",
           "diet:vegetarian": "yes",
@@ -985,7 +985,7 @@
           "level": "0",
           "name": "Épicerie des Alpes",
           "opening_hours": "Mo-Th 08:45-13:30, 15:00-19:45; Fr 08:45-12:00, 14:30-19:45; Sa, Su 09:00-13:30, 15:00-19:45",
-          "ref:FR:SIRET": "91453540600013",
+          "ref:FR:SIRET": "93920266900015",
           "shop": "convenience",
           "wheelchair": "no"
         }
@@ -1073,7 +1073,7 @@
           "check_date:opening_hours": "2023-09-01",
           "name": "Les Jardins du Marché",
           "opening_hours:signed": "no",
-          "ref:FR:SIRET": "89435244200012",
+          "ref:FR:SIRET": "99028329300019",
           "shop": "convenience",
           "wheelchair": "limited"
         }
@@ -1097,15 +1097,12 @@
         "lat": 45.1845205,
         "lon": 5.7207637,
         "tags": {
-          "addr:city": "Grenoble",
-          "addr:country": "FR",
-          "addr:housenumber": "1",
-          "addr:postcode": "38000",
-          "addr:street": "Place Jacqueline Marval",
           "check_date": "2025-12-06",
+          "contact:housenumber": "1",
+          "contact:street": "Place Jacqueline Marval",
           "email": "epicerie@locavore.fr",
           "name": "Épicerie Locavore",
-          "opening_hours": "Tu-Fr 09:00-12:30,16:00-20:00; Sa-Su 16:00-20:00",
+          "opening_hours": "Tu-Sa 09:30-13:00,15:00-19:00",
           "operator": "Isabelle LEGE",
           "payment:credit_cards": "yes",
           "phone": "+33 6 88 68 74 83",
@@ -1158,18 +1155,12 @@
       },
       {
         "type": "node",
-        "id": 2340433372,
-        "lat": 45.1898378,
-        "lon": 5.7206935,
+        "id": 2344376426,
+        "lat": 45.1913829,
+        "lon": 5.7209212,
         "tags": {
-          "check_date": "2025-01-17",
-          "name": "Un coin de Roumanie",
-          "opening_hours": "Tu-Sa 10:00-13:00,14:30-19:30; Su 09:00-14:00",
-          "ref:FR:SIRET": "82061369300010",
           "shop": "convenience",
-          "source": "survey",
-          "survey:date": "2019-10-05",
-          "wheelchair": "no"
+          "source": "survey"
         }
       },
       {
@@ -1190,7 +1181,8 @@
         "lat": 45.1911082,
         "lon": 5.7247602,
         "tags": {
-          "check_date": "2023-06-16",
+          "check_date": "2026-07-11",
+          "contact:website": "https://ozenya.fr/",
           "cuisine": "japanese",
           "name": "Ozenya",
           "opening_hours": "Mo,Tu 11:00-17:30; Th-Sa 11:00-19:00",
@@ -1208,7 +1200,7 @@
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "en:Système U",
-          "check_date": "2025-11-15",
+          "check_date": "2026-07-08",
           "name": "Utile",
           "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-13:00",
           "payment:cash": "yes",
@@ -1226,7 +1218,7 @@
         "lat": 45.1902641,
         "lon": 5.7216665,
         "tags": {
-          "check_date:opening_hours": "2023-08-24",
+          "check_date:opening_hours": "2026-07-25",
           "name": "PopShop",
           "opening_hours:signed": "no",
           "shop": "convenience"
@@ -1238,7 +1230,11 @@
         "lat": 45.1910552,
         "lon": 5.7223834,
         "tags": {
+          "check_date": "2026-07-08",
+          "contact:phone": "+33476475429",
+          "contact:website": "https://www.lor-du-temps.com/",
           "name": "L'or du temps",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
           "ref:FR:SIRET": "53381372100024",
           "shop": "books",
           "source": "survey"
@@ -1250,7 +1246,7 @@
         "lat": 45.1900259,
         "lon": 5.7222636,
         "tags": {
-          "check_date": "2025-11-15",
+          "check_date": "2026-07-08",
           "name": "Librairie Chrétienne",
           "ref:FR:SIRET": "77557197900118",
           "shop": "books",
@@ -1264,14 +1260,12 @@
         "lat": 45.1880511,
         "lon": 5.723818,
         "tags": {
-          "addr:city": "Grenoble",
-          "addr:housenumber": "4",
-          "addr:postcode": "38000",
-          "addr:street": "Rue Béranger",
           "brand": "Gibert Joseph",
           "brand:wikidata": "Q3105347",
           "brand:wikipedia": "fr:Gibert Joseph",
-          "check_date": "2026-04-21",
+          "check_date": "2026-07-08",
+          "contact:housenumber": "4",
+          "contact:street": "Rue Béranger",
           "description": "Romans, papeterie",
           "email": "universitaire.grenoble@gibertjoseph.com",
           "name": "Gibert Joseph",
@@ -1289,12 +1283,10 @@
         "lat": 45.1881592,
         "lon": 5.7240739,
         "tags": {
-          "addr:city": "Grenoble",
-          "addr:housenumber": "2",
-          "addr:postcode": "38000",
-          "addr:street": "Rue Béranger",
-          "check_date": "2024-09-18",
+          "check_date": "2026-07-08",
           "check_date:opening_hours": "2024-09-18",
+          "contact:housenumber": "2",
+          "contact:street": "Rue Béranger",
           "name": "Maison Floran",
           "opening_hours": "Mo-Sa 07:00-19:45; Su off",
           "pastry": "yes",
@@ -1373,12 +1365,12 @@
         "lat": 45.1882522,
         "lon": 5.7252797,
         "tags": {
-          "addr:floor": "0",
-          "addr:housenumber": "4",
-          "addr:street": "Rue Paul Bert",
           "amenity": "cafe",
-          "check_date": "2025-08-21",
+          "check_date": "2026-07-08",
+          "contact:floor": "0",
+          "contact:housenumber": "4",
           "contact:instagram": "https://www.instagram.com/ogygie_librairie_cafe/",
+          "contact:street": "Rue Paul Bert",
           "drive_through": "no",
           "highchair": "no",
           "internet_access": "wlan",
@@ -1398,15 +1390,13 @@
       {
         "type": "node",
         "id": 2415879881,
-        "lat": 45.1880104,
-        "lon": 5.7253841,
+        "lat": 45.1880147,
+        "lon": 5.7255055,
         "tags": {
-          "addr:city": "Grenoble",
-          "addr:housenumber": "6",
-          "addr:postcode": "38000",
-          "addr:street": "Cours Lafontaine",
           "bulk_purchase": "yes",
-          "check_date": "2026-04-21",
+          "check_date": "2026-07-08",
+          "contact:housenumber": "6",
+          "contact:street": "Cours Lafontaine",
           "name": "L'Eau Vive",
           "opening_hours": "Mo-Sa 08:30-19:30; Su 08:30-13:00",
           "operator": "L'Eau Vive",
@@ -1462,8 +1452,10 @@
           "contact:facebook": "lehabertdupain",
           "contact:instagram": "lehabertdupain",
           "description": "Boulangerie coopérative autogérée (SCOP) spécialisée dans la fabrication de pain au levain naturel.",
+          "indoor_seating": "no",
           "name": "Le habert du pain",
           "opening_hours": "Mo 14:30-19:00; Tu-Fr 10:30-19:00; Sa 08:30-19:00",
+          "outdoor_seating": "no",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "phone": "+33 4 76 88 62 41",
@@ -1471,6 +1463,7 @@
           "shop": "bakery",
           "source": "survey",
           "survey:date": "2024-08-23",
+          "takeaway": "only",
           "website": "https://lehabertdupain.fr/"
         }
       },
@@ -1516,12 +1509,12 @@
           "addr:housenumber": "5",
           "addr:postcode": "38000",
           "addr:street": "Rue Ampère",
-          "check_date": "2026-01-24",
-          "check_date:opening_hours": "2025-06-20",
+          "check_date": "2026-08-08",
+          "check_date:opening_hours": "2026-08-08",
           "contact:phone": "+33 4 76 09 76 09",
           "indoor_seating": "yes",
           "name": "Maison Lenoir",
-          "opening_hours": "Mo-Sa 06:30-20:00, Su 07:00-19:00",
+          "opening_hours": "Mo-Sa 06:30-20:00; Su 07:00-19:00",
           "outdoor_seating": "no",
           "panoramax": "81f23755-b14d-4e64-af73-dac9ceea456a",
           "payment:cash": "yes",
@@ -1530,6 +1523,7 @@
           "ref:FR:SIRET": "75089220000015",
           "shop": "bakery",
           "source": "survey",
+          "website": "https://boulangerie-patisserie-lenoir.com/",
           "wheelchair": "yes"
         }
       },
@@ -1539,7 +1533,8 @@
         "lat": 45.1873284,
         "lon": 5.7276365,
         "tags": {
-          "check_date": "2024-10-27",
+          "check_date": "2026-06-20",
+          "check_date:opening_hours": "2026-06-20",
           "name": "Alimentation Générale Lesdiguières",
           "opening_hours": "Mo-Th,Su 09:00-23:00; Fr-Sa 09:00-24:00",
           "shop": "convenience",
@@ -1656,7 +1651,7 @@
           "brand": "Gibert Joseph",
           "brand:wikidata": "Q3105347",
           "brand:wikipedia": "fr:Gibert Joseph",
-          "check_date": "2026-03-21",
+          "check_date": "2026-07-07",
           "check_date:opening_hours": "2026-03-21",
           "contact:city": "Grenoble",
           "contact:housenumber": "5",
@@ -1707,11 +1702,11 @@
         "lon": 5.7228208,
         "tags": {
           "automatic_door": "yes",
-          "check_date": "2026-04-21",
-          "check_date:opening_hours": "2026-04-19",
+          "check_date": "2026-06-27",
+          "check_date:opening_hours": "2026-06-27",
           "contact:facebook": "https://www.facebook.com/boulangerie38grenoble/?locale=fr_FR",
           "name": "Du Pain sur la Planche",
-          "opening_hours": "Mo-Sa 07:00-19:30; PH 07:00-13:00; Su, Dec 25,Jan 01 off",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su off; PH 07:00-13:00; Dec 25, Jan 01 off",
           "pastry": "yes",
           "phone": "+33476479471",
           "ref:FR:SIRET": "75264938400019",
@@ -1740,7 +1735,7 @@
         "lat": 45.1865098,
         "lon": 5.7221919,
         "tags": {
-          "check_date": "2026-03-05",
+          "check_date": "2026-07-07",
           "check_date:opening_hours": "2026-03-05",
           "name": "Nunc !",
           "opening_hours": "Tu-Sa 14:00-18:00",
@@ -1769,7 +1764,7 @@
           "internet_access": "no",
           "level": "0",
           "name": "La Bonne Pioche",
-          "opening_hours": "Mo-Fr 9:00-19:30; Sa 9:00-19:00",
+          "opening_hours": "Mo-Fr 09:00-19:30; Sa 09:00-19:00",
           "operator": "SCOP La Bonne Pioche",
           "organic": "yes",
           "payment:cash": "yes",
@@ -1795,23 +1790,10 @@
           "check_date": "2025-02-10",
           "name": "Alimentation Générale",
           "opening_hours": "PH,Mo-Su 10:00-01:00",
-          "ref:FR:SIRET": "83027996400019",
+          "ref:FR:SIRET": "10287967300014",
           "shop": "convenience",
           "source": "survey",
           "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3069782536,
-        "lat": 45.184796,
-        "lon": 5.7217585,
-        "tags": {
-          "check_date": "2023-07-08",
-          "name": "Le Monde sur votre Table",
-          "opening_hours": "Tu-Sa 09:00-12:00,15:00-19:00",
-          "shop": "convenience",
-          "source": "survey"
         }
       },
       {
@@ -1820,10 +1802,9 @@
         "lat": 45.184826,
         "lon": 5.7217971,
         "tags": {
-          "addr:city": "Grenoble",
-          "addr:housenumber": "3",
-          "addr:postcode": "38000",
-          "addr:street": "Rue de Turenne",
+          "check_date": "2026-07-07",
+          "contact:housenumber": "3",
+          "contact:street": "Rue de Turenne",
           "name": "Épicerie Arax",
           "opening_hours": "Tu-Sa 09:00-12:00, 15:00-19:00",
           "phone": "+33 4 76 87 23 37",
@@ -1839,16 +1820,16 @@
         "lat": 45.1845795,
         "lon": 5.719567,
         "tags": {
-          "addr:city": "Grenoble",
-          "addr:housenumber": "51",
-          "addr:postcode": "38000",
-          "addr:street": "Rue Thiers",
+          "check_date": "2026-07-07",
           "contact:email": "lacabanedesrenards@gmail.com",
+          "contact:housenumber": "51",
           "contact:instagram": "lacabanedesrenards",
           "contact:phone": "+33 9 87 65 50 07",
+          "contact:street": "Rue Thiers",
+          "contact:website": "https://www.lacabanedesrenards.com/",
           "description": "Librairie et Jeux",
           "name": "La Cabane des Renards",
-          "opening_hours": "Mo,Tu,Th,Fr 10:00-13:00, We 14:30-18:30, Sa 10:00-12:30, Mo,Tu,Th,Fr 14:30-18:30",
+          "opening_hours": "Tu-Sa 10:00-13:00,14:30-18:30; Sa 10:00-12:00,15:00-18:30",
           "ref:FR:SIRET": "97915419200012",
           "shop": "books",
           "source": "survey"
@@ -1864,29 +1845,6 @@
           "name": "Le magasin Elioss",
           "ref:FR:SIRET": "89961058800043",
           "shop": "convenience",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3415688730,
-        "lat": 45.1912092,
-        "lon": 5.7106324,
-        "tags": {
-          "addr:city": "Grenoble",
-          "addr:floor": "0",
-          "addr:housenumber": "2",
-          "addr:street": "Rue du Vercors",
-          "bulk_purchase": "yes",
-          "check_date": "2025-05-31",
-          "level": "0",
-          "name": "Épicerie BG, Bio & Gourmande",
-          "opening_hours": "Mo-Fr 15:00-20:00; Sa-Su off",
-          "organic": "only",
-          "ref:FR:SIRET": "85394110200040",
-          "shop": "convenience",
-          "source": "survey",
-          "start_date": "2025-05-15",
           "wheelchair": "no"
         }
       },
@@ -1926,9 +1884,10 @@
           "branch": "Grenoble Vercors",
           "brand": "Vival",
           "brand:wikidata": "Q7937525",
-          "check_date": "2025-10-25",
+          "check_date": "2026-06-03",
+          "check_date:opening_hours": "2026-06-03",
           "name": "Vival",
-          "opening_hours": "Mo-Sa 08:00-19:00; Su 08:00-12:30,16:00-19:00",
+          "opening_hours": "Mo-Su 07:30-23:00",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -1969,6 +1928,7 @@
           "addr:housenumber": "98",
           "addr:postcode": "38000",
           "addr:street": "Cours Jean Jaurès",
+          "air_conditioning": "yes",
           "indoor_seating": "yes",
           "level": "0",
           "name": "Maison Manival",
@@ -2029,21 +1989,6 @@
       },
       {
         "type": "node",
-        "id": 4504149194,
-        "lat": 45.1818435,
-        "lon": 5.717255,
-        "tags": {
-          "check_date": "2025-09-28",
-          "name": "La Momposina",
-          "opening_hours": "Tu-Fr 10:00-13:00,15:00-19:00; Sa 10:00-19:00",
-          "origin": "latin_american",
-          "ref:FR:SIRET": "89884765200010",
-          "shop": "convenience",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 4508677793,
         "lat": 45.1803553,
         "lon": 5.7105785,
@@ -2093,18 +2038,6 @@
       },
       {
         "type": "node",
-        "id": 4510497690,
-        "lat": 45.1824286,
-        "lon": 5.7168584,
-        "tags": {
-          "name": "Sud Market 38",
-          "opening_hours": "Mo-Su 08:00-22:00",
-          "ref:FR:SIRET": "83281034500013",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 4510497691,
         "lat": 45.1834396,
         "lon": 5.7171923,
@@ -2112,7 +2045,7 @@
           "check_date": "2025-07-24",
           "name": "Night Store",
           "opening_hours": "Tu-Sa 18:00-05:30, Su 14:00-05:00",
-          "ref:FR:SIRET": "80864598000018",
+          "ref:FR:SIRET": "92747497300017",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -2170,15 +2103,18 @@
         "lat": 45.1784524,
         "lon": 5.705516,
         "tags": {
+          "addr:housenumber": "13",
+          "addr:street": "Avenue Rhin et Danube",
           "automatic_door": "yes",
           "check_date": "2026-03-08",
           "level": "0",
           "name": "Maison Lenoir",
-          "opening_hours": "Mo-Fr 06:30-19:30; Sa,Su 07:00-13:30",
+          "opening_hours": "Mo-Fr 06:30-19:30; Sa-Su 07:00-19:00",
           "pastry": "yes",
           "phone": "+33476498068",
           "ref:FR:SIRET": "75089220000023",
           "shop": "bakery",
+          "website": "https://boulangerie-patisserie-lenoir.com/",
           "wheelchair": "yes"
         }
       },
@@ -2249,8 +2185,8 @@
           "addr:housenumber": "14",
           "addr:street": "Rue des Eaux Claires",
           "automatic_door": "motion",
-          "check_date": "2025-03-22",
-          "check_date:opening_hours": "2025-03-22",
+          "check_date": "2026-06-02",
+          "check_date:opening_hours": "2026-06-02",
           "indoor_seating": "yes",
           "name": "Les Délices de Sébastien",
           "opening_hours": "Tu-Sa 06:00-19:30; Su 06:00-13:00",
@@ -2376,7 +2312,7 @@
         "tags": {
           "check_date": "2024-12-07",
           "check_date:opening_hours": "2024-12-07",
-          "name": "H. D Alimentation",
+          "name": "Mémoué Market",
           "opening_hours": "Mo-Sa 10:00-19:00",
           "shop": "convenience",
           "wheelchair": "no"
@@ -2495,7 +2431,7 @@
         "lat": 45.1913034,
         "lon": 5.7259365,
         "tags": {
-          "check_date": "2025-05-08",
+          "check_date": "2026-07-08",
           "check_date:opening_hours": "2025-05-08",
           "contact:instagram": "leptifournil__grenoble",
           "indoor_seating": "no",
@@ -2541,7 +2477,7 @@
         "lat": 45.191304,
         "lon": 5.7256778,
         "tags": {
-          "check_date": "2025-05-08",
+          "check_date": "2026-07-08",
           "check_date:opening_hours": "2025-05-08",
           "name": "La Caverne",
           "opening_hours": "Tu-Sa 09:30-19:00",
@@ -2558,8 +2494,10 @@
         "tags": {
           "check_date": "2026-02-16",
           "check_date:opening_hours": "2024-05-08",
+          "indoor_seating": "yes",
           "name": "85",
           "opening_hours:signed": "no",
+          "outdoor_seating": "no",
           "panoramax": "8385e214-63a2-4cf0-ac0a-5f86bf22fb95",
           "pastry_shop": "yes",
           "shop": "bakery",
@@ -2608,6 +2546,7 @@
           "addr:floor": "0",
           "check_date": "2024-09-21",
           "check_date:opening_hours": "2024-09-07",
+          "contact:website": "https://kinglongstore168.fr/",
           "currency:EUR": "yes",
           "level": "0",
           "name": "King Long Store",
@@ -2674,6 +2613,7 @@
         "lat": 45.189233,
         "lon": 5.720455,
         "tags": {
+          "air_conditioning": "yes",
           "amenity": "cafe",
           "check_date": "2026-04-21",
           "contact:facebook": "100085509424995",
@@ -2767,8 +2707,9 @@
         "lat": 45.1884444,
         "lon": 5.7234452,
         "tags": {
+          "air_conditioning": "no",
           "books": "comic;comics",
-          "check_date": "2025-05-20",
+          "check_date": "2026-07-08",
           "name": "Phénix",
           "opening_hours": "Mo-Sa 09:00-19:00",
           "payment:credit_cards": "yes",
@@ -2820,23 +2761,12 @@
       },
       {
         "type": "node",
-        "id": 13189064273,
-        "lat": 45.1895906,
-        "lon": 5.7180934,
-        "tags": {
-          "check_date": "2026-04-21",
-          "fixme": "a l'air fermé",
-          "name": "Punjabi Market",
-          "ref:FR:SIRET": "47837688200047",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 13243195963,
         "lat": 45.1813156,
         "lon": 5.7265987,
         "tags": {
+          "brand": "TotalEnergies",
+          "brand:wikidata": "Q154037",
           "name": "TotalEnergies",
           "ref:FR:SIRET": "88389572400028",
           "shop": "convenience",
@@ -2872,7 +2802,6 @@
           "level": "0",
           "name": "AFMA",
           "phone": "+33 9 86 53 26 55; +33 6 28 55 27 46",
-          "ref:FR:SIRET": "48908231300011",
           "shop": "convenience",
           "wheelchair": "limited"
         }
@@ -2904,6 +2833,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-17T05:54:23.214Z",
+  "fetchedAt": "2026-08-18T05:16:21.537Z",
   "staleDataWarning": false
 }

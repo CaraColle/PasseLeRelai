@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786946944562,
+      "timestamp": 1787030704864,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-05-06T03:25:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -911,7 +911,7 @@
         "lat": 49.1824024,
         "lon": -0.3620795,
         "tags": {
-          "check_date": "2026-05-09",
+          "check_date": "2024-04-01",
           "contact:housenumber": "104",
           "contact:street": "Boulevard Maréchal Leclerc",
           "email": "contact@lamaisonflorent.fr",
@@ -1246,7 +1246,6 @@
           "contact:housenumber": "186",
           "contact:street": "Rue d'Auge",
           "name": "Grâce de Dieu",
-          "note": "Semble fermé (bâches noirs à l'intérieur au 2026-01-18)",
           "phone": "+33 2 31 83 79 18",
           "ref:FR:SIRET": "83132056900039",
           "shop": "convenience"
@@ -1261,8 +1260,8 @@
           "contact:facebook": "https://www.facebook.com/p/Les-Saveurs-Normandes-100069764854574/",
           "contact:housenumber": "56",
           "contact:street": "Avenue Capitaine Georges Guynemer",
-          "name": "Carrément Gourmand",
-          "opening_hours": "Tu-Sa 07:00-19:00; Su 07:30-12:30",
+          "name": "Les Saveurs Normandes",
+          "opening_hours": "Tu-Sa 00:30-19:30; Su 07:00-13:00",
           "phone": "+33 2 31 52 00 72",
           "ref:FR:SIRET": "93135497100018",
           "shop": "bakery",
@@ -1389,34 +1388,9 @@
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
           "website": "https://store.totalenergies.fr/en_EN/NF078237"
         }
-      },
-      {
-        "type": "way",
-        "id": 224884256,
-        "center": {
-          "lat": 49.1775337,
-          "lon": -0.350888
-        },
-        "tags": {
-          "building": "yes",
-          "contact:city": "Caen",
-          "contact:facebook": "https://www.facebook.com/people/Saperlotte/61568159767490/",
-          "contact:instagram": "saperlotte.librairiesolidaire",
-          "contact:postcode": "14000",
-          "contact:street": "Les Rives de l'Orne",
-          "disused:shop": "clothes",
-          "email": "saperlotte.librairie@gmail.com",
-          "level": "0",
-          "name": "Saperlotte",
-          "old_name": "Timberland",
-          "opening_hours": "Mo-Sa 10:00-20:00",
-          "second_hand": "only",
-          "shop": "books",
-          "website": "https://www.saperlotte.org/"
-        }
       }
     ]
   },
-  "fetchedAt": "2026-08-17T05:54:23.214Z",
+  "fetchedAt": "2026-08-18T05:16:21.537Z",
   "staleDataWarning": false
 }

@@ -205,7 +205,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786946193511,
+      "timestamp": 1787030190110,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -234,7 +234,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-17T05:56:18Z",
+      "timestamp_osm_base": "2026-08-18T05:15:40Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3345,6 +3345,17 @@
         }
       },
       {
+        "type": "node",
+        "id": 14100651201,
+        "lat": 43.3045658,
+        "lon": 5.3931021,
+        "tags": {
+          "check_date": "2026-08-17",
+          "name": "Supérette du Palais",
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 67697078,
         "center": {
@@ -3595,6 +3606,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-17T05:54:23.214Z",
+  "fetchedAt": "2026-08-18T05:16:21.537Z",
   "staleDataWarning": false
 }

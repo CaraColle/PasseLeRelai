@@ -225,7 +225,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786946317638,
+      "timestamp": 1787030257532,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -254,7 +254,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-17T05:58:20Z",
+      "timestamp_osm_base": "2026-07-15T15:22:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -622,8 +622,6 @@
           "addr:housenumber": "112",
           "addr:postcode": "33130",
           "addr:street": "Avenue Alexis Capelle",
-          "brand": "Ronde des Pains",
-          "brand:wikidata": "Q3441707",
           "description": "Horaires d'ouverture : Du lundi au vendredi : de 7h à 14h et de 16h à 19h30 Samedi, dimanche : de 6h30 à 13h",
           "fixme": "Emplacement vacant",
           "name": "Ronde des Pains",
@@ -659,17 +657,15 @@
         "tags": {
           "addr:housenumber": "177",
           "addr:street": "Cours de la Marne",
-          "check_date": "2026-08-16",
-          "check_date:opening_hours": "2026-08-16",
           "indoor_seating": "yes",
-          "name": "Le Fournil Saint Jean",
-          "opening_hours:signed": "no",
+          "name": "Le fournil Saint Jean",
           "outdoor_seating": "no",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "912625357",
           "ref:FR:SIRET": "91262535700013",
           "shop": "bakery",
           "source": "INSEE - 2025-02",
+          "survey:date": "2025-11-12",
           "takeaway": "yes"
         }
       },
@@ -727,13 +723,10 @@
         "lat": 44.837058,
         "lon": -0.5687805,
         "tags": {
-          "addr:street": "Rue du Muguet",
           "check_date:opening_hours": "2026-03-14",
           "name": "Librairie du Muguet",
-          "opening_hours": "We, Sa 15:00-19:00",
           "opening_hours:signed": "no",
-          "shop": "books",
-          "website": "https://www.atheneelibertaire.net/la-librairie-du-muguet/"
+          "shop": "books"
         }
       },
       {
@@ -1351,27 +1344,6 @@
         }
       },
       {
-        "type": "node",
-        "id": 14097569181,
-        "lat": 44.8310392,
-        "lon": -0.5681165,
-        "tags": {
-          "name": "Indian Shop33",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 14098356661,
-        "lat": 44.828314,
-        "lon": -0.5610125,
-        "tags": {
-          "name": "Flash Market",
-          "opening_hours": "Su-We 14:00-24:00; Th-Sa 14:00-22:00",
-          "shop": "convenience"
-        }
-      },
-      {
         "type": "way",
         "id": 159270607,
         "center": {
@@ -1499,6 +1471,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-17T05:54:23.214Z",
+  "fetchedAt": "2026-08-18T05:16:21.537Z",
   "staleDataWarning": false
 }

@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786946896109,
+      "timestamp": 1787030656788,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-08-18T05:22:45Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -299,6 +299,8 @@
         "lon": 2.8902376,
         "tags": {
           "addr:street": "Rue Docteur Pous",
+          "check_date": "2026-07-27",
+          "check_date:opening_hours": "2026-07-27",
           "contact:city": "Perpignan",
           "contact:facebook": "https://www.facebook.com/librairiecajelice/",
           "contact:housenumber": "10",
@@ -307,9 +309,9 @@
           "contact:website": "http://www.cajelice.fr/",
           "delivery": "yes",
           "email": "commandes@cajelice.fr",
-          "name": "Librairie Papeterie Cajelice",
+          "name": "Cajelice Romance",
           "old_name": "Chapitre",
-          "opening_hours": "Mo-Sa 10:00-19:00; Su 11:00-12:30, 13:30-19:00",
+          "opening_hours": "Mo-Sa 10:00-19:00",
           "payment:cash": "yes",
           "payment:contactless": "yes",
           "payment:credit_cards": "yes",
@@ -469,6 +471,7 @@
         "lat": 42.7003584,
         "lon": 2.8905709,
         "tags": {
+          "air_conditioning": "yes",
           "contact:city": "Perpignan",
           "contact:housenumber": "22 bis",
           "contact:postcode": "66000",
@@ -1110,6 +1113,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-17T05:54:23.214Z",
+  "fetchedAt": "2026-08-18T05:16:21.537Z",
   "staleDataWarning": false
 }

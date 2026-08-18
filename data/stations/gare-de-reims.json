@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786946393097,
+      "timestamp": 1787030336819,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-08-18T05:19:40Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -526,23 +526,6 @@
       },
       {
         "type": "node",
-        "id": 6979470285,
-        "lat": 49.2528376,
-        "lon": 4.036411,
-        "tags": {
-          "contact:city": "Reims",
-          "contact:housenumber": "4",
-          "contact:phone": "+33 3 26 40 24 00",
-          "contact:postcode": "51100",
-          "contact:street": "Rue de l'Université",
-          "name": "SAS Leffort Verget",
-          "opening_hours": "Mo-Sa 06:30-20:00",
-          "ref:FR:SIRET": "84845073000017",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 6979577985,
         "lat": 49.2518139,
         "lon": 4.0325336,
@@ -788,7 +771,9 @@
         "lon": 4.0300556,
         "tags": {
           "addr:housenumber": "12",
-          "name": "France Loisir",
+          "brand": "France Loisirs",
+          "brand:wikidata": "Q3080726",
+          "name": "France Loisirs",
           "ref:FR:SIRET": "70201990203357",
           "shop": "books"
         }
@@ -993,6 +978,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-17T05:54:23.214Z",
+  "fetchedAt": "2026-08-18T05:16:21.537Z",
   "staleDataWarning": false
 }

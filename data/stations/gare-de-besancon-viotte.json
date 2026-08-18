@@ -261,7 +261,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786946924969,
+      "timestamp": 1787030668722,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -290,7 +290,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-22T11:06:20Z",
+      "timestamp_osm_base": "2026-05-06T03:25:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -363,14 +363,11 @@
           "contact:city": "Besançon",
           "contact:postcode": "25000",
           "contact:street": "Rue Pasteur",
-          "indoor_seating": "yes",
           "name": "Au Fournil Comtois",
           "opening_hours": "Mo-Fr 07:00-19:30; Sa 07:30-19:30",
-          "outdoor_seating": "yes",
           "phone": "+33381821883",
           "ref:FR:SIRET": "51183520900012",
-          "shop": "bakery",
-          "wheelchair": "yes"
+          "shop": "bakery"
         }
       },
       {
@@ -543,6 +540,22 @@
           "ref:FR:SIRET": "79772309500015",
           "shop": "bakery",
           "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2446646631,
+        "lat": 47.2375205,
+        "lon": 6.027822,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "11",
+          "addr:postcode": "25000",
+          "addr:street": "Rue François-Louis Bersot",
+          "name": "L'épicerie – Chez Loulou",
+          "opening_hours": "Su 10:00-13:00; Tu-Fr 10:00-13:00,15:30-19:30; Sa 10:00-13:00,13:30-19:30; Mo off",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
         }
       },
       {
@@ -1110,8 +1123,7 @@
           "phone": "+33339731021",
           "ref:FR:SIRET": "83281657300014",
           "shop": "convenience",
-          "website": "https://www.le-reunionnais.fr/",
-          "wheelchair": "no"
+          "website": "https://www.le-reunionnais.fr/"
         }
       },
       {
@@ -1398,6 +1410,16 @@
       },
       {
         "type": "node",
+        "id": 9779595533,
+        "lat": 47.2406422,
+        "lon": 6.0186872,
+        "tags": {
+          "name": "Épicerie l'Olivier",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 9832474661,
         "lat": 47.2537304,
         "lon": 6.0168735,
@@ -1535,6 +1557,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-17T05:54:23.214Z",
+  "fetchedAt": "2026-08-18T05:16:21.537Z",
   "staleDataWarning": false
 }

@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786946940771,
+      "timestamp": 1787030698755,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-07-24T11:04:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -702,7 +702,8 @@
           "ref:FR:SIRET": "84286349000012",
           "shop": "convenience",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016",
-          "website": "https://www.spar.fr/"
+          "website": "https://www.spar.fr/",
+          "wheelchair": "yes"
         }
       },
       {
@@ -807,9 +808,7 @@
         "lat": 49.4437639,
         "lon": 1.0881005,
         "tags": {
-          "contact:city": "Rouen",
           "contact:housenumber": "2",
-          "contact:postcode": "76000",
           "contact:street": "Rue Cauchoise",
           "indoor_seating": "no",
           "instagram": "https://www.instagram.com/valentinforlife/",
@@ -926,17 +925,6 @@
           "shop": "convenience",
           "website": "http://coccimarket.fr",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4858172733,
-        "lat": 49.4314077,
-        "lon": 1.0875701,
-        "tags": {
-          "addr:housenumber": "121",
-          "name": "BRGS Épicerie",
-          "shop": "convenience"
         }
       },
       {
@@ -1109,35 +1097,6 @@
           "contact:street": "Rue Saint-Sever",
           "name": "Anas Cash & Carry",
           "ref:FR:SIRET": "91939757000012",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5629104692,
-        "lat": 49.4329511,
-        "lon": 1.0880305,
-        "tags": {
-          "contact:city": "Rouen",
-          "contact:postcode": "76100",
-          "name": "Club Sandwich",
-          "payment:cash": "yes",
-          "ref:FR:SIRET": "33874253900038",
-          "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5629120518,
-        "lat": 49.4319501,
-        "lon": 1.0873588,
-        "tags": {
-          "contact:city": "Rouen",
-          "contact:housenumber": "111",
-          "contact:postcode": "76100",
-          "contact:street": "Rue Saint-Sever",
-          "name": "Nagulan Eotique",
           "shop": "convenience",
           "wheelchair": "no"
         }
@@ -1305,14 +1264,13 @@
         "lat": 49.4414322,
         "lon": 1.0993796,
         "tags": {
-          "addr:city": "Rouen",
-          "addr:housenumber": "247",
-          "addr:postcode": "76000",
-          "addr:street": "Rue Eau de Robec",
+          "contact:housenumber": "247",
+          "contact:street": "Rue Eau de Robec",
           "currency:EUR": "yes",
           "delivery": "yes",
           "drive_through": "no",
           "email": "contact@lemarchedurobec.com",
+          "facebook": "https://www.facebook.com/lemarchedurobec/",
           "name": "Le Marché du Robec",
           "opening_hours": "Mo 15:00-19:30; Tu-We 10:00-19:30; Th 14:00-19:30; Fr-Sa 10:00-19:30",
           "organic": "yes",
@@ -1381,22 +1339,6 @@
       },
       {
         "type": "node",
-        "id": 7064379932,
-        "lat": 49.4316971,
-        "lon": 1.088102,
-        "tags": {
-          "addr:housenumber": "109",
-          "name": "Chez P'tit Mouss",
-          "opening_hours": "Mo-Su 12:00-24:00",
-          "organic": "no",
-          "payment:cash": "yes",
-          "payment:debit_cards": "yes",
-          "shop": "convenience",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 7090999495,
         "lat": 49.4422825,
         "lon": 1.095129,
@@ -1441,10 +1383,15 @@
         "lat": 49.4403689,
         "lon": 1.1017937,
         "tags": {
-          "addr:housenumber": "47",
+          "contact:housenumber": "49",
+          "contact:street": "Rue d'Amiens",
+          "email": "contact@librairielelotus.com",
           "name": "Le Lotus",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "phone": "+33 2 35 07 46 34",
           "ref:FR:SIRET": "32788080300025",
-          "shop": "books"
+          "shop": "books",
+          "website": "https://www.librairielelotus.com/"
         }
       },
       {
@@ -1528,28 +1475,6 @@
       },
       {
         "type": "node",
-        "id": 7371301988,
-        "lat": 49.444719,
-        "lon": 1.096993,
-        "tags": {
-          "addr:housenumber": "72",
-          "currency:EUR": "yes",
-          "delivery": "no",
-          "drive_through": "no",
-          "name": "Librairie Théo-Phil",
-          "opening_hours": "Mo-Sa 11:00-13:00,14:00-19:00",
-          "panoramax": "fdd281a6-6de5-4392-947e-026893f14a0f",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "phone": "+33 6 37 01 64 04",
-          "shop": "books",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020",
-          "website": "https://www.theo-phil.fr/"
-        }
-      },
-      {
-        "type": "node",
         "id": 7371431942,
         "lat": 49.4388622,
         "lon": 1.0988275,
@@ -1559,11 +1484,15 @@
           "contact:housenumber": "14",
           "contact:postcode": "76000",
           "contact:street": "Rue Alsace Lorraine",
+          "indoor_seating": "no",
           "name": "Bastien",
+          "outdoor_seating": "no",
           "ref:FR:SIRET": "84843659800041",
           "shop": "bakery",
           "survey:date": "2025-12-05",
-          "was:shop": "bakery"
+          "takeaway": "only",
+          "was:shop": "bakery",
+          "wheelchair": "no"
         }
       },
       {
@@ -1753,15 +1682,15 @@
       {
         "type": "node",
         "id": 8092366651,
-        "lat": 49.4327407,
-        "lon": 1.0900028,
+        "lat": 49.4327115,
+        "lon": 1.0899592,
         "tags": {
-          "addr:housenumber": "69",
-          "brand": "le marché d'à côté",
           "brand:wikidata": "Q130165186",
           "name": "Le marché d'à côté",
-          "ref:FR:SIRET": "88795936900018",
-          "shop": "convenience"
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "10444832900011",
+          "shop": "convenience",
+          "wheelchair": "no"
         }
       },
       {
@@ -1815,10 +1744,12 @@
           "addr:housenumber": "37 bis",
           "addr:postcode": "76000",
           "addr:street": "Rue Jeanne d'Arc",
-          "check_date": "2026-01-30",
+          "check_date": "2026-06-15",
+          "check_date:opening_hours": "2026-06-15",
           "indoor_seating": "yes",
           "name": "Luval",
           "old_name": "Luval",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su 07:00-19:00",
           "outdoor_seating": "yes",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
@@ -2054,8 +1985,10 @@
         "lat": 49.4428974,
         "lon": 1.090791,
         "tags": {
-          "check_date": "2026-01-30",
+          "check_date": "2026-06-15",
+          "check_date:opening_hours": "2026-06-15",
           "name": "9 Provinces",
+          "opening_hours": "Mo 10:20-19:00; Tu-Sa 10:30-19:00",
           "ref:FR:SIRET": "51995285700018",
           "shop": "convenience"
         }
@@ -2140,6 +2073,18 @@
           "shop": "bakery",
           "takeaway": "only",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13957787729,
+        "lat": 49.4328889,
+        "lon": 1.0902699,
+        "tags": {
+          "name": "Punjab Cash & Carry",
+          "ref:FR:SIRET": "82882960600015",
+          "shop": "convenience",
+          "wheelchair": "no"
         }
       },
       {
@@ -2229,6 +2174,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-17T05:54:23.214Z",
+  "fetchedAt": "2026-08-18T05:16:21.537Z",
   "staleDataWarning": false
 }

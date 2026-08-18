@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786946876423,
+      "timestamp": 1787030654919,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-15T15:22:01Z",
+      "timestamp_osm_base": "2026-08-18T05:23:45Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -257,11 +257,21 @@
         "tags": {
           "addr:housenumber": "99",
           "addr:street": "Rue du Blamont",
-          "name": "La Gourmandise",
+          "name": "La Gourmandise du Blamont",
           "opening_hours": "Mo-Fr 07:00-13:30,15:30-19:00; Sa 07:00-12:30; Su off",
           "phone": "+33 3 22 91 42 31",
           "ref:FR:SIRET": "90868560500010",
           "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1241643213,
+        "lat": 49.8892795,
+        "lon": 2.2953643,
+        "tags": {
+          "name": "Froc",
+          "shop": "kiosk"
         }
       },
       {
@@ -423,21 +433,6 @@
           "name": "Table et Saveurs",
           "opening_hours": "Mo 14:00-19:15; Tu-Sa 09:30-19:15; Su 09:30-12:30",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3103831019,
-        "lat": 49.8923002,
-        "lon": 2.2976932,
-        "tags": {
-          "addr:housenumber": "8",
-          "addr:street": "Rue des Jacobins",
-          "name": "Tarterie des Jacobins",
-          "opening_hours": "Mo-Sa 07:00-19:00; Su off",
-          "phone": "+33 3 22 91 23 23",
-          "ref:FR:SIRET": "88328669200016",
-          "shop": "bakery"
         }
       },
       {
@@ -1178,14 +1173,16 @@
           "indoor": "room",
           "level": "0",
           "name": "Monop'station",
+          "opening_hours": "Mo 05:30-20:45; Tu-Th 05:30-20:30; Fr 05:30-20:45; Sa-Su 07:00-12:45,14:30-19:15",
           "ref:FR:SIRET": "51049900700068",
           "room": "shop",
           "shop": "convenience",
-          "source": "survey 2015"
+          "source": "survey 2015",
+          "website": "https://www.monoprix.fr/2955.html"
         }
       }
     ]
   },
-  "fetchedAt": "2026-08-17T05:54:23.214Z",
+  "fetchedAt": "2026-08-18T05:16:21.537Z",
   "staleDataWarning": false
 }

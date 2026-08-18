@@ -177,7 +177,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786946560317,
+      "timestamp": 1787030502719,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -206,7 +206,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-05-31T22:37:44Z",
+      "timestamp_osm_base": "2026-08-18T05:21:42Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -231,10 +231,12 @@
           "brand": "Spar",
           "brand:wikidata": "Q610492",
           "brand:wikipedia": "en:SPAR (retailer)",
+          "check_date:opening_hours": "2026-06-10",
           "name": "Spar",
           "opening_hours": "Mo-Sa 08:00-19:30; Su 09:00-12:00",
           "operator": "Spar",
           "phone": "+33 3 80 43 63 00",
+          "ref:FR:SIRET": "52092727800025",
           "shop": "convenience",
           "website": "https://magasins.spar.fr/fr/s/spar-supermarche-dijon-gustave-effel"
         }
@@ -304,6 +306,7 @@
           "contact:housenumber": "19",
           "contact:postcode": "21000",
           "contact:street": "Avenue Gustave Eiffel",
+          "name": "Jean-Rémi GALLET",
           "opening_hours": "Tu-Sa 06:00-13:00,15:00-19:30; Su 06:00-13:00",
           "organic": "yes",
           "ref:FR:SIRET": "49948364200017",
@@ -352,6 +355,7 @@
         "lon": 5.0224649,
         "tags": {
           "name": "Victor Hugo",
+          "ref:FR:SIRET": "47790487400013",
           "shop": "bakery"
         }
       },
@@ -393,8 +397,10 @@
         "lat": 47.3207571,
         "lon": 5.0299365,
         "tags": {
-          "check_date": "2024-08-20",
+          "check_date": "2026-07-10",
+          "check_date:opening_hours": "2026-07-10",
           "name": "Tang Marché",
+          "opening_hours": "Mo-Sa 10:00-12:30,14:30-19:00; Su 10:00-12:30",
           "ref:FR:SIRET": "44468908700021",
           "shop": "convenience"
         }
@@ -408,7 +414,7 @@
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "en:Système U",
-          "check_date": "2024-02-28",
+          "check_date": "2026-08-02",
           "name": "Utile",
           "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-13:00",
           "ref:FR:SIRET": "75248026900014",
@@ -488,6 +494,7 @@
         "tags": {
           "name": "Maison des délices et des saveurs",
           "opening_hours": "Tu-Sa 07:00-13:30,15:00-19:00; Su 07:00-13:30",
+          "ref:FR:SIRET": "85213440200019",
           "shop": "bakery"
         }
       },
@@ -498,6 +505,7 @@
         "lon": 5.0290396,
         "tags": {
           "name": "City Market",
+          "ref:FR:SIRET": "98953694100010",
           "shop": "convenience"
         }
       },
@@ -652,8 +660,11 @@
         "tags": {
           "alt_name": "Epicerie de la Gare",
           "name": "La Loco",
+          "opening_hours": "Mo-Su 09:00-01:00",
+          "phone": "+33380411586",
           "ref:FR:SIRET": "43509589800043",
-          "shop": "convenience"
+          "shop": "convenience",
+          "website": "https://www.epiceriedelagarelaloco.fr/"
         }
       },
       {
@@ -784,22 +795,10 @@
       {
         "type": "node",
         "id": 6761270398,
-        "lat": 47.3255224,
-        "lon": 5.0356382,
+        "lat": 47.3255091,
+        "lon": 5.0355736,
         "tags": {
           "name": "Le panier Darcy",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7076356542,
-        "lat": 47.3178352,
-        "lon": 5.0352629,
-        "tags": {
-          "name": "Night Market",
-          "operator": "Mario Osmani",
-          "ref:FR:SIRET": "85098211700010",
           "shop": "convenience"
         }
       },
@@ -820,6 +819,7 @@
         "lon": 5.029942,
         "tags": {
           "name": "Librairie Gourmande",
+          "ref:FR:SIRET": "49413847200035",
           "shop": "books"
         }
       },
@@ -848,6 +848,7 @@
           "outdoor": "yes",
           "payment:cash": "yes",
           "payment:coins": "yes",
+          "ref:FR:SIRET": "53739936200012",
           "shop": "bakery",
           "website": "https://leschampsdudestin.com/"
         }
@@ -862,7 +863,7 @@
           "contact:postcode": "21000",
           "contact:street": "Rue Condorcet",
           "name": "L'Oriental",
-          "ref:FR:SIRET": "83910895800019",
+          "ref:FR:SIRET": "95182198200018",
           "shop": "convenience"
         }
       },
@@ -887,7 +888,7 @@
         "tags": {
           "building:levels": "4",
           "building:levels:underground": "1",
-          "check_date:opening_hours": "2023-09-16",
+          "check_date:opening_hours": "2026-06-09",
           "contact:facebook": "https://www.facebook.com/librairie.grangier/",
           "contact:housenumber": "14",
           "contact:postcode": "21000",
@@ -906,6 +907,23 @@
           "takeaway": "yes",
           "website": "https://www.librairie-grangier.com",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14040127731,
+        "lat": 47.3190103,
+        "lon": 5.0347098,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/epicerie.soyuz/;https://www.facebook.com/soyuzadijon.epicerie",
+          "contact:housenumber": "29",
+          "contact:street": "Rue Monge",
+          "name": "Soyuz",
+          "opening_hours": "Mo-Sa 10:00-12:00,14:00-19:00",
+          "phone": "+33 3 80 39 18 11",
+          "ref:FR:SIRET": "81342601200031",
+          "shop": "convenience",
+          "website": "https://balexei.wixsite.com/epicerie-soyuz"
         }
       },
       {
@@ -936,6 +954,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-17T05:54:23.214Z",
+  "fetchedAt": "2026-08-18T05:16:21.537Z",
   "staleDataWarning": false
 }

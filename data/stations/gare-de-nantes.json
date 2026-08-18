@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1786946288052,
+      "timestamp": 1787030224112,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-17T05:57:21Z",
+      "timestamp_osm_base": "2026-08-18T05:16:38Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1414,14 +1414,18 @@
         "lat": 47.2085251,
         "lon": -1.5299644,
         "tags": {
-          "check_date": "2026-08-03",
-          "check_date:opening_hours": "2026-08-03",
+          "check_date": "2026-08-17",
+          "check_date:opening_hours": "2026-08-17",
+          "contact:facebook": "Boulangerie-Pains-et-Malice-61592536081940",
           "contact:housenumber": "2",
+          "contact:instagram": "painsetmalice",
           "contact:street": "Place de la Galarne",
           "craft": "bakery",
-          "name": "Pains et Malice",
-          "note": "Ouverture le 17/08/2026 après travaux",
-          "opening_hours": "off \"En travaux\"",
+          "indoor_seating": "yes",
+          "name": "Pains & Malice",
+          "opening_hours": "Mo-Fr 07:00-19:30; Su 07:30-13:00",
+          "organic": "yes",
+          "outdoor_seating": "pedestrian_zone",
           "pastry": "yes",
           "payment:cards": "yes",
           "payment:cash": "yes",
@@ -2522,6 +2526,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-17T05:54:23.214Z",
+  "fetchedAt": "2026-08-18T05:16:21.537Z",
   "staleDataWarning": false
 }
