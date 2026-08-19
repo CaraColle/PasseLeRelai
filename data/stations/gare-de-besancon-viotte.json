@@ -261,7 +261,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787030668722,
+      "timestamp": 1787116742678,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -290,7 +290,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-05-06T03:25:00Z",
+      "timestamp_osm_base": "2026-08-19T05:17:57Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -363,11 +363,14 @@
           "contact:city": "Besançon",
           "contact:postcode": "25000",
           "contact:street": "Rue Pasteur",
+          "indoor_seating": "yes",
           "name": "Au Fournil Comtois",
           "opening_hours": "Mo-Fr 07:00-19:30; Sa 07:30-19:30",
+          "outdoor_seating": "yes",
           "phone": "+33381821883",
           "ref:FR:SIRET": "51183520900012",
-          "shop": "bakery"
+          "shop": "bakery",
+          "wheelchair": "yes"
         }
       },
       {
@@ -465,7 +468,7 @@
           "brand": "Fivel",
           "name": "La Fabuleuse Eclair",
           "opening_hours": "Tu-Sa 07:30-20:00",
-          "phone": "+33381480299",
+          "phone": "+33 3 81 48 02 99",
           "shop": "bakery"
         }
       },
@@ -544,22 +547,6 @@
       },
       {
         "type": "node",
-        "id": 2446646631,
-        "lat": 47.2375205,
-        "lon": 6.027822,
-        "tags": {
-          "addr:city": "Besançon",
-          "addr:housenumber": "11",
-          "addr:postcode": "25000",
-          "addr:street": "Rue François-Louis Bersot",
-          "name": "L'épicerie – Chez Loulou",
-          "opening_hours": "Su 10:00-13:00; Tu-Fr 10:00-13:00,15:30-19:30; Sa 10:00-13:00,13:30-19:30; Mo off",
-          "shop": "convenience",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
-        }
-      },
-      {
-        "type": "node",
         "id": 2813263410,
         "lat": 47.2350151,
         "lon": 6.0321153,
@@ -611,12 +598,25 @@
       },
       {
         "type": "node",
-        "id": 3206192563,
-        "lat": 47.2396046,
-        "lon": 6.0188136,
+        "id": 3206192562,
+        "lat": 47.23959,
+        "lon": 6.0187955,
         "tags": {
-          "name": "Espace Tropical",
-          "shop": "books"
+          "name": "Mazar Market",
+          "phone": "+33 7 67 91 82 99",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3206252427,
+        "lat": 47.2389337,
+        "lon": 6.0179725,
+        "tags": {
+          "name": "Espace Som",
+          "shop": "convenience",
+          "wheelchair": "no"
         }
       },
       {
@@ -875,6 +875,10 @@
         "lat": 47.236552,
         "lon": 6.0287907,
         "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "103",
+          "addr:postcode": "25000",
+          "addr:street": "Rue des Granges",
           "contact:email": "contact@pastaetpetitsplats.fr",
           "contact:facebook": "pastaetpetitsplats",
           "contact:instagram": "pastaetpetitsplats",
@@ -1035,6 +1039,16 @@
       },
       {
         "type": "node",
+        "id": 6295816455,
+        "lat": 47.2395716,
+        "lon": 6.0190552,
+        "tags": {
+          "noname": "yes",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 6300758526,
         "lat": 47.2371589,
         "lon": 6.0251178,
@@ -1123,7 +1137,8 @@
           "phone": "+33339731021",
           "ref:FR:SIRET": "83281657300014",
           "shop": "convenience",
-          "website": "https://www.le-reunionnais.fr/"
+          "website": "https://www.le-reunionnais.fr/",
+          "wheelchair": "no"
         }
       },
       {
@@ -1294,8 +1309,8 @@
           "addr:postcode": "25000",
           "addr:street": "Rue des Granges",
           "name": "Le Bibliovore",
-          "opening_hours": "Tu,Fr 10:00-13:00,14:30-19:00; Th 14:30-19:00; Sa 1à:00-19:00",
-          "phone": "+33370889439",
+          "opening_hours": "Tu,Fr 10:00-13:00,14:30-19:00; Th 14:30-19:00; Sa 10:00-19:00",
+          "phone": "+33 3 70 88 94 39",
           "ref:FR:SIRET": "92098085100017",
           "shop": "books",
           "website": "https://www.lebibliovore.fr/",
@@ -1410,16 +1425,6 @@
       },
       {
         "type": "node",
-        "id": 9779595533,
-        "lat": 47.2406422,
-        "lon": 6.0186872,
-        "tags": {
-          "name": "Épicerie l'Olivier",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 9832474661,
         "lat": 47.2537304,
         "lon": 6.0168735,
@@ -1490,9 +1495,15 @@
         "lat": 47.2340258,
         "lon": 6.0272147,
         "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "32",
+          "addr:postcode": "25000",
+          "addr:street": "Rue Ronchaux",
           "check_date:opening_hours": "2024-05-07",
           "name": "À la page",
+          "opening_hours": "Mo-Fr 09:00-12:00,14:00-19:00; Sa 09:00-12:00,14:00-18:00",
           "opening_hours:signed": "no",
+          "phone": "+33 3 81 61 91 80",
           "ref:FR:SIRET": "34107656000018",
           "shop": "books"
         }
@@ -1537,6 +1548,48 @@
         }
       },
       {
+        "type": "node",
+        "id": 13994940659,
+        "lat": 47.2397887,
+        "lon": 6.0194564,
+        "tags": {
+          "name": "Omeri market",
+          "phone": "+33 3 81 81 39 65",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13994940661,
+        "lat": 47.239627,
+        "lon": 6.0191459,
+        "tags": {
+          "name": "L’amandine",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13994940663,
+        "lat": 47.2394117,
+        "lon": 6.0185062,
+        "tags": {
+          "name": "Ariana",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13994940668,
+        "lat": 47.2388226,
+        "lon": 6.0177954,
+        "tags": {
+          "name": "Maison bourbon",
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 77026251,
         "center": {
@@ -1557,6 +1610,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-18T05:16:21.537Z",
+  "fetchedAt": "2026-08-19T05:16:51.269Z",
   "staleDataWarning": false
 }

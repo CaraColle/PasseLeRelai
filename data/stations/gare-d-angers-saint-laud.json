@@ -245,7 +245,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787030550970,
+      "timestamp": 1787116705707,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-18T05:22:45Z",
+      "timestamp_osm_base": "2026-08-19T05:16:56Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1134,15 +1134,18 @@
         "lat": 47.4735213,
         "lon": -0.5507442,
         "tags": {
-          "check_date": "2026-03-09",
+          "check_date": "2026-08-18",
+          "check_date:opening_hours": "2026-08-18",
           "diet:vegan": "yes",
           "name": "Prends-en de la Graine",
+          "opening_hours": "Tu-Fr 12:30-18:30; Sa 10:30-18:30",
           "organic": "yes",
           "ref:FR:NAF": "47.11B",
           "ref:FR:SIREN": "891036667",
           "ref:FR:SIRET": "89103666700014",
           "shop": "convenience",
-          "source": "INSEE - 2026-05"
+          "source": "INSEE - 2026-05",
+          "wheelchair": "no"
         }
       },
       {
@@ -1367,6 +1370,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-18T05:16:21.537Z",
+  "fetchedAt": "2026-08-19T05:16:51.269Z",
   "staleDataWarning": false
 }

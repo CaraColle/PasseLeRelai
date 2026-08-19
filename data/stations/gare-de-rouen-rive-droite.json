@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787030698755,
+      "timestamp": 1787116752859,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-24T11:04:51Z",
+      "timestamp_osm_base": "2026-08-19T05:17:57Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -404,13 +404,19 @@
         "lat": 49.4498543,
         "lon": 1.1036206,
         "tags": {
+          "addr:city": "Rouen",
           "addr:housenumber": "51",
+          "addr:postcode": "76000",
+          "addr:street": "Rue de Bihorel",
           "brand": "CocciMarket",
           "brand:wikidata": "Q90020480",
           "name": "CocciMarket",
+          "opening_hours": "Mo-Su 09:00-21:00",
           "operator": "Cocci Market",
+          "phone": "+33 2 35 89 66 18",
           "ref:FR:SIRET": "52487355100039",
-          "shop": "convenience"
+          "shop": "convenience",
+          "website": "https://www.coccinelle.fr/magasin/rouen-0"
         }
       },
       {
@@ -1685,6 +1691,7 @@
         "lat": 49.4327115,
         "lon": 1.0899592,
         "tags": {
+          "brand": "le marché d'à côté",
           "brand:wikidata": "Q130165186",
           "name": "Le marché d'à côté",
           "opening_hours:signed": "no",
@@ -2088,6 +2095,17 @@
         }
       },
       {
+        "type": "node",
+        "id": 14072728077,
+        "lat": 49.4344799,
+        "lon": 1.0856307,
+        "tags": {
+          "name": "Que la night",
+          "shop": "convenience",
+          "survey:date": "2026-08-04"
+        }
+      },
+      {
         "type": "way",
         "id": 64750278,
         "center": {
@@ -2174,6 +2192,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-18T05:16:21.537Z",
+  "fetchedAt": "2026-08-19T05:16:51.269Z",
   "staleDataWarning": false
 }

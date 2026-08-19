@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787030492923,
+      "timestamp": 1787116702563,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-18T05:21:42Z",
+      "timestamp_osm_base": "2026-08-19T05:16:56Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -804,13 +804,13 @@
         "lat": 45.1858555,
         "lon": 5.7163532,
         "tags": {
-          "addr:housenumber": "11",
-          "addr:postcode": "38000",
-          "addr:street": "Rue Nicolas Chorier",
           "alt_name": "Marché Exotique",
           "check_date": "2026-05-22",
           "check_date:opening_hours": "2022-11-01",
+          "contact:housenumber": "11",
           "contact:phone": "+33 4 76 96 40 45",
+          "contact:street": "Rue Nicolas Chorier",
+          "contact:website": "http://www.viet-hung.fr/",
           "name": "Viet-Hung",
           "opening_hours": "Mo-Su 09:00-19:30; Tu off",
           "ref:FR:SIRET": "38050016500010",
@@ -2833,6 +2833,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-18T05:16:21.537Z",
+  "fetchedAt": "2026-08-19T05:16:51.269Z",
   "staleDataWarning": false
 }

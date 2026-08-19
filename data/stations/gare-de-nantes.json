@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787030224112,
+      "timestamp": 1787116654873,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-18T05:16:38Z",
+      "timestamp_osm_base": "2026-08-19T05:16:56Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1238,7 +1238,7 @@
         "tags": {
           "branch": "Saint Donatien",
           "brand": "Barnabé",
-          "contact:facebook": "https://www.facebook.com/barnabeboulangerie",
+          "contact:facebook": "barnabeboulangerie",
           "contact:instagram": "barnabeboulangerie",
           "contact:website": "https://www.barnabe-stdonatien.fr",
           "name": "Barnabé",
@@ -1251,7 +1251,8 @@
           "ref:FR:SIREN": "880178090",
           "ref:FR:SIRET": "88017809000036",
           "shop": "bakery",
-          "source": "INSEE - 2025-07"
+          "source:ref:FR": "INSEE - 2025-07",
+          "wheelchair": "yes"
         }
       },
       {
@@ -2526,6 +2527,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-18T05:16:21.537Z",
+  "fetchedAt": "2026-08-19T05:16:51.269Z",
   "staleDataWarning": false
 }

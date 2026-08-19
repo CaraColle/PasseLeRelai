@@ -281,7 +281,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787030182888,
+      "timestamp": 1787116612544,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -310,7 +310,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-18T05:14:35Z",
+      "timestamp_osm_base": "2026-08-19T05:15:57Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -428,7 +428,7 @@
         "lat": 48.8705667,
         "lon": 2.3596696,
         "tags": {
-          "check_date": "2025-12-28",
+          "check_date": "2026-08-18",
           "contact:city": "Paris",
           "contact:housenumber": "32",
           "contact:postcode": "75010",
@@ -3172,7 +3172,7 @@
         "lat": 48.8709573,
         "lon": 2.3578703,
         "tags": {
-          "check_date": "2025-12-28",
+          "check_date": "2026-08-18",
           "contact:city": "Paris",
           "contact:housenumber": "25",
           "contact:postcode": "75010",
@@ -7174,7 +7174,7 @@
         "tags": {
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
-          "check_date": "2025-06-23",
+          "check_date": "2026-08-18",
           "contact:city": "Paris",
           "contact:housenumber": "40",
           "contact:phone": "+33 1 44 63 70 71",
@@ -8307,6 +8307,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-18T05:16:21.537Z",
+  "fetchedAt": "2026-08-19T05:16:51.269Z",
   "staleDataWarning": false
 }

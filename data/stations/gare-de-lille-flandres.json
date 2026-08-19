@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787030306791,
+      "timestamp": 1787116677116,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-23T09:33:41Z",
+      "timestamp_osm_base": "2026-08-19T05:16:56Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -771,12 +771,12 @@
         "lat": 50.6356114,
         "lon": 3.0588461,
         "tags": {
+          "check_date": "2026-08-06",
           "contact:facebook": "https://www.facebook.com/maisonpapillon59/",
           "name": "Maison Papillon",
           "opening_hours": "Mo-Su 07:00-20:00",
           "ref:FR:SIRET": "81379900400011",
           "shop": "bakery",
-          "survey:date": "2018-12",
           "website": "https://boulangeriepapillon.fr",
           "wheelchair": "limited"
         }
@@ -841,6 +841,7 @@
           "check_date": "2025-07-18",
           "name": "CocciMarket",
           "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:30",
+          "phone": "+33 6 49 49 46 40",
           "shop": "convenience",
           "website": "https://www.coccinelle.fr/magasin/lille"
         }
@@ -979,6 +980,7 @@
           "brand:wikidata": "Q90020480",
           "name": "CocciMarket",
           "opening_hours": "Mo-Su 08:00-22:00",
+          "phone": "+33 9 62 58 00 42",
           "ref:FR:SIRET": "83070434200013",
           "shop": "convenience",
           "website": "https://www.coccinelle.fr/Trouver_Un_Magasin/Details/coccimarket/lille-fives/72-rue-eugene-jacquet"
@@ -1120,6 +1122,17 @@
           "name": "Konea Guinee",
           "ref:FR:SIRET": "83230705200015",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8785613317,
+        "lat": 50.628685,
+        "lon": 3.0593649,
+        "tags": {
+          "name": "Dérives",
+          "opening_hours": "Tu-Fr 11:00-19:00; Mo 14:00-19:00; Sa 10:00-19:00",
+          "shop": "books"
         }
       },
       {
@@ -1568,7 +1581,7 @@
         "tags": {
           "building": "retail",
           "building:levels": "4",
-          "check_date": "2023-12-28",
+          "check_date": "2026-08-17",
           "contact:city": "Lille",
           "contact:email": "bouquinerielille@oxfamfrance.org",
           "contact:housenumber": "19 ter",
@@ -1674,6 +1687,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-18T05:16:21.537Z",
+  "fetchedAt": "2026-08-19T05:16:51.269Z",
   "staleDataWarning": false
 }

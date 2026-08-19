@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787030651501,
+      "timestamp": 1787116733166,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-18T05:22:45Z",
+      "timestamp_osm_base": "2026-08-19T05:16:56Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1673,15 +1673,17 @@
         "lat": 47.3768648,
         "lon": 0.7017761,
         "tags": {
-          "addr:city": "TOURS",
+          "addr:city": "Tours",
           "addr:housenumber": "69",
           "addr:postcode": "37000",
           "addr:street": "Rue d'Alger",
-          "check_date": "2025-02-16",
+          "check_date": "2026-07-17",
+          "check_date:panoramax": "2026-07-17",
           "contact:email": "kakandeshop@gmail.com",
           "contact:facebook": "https://www.facebook.com/p/Kakand%C3%A9-shop-Tours-100071588071128/",
           "name": "Kakandé shop",
           "opening_hours": "Mo-Sa 10:30-19:30; Su 10:30-16:00",
+          "panoramax": "Area intersection `landuse`",
           "phone": "+33 6 09 06 63 29",
           "ref:FR:SIRET": "89891824800011",
           "shop": "convenience"
@@ -1849,6 +1851,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-18T05:16:21.537Z",
+  "fetchedAt": "2026-08-19T05:16:51.269Z",
   "staleDataWarning": false
 }

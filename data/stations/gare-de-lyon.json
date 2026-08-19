@@ -277,7 +277,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787030182545,
+      "timestamp": 1787116612358,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -306,7 +306,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-18T05:14:35Z",
+      "timestamp_osm_base": "2026-08-19T05:15:57Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -519,8 +519,9 @@
         "lat": 48.8466612,
         "lon": 2.3868559,
         "tags": {
+          "facebook": "https://www.facebook.com/auvieuxmoulin12/",
           "name": "Au Vieux Moulin",
-          "opening_hours": "Mo-Th 06:30-20:30; Sa-Su 0:30-20:30",
+          "opening_hours": "Sa-Th 06:30-21:00",
           "phone": "+33 1 43 43 14 67",
           "ref:FR:SIRET": "49008366400022",
           "shop": "bakery"
@@ -717,9 +718,14 @@
           "addr:street": "Rue du Pas de la Mule",
           "check_date": "2025-08-23",
           "check_date:opening_hours": "2025-08-23",
+          "indoor_seating": "yes",
           "name": "babka zana",
           "opening_hours": "Tu-Sa 08:30-18:30; Su 08:30-17:30",
+          "outdoor_seating": "no",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "shop": "bakery",
+          "website": "https://babkazana.com/",
           "wheelchair": "no"
         }
       },
@@ -4866,6 +4872,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-18T05:16:21.537Z",
+  "fetchedAt": "2026-08-19T05:16:51.269Z",
   "staleDataWarning": false
 }
