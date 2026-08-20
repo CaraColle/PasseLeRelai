@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787116733166,
+      "timestamp": 1787203244691,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-19T05:16:56Z",
+      "timestamp_osm_base": "2026-08-20T05:19:18Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1009,6 +1009,25 @@
       },
       {
         "type": "node",
+        "id": 5863365608,
+        "lat": 47.3930824,
+        "lon": 0.6819787,
+        "tags": {
+          "addr:housenumber": "97",
+          "addr:street": "Rue des Halles",
+          "books": "religion",
+          "check_date": "2026-01-22",
+          "check_date:opening_hours": "2026-01-22",
+          "name": "Savoir-être",
+          "opening_hours:signed": "no",
+          "panoramax": "e1f1fbc6-c5cc-451e-885a-14af30afe856",
+          "ref:FR:SIRET": "48165808600030",
+          "religion": "christian",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
         "id": 6184017988,
         "lat": 47.3974468,
         "lon": 0.6988333,
@@ -1576,17 +1595,27 @@
       {
         "type": "node",
         "id": 11737072716,
-        "lat": 47.3925265,
-        "lon": 0.6803916,
+        "lat": 47.3925426,
+        "lon": 0.6802938,
         "tags": {
           "addr:city": "Tours",
-          "addr:housenumber": "0",
           "addr:postcode": "37000",
           "addr:street": "Place des Halles",
+          "check_date:opening_hours": "2026-08-19",
           "name": "Le Kiosque",
           "network": "Fil Bleu",
+          "opening_hours": "Mo-Sa 06:30-18:00; Su 08:00-12:30",
+          "phone": "+33 6 80 33 03 86",
+          "post_office": "post_partner",
+          "post_office:brand": "La Poste",
+          "post_office:brand:wikidata": "Q373724",
+          "post_office:brand:wikipedia": "fr:La Poste (entreprise française)",
+          "ref:FR:LaPoste": "22061D",
           "shop": "kiosk",
-          "tickets:public_transport": "yes"
+          "source:opening_hours": "website",
+          "source:post_office": "La Poste - 2026-07",
+          "tickets:public_transport": "yes",
+          "website": "https://leshallesdetours.fr/vos-commercants/kiosque-a-journaux/"
         }
       },
       {
@@ -1851,6 +1880,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-19T05:16:51.269Z",
+  "fetchedAt": "2026-08-20T05:19:16.545Z",
   "staleDataWarning": false
 }

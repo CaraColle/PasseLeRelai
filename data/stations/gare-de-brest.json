@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787116729393,
+      "timestamp": 1787203243874,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-19T05:16:56Z",
+      "timestamp_osm_base": "2026-08-20T05:20:17Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -396,8 +396,10 @@
         "tags": {
           "addr:city": "Brest",
           "air_conditioning": "no",
-          "check_date": "2026-08-02",
+          "check_date": "2026-08-19",
+          "check_date:diet:gluten_free": "2026-08-19",
           "check_date:opening_hours": "2026-05-14",
+          "diet:gluten_free": "no",
           "indoor_seating": "no",
           "name": "La Fournée à Brest",
           "opening_hours": "Mo-Sa 07:30-19:30",
@@ -780,6 +782,16 @@
           "ref:FR:SIRET": "94151595900026",
           "shop": "convenience",
           "start_date": "2025-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8384322972,
+        "lat": 48.38633,
+        "lon": -4.4751681,
+        "tags": {
+          "name": "Oh my pain",
+          "shop": "bakery"
         }
       },
       {
@@ -1183,6 +1195,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-19T05:16:51.269Z",
+  "fetchedAt": "2026-08-20T05:19:16.545Z",
   "staleDataWarning": false
 }

@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787116654873,
+      "timestamp": 1787203180023,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-19T05:16:56Z",
+      "timestamp_osm_base": "2026-08-20T05:18:15Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2151,38 +2151,6 @@
       },
       {
         "type": "node",
-        "id": 9228281279,
-        "lat": 47.2030775,
-        "lon": -1.5523048,
-        "tags": {
-          "check_date": "2025-09-12",
-          "check_date:opening_hours": "2025-06-08",
-          "contact:housenumber": "39",
-          "contact:street": "Boulevard Gustave Roch",
-          "description": "Épicerie produits exotiques",
-          "level": "0",
-          "name": "Casa Latina",
-          "opening_hours": "Tu-Sa 10:00-19:45",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "post_office": "post_partner",
-          "post_office:brand": "Mondial Relay;Pickup",
-          "post_office:parcel_from": "yes",
-          "post_office:parcel_pickup": "yes",
-          "post_office:parcel_to": "yes",
-          "ref:FR:NAF": "47.29Z",
-          "ref:FR:SIREN": "951677665",
-          "ref:FR:SIRET": "95167766500055",
-          "shop": "convenience",
-          "source:ref": "INSEE - 2025-09",
-          "was:name": "Peps’art",
-          "was:shop": "art",
-          "wheelchair": "limited",
-          "wheelchair:description": "Bouton d'appel à droite de l'entrée pour la mise e' place d'une rampe"
-        }
-      },
-      {
-        "type": "node",
         "id": 9673860292,
         "lat": 47.2196551,
         "lon": -1.5339279,
@@ -2527,6 +2495,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-19T05:16:51.269Z",
+  "fetchedAt": "2026-08-20T05:19:16.545Z",
   "staleDataWarning": false
 }

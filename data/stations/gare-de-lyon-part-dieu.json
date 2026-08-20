@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787116623059,
+      "timestamp": 1787203171272,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-19T05:15:57Z",
+      "timestamp_osm_base": "2026-08-20T05:18:15Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3039,12 +3039,18 @@
         "lon": 4.8447605,
         "tags": {
           "contact:email": "contact@biblionautique.com",
-          "contact:phone": "+33427116662",
-          "name": "Biblionautique",
+          "contact:housenumber": "34",
+          "contact:phone": "+33 4 27 11 66 62",
+          "contact:street": "Rue Cuvier",
+          "description": "Librairie spécialisée dans le nautisme et la nature.",
+          "name": "Les Biblios",
+          "opening_hours": "Tu-Sa 09:45-13:30,14:30-19:00",
+          "operator": "Biblionautique",
           "ref:FR:SIRET": "80494634100026",
+          "ref:vatin": "FR76804946341",
           "shop": "books",
           "subject": "ocean",
-          "website": "https://www.biblionautique.com"
+          "website": "https://www.lesbiblios.com"
         }
       },
       {
@@ -3422,6 +3428,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-19T05:16:51.269Z",
+  "fetchedAt": "2026-08-20T05:19:16.545Z",
   "staleDataWarning": false
 }

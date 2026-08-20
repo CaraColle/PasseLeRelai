@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787116681907,
+      "timestamp": 1787203193930,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-19T05:16:56Z",
+      "timestamp_osm_base": "2026-08-20T05:18:15Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -577,21 +577,6 @@
           "ref:FR:SIRET": "89275170200010",
           "shop": "books",
           "source": "INSEE - 06/2019"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1802188240,
-        "lat": 48.1143729,
-        "lon": -1.6813342,
-        "tags": {
-          "check_date": "2023-07-13",
-          "indoor_seating": "yes",
-          "name": "Fournil de Pierre",
-          "organic": "yes",
-          "outdoor_seating": "yes",
-          "ref:FR:SIRET": "70204551900114",
-          "shop": "bakery"
         }
       },
       {
@@ -1465,7 +1450,7 @@
           "brand": "La Mie Câline",
           "brand:wikidata": "Q3210704",
           "brand:wikipedia": "fr:La Mie câline",
-          "check_date": "2024-07-09",
+          "check_date": "2026-08-19",
           "cuisine": "sandwich",
           "delivery": "no",
           "diet:vegetarian": "no",
@@ -2221,6 +2206,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-19T05:16:51.269Z",
+  "fetchedAt": "2026-08-20T05:19:16.545Z",
   "staleDataWarning": false
 }
