@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787203243874,
+      "timestamp": 1787291604538,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-20T05:20:17Z",
+      "timestamp_osm_base": "2026-08-21T05:52:08Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -633,9 +633,11 @@
           "brand:website": "https://www.briochedoree.fr",
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche Dorée",
-          "check_date": "2026-08-01",
+          "check_date": "2026-08-20",
+          "check_date:diet:gluten_free": "2026-08-20",
           "check_date:opening_hours": "2026-06-03",
           "contact:phone": "+33 2 98 44 44 01",
+          "diet:gluten_free": "no",
           "name": "Brioche Dorée",
           "opening_hours": "Mo-Sa 08:00-19:00",
           "operator": "Groupe Le Duff",
@@ -910,9 +912,9 @@
         "lat": 48.3868798,
         "lon": -4.492361,
         "tags": {
-          "addr:housenumber": "51",
-          "addr:street": "Rue Traverse",
           "check_date": "2024-02-25",
+          "contact:housenumber": "51",
+          "contact:street": "Rue Traverse",
           "name": "Le Four de Babel",
           "opening_hours": "Mo-Fr 11:30-19:00;Sa 10:30-18:00",
           "organic": "only",
@@ -1195,6 +1197,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-20T05:19:16.545Z",
+  "fetchedAt": "2026-08-21T05:49:32.121Z",
   "staleDataWarning": false
 }

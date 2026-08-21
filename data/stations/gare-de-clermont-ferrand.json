@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787116724001,
+      "timestamp": 1787291600514,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-20T05:19:18Z",
+      "timestamp_osm_base": "2026-08-21T05:52:08Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1021,12 +1021,13 @@
         "lat": 45.7652275,
         "lon": 3.0934722,
         "tags": {
+          "check_date": "2026-08-20",
           "contact:city": "Clermont-Ferrand",
           "contact:housenumber": "28",
           "contact:postcode": "63000",
           "contact:street": "Rue des Liondards",
           "contact:website": "https://www.facebook.com/fournildesebastien",
-          "name": "Fournil de Sébastien",
+          "name": "La Fournée d'Inès",
           "opening_hours": "Tu-Sa 06:45-13:30; Tu-Sa 15:30-19:00; Sa-Su 07:00-13:00",
           "payment:cash": "yes",
           "payment:visa": "yes",
@@ -1221,6 +1222,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-20T05:19:16.545Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-08-21T05:49:32.121Z",
+  "staleDataWarning": false
 }

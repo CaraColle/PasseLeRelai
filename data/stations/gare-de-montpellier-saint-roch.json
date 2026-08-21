@@ -265,7 +265,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787203182052,
+      "timestamp": 1787291403170,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -294,7 +294,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-20T05:18:15Z",
+      "timestamp_osm_base": "2026-08-21T05:49:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2341,6 +2341,8 @@
         "lat": 43.5959222,
         "lon": 3.8875912,
         "tags": {
+          "brand": "Festival des Pains",
+          "brand:wikidata": "Q3070334",
           "name": "Festival des pains",
           "opening_hours": "Mo,We-Fr 06:45-13:00; Sa,Su 07:00-12:30",
           "shop": "bakery",
@@ -2447,6 +2449,8 @@
         "lat": 43.6069305,
         "lon": 3.8865885,
         "tags": {
+          "brand": "La Panetière",
+          "brand:wikidata": "Q100712234",
           "contact:city": "Montpellier",
           "contact:housenumber": "427",
           "contact:phone": "+33 4 22 91 36 48",
@@ -2564,6 +2568,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-20T05:19:16.545Z",
+  "fetchedAt": "2026-08-21T05:49:32.121Z",
   "staleDataWarning": false
 }

@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787203175248,
+      "timestamp": 1787291392726,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-20T05:18:15Z",
+      "timestamp_osm_base": "2026-08-21T05:49:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -675,22 +675,6 @@
           "alcohol": "yes",
           "name": "L'épicerie moderne",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2284115650,
-        "lat": 43.6158569,
-        "lon": 1.4444547,
-        "tags": {
-          "check_date": "2025-12-20",
-          "check_date:opening_hours": "2025-12-20",
-          "indoor_seating": "no",
-          "name": "À 2 pains d’ici",
-          "opening_hours": "Mo-Th 06:30-13:30,16:00-19:30; Fr 06:30-13:30,16:00-19:00; Sa 06:30-12:00",
-          "outdoor_seating": "yes",
-          "shop": "bakery",
-          "wheelchair": "yes"
         }
       },
       {
@@ -3348,6 +3332,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-20T05:19:16.545Z",
+  "fetchedAt": "2026-08-21T05:49:32.121Z",
   "staleDataWarning": false
 }

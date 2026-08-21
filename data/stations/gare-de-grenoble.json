@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787116702563,
+      "timestamp": 1787291495438,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-20T05:19:18Z",
+      "timestamp_osm_base": "2026-08-21T05:52:08Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2808,6 +2808,28 @@
       },
       {
         "type": "way",
+        "id": 35135729,
+        "center": {
+          "lat": 45.1813609,
+          "lon": 5.726641
+        },
+        "tags": {
+          "addr:housenumber": "1",
+          "addr:street": "Boulevard Maréchal Foch",
+          "amenity": "charging_station",
+          "building": "retail",
+          "compressed_air": "yes",
+          "diff:ref:FR:RNB": "splitted",
+          "operator": "Total",
+          "ref:FR:RNB": "XX93T97G9VE3",
+          "roof:shape": "flat",
+          "shop": "kiosk",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
+          "vacuum_cleaner": "yes"
+        }
+      },
+      {
+        "type": "way",
         "id": 389874014,
         "center": {
           "lat": 45.1910635,
@@ -2833,6 +2855,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-20T05:19:16.545Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-08-21T05:49:32.121Z",
+  "staleDataWarning": false
 }

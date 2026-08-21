@@ -177,7 +177,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787116703801,
+      "timestamp": 1787291524297,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -206,7 +206,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-20T05:18:15Z",
+      "timestamp_osm_base": "2026-08-21T05:52:08Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -736,17 +736,6 @@
       },
       {
         "type": "node",
-        "id": 5538423013,
-        "lat": 47.3183899,
-        "lon": 5.0331558,
-        "tags": {
-          "check_date": "2024-09-28",
-          "name": "Épicerie Monge",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 5863209788,
         "lat": 47.3182508,
         "lon": 5.0359202,
@@ -954,6 +943,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-20T05:19:16.545Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-08-21T05:49:32.121Z",
+  "staleDataWarning": false
 }

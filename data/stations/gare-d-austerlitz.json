@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787203161983,
+      "timestamp": 1787291377490,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-20T05:18:15Z",
+      "timestamp_osm_base": "2026-08-21T05:48:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -4039,8 +4039,12 @@
         "lat": 48.8470289,
         "lon": 2.3514838,
         "tags": {
+          "addr:housenumber": "27",
+          "addr:street": "Rue Monge",
+          "email": "bibliartis@gmail.com",
           "name": "Bibliartis",
           "opening_hours": "Mo-Sa 13:00-19:00",
+          "phone": "+33687733133",
           "second_hand": "yes",
           "shop": "books",
           "website": "https://bibliartis.com"
@@ -4895,6 +4899,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-20T05:19:16.545Z",
+  "fetchedAt": "2026-08-21T05:49:32.121Z",
   "staleDataWarning": false
 }
