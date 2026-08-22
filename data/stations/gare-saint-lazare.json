@@ -305,7 +305,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787291374976,
+      "timestamp": 1787375088477,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -334,7 +334,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-21T05:48:00Z",
+      "timestamp_osm_base": "2026-08-22T05:03:46Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2283,6 +2283,7 @@
           "brand": "NOUS anti-gaspi",
           "brand:wikidata": "Q130144283",
           "name": "NOUS anti-gaspi",
+          "opening_hours": "Mo-Sa 10:00-20:45; Su 10:00-13:00",
           "shop": "convenience",
           "website": "https://www.nousantigaspi.com/magasins/paris-avenue-de-clichy/"
         }
@@ -4694,6 +4695,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-21T05:49:32.121Z",
+  "fetchedAt": "2026-08-22T05:04:45.471Z",
   "staleDataWarning": false
 }

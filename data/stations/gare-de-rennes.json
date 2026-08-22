@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787291431022,
+      "timestamp": 1787375282722,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-21T05:50:04Z",
+      "timestamp_osm_base": "2026-08-22T05:06:50Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1890,12 +1890,14 @@
         "lat": 48.1025416,
         "lon": -1.6841171,
         "tags": {
+          "check_date": "2026-08-21",
           "contact:city": "Rennes",
           "contact:housenumber": "71",
           "contact:postcode": "35000",
           "contact:street": "Boulevard de la Tour d'Auvergne",
           "name": "Exotique La Chekina",
           "opening_hours": "Mo-Sa 10:00-20:00; Su 15:00-18:00",
+          "phone": "+33605537432",
           "ref:FR:NAF": "47.11B",
           "ref:FR:SIRET": "98942417100027",
           "shop": "convenience"
@@ -2206,6 +2208,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-21T05:49:32.121Z",
+  "fetchedAt": "2026-08-22T05:04:45.471Z",
   "staleDataWarning": false
 }

@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787291377490,
+      "timestamp": 1787375091238,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-21T05:48:00Z",
+      "timestamp_osm_base": "2026-08-22T05:04:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -4483,18 +4483,23 @@
           "brand:website": "https://www.briochedoree.fr",
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche Dorée",
+          "check_date": "2026-08-21",
+          "check_date:opening_hours": "2026-08-21",
           "cuisine": "sandwich;pastry",
           "diet:vegetarian": "yes",
           "indoor": "room",
           "indoor_seating": "no",
           "level": "1",
           "name": "Brioche Dorée",
-          "opening_hours": "Sa-Th 06:30-20:00; Fr 06:30-20:30",
+          "opening_hours": "Mo-Th,Sa 05:30-20:00; Fr,Su 05:30-20:30",
           "operator": "Groupe Le Duff",
           "outdoor_seating": "no",
+          "phone": "+33 1 44 75 76 55",
           "ref": "919158",
+          "ref:FR:SIRET": "53470477000302",
           "shop": "bakery",
           "takeaway": "only",
+          "website": "https://www.garesetconnexions.sncf/fr/gares-services/paris-gare-lyon/services-commerces/brioche-doree-0",
           "wheelchair": "yes"
         }
       },
@@ -4614,6 +4619,8 @@
           "brand:website": "https://www.briochedoree.fr",
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche Dorée",
+          "check_date": "2026-08-21",
+          "check_date:opening_hours": "2026-08-21",
           "cuisine": "sandwich",
           "indoor": "room",
           "level": "0",
@@ -4622,10 +4629,12 @@
           "opening_hours": "Mo-Th 06:00-20:30; Fr 06:00-21:30; Sa 06:00-20:00; Su 07:00-21:30",
           "operator": "Groupe Le Duff",
           "ref": "919136",
+          "ref:FR:SIRET": "53470477000302",
           "seating": "no",
           "shop": "bakery",
           "source": "Mapillary 2015",
-          "takeaway": "yes"
+          "takeaway": "yes",
+          "website": "https://www.garesetconnexions.sncf/fr/gares-services/paris-gare-lyon/services-commerces/brioche-doree"
         }
       },
       {
@@ -4899,6 +4908,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-21T05:49:32.121Z",
+  "fetchedAt": "2026-08-22T05:04:45.471Z",
   "staleDataWarning": false
 }
