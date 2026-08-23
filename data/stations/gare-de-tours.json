@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787375433435,
+      "timestamp": 1787462476545,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-21T05:52:08Z",
+      "timestamp_osm_base": "2026-08-23T05:20:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -375,7 +375,7 @@
           "addr:housenumber": "3",
           "addr:postcode": "37000",
           "addr:street": "Rue Auguste Chevallier",
-          "check_date": "2024-08-02",
+          "check_date": "2026-08-21",
           "check_date:opening_hours": "2026-06-20",
           "contact:city": "Tours",
           "contact:facebook": "aroundthebread",
@@ -955,6 +955,7 @@
         "lat": 47.3918057,
         "lon": 0.7018432,
         "tags": {
+          "brand": "Épi Service",
           "contact:housenumber": "105",
           "contact:street": "Rue du Rempart",
           "name": "Épi Service",
@@ -972,7 +973,8 @@
         "lat": 47.3871437,
         "lon": 0.6764012,
         "tags": {
-          "check_date": "2024-02-02",
+          "check_date": "2026-08-21",
+          "check_date:opening_hours": "2026-08-21",
           "contact:city": "Tours",
           "contact:facebook": "https://www.facebook.com/La-Coquini%C3%A8re-905042092987857/",
           "contact:housenumber": "25",
@@ -1880,6 +1882,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-22T05:04:45.471Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-08-23T05:15:54.809Z",
+  "staleDataWarning": false
 }

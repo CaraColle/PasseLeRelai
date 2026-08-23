@@ -265,7 +265,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787375135200,
+      "timestamp": 1787462238821,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -294,7 +294,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-22T05:05:50Z",
+      "timestamp_osm_base": "2026-08-23T05:16:17Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -779,22 +779,6 @@
           "phone": "+33 4 78 42 28 45",
           "ref:FR:SIRET": "81038809000013",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3194037966,
-        "lat": 45.7465368,
-        "lon": 4.8237893,
-        "tags": {
-          "brand": "Vival",
-          "brand:wikidata": "Q7937525",
-          "brand:wikipedia": "en:Vival (shop)",
-          "name": "Vival",
-          "opening_hours": "Mo-Su 07:00-22:00",
-          "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/vival-lyon-suchet",
-          "wheelchair": "yes"
         }
       },
       {
@@ -1932,6 +1916,7 @@
           "addr:postcode": "69002",
           "addr:street": "Cours Charlemagne",
           "bakehouse": "yes",
+          "check_date:opening_hours": "2026-08-22",
           "chocolate": "no",
           "craft": "bakery",
           "name": "Panéterra",
@@ -2253,6 +2238,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-22T05:04:45.471Z",
+  "fetchedAt": "2026-08-23T05:15:54.809Z",
   "staleDataWarning": false
 }

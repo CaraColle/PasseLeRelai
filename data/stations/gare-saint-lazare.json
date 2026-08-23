@@ -305,7 +305,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787375088477,
+      "timestamp": 1787462170602,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -334,7 +334,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-22T05:03:46Z",
+      "timestamp_osm_base": "2026-08-23T05:15:19Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1736,8 +1736,8 @@
       {
         "type": "node",
         "id": 3962359693,
-        "lat": 48.8900713,
-        "lon": 2.3382762,
+        "lat": 48.8900876,
+        "lon": 2.3382778,
         "tags": {
           "addr:city": "Paris",
           "addr:housenumber": "78",
@@ -3982,8 +3982,8 @@
       {
         "type": "node",
         "id": 12312219177,
-        "lat": 48.8901118,
-        "lon": 2.3380425,
+        "lat": 48.8901207,
+        "lon": 2.3380385,
         "tags": {
           "check_date:opening_hours": "2026-02-09",
           "name": "Supermarckette",
@@ -4695,6 +4695,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-22T05:04:45.471Z",
+  "fetchedAt": "2026-08-23T05:15:54.809Z",
   "staleDataWarning": false
 }

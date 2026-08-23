@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787375192034,
+      "timestamp": 1787462275905,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-22T05:06:50Z",
+      "timestamp_osm_base": "2026-08-23T05:16:17Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -905,6 +905,8 @@
         "lat": 47.219792,
         "lon": -1.5550068,
         "tags": {
+          "brand": "Maison Bécam",
+          "brand:wikidata": "Q130232721",
           "contact:city": "Nantes",
           "contact:housenumber": "4",
           "contact:postcode": "44000",
@@ -1709,38 +1711,6 @@
       },
       {
         "type": "node",
-        "id": 6015554486,
-        "lat": 47.2283798,
-        "lon": -1.5325506,
-        "tags": {
-          "bulk_purchase": "yes",
-          "check_date": "2026-03-22",
-          "check_date:opening_hours": "2026-03-22",
-          "contact:housenumber": "3",
-          "contact:street": "Place Victor Richard",
-          "indoor_seating": "no",
-          "name": "Aux Délices d'Ambre",
-          "opening_hours": "Mo-Fr 07:00-13:30,15:30-19:00",
-          "outdoor_seating": "no",
-          "pastry": "yes",
-          "phone": "+33 2 40 74 62 64",
-          "post_office": "post_partner",
-          "post_office:brand": "Mondial Relay",
-          "post_office:parcel_from": "yes",
-          "post_office:parcel_pickup": "yes",
-          "post_office:parcel_to": "yes",
-          "ref:FR:NAF": "10.71C",
-          "ref:FR:SIREN": "841963192",
-          "ref:FR:SIRET": "84196319200015",
-          "shop": "bakery",
-          "source": "INSEE - 2025-08",
-          "source:bulk_purchase": "Collectif J'aime tes bocaux",
-          "takeaway": "only",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 6017906524,
         "lat": 47.2150256,
         "lon": -1.5513983,
@@ -2495,6 +2465,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-22T05:04:45.471Z",
+  "fetchedAt": "2026-08-23T05:15:54.809Z",
   "staleDataWarning": false
 }

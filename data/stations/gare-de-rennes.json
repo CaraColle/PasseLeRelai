@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787375282722,
+      "timestamp": 1787462353052,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-22T05:06:50Z",
+      "timestamp_osm_base": "2026-08-23T05:18:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1740,6 +1740,17 @@
       },
       {
         "type": "node",
+        "id": 5999007223,
+        "lat": 48.1094687,
+        "lon": -1.6757405,
+        "tags": {
+          "name": "One Market",
+          "opening_hours": "Mo-Su,PH 14:00-01:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 6008123316,
         "lat": 48.1110401,
         "lon": -1.6783459,
@@ -2208,6 +2219,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-22T05:04:45.471Z",
+  "fetchedAt": "2026-08-23T05:15:54.809Z",
   "staleDataWarning": false
 }
