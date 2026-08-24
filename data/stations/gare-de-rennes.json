@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787462353052,
+      "timestamp": 1787551193632,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-23T05:18:20Z",
+      "timestamp_osm_base": "2026-08-24T06:00:49Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1379,14 +1379,17 @@
           "addr:postcode": "35000",
           "addr:street": "Rue Vasselot",
           "check_date:opening_hours": "2026-06-28",
+          "indoor_seating": "no",
           "name": "Le Grenier à Pain",
           "opening_hours": "Th-Mo 07:00-19:30",
+          "outdoor_seating": "no",
           "phone": "+33 2 99 79 63 30",
           "ref:FR:SIRET": "52388968100012",
           "shop": "bakery",
           "source:addr": "Rennes Métropole",
           "source:addr:housenumber:ref": "61069",
-          "source:addr:version": "2016-04-01"
+          "source:addr:version": "2016-04-01",
+          "takeaway": "only"
         }
       },
       {
@@ -1639,6 +1642,7 @@
         "lat": 48.108928,
         "lon": -1.6776976,
         "tags": {
+          "check_date": "2026-08-22",
           "name": "Épicerie du Centre",
           "shop": "convenience"
         }
@@ -2219,6 +2223,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-23T05:15:54.809Z",
+  "fetchedAt": "2026-08-24T05:58:36.815Z",
   "staleDataWarning": false
 }

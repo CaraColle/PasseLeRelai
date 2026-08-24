@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787462155581,
+      "timestamp": 1787551117787,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-23T05:14:14Z",
+      "timestamp_osm_base": "2026-08-24T05:57:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -348,6 +348,7 @@
         "lat": 48.8297688,
         "lon": 2.32318,
         "tags": {
+          "check_date": "2026-08-23",
           "indoor_seating": "no",
           "name": "Lorette",
           "old_name": "Le Moulin Vert",
@@ -359,6 +360,24 @@
           "shop": "bakery",
           "takeaway": "only",
           "website": "https://boulangerie-lorette.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 418510261,
+        "lat": 48.8316269,
+        "lon": 2.3219796,
+        "tags": {
+          "check_date": "2026-08-23",
+          "indoor_seating": "yes",
+          "name": "L'Atelier des merveilles",
+          "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:00-19:00",
+          "outdoor_seating": "no",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "bakery",
+          "smoking": "no",
           "wheelchair": "yes"
         }
       },
@@ -763,6 +782,26 @@
       },
       {
         "type": "node",
+        "id": 1406238645,
+        "lat": 48.8279465,
+        "lon": 2.3273604,
+        "tags": {
+          "check_date": "2026-08-23",
+          "check_date:opening_hours": "2025-03-06",
+          "contact:instagram": "boulangerie_alesia",
+          "indoor_seating": "yes",
+          "name": "La Grande Alésia",
+          "opening_hours": "07:00-20:00",
+          "outdoor_seating": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "bakery",
+          "smoking": "outside",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
         "id": 1420832080,
         "lat": 48.8328985,
         "lon": 2.3160211,
@@ -822,7 +861,8 @@
           "addr:housenumber": "31",
           "addr:postcode": "75014",
           "addr:street": "Rue du Moulin Vert",
-          "name": "Librairie Le Livre Écarlate",
+          "check_date": "2026-08-23",
+          "name": "Librairie Le Livre écarlate",
           "opening_hours": "Tu-Sa 10:00-19:00; Su 10:00-13:00",
           "phone": "+33 1 45 42 75 30",
           "ref:FR:SIRET": "48887719200010",
@@ -896,21 +936,13 @@
           "brand": "U Express",
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "en:Système U",
+          "check_date": "2026-08-23",
           "name": "U Express",
           "opening_hours": "Mo-Sa 08:00-22:30; Su 09:00-22:30",
           "phone": "+33 9 67 14 08 89",
           "shop": "convenience",
           "website": "https://www.magasins-u.com/magasin/uexpress-parisalesia",
           "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1744501667,
-        "lat": 48.8270494,
-        "lon": 2.3323405,
-        "tags": {
-          "shop": "books"
         }
       },
       {
@@ -1082,10 +1114,11 @@
         "lat": 48.82771,
         "lon": 2.3286319,
         "tags": {
+          "check_date": "2026-08-23",
           "contact:facebook": "https://www.facebook.com/profile.php?id=61573835739156",
           "contact:housenumber": "73",
           "contact:street": "Rue d'Alésia",
-          "name": "Lumière d'Août",
+          "name": "Lumière d'août",
           "opening_hours": "Tu-Sa 10:00-20:00",
           "phone": "+33 1 43 22 85 51",
           "ref:FR:SIRET": "49018678000022",
@@ -1967,7 +2000,7 @@
         "tags": {
           "brand": "Les Fournils de France",
           "brand:wikidata": "Q104649900",
-          "check_date": "2025-06-19",
+          "check_date": "2026-08-23",
           "indoor_seating": "no",
           "level": "0",
           "name": "Les Fournils de France",
@@ -2383,11 +2416,12 @@
         "lat": 48.8308323,
         "lon": 2.334695,
         "tags": {
+          "check_date": "2026-08-23",
           "contact:city": "Paris",
           "contact:housenumber": "45",
           "contact:postcode": "75014",
           "contact:street": "Rue de la Tombe Issoire",
-          "name": "Editions du Dauphin",
+          "name": "Éditions du Dauphin",
           "shop": "books"
         }
       },
@@ -2453,6 +2487,18 @@
       },
       {
         "type": "node",
+        "id": 7113232363,
+        "lat": 48.8287248,
+        "lon": 2.3262092,
+        "tags": {
+          "check_date": "2026-08-23",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 7118018820,
         "lat": 48.847469,
         "lon": 2.3300374,
@@ -2467,7 +2513,7 @@
         "lat": 48.8280413,
         "lon": 2.3324953,
         "tags": {
-          "check_date": "2026-01-29",
+          "check_date": "2026-08-23",
           "name": "Ganam Mini Market",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -2786,6 +2832,7 @@
           "addr:postcode": "75014",
           "brand": "le marché d'à côté",
           "brand:wikidata": "Q130165186",
+          "check_date": "2026-08-23",
           "diet:halal": "yes",
           "fixme": "Les horaires et le numéro de téléphone diffèrent fortement de ceux notés sur la page web. À vérifier sur place ?",
           "name": "le marché d'à côté",
@@ -3366,7 +3413,10 @@
         "lat": 48.8341448,
         "lon": 2.3180273,
         "tags": {
-          "name": "Eureka Market",
+          "brand": "Proxi",
+          "brand:wikidata": "Q3408522",
+          "check_date": "2026-08-23",
+          "name": "Proxi",
           "nobrand": "yes",
           "payment:cards": "yes",
           "payment:cash": "yes",
@@ -3847,6 +3897,7 @@
         "lat": 48.8375264,
         "lon": 2.3195399,
         "tags": {
+          "check_date": "2026-08-23",
           "name": "Gereso",
           "opening_hours": "Mo-Fr 08:30-18:00",
           "shop": "books",
@@ -4243,6 +4294,16 @@
         }
       },
       {
+        "type": "node",
+        "id": 14115379167,
+        "lat": 48.8263718,
+        "lon": 2.3320376,
+        "tags": {
+          "check_date": "2026-08-23",
+          "shop": "books"
+        }
+      },
+      {
         "type": "way",
         "id": 62296339,
         "center": {
@@ -4548,6 +4609,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-23T05:15:54.809Z",
+  "fetchedAt": "2026-08-24T05:58:36.815Z",
   "staleDataWarning": false
 }
