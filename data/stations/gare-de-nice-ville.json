@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787551165019,
+      "timestamp": 1787637009235,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-24T05:57:51Z",
+      "timestamp_osm_base": "2026-08-25T05:49:03Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -856,7 +856,7 @@
         "tags": {
           "addr:housenumber": "105",
           "addr:street": "Avenue Saint-Lambert",
-          "name": "Aux délices de Jeanne d'Arc",
+          "name": "Aux Délices de Jeanne d'Arc",
           "opening_hours": "06:00-19:00; We off",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "493679823",
@@ -1270,8 +1270,7 @@
           "opening_hours": "Mo-Sa 07:30-22:00; Su 09:00-22:00",
           "phone": "+33 4 93 85 18 74",
           "ref:FR:SIRET": "82089381600018",
-          "shop": "convenience",
-          "website": "https://magasins.spar.fr/fr/s/spar-nice-bosio"
+          "shop": "convenience"
         }
       },
       {
@@ -1708,7 +1707,7 @@
         "tags": {
           "books": "children",
           "facebook": "https://www.facebook.com/librairielesparleuses/",
-          "name": "Les parleuses",
+          "name": "Les Parleuses",
           "opening_hours": "Tu-Sa 10:00-19:00",
           "phone": "+33 4 93 01 27 34",
           "ref:FR:SIRET": "84138376300015",
@@ -1728,7 +1727,7 @@
           "check_date": "2025-06-21",
           "description": "Café littéraire",
           "diet:vegetarian": "no",
-          "name": "Les parleuses",
+          "name": "Les Parleuses",
           "opening_hours": "Tu-Sa 10:00-19:00",
           "outdoor_seating": "yes",
           "ref:FR:NAF": "47.61Z",
@@ -2062,7 +2061,7 @@
         "tags": {
           "addr:housenumber": "35",
           "addr:street": "Avenue Jean Médecin",
-          "name": "Tabac de l'étoile",
+          "name": "Tabac de l'Étoile",
           "ref:FR:NAF": "47.26Z",
           "ref:FR:SIREN": "802224808",
           "ref:FR:SIRET": "80222480800013",
@@ -2148,7 +2147,7 @@
           "addr:street": "Rue d'Angleterre",
           "description": "Librairie spécialisée en Bande Dessinée",
           "email": "nice@bdfugue.com",
-          "name": "BD fugue",
+          "name": "BD Fugue",
           "phone": "+33 4 93 87 49 22",
           "ref:FR:NAF": "47.61Z",
           "ref:FR:SIREN": "479805319",
@@ -2355,8 +2354,7 @@
           "name": "Eric Kayser",
           "opening_hours": "Mo-Su 06:30-21:30",
           "pastry": "yes",
-          "shop": "bakery",
-          "website": "https://www.maison-kayser.com/fr/boulangeries/100004016-iconic.html"
+          "shop": "bakery"
         }
       },
       {
@@ -2990,6 +2988,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-24T05:58:36.815Z",
+  "fetchedAt": "2026-08-25T05:49:09.174Z",
   "staleDataWarning": false
 }
