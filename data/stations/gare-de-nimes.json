@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787637116722,
+      "timestamp": 1787723680869,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-25T05:51:05Z",
+      "timestamp_osm_base": "2026-08-26T05:53:19Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -963,16 +963,6 @@
       },
       {
         "type": "node",
-        "id": 3714328124,
-        "lat": 43.8261866,
-        "lon": 4.3619295,
-        "tags": {
-          "name": "Épicerie solidaire",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 3942035389,
         "lat": 43.8192797,
         "lon": 4.350901,
@@ -1195,16 +1185,6 @@
         "lon": 4.352861,
         "tags": {
           "name": "Épicerie",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7092632939,
-        "lat": 43.8268814,
-        "lon": 4.3638313,
-        "tags": {
-          "name": "Tour Alimentation",
           "shop": "convenience"
         }
       },
@@ -1705,6 +1685,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-25T05:49:09.174Z",
+  "fetchedAt": "2026-08-26T05:53:18.290Z",
   "staleDataWarning": false
 }

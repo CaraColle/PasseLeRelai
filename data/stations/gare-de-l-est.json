@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787636950698,
+      "timestamp": 1787723599234,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-25T05:47:55Z",
+      "timestamp_osm_base": "2026-08-26T05:52:15Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -8013,6 +8013,17 @@
       },
       {
         "type": "node",
+        "id": 10901383062,
+        "lat": 48.8798607,
+        "lon": 2.3669138,
+        "tags": {
+          "check_date": "2026-08-25",
+          "name": "Valmy Shop",
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
         "id": 11005333570,
         "lat": 48.8637494,
         "lon": 2.356809,
@@ -9606,6 +9617,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-25T05:49:09.174Z",
+  "fetchedAt": "2026-08-26T05:53:18.290Z",
   "staleDataWarning": false
 }

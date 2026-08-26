@@ -245,7 +245,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787637107739,
+      "timestamp": 1787723678916,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-25T05:51:05Z",
+      "timestamp_osm_base": "2026-08-26T05:53:19Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -880,13 +880,16 @@
         "lat": 47.4675463,
         "lon": -0.55891,
         "tags": {
-          "check_date": "2024-01-20",
+          "check_date": "2026-08-25",
+          "check_date:diet:gluten_free": "2026-08-25",
+          "diet:gluten_free": "no",
           "name": "Dalibard",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "815293725",
           "ref:FR:SIRET": "81529372500017",
           "shop": "bakery",
-          "source": "INSEE - 2026-05"
+          "source": "INSEE - 2026-05",
+          "wheelchair": "limited"
         }
       },
       {
@@ -1372,6 +1375,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-25T05:49:09.174Z",
+  "fetchedAt": "2026-08-26T05:53:18.290Z",
   "staleDataWarning": false
 }

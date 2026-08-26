@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787636995819,
+      "timestamp": 1787723639228,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-25T05:49:03Z",
+      "timestamp_osm_base": "2026-08-26T05:52:15Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -288,6 +288,7 @@
           "contact:postcode": "31000",
           "contact:street": "Rue de la Bourse",
           "name": "Mon Chat Pitre",
+          "phone": "05 31 61 60 30",
           "ref:FR:SIRET": "99978645200014",
           "shop": "books",
           "start_date": "2026-04-20",
@@ -902,13 +903,26 @@
         "tags": {
           "brand": "La Panetière",
           "brand:wikidata": "Q100712234",
-          "contact:housenumber": "41",
+          "breakfast": "yes",
+          "contact:city": "Toulouse",
+          "contact:facebook": "https://www.facebook.com/profile.php?id=61569803001002",
+          "contact:housenumber": "39",
+          "contact:instagram": "https://www.instagram.com/la_panetiere_page_officielle/",
+          "contact:linkedin": "https://www.linkedin.com/company/lapanetiere",
+          "contact:phone": "+33 5 61 12 17 55",
+          "contact:postcode": "31000",
           "contact:street": "Boulevard de Strasbourg",
+          "contact:website": "https://lapanetiere.fr/",
           "cuisine": "sandwich",
           "description": "Pains Rustiques; Patisseries; Sandwicherie; Boissons",
           "name": "La Panetière",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "pastry": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "shop": "bakery",
-          "takeaway": "only",
+          "takeaway": "yes",
           "wheelchair": "yes"
         }
       },
@@ -1171,16 +1185,31 @@
         "tags": {
           "brand": "La Panetière",
           "brand:wikidata": "Q100712234",
+          "breakfast": "yes",
+          "contact:city": "Toulouse",
+          "contact:facebook": "https://www.facebook.com/profile.php?id=61569803001002",
           "contact:housenumber": "2",
+          "contact:instagram": "https://www.instagram.com/la_panetiere_page_officielle/",
+          "contact:linkedin": "https://www.linkedin.com/company/lapanetiere",
+          "contact:phone": "+33 5 61 73 29 90",
+          "contact:postcode": "31000",
           "contact:street": "Rue de Metz",
+          "contact:website": "https://lapanetiere.fr/",
+          "cuisine": "coffee_shop;sandwich",
           "indoor_seating": "yes",
           "name": "La Panetière",
           "opening_hours": "Mo-Su 07:00-20:00",
           "outdoor_seating": "no",
+          "pastry": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "ref:FR:SIRET": "51764137900105",
           "shop": "bakery",
+          "takeaway": "yes",
           "was:name": "Psycho Jongleur",
-          "was:shop": "toys"
+          "was:shop": "toys",
+          "wheelchair": "yes"
         }
       },
       {
@@ -1482,17 +1511,33 @@
         "tags": {
           "brand": "La Panetière",
           "brand:wikidata": "Q100712234",
+          "breakfast": "yes",
           "check_date": "2024-10-19",
           "check_date:opening_hours": "2024-10-19",
+          "contact:city": "Toulouse",
+          "contact:facebook": "https://www.facebook.com/profile.php?id=61569803001002",
           "contact:housenumber": "55",
+          "contact:instagram": "https://www.instagram.com/la_panetiere_page_officielle/",
+          "contact:linkedin": "https://www.linkedin.com/company/lapanetiere",
+          "contact:phone": "+33 5 34 33 26 13",
+          "contact:postcode": "31000",
           "contact:street": "Boulevard Lazare Carnot",
+          "contact:website": "https://lapanetiere.fr/",
+          "cuisine": "sandwich",
           "indoor_seating": "yes",
           "name": "La Panetière",
+          "opening_hours": "Mo-Su 07:00-20:45",
           "opening_hours:signed": "no",
           "outdoor_seating": "yes",
+          "pastry": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
           "ref:FR:SIRET": "41127320400080",
           "shop": "bakery",
-          "source": "survey"
+          "source": "survey",
+          "takeaway": "yes"
         }
       },
       {
@@ -2444,23 +2489,6 @@
       },
       {
         "type": "node",
-        "id": 6995653851,
-        "lat": 43.6002184,
-        "lon": 1.453584,
-        "tags": {
-          "brand": "La Panetière",
-          "brand:wikidata": "Q100712234",
-          "check_date:opening_hours": "2026-02-28",
-          "contact:housenumber": "3",
-          "contact:street": "Place Dominique Martin Dupuy",
-          "name": "La Panetière",
-          "opening_hours:signed": "no",
-          "ref:FR:SIRET": "47973781900082",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 7359816832,
         "lat": 43.6035957,
         "lon": 1.4418268,
@@ -3332,6 +3360,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-25T05:49:09.174Z",
+  "fetchedAt": "2026-08-26T05:53:18.290Z",
   "staleDataWarning": false
 }
