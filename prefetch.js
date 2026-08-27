@@ -41,7 +41,7 @@ const stations = [
   { name: 'Gare du Mans',                      lat: 47.9952, lng: 0.1921 },
   { name: 'Gare d\'Aix-en-Provence TGV',       lat: 43.4553, lng: 5.3172 },
   { name: 'Gare de Clermont-Ferrand',          lat: 45.7767, lng: 3.0952 },
-  { name: 'Gare de Brest',                     lat: 48.3903, lng: -4.4835 },
+  { name: 'Gare de Brest',                     lat: 48.3877, lng: -4.4801 },
   { name: 'Gare de Tours',                     lat: 47.3894, lng: 0.6939 },
   { name: 'Gare de Limoges-Bénédictins',       lat: 45.8339, lng: 1.2621 },
   { name: 'Gare d\'Amiens',                    lat: 49.8934, lng: 2.3057 },
