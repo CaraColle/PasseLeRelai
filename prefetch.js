@@ -48,7 +48,7 @@ const stations = [
   { name: 'Gare de Perpignan',                 lat: 42.6939, lng: 2.8895 },
   { name: 'Gare de Metz-Ville',                lat: 49.1099, lng: 6.1778 },
   { name: 'Gare de Besançon-Viotte',           lat: 47.2427, lng: 6.0242 },
-  { name: 'Gare d\'Orléans',                   lat: 47.9089, lng: 1.9040 },
+  { name: 'Gare d\'Orléans',                   lat: 47.9078, lng: 1.9047 },
   { name: 'Gare de Mulhouse-Ville',            lat: 47.7403, lng: 7.3398 },
   { name: 'Gare de Rouen-Rive-Droite',         lat: 49.4431, lng: 1.0993 },
   { name: 'Gare de Caen',                      lat: 49.1839, lng: -0.3477 },
