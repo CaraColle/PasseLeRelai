@@ -38,7 +38,7 @@ const stations = [
   { name: 'Gare de Dijon-Ville',               lat: 47.3227, lng: 5.0227 },
   { name: 'Gare d\'Angers-Saint-Laud',         lat: 47.4649, lng: -0.5567 },
   { name: 'Gare de Nîmes',                     lat: 43.8323, lng: 4.3616 },
-  { name: 'Gare du Mans',                      lat: 48.0009, lng: 0.1936 },
+  { name: 'Gare du Mans',                      lat: 47.9952, lng: 0.1921 },
   { name: 'Gare d\'Aix-en-Provence TGV',       lat: 43.4553, lng: 5.3172 },
   { name: 'Gare de Clermont-Ferrand',          lat: 45.7767, lng: 3.0952 },
   { name: 'Gare de Brest',                     lat: 48.3903, lng: -4.4835 },
