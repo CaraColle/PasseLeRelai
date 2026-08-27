@@ -31,7 +31,7 @@ const stations = [
   { name: 'Gare de Lille-Europe',              lat: 50.6395, lng: 3.0755 },
   { name: 'Gare de Rennes',                    lat: 48.1032, lng: -1.6726 },
   { name: 'Gare de Reims',                     lat: 49.2600, lng: 4.0247 },
-  { name: 'Gare du Havre',                     lat: 49.4938, lng: 0.1078 },
+  { name: 'Gare du Havre',                     lat: 49.4927, lng: 0.1256 },
   { name: 'Gare de Saint-Étienne-Châteaucreux',lat: 45.4406, lng: 4.4025 },
   { name: 'Gare de Toulon',                    lat: 43.1247, lng: 5.9308 },
   { name: 'Gare de Grenoble',                  lat: 45.1913, lng: 5.7141 },
