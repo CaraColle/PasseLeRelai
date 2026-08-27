@@ -51,7 +51,7 @@ const stations = [
   { name: 'Gare d\'Orléans',                   lat: 47.9078, lng: 1.9047 },
   { name: 'Gare de Mulhouse-Ville',            lat: 47.7403, lng: 7.3398 },
   { name: 'Gare de Rouen-Rive-Droite',         lat: 49.4492, lng: 1.0942 },
-  { name: 'Gare de Caen',                      lat: 49.1839, lng: -0.3477 },
+  { name: 'Gare de Caen',                      lat: 49.1768, lng: -0.3475 },
   { name: 'Gare de Nancy-Ville',               lat: 48.6900, lng: 6.1704 }
 ];
 
