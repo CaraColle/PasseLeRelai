@@ -59,8 +59,8 @@
                 48.838537
               ],
               [
-                2.31933,
-                48.838072
+                2.319264,
+                48.838075
               ],
               [
                 2.322382,
@@ -140,6 +140,10 @@
         "geometry": {
           "coordinates": [
             [
+              [
+                2.313738,
+                48.844749
+              ],
               [
                 2.312511,
                 48.843178
@@ -253,16 +257,12 @@
                 48.84771
               ],
               [
-                2.316151,
-                48.847277
+                2.316154,
+                48.847278
               ],
               [
-                2.314079,
-                48.845233
-              ],
-              [
-                2.312511,
-                48.843178
+                2.313738,
+                48.844749
               ]
             ]
           ],
@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787723599096,
+      "timestamp": 1787951702025,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -291,10 +291,10 @@
         "units": "m"
       },
       "engine": {
-        "version": "9.9.0",
-        "build_date": "2026-06-12T10:08:58Z",
-        "graph_date": "2026-08-10T18:08:45Z",
-        "osm_date": "2026-08-03T00:00:02Z"
+        "version": "9.10.0",
+        "build_date": "2026-08-13T11:53:14Z",
+        "graph_date": "2026-08-27T11:22:24Z",
+        "osm_date": "2026-08-17T00:00:02Z"
       }
     }
   },
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-26T05:51:18Z",
+      "timestamp_osm_base": "2026-08-28T21:13:46Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1845,8 +1845,14 @@
         "lat": 48.8539921,
         "lon": 2.3236131,
         "tags": {
+          "addr:housenumber": "31",
+          "addr:street": "Rue de Varenne",
+          "check_date": "2026-08-28",
+          "check_date:opening_hours": "2026-08-28",
           "name": "Seco",
+          "opening_hours": "Mo-Sa 07:00-20:00",
           "shop": "bakery",
+          "website": "https://www.seccoparis.com/boutiques/",
           "wheelchair": "no"
         }
       },
@@ -4615,6 +4621,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-26T05:53:18.290Z",
+  "fetchedAt": "2026-08-28T21:15:00.737Z",
   "staleDataWarning": false
 }

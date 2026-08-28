@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787723603213,
+      "timestamp": 1787951706479,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -255,10 +255,10 @@
         "units": "m"
       },
       "engine": {
-        "version": "9.9.0",
-        "build_date": "2026-06-12T10:08:58Z",
-        "graph_date": "2026-08-10T18:08:45Z",
-        "osm_date": "2026-08-03T00:00:02Z"
+        "version": "9.10.0",
+        "build_date": "2026-08-13T11:53:14Z",
+        "graph_date": "2026-08-27T11:22:24Z",
+        "osm_date": "2026-08-17T00:00:02Z"
       }
     }
   },
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-26T05:52:15Z",
+      "timestamp_osm_base": "2026-08-28T21:15:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1003,11 +1003,12 @@
         "lat": 48.8383716,
         "lon": 2.3560982,
         "tags": {
+          "check_date:opening_hours": "2026-08-27",
           "indoor_seating": "yes",
           "level": "0",
           "name": "Pain et Beurre",
           "opening_hours": "Tu-Su 07:00-20:00",
-          "outdoor_seating": "yes",
+          "outdoor_seating": "sidewalk",
           "shop": "bakery",
           "wheelchair": "yes"
         }
@@ -3327,6 +3328,8 @@
           "addr:housenumber": "135",
           "addr:postcode": "75013",
           "addr:street": "Rue Jeanne d'Arc",
+          "brand": "So.bio",
+          "brand:wikidata": "Q141195843",
           "check_date": "2024-09-01",
           "name": "So.bio",
           "opening_hours": "Mo-Sa 09:30-20:30, Su 09:30-13:00",
@@ -3533,7 +3536,9 @@
           "check_date": "2026-06-14",
           "name": "Le Prestige de l'alimentation",
           "opening_hours": "Mo,We-Su 08:00-22:00",
-          "shop": "convenience"
+          "shop": "convenience",
+          "wheelchair": "no",
+          "wheelchair:description:fr": "Deux marches hautes à l'entrée."
         }
       },
       {
@@ -3649,6 +3654,7 @@
         "lat": 48.8444127,
         "lon": 2.3546335,
         "tags": {
+          "check_date": "2026-08-27",
           "name": "Mini Market",
           "opening_hours": "11:00-02:00",
           "shop": "convenience"
@@ -4345,6 +4351,17 @@
         }
       },
       {
+        "type": "node",
+        "id": 14124882401,
+        "lat": 48.8279757,
+        "lon": 2.3788215,
+        "tags": {
+          "opening_hours": "Mo-Su 06:30-20:30",
+          "shop": "bakery",
+          "source": "survey"
+        }
+      },
+      {
         "type": "way",
         "id": 43547377,
         "center": {
@@ -4908,6 +4925,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-26T05:53:18.290Z",
+  "fetchedAt": "2026-08-28T21:15:00.737Z",
   "staleDataWarning": false
 }

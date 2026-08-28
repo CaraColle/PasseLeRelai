@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787723599234,
+      "timestamp": 1787951702084,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -311,10 +311,10 @@
         "units": "m"
       },
       "engine": {
-        "version": "9.9.0",
-        "build_date": "2026-06-12T10:08:58Z",
-        "graph_date": "2026-08-10T18:08:45Z",
-        "osm_date": "2026-08-03T00:00:02Z"
+        "version": "9.10.0",
+        "build_date": "2026-08-13T11:53:14Z",
+        "graph_date": "2026-08-27T11:22:24Z",
+        "osm_date": "2026-08-17T00:00:02Z"
       }
     }
   },
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-26T05:52:15Z",
+      "timestamp_osm_base": "2026-08-28T21:13:46Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2951,13 +2951,13 @@
         "lat": 48.8767506,
         "lon": 2.3486006,
         "tags": {
-          "check_date": "2026-06-12",
+          "check_date": "2026-08-27",
           "check_date:opening_hours": "2024-02-21",
           "contact:facebook": "https://www.facebook.com/lalibreriaparis",
           "contact:housenumber": "89",
           "contact:phone": "+33 1 40 22 06 94",
           "contact:street": "Rue du Faubourg Poissonnière",
-          "contact:website": "http://www.libreria.fr/store/",
+          "contact:website": "http://www.libreria.fr/",
           "name": "La Libreria",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
           "ref:FR:SIRET": "48922344600019",
@@ -3048,15 +3048,17 @@
           "contact:city": "Paris",
           "contact:email": "maisoncollet@hotmail.fr",
           "contact:housenumber": "100",
+          "contact:instagram": "maisoncollet",
           "contact:phone": "+33 1 45 08 00 06",
           "contact:postcode": "75002",
           "contact:street": "Rue Montorgueil",
-          "contact:website": "http://maisoncollet.wixsite.com/maisoncollet",
+          "contact:website": "https://www.maison-collet.com/",
           "indoor_seating": "no",
           "level": "0",
           "name": "Maison Collet",
           "opening_hours": "Mo-Fr 06:30-20:45",
-          "outdoor_seating": "no",
+          "outdoor_seating": "yes",
+          "pastry": "yes",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -4711,7 +4713,7 @@
         "lat": 48.884294,
         "lon": 2.3723081,
         "tags": {
-          "check_date": "2025-05-14",
+          "check_date": "2026-08-27",
           "name": "Store MK2",
           "opening_hours": "Mo-Fr 12:15-21:15, Sa 12:15-22:15, Su 12:15-19:45",
           "second_hand": "no",
@@ -9617,6 +9619,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-26T05:53:18.290Z",
+  "fetchedAt": "2026-08-28T21:15:00.737Z",
   "staleDataWarning": false
 }

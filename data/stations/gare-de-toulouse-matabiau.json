@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787723639228,
+      "timestamp": 1787951827190,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -259,10 +259,10 @@
         "units": "m"
       },
       "engine": {
-        "version": "9.9.0",
-        "build_date": "2026-06-12T10:08:58Z",
-        "graph_date": "2026-08-10T18:08:45Z",
-        "osm_date": "2026-08-03T00:00:02Z"
+        "version": "9.10.0",
+        "build_date": "2026-08-13T11:53:14Z",
+        "graph_date": "2026-08-27T11:22:24Z",
+        "osm_date": "2026-08-17T00:00:02Z"
       }
     }
   },
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-26T05:52:15Z",
+      "timestamp_osm_base": "2026-08-28T21:15:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -288,7 +288,7 @@
           "contact:postcode": "31000",
           "contact:street": "Rue de la Bourse",
           "name": "Mon Chat Pitre",
-          "phone": "05 31 61 60 30",
+          "phone": "+33 5 31 61 60 30",
           "ref:FR:SIRET": "99978645200014",
           "shop": "books",
           "start_date": "2026-04-20",
@@ -445,7 +445,8 @@
         "lat": 43.6008702,
         "lon": 1.4470617,
         "tags": {
-          "check_date": "2024-01-31",
+          "check_date": "2026-08-28",
+          "check_date:opening_hours": "2026-08-28",
           "contact:facebook": "https://www.facebook.com/LIBRAIRIEPRIVAT/",
           "contact:housenumber": "14",
           "contact:instagram": "https://www.instagram.com/librairie.privat/",
@@ -3360,6 +3361,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-26T05:53:18.290Z",
+  "fetchedAt": "2026-08-28T21:15:00.737Z",
   "staleDataWarning": false
 }

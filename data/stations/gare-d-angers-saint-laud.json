@@ -10,7 +10,7 @@
       -0.566599,
       47.458163,
       -0.547041,
-      47.471369
+      47.471367
     ],
     "features": [
       {
@@ -99,8 +99,8 @@
                 47.468044
               ],
               [
-                -0.558953,
-                47.468209
+                -0.558932,
+                47.468202
               ],
               [
                 -0.559382,
@@ -213,20 +213,16 @@
                 47.471142
               ],
               [
-                -0.558259,
-                47.471369
+                -0.558263,
+                47.471367
               ],
               [
-                -0.561563,
-                47.470838
+                -0.562768,
+                47.470497
               ],
               [
-                -0.562812,
-                47.470514
-              ],
-              [
-                -0.563017,
-                47.470443
+                -0.56297,
+                47.470424
               ],
               [
                 -0.566444,
@@ -245,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787723678916,
+      "timestamp": 1787951993233,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -263,10 +259,10 @@
         "units": "m"
       },
       "engine": {
-        "version": "9.9.0",
-        "build_date": "2026-06-12T10:08:58Z",
-        "graph_date": "2026-08-10T18:08:45Z",
-        "osm_date": "2026-08-03T00:00:02Z"
+        "version": "9.10.0",
+        "build_date": "2026-08-13T11:53:14Z",
+        "graph_date": "2026-08-27T11:22:24Z",
+        "osm_date": "2026-08-17T00:00:02Z"
       }
     }
   },
@@ -274,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-26T05:53:19Z",
+      "timestamp_osm_base": "2026-08-28T21:19:49Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1375,6 +1371,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-26T05:53:18.290Z",
+  "fetchedAt": "2026-08-28T21:15:00.737Z",
   "staleDataWarning": false
 }
