@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-26T05:53:19Z",
+      "timestamp_osm_base": "2026-08-29T04:05:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -435,13 +435,17 @@
         "lat": 48.3900891,
         "lon": -4.4900539,
         "tags": {
-          "addr:housenumber": "4",
-          "addr:street": "Rue Duquesne",
           "air_conditioning": "yes",
-          "check_date": "2026-08-02",
+          "automatic_door": "motion",
+          "check_date": "2026-08-27",
+          "contact:city": "Brest",
           "contact:facebook": "113748237159",
+          "contact:housenumber": "4",
           "contact:instagram": "boulangerie.le.signor",
+          "contact:postcode": "29200",
+          "contact:street": "Rue Duquesne",
           "contact:twitter": "boulangeriebio",
+          "door": "sliding",
           "email": "contact@boulangerie.bio",
           "level": "0",
           "name": "Le Signor",
@@ -506,41 +510,27 @@
       },
       {
         "type": "node",
-        "id": 1420999984,
-        "lat": 48.4051406,
-        "lon": -4.4947669,
-        "tags": {
-          "addr:city": "Brest",
-          "addr:housenumber": "55",
-          "addr:street": "Rue Joseph Le Frapper",
-          "check_date": "2026-08-02",
-          "name": "Book Shop",
-          "ref:FR:SIRET": "43137899100019",
-          "second_hand": "only",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
         "id": 1535416755,
         "lat": 48.395946,
         "lon": -4.4808937,
         "tags": {
-          "addr:city": "Brest",
-          "addr:housenumber": "4 bis",
-          "addr:postcode": "29200",
-          "addr:street": "Rue Danton",
-          "check_date": "2025-05-02",
+          "automatic_door": "no",
+          "check_date": "2026-08-27",
+          "contact:city": "Brest",
+          "contact:housenumber": "4 bis",
+          "contact:postcode": "29200",
+          "contact:street": "Rue Danton",
+          "door": "hinged",
           "email": "contact@lapetitelibrairie.net",
           "name": "La Petite Librairie",
           "opening_hours": "Tu-Sa 10:00-12:30,14:00-19:00",
           "payment:cards": "yes",
           "payment:cash": "yes",
           "payment:contactless": "yes",
-          "phone": "+33298837598",
+          "phone": "+33 2 98 83 75 98",
           "ref:FR:SIRET": "45119608300021",
           "shop": "books",
-          "website": "http://lapetitelibrairie.net/",
+          "website": "https://lapetitelibrairie.net/",
           "wheelchair": "limited"
         }
       },
@@ -598,6 +588,24 @@
           "source": "INSEE - 2025-07",
           "website": "https://www.excalibulle.com/",
           "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2140462913,
+        "lat": 48.4021005,
+        "lon": -4.4682685,
+        "tags": {
+          "addr:housenumber": "268",
+          "addr:street": "Rue Jean Jaurès",
+          "name": "Au Bon Pain Chaud Brest",
+          "opening_hours": "Mo-Fr 06:30-20:15; Sa 06:30-20:00",
+          "ref:FR:NAF": "10.71B",
+          "ref:FR:SIREN": "390664399",
+          "ref:FR:SIRET": "39066439900149",
+          "shop": "bakery",
+          "source": "INSEE - 2025-08",
+          "wheelchair": "yes"
         }
       },
       {
@@ -817,20 +825,6 @@
       },
       {
         "type": "node",
-        "id": 8450259168,
-        "lat": 48.3840596,
-        "lon": -4.4983934,
-        "tags": {
-          "contact:facebook": "LeProjetSapristi",
-          "name": "Sapristi",
-          "opening_hours": "Mo-Sa 10:30-19:30",
-          "ref:FR:SIRET": "87807321200028",
-          "shop": "books",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 8558106176,
         "lat": 48.3875499,
         "lon": -4.4899971,
@@ -885,15 +879,6 @@
           "name": "Librairie Dialogues - Retrait des commandes internet",
           "opening_hours": "Tu-Sa 10:00-13:00,14:00-19:00",
           "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 10106119628,
-        "lat": 48.4027088,
-        "lon": -4.4889379,
-        "tags": {
-          "shop": "convenience"
         }
       },
       {
@@ -1116,8 +1101,12 @@
         },
         "tags": {
           "addr:street": "Parvis Marie-Paul Kermarec",
+          "automatic_door": "motion",
           "building": "retail",
+          "check_date": "2026-08-28",
           "contact:facebook": "https://www.facebook.com/librairie.dialogues/",
+          "door": "sliding",
+          "door:wings": "2",
           "harassment_prevention": "ask_angela",
           "internet_access": "wlan",
           "location": "surface",
@@ -1157,50 +1146,9 @@
           "website": "https://www.tribs.com/",
           "wheelchair": "yes"
         }
-      },
-      {
-        "type": "way",
-        "id": 910137895,
-        "center": {
-          "lat": 48.3889498,
-          "lon": -4.4983177
-        },
-        "tags": {
-          "level": "0",
-          "name": "Les Curiosités de Dialogues",
-          "opening_hours": "Mo-Sa 11:00-19:00; Su 10:00-13:00,14:00-18:00",
-          "shop": "books",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "way",
-        "id": 1224038127,
-        "center": {
-          "lat": 48.3889498,
-          "lon": -4.4983177
-        },
-        "tags": {
-          "addr:housenumber": "25",
-          "addr:street": "Rue de Pontaniou",
-          "check_date": "2024-08-22",
-          "email": "lescuriosites@librairiedialogues.fr",
-          "level": "1",
-          "name": "Les Curiosités de Dialogues",
-          "opening_hours": "Mo-Sa 11:00-19:00; Su 10:00-13:00,14:00-18:00",
-          "operator": "Librairie Dialogues",
-          "phone": "+33 2 98 40 01 01",
-          "ref:FR:NAF": "47.61Z",
-          "ref:FR:SIREN": "844756296",
-          "ref:FR:SIRET": "84475629600076",
-          "shop": "books",
-          "source": "INSEE - 2025-07",
-          "website": "https://www.librairiedialogues.fr/decouvrir-curiosites-dialogues/",
-          "wheelchair": "yes"
-        }
       }
     ]
   },
-  "fetchedAt": "2026-08-28T21:15:00.737Z",
+  "fetchedAt": "2026-08-29T04:05:08.938Z",
   "staleDataWarning": true
 }

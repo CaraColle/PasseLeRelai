@@ -286,22 +286,10 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-26T05:55:20Z",
+      "timestamp_osm_base": "2026-08-29T04:05:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
-      {
-        "type": "node",
-        "id": 1417646256,
-        "lat": 49.1979833,
-        "lon": -0.3482378,
-        "tags": {
-          "contact:street": "Place Champlain",
-          "name": "Le fournil de Pierre Heuzé",
-          "ref:FR:SIRET": "50959083200044",
-          "shop": "bakery"
-        }
-      },
       {
         "type": "node",
         "id": 1635227032,
@@ -443,6 +431,19 @@
           "ref:FR:SIRET": "82307239200017",
           "shop": "convenience",
           "website": "https://www.coccinelle.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1636410015,
+        "lat": 49.1682166,
+        "lon": -0.3465971,
+        "tags": {
+          "name": "Le Guynemer",
+          "phone": "+33 2 31 82 23 79",
+          "ref:FR:SIRET": "80335832400025",
+          "shop": "kiosk",
+          "wheelchair": "no"
         }
       },
       {
@@ -697,6 +698,21 @@
       },
       {
         "type": "node",
+        "id": 3866952369,
+        "lat": 49.1671507,
+        "lon": -0.3514506,
+        "tags": {
+          "addr:city": "Caen",
+          "addr:housenumber": "140",
+          "addr:postcode": "14000",
+          "addr:street": "Rue de Falaise",
+          "name": "L'Épi",
+          "ref:FR:SIRET": "84493693000024",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 3889218308,
         "lat": 49.1817294,
         "lon": -0.3593004,
@@ -716,28 +732,6 @@
           "start_date": "2019-02-25",
           "wheelchair": "no",
           "wikimedia_commons": "Category:Pâtisserie Saveurs, Caen"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4097133338,
-        "lat": 49.1974974,
-        "lon": -0.3604603,
-        "tags": {
-          "check_date": "2025-12-06",
-          "contact:facebook": "https://www.facebook.com/LeCoeurGourmandCaen/",
-          "contact:housenumber": "11",
-          "contact:street": "Avenue de la Côte de Nacre",
-          "email": "lecoeurgourmand14@outlook.fr",
-          "indoor_seating": "yes",
-          "name": "Le cœur gourmand",
-          "old_name": "Les P'tites Cocottes",
-          "opening_hours": "Mo-Fr 07:00-19:00",
-          "outdoor_seating": "yes",
-          "phone": "+33 2 31 57 92 18",
-          "ref:FR:SIRET": "84448064000011",
-          "shop": "bakery",
-          "wheelchair": "yes"
         }
       },
       {
@@ -863,6 +857,22 @@
       },
       {
         "type": "node",
+        "id": 6360736468,
+        "lat": 49.1619064,
+        "lon": -0.3484546,
+        "tags": {
+          "brand": "7-Eleven",
+          "brand:wikidata": "Q259340",
+          "brand:wikipedia": "en:7-Eleven",
+          "contact:housenumber": "1051",
+          "contact:street": "Rue de Caen",
+          "name": "7-Eleven",
+          "ref:FR:SIRET": "45034564000038",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 6406974246,
         "lat": 49.1829425,
         "lon": -0.3577973,
@@ -894,6 +904,22 @@
           "ref:FR:SIRET": "89902070500013",
           "shop": "bakery",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7283011822,
+        "lat": 49.166791,
+        "lon": -0.3604667,
+        "tags": {
+          "addr:housenumber": "21",
+          "addr:street": "Rue Armand Marie",
+          "contact:phone": "+33 2 31 82 20 09",
+          "name": "Traditions et Gourmandise",
+          "opening_hours": "Su-Fr 07:00-19:30",
+          "ref:FR:SIRET": "93863422700012",
+          "shop": "bakery",
+          "wheelchair": "no"
         }
       },
       {
@@ -1312,6 +1338,25 @@
       },
       {
         "type": "node",
+        "id": 12635654978,
+        "lat": 49.1653778,
+        "lon": -0.3603415,
+        "tags": {
+          "brand": "Panier Sympa",
+          "brand:wikidata": "Q118129533",
+          "contact:housenumber": "26",
+          "contact:street": "Rue Louis Lechatellier",
+          "delivery": "yes",
+          "name": "Panier Sympa",
+          "opening_hours": "Mo-Su 09:00-13:00,15:00-21:00",
+          "operator": "Codifrance",
+          "operator:wikidata": "Q2981692",
+          "ref:FR:SIRET": "81305916900017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 12736991388,
         "lat": 49.1750092,
         "lon": -0.3492425,
@@ -1335,22 +1380,6 @@
           "name": "Restaudiv",
           "ref:FR:SIRET": "88522711600013",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12988059123,
-        "lat": 49.194051,
-        "lon": -0.3469778,
-        "tags": {
-          "contact:housenumber": "95",
-          "contact:instagram": "saperlotte.librairiesolidaire",
-          "contact:street": "Rue d'Hérouville",
-          "email": "saperlotte.librairie@gmail.com",
-          "name": "Saperlotte",
-          "opening_hours": "We,Fr,Sa 10:30-19:30",
-          "second_hand": "only",
-          "shop": "books"
         }
       },
       {
@@ -1421,9 +1450,28 @@
           "shop": "books",
           "website": "https://www.saperlotte.org/"
         }
+      },
+      {
+        "type": "way",
+        "id": 1305269486,
+        "center": {
+          "lat": 49.1886295,
+          "lon": -0.3324912
+        },
+        "tags": {
+          "addr:city": "Hérouville-Saint-Clair",
+          "addr:housenumber": "11",
+          "addr:postcode": "14200",
+          "addr:street": "Rue des Siettes",
+          "building": "yes",
+          "name": "Boutique AWS",
+          "opening_hours": "Mo-Sa 09:30-12:30,14:00-18:00",
+          "phone": "+33 9 52 58 65 82",
+          "shop": "kiosk"
+        }
       }
     ]
   },
-  "fetchedAt": "2026-08-28T21:15:00.737Z",
+  "fetchedAt": "2026-08-29T04:05:08.938Z",
   "staleDataWarning": true
 }
