@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787976314542,
+      "timestamp": 1788062720222,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-29T04:04:21Z",
+      "timestamp_osm_base": "2026-08-30T04:04:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2345,10 +2345,11 @@
           "check_date": "2026-05-12",
           "level": "0",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:30-24:00",
+          "opening_hours": "Mo-Sa 07:00-23:50; Su 08:00-13:00",
           "organic": "yes",
           "shop": "convenience",
           "toilets": "no",
+          "website": "https://www.monoprix.fr/1508.html",
           "wheelchair": "yes"
         }
       },
@@ -2434,8 +2435,9 @@
           "brand:wikipedia": "fr:Monoprix (France)",
           "check_date": "2026-05-16",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 07:30-23:00, Su 08:30-23:00",
+          "opening_hours": "Mo-Sa 07:30-23:00; Su 09:00-22:00",
           "shop": "convenience",
+          "website": "https://www.monoprix.fr/2023.html",
           "wheelchair": "y"
         }
       },
@@ -2701,8 +2703,8 @@
           "addr:housenumber": "24",
           "addr:postcode": "75011",
           "addr:street": "Rue Sedaine",
-          "check_date": "2024-04-06",
-          "name": "Panier Saveurs",
+          "check_date": "2026-08-29",
+          "name": "Panier O Saveurs",
           "service:bicycle:diy": "no",
           "shop": "convenience"
         }
@@ -4664,11 +4666,11 @@
         "tags": {
           "brand": "Monop’Daily",
           "check_date": "2025-11-16",
-          "check_date:opening_hours": "2025-11-16",
+          "check_date:opening_hours": "2026-08-29",
           "indoor": "room",
           "level": "1",
           "name": "Monop Daily",
-          "opening_hours": "05:30-21:00",
+          "opening_hours": "Mo-Su 06:00-22:00",
           "ref:FR:SIRET": "52495923600158",
           "seating": "no",
           "shop": "convenience",
@@ -4925,6 +4927,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-29T04:05:08.938Z",
+  "fetchedAt": "2026-08-30T04:05:09.403Z",
   "staleDataWarning": false
 }

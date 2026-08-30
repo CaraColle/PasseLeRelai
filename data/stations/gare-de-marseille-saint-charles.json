@@ -205,7 +205,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787976321740,
+      "timestamp": 1788062722224,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -234,7 +234,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-29T04:04:21Z",
+      "timestamp_osm_base": "2026-08-30T04:04:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2063,7 +2063,7 @@
           "contact:phone": "+33 4 91 47 03 30",
           "email": "marseille.lodi@naturalia.fr",
           "name": "Naturalia",
-          "opening_hours": "Mo-Sa 09:00-20:00",
+          "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-12:45",
           "organic": "only",
           "shop": "convenience",
           "website": "https://magasins.naturalia.fr/naturalia/fr/store/france/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/marseille-lodi/3913"
@@ -2833,9 +2833,10 @@
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:30-22:30; Su 08:30-19:30",
+          "opening_hours": "Mo-Sa 08:30-22:45; Su 08:30-19:45",
           "ref:FR:SIRET": "44465668000709",
-          "shop": "convenience"
+          "shop": "convenience",
+          "website": "https://www.monoprix.fr/1821.html"
         }
       },
       {
@@ -3545,7 +3546,7 @@
           "indoor": "room",
           "level": "0",
           "name": "Monop'Daily",
-          "opening_hours": "Tu-Th,Sa 06:30-20:00; Fr,Su,Mo 06:30-21:00",
+          "opening_hours": "Mo-Th 06:15-20:45; Fr 06:15-21:45; Sa 06:15-20:45; Su 06:15-21:45",
           "room": "shop",
           "shop": "convenience",
           "website": "https://www.monoprix.fr/1447.html",
@@ -3606,6 +3607,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-29T04:05:08.938Z",
+  "fetchedAt": "2026-08-30T04:05:09.403Z",
   "staleDataWarning": false
 }

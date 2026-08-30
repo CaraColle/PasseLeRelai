@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787951833106,
+      "timestamp": 1788062785930,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-29T04:04:21Z",
+      "timestamp_osm_base": "2026-08-30T04:05:19Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1394,12 +1394,12 @@
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
           "check_date": "2026-04-18",
-          "check_date:opening_hours": "2025-08-04",
+          "check_date:opening_hours": "2026-08-29",
           "contact:housenumber": "1",
           "contact:street": "Boulevard de la Prairie au Duc",
           "contact:website": "https://www.monoprix.fr/2818.html",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-21:00",
+          "opening_hours": "Mo-Sa 08:30-21:00; Su 09:30-20:00",
           "ref:FR:SIRET": "44465668001236",
           "shop": "convenience",
           "wheelchair": "yes"
@@ -2484,6 +2484,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-29T04:05:08.938Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-08-30T04:05:09.403Z",
+  "staleDataWarning": false
 }

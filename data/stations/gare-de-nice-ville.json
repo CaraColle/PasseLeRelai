@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787951829290,
+      "timestamp": 1788062771261,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-29T04:04:21Z",
+      "timestamp_osm_base": "2026-08-30T04:05:19Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -304,7 +304,7 @@
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:00-23:45; Su 09:00-21:45",
+          "opening_hours": "Mo-Sa 08:00-23:00; Su 09:00-21:45",
           "ref:FR:SIRET": "44465668001095",
           "shop": "convenience",
           "website": "https://www.monoprix.fr/2196.html"
@@ -1371,7 +1371,7 @@
           "brand:wikidata": "Q3321241",
           "brand:wikipedia": "fr:Monoprix (France)",
           "name": "Monop'",
-          "opening_hours": "24/7",
+          "opening_hours": "Mo-Su 00:01-23:59",
           "shop": "convenience",
           "website": "https://www.monoprix.fr/1921.html"
         }
@@ -2830,7 +2830,9 @@
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
           "name": "Monop'",
-          "shop": "convenience"
+          "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-20:00",
+          "shop": "convenience",
+          "website": "https://www.monoprix.fr/3018.html"
         }
       },
       {
@@ -2988,6 +2990,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-29T04:05:08.938Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-08-30T04:05:09.403Z",
+  "staleDataWarning": false
 }

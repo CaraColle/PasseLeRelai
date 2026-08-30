@@ -301,7 +301,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787976312017,
+      "timestamp": 1788062713795,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -330,7 +330,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-29T04:04:21Z",
+      "timestamp_osm_base": "2026-08-30T04:04:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2009,9 +2009,10 @@
           "contact:postcode": "75001",
           "contact:street": "Boulevard de la Madeleine",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 07:45-23:50; Su 08:00-21:00",
+          "opening_hours": "Mo-Sa 07:45-23:50; Su 07:45-20:00",
           "ref:FR:SIRET": "98956057800027",
           "shop": "convenience",
+          "website": "https://www.monoprix.fr/1368.html",
           "wheelchair": "yes"
         }
       },
@@ -2415,7 +2416,9 @@
           "brand:wikidata": "Q89913683",
           "brand:wikipedia": "fr:Monoprix (France)",
           "name": "Monop'",
+          "opening_hours": "Mo-Sa 07:30-23:00; Su 09:00-21:00",
           "shop": "convenience",
+          "website": "https://www.monoprix.fr/2016.html",
           "wheelchair": "yes"
         }
       },
@@ -4677,6 +4680,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-29T04:05:08.938Z",
+  "fetchedAt": "2026-08-30T04:05:09.403Z",
   "staleDataWarning": false
 }

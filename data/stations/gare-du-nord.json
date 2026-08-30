@@ -281,7 +281,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1787976309896,
+      "timestamp": 1788062710260,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -310,7 +310,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-29T04:04:21Z",
+      "timestamp_osm_base": "2026-08-30T04:04:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1203,10 +1203,9 @@
           "addr:housenumber": "21",
           "addr:postcode": "75018",
           "addr:street": "Boulevard Ornano",
-          "check_date:opening_hours": "2026-07-01",
-          "created_by": "iLOE 1.9",
+          "check_date:opening_hours": "2026-08-29",
           "name": "Naturalia",
-          "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-22:00",
+          "opening_hours": "Mo-Sa 08:00-22:00; Su 09:00-13:00",
           "phone": "+33 1 42 51 45 47",
           "shop": "convenience",
           "website": "https://magasins.naturalia.fr/naturalia/fr/store/france/ile-de-france/paris/paris/ornano/4956"
@@ -7196,7 +7195,7 @@
           "contact:website": "https://www.monoprix.fr/2692.html",
           "name": "Monop'",
           "official_name": "Monop Villemin",
-          "opening_hours": "Mo-Sa 08:00-23:00; Su 09:00-21:00",
+          "opening_hours": "Mo-Sa 08:00-20:00",
           "ref:FR:SIRET": "44465668001228",
           "shop": "convenience"
         }
@@ -8147,7 +8146,7 @@
           "indoor": "room",
           "level": "0",
           "name": "Monop'Daily",
-          "opening_hours": "Mo-Th 06:00-21:00; Fr 06:00-21:30; Sa 07:00-21:00; Su 11:00-21:30; PH 11:00-21:00",
+          "opening_hours": "Mo-Su 06:00-20:00; PH 11:00-21:00",
           "organic": "yes",
           "shop": "convenience",
           "toilets": "no",
@@ -8234,7 +8233,7 @@
           "indoor": "room",
           "level": "0",
           "name": "Monop’Daily",
-          "opening_hours": "Mo-Su 06:00-21:00",
+          "opening_hours": "Mo-Su 06:30-21:00",
           "shop": "convenience",
           "website": "https://www.monoprix.fr/2376.html"
         }
@@ -8320,6 +8319,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-29T04:05:08.938Z",
+  "fetchedAt": "2026-08-30T04:05:09.403Z",
   "staleDataWarning": false
 }
