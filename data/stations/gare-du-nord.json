@@ -281,7 +281,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788062710260,
+      "timestamp": 1788149117503,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -310,7 +310,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-30T04:04:20Z",
+      "timestamp_osm_base": "2026-08-31T04:04:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -353,6 +353,7 @@
           "payment:debit_cards": "yes",
           "payment:visa": "yes",
           "phone": "+33 1 42 36 52 59",
+          "ref:FR:SIRET": "57216525600023",
           "shop": "convenience",
           "source": "survey 01/2019",
           "website": "https://www.magasins-u.com/magasin/uexpress-parismontorgueil.m24235",
@@ -453,6 +454,7 @@
           "email": "contact.boulinier@gmail.com",
           "name": "Boulinier",
           "opening_hours": "Mo 14:00-20:00; Tu-Sa 10:00-20:00",
+          "ref:FR:SIRET": "55204872000098",
           "shop": "books",
           "website": "https://www.boulinier.com/librairies-boulinier",
           "wheelchair": "yes"
@@ -721,6 +723,7 @@
           "name": "Maison Bergeron",
           "outdoor_seating": "no",
           "phone": "+33 1 42 36 14 69",
+          "ref:FR:SIRET": "98803077100014",
           "shop": "bakery",
           "takeaway": "only",
           "wheelchair": "limited"
@@ -931,7 +934,7 @@
           "indoor_seating": "yes",
           "level": "0",
           "name": "Pâtisserie Liberté",
-          "opening_hours": "Mo-Fr 07:30-20:30; Sa 08:30-20:30",
+          "opening_hours": "Mo-Sa 07:30-20:00; Su 08:30-17:00",
           "outdoor_seating": "yes",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
@@ -1320,6 +1323,7 @@
           "check_date:opening_hours": "2024-12-19",
           "name": "Au Cœur Immaculé de Marie",
           "opening_hours": "Mo-Sa 10:00-19:00",
+          "ref:FR:SIRET": "82795176500011",
           "shop": "books"
         }
       },
@@ -2176,6 +2180,7 @@
           "name:fr": "Le Moulin de la Vierge",
           "opening_hours": "Mo-Su 07:00-20:30",
           "outdoor_seating": "yes",
+          "ref:FR:SIRET": "53768661000032",
           "shop": "bakery",
           "smoking": "outside",
           "was:amenity": "cafe",
@@ -2295,6 +2300,7 @@
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "phone": "+33 1 42 36 84 68",
+          "ref:FR:SIRET": "80763224500047",
           "shop": "bakery",
           "smoking": "outside",
           "toilets": "yes",
@@ -2551,6 +2557,7 @@
           "indoor_seating": "no",
           "name": "Mimo the Baker",
           "outdoor_seating": "yes",
+          "ref:FR:SIRET": "91043877900035",
           "shop": "bakery",
           "wheelchair": "limited"
         }
@@ -2582,6 +2589,7 @@
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:visa": "yes",
+          "ref:FR:SIRET": "55203123900015",
           "shop": "bakery",
           "source": "survey 01/2019",
           "takeaway": "only",
@@ -4206,6 +4214,7 @@
           "check_date": "2026-02-10",
           "level": "0",
           "name": "Sebastopol Market",
+          "ref:FR:SIRET": "82057133900010",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -5230,6 +5239,7 @@
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "phone": "+33 1 85 01 67 30",
+          "ref:FR:SIRET": "83947218000018",
           "shop": "books",
           "wheelchair": "yes"
         }
@@ -6090,6 +6100,7 @@
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:visa": "yes",
+          "ref:FR:SIRET": "93480557300011",
           "shop": "convenience",
           "wheelchair": "limited"
         }
@@ -7488,6 +7499,7 @@
           "check_date": "2026-01-28",
           "level": "0",
           "name": "L'écrit du Regard",
+          "ref:FR:SIRET": "99216501900017",
           "shop": "books"
         }
       },
@@ -7595,6 +7607,7 @@
           "addr:street": "Rue d'Alexandrie",
           "check_date": "2026-06-11",
           "name": "Netharsan Mini Market",
+          "ref:FR:SIRET": "93173171500013",
           "shop": "convenience"
         }
       },
@@ -8319,6 +8332,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-30T04:05:09.403Z",
+  "fetchedAt": "2026-08-31T04:05:15.307Z",
   "staleDataWarning": false
 }

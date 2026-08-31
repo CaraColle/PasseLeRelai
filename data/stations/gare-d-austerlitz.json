@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788062720222,
+      "timestamp": 1788149179494,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-30T04:04:20Z",
+      "timestamp_osm_base": "2026-08-31T04:06:48Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -4455,26 +4455,6 @@
       },
       {
         "type": "way",
-        "id": 99885307,
-        "center": {
-          "lat": 48.8443644,
-          "lon": 2.3635744
-        },
-        "tags": {
-          "building": "yes",
-          "check_date": "2025-10-03",
-          "check_date:opening_hours": "2025-07-01",
-          "name": "Le kiosque Valhubert",
-          "opening_hours": "Mo-Su,PH 10:00-19:30",
-          "ref:FR:SIRET": "35252165200169",
-          "shop": "kiosk",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-          "wall": "no",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "way",
         "id": 248743410,
         "center": {
           "lat": 48.8307929,
@@ -4927,6 +4907,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-30T04:05:09.403Z",
+  "fetchedAt": "2026-08-31T04:05:15.307Z",
   "staleDataWarning": false
 }
