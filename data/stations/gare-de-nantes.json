@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788149341267,
+      "timestamp": 1788235841561,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-30T04:05:19Z",
+      "timestamp_osm_base": "2026-09-01T04:09:57Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -723,8 +723,8 @@
         "tags": {
           "alt_name": "Les Bien-Aimés",
           "amenity": "cafe",
-          "check_date": "2026-08-14",
-          "check_date:opening_hours": "2026-07-28",
+          "check_date": "2026-08-30",
+          "check_date:opening_hours": "2026-08-30",
           "contact:email": "librairielesbienaimes@gmail.com",
           "contact:facebook": "Librairie-café-Les-bien-aimées/100064554915304",
           "contact:housenumber": "2",
@@ -739,7 +739,7 @@
           "indoor_seating": "yes",
           "lgbtq": "welcome",
           "name": "Les Bien-Aimé·e·s",
-          "opening_hours": "Mo-Sa 11:00-19:00; Fr 11:00-21:30; Aug: Tu-Sa 10:00-19:00",
+          "opening_hours": "Mo-Sa 10:00-19:00; Fr 10:00-20:30",
           "outdoor_seating": "pedestrian_zone",
           "pastry": "yes",
           "ref:FR:NAF": "47.61Z",
@@ -2484,6 +2484,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-31T04:05:15.307Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-01T04:09:35.989Z",
+  "staleDataWarning": false
 }

@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788149480109,
+      "timestamp": 1788235922048,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-30T04:06:18Z",
+      "timestamp_osm_base": "2026-09-01T04:10:59Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -838,8 +838,10 @@
         "lat": 43.1219587,
         "lon": 5.9336185,
         "tags": {
-          "check_date": "2025-11-20",
+          "check_date": "2026-08-31",
+          "check_date:opening_hours": "2026-08-31",
           "name": "Bouquinerie",
+          "opening_hours": "Tu-Fr 11:00-18:30; Sa 10:00-18:30",
           "shop": "books"
         }
       },
@@ -1168,6 +1170,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-31T04:05:15.307Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-01T04:09:35.989Z",
+  "staleDataWarning": false
 }

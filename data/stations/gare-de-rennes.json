@@ -245,7 +245,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788149445015,
+      "timestamp": 1788235906358,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-30T04:06:18Z",
+      "timestamp_osm_base": "2026-09-01T04:09:57Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -412,7 +412,7 @@
           "addr:street": "Rue de Paris",
           "level": "0",
           "name": "Aux Gourmandises de Grégoire",
-          "opening_hours": "Mo-Sa 07:00-19:30; We,Th off; Su 07:00-13:00",
+          "opening_hours": "Mo-Sa 07:00-19:30; Su 07:00-13:00; We,Th off",
           "ref:FR:SIRET": "52410964200016",
           "shop": "bakery",
           "source:addr": "Rennes Métropole",
@@ -2231,6 +2231,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-31T04:05:15.307Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-01T04:09:35.989Z",
+  "staleDataWarning": false
 }

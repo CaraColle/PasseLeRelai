@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788149179494,
+      "timestamp": 1788235781978,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-31T04:06:48Z",
+      "timestamp_osm_base": "2026-09-01T04:08:52Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1151,7 +1151,7 @@
         "lat": 48.8298993,
         "lon": 2.3526634,
         "tags": {
-          "check_date:opening_hours": "2025-02-10",
+          "check_date:opening_hours": "2026-08-31",
           "indoor_seating": "no",
           "name": "La Moulinoise",
           "opening_hours": "Su-Fr 07:00-21:00",
@@ -4907,6 +4907,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-31T04:05:15.307Z",
+  "fetchedAt": "2026-09-01T04:09:35.989Z",
   "staleDataWarning": false
 }

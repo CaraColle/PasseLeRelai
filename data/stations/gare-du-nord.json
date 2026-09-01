@@ -281,7 +281,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788149117503,
+      "timestamp": 1788235777163,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -310,7 +310,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-31T04:04:51Z",
+      "timestamp_osm_base": "2026-09-01T04:08:52Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3128,20 +3128,6 @@
       },
       {
         "type": "node",
-        "id": 3920612565,
-        "lat": 48.8667982,
-        "lon": 2.3613632,
-        "tags": {
-          "check_date": "2026-05-15",
-          "name": "Thuy",
-          "ref:FR:SIRET": "98290668700016",
-          "repair": "yes",
-          "shop": "bakery",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 3920619857,
         "lat": 48.8665732,
         "lon": 2.3604684,
@@ -3827,29 +3813,6 @@
           "check_date": "2024-10-20",
           "name": "Au Petit Kiosque de la Butte",
           "shop": "kiosk"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4984397530,
-        "lat": 48.8838427,
-        "lon": 2.3683084,
-        "tags": {
-          "check_date": "2024-08-31",
-          "contact:city": "Paris",
-          "contact:email": "devis.bichon@gmail.com",
-          "contact:housenumber": "267",
-          "contact:phone": "+33 1 53 26 50 03",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "contact:website": "https://maisonbichon.com/",
-          "indoor_seating": "yes",
-          "name": "Maison Bichon",
-          "opening_hours": "Mo-Su 07:00-20:00",
-          "outdoor_seating": "no",
-          "ref:FR:SIRET": "79368004200025",
-          "shop": "bakery",
-          "wheelchair": "yes"
         }
       },
       {
@@ -8009,6 +7972,17 @@
         }
       },
       {
+        "type": "node",
+        "id": 14136708815,
+        "lat": 48.8844288,
+        "lon": 2.3554909,
+        "tags": {
+          "check_date": "2026-08-31",
+          "name": "Chez Mira",
+          "shop": "bakery"
+        }
+      },
+      {
         "type": "way",
         "id": 48920136,
         "center": {
@@ -8332,6 +8306,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-31T04:05:15.307Z",
+  "fetchedAt": "2026-09-01T04:09:35.989Z",
   "staleDataWarning": false
 }

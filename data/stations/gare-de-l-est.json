@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788149117526,
+      "timestamp": 1788235777405,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-30T04:04:20Z",
+      "timestamp_osm_base": "2026-09-01T04:08:52Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -365,6 +365,7 @@
           "payment:debit_cards": "yes",
           "payment:visa": "yes",
           "phone": "+33 1 42 36 52 59",
+          "ref:FR:SIRET": "57216525600023",
           "shop": "convenience",
           "source": "survey 01/2019",
           "website": "https://www.magasins-u.com/magasin/uexpress-parismontorgueil.m24235",
@@ -542,6 +543,7 @@
           "email": "contact.boulinier@gmail.com",
           "name": "Boulinier",
           "opening_hours": "Mo 14:00-20:00; Tu-Sa 10:00-20:00",
+          "ref:FR:SIRET": "55204872000098",
           "shop": "books",
           "website": "https://www.boulinier.com/librairies-boulinier",
           "wheelchair": "yes"
@@ -1160,7 +1162,7 @@
           "indoor_seating": "yes",
           "level": "0",
           "name": "Pâtisserie Liberté",
-          "opening_hours": "Mo-Fr 07:30-20:30; Sa 08:30-20:30",
+          "opening_hours": "Mo-Sa 07:30-20:00; Su 08:30-17:00",
           "outdoor_seating": "yes",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
@@ -1346,6 +1348,7 @@
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:visa": "yes",
+          "ref:FR:SIRET": "33879433200050",
           "shop": "bakery",
           "smoking": "no",
           "source": "www.stohrer.fr + survey 01/2019",
@@ -2181,6 +2184,7 @@
           "name": "Bon & Bô",
           "opening_hours": "Mo-Fr 07:00-20:00",
           "outdoor_seating": "no",
+          "ref:FR:SIRET": "90234875400018",
           "shop": "bakery",
           "source": "survey 11/2017",
           "takeaway": "only",
@@ -3032,6 +3036,7 @@
           "indoor_seating": "no",
           "name": "Mimo the Baker",
           "outdoor_seating": "yes",
+          "ref:FR:SIRET": "91043877900035",
           "shop": "bakery",
           "wheelchair": "limited"
         }
@@ -3063,6 +3068,7 @@
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:visa": "yes",
+          "ref:FR:SIRET": "55203123900015",
           "shop": "bakery",
           "source": "survey 01/2019",
           "takeaway": "only",
@@ -3231,6 +3237,7 @@
           "name": "Bo&Mie",
           "opening_hours": "Mo-Sa 07:30-20:00; Su 08:00-19:00",
           "outdoor_seating": "no",
+          "ref:FR:SIRET": "82977544400021",
           "shop": "bakery",
           "smoking": "no",
           "takeaway": "yes",
@@ -3847,24 +3854,11 @@
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "84090821400025",
           "shop": "bakery",
           "takeaway": "only",
           "website": "https://thefrenchbastards.fr",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3920612565,
-        "lat": 48.8667982,
-        "lon": 2.3613632,
-        "tags": {
-          "check_date": "2026-05-15",
-          "name": "Thuy",
-          "ref:FR:SIRET": "98290668700016",
-          "repair": "yes",
-          "shop": "bakery",
-          "wheelchair": "limited"
         }
       },
       {
@@ -4618,29 +4612,6 @@
       },
       {
         "type": "node",
-        "id": 4984397530,
-        "lat": 48.8838427,
-        "lon": 2.3683084,
-        "tags": {
-          "check_date": "2024-08-31",
-          "contact:city": "Paris",
-          "contact:email": "devis.bichon@gmail.com",
-          "contact:housenumber": "267",
-          "contact:phone": "+33 1 53 26 50 03",
-          "contact:postcode": "75010",
-          "contact:street": "Rue du Faubourg Saint-Martin",
-          "contact:website": "https://maisonbichon.com/",
-          "indoor_seating": "yes",
-          "name": "Maison Bichon",
-          "opening_hours": "Mo-Su 07:00-20:00",
-          "outdoor_seating": "no",
-          "ref:FR:SIRET": "79368004200025",
-          "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 4988195235,
         "lat": 48.8857766,
         "lon": 2.3596326,
@@ -4981,6 +4952,7 @@
           "check_date": "2026-02-10",
           "level": "0",
           "name": "Sebastopol Market",
+          "ref:FR:SIRET": "82057133900010",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -7325,6 +7297,7 @@
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:visa": "yes",
+          "ref:FR:SIRET": "93480557300011",
           "shop": "convenience",
           "wheelchair": "limited"
         }
@@ -8743,6 +8716,7 @@
           "check_date": "2026-01-28",
           "level": "0",
           "name": "L'écrit du Regard",
+          "ref:FR:SIRET": "99216501900017",
           "shop": "books"
         }
       },
@@ -8850,6 +8824,7 @@
           "addr:street": "Rue d'Alexandrie",
           "check_date": "2026-06-11",
           "name": "Netharsan Mini Market",
+          "ref:FR:SIRET": "93173171500013",
           "shop": "convenience"
         }
       },
@@ -9110,6 +9085,7 @@
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:visa": "yes",
+          "ref:FR:SIRET": "50245602300014",
           "shop": "books"
         }
       },
@@ -9270,6 +9246,17 @@
           "check_date": "2026-07-21",
           "name": "Alimentation Generale Julien",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14136708815,
+        "lat": 48.8844288,
+        "lon": 2.3554909,
+        "tags": {
+          "check_date": "2026-08-31",
+          "name": "Chez Mira",
+          "shop": "bakery"
         }
       },
       {
@@ -9619,6 +9606,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-08-31T04:05:15.307Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-01T04:09:35.989Z",
+  "staleDataWarning": false
 }
