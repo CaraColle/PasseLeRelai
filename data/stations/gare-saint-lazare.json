@@ -301,7 +301,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788235779605,
+      "timestamp": 1788337421997,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -330,7 +330,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-01T04:08:52Z",
+      "timestamp_osm_base": "2026-09-02T08:23:53Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1758,7 +1758,8 @@
         "lon": 2.3250282,
         "tags": {
           "alt_name": "Smith and Son",
-          "check_date": "2026-03-20",
+          "check_date": "2026-09-01",
+          "check_date:opening_hours": "2026-09-01",
           "contact:city": "Paris",
           "contact:email": "info@smithandson.com",
           "contact:facebook": "https://www.facebook.com/WHSmithParis",
@@ -1770,7 +1771,7 @@
           "contact:website": "https://www.smithandson.com/",
           "name": "Smith&Son",
           "old_name": "WHSmith Paris",
-          "opening_hours": "Mo-Sa 09:30-19:30; Su,PH 12:30-19:00; Jan 01,May 01,Dec 25 off",
+          "opening_hours": "Tu-Sa 10:00-19:30; Mo,Su,PH 12:30-19:00; Jan 01,May 01,Dec 25 off",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -4680,6 +4681,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-01T04:09:35.989Z",
+  "fetchedAt": "2026-09-02T08:23:37.780Z",
   "staleDataWarning": false
 }

@@ -265,7 +265,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788235845271,
+      "timestamp": 1788337744473,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -294,7 +294,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-01T04:09:57Z",
+      "timestamp_osm_base": "2026-09-02T08:32:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1306,6 +1306,7 @@
           "opening_hours": "Mo-Sa 07:30-21:00; Su 09:00-13:00",
           "ref:FR:SIRET": "92814573900019",
           "shop": "convenience",
+          "website": "https://spar.casino.fr/stores/tl232/montpellier-28-boulevard-pasteur",
           "wheelchair": "yes"
         }
       },
@@ -2566,6 +2567,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-01T04:09:35.989Z",
+  "fetchedAt": "2026-09-02T08:23:37.780Z",
   "staleDataWarning": false
 }
