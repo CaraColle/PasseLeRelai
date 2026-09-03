@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788339631091,
+      "timestamp": 1788424874037,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-30T04:08:21Z",
+      "timestamp_osm_base": "2026-09-03T08:41:13Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1025,8 +1025,13 @@
         "lon": 6.1797372,
         "tags": {
           "books": "religion",
+          "contact:email": "office@catholique-metz.fr",
+          "contact:housenumber": "10",
           "contact:phone": "+33 3 87 74 17 28",
+          "contact:street": "Rue de la Gendarmerie",
+          "contact:website": "https://metz.catholique.fr/librairie-de-loffice-catechetique/",
           "name": "Librairie de l'office Cathechétique",
+          "opening_hours": "Mo-Fr 09:00-11:45,13:30-18:00; Sa 10:00-11:45,13:30-17:00",
           "shop": "books",
           "source": "survey"
         }
@@ -1646,6 +1651,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-02T08:23:37.780Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "staleDataWarning": false
 }

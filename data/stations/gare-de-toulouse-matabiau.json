@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788337605641,
+      "timestamp": 1788424486973,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-02T08:27:57Z",
+      "timestamp_osm_base": "2026-09-03T08:34:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2040,11 +2040,11 @@
           "contact:housenumber": "114",
           "contact:street": "Rue du Faubourg Bonnefoy",
           "name": "Spar supermarché",
-          "opening_hours": "Mo-Sa 08:00-20:30; Su 08:00-14:00",
+          "opening_hours": "Mo-Su 08:00-20:30",
           "phone": "+33 5 61 38 86 76",
           "ref:FR:SIRET": "97995118300016",
           "shop": "convenience",
-          "website": "https://magasins.spar.fr/fr/spar-supermarche-toulouse-faubourg-bonnefoy"
+          "website": "https://spar.casino.fr/stores/tl657/toulouse-114-rue-du-faubourg-bonnefoy"
         }
       },
       {
@@ -3040,6 +3040,37 @@
       },
       {
         "type": "node",
+        "id": 10570710261,
+        "lat": 43.6005984,
+        "lon": 1.4633169,
+        "tags": {
+          "branch": "Camille Pujol 66",
+          "brand": "Maison Herenger",
+          "brand:email": "maisonherenger@groupemh.fr",
+          "brand:facebook": "https://www.facebook.com/profile.php?id=61584971507682",
+          "brand:instagram": "https://www.instagram.com/maison_herenger/",
+          "brand:website": "https://maison-herenger.fr/",
+          "brand:wikidata": "Q140760383",
+          "contact:city": "Toulouse",
+          "contact:housenumber": "66",
+          "contact:postcode": "31500",
+          "contact:street": "Avenue Camille Pujol",
+          "cuisine": "sandwich;salad",
+          "drink:coffee": "yes",
+          "name": "Maison Herenger",
+          "opening_hours": "Mo-Su 06:00-20:00",
+          "outdoor_seating": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "phone": "+33 5 61 54 23 40",
+          "ref:FR:SIRET": "75302517000014",
+          "shop": "bakery",
+          "stroller": "yes",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
         "id": 10591384798,
         "lat": 43.6255726,
         "lon": 1.4391542,
@@ -3362,6 +3393,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-02T08:23:37.780Z",
+  "fetchedAt": "2026-09-03T08:33:12.000Z",
   "staleDataWarning": false
 }

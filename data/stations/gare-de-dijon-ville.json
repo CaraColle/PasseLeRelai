@@ -193,7 +193,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788338503945,
+      "timestamp": 1788424721936,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -222,7 +222,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-01T04:10:59Z",
+      "timestamp_osm_base": "2026-09-03T08:38:10Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -254,7 +254,7 @@
           "phone": "+33 3 80 43 63 00",
           "ref:FR:SIRET": "52092727800025",
           "shop": "convenience",
-          "website": "https://magasins.spar.fr/fr/s/spar-supermarche-dijon-gustave-effel"
+          "website": "https://spar.casino.fr/stores/tl917/dijon-110-avenue-gustave-eiffel"
         }
       },
       {
@@ -960,6 +960,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-02T08:23:37.780Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "staleDataWarning": false
 }

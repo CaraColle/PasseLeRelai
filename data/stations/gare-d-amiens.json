@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788339504368,
+      "timestamp": 1788424803792,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-30T04:08:21Z",
+      "timestamp_osm_base": "2026-09-03T08:40:08Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -369,11 +369,11 @@
           "brand": "Spar",
           "brand:wikidata": "Q610492",
           "name": "Spar",
-          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-20:00",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-21:00",
           "phone": "+33 3 22 43 19 85",
           "ref:FR:SIRET": "89890750600015",
           "shop": "convenience",
-          "website": "https://magasins.spar.fr/fr/s/spar-amiens-beauville"
+          "website": "https://spar.casino.fr/stores/tt829/amiens-287-boulevard-beauville"
         }
       },
       {
@@ -597,12 +597,12 @@
           "check_date": "2024-09-06",
           "internet_access": "no",
           "name": "Spar",
-          "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-13:00",
+          "opening_hours": "Mo-Th 08:00-24:00; Fr-Sa 00:00-01:00,08:00-24:00; Su 08:00-24:00",
           "payment:visa": "yes",
           "phone": "+33 962 573 676",
           "ref:FR:SIRET": "93168597800013",
           "shop": "convenience",
-          "website": "https://magasins.spar.fr/fr/s/spar-supermarche-amiens-jules-barni"
+          "website": "https://spar.casino.fr/stores/tl713/amiens-106-rue-jules-barni"
         }
       },
       {
@@ -1116,7 +1116,7 @@
           "addr:street": "Rue du Hocquet",
           "check_date": "2025-08-28",
           "name": "Canal Pain",
-          "opening_hours": "Tu,Fr 12:00-19:00; Sa 09:00-12:00",
+          "opening_hours": "Tu 12:00-18:00; We,Fr 12:00-19:00; Th 08:00-17:00; Sa 09:00-12:00",
           "operator": "Association Coopérative Amiénoise Boulangère",
           "payment:cash": "yes",
           "payment:coins": "yes",
@@ -1144,6 +1144,24 @@
         "lon": 2.296172,
         "tags": {
           "name": "Jasmi Supermarché",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14134769001,
+        "lat": 49.895239,
+        "lon": 2.3062534,
+        "tags": {
+          "addr:housenumber": "36",
+          "addr:postcode": "80000",
+          "addr:street": "Rue des Augustins",
+          "check_date": "2026-08-30",
+          "check_date:opening_hours": "2026-08-30",
+          "level": "0",
+          "name": "Superette",
+          "opening_hours": "Mo-Su 11:00-04:30",
+          "phone": "06 51 93 35 89",
           "shop": "convenience"
         }
       },
@@ -1193,6 +1211,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-02T08:23:37.780Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "staleDataWarning": false
 }

@@ -245,7 +245,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788340220094,
+      "timestamp": 1788425064317,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-30T04:08:21Z",
+      "timestamp_osm_base": "2026-09-03T08:43:12Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -367,18 +367,6 @@
           "shop": "bakery",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1643027537,
-        "lat": 48.6978683,
-        "lon": 6.1787539,
-        "tags": {
-          "check_date": "2024-12-08",
-          "name": "Librairie Ancienne Dornier",
-          "shop": "books",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
         }
       },
       {
@@ -1392,7 +1380,7 @@
           "contact:housenumber": "47",
           "contact:street": "Rue du Faubourg des Trois-Maisons",
           "name": "So.bio",
-          "opening_hours": "Mo-Sa 08:30-20:00; Su 09:30-12:30",
+          "opening_hours": "Mo-Fr 08:30-20:00; Sa 09:30-20:00; Su 09:30-12:30",
           "organic": "only",
           "phone": "+33 7 85567664",
           "shop": "convenience",
@@ -1551,6 +1539,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-02T08:23:37.780Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "staleDataWarning": false
 }

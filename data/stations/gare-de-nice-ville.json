@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788337607701,
+      "timestamp": 1788424499685,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-01T04:09:57Z",
+      "timestamp_osm_base": "2026-09-03T08:35:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -678,9 +678,10 @@
           "brand:wikidata": "Q7937525",
           "check_date": "2023-07-05",
           "name": "Vival",
+          "opening_hours": "Mo-Su 08:00-23:00",
           "operator": "Vival",
           "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/vival-nice-gassin",
+          "website": "https://vival.casino.fr/stores/e3309/nice-2-rue-louis-gassin",
           "wheelchair": "yes"
         }
       },
@@ -1270,7 +1271,8 @@
           "opening_hours": "Mo-Sa 07:30-22:00; Su 09:00-22:00",
           "phone": "+33 4 93 85 18 74",
           "ref:FR:SIRET": "82089381600018",
-          "shop": "convenience"
+          "shop": "convenience",
+          "website": "https://vival.casino.fr/stores/tl908/nice-2-rue-raoul-bosio"
         }
       },
       {
@@ -2643,7 +2645,9 @@
           "brand": "Vival",
           "brand:wikidata": "Q7937525",
           "name": "Vival",
-          "shop": "convenience"
+          "opening_hours": "Mo-Fr 07:00-20:00; Sa-Su 08:00-20:00",
+          "shop": "convenience",
+          "website": "https://vival.casino.fr/stores/e3327/nice-76-boulevard-francois-grosso"
         }
       },
       {
@@ -2990,6 +2994,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-02T08:23:37.780Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "staleDataWarning": false
 }

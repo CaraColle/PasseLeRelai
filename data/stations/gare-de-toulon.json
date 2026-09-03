@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788338308803,
+      "timestamp": 1788424702791,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-01T04:10:59Z",
+      "timestamp_osm_base": "2026-09-03T08:37:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -605,13 +605,13 @@
           "brand:wikidata": "Q7937525",
           "brand:wikipedia": "en:Vival (shop)",
           "name": "Vival",
-          "opening_hours": "Mo-Sa 08:00-19:30",
+          "opening_hours": "Mo-Sa 08:00-19:30; Su 08:30-12:30",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "phone": "+33 9 83 32 66 70",
           "post_office": "post_partner",
           "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/vival-toulon-bozzo"
+          "website": "https://vival.casino.fr/stores/e3335/toulon-4-avenue-louis-bozzo"
         }
       },
       {
@@ -1135,6 +1135,7 @@
         },
         "tags": {
           "building": "yes",
+          "check_date": "2026-09-01",
           "indoor_seating": "yes",
           "name": "L'Atelier Original",
           "opening_hours": "Mo-Sa 05:30-19:30",
@@ -1170,6 +1171,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-02T08:23:37.780Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "staleDataWarning": false
 }

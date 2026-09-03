@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788339826406,
+      "timestamp": 1788424888004,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-30T04:08:21Z",
+      "timestamp_osm_base": "2026-09-03T08:42:15Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -598,23 +598,6 @@
       },
       {
         "type": "node",
-        "id": 3321557402,
-        "lat": 47.9004038,
-        "lon": 1.9131733,
-        "tags": {
-          "contact:city": "Orléans",
-          "contact:housenumber": "121",
-          "contact:postcode": "45000",
-          "contact:street": "Rue de Bourgogne",
-          "name": "Morgane de Pains",
-          "ref:FR:SIRET": "49318900500017",
-          "shop": "bakery",
-          "website": "https://www.myboulange.fr/45/orleans/morgane-de-pains-14162",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
         "id": 3415031613,
         "lat": 47.9002386,
         "lon": 1.9098294,
@@ -745,10 +728,13 @@
           "contact:postcode": "45000",
           "name": "Beulque Alain",
           "opening_hours": "Mo-Tu,Th-Sa 07:50-13:30,15:30-19:30; Su 07:30-13:30",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "ref:FR:SIRET": "45244457300029",
           "roof:levels": "0",
           "shop": "bakery",
-          "takeaway": "yes"
+          "takeaway": "yes",
+          "wheelchair": "yes"
         }
       },
       {
@@ -1165,20 +1151,6 @@
       },
       {
         "type": "way",
-        "id": 113705491,
-        "center": {
-          "lat": 47.919346,
-          "lon": 1.9025465
-        },
-        "tags": {
-          "addr:housenumber": "4",
-          "demolished:building": "yes",
-          "shop": "bakery",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
-        }
-      },
-      {
-        "type": "way",
         "id": 114016518,
         "center": {
           "lat": 47.9070835,
@@ -1214,14 +1186,17 @@
           "addr:city": "Orléans",
           "addr:postcode": "45000",
           "building": "yes",
-          "check_date:opening_hours": "2024-05-19",
+          "check_date:opening_hours": "2026-08-30",
           "name": "Kiosquedu parc pasteur",
           "opening_hours:signed": "no",
-          "shop": "kiosk"
+          "payment:credit_cards": "no",
+          "payment:debit_cards": "no",
+          "shop": "kiosk",
+          "wheelchair": "yes"
         }
       }
     ]
   },
-  "fetchedAt": "2026-09-02T08:23:37.780Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "staleDataWarning": false
 }

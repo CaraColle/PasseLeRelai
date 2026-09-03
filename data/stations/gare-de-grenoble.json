@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788338429892,
+      "timestamp": 1788424717297,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-01T04:10:59Z",
+      "timestamp_osm_base": "2026-09-03T08:38:10Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -600,6 +600,7 @@
         "lat": 45.1916799,
         "lon": 5.7054765,
         "tags": {
+          "check_date": "2026-06-26",
           "shop": "bakery"
         }
       },
@@ -734,7 +735,7 @@
         "tags": {
           "brand": "La Talemelerie",
           "brand:wikidata": "Q130214384",
-          "check_date": "2025-05-06",
+          "check_date": "2026-07-23",
           "indoor_seating": "no",
           "name": "La Talemelerie",
           "opening_hours": "Mo-Sa 06:30-19:30; Su 07:00-19:00",
@@ -1244,10 +1245,10 @@
       {
         "type": "node",
         "id": 2415879864,
-        "lat": 45.1889712,
-        "lon": 5.7263017,
+        "lat": 45.1889665,
+        "lon": 5.7262682,
         "tags": {
-          "check_date": "2026-04-21",
+          "check_date": "2026-07-23",
           "name": "Le rayon 38 esope",
           "opening_hours": "Mo,Th,Fr 15:00-17:00; Tu 16:00-18:00",
           "shop": "convenience",
@@ -1275,7 +1276,8 @@
         "lon": 5.7252797,
         "tags": {
           "amenity": "cafe",
-          "check_date": "2026-07-08",
+          "check_date": "2026-09-03",
+          "check_date:opening_hours": "2026-09-03",
           "contact:floor": "0",
           "contact:housenumber": "4",
           "contact:instagram": "https://www.instagram.com/ogygie_librairie_cafe/",
@@ -1286,11 +1288,12 @@
           "internet_access:fee": "customers",
           "level": "0",
           "name": "Ogygie",
-          "opening_hours": "Mo,We-Sa 09:30-18:30; Tu off; Su 13:00-18:00; Aug 21-26 off",
+          "opening_hours": "Mo, We-Sa 09:30-18:30; Su 13:00-18:30",
           "outdoor_seating": "yes",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
+          "phone": "04 76 26 74 83",
           "ref:FR:SIRET": "92781303000016",
           "shop": "books",
           "wheelchair": "limited"
@@ -1335,10 +1338,10 @@
       {
         "type": "node",
         "id": 2432222080,
-        "lat": 45.1896966,
-        "lon": 5.7280005,
+        "lat": 45.1897051,
+        "lon": 5.7279918,
         "tags": {
-          "check_date": "2023-07-20",
+          "check_date": "2026-07-23",
           "indoor_seating": "no",
           "name": "La Paline Dauphinoise",
           "opening_hours": "Mo-Sa 06:30-19:15",
@@ -1793,16 +1796,16 @@
           "brand": "Vival",
           "brand:wikidata": "Q7937525",
           "check_date": "2026-06-03",
-          "check_date:opening_hours": "2026-06-03",
+          "check_date:opening_hours": "2026-09-03",
           "name": "Vival",
-          "opening_hours": "Mo-Su 07:30-23:00",
+          "opening_hours": "Mo-Sa 08:00-19:00; Su 08:00-12:30,16:00-19:00",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "phone": "+33 9 67 43 29 06",
           "ref:FR:SIRET": "92937765300019",
           "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/vival-grenoble-vercors"
+          "website": "https://vival.casino.fr/stores/e3980/grenoble-35-37-rue-du-vercors"
         }
       },
       {
@@ -2765,6 +2768,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-02T08:23:37.780Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "staleDataWarning": false
 }

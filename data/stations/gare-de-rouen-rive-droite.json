@@ -233,7 +233,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788340058902,
+      "timestamp": 1788424982216,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -262,7 +262,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-08-30T04:08:21Z",
+      "timestamp_osm_base": "2026-09-03T08:42:15Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1007,7 +1007,7 @@
           "phone": "+33 2 35 71 46 23",
           "ref:FR:SIRET": "90799962700017",
           "shop": "convenience",
-          "website": "https://www.spar.fr/"
+          "website": "https://petitcasino.casino.fr/stores/tz202/rouen-42-avenue-jacques-chastellain"
         }
       },
       {
@@ -2019,6 +2019,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-02T08:23:37.780Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "staleDataWarning": false
 }

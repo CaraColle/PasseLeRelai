@@ -265,7 +265,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788337519586,
+      "timestamp": 1788424445212,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -294,7 +294,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-02T08:27:57Z",
+      "timestamp_osm_base": "2026-09-03T08:34:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -730,10 +730,10 @@
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "en:Système U",
           "check_date": "2025-05-25",
-          "check_date:opening_hours": "2025-05-25",
+          "check_date:opening_hours": "2026-09-02",
           "contact:website": "https://www.magasins-u.com/magasin/uexpress-lyoncourmont",
           "name": "U Express",
-          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-12:00",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 08:00-13:00",
           "ref:FR:SIRET": "45402786300025",
           "shop": "convenience"
         }
@@ -748,7 +748,7 @@
           "brand:wikidata": "Q7937525",
           "contact:phone": "+33953180867",
           "name": "Vival",
-          "opening_hours": "Mo-Su 07:00-22:50",
+          "opening_hours": "Mo-Su 07:00-23:00",
           "ref:FR:SIRET": "83005339300013",
           "shop": "convenience",
           "website": "https://vival.casino.fr/stores/e0943/lyon-4-place-jules-guesde"
@@ -1647,7 +1647,7 @@
           "opening_hours": "Mo-Th 00:00-01:00,07:00-24:00; Fr-Sa 00:00-03:00,07:00-24:00; Su 00:00-01:00,07:00-24:00",
           "opening_hours:signed": "no",
           "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/vival-lyon-barre"
+          "website": "https://vival.casino.fr/stores/e1333/lyon-16-rue-de-la-barre"
         }
       },
       {
@@ -1736,10 +1736,10 @@
           "brand:wikidata": "Q7937525",
           "brand:wikipedia": "en:Vival (shop)",
           "check_date": "2025-01-26",
-          "check_date:opening_hours": "2025-01-26",
+          "check_date:opening_hours": "2026-09-03",
           "contact:phone": "+33771855661",
           "name": "Vival",
-          "opening_hours": "Mo-Su 09:00-01:00",
+          "opening_hours": "Mo-Su 08:30-23:00",
           "shop": "convenience",
           "website": "https://vival.casino.fr/stores/e0930/lyon-32-avenue-berthelot"
         }
@@ -2160,7 +2160,9 @@
           "brand": "U Express",
           "brand:wikidata": "Q2529029",
           "name": "U Express",
-          "shop": "convenience"
+          "opening_hours": "Mo-Sa 07:00-20:00; Su 08:30-13:00",
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/magasin/uexpress-lyonsaintjust"
         }
       },
       {
@@ -2245,6 +2247,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-02T08:23:37.780Z",
+  "fetchedAt": "2026-09-03T08:33:12.000Z",
   "staleDataWarning": false
 }
