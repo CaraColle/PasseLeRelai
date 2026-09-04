@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:37:06Z",
+      "timestamp_osm_base": "2026-09-04T08:28:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -322,7 +322,7 @@
           "email": "rennes-alma@delarte.fr",
           "indoor_seating": "yes",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-19:00",
+          "opening_hours": "Mo-Sa 08:30-19:00",
           "operator": "Groupe Le Duff",
           "organic": "no",
           "outdoor_seating": "yes",
@@ -331,7 +331,7 @@
           "shop": "bakery",
           "smoking": "outside",
           "takeaway": "yes",
-          "website": "https://www.briochedoree.fr/restaurants/447-rennes-14-place-du-colombier",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "yes"
         }
       },
@@ -789,13 +789,13 @@
           "contact:phone": "+33 2 99 78 30 07",
           "indoor_seating": "no",
           "name": "Brioche Dorée Express",
-          "opening_hours": "Mo-Sa 07:30-19:00",
+          "opening_hours": "Mo-Sa 08:00-19:00",
           "operator": "Groupe Le Duff",
           "outdoor_seating": "no",
           "ref:FR:SIRET": "31890659100108",
           "shop": "bakery",
           "takeaway": "only",
-          "website": "https://www.briochedoree.fr/restaurants/137-rennes-2-rue-dorleans",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "yes"
         }
       },
@@ -813,15 +813,15 @@
           "brand:website": "https://www.briochedoree.fr",
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche Dorée",
-          "check_date:opening_hours": "2025-08-16",
+          "check_date:opening_hours": "2026-09-03",
           "contact:phone": "+33 2 99 79 00 65",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 08:00-19:00",
+          "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:30-19:00",
           "opening_hours:signed": "no",
           "operator": "Groupe Le Duff",
           "ref:FR:SIRET": "31890659100066",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/138-rennes-2-rue-lebastard",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "limited"
         }
       },
@@ -1301,7 +1301,7 @@
           "operator": "Groupe Le Duff",
           "ref:FR:SIRET": "31890659101874",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/133-rennes-2-rue-dantrain"
+          "website": "https://www.briochedoree.fr/"
         }
       },
       {
@@ -2235,6 +2235,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "staleDataWarning": true
 }

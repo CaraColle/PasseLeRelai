@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:35:06Z",
+      "timestamp_osm_base": "2026-09-04T08:28:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1054,23 +1054,29 @@
           "check_date": "2025-07-25",
           "check_date:opening_hours": "2025-07-25",
           "contact:city": "Strasbourg",
+          "contact:email": "cavabullerlib@canalbd.net",
+          "contact:facebook": "https://www.facebook.com/cavabuller",
           "contact:housenumber": "46",
+          "contact:instagram": "https://www.instagram.com/cavabuller/",
           "contact:phone": "+33 9 73 23 29 34",
           "contact:postcode": "67000",
           "contact:street": "Rue Fossé des Tanneurs",
+          "contact:website": "https://www.canalbd.net/ca-va-buller",
           "delivery": "yes",
           "name": "Ca va Buller",
-          "opening_hours": "Mo-Su 10:00-19:00",
+          "opening_hours": "Mo-Sa 10:00-19:00",
           "operator": "Canal BD",
           "payment:american_express": "yes",
           "payment:cash": "only",
           "payment:cheque": "yes",
           "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "ref:FR:SIRET": "81993491000012",
-          "shop": "books"
+          "shop": "books",
+          "wheelchair": "no"
         }
       },
       {
@@ -1748,6 +1754,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "staleDataWarning": true
 }

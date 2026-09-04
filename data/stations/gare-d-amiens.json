@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788424803792,
+      "timestamp": 1788510797650,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:40:08Z",
+      "timestamp_osm_base": "2026-09-04T08:34:40Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -335,27 +335,34 @@
         "lon": 2.2977811,
         "tags": {
           "contact:city": "Amiens",
+          "contact:email": "bulleenstock80@gmail.com",
+          "contact:facebook": "https://www.facebook.com/Bulleenstock",
           "contact:housenumber": "4",
+          "contact:instagram": "https://www.instagram.com/bulleenstock/",
+          "contact:phone": "+33 3 22 91 50 10",
           "contact:postcode": "80000",
           "contact:street": "Rue du Marché Lanselles",
+          "contact:twitter": "https://twitter.com/@BulleEnStock",
+          "contact:website": "https://www.bulleenstock.com/",
+          "contact:youtube": "https://www.youtube.com/@bullestock9463",
           "delivery": "yes",
           "name": "Bulle en Stock Neuf Et Occasion",
-          "opening_hours": "Mo-Sa 10:00-19:30; Su 10:00-18:30",
+          "opening_hours": "Mo-Sa 10:00-19:30",
           "payment:american_express": "yes",
           "payment:cheque": "yes",
           "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:diners_club": "yes",
+          "payment:discover": "yes",
           "payment:discover_card": "yes",
           "payment:jcb": "yes",
           "payment:mastercard": "yes",
           "payment:unionpay": "yes",
           "payment:visa": "yes",
-          "phone": "+33 3 22 91 50 10",
           "ref:FR:SIRET": "43258329200011",
           "shop": "books",
-          "source": "Bing;DGFiP - Cadastre 2014",
-          "website": "https://www.bulleenstock.com/"
+          "source": "Bing;DGFiP - Cadastre 2014"
         }
       },
       {
@@ -396,16 +403,28 @@
         "lon": 2.2972459,
         "tags": {
           "contact:city": "Amiens",
+          "contact:email": "serviceclients@librairiemartelle.com",
+          "contact:facebook": "https://www.facebook.com/libmartelle/",
           "contact:housenumber": "3",
+          "contact:instagram": "https://www.instagram.com/librairiemartelle/",
+          "contact:linkedin": "https://fr.linkedin.com/company/librairie-martelle",
           "contact:phone": "+33 3 22 71 54 54",
           "contact:postcode": "80000",
           "contact:street": "Rue des Vergeaux",
-          "contact:website": "http://www.librairiemartelle.com/",
+          "contact:tiktok": "https://www.tiktok.com/@librairiemartelle",
+          "contact:twitter": "https://twitter.com/libmartelle",
+          "contact:website": "https://www.librairiemartelle.com/",
+          "contact:youtube": "https://www.youtube.com/@librairiemartelle4303",
+          "delivery": "yes",
           "name": "Librairie Martelle",
           "opening_hours": "Mo-Sa 10:00-19:00",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "ref:FR:SIRET": "30107378900010",
           "shop": "books",
-          "survey:date": "2025-12-19"
+          "survey:date": "2025-12-19",
+          "wheelchair": "yes"
         }
       },
       {
@@ -1161,7 +1180,7 @@
           "level": "0",
           "name": "Superette",
           "opening_hours": "Mo-Su 11:00-04:30",
-          "phone": "06 51 93 35 89",
+          "phone": "+33 6 51 93 35 89",
           "shop": "convenience"
         }
       },
@@ -1211,6 +1230,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
   "staleDataWarning": false
 }

@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:34:05Z",
+      "timestamp_osm_base": "2026-09-04T08:28:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2181,7 +2181,7 @@
           "fair_trade": "yes",
           "name": "Biocoop",
           "official_name": "Biocoop Nantes Cité des Congrès",
-          "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-19:00",
+          "opening_hours": "Mo-We 10:00-19:30; Th-Fr 10:00-14:00,15:00-19:30; Sa 10:00-19:00",
           "organic": "only",
           "ref:FR:SIRET": "85275820000020",
           "shop": "convenience",
@@ -2428,12 +2428,12 @@
           "indoor_seating": "yes",
           "level": "1",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 09:00-20:30",
+          "opening_hours": "Mo-Sa 09:00-19:30",
           "outdoor_seating": "no",
           "ref:FR:SIRET": "31890659101825",
           "room": "shop",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/29-nantes-c.cial-beaulieu",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "yes"
         }
       },
@@ -2453,9 +2453,10 @@
           "indoor_seating": "no",
           "level": "0",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 05:00-20:00; Su 06:00-20:00",
+          "opening_hours": "Mo-Th 06:30-19:00; Fr 06:30-20:00; Sa 06:30-18:00; Su 06:30-19:00",
           "outdoor_seating": "no",
           "shop": "bakery",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "yes"
         }
       },
@@ -2484,6 +2485,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "staleDataWarning": true
 }

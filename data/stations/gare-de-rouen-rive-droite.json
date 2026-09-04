@@ -233,7 +233,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788424982216,
+      "timestamp": 1788511093790,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -262,7 +262,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:42:15Z",
+      "timestamp_osm_base": "2026-06-01T08:52:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -396,19 +396,13 @@
         "lat": 49.4498543,
         "lon": 1.1036206,
         "tags": {
-          "addr:city": "Rouen",
           "addr:housenumber": "51",
-          "addr:postcode": "76000",
-          "addr:street": "Rue de Bihorel",
           "brand": "CocciMarket",
           "brand:wikidata": "Q90020480",
           "name": "CocciMarket",
-          "opening_hours": "Mo-Su 09:00-21:00",
           "operator": "Cocci Market",
-          "phone": "+33 2 35 89 66 18",
           "ref:FR:SIRET": "52487355100039",
-          "shop": "convenience",
-          "website": "https://www.coccinelle.fr/magasin/rouen-0"
+          "shop": "convenience"
         }
       },
       {
@@ -741,7 +735,9 @@
         "lat": 49.4437639,
         "lon": 1.0881005,
         "tags": {
+          "contact:city": "Rouen",
           "contact:housenumber": "2",
+          "contact:postcode": "76000",
           "contact:street": "Rue Cauchoise",
           "indoor_seating": "no",
           "instagram": "https://www.instagram.com/valentinforlife/",
@@ -1007,7 +1003,7 @@
           "phone": "+33 2 35 71 46 23",
           "ref:FR:SIRET": "90799962700017",
           "shop": "convenience",
-          "website": "https://petitcasino.casino.fr/stores/tz202/rouen-42-avenue-jacques-chastellain"
+          "website": "https://www.spar.fr/"
         }
       },
       {
@@ -1118,13 +1114,14 @@
         "lat": 49.4414322,
         "lon": 1.0993796,
         "tags": {
-          "contact:housenumber": "247",
-          "contact:street": "Rue Eau de Robec",
+          "addr:city": "Rouen",
+          "addr:housenumber": "247",
+          "addr:postcode": "76000",
+          "addr:street": "Rue Eau de Robec",
           "currency:EUR": "yes",
           "delivery": "yes",
           "drive_through": "no",
           "email": "contact@lemarchedurobec.com",
-          "facebook": "https://www.facebook.com/lemarchedurobec/",
           "name": "Le Marché du Robec",
           "opening_hours": "Mo 15:00-19:30; Tu-We 10:00-19:30; Th 14:00-19:30; Fr-Sa 10:00-19:30",
           "organic": "yes",
@@ -1237,15 +1234,10 @@
         "lat": 49.4403689,
         "lon": 1.1017937,
         "tags": {
-          "contact:housenumber": "49",
-          "contact:street": "Rue d'Amiens",
-          "email": "contact@librairielelotus.com",
+          "addr:housenumber": "47",
           "name": "Le Lotus",
-          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
-          "phone": "+33 2 35 07 46 34",
           "ref:FR:SIRET": "32788080300025",
-          "shop": "books",
-          "website": "https://www.librairielelotus.com/"
+          "shop": "books"
         }
       },
       {
@@ -1329,6 +1321,28 @@
       },
       {
         "type": "node",
+        "id": 7371301988,
+        "lat": 49.444719,
+        "lon": 1.096993,
+        "tags": {
+          "addr:housenumber": "72",
+          "currency:EUR": "yes",
+          "delivery": "no",
+          "drive_through": "no",
+          "name": "Librairie Théo-Phil",
+          "opening_hours": "Mo-Sa 11:00-13:00,14:00-19:00",
+          "panoramax": "fdd281a6-6de5-4392-947e-026893f14a0f",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 6 37 01 64 04",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2020",
+          "website": "https://www.theo-phil.fr/"
+        }
+      },
+      {
+        "type": "node",
         "id": 7371431942,
         "lat": 49.4388622,
         "lon": 1.0988275,
@@ -1338,15 +1352,11 @@
           "contact:housenumber": "14",
           "contact:postcode": "76000",
           "contact:street": "Rue Alsace Lorraine",
-          "indoor_seating": "no",
           "name": "Bastien",
-          "outdoor_seating": "no",
           "ref:FR:SIRET": "84843659800041",
           "shop": "bakery",
           "survey:date": "2025-12-05",
-          "takeaway": "only",
-          "was:shop": "bakery",
-          "wheelchair": "no"
+          "was:shop": "bakery"
         }
       },
       {
@@ -1602,12 +1612,10 @@
           "addr:housenumber": "37 bis",
           "addr:postcode": "76000",
           "addr:street": "Rue Jeanne d'Arc",
-          "check_date": "2026-06-15",
-          "check_date:opening_hours": "2026-06-15",
+          "check_date": "2026-01-30",
           "indoor_seating": "yes",
           "name": "Luval",
           "old_name": "Luval",
-          "opening_hours": "Mo-Sa 07:00-19:30; Su 07:00-19:00",
           "outdoor_seating": "yes",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
@@ -1831,10 +1839,8 @@
         "lat": 49.4428974,
         "lon": 1.090791,
         "tags": {
-          "check_date": "2026-06-15",
-          "check_date:opening_hours": "2026-06-15",
+          "check_date": "2026-01-30",
           "name": "9 Provinces",
-          "opening_hours": "Mo 10:20-19:00; Tu-Sa 10:30-19:00",
           "ref:FR:SIRET": "51995285700018",
           "shop": "convenience"
         }
@@ -1919,17 +1925,6 @@
           "shop": "bakery",
           "takeaway": "only",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 14072728077,
-        "lat": 49.4344799,
-        "lon": 1.0856307,
-        "tags": {
-          "name": "Que la night",
-          "shop": "convenience",
-          "survey:date": "2026-08-04"
         }
       },
       {
@@ -2019,6 +2014,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
   "staleDataWarning": false
 }

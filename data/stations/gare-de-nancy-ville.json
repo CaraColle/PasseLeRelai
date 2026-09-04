@@ -245,7 +245,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788425064317,
+      "timestamp": 1788511160126,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:43:12Z",
+      "timestamp_osm_base": "2026-09-04T08:39:55Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -378,22 +378,25 @@
           "books": "comics",
           "contact:city": "Nancy",
           "contact:email": "laparentheselib@canalbd.net",
+          "contact:facebook": "https://www.facebook.com/laparenthese54",
           "contact:housenumber": "19",
+          "contact:instagram": "https://www.instagram.com/la_parenthese_bd/",
           "contact:phone": "+33 3 83353963",
           "contact:postcode": "54000",
-          "contact:street": "Cour des Arts",
+          "contact:street": "Cour Arts",
+          "contact:website": "https://www.canalbd.net/la-parenthese",
           "name": "La Parenthèse",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
           "payment:american_express": "yes",
           "payment:cheque": "yes",
           "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "ref:FR:SIRET": "30098698100045",
           "shop": "books",
-          "website": "https://www.canalbd.net/la-parenthese",
-          "wheelchair": "limited"
+          "wheelchair": "yes"
         }
       },
       {
@@ -816,15 +819,25 @@
         "tags": {
           "books": "comics",
           "contact:city": "Nancy",
+          "contact:email": "atoutmanga@canalbd.net",
+          "contact:facebook": "https://www.facebook.com/atout.manga/",
           "contact:housenumber": "8",
+          "contact:instagram": "https://www.instagram.com/atout_manga/",
           "contact:phone": "+33 3 83 17 19 40",
           "contact:postcode": "54000",
           "contact:street": "Cour des Arts",
+          "contact:website": "https://www.canalbd.net/atout-manga/",
           "name": "Atout Manga",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-12:30, 13:30-19:00",
+          "payment:american_express": "yes",
+          "payment:cheque": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
           "ref:FR:SIRET": "30098698100052",
           "shop": "books",
-          "wheelchair": "no"
+          "wheelchair": "yes"
         }
       },
       {
@@ -1518,7 +1531,7 @@
           "ref:FR:SIRET": "31890659100439",
           "room": "shop",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/52-nancy-c.cial-st-sebastien"
+          "website": "https://www.briochedoree.fr/"
         }
       },
       {
@@ -1539,6 +1552,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
   "staleDataWarning": false
 }

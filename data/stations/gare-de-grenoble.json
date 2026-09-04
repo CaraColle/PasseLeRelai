@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:38:10Z",
+      "timestamp_osm_base": "2026-09-04T08:28:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -639,23 +639,28 @@
           "check_date": "2025-12-23",
           "check_date:opening_hours": "2025-12-23",
           "contact:city": "Grenoble",
+          "contact:email": "contact@librairie-arthaud.fr",
+          "contact:facebook": "https://www.facebook.com/librairie.arthaud",
           "contact:housenumber": "23",
+          "contact:instagram": "https://www.instagram.com/librairie.arthaud/",
+          "contact:phone": "+33 4 76 42 49 81",
           "contact:postcode": "38000",
           "contact:street": "Grande Rue",
+          "contact:tiktok": "https://www.tiktok.com/@librairie.arthaud",
+          "contact:website": "https://www.librairie-arthaud.fr/",
           "delivery": "yes",
           "elevator": "yes",
           "name": "Librairie Papeterie Arthaud",
           "opening_hours": "Mo-Sa 10:00-19:00",
           "payment:cash": "yes",
+          "payment:contactless": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
-          "phone": "+33 4 76 42 49 81",
           "ref:FR:SIRET": "80051914200015",
           "shop": "books",
           "source": "survey",
-          "website": "https://www.librairie-arthaud.fr/",
           "wheelchair": "yes",
           "wikidata": "Q63003693"
         }
@@ -2754,20 +2759,20 @@
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche Dorée",
           "check_date": "2026-01-09",
-          "check_date:opening_hours": "2026-01-09",
+          "check_date:opening_hours": "2026-09-03",
           "contact:phone": "+33 4 76 87 41 57",
           "indoor": "room",
           "indoor_seating": "yes",
           "level": "0",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 05:30-19:00; Su 07:00-19:00",
+          "opening_hours": "Mo-Fr 06:00-18:00; Sa-Su 07:00-18:00",
           "outdoor_seating": "no",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/1002-grenoble-gare"
+          "website": "https://www.briochedoree.fr/"
         }
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "staleDataWarning": true
 }

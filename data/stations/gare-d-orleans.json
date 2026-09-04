@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788424888004,
+      "timestamp": 1788511005421,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:42:15Z",
+      "timestamp_osm_base": "2026-09-04T08:37:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -538,6 +538,20 @@
           "phone": "+33 238620603",
           "shop": "bakery",
           "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3254193309,
+        "lat": 47.9066749,
+        "lon": 1.9015714,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "129",
+          "addr:postcode": "45000",
+          "addr:street": "Rue Bannier",
+          "name": "L'invitation",
+          "shop": "books"
         }
       },
       {
@@ -1158,6 +1172,7 @@
         },
         "tags": {
           "building": "yes",
+          "name:signed": "no",
           "shop": "kiosk",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
           "wheelchair": "yes"
@@ -1197,6 +1212,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
   "staleDataWarning": false
 }

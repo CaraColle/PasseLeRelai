@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-03T08:33:12.000Z",
-  "staleDataWarning": false,
+  "generatedAt": "2026-09-04T08:28:37.830Z",
+  "staleDataWarning": true,
   "stations": [
     {
       "name": "Gare de Lyon",
@@ -9,7 +9,7 @@
       "lng": 2.3743,
       "file": "data/stations/gare-de-lyon.json",
       "shopCount": 271,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -19,7 +19,7 @@
       "lng": 2.3553,
       "file": "data/stations/gare-du-nord.json",
       "shopCount": 508,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -29,7 +29,7 @@
       "lng": 2.359,
       "file": "data/stations/gare-de-l-est.json",
       "shopCount": 571,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -38,8 +38,8 @@
       "lat": 48.8412,
       "lng": 2.321,
       "file": "data/stations/gare-montparnasse.json",
-      "shopCount": 292,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "shopCount": 291,
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -49,7 +49,7 @@
       "lng": 2.3244,
       "file": "data/stations/gare-saint-lazare.json",
       "shopCount": 280,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -58,8 +58,8 @@
       "lat": 48.8425,
       "lng": 2.3648,
       "file": "data/stations/gare-d-austerlitz.json",
-      "shopCount": 283,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "shopCount": 287,
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -68,8 +68,8 @@
       "lat": 43.3037,
       "lng": 5.3806,
       "file": "data/stations/gare-de-marseille-saint-charles.json",
-      "shopCount": 249,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "shopCount": 250,
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -78,8 +78,8 @@
       "lat": 45.7605,
       "lng": 4.8592,
       "file": "data/stations/gare-de-lyon-part-dieu.json",
-      "shopCount": 198,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "shopCount": 202,
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -89,8 +89,8 @@
       "lng": 4.8256,
       "file": "data/stations/gare-de-lyon-perrache.json",
       "shopCount": 119,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Toulouse-Matabiau",
@@ -99,8 +99,8 @@
       "lng": 1.4535,
       "file": "data/stations/gare-de-toulouse-matabiau.json",
       "shopCount": 162,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Nice-Ville",
@@ -109,8 +109,8 @@
       "lng": 7.262,
       "file": "data/stations/gare-de-nice-ville.json",
       "shopCount": 171,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Nantes",
@@ -119,8 +119,8 @@
       "lng": -1.5416,
       "file": "data/stations/gare-de-nantes.json",
       "shopCount": 100,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Montpellier Saint-Roch",
@@ -129,8 +129,8 @@
       "lng": 3.8807,
       "file": "data/stations/gare-de-montpellier-saint-roch.json",
       "shopCount": 158,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Montpellier Sud de France",
@@ -139,8 +139,8 @@
       "lng": 3.9325,
       "file": "data/stations/gare-de-montpellier-sud-de-france.json",
       "shopCount": 2,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Strasbourg-Ville",
@@ -149,8 +149,8 @@
       "lng": 7.7347,
       "file": "data/stations/gare-de-strasbourg-ville.json",
       "shopCount": 75,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Bordeaux-Saint-Jean",
@@ -158,9 +158,9 @@
       "lat": 44.8256,
       "lng": -0.5563,
       "file": "data/stations/gare-de-bordeaux-saint-jean.json",
-      "shopCount": 70,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "shopCount": 78,
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Lille-Flandres",
@@ -169,8 +169,8 @@
       "lng": 3.0708,
       "file": "data/stations/gare-de-lille-flandres.json",
       "shopCount": 82,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Lille-Europe",
@@ -179,8 +179,8 @@
       "lng": 3.0755,
       "file": "data/stations/gare-de-lille-europe.json",
       "shopCount": 68,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Rennes",
@@ -189,8 +189,8 @@
       "lng": -1.6726,
       "file": "data/stations/gare-de-rennes.json",
       "shopCount": 94,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Reims",
@@ -199,8 +199,8 @@
       "lng": 4.0247,
       "file": "data/stations/gare-de-reims.json",
       "shopCount": 46,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare du Havre",
@@ -209,8 +209,8 @@
       "lng": 0.1256,
       "file": "data/stations/gare-du-havre.json",
       "shopCount": 54,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Saint-Étienne-Châteaucreux",
@@ -219,8 +219,8 @@
       "lng": 4.4025,
       "file": "data/stations/gare-de-saint-etienne-chateaucreux.json",
       "shopCount": 80,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Toulon",
@@ -229,8 +229,8 @@
       "lng": 5.9308,
       "file": "data/stations/gare-de-toulon.json",
       "shopCount": 66,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Grenoble",
@@ -239,8 +239,8 @@
       "lng": 5.7141,
       "file": "data/stations/gare-de-grenoble.json",
       "shopCount": 134,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Dijon-Ville",
@@ -249,8 +249,8 @@
       "lng": 5.0227,
       "file": "data/stations/gare-de-dijon-ville.json",
       "shopCount": 49,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare d'Angers-Saint-Laud",
@@ -259,8 +259,8 @@
       "lng": -0.5567,
       "file": "data/stations/gare-d-angers-saint-laud.json",
       "shopCount": 64,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Nîmes",
@@ -268,9 +268,9 @@
       "lat": 43.8323,
       "lng": 4.3616,
       "file": "data/stations/gare-de-nimes.json",
-      "shopCount": 90,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "shopCount": 89,
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare du Mans",
@@ -279,8 +279,8 @@
       "lng": 0.1921,
       "file": "data/stations/gare-du-mans.json",
       "shopCount": 62,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare d'Aix-en-Provence TGV",
@@ -289,8 +289,8 @@
       "lng": 5.3172,
       "file": "data/stations/gare-d-aix-en-provence-tgv.json",
       "shopCount": 2,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Clermont-Ferrand",
@@ -298,9 +298,9 @@
       "lat": 45.7767,
       "lng": 3.0952,
       "file": "data/stations/gare-de-clermont-ferrand.json",
-      "shopCount": 64,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "shopCount": 63,
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Brest",
@@ -309,8 +309,8 @@
       "lng": -4.4801,
       "file": "data/stations/gare-de-brest.json",
       "shopCount": 49,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Tours",
@@ -319,8 +319,8 @@
       "lng": 0.6939,
       "file": "data/stations/gare-de-tours.json",
       "shopCount": 77,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare de Limoges-Bénédictins",
@@ -329,8 +329,8 @@
       "lng": 1.2621,
       "file": "data/stations/gare-de-limoges-benedictins.json",
       "shopCount": 67,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
-      "staleDataWarning": false
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
+      "staleDataWarning": true
     },
     {
       "name": "Gare d'Amiens",
@@ -339,7 +339,7 @@
       "lng": 2.3057,
       "file": "data/stations/gare-d-amiens.json",
       "shopCount": 61,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -349,7 +349,7 @@
       "lng": 2.8895,
       "file": "data/stations/gare-de-perpignan.json",
       "shopCount": 55,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -359,7 +359,7 @@
       "lng": 6.1778,
       "file": "data/stations/gare-de-metz-ville.json",
       "shopCount": 80,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -369,7 +369,7 @@
       "lng": 6.0242,
       "file": "data/stations/gare-de-besancon-viotte.json",
       "shopCount": 79,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -378,8 +378,8 @@
       "lat": 47.9078,
       "lng": 1.9047,
       "file": "data/stations/gare-d-orleans.json",
-      "shopCount": 52,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "shopCount": 53,
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -388,8 +388,8 @@
       "lat": 47.7403,
       "lng": 7.3398,
       "file": "data/stations/gare-de-mulhouse-ville.json",
-      "shopCount": 37,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "shopCount": 36,
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -399,7 +399,7 @@
       "lng": 1.0942,
       "file": "data/stations/gare-de-rouen-rive-droite.json",
       "shopCount": 90,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -409,7 +409,7 @@
       "lng": -0.3475,
       "file": "data/stations/gare-de-caen.json",
       "shopCount": 67,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     },
     {
@@ -419,7 +419,7 @@
       "lng": 6.1704,
       "file": "data/stations/gare-de-nancy-ville.json",
       "shopCount": 74,
-      "fetchedAt": "2026-09-03T08:33:12.000Z",
+      "fetchedAt": "2026-09-04T08:28:37.830Z",
       "staleDataWarning": false
     }
   ]

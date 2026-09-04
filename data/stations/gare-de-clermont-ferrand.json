@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:38:10Z",
+      "timestamp_osm_base": "2026-07-25T06:38:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -326,13 +326,13 @@
           "brand:wikidata": "Q610492",
           "check_date": "2023-08-31",
           "name": "Spar",
-          "opening_hours": "Mo-Su 08:00-21:00",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 08:00-12:00",
           "operator": "Spar",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "phone": "+33 4 73 24 93 41",
           "shop": "convenience",
-          "website": "https://spar.casino.fr/stores/e9299/clermont-ferrand-1-bd-gergovia",
+          "website": "https://magasins.spar.fr/fr/s/spar-clermont-ferrand-gergovia",
           "wheelchair": "yes"
         }
       },
@@ -638,11 +638,11 @@
           "brand:wikidata": "Q7937525",
           "brand:wikipedia": "en:Vival (shop)",
           "name": "Vival",
-          "opening_hours": "Mo-Su 07:30-21:30",
+          "opening_hours": "Mo-Su 07:30-19:30",
           "phone": "+33 4 73 92 69 22",
           "ref:FR:SIRET": "84362581500017",
           "shop": "convenience",
-          "website": "https://vival.casino.fr/stores/e0143/clermont-ferrand-27-rue-cartoucherie"
+          "website": "https://magasins.vival.fr/fr/vival-clermont-ferrand-la-cartoucherie"
         }
       },
       {
@@ -780,7 +780,7 @@
         "lon": 3.0866012,
         "tags": {
           "name": "Le Fournil de Jean",
-          "opening_hours": "Mo-Fr 06:30-20:00; Sa 06:30-19:30; Su 07:30-13:00",
+          "opening_hours": "Mo-Sa 08:00-19:30",
           "shop": "bakery"
         }
       },
@@ -807,7 +807,7 @@
           "opening_hours": "PH,Mo-Su 07:30-22:00",
           "phone": "+33 6 42 76 53 24",
           "shop": "convenience",
-          "website": "https://vival.casino.fr/stores/e0368/clermont-ferrand-148-boulevard-lafayette"
+          "website": "https://magasins.vival.fr/fr/vival-clermont-ferrand-lafayette"
         }
       },
       {
@@ -989,7 +989,7 @@
           "opening_hours": "Mo-Sa 07:00-21:30; Su 08:00-21:30",
           "phone": "+33 4 73 91 82 88",
           "shop": "convenience",
-          "website": "https://spar.casino.fr/stores/tt836/clermont-ferrand-66-avenue-charras",
+          "website": "https://magasins.spar.fr/fr/s/spar-clermont-ferrand-charras",
           "wheelchair": "yes"
         }
       },
@@ -1021,37 +1021,18 @@
         "lat": 45.7652275,
         "lon": 3.0934722,
         "tags": {
-          "check_date": "2026-08-20",
           "contact:city": "Clermont-Ferrand",
           "contact:housenumber": "28",
           "contact:postcode": "63000",
           "contact:street": "Rue des Liondards",
           "contact:website": "https://www.facebook.com/fournildesebastien",
-          "name": "La Fournée d'Inès",
+          "name": "Fournil de Sébastien",
           "opening_hours": "Tu-Sa 06:45-13:30; Tu-Sa 15:30-19:00; Sa-Su 07:00-13:00",
           "payment:cash": "yes",
           "payment:visa": "yes",
           "phone": "+33 4 63 08 11 21",
           "ref:FR:SIRET": "80128739200048",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 9811400126,
-        "lat": 45.7779047,
-        "lon": 3.0836649,
-        "tags": {
-          "addr:city": "Clermont-Ferrand",
-          "addr:housenumber": "30",
-          "addr:postcode": "63000",
-          "addr:street": "Rue des Petits Gras",
-          "name": "Le Grenier des Chimères",
-          "opening_hours": "Mo-We 11:00-00:00; Th-Sa 11:00-03:00; Su 12:00-23:00",
-          "phone": "+33 9 55 21 10 76",
-          "ref:FR:SIRET": "95151009800019",
-          "shop": "books",
-          "website": "https://www.legrenierdeschimeres.com"
         }
       },
       {
@@ -1222,6 +1203,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "staleDataWarning": true
 }

@@ -294,7 +294,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:35:06Z",
+      "timestamp_osm_base": "2026-09-04T08:28:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -766,12 +766,12 @@
           "contact:phone": "+33 4 67 63 61 92",
           "indoor_seating": "yes",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Su 07:00-20:00",
+          "opening_hours": "Mo-Sa 08:00-19:00; Su 09:00-18:00",
           "outdoor_seating": "yes",
           "ref:FR:SIRET": "31890659101650",
           "shop": "bakery",
           "source": "survey 2015",
-          "website": "https://www.briochedoree.fr/restaurants/17-montpellier-7-rue-des-loges",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "no"
         }
       },
@@ -793,11 +793,11 @@
           "entrance:step_count": "0",
           "entrance:width": "1.5",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 07:30-19:00",
+          "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-19:30",
           "phone": "+33 4 67 58 00 20",
           "ref:FR:SIRET": "31890659101635",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/16-montpellier-c.cial-le-triangle",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "yes"
         }
       },
@@ -2551,6 +2551,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "staleDataWarning": true
 }

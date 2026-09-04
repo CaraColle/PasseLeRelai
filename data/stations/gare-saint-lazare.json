@@ -301,7 +301,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788424397173,
+      "timestamp": 1788510521094,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -330,7 +330,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:32:01Z",
+      "timestamp_osm_base": "2026-09-04T08:27:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -369,13 +369,13 @@
           "brand:wikipedia": "fr:Brioche Dorée",
           "contact:phone": "+33 1 44 69 32 70",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 07:30-20:30",
+          "opening_hours": "Mo-Sa 07:00-20:00; Su 07:00-19:00",
           "operator": "Groupe Le Duff",
           "ref:FR:SIRET": "31890659102310",
           "shop": "bakery",
           "survey:date": "2025-10-15",
           "toilets:wheelchair": "yes",
-          "website": "https://www.briochedoree.fr/restaurants/45-paris-123-rue-st-lazare",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "yes"
         }
       },
@@ -821,11 +821,14 @@
           "books": "comic",
           "check_date:opening_hours": "2025-08-28",
           "contact:city": "Paris 17eme Arrondissement",
+          "contact:email": "infos@bullesentete.com",
+          "contact:facebook": "https://www.facebook.com/bullesentete17/",
           "contact:housenumber": "54",
+          "contact:instagram": "https://www.instagram.com/bullesentete17/",
           "contact:phone": "+33 9 53 31 12 92",
           "contact:postcode": "75017",
           "contact:street": "Rue des Dames",
-          "contact:website": "http://www.bullesentete.com/",
+          "contact:website": "https://www.bullesentete.com/",
           "delivery": "yes",
           "internet_access": "no",
           "name": "Bulles en tête",
@@ -834,7 +837,9 @@
           "payment:american_express": "yes",
           "payment:cash": "yes",
           "payment:cheque": "yes",
+          "payment:contactless": "yes",
           "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "ref:FR:SIRET": "52090868200021",
@@ -962,12 +967,12 @@
           "indoor_seating": "yes",
           "internet_access": "wlan",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 07:30-20:00; Su 10:00-19:00",
+          "opening_hours": "Mo-Sa 07:00-20:00; Su 08:00-18:30",
           "operator": "Groupe Le Duff",
           "outdoor_seating": "no",
           "shop": "bakery",
           "source": "survey",
-          "website": "https://www.briochedoree.fr/restaurants/214-paris-56-rue-de-la-chaussee-dantin",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "limited"
         }
       },
@@ -1477,14 +1482,14 @@
           "check_date": "2026-07-10",
           "indoor_seating": "no",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Fr 07:00-20:30; Sa 07:30-20:30; Su 07:30-20:00",
+          "opening_hours": "Mo-Fr 07:00-20:00; Sa-Su 07:00-20:30",
           "operator": "Groupe Le Duff",
           "outdoor_seating": "no",
           "phone": "+33 1 44 51 99 76",
           "ref:FR:SIRET": "31890659102344",
           "shop": "bakery",
           "takeaway": "only",
-          "website": "https://www.briochedoree.fr/restaurants/44-paris-4-place-de-lopera",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "yes"
         }
       },
@@ -4681,6 +4686,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
   "staleDataWarning": false
 }

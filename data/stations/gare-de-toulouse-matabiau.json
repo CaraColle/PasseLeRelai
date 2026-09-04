@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:34:05Z",
+      "timestamp_osm_base": "2026-09-04T08:28:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -605,22 +605,27 @@
           "books": "comic",
           "check_date": "2025-04-21",
           "contact:city": "Toulouse",
-          "contact:facebook": "http://www.facebook.com/pages/Terres-de-Legendes/178015242225467",
+          "contact:email": "terres.legendes@free.fr",
+          "contact:facebook": "https://www.facebook.com/terres.de.legendes",
           "contact:housenumber": "44",
+          "contact:instagram": "https://www.instagram.com/terresdelegendes/",
+          "contact:phone": "+33 5 61 22 79 47",
           "contact:postcode": "31000",
           "contact:street": "Rue Léon Gambetta",
+          "contact:website": "https://www.canalbd.net/terres-de-legendes/",
           "name": "Librairie Terres de Légendes",
           "opening_hours": "Mo-Sa 10:00-19:00",
           "payment:american_express": "yes",
           "payment:cheque": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
-          "phone": "+33 5 61 22 79 47",
           "ref:FR:SIRET": "41396060000026",
           "shop": "books",
           "source": "local_knowledge",
-          "website": "https://www.canalbd.net/TERRES-DE-LEGENDES"
+          "wheelchair": "yes"
         }
       },
       {
@@ -821,14 +826,15 @@
           "brand:wikipedia": "fr:Brioche Dorée",
           "check_date": "2026-05-02",
           "cuisine": "sandwich",
-          "description": "Sandwichs; Patisserie; Salon de Thé",
+          "description": "Sandwichs; Patisserie; Salon de Thé",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 08:00-19:00",
+          "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-19:30",
           "phone": "+33 5 34 45 58 94",
           "ref:FR:SIRET": "31890659100686",
           "shop": "bakery",
           "source": "survey",
-          "takeaway": "only"
+          "takeaway": "only",
+          "website": "https://www.briochedoree.fr/"
         }
       },
       {
@@ -1152,13 +1158,13 @@
           "cuisine": "sandwich",
           "indoor_seating": "yes",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 08:15-20:30",
+          "opening_hours": "Mo-Fr 07:30-19:30; Sa 08:30-19:30",
           "outdoor_seating": "no",
           "phone": "+33 5 62 27 17 12",
           "ref:FR:SIRET": "44986200200028",
           "shop": "bakery",
           "source": "survey",
-          "website": "https://www.briochedoree.fr/restaurants/1236-toulouse-capitole-24-rue-alsace-lorraine",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "yes"
         }
       },
@@ -1860,7 +1866,7 @@
           "contact:street": "Place de la Trinité",
           "currency:XLT": "SVLT",
           "name": "Biocoop",
-          "opening_hours": "Su 09:30-12:30; Mo-Sa 10:00-20:00",
+          "opening_hours": "Mo-Sa 09:30-20:00; Su 09:30-12:30",
           "operator": "Biocoop",
           "organic": "only",
           "payment:cash": "yes",
@@ -3393,6 +3399,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "staleDataWarning": true
 }

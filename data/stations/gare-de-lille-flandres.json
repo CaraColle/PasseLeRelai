@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:37:06Z",
+      "timestamp_osm_base": "2026-09-04T08:28:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -586,11 +586,11 @@
           "indoor_seating": "yes",
           "level": "0",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 08:00-20:00",
+          "opening_hours": "Mo-Sa 07:00-20:00",
           "outdoor_seating": "yes",
           "ref:FR:SIRET": "31890659102062",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/329-lille-c.cial-euralille"
+          "website": "https://www.briochedoree.fr/"
         }
       },
       {
@@ -876,11 +876,28 @@
         "lat": 50.6379914,
         "lon": 3.0681757,
         "tags": {
+          "breakfast": "yes",
+          "contact:city": "Lille",
+          "contact:facebook": "https://www.facebook.com/mamatteboulangeriecafe",
+          "contact:housenumber": "22",
+          "contact:instagram": "https://www.instagram.com/mamatte.boulangeriecafe/",
+          "contact:phone": "+33 3 20 31 44 20",
+          "contact:postcode": "59800",
+          "contact:street": "Rue de Roubaix",
+          "contact:website": "https://boutiques.mamatte.fr/euralille/",
+          "cuisine": "tea;coffee_shop;sandwich",
+          "delivery": "yes",
+          "indoor_seating": "yes",
           "name": "Mamatte",
           "opening_hours": "Mo-Sa 07:30-19:00; Su 07:30-13:00",
-          "phone": "+33 3 20 31 44 20",
+          "pastry": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "91492967400010",
           "shop": "bakery",
-          "website": "https://www.mamatte.fr/"
+          "takeaway": "yes",
+          "wheelchair": "yes"
         }
       },
       {
@@ -1460,11 +1477,32 @@
         "lat": 50.6355377,
         "lon": 3.063366,
         "tags": {
+          "breakfast": "yes",
+          "contact:city": "Lille",
+          "contact:facebook": "https://www.facebook.com/mamatteboulangeriecafe",
+          "contact:housenumber": "35",
+          "contact:instagram": "https://www.instagram.com/mamatte.boulangeriecafe",
+          "contact:phone": "+33 3 20 40 05 70",
+          "contact:postcode": "59800",
+          "contact:street": "Place Rihour",
+          "contact:tiktok": "https://www.tiktok.com/@mamatte.boulangerie",
+          "contact:website": "https://boutiques.mamatte.fr/lille-rihour/",
+          "contact:youtube": "https://www.youtube.com/channel/UCyzEWgnzTlp_zWYJtNAJSCg",
+          "cuisine": "tea;coffee_shop;sandwich",
+          "delivery": "yes",
+          "indoor_seating": "yes",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
           "name": "Mamatte",
-          "opening_hours": "Mo-Sa 07:00-20:00; Su 07:30-20:00",
-          "phone": "+33 3 20 40 05 70",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "pastry": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "91492967400010",
           "shop": "bakery",
-          "website": "https://www.mamatte.fr/"
+          "takeaway": "yes",
+          "wheelchair": "yes"
         }
       },
       {
@@ -1687,6 +1725,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "staleDataWarning": true
 }

@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:37:06Z",
+      "timestamp_osm_base": "2026-09-04T08:28:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -299,11 +299,25 @@
         "tags": {
           "check_date": "2026-07-15",
           "check_date:opening_hours": "2026-07-15",
+          "contact:city": "Toulon",
+          "contact:facebook": "https://www.facebook.com/librairie.charlemagne",
+          "contact:housenumber": "50",
+          "contact:instagram": "https://www.instagram.com/librairies_charlemagne/",
+          "contact:phone": "+33 4 94 62 22 88",
+          "contact:postcode": "83000",
+          "contact:street": "Boulevard de Strasbourg",
+          "contact:website": "https://www.librairiecharlemagne.com/",
+          "contact:youtube": "https://www.youtube.com/channel/UCedm8Wv7XktaJNMFBIAGB3w",
+          "delivery": "yes",
           "name": "Charlemagne",
           "opening_hours": "Mo-Sa 09:00-19:00",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "ref:FR:SIRET": "65950183700010",
           "shop": "books",
-          "website": "https://www.librairiecharlemagne.com/",
-          "wheelchair": "limited"
+          "wheelchair": "yes"
         }
       },
       {
@@ -781,7 +795,9 @@
           "brand:wikidata": "Q2925606",
           "check_date": "2025-11-26",
           "name": "Brioche Dorée",
-          "shop": "bakery"
+          "opening_hours": "Mo-Sa 07:00-18:30",
+          "shop": "bakery",
+          "website": "https://www.briochedoree.fr/"
         }
       },
       {
@@ -1171,6 +1187,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "staleDataWarning": true
 }

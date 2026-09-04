@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788424870796,
+      "timestamp": 1788510845046,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:41:13Z",
+      "timestamp_osm_base": "2026-09-04T08:34:40Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -298,17 +298,20 @@
         "lat": 42.6992396,
         "lon": 2.8902376,
         "tags": {
-          "addr:street": "Rue Docteur Pous",
+          "addr:city": "Perpignan",
+          "addr:housenumber": "10",
+          "addr:postcode": "66000",
+          "addr:street": "Rue Du Docteur Pous",
           "check_date": "2026-07-27",
           "check_date:opening_hours": "2026-07-27",
-          "contact:city": "Perpignan",
+          "contact:email": "communication@cajelice.fr",
           "contact:facebook": "https://www.facebook.com/librairiecajelice/",
-          "contact:housenumber": "10",
-          "contact:postcode": "66000",
-          "contact:street": "Rue Du Docteur Pous",
-          "contact:website": "http://www.cajelice.fr/",
+          "contact:instagram": "https://www.instagram.com/librairie_cajelice/",
+          "contact:linkedin": "https://fr.linkedin.com/company/cajelice",
+          "contact:phone": "+33 4 68 51 74 58",
+          "contact:twitter": "https://twitter.com/cajelice",
+          "contact:website": "https://www.cajelice.fr/",
           "delivery": "yes",
-          "email": "commandes@cajelice.fr",
           "name": "Cajelice Romance",
           "old_name": "Chapitre",
           "opening_hours": "Mo-Sa 10:00-19:00",
@@ -319,13 +322,11 @@
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "payment:visa_debit": "yes",
-          "phone": "+33 4 68 51 74 58",
           "ref:FR:NAF": "47.61Z",
           "ref:FR:SIREN": "798821500",
           "ref:FR:SIRET": "79882150000021",
           "shop": "books",
           "source": "INSEE - 2026-05",
-          "website": "http://www.cajelice.fr/",
           "wheelchair": "yes"
         }
       },
@@ -1072,7 +1073,7 @@
           "contact:postcode": "66000",
           "contact:street": "Avenue de Prades",
           "name": "Biocoop",
-          "opening_hours": "Mo-Sa 09:00-19:30",
+          "opening_hours": "Mo-Sa 09:00-19:00",
           "operator": "Biocoop",
           "organic": "only",
           "ref:FR:SIRET": "80025510100019",
@@ -1113,6 +1114,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
   "staleDataWarning": false
 }

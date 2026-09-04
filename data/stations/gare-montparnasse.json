@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788424392768,
+      "timestamp": 1788510518926,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:32:01Z",
+      "timestamp_osm_base": "2026-09-04T08:27:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -977,13 +977,18 @@
           "check_date": "2026-08-10",
           "check_date:opening_hours": "2025-09-28",
           "contact:city": "Paris 15eme Arrondissement",
+          "contact:email": "vaugirard@bullesentete.com",
+          "contact:facebook": "https://www.facebook.com/bullesentete15/",
           "contact:housenumber": "235",
+          "contact:instagram": "https://www.instagram.com/bullesentete15/",
           "contact:phone": "+33 1 44 93 70 93",
           "contact:postcode": "75015",
           "contact:street": "Rue de Vaugirard",
+          "contact:website": "https://www.canalbd.net/bulles-en-tete-vaugirard/",
           "name": "Bulles en tête Vaugirard",
           "opening_hours": "Mo-Sa 10:00-20:00",
           "payment:cash": "yes",
+          "payment:contactless": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "ref:FR:SIRET": "89318668400021",
@@ -2234,17 +2239,6 @@
       },
       {
         "type": "node",
-        "id": 5430785259,
-        "lat": 48.8542701,
-        "lon": 2.3069316,
-        "tags": {
-          "check_date": "2025-12-07",
-          "name": "Épicerie de la Tour",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 5445132174,
         "lat": 48.8440204,
         "lon": 2.317315,
@@ -2710,11 +2704,11 @@
           "contact:phone": "+33 1 45 44 71 73",
           "contact:postcode": "75006",
           "contact:street": "Rue de Rennes",
-          "contact:website": "https://www.briochedoree.fr/restaurants/58-paris-150-rue-de-rennes",
+          "contact:website": "https://www.briochedoree.fr/",
           "indoor_seating": "no",
           "name": "Brioche Dorée",
           "official_name": "Brioche Dorée Paris - 150 Rue De Rennes",
-          "opening_hours": "Mo-Sa 07:30-20:00",
+          "opening_hours": "Mo-Fr 07:30-19:30; Sa 07:30-19:00; Su 08:30-18:30",
           "outdoor_seating": "no",
           "ref:FR:SIRET": "31890659101551",
           "shop": "bakery",
@@ -4386,8 +4380,10 @@
           "indoor": "room",
           "level": "2",
           "name": "Brioche Dorée",
+          "opening_hours": "Mo-Su 06:00-21:00",
           "operator": "Groupe Le Duff",
           "shop": "bakery",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "yes"
         }
       },
@@ -4612,6 +4608,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
   "staleDataWarning": false
 }

@@ -234,7 +234,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:38:10Z",
+      "timestamp_osm_base": "2026-09-04T08:30:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -369,15 +369,25 @@
         "lat": 48.0057771,
         "lon": 0.1970327,
         "tags": {
+          "addr:city": "Le Mans",
           "addr:housenumber": "13",
+          "addr:postcode": "72000",
           "addr:street": "Rue de la Barillerie",
-          "name": "Librairie Bulle!",
+          "contact:email": "contact@libbulle.com",
+          "contact:facebook": "https://www.facebook.com/librairie.bulle/",
+          "contact:instagram": "https://www.instagram.com/librairie_bulle_officiel/",
+          "contact:phone": "+33243280623",
+          "contact:website": "https://www.librairie-bulle.fr/",
+          "name": "LIBRAIRIE BULLE",
           "opening_hours": "Mo 13:00-19:00; Tu-Sa 10:00-19:00",
-          "phone": "+33243280623",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
           "ref:FR:SIRET": "32610976600021",
           "shop": "books",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
-          "website": "https://www.librairie-bulle.fr/"
+          "wheelchair": "yes"
         }
       },
       {
@@ -1185,6 +1195,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "staleDataWarning": true
 }

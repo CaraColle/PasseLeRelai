@@ -358,7 +358,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-03T08:39:10Z",
+      "timestamp_osm_base": "2026-09-04T08:33:40Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -549,10 +549,10 @@
           "contact:phone": "+33 2 47 61 30 00",
           "contact:street": "Rue Nationale",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 08:00-19:00",
+          "opening_hours": "Mo-Sa 07:00-19:00",
           "ref:FR:SIRET": "98906571900027",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/36-tours-82-rue-nationale"
+          "website": "https://www.briochedoree.fr/"
         }
       },
       {
@@ -1849,6 +1849,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-03T08:33:12.000Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "staleDataWarning": true
 }
