@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788424717297,
+      "timestamp": 1788595908358,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-04T08:28:36Z",
+      "timestamp_osm_base": "2026-09-05T08:11:09Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1859,7 +1859,6 @@
           "shop": "bakery",
           "smoking": "outside",
           "toilets:wheelchair": "yes",
-          "website": "https://maison-manival.com/",
           "wheelchair": "yes"
         }
       },
@@ -2686,6 +2685,7 @@
           "brand": "TotalEnergies",
           "brand:wikidata": "Q154037",
           "name": "TotalEnergies",
+          "phone": "+33 1 47 44 45 46",
           "ref:FR:SIRET": "88389572400028",
           "shop": "convenience",
           "wheelchair": "yes"
@@ -2773,6 +2773,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-04T08:28:37.830Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-05T08:03:13.423Z",
+  "staleDataWarning": false
 }

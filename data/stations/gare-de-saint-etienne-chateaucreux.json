@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788424700834,
+      "timestamp": 1788595814239,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-04T08:28:36Z",
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -474,19 +474,11 @@
         "lat": 45.4401122,
         "lon": 4.3889443,
         "tags": {
-          "addr:city": "Saint-Étienne",
-          "addr:housenumber": "22",
-          "addr:street": "Rue Louis Braille",
-          "books": "comic",
           "check_date:opening_hours": "2026-05-10",
-          "description": "Librairie indépendante spécialisée en bandes dessinées.",
-          "email": "librairielesintrus@gmail.com",
           "name": "Les Intrus",
           "opening_hours": "Tu-Sa 10:00-19:00",
-          "phone": "+33 4 77 50 73 67",
           "ref:FR:SIRET": "97748103500011",
-          "shop": "books",
-          "website": "https://www.librairielesintrus.com/"
+          "shop": "books"
         }
       },
       {
@@ -507,7 +499,7 @@
         "lon": 4.3908836,
         "tags": {
           "name": "Halaby Market",
-          "ref:FR:SIRET": "10528641300015",
+          "ref:FR:SIRET": "92937346200019",
           "shop": "convenience"
         }
       },
@@ -576,12 +568,7 @@
         "tags": {
           "amenity": "cafe",
           "cafe": "board_game",
-          "contact:email": "levoyageur42000@gmail.com",
-          "contact:facebook": "https://www.facebook.com/people/Le-Voyageur/61557700950287/",
-          "contact:instagram": "https://www.instagram.com/levoyageur42/",
-          "contact:phone": "+33 6 83 84 67 53",
           "name": "Le Voyageur",
-          "opening_hours": "Tu-We 10:00-19:00; Th-Sa 10:00-01:00; Su 14:00-19:00",
           "ref:FR:SIRET": "98469008100018",
           "shop": "books",
           "website": "https://www.librairievoyageur.fr/"
@@ -722,10 +709,6 @@
         "tags": {
           "alt_name": "Nature Primeur",
           "name": "Au Cœur du Vrac",
-          "post_office": "post_partner",
-          "post_office:brand": "La Poste",
-          "post_office:brand:wikidata": "Q373724",
-          "ref:FR:LaPoste": "23412D",
           "ref:FR:SIRET": "83006794800018",
           "shop": "convenience",
           "website": "https://natureprimeur.fr/"
@@ -743,7 +726,6 @@
           "contact:phone": "+33 6 52 01 47 93",
           "name": "Le Pain du Loup",
           "opening_hours": "We-Fr 11:00-19:00",
-          "operator:type": "cooperative",
           "ref:FR:SIRET": "90432726900018",
           "shop": "bakery"
         }
@@ -785,15 +767,15 @@
       {
         "type": "node",
         "id": 6341209049,
-        "lat": 45.4392153,
-        "lon": 4.3963134,
+        "lat": 45.4392164,
+        "lon": 4.3963129,
         "tags": {
           "check_date": "2025-07-28",
           "contact:facebook": "https://www.facebook.com/people/OBLÉ-DORÉ-Boulangerie-Patisserie-14-place-Fourneyron-42000-Saint-Étienne/100054553955297/",
           "name": "Oblé Doré",
           "opening_hours": "Mo-Fr 06:00-18:45; Sa 07:00-14:00",
           "phone": "+33 6 77 51 60 12",
-          "ref:FR:SIRET": "10603939900014",
+          "ref:FR:SIRET": "45323139100013",
           "shop": "bakery"
         }
       },
@@ -846,6 +828,16 @@
           "ref:FR:SIRET": "75260101300010",
           "shop": "bakery",
           "website": "https://www.lecroqenbouche.fr/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7162420641,
+        "lat": 45.433952,
+        "lon": 4.3914033,
+        "tags": {
+          "noname": "yes",
+          "shop": "convenience"
         }
       },
       {
@@ -1169,6 +1161,15 @@
       },
       {
         "type": "node",
+        "id": 12159391112,
+        "lat": 45.4463902,
+        "lon": 4.4067014,
+        "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 12160146501,
         "lat": 45.4295614,
         "lon": 4.3928988,
@@ -1260,12 +1261,21 @@
       },
       {
         "type": "node",
+        "id": 13092465600,
+        "lat": 45.4404401,
+        "lon": 4.3901017,
+        "tags": {
+          "name": "Épicerie de la Ville",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 13115326973,
         "lat": 45.4417191,
         "lon": 4.4130101,
         "tags": {
           "name": "Gusti & Sapori",
-          "origin": "italian",
           "shop": "convenience"
         }
       },
@@ -1310,6 +1320,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-04T08:28:37.830Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-05T08:03:13.423Z",
+  "staleDataWarning": false
 }

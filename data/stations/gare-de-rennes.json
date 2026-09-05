@@ -245,7 +245,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788424599493,
+      "timestamp": 1788595642976,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-04T08:28:36Z",
+      "timestamp_osm_base": "2026-05-06T03:25:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -322,7 +322,7 @@
           "email": "rennes-alma@delarte.fr",
           "indoor_seating": "yes",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 08:30-19:00",
+          "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-19:00",
           "operator": "Groupe Le Duff",
           "organic": "no",
           "outdoor_seating": "yes",
@@ -331,7 +331,7 @@
           "shop": "bakery",
           "smoking": "outside",
           "takeaway": "yes",
-          "website": "https://www.briochedoree.fr/",
+          "website": "https://www.briochedoree.fr/restaurants/447-rennes-14-place-du-colombier",
           "wheelchair": "yes"
         }
       },
@@ -388,7 +388,7 @@
           "email": "info@attrape-douceurs.fr",
           "indoor_seating": "no",
           "name": "L'attrape-douceurs",
-          "opening_hours": "Mo,We-Sa 07:00-19:30; Su,Tu 07:00-13:00",
+          "opening_hours": "Mo, We-Sa 07:00-19:30; Su, Tu 07:00-13:00",
           "outdoor_seating": "no",
           "payment:cash": "yes",
           "payment:debit_cards": "yes",
@@ -412,7 +412,7 @@
           "addr:street": "Rue de Paris",
           "level": "0",
           "name": "Aux Gourmandises de Grégoire",
-          "opening_hours": "Mo-Sa 07:00-19:30; Su 07:00-13:00; We,Th off",
+          "opening_hours": "Mo-Sa 07:00-19:30; We,Th off; Su 07:00-13:00",
           "ref:FR:SIRET": "52410964200016",
           "shop": "bakery",
           "source:addr": "Rennes Métropole",
@@ -420,23 +420,6 @@
           "source:addr:version": "2016-04-01",
           "toilets": "no",
           "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1233462762,
-        "lat": 48.1143761,
-        "lon": -1.6585766,
-        "tags": {
-          "contact:city": "Rennes",
-          "contact:housenumber": "117",
-          "contact:instagram": "https://www.instagram.com/levaincoeur.boulangerie/",
-          "contact:postcode": "35000",
-          "contact:street": "Rue de Paris",
-          "name": "Levain Cœur",
-          "ref:FR:NAF": "70.10Z",
-          "ref:FR:SIRET": "10310877500018",
-          "shop": "bakery"
         }
       },
       {
@@ -518,19 +501,9 @@
         "lat": 48.1170721,
         "lon": -1.6807473,
         "tags": {
-          "addr:housenumber": "60",
-          "addr:street": "Rue de Saint-Malo",
-          "check_date:opening_hours": "2026-05-30",
-          "level": "0",
-          "mapillary": "1228445414761487",
-          "mapillary:0": "555887209806555",
-          "mapillary:1": "573063018059487",
+          "check_date:opening_hours": "2025-02-28",
           "name": "Épicerie Rue de Saint-Malo",
           "opening_hours": "Mo-Sa 15:00-23:00; Su,PH 12:00-23:00",
-          "panoramax": "0bb4bf20-af90-4bae-9155-81ab5d2f56a8",
-          "panoramax:0": "0c0f07b9-5bae-4d67-b53d-4673dd70a25d",
-          "panoramax:1": "70487581-c4cb-497d-80e6-92a37f506069",
-          "phone": "+33954406936",
           "ref:FR:SIRET": "80340079500016",
           "shop": "convenience"
         }
@@ -593,6 +566,21 @@
       },
       {
         "type": "node",
+        "id": 1802188240,
+        "lat": 48.1143729,
+        "lon": -1.6813342,
+        "tags": {
+          "check_date": "2023-07-13",
+          "indoor_seating": "yes",
+          "name": "Fournil de Pierre",
+          "organic": "yes",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "70204551900114",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
         "id": 1886876239,
         "lat": 48.1125073,
         "lon": -1.6759495,
@@ -604,7 +592,7 @@
           "books": "comic",
           "contact:facebook": "https://www.facebook.com/menfin.librairie/",
           "name": "M'enfin ?!",
-          "opening_hours": "Mo 15:00-19:00; Tu-Sa 10:00-19:00",
+          "opening_hours": "Mo 15:00-19:30; Tu-Sa 10:00-19:30",
           "payment:cash": "yes",
           "phone": "+33 2 99 38 07 83",
           "ref:FR:SIRET": "50273126800012",
@@ -789,13 +777,13 @@
           "contact:phone": "+33 2 99 78 30 07",
           "indoor_seating": "no",
           "name": "Brioche Dorée Express",
-          "opening_hours": "Mo-Sa 08:00-19:00",
+          "opening_hours": "Mo-Sa 07:30-19:00",
           "operator": "Groupe Le Duff",
           "outdoor_seating": "no",
           "ref:FR:SIRET": "31890659100108",
           "shop": "bakery",
           "takeaway": "only",
-          "website": "https://www.briochedoree.fr/",
+          "website": "https://www.briochedoree.fr/restaurants/137-rennes-2-rue-dorleans",
           "wheelchair": "yes"
         }
       },
@@ -813,15 +801,15 @@
           "brand:website": "https://www.briochedoree.fr",
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche Dorée",
-          "check_date:opening_hours": "2026-09-03",
+          "check_date:opening_hours": "2025-08-16",
           "contact:phone": "+33 2 99 79 00 65",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:30-19:00",
+          "opening_hours": "Mo-Sa 08:00-19:00",
           "opening_hours:signed": "no",
           "operator": "Groupe Le Duff",
           "ref:FR:SIRET": "31890659100066",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/",
+          "website": "https://www.briochedoree.fr/restaurants/138-rennes-2-rue-lebastard",
           "wheelchair": "limited"
         }
       },
@@ -941,6 +929,23 @@
       },
       {
         "type": "node",
+        "id": 3606659626,
+        "lat": 48.1117784,
+        "lon": -1.676627,
+        "tags": {
+          "addr:city": "Rennes",
+          "addr:housenumber": "16",
+          "addr:postcode": "35000",
+          "addr:street": "Rue Saint-Georges",
+          "name": "Le Failler éphémère",
+          "shop": "books",
+          "source:addr": "Rennes Métropole",
+          "source:addr:housenumber:ref": "61959",
+          "source:addr:version": "2016-04-01"
+        }
+      },
+      {
+        "type": "node",
         "id": 3740649381,
         "lat": 48.1150763,
         "lon": -1.679462,
@@ -982,7 +987,7 @@
           "addr:country": "FR",
           "addr:housenumber": "20",
           "addr:postcode": "35000",
-          "addr:street": "Rue Alfred Dreyfus",
+          "addr:street": "Rue du Capitaine Alfred Dreyfus",
           "contact:facebook": "https://www.facebook.com/Librairieduvoyage",
           "contact:instagram": "http://instagram.com/librairievoyage",
           "contact:twitter": "https://twitter.com/librairievoyage",
@@ -1086,20 +1091,16 @@
           "addr:housenumber": "30",
           "addr:postcode": "35000",
           "addr:street": "Rue Saint-Hélier",
-          "brand": "day by day",
-          "brand:wikidata": "Q48748765",
-          "bulk_purchase": "only",
-          "contact:email": "mae.daybyday.rennes@gmail.com",
-          "contact:facebook": "100093686373942",
-          "contact:instagram": "mae_daybyday_rennes35",
+          "bulk_purchase": "yes",
+          "contact:email": "daybyday.rennes@gmail.com",
+          "contact:facebook": "day by day",
           "low_waste": "yes",
-          "name": "day by day",
+          "name": "Day by day",
           "opening_hours": "Tu-Fr 10:00-14:00,15:30-19:00; Sa 10:00-14:00,15:00-19:00",
           "organic": "yes",
           "payment:cash": "yes",
-          "phone": "+33 2 99 05 27 33",
-          "ref:FR:NAF": "47.29Z",
-          "ref:FR:SIRET": "10288001000016",
+          "phone": "+33 9 67 55 09 15",
+          "ref:FR:SIRET": "95236860300017",
           "shop": "convenience",
           "website": "https://daybyday-shop.com/magasin/rennes"
         }
@@ -1171,10 +1172,8 @@
           "addr:housenumber": "24",
           "addr:postcode": "35000",
           "addr:street": "Rue du Pré Botté",
-          "check_date": "2026-07-26",
-          "internet_access": "wlan",
+          "internet_access": "yes",
           "internet_access:fee": "yes",
-          "level": "0",
           "name": "Orient Express-Taxiphone",
           "opening_hours": "Mo-Sa 12:00-21:00; Su 17:00-21:00",
           "ref:FR:NAF": "47.11B",
@@ -1301,7 +1300,7 @@
           "operator": "Groupe Le Duff",
           "ref:FR:SIRET": "31890659101874",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/"
+          "website": "https://www.briochedoree.fr/restaurants/133-rennes-2-rue-dantrain"
         }
       },
       {
@@ -1359,7 +1358,7 @@
           "addr:housenumber": "13",
           "addr:postcode": "35000",
           "addr:street": "Rue Vasselot",
-          "check_date:opening_hours": "2026-08-14",
+          "check_date:opening_hours": "2024-09-18",
           "diet:vegan": "yes",
           "diet:vegetarian": "yes",
           "indoor_seating": "no",
@@ -1390,18 +1389,15 @@
           "addr:housenumber": "16",
           "addr:postcode": "35000",
           "addr:street": "Rue Vasselot",
-          "check_date:opening_hours": "2026-06-28",
-          "indoor_seating": "no",
+          "check_date:opening_hours": "2024-10-25",
           "name": "Le Grenier à Pain",
           "opening_hours": "Th-Mo 07:00-19:30",
-          "outdoor_seating": "no",
           "phone": "+33 2 99 79 63 30",
           "ref:FR:SIRET": "52388968100012",
           "shop": "bakery",
           "source:addr": "Rennes Métropole",
           "source:addr:housenumber:ref": "61069",
-          "source:addr:version": "2016-04-01",
-          "takeaway": "only"
+          "source:addr:version": "2016-04-01"
         }
       },
       {
@@ -1465,7 +1461,7 @@
           "brand": "La Mie Câline",
           "brand:wikidata": "Q3210704",
           "brand:wikipedia": "fr:La Mie câline",
-          "check_date": "2026-08-19",
+          "check_date": "2024-07-09",
           "cuisine": "sandwich",
           "delivery": "no",
           "diet:vegetarian": "no",
@@ -1491,22 +1487,15 @@
         "lat": 48.1069806,
         "lon": -1.6699636,
         "tags": {
-          "air_conditioning": "yes",
           "brand": "Naturalia",
           "brand:wikidata": "Q3337081",
           "brand:wikipedia": "fr:Naturalia",
           "bulk_purchase": "yes",
-          "check_date:opening_hours": "2026-08-29",
-          "contact:city": "Rennes",
-          "contact:housenumber": "27",
-          "contact:postcode": "35000",
-          "contact:street": "Rue Saint-Hélier",
+          "check_date:opening_hours": "2025-08-02",
           "name": "Naturalia",
-          "opening_hours": "Mo-Tu 08:00-20:00; We 08:00-13:00; Th-Sa 08:00-20:00",
+          "opening_hours": "Mo-Sa 08:00-20:00",
           "organic": "only",
           "phone": "+33 2 23 45 22 25",
-          "ref:FR:NAF": "47.11B",
-          "ref:FR:SIRET": "82795572500011",
           "shop": "convenience",
           "website": "https://magasins.naturalia.fr/naturalia/fr/store/france/bretagne/ille-et-vilaine/rennes/rennes/4905",
           "wheelchair": "yes"
@@ -1634,15 +1623,9 @@
         "lat": 48.1094466,
         "lon": -1.6729436,
         "tags": {
-          "contact:city": "Rennes",
-          "contact:housenumber": "11",
-          "contact:postcode": "35000",
-          "contact:street": "Rue Dupont des Loges",
           "name": "Des Mots et des Choses",
           "opening_hours": "Tu-Sa 14:00-19:00",
           "phone": "+33 2 99 45 72 91",
-          "ref:FR:NAF": "47.79Z",
-          "ref:FR:SIRET": "39437953100038",
           "shop": "books",
           "website": "http://www.livresetobjets.fr/",
           "wheelchair": "no"
@@ -1654,7 +1637,6 @@
         "lat": 48.108928,
         "lon": -1.6776976,
         "tags": {
-          "check_date": "2026-08-22",
           "name": "Épicerie du Centre",
           "shop": "convenience"
         }
@@ -1689,11 +1671,9 @@
           "brand:website": "https://www.briochedoree.fr",
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche Dorée",
-          "check_date": "2026-05-19",
           "level": "0",
           "name": "Brioche Dorée",
           "operator": "Groupe Le Duff",
-          "ref:FR:NAF": "56.10C",
           "ref:FR:SIRET": "31890659102336",
           "shop": "bakery"
         }
@@ -1709,8 +1689,6 @@
           "addr:place": "Rue d'Antrain",
           "addr:postcode": "35000",
           "bulk_purchase": "only",
-          "check_date": "2026-07-11",
-          "check_date:opening_hours": "2026-07-11",
           "contact:city": "Rennes",
           "contact:facebook": "https://www.facebook.com/Ma.Joyeuse.Epiciere/",
           "contact:housenumber": "40",
@@ -1722,7 +1700,7 @@
           "email": "berangere@majoyeuseepiciere.fr",
           "name": "Ma Joyeuse Épicière",
           "old_name": "Mamie Mesure",
-          "opening_hours": "Tu, Th-Fr 10:00-14:00, 15:00-18:00; Sa 10:00-14:00, 15:30-18:00; We 15:00-18:00",
+          "opening_hours": "Tu-Fr 10:00-14:00,15:00-19:00; Sa 09:30-19:00",
           "operator": "BOCALONS",
           "organic": "yes",
           "payment:cash": "yes",
@@ -1752,17 +1730,6 @@
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIRET": "99306283500018",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5999007223,
-        "lat": 48.1094687,
-        "lon": -1.6757405,
-        "tags": {
-          "name": "One Market",
-          "opening_hours": "Mo-Su,PH 14:00-01:00",
-          "shop": "convenience"
         }
       },
       {
@@ -1836,18 +1803,8 @@
         "lat": 48.1086616,
         "lon": -1.6832055,
         "tags": {
-          "contact:city": "Rennes",
-          "contact:facebook": "https://www.facebook.com/p/O-Saveurs-Locales-61555259051254/",
-          "contact:housenumber": "56",
-          "contact:postcode": "35000",
-          "contact:street": "Rue Poullain Duparc",
           "name": "Saveurs locales",
-          "opening_hours": "Mo-Su 06:00-22:00",
-          "ref:FR:NAF": "47.99B",
-          "ref:FR:SIRET": "98253124600030",
-          "shop": "convenience",
-          "vending": "food",
-          "website": "https://osaveurslocales.com/"
+          "shop": "convenience"
         }
       },
       {
@@ -1917,16 +1874,8 @@
         "lat": 48.1025416,
         "lon": -1.6841171,
         "tags": {
-          "check_date": "2026-08-21",
-          "contact:city": "Rennes",
-          "contact:housenumber": "71",
-          "contact:postcode": "35000",
-          "contact:street": "Boulevard de la Tour d'Auvergne",
           "name": "Exotique La Chekina",
           "opening_hours": "Mo-Sa 10:00-20:00; Su 15:00-18:00",
-          "phone": "+33605537432",
-          "ref:FR:NAF": "47.11B",
-          "ref:FR:SIRET": "98942417100027",
           "shop": "convenience"
         }
       },
@@ -1955,7 +1904,7 @@
           "phone": "+33 2 99 50 12 14",
           "ref:FR:SIRET": "90950319500028",
           "shop": "convenience",
-          "website": "https://www.nousantigaspi.com/magasins/rennes-liberte/"
+          "website": "https://www.nousantigaspi.com/"
         }
       },
       {
@@ -1993,16 +1942,9 @@
         "lat": 48.1045954,
         "lon": -1.6717995,
         "tags": {
-          "contact:city": "Rennes",
-          "contact:housenumber": "34",
-          "contact:postcode": "35000",
-          "contact:street": "Avenue Louis Barthou",
           "level": "0",
           "name": "Épicerie de la Gare",
           "opening_hours": "Mo-Su 11:00-22:00",
-          "operator": "SARL MKA Multiservices",
-          "ref:FR:NAF": "47.78C",
-          "ref:FR:SIRET": "98059418800024",
           "shop": "convenience",
           "wheelchair": "no"
         }
@@ -2037,20 +1979,8 @@
         "lat": 48.1107467,
         "lon": -1.6715509,
         "tags": {
-          "contact:city": "Rennes",
-          "contact:facebook": "https://www.facebook.com/lrt35/",
-          "contact:housenumber": "2",
-          "contact:postcode": "35000",
-          "contact:street": "Rue de Viarmes",
-          "email": "librairie.raphael.thomas@gmail.com",
           "name": "Librairie Raphaël Thomas",
-          "opening_hours": "Mo,Tu,Th,Sa 13:30-18:00",
-          "operator": "Raphaël Thomas",
-          "phone": "+33 2 23 42 99 87",
-          "ref:FR:NAF": "47.79Z",
-          "ref:FR:SIRET": "50182537600038",
-          "shop": "books",
-          "website": "https://www.librairie-raphael-thomas.com/"
+          "shop": "books"
         }
       },
       {
@@ -2061,43 +1991,6 @@
         "tags": {
           "name": "Bsal Général épicerie",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13969026337,
-        "lat": 48.0990667,
-        "lon": -1.6799891,
-        "tags": {
-          "contact:city": "Rennes",
-          "contact:housenumber": "60",
-          "contact:instagram": "https://www.instagram.com/breadly_and_co/",
-          "contact:postcode": "35000",
-          "contact:street": "rue Ginguené",
-          "name": "Breadly & Co",
-          "opening_hours": "Mo-Sa 07:30-19:00",
-          "ref:FR:NAF": "10.71C",
-          "ref:FR:SIRET": "98834698700015",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 14000349201,
-        "lat": 48.1136469,
-        "lon": -1.6761102,
-        "tags": {
-          "contact:city": "Rennes",
-          "contact:housenumber": "7",
-          "contact:postcode": "35000",
-          "contact:street": "Rue des Fossés",
-          "name": "The Little Bookshop",
-          "opening_hours": "Tu 10:30-13:30,14:00-18:00; We-Fr 10:30-13:30,14:00-19:00; Sa 11:00-13:30,14:00-18:00",
-          "ref:FR:NAF": "47.61Z",
-          "ref:FR:SIRET": "98403395100018",
-          "shop": "books",
-          "source:opening_hours": "https://www.thelittlebookshop.fr/",
-          "website": "https://www.thelittlebookshop.fr"
         }
       },
       {
@@ -2175,8 +2068,6 @@
         "tags": {
           "addr:housenumber": "11",
           "addr:street": "Rue de la Visitation",
-          "contact:facebook": "https://www.facebook.com/librairieforumdulivre",
-          "contact:instagram": "https://www.instagram.com/forumdulivre",
           "indoor": "room",
           "internet_access": "no",
           "level": "0;1",
@@ -2184,10 +2075,11 @@
           "opening_hours": "Mo-Sa 10:00-20:00",
           "phone": "+33 2 99 79 38 93",
           "ref:FR:NAF": "47.61Z",
-          "ref:FR:SIRET": "93051959000028",
+          "ref:FR:SIREN": "798785085",
+          "ref:FR:SIRET": "79878508500035",
           "room": "shop",
           "shop": "books",
-          "source": "INSEE - 2026-05",
+          "source": "INSEE - 2025-07",
           "website": "https://www.librairieforumdulivre.fr/"
         }
       },
@@ -2235,6 +2127,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-04T08:28:37.830Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-05T08:03:13.423Z",
+  "staleDataWarning": false
 }

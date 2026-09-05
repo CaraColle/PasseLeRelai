@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788511005421,
+      "timestamp": 1788596353185,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-04T08:37:51Z",
+      "timestamp_osm_base": "2026-09-05T08:20:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -477,7 +477,7 @@
           "addr:city": "Orléans",
           "addr:postcode": "45000",
           "addr:street": "Place du Général de Gaulle",
-          "check_date": "2024-04-22",
+          "check_date": "2026-09-05",
           "contact:email": "empsmodernes@wanadoo.fr",
           "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/af/31/ec/db/2b10-4a0c-821b-197f5e5f6650.jpg",
           "name": "Librairie Les Temps Modernes",
@@ -564,6 +564,7 @@
           "addr:housenumber": "9",
           "addr:postcode": "45000",
           "addr:street": "Rue des Carmes",
+          "check_date": "2026-09-04",
           "contact:email": "contact@librairiejaunecitron.com",
           "contact:facebook": "https://www.facebook.com/people/Librairie-galerie-jaune-citron/100076581132776/",
           "contact:instagram": "https://www.instagram.com/librairie_jaune_citron/?hl=fr",
@@ -626,19 +627,6 @@
           "operator": "Laurent Gernez",
           "phone": "+33 2 38 62 53 30",
           "ref:FR:SIRET": "48432383700027",
-          "shop": "books",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3416446410,
-        "lat": 47.9037049,
-        "lon": 1.9047717,
-        "tags": {
-          "addr:city": "Orléans",
-          "addr:postcode": "45000",
-          "name": "La Malle du Martroi",
           "shop": "books",
           "wheelchair": "no"
         }
@@ -1212,6 +1200,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "fetchedAt": "2026-09-05T08:03:13.423Z",
   "staleDataWarning": false
 }

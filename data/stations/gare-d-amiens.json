@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788510797650,
+      "timestamp": 1788596197584,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-04T08:34:40Z",
+      "timestamp_osm_base": "2026-09-05T08:17:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1179,6 +1179,7 @@
           "check_date:opening_hours": "2026-08-30",
           "level": "0",
           "name": "Superette",
+          "note": "La devanture du magasin est toujours la devanture du magasin qui occupait ce bâtiment avant cette supérette (Stick-It Communication).",
           "opening_hours": "Mo-Su 11:00-04:30",
           "phone": "+33 6 51 93 35 89",
           "shop": "convenience"
@@ -1230,6 +1231,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-04T08:28:37.830Z",
+  "fetchedAt": "2026-09-05T08:03:13.423Z",
   "staleDataWarning": false
 }
