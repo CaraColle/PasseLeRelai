@@ -233,7 +233,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788596441909,
+      "timestamp": 1788683388940,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -262,7 +262,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-05T08:22:21Z",
+      "timestamp_osm_base": "2026-09-06T08:30:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -776,37 +776,6 @@
           "ref:FR:SIRET": "79297853800025",
           "shop": "books",
           "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 4597409125,
-        "lat": 49.4425519,
-        "lon": 1.0930924,
-        "tags": {
-          "addr:housenumber": "29",
-          "brand": "Utile",
-          "brand:wikidata": "Q2529029",
-          "brand:wikipedia": "en:Système U",
-          "contact:facebook": "https://www.facebook.com/Utile.EspaceDuPalais",
-          "currency:EUR": "yes",
-          "delivery": "yes",
-          "drive_through": "yes",
-          "internet_access": "wlan",
-          "internet_access:fee": "no",
-          "level": "0",
-          "name": "Utile",
-          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-13:00",
-          "operator": "Distri Rouen Palais",
-          "organic": "yes",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "phone": "+33 2 35 36 42 41",
-          "second_hand": "no",
-          "shop": "convenience",
-          "website": "https://www.magasins-u.com/",
-          "wheelchair": "yes"
         }
       },
       {
@@ -2028,9 +1997,42 @@
           "website": "https://www.groupe-blachere.com/",
           "wheelchair": "yes"
         }
+      },
+      {
+        "type": "way",
+        "id": 1556444871,
+        "center": {
+          "lat": 49.4425725,
+          "lon": 1.093036
+        },
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "en:Système U",
+          "contact:facebook": "https://www.facebook.com/Utile.EspaceDuPalais",
+          "currency:EUR": "yes",
+          "delivery": "yes",
+          "drive_through": "yes",
+          "indoor": "room",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "level": "0",
+          "name": "Utile",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-13:00",
+          "operator": "Distri Rouen Palais",
+          "organic": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 35 36 42 41",
+          "second_hand": "no",
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/",
+          "wheelchair": "yes"
+        }
       }
     ]
   },
-  "fetchedAt": "2026-09-05T08:03:13.423Z",
+  "fetchedAt": "2026-09-06T08:22:02.740Z",
   "staleDataWarning": false
 }
