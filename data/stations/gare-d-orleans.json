@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788683370207,
+      "timestamp": 1788772947220,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-06T08:29:36Z",
+      "timestamp_osm_base": "2026-07-15T15:22:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -328,11 +328,9 @@
           "addr:housenumber": "2",
           "addr:postcode": "45000",
           "addr:street": "Place de la République",
-          "check_date:opening_hours": "2026-08-28",
+          "check_date:opening_hours": "2024-02-17",
           "name": "Librairie Nouvelle d'Orléans",
           "opening_hours": "Mo-Sa 10:00-19:00",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
           "ref:FR:SIRET": "79957620200029",
           "shop": "books",
           "website": "https://www.librairienouvelleorleans.fr/",
@@ -477,7 +475,7 @@
           "addr:city": "Orléans",
           "addr:postcode": "45000",
           "addr:street": "Place du Général de Gaulle",
-          "check_date": "2026-09-05",
+          "check_date": "2024-04-22",
           "contact:email": "empsmodernes@wanadoo.fr",
           "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/af/31/ec/db/2b10-4a0c-821b-197f5e5f6650.jpg",
           "name": "Librairie Les Temps Modernes",
@@ -542,20 +540,6 @@
       },
       {
         "type": "node",
-        "id": 3254193309,
-        "lat": 47.9066749,
-        "lon": 1.9015714,
-        "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "129",
-          "addr:postcode": "45000",
-          "addr:street": "Rue Bannier",
-          "name": "L'invitation",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
         "id": 3258042687,
         "lat": 47.9014798,
         "lon": 1.900622,
@@ -564,7 +548,6 @@
           "addr:housenumber": "9",
           "addr:postcode": "45000",
           "addr:street": "Rue des Carmes",
-          "check_date": "2026-09-04",
           "contact:email": "contact@librairiejaunecitron.com",
           "contact:facebook": "https://www.facebook.com/people/Librairie-galerie-jaune-citron/100076581132776/",
           "contact:instagram": "https://www.instagram.com/librairie_jaune_citron/?hl=fr",
@@ -579,15 +562,16 @@
       },
       {
         "type": "node",
-        "id": 3262370304,
-        "lat": 47.9017264,
-        "lon": 1.9003701,
+        "id": 3262370306,
+        "lat": 47.9017875,
+        "lon": 1.8999624,
         "tags": {
           "addr:city": "Orléans",
-          "addr:housenumber": "48",
+          "addr:housenumber": "54",
           "addr:postcode": "45000",
           "addr:street": "Rue des Carmes",
-          "name": "Paris Market",
+          "name": "Pak Market",
+          "ref:FR:SIRET": "95302746300017",
           "shop": "convenience"
         }
       },
@@ -612,6 +596,23 @@
       },
       {
         "type": "node",
+        "id": 3321557402,
+        "lat": 47.9004038,
+        "lon": 1.9131733,
+        "tags": {
+          "contact:city": "Orléans",
+          "contact:housenumber": "121",
+          "contact:postcode": "45000",
+          "contact:street": "Rue de Bourgogne",
+          "name": "Morgane de Pains",
+          "ref:FR:SIRET": "49318900500017",
+          "shop": "bakery",
+          "website": "https://www.myboulange.fr/45/orleans/morgane-de-pains-14162",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
         "id": 3415031613,
         "lat": 47.9002386,
         "lon": 1.9098294,
@@ -626,6 +627,19 @@
           "operator": "Laurent Gernez",
           "phone": "+33 2 38 62 53 30",
           "ref:FR:SIRET": "48432383700027",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3416446410,
+        "lat": 47.9037049,
+        "lon": 1.9047717,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:postcode": "45000",
+          "name": "La Malle du Martroi",
           "shop": "books",
           "wheelchair": "no"
         }
@@ -729,13 +743,10 @@
           "contact:postcode": "45000",
           "name": "Beulque Alain",
           "opening_hours": "Mo-Tu,Th-Sa 07:50-13:30,15:30-19:30; Su 07:30-13:30",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
           "ref:FR:SIRET": "45244457300029",
           "roof:levels": "0",
           "shop": "bakery",
-          "takeaway": "yes",
-          "wheelchair": "yes"
+          "takeaway": "yes"
         }
       },
       {
@@ -748,7 +759,6 @@
           "addr:housenumber": "54",
           "addr:postcode": "45000",
           "addr:street": "Rue des Carmes",
-          "check_date": "2026-09-05",
           "name": "Mark One épicerie",
           "phone": "+33 7 82 88 73 14",
           "ref:FR:NAF": "47.11B",
@@ -871,8 +881,6 @@
         "tags": {
           "addr:housenumber": "2",
           "addr:street": "Place Louis XI",
-          "brand": "day by day",
-          "brand:wikidata": "Q48748765",
           "bulk_purchase": "only",
           "email": "daybyday.orleans@gmail.com",
           "name": "Day by Day",
@@ -1139,16 +1147,17 @@
         }
       },
       {
-        "type": "node",
-        "id": 14128677301,
-        "lat": 47.9001951,
-        "lon": 1.9038169,
+        "type": "way",
+        "id": 113705491,
+        "center": {
+          "lat": 47.919346,
+          "lon": 1.9025465
+        },
         "tags": {
-          "addr:housenumber": "45",
-          "addr:street": "Rue Royale",
-          "check_date": "2026-08-27",
-          "name": "Nadal",
-          "shop": "bakery"
+          "addr:housenumber": "4",
+          "demolished:building": "yes",
+          "shop": "bakery",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
         }
       },
       {
@@ -1160,7 +1169,6 @@
         },
         "tags": {
           "building": "yes",
-          "name:signed": "no",
           "shop": "kiosk",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
           "wheelchair": "yes"
@@ -1189,17 +1197,14 @@
           "addr:city": "Orléans",
           "addr:postcode": "45000",
           "building": "yes",
-          "check_date:opening_hours": "2026-08-30",
+          "check_date:opening_hours": "2024-05-19",
           "name": "Kiosquedu parc pasteur",
           "opening_hours:signed": "no",
-          "payment:credit_cards": "no",
-          "payment:debit_cards": "no",
-          "shop": "kiosk",
-          "wheelchair": "yes"
+          "shop": "kiosk"
         }
       }
     ]
   },
-  "fetchedAt": "2026-09-06T08:22:02.740Z",
+  "fetchedAt": "2026-09-07T08:55:45.007Z",
   "staleDataWarning": false
 }
