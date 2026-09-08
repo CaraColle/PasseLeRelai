@@ -274,17 +274,16 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-05-06T03:25:00Z",
+      "timestamp_osm_base": "2026-07-15T15:22:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
       {
         "type": "node",
         "id": 803860821,
-        "lat": 48.6901263,
-        "lon": 6.1831043,
+        "lat": 48.6901488,
+        "lon": 6.1830923,
         "tags": {
-          "addr:housenumber": "53;55",
           "check_date:opening_hours": "2025-07-16",
           "contact:fax": "+33 3 83 32 83 79",
           "contact:phone": "+33 3 83 35 53 01",
@@ -570,7 +569,9 @@
         "lat": 48.7036584,
         "lon": 6.1820246,
         "tags": {
+          "contact:facebook": "lesmerveillesdeLily1",
           "name": "Les merveilles de Lily",
+          "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-13:00",
           "ref:FR:SIRET": "91439527200018",
           "shop": "bakery",
           "source": "survey"
@@ -705,17 +706,6 @@
       },
       {
         "type": "node",
-        "id": 4378671455,
-        "lat": 48.6873043,
-        "lon": 6.1849161,
-        "tags": {
-          "name": "À Jeanne d'Arc",
-          "shop": "books",
-          "source": "survey"
-        }
-      },
-      {
-        "type": "node",
         "id": 4396408240,
         "lat": 48.6912053,
         "lon": 6.1808933,
@@ -756,8 +746,8 @@
       {
         "type": "node",
         "id": 4433312891,
-        "lat": 48.6899445,
-        "lon": 6.181823,
+        "lat": 48.68995,
+        "lon": 6.1818467,
         "tags": {
           "level": "0",
           "name": "Chez Loïc et Corentin",
@@ -1043,7 +1033,7 @@
           "ref:FR:SIRET": "40830185100015",
           "shop": "bakery",
           "source": "survey",
-          "website": "http://stef-nancy.fr/"
+          "website": "https://stef-nancy.fr/"
         }
       },
       {
@@ -1085,23 +1075,6 @@
           "contact:phone": "+33 3 83 36 53 41",
           "name": "Henri Florion Sarl",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7363189312,
-        "lat": 48.6924119,
-        "lon": 6.180018,
-        "tags": {
-          "contact:email": "contact@green-planet.fr",
-          "contact:housenumber": "1",
-          "contact:street": "Rue des Carmes",
-          "name": "Green Planet",
-          "phone": "+33 3 87 37 25 74",
-          "ref:FR:SIRET": "84053291500039",
-          "shop": "convenience",
-          "website": "https://www.green-planet.fr",
-          "wheelchair": "no"
         }
       },
       {
@@ -1409,7 +1382,7 @@
           "contact:website": "https://magasins.naturalia.fr/naturalia/fr/store/france/grand-est/meurthe-et-moselle/nancy/nancy/3939",
           "level": "0",
           "name": "Naturalia",
-          "opening_hours": "Mo-Sa 9:00-20:00, Su closed",
+          "opening_hours": "Mo-Sa 09:00-20:00, Su closed",
           "organic": "only",
           "payment:cash": "yes",
           "payment:debit_cards": "yes",
@@ -1497,6 +1470,44 @@
         }
       },
       {
+        "type": "node",
+        "id": 13949165707,
+        "lat": 48.6877115,
+        "lon": 6.1834956,
+        "tags": {
+          "name": "Comptoir exotique",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14011400718,
+        "lat": 48.6874431,
+        "lon": 6.1847924,
+        "tags": {
+          "addr:city": "Nancy",
+          "addr:housenumber": "116",
+          "addr:postcode": "54000",
+          "addr:street": "Rue Saint-Dizier",
+          "name": "Le Cahier bleu",
+          "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14014520719,
+        "lat": 48.6917056,
+        "lon": 6.185011,
+        "tags": {
+          "addr:city": "Nancy",
+          "addr:housenumber": "49",
+          "addr:postcode": "54000",
+          "addr:street": "Rue Saint-Georges",
+          "name": "St Georges Market",
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 1449410606,
         "center": {
@@ -1539,6 +1550,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-07T08:55:45.007Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-08T08:36:41.014Z",
+  "staleDataWarning": true
 }

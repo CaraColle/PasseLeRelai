@@ -222,7 +222,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-07T09:12:50Z",
+      "timestamp_osm_base": "2026-09-08T08:43:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -384,6 +384,7 @@
           "brand": "La Mie Câline",
           "brand:wikidata": "Q3210704",
           "brand:wikipedia": "fr:La Mie câline",
+          "check_date": "2026-09-07",
           "cuisine": "sandwich",
           "name": "La Mie Câline",
           "opening_hours": "Mo-Sa 06:30-19:30; Su 07:00-19:00",
@@ -960,6 +961,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-07T08:55:45.007Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-08T08:36:41.014Z",
+  "staleDataWarning": true
 }

@@ -286,7 +286,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-15T15:22:01Z",
+      "timestamp_osm_base": "2026-05-06T03:25:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -634,7 +634,7 @@
           "opening_hours": "Mo-Sa 07:00-19:00",
           "outdoor_seating": "no",
           "phone": "+33 2 31 82 20 66",
-          "ref:FR:SIRET": "10212838600012",
+          "ref:FR:SIRET": "84843974100010",
           "shop": "bakery",
           "takeaway": "only",
           "wheelchair": "no"
@@ -953,7 +953,7 @@
         "lat": 49.1824024,
         "lon": -0.3620795,
         "tags": {
-          "check_date": "2026-05-09",
+          "check_date": "2024-04-01",
           "contact:housenumber": "104",
           "contact:street": "Boulevard Maréchal Leclerc",
           "email": "contact@lamaisonflorent.fr",
@@ -1059,7 +1059,6 @@
           "contact:street": "Rue de Bernières",
           "name": "La Signare",
           "old_name": "Citibike L'Atelier",
-          "opening_hours": "Tu,We 09:00-13:30,14:30-21:30; Th,Fr 09:00-13:30,14:30-22:00; Sa 09:00-22:00; Su 08:00-21:00",
           "ref:FR:SIRET": "90216976200025",
           "shop": "convenience"
         }
@@ -1289,7 +1288,6 @@
           "contact:housenumber": "186",
           "contact:street": "Rue d'Auge",
           "name": "Grâce de Dieu",
-          "note": "Semble fermé (bâches noirs à l'intérieur au 2026-01-18)",
           "phone": "+33 2 31 83 79 18",
           "ref:FR:SIRET": "83132056900039",
           "shop": "convenience"
@@ -1304,8 +1302,8 @@
           "contact:facebook": "https://www.facebook.com/p/Les-Saveurs-Normandes-100069764854574/",
           "contact:housenumber": "56",
           "contact:street": "Avenue Capitaine Georges Guynemer",
-          "name": "Carrément Gourmand",
-          "opening_hours": "Tu-Sa 07:00-19:00; Su 07:30-12:30",
+          "name": "Les Saveurs Normandes",
+          "opening_hours": "Tu-Sa 00:30-19:30; Su 07:00-13:00",
           "phone": "+33 2 31 52 00 72",
           "ref:FR:SIRET": "93135497100018",
           "shop": "bakery",
@@ -1438,31 +1436,6 @@
       },
       {
         "type": "way",
-        "id": 224884256,
-        "center": {
-          "lat": 49.1775337,
-          "lon": -0.350888
-        },
-        "tags": {
-          "building": "yes",
-          "contact:city": "Caen",
-          "contact:facebook": "https://www.facebook.com/people/Saperlotte/61568159767490/",
-          "contact:instagram": "saperlotte.librairiesolidaire",
-          "contact:postcode": "14000",
-          "contact:street": "Les Rives de l'Orne",
-          "disused:shop": "clothes",
-          "email": "saperlotte.librairie@gmail.com",
-          "level": "0",
-          "name": "Saperlotte",
-          "old_name": "Timberland",
-          "opening_hours": "Mo-Sa 10:00-20:00",
-          "second_hand": "only",
-          "shop": "books",
-          "website": "https://www.saperlotte.org/"
-        }
-      },
-      {
-        "type": "way",
         "id": 1305269486,
         "center": {
           "lat": 49.1886295,
@@ -1482,6 +1455,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-07T08:55:45.007Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-08T08:36:41.014Z",
+  "staleDataWarning": true
 }

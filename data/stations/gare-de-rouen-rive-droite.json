@@ -262,7 +262,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-05-31T22:37:44Z",
+      "timestamp_osm_base": "2026-05-06T03:25:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -622,11 +622,7 @@
         "lon": 1.1065133,
         "tags": {
           "addr:housenumber": "153",
-          "brand": "Panier Sympa",
-          "brand:wikidata": "Q118129533",
           "name": "Panier Sympa",
-          "operator": "Codifrance",
-          "operator:wikidata": "Q2981692",
           "ref:FR:SIRET": "82142978400019",
           "shop": "convenience"
         }
@@ -1581,7 +1577,7 @@
           "phone": "+33 2 35 98 01 84",
           "ref:FR:SIRET": "44316455300010",
           "shop": "books",
-          "website": "https://www.librairie-augrandnullepart.fr/",
+          "website": "http://www.librairie-augrandnullepart.fr",
           "wheelchair": "limited",
           "wheelchair:description:en": "Door at street level, 40% of the store is accessible (at street-level), the remaining require 2 steps.",
           "wheelchair:description:fr": "Porte accessible au niveau de la rue, 40% du magasin est au niveau de la rue, l'espace restant demandant de gravir 2 marches."
@@ -1594,12 +1590,9 @@
         "lon": 1.099524,
         "tags": {
           "check_date": "2026-01-10",
-          "indoor_seating": "yes",
           "name": "Les pâtisseries de Gill",
           "opening_hours": "We-Su 09:00-19:00",
-          "outdoor_seating": "parklet",
-          "shop": "bakery",
-          "wheelchair": "yes"
+          "shop": "bakery"
         }
       },
       {
@@ -1909,25 +1902,6 @@
         }
       },
       {
-        "type": "node",
-        "id": 13821359340,
-        "lat": 49.4396659,
-        "lon": 1.1002145,
-        "tags": {
-          "contact:housenumber": "144",
-          "contact:street": "Rue Martainville",
-          "indoor_seating": "no",
-          "name": "Romy",
-          "outdoor_seating": "no",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "ref:FR:SIRET": "87756920200014",
-          "shop": "bakery",
-          "takeaway": "only",
-          "wheelchair": "yes"
-        }
-      },
-      {
         "type": "way",
         "id": 64750278,
         "center": {
@@ -2014,6 +1988,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-07T08:55:45.007Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-08T08:36:41.014Z",
+  "staleDataWarning": true
 }

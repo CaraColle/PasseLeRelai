@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-07T09:12:50Z",
+      "timestamp_osm_base": "2026-05-06T03:25:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -307,9 +307,7 @@
         "lat": 47.473225,
         "lon": -0.5495515,
         "tags": {
-          "indoor_seating": "no",
           "name": "Le Fournil du Pilori",
-          "outdoor_seating": "yes",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "800680738",
           "ref:FR:SIRET": "80068073800013",
@@ -646,13 +644,11 @@
         "lat": 47.4722931,
         "lon": -0.552879,
         "tags": {
-          "check_date": "2026-05-23",
+          "check_date": "2024-01-14",
           "contact:phone": "+33 2 41 20 62 49",
           "contact:website": "https://www.comptoir-irlandais.com",
           "name": "Le comptoir Irlandais",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
           "ref:FR:NAF": "47.78C",
           "ref:FR:SIRET": "38524664000358",
           "shop": "convenience",
@@ -673,10 +669,8 @@
           "opening_hours": "Su 08:00-13:00; Mo-Sa 08:00-22:00",
           "operator": "Coccinelle Supermarché",
           "organic": "yes",
-          "phone": "+33 2 41 88 29 44",
           "ref:FR:SIRET": "44500626500034",
           "shop": "convenience",
-          "website": "https://www.coccinelle.fr/magasin/angers",
           "wheelchair": "yes"
         }
       },
@@ -845,7 +839,6 @@
           "addr:housenumber": "65",
           "addr:postcode": "49100",
           "addr:street": "Rue Beaurepaire",
-          "amenity": "cafe",
           "name": "L'étincelle",
           "opening_hours": "Su 10:00-13:00; We-Fr 10:00-19:00; Sa 09:00-19:00",
           "ref:FR:NAF": "47.61Z",
@@ -876,16 +869,13 @@
         "lat": 47.4675463,
         "lon": -0.55891,
         "tags": {
-          "check_date": "2026-08-25",
-          "check_date:diet:gluten_free": "2026-08-25",
-          "diet:gluten_free": "no",
+          "check_date": "2024-01-20",
           "name": "Dalibard",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "815293725",
           "ref:FR:SIRET": "81529372500017",
           "shop": "bakery",
-          "source": "INSEE - 2026-05",
-          "wheelchair": "limited"
+          "source": "INSEE - 2026-05"
         }
       },
       {
@@ -968,7 +958,7 @@
           "addr:housenumber": "42",
           "addr:postcode": "49100",
           "addr:street": "Rue Bressigny",
-          "check_date": "2026-08-19",
+          "check_date": "2023-11-05",
           "contact:facebook": "https://www.facebook.com/LaDoreenne/",
           "name": "La Doréenne",
           "opening_hours": "Mo-Sa 07:00-19:30",
@@ -1046,14 +1036,12 @@
         "lat": 47.4665096,
         "lon": -0.5574568,
         "tags": {
-          "check_date": "2026-05-24",
+          "check_date": "2023-10-28",
           "contact:housenumber": "10",
           "contact:street": "Place de la Visitation",
           "email": "librairie.lheriau@wanadoo.fr",
           "name": "Lhériau",
           "opening_hours": "Mo 14:00-18:00; Tu-Sa 09:00-18:00",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
           "phone": "+33 2 41 87 75 87",
           "ref:FR:NAF": "47.61Z",
           "ref:FR:SIREN": "353472772",
@@ -1102,8 +1090,6 @@
           "contact:street": "Rue des Deux-Haies",
           "name": "Librairie Chrysalide",
           "opening_hours": "Mo 14:00-18:00; Tu-Sa 10:00-19:00",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
           "phone": "+33 2 41 86 82 37",
           "ref:FR:SIRET": "40059771200019",
           "ref:vatin": "FR08400597712",
@@ -1133,18 +1119,15 @@
         "lat": 47.4735213,
         "lon": -0.5507442,
         "tags": {
-          "check_date": "2026-08-18",
-          "check_date:opening_hours": "2026-08-18",
+          "check_date": "2026-03-09",
           "diet:vegan": "yes",
           "name": "Prends-en de la Graine",
-          "opening_hours": "Tu-Fr 12:30-18:30; Sa 10:30-18:30",
           "organic": "yes",
           "ref:FR:NAF": "47.11B",
           "ref:FR:SIREN": "891036667",
           "ref:FR:SIRET": "89103666700014",
           "shop": "convenience",
-          "source": "INSEE - 2026-05",
-          "wheelchair": "no"
+          "source": "INSEE - 2026-05"
         }
       },
       {
@@ -1153,8 +1136,6 @@
         "lat": 47.4725251,
         "lon": -0.5528985,
         "tags": {
-          "brand": "day by day",
-          "brand:wikidata": "Q48748765",
           "bulk_purchase": "only",
           "contact:city": "Angers",
           "contact:email": "daybyday.angers49@gmail.com",
@@ -1165,8 +1146,6 @@
           "name": "day by day",
           "opening_hours": "Tu-Fr 10:00-14:00,15:00-19:00; Sa 10:00-19:00",
           "organic": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
           "phone": "+33 9 73 27 12 27",
           "ref:FR:NAF": "47.11B",
           "ref:FR:SIREN": "835228438",
@@ -1264,7 +1243,6 @@
         "lat": 47.471633,
         "lon": -0.5668201,
         "tags": {
-          "diet:halal": "yes",
           "name": "Asia boucherie",
           "shop": "convenience"
         }
@@ -1360,17 +1338,12 @@
         "lat": 47.4791107,
         "lon": -0.5653981,
         "tags": {
-          "addr:city": "Angers",
-          "addr:housenumber": "3",
-          "addr:postcode": "49100",
-          "addr:street": "Rue Saint-Lazare",
           "name": "Jardin d’Eden",
-          "ref:FR:SIRET": "90141821000018",
           "shop": "books"
         }
       }
     ]
   },
-  "fetchedAt": "2026-09-07T08:55:45.007Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-08T08:36:41.014Z",
+  "staleDataWarning": true
 }
