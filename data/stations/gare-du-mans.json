@@ -205,7 +205,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788772386372,
+      "timestamp": 1788944315711,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -234,7 +234,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-28T02:16:18Z",
+      "timestamp_osm_base": "2026-07-15T15:22:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -249,6 +249,20 @@
           "opening_hours": "Mo 14:00-18:30; Tu-Fr 09:00-13:00,13:45-18:30; We 09:00-12:00,14:00-18:30; Sa 09:30-12:30,14:30-18:00",
           "ref:FR:SIRET": "39464533700020",
           "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 835350886,
+        "lat": 47.9920319,
+        "lon": 0.1945851,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:housenumber": "39 bis",
+          "addr:postcode": "72000",
+          "addr:street": "Avenue Henri Lefeuvre",
+          "ref:FR:SIRET": "94428003100021",
+          "shop": "bakery"
         }
       },
       {
@@ -288,29 +302,6 @@
           "second_hand": "only",
           "shop": "books",
           "website": "https://www.lebibliovore.fr/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1116651706,
-        "lat": 48.0005796,
-        "lon": 0.1985196,
-        "tags": {
-          "addr:floor": "0",
-          "addr:housenumber": "11",
-          "addr:street": "Rue Nationale",
-          "check_date": "2026-07-23",
-          "level": "0",
-          "name": "Mi Tierrita Latina",
-          "opening_hours": "Mo,Su off; Tu-Fr 10:00-15:00,16:00-19:00; Sa 10:00-19:00",
-          "origin": "latin_american",
-          "outdoor_seating": "yes",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "phone": "+33 6 27 81 49 91",
-          "ref:FR:SIRET": "98740075100036",
-          "shop": "convenience"
         }
       },
       {
@@ -1180,6 +1171,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-08T08:36:41.014Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-09T08:38:16.004Z",
+  "staleDataWarning": false
 }

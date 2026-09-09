@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788772153065,
+      "timestamp": 1788943694487,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-08T08:42:05Z",
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -297,27 +297,11 @@
         "lat": 43.1252645,
         "lon": 5.9332974,
         "tags": {
-          "check_date": "2026-07-15",
-          "check_date:opening_hours": "2026-07-15",
-          "contact:city": "Toulon",
-          "contact:facebook": "https://www.facebook.com/librairie.charlemagne",
-          "contact:housenumber": "50",
-          "contact:instagram": "https://www.instagram.com/librairies_charlemagne/",
-          "contact:phone": "+33 4 94 62 22 88",
-          "contact:postcode": "83000",
-          "contact:street": "Boulevard de Strasbourg",
-          "contact:website": "https://www.librairiecharlemagne.com/",
-          "contact:youtube": "https://www.youtube.com/channel/UCedm8Wv7XktaJNMFBIAGB3w",
-          "delivery": "yes",
+          "check_date": "2025-07-28",
           "name": "Charlemagne",
-          "opening_hours": "Mo-Sa 09:00-19:00",
-          "payment:contactless": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "payment:mastercard": "yes",
-          "ref:FR:SIRET": "65950183700010",
           "shop": "books",
-          "wheelchair": "yes"
+          "website": "https://www.librairiecharlemagne.com/",
+          "wheelchair": "limited"
         }
       },
       {
@@ -350,7 +334,6 @@
           "addr:housenumber": "11",
           "addr:postcode": "83000",
           "addr:street": "Rue Berthelot",
-          "check_date": "2026-07-26",
           "name": "Maison Sarroche",
           "opening_hours": "Mo-Su 06:30-20:00",
           "payment:cash": "yes",
@@ -393,11 +376,8 @@
           "addr:postcode": "83000",
           "addr:street": "Rue Paul Lendrin",
           "name": "Les trois Brigands",
-          "opening_hours": "Tu-Sa 10:00-18:00 ; Mo 11:00-16:00",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "shop": "books",
-          "wheelchair": "yes"
+          "opening_hours": "Tu-Sa 10:00-18:00",
+          "shop": "books"
         }
       },
       {
@@ -453,6 +433,15 @@
           "name": "Péchés Gourmands",
           "opening_hours": "Mo-Sa 10:00-13:30,14:00-18:00",
           "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2950248538,
+        "lat": 43.1110137,
+        "lon": 5.9392241,
+        "tags": {
+          "shop": "convenience"
         }
       },
       {
@@ -619,13 +608,13 @@
           "brand:wikidata": "Q7937525",
           "brand:wikipedia": "en:Vival (shop)",
           "name": "Vival",
-          "opening_hours": "Mo-Sa 08:00-19:30; Su 08:30-12:30",
+          "opening_hours": "Mo-Sa 08:00-19:30",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "phone": "+33 9 83 32 66 70",
           "post_office": "post_partner",
           "shop": "convenience",
-          "website": "https://vival.casino.fr/stores/e3335/toulon-4-avenue-louis-bozzo"
+          "website": "https://magasins.vival.fr/fr/vival-toulon-bozzo"
         }
       },
       {
@@ -795,9 +784,7 @@
           "brand:wikidata": "Q2925606",
           "check_date": "2025-11-26",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 07:00-18:30",
-          "shop": "bakery",
-          "website": "https://www.briochedoree.fr/"
+          "shop": "bakery"
         }
       },
       {
@@ -854,10 +841,8 @@
         "lat": 43.1219587,
         "lon": 5.9336185,
         "tags": {
-          "check_date": "2026-08-31",
-          "check_date:opening_hours": "2026-08-31",
+          "check_date": "2025-11-20",
           "name": "Bouquinerie",
-          "opening_hours": "Tu-Fr 11:00-18:30; Sa 10:00-18:30",
           "shop": "books"
         }
       },
@@ -881,7 +866,6 @@
         "lat": 43.1246174,
         "lon": 5.9302128,
         "tags": {
-          "check_date": "2026-08-25",
           "name": "Les Kiosques",
           "shop": "books"
         }
@@ -917,7 +901,6 @@
         "lon": 5.9332323,
         "tags": {
           "name": "La boulangère et le caviste",
-          "opening_hours": "Mo-Fr 07:00-19:00; PH off",
           "shop": "bakery"
         }
       },
@@ -930,21 +913,6 @@
           "check_date": "2025-11-21",
           "name": "Mia Alimentation",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 10825124981,
-        "lat": 43.1272036,
-        "lon": 5.9292034,
-        "tags": {
-          "addr:housenumber": "170",
-          "addr:street": "Avenue Vauban",
-          "name": "La Tarte Tropezienne",
-          "opening_hours": "Mo-Su,PH 06:30-20:00",
-          "ref:FR:SIRET": "39474770300269",
-          "shop": "bakery",
-          "website": "https://www.latartetropezienne.fr/magasins-details?magasin=29"
         }
       },
       {
@@ -1083,17 +1051,6 @@
         }
       },
       {
-        "type": "node",
-        "id": 14008518575,
-        "lat": 43.1116622,
-        "lon": 5.9387246,
-        "tags": {
-          "name": "La Joie de Lire",
-          "shop": "books",
-          "wheelchair": "yes"
-        }
-      },
-      {
         "type": "way",
         "id": 145321272,
         "center": {
@@ -1137,7 +1094,6 @@
           "addr:street": "Rue d'Antrechaus",
           "building": "apartments",
           "name": "Charlemagne Manga",
-          "ref:FR:RNB": "V47Z5H9MC613",
           "shop": "books",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
         }
@@ -1151,7 +1107,6 @@
         },
         "tags": {
           "building": "yes",
-          "check_date": "2026-09-01",
           "indoor_seating": "yes",
           "name": "L'Atelier Original",
           "opening_hours": "Mo-Sa 05:30-19:30",
@@ -1187,6 +1142,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-08T08:36:41.014Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-09T08:38:16.004Z",
+  "staleDataWarning": false
 }

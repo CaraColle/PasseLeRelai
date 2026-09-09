@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788772710796,
+      "timestamp": 1788945453415,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-24T11:04:51Z",
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -469,7 +469,6 @@
         "lat": 42.7003584,
         "lon": 2.8905709,
         "tags": {
-          "air_conditioning": "yes",
           "contact:city": "Perpignan",
           "contact:housenumber": "22 bis",
           "contact:postcode": "66000",
@@ -1111,6 +1110,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-08T08:36:41.014Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-09T08:38:16.004Z",
+  "staleDataWarning": false
 }

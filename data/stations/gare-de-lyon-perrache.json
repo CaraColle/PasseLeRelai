@@ -265,7 +265,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788771456638,
+      "timestamp": 1788943239035,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -294,7 +294,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-08T08:36:57Z",
+      "timestamp_osm_base": "2026-06-01T08:52:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -343,19 +343,6 @@
       },
       {
         "type": "node",
-        "id": 831557164,
-        "lat": 45.7470426,
-        "lon": 4.8248313,
-        "tags": {
-          "indoor_seating": "yes",
-          "name": "La Maison du Goût",
-          "outdoor_seating": "yes",
-          "ref:FR:SIRET": "87769180800019",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 832463267,
         "lat": 45.7579644,
         "lon": 4.812109,
@@ -400,8 +387,6 @@
         "lat": 45.7484393,
         "lon": 4.8396913,
         "tags": {
-          "contact:email": "antoinettepainetbrioche@gmail.com",
-          "contact:website": "https://www.antoinettepainetbrioche.fr/",
           "description": "organic flour Etc , leaven (often >18h)also,",
           "name": "Antoinette Pain & Brioche",
           "opening_hours": "Tu-Sa 08:00-19:30",
@@ -530,6 +515,23 @@
       },
       {
         "type": "node",
+        "id": 1777579784,
+        "lat": 45.7570165,
+        "lon": 4.8298327,
+        "tags": {
+          "check_date:opening_hours": "2025-03-19",
+          "contact:facebook": "https://www.facebook.com/Decitre",
+          "harassment_prevention": "ask_angela",
+          "name": "Decitre",
+          "opening_hours": "Mo-Sa 09:30-19:00",
+          "phone": "+33 4 26 68 00 10",
+          "ref:FR:SIRET": "95651314700051",
+          "shop": "books",
+          "website": "https://www.decitre.fr/"
+        }
+      },
+      {
+        "type": "node",
         "id": 1790677737,
         "lat": 45.7548774,
         "lon": 4.8297205,
@@ -604,7 +606,6 @@
         "lat": 45.7465712,
         "lon": 4.8371967,
         "tags": {
-          "check_date": "2026-08-29",
           "name": "Millet",
           "ref:FR:SIRET": "98020746800011",
           "shop": "bakery"
@@ -633,9 +634,7 @@
           "brand": "CocciMarket",
           "brand:wikidata": "Q90020480",
           "brand:wikipedia": "fr:Cocci Market",
-          "check_date:opening_hours": "2026-06-01",
           "name": "CocciMarket",
-          "opening_hours:signed": "no",
           "operator": "Cocci Market",
           "shop": "convenience",
           "wheelchair": "yes"
@@ -664,7 +663,6 @@
         "lat": 45.7597987,
         "lon": 4.8268966,
         "tags": {
-          "check_date:opening_hours": "2026-06-01",
           "name": "Perroudon",
           "opening_hours": "Fr-Su 08:15-19:00",
           "phone": "+33 4 78 37 30 75",
@@ -730,10 +728,10 @@
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "en:Système U",
           "check_date": "2025-05-25",
-          "check_date:opening_hours": "2026-09-02",
+          "check_date:opening_hours": "2025-05-25",
           "contact:website": "https://www.magasins-u.com/magasin/uexpress-lyoncourmont",
           "name": "U Express",
-          "opening_hours": "Mo-Sa 08:00-21:00; Su 08:00-13:00",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-12:00",
           "ref:FR:SIRET": "45402786300025",
           "shop": "convenience"
         }
@@ -748,10 +746,9 @@
           "brand:wikidata": "Q7937525",
           "contact:phone": "+33953180867",
           "name": "Vival",
-          "opening_hours": "Mo-Su 07:00-23:00",
+          "opening_hours": "Mo-Su 07:00-22:50",
           "ref:FR:SIRET": "83005339300013",
-          "shop": "convenience",
-          "website": "https://vival.casino.fr/stores/e0943/lyon-4-place-jules-guesde"
+          "shop": "convenience"
         }
       },
       {
@@ -762,9 +759,7 @@
         "tags": {
           "brand": "CocciMarket",
           "brand:wikidata": "Q90020480",
-          "check_date:opening_hours": "2026-07-22",
           "name": "CocciMarket",
-          "opening_hours:signed": "no",
           "shop": "convenience"
         }
       },
@@ -781,6 +776,22 @@
           "phone": "+33 4 78 42 28 45",
           "ref:FR:SIRET": "81038809000013",
           "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3194037966,
+        "lat": 45.7465368,
+        "lon": 4.8237893,
+        "tags": {
+          "brand": "Vival",
+          "brand:wikidata": "Q7937525",
+          "brand:wikipedia": "en:Vival (shop)",
+          "name": "Vival",
+          "opening_hours": "Mo-Su 07:00-22:00",
+          "shop": "convenience",
+          "website": "https://magasins.vival.fr/fr/vival-lyon-suchet",
+          "wheelchair": "yes"
         }
       },
       {
@@ -916,7 +927,6 @@
           "brand:wikidata": "Q3213589",
           "brand:wikipedia": "fr:La Vie claire",
           "bulk_purchase": "yes",
-          "check_date:opening_hours": "2026-07-13",
           "contact:facebook": "https://www.facebook.com/Lavieclaire",
           "name": "La Vie Claire",
           "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-12:30",
@@ -935,12 +945,10 @@
         "tags": {
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
-          "diet:gluten_free": "yes",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-20:50",
+          "opening_hours": "Mo-Sa 08:00-22:50; Su 09:00-21:00",
           "ref:FR:SIRET": "44465668000865",
-          "shop": "convenience",
-          "website": "https://www.monoprix.fr/1985.html"
+          "shop": "convenience"
         }
       },
       {
@@ -1051,13 +1059,13 @@
           "brand:wikipedia": "fr:Brioche Dorée",
           "indoor_seating": "yes",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 07:30-20:00",
+          "opening_hours": "Mo-Sa 07:30-19:30",
           "outdoor_seating": "yes",
           "phone": "+33 4 78 37 74 51",
           "ref:FR:SIRET": "31890659100900",
           "shop": "bakery",
           "survey:date": "2025-04-04",
-          "website": "https://www.briochedoree.fr/",
+          "website": "https://www.briochedoree.fr/restaurants/95-lyon-republique",
           "wheelchair": "yes"
         }
       },
@@ -1269,15 +1277,14 @@
         "lat": 45.7565056,
         "lon": 4.8349565,
         "tags": {
-          "check_date:opening_hours": "2026-08-02",
+          "check_date:opening_hours": "2023-04-16",
           "description": "Specialized in graphic novels; comics, manga…",
           "name": "Expérience",
-          "opening_hours": "Mo-Sa 10:00-19:00",
+          "opening_hours": "Tu-Sa 10:00-19:00; Mo 14:00-19:00",
           "phone": "+33 4 72 41 84 14",
           "ref:FR:SIRET": "43363179300026",
           "shop": "books",
-          "website": "https://www.librairie-experience.com/",
-          "wheelchair": "no"
+          "website": "https://www.librairie-experience.com/"
         }
       },
       {
@@ -1346,6 +1353,24 @@
       },
       {
         "type": "node",
+        "id": 6977929711,
+        "lat": 45.7546684,
+        "lon": 4.8303181,
+        "tags": {
+          "brand": "Monop'",
+          "brand:wikidata": "Q89913683",
+          "check_date": "2025-05-10",
+          "check_date:opening_hours": "2025-05-10",
+          "contact:phone": "+33451262354",
+          "name": "Monop'",
+          "opening_hours": "Mo-Sa 07:30-21:50; Su 08:00-19:50",
+          "ref:FR:SIRET": "44465668001210",
+          "shop": "convenience",
+          "website": "https://www.monoprix.fr/2791.html"
+        }
+      },
+      {
+        "type": "node",
         "id": 6978214470,
         "lat": 45.7555265,
         "lon": 4.8308606,
@@ -1360,7 +1385,7 @@
           "phone": "+33 4 78 42 36 40",
           "ref:FR:SIRET": "31890659100991",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/"
+          "website": "https://www.briochedoree.fr/restaurants/97-lyon-victor-hugo"
         }
       },
       {
@@ -1417,7 +1442,6 @@
         "lat": 45.7505629,
         "lon": 4.830251,
         "tags": {
-          "check_date": "2026-08-10",
           "contact:facebook": "https://www.facebook.com/Librairieadrienne/",
           "contact:housenumber": "70",
           "contact:street": "Rue de la Charité",
@@ -1427,7 +1451,8 @@
           "phone": "+33 4 81 65 50 49",
           "ref:FR:SIRET": "90056647200024",
           "ref:vatin": "FR41900566472",
-          "shop": "books"
+          "shop": "books",
+          "survey:date": "2023-08-19"
         }
       },
       {
@@ -1647,7 +1672,7 @@
           "opening_hours": "Mo-Th 00:00-01:00,07:00-24:00; Fr-Sa 00:00-03:00,07:00-24:00; Su 00:00-01:00,07:00-24:00",
           "opening_hours:signed": "no",
           "shop": "convenience",
-          "website": "https://vival.casino.fr/stores/e1333/lyon-16-rue-de-la-barre"
+          "website": "https://magasins.vival.fr/fr/vival-lyon-barre"
         }
       },
       {
@@ -1705,9 +1730,7 @@
         "lat": 45.7524906,
         "lon": 4.8405943,
         "tags": {
-          "check_date:opening_hours": "2026-07-05",
           "name": "Super Marché International",
-          "opening_hours:signed": "no",
           "shop": "convenience"
         }
       },
@@ -1736,12 +1759,11 @@
           "brand:wikidata": "Q7937525",
           "brand:wikipedia": "en:Vival (shop)",
           "check_date": "2025-01-26",
-          "check_date:opening_hours": "2026-09-03",
+          "check_date:opening_hours": "2025-01-26",
           "contact:phone": "+33771855661",
           "name": "Vival",
-          "opening_hours": "Mo-Su 08:30-23:00",
-          "shop": "convenience",
-          "website": "https://vival.casino.fr/stores/e0930/lyon-32-avenue-berthelot"
+          "opening_hours": "Mo-Su 09:00-01:00",
+          "shop": "convenience"
         }
       },
       {
@@ -1780,7 +1802,6 @@
           "brand:wikipedia": "en:Vival (shop)",
           "check_date": "2026-04-26",
           "name": "Vival",
-          "opening_hours": "Mo-Su 07:00-21:00",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -1844,8 +1865,7 @@
           "name": "Vival",
           "opening_hours": "Mo-Su,PH 07:00-24:00",
           "ref:FR:SIRET": "84384439000016",
-          "shop": "convenience",
-          "website": "https://vival.casino.fr/stores/e1127/lyon-121-avenue-jean-jaures"
+          "shop": "convenience"
         }
       },
       {
@@ -1858,10 +1878,10 @@
           "addr:housenumber": "4",
           "addr:postcode": "69002",
           "addr:street": "Rue Jacqueline et Roland de Pury",
-          "check_date": "2026-07-08",
+          "check_date": "2026-02-17",
           "level": "0",
           "name": "Arotoma",
-          "opening_hours": "Mo-Fr 09:00-19:30",
+          "opening_hours": "We-Fr 10:30-14:30,16:30-19:30; Mo,Tu 10:30-14:30",
           "ref:FR:SIRET": "98860201700010",
           "shop": "bakery",
           "wheelchair": "yes"
@@ -1922,7 +1942,6 @@
           "addr:postcode": "69002",
           "addr:street": "Cours Charlemagne",
           "bakehouse": "yes",
-          "check_date:opening_hours": "2026-08-22",
           "chocolate": "no",
           "craft": "bakery",
           "name": "Panéterra",
@@ -2152,20 +2171,6 @@
         }
       },
       {
-        "type": "node",
-        "id": 13947301848,
-        "lat": 45.756537,
-        "lon": 4.8204757,
-        "tags": {
-          "brand": "U Express",
-          "brand:wikidata": "Q2529029",
-          "name": "U Express",
-          "opening_hours": "Mo-Sa 07:00-20:00; Su 08:30-13:00",
-          "shop": "convenience",
-          "website": "https://www.magasins-u.com/magasin/uexpress-lyonsaintjust"
-        }
-      },
-      {
         "type": "way",
         "id": 47067552,
         "center": {
@@ -2241,12 +2246,11 @@
         },
         "tags": {
           "building": "kiosk",
-          "name:signed": "no",
           "shop": "kiosk"
         }
       }
     ]
   },
-  "fetchedAt": "2026-09-08T08:36:41.014Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-09T08:38:16.004Z",
+  "staleDataWarning": false
 }

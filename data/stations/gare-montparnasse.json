@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788856601647,
+      "timestamp": 1788943096872,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-08T08:34:49Z",
+      "timestamp_osm_base": "2026-09-09T08:36:50Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1386,7 +1386,8 @@
           "opening_hours": "Mo-Tu,Th-Su 07:00-20:15",
           "outdoor_seating": "terrace",
           "pastry": "yes",
-          "shop": "bakery"
+          "shop": "bakery",
+          "wheelchair": "yes"
         }
       },
       {
@@ -1804,6 +1805,7 @@
           "addr:housenumber": "63",
           "addr:postcode": "75014",
           "addr:street": "Rue Raymond Losserand",
+          "check_date": "2026-09-08",
           "check_date:opening_hours": "2026-03-09",
           "name": "Librairie Tropiques",
           "opening_hours": "Mo 13:00-19:30; Tu-Fr 11:00-19:30; Sa 10:00-19:30",
@@ -2341,6 +2343,7 @@
           "addr:housenumber": "56",
           "addr:postcode": "75014",
           "addr:street": "Rue Raymond Losserand",
+          "check_date": "2026-09-08",
           "name": "Librairie Tropiques",
           "nobrand": "yes",
           "opening_hours": "Mo 13:00-19:30; Tu-Fr 11:00-19:30; Sa 10:00-19:30",
@@ -4608,6 +4611,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-08T08:36:41.014Z",
+  "fetchedAt": "2026-09-09T08:38:16.004Z",
   "staleDataWarning": false
 }

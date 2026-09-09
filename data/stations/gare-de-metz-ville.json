@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788772795356,
+      "timestamp": 1788945634948,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-15T15:22:01Z",
+      "timestamp_osm_base": "2026-07-24T11:04:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1290,18 +1290,6 @@
       },
       {
         "type": "node",
-        "id": 10106834803,
-        "lat": 49.1242078,
-        "lon": 6.1647698,
-        "tags": {
-          "name": "Épicerie du Fort",
-          "ref:FR:SIRET": "98436979300018",
-          "shop": "convenience",
-          "source": "survey"
-        }
-      },
-      {
-        "type": "node",
         "id": 10914118683,
         "lat": 49.1004966,
         "lon": 6.1628724,
@@ -1366,8 +1354,11 @@
         "lat": 49.1082251,
         "lon": 6.1731765,
         "tags": {
+          "contact:email": "metz@certitude.fr",
           "contact:housenumber": "15",
+          "contact:phone": "+33 9 50 30 30 03",
           "contact:street": "Rue Lafayette",
+          "contact:website": "https://certitude.fr/librairies?store=12",
           "name": "Certitude",
           "official_name": "Librairie biblique Certitude",
           "opening_hours": "Tu-Fr 09:30-12:30, Tu 14:30-20:00, We-Fr 14:30-19:00, Sa 10:00-18:00",
@@ -1609,6 +1600,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-08T08:36:41.014Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-09T08:38:16.004Z",
+  "staleDataWarning": false
 }
