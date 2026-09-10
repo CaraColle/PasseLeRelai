@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788943696529,
+      "timestamp": 1789030096804,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-08T08:43:06Z",
+      "timestamp_osm_base": "2026-09-10T08:48:11Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1298,7 +1298,7 @@
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
-          "phone": "04 76 26 74 83",
+          "phone": "+33 4 76 26 74 83",
           "ref:FR:SIRET": "92781303000016",
           "shop": "books",
           "wheelchair": "limited"
@@ -2764,6 +2764,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-09T08:38:16.004Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-10T08:39:22.861Z",
+  "staleDataWarning": false
 }

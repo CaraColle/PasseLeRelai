@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788945634948,
+      "timestamp": 1789030212081,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-24T11:04:51Z",
+      "timestamp_osm_base": "2026-09-10T08:49:11Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -422,7 +422,7 @@
           "internet_access": "no",
           "level": "0",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 07:30-19:00",
+          "opening_hours": "Mo-Fr 07:30-19:00; Sa 07:30-19:30",
           "operator": "Groupe Le Duff",
           "outdoor_seating": "no",
           "payment:cash": "yes",
@@ -646,7 +646,7 @@
         "lat": 49.121044,
         "lon": 6.1752422,
         "tags": {
-          "check_date": "2026-04-21",
+          "check_date": "2026-08-07",
           "name": "L'Ami du Pain",
           "opening_hours": "Mo-Fr 07:00-19:00",
           "ref:FR:SIRET": "44149178400019",
@@ -701,6 +701,37 @@
       },
       {
         "type": "node",
+        "id": 4011548295,
+        "lat": 49.0994332,
+        "lon": 6.1761639,
+        "tags": {
+          "name": "Le comptoir gourmand du Sablon",
+          "ref:FR:SIRET": "10493941800018",
+          "shop": "bakery",
+          "was:name": "Chaussures Laurent",
+          "was:ref:FR:SIRET": "80461821300016",
+          "was:shop": "shoes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4064068344,
+        "lat": 49.1053146,
+        "lon": 6.1740482,
+        "tags": {
+          "contact:housenumber": "77",
+          "contact:street": "Rue aux Arènes",
+          "name": "Le P'tit Pain du Sablon",
+          "operator": "EI Sebastien SACRE",
+          "ref:FR:SIRET": "51465087800028",
+          "shop": "bakery",
+          "was:name": "Diplomates",
+          "was:ref:FR:SIRET": "81970017000015",
+          "was:shop": "tobacco"
+        }
+      },
+      {
+        "type": "node",
         "id": 4091440147,
         "lat": 49.113358,
         "lon": 6.1784925,
@@ -750,9 +781,11 @@
           "contact:facebook": "MaisonBlond",
           "contact:housenumber": "20",
           "contact:street": "Rue du Neufbourg",
+          "indoor_seating": "yes",
           "name": "Maison Blond",
           "opening_hours": "Mo-Fr 06:30-19:30; Sa-Su 07:30-12:30; PH 08:00-12:00",
           "operator": "JAMI",
+          "outdoor_seating": "no",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "520891029",
           "ref:FR:SIRET": "52089102900016",
@@ -994,8 +1027,13 @@
         "lon": 6.1797372,
         "tags": {
           "books": "religion",
+          "contact:email": "office@catholique-metz.fr",
+          "contact:housenumber": "10",
           "contact:phone": "+33 3 87 74 17 28",
+          "contact:street": "Rue de la Gendarmerie",
+          "contact:website": "https://metz.catholique.fr/librairie-de-loffice-catechetique/",
           "name": "Librairie de l'office Cathechétique",
+          "opening_hours": "Mo-Fr 09:00-11:45,13:30-18:00; Sa 10:00-11:45,13:30-17:00",
           "shop": "books",
           "source": "survey"
         }
@@ -1055,9 +1093,10 @@
       {
         "type": "node",
         "id": 5836332008,
-        "lat": 49.1066482,
-        "lon": 6.1823472,
+        "lat": 49.1066275,
+        "lon": 6.1823935,
         "tags": {
+          "check_date": "2026-08-22",
           "contact:housenumber": "2",
           "contact:place": "CC Muse",
           "contact:street": "Rue des Messageries",
@@ -1072,7 +1111,8 @@
           "ref:FR:SIRET": "43020123600493",
           "shop": "bakery",
           "short_name": "Poulaillon",
-          "website": "https://www.poulaillon.fr"
+          "website": "https://www.poulaillon.fr",
+          "wheelchair": "yes"
         }
       },
       {
@@ -1146,18 +1186,6 @@
           "ref:FR:SIRET": "81445415300010",
           "shop": "books",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7636660769,
-        "lat": 49.1172119,
-        "lon": 6.1848551,
-        "tags": {
-          "shop": "convenience",
-          "was:craft": "brewery",
-          "was:name": "La Mère Fouettard",
-          "was:shop": "alcohol"
         }
       },
       {
@@ -1381,6 +1409,18 @@
       },
       {
         "type": "node",
+        "id": 11129181693,
+        "lat": 49.1229792,
+        "lon": 6.1797657,
+        "tags": {
+          "name": "Mini Market Metz",
+          "shop": "convenience",
+          "was:name": "Figa e Mimosa",
+          "was:shop": "florist"
+        }
+      },
+      {
+        "type": "node",
         "id": 11683880169,
         "lat": 49.1121482,
         "lon": 6.1720191,
@@ -1597,9 +1637,22 @@
           "ref:FR:SIRET": "88445724300027",
           "shop": "convenience"
         }
+      },
+      {
+        "type": "node",
+        "id": 14057222061,
+        "lat": 49.1025954,
+        "lon": 6.1633315,
+        "tags": {
+          "name": "Ahmadi Market",
+          "opening_hours": "Mo-Su 07:00-21:00",
+          "ref:FR:SIRET": "10567335400012",
+          "shop": "convenience",
+          "wheelchair": "no"
+        }
       }
     ]
   },
-  "fetchedAt": "2026-09-09T08:38:16.004Z",
+  "fetchedAt": "2026-09-10T08:39:22.861Z",
   "staleDataWarning": false
 }

@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788943694487,
+      "timestamp": 1789030042864,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-05-31T22:37:44Z",
+      "timestamp_osm_base": "2026-09-10T08:48:11Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -297,11 +297,27 @@
         "lat": 43.1252645,
         "lon": 5.9332974,
         "tags": {
-          "check_date": "2025-07-28",
+          "check_date": "2026-07-15",
+          "check_date:opening_hours": "2026-07-15",
+          "contact:city": "Toulon",
+          "contact:facebook": "https://www.facebook.com/librairie.charlemagne",
+          "contact:housenumber": "50",
+          "contact:instagram": "https://www.instagram.com/librairies_charlemagne/",
+          "contact:phone": "+33 4 94 62 22 88",
+          "contact:postcode": "83000",
+          "contact:street": "Boulevard de Strasbourg",
+          "contact:website": "https://www.librairiecharlemagne.com/",
+          "contact:youtube": "https://www.youtube.com/channel/UCedm8Wv7XktaJNMFBIAGB3w",
+          "delivery": "yes",
           "name": "Charlemagne",
+          "opening_hours": "Mo-Sa 09:00-19:00",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "ref:FR:SIRET": "65950183700010",
           "shop": "books",
-          "website": "https://www.librairiecharlemagne.com/",
-          "wheelchair": "limited"
+          "wheelchair": "yes"
         }
       },
       {
@@ -334,6 +350,7 @@
           "addr:housenumber": "11",
           "addr:postcode": "83000",
           "addr:street": "Rue Berthelot",
+          "check_date": "2026-07-26",
           "name": "Maison Sarroche",
           "opening_hours": "Mo-Su 06:30-20:00",
           "payment:cash": "yes",
@@ -359,8 +376,11 @@
           "name": "La cerise sur le gateau",
           "opening_hours": "Mo-Sa 07:30-19:15",
           "outdoor_seating": "no",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "789156684",
           "ref:FR:SIRET": "78915668400027",
           "shop": "bakery",
+          "source": "INSEE - 2026-09",
           "takeaway": "only",
           "wheelchair": "yes"
         }
@@ -376,8 +396,15 @@
           "addr:postcode": "83000",
           "addr:street": "Rue Paul Lendrin",
           "name": "Les trois Brigands",
-          "opening_hours": "Tu-Sa 10:00-18:00",
-          "shop": "books"
+          "opening_hours": "Tu-Sa 10:00-18:00 ; Mo 11:00-16:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "933314338",
+          "ref:FR:SIRET": "93331433800023",
+          "shop": "books",
+          "source": "INSEE - 2026-09",
+          "wheelchair": "yes"
         }
       },
       {
@@ -437,21 +464,17 @@
       },
       {
         "type": "node",
-        "id": 2950248538,
-        "lat": 43.1110137,
-        "lon": 5.9392241,
-        "tags": {
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 3791959939,
         "lat": 43.1200879,
         "lon": 5.9342649,
         "tags": {
+          "addr:housenumber": "2",
+          "addr:street": "Place Louis Blanc",
           "name": "Les petites dorures",
-          "shop": "bakery"
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIRET": "91396822800027",
+          "shop": "bakery",
+          "source": "INSEE - 2026-09"
         }
       },
       {
@@ -508,9 +531,15 @@
         "lat": 43.112642,
         "lon": 5.9391871,
         "tags": {
+          "addr:housenumber": "6",
+          "addr:street": "Rue Muiron",
           "name": "Maison Sarroche",
           "phone": "+33494912495",
-          "shop": "bakery"
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "751584137",
+          "ref:FR:SIRET": "75158413700028",
+          "shop": "bakery",
+          "source": "INSEE - 2026-09"
         }
       },
       {
@@ -608,13 +637,13 @@
           "brand:wikidata": "Q7937525",
           "brand:wikipedia": "en:Vival (shop)",
           "name": "Vival",
-          "opening_hours": "Mo-Sa 08:00-19:30",
+          "opening_hours": "Mo-Sa 08:00-19:30; Su 08:30-12:30",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "phone": "+33 9 83 32 66 70",
           "post_office": "post_partner",
           "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/vival-toulon-bozzo"
+          "website": "https://vival.casino.fr/stores/e3335/toulon-4-avenue-louis-bozzo"
         }
       },
       {
@@ -784,7 +813,9 @@
           "brand:wikidata": "Q2925606",
           "check_date": "2025-11-26",
           "name": "Brioche Dorée",
-          "shop": "bakery"
+          "opening_hours": "Mo-Sa 07:00-18:30",
+          "shop": "bakery",
+          "website": "https://www.briochedoree.fr/"
         }
       },
       {
@@ -841,8 +872,10 @@
         "lat": 43.1219587,
         "lon": 5.9336185,
         "tags": {
-          "check_date": "2025-11-20",
+          "check_date": "2026-08-31",
+          "check_date:opening_hours": "2026-08-31",
           "name": "Bouquinerie",
+          "opening_hours": "Tu-Fr 11:00-18:30; Sa 10:00-18:30",
           "shop": "books"
         }
       },
@@ -866,6 +899,7 @@
         "lat": 43.1246174,
         "lon": 5.9302128,
         "tags": {
+          "check_date": "2026-08-25",
           "name": "Les Kiosques",
           "shop": "books"
         }
@@ -887,11 +921,16 @@
         "lat": 43.1244635,
         "lon": 5.9328793,
         "tags": {
+          "addr:housenumber": "6",
+          "addr:street": "Rue Molière",
           "name": "Les Vieux Ordinaires",
           "opening_hours": "Tu-Sa 14:30-17:30",
           "phone": "+33 4 94 89 59 24",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIREN": "394077614",
           "ref:FR:SIRET": "39407761400037",
-          "shop": "books"
+          "shop": "books",
+          "source": "INSEE - 2026-09"
         }
       },
       {
@@ -901,6 +940,7 @@
         "lon": 5.9332323,
         "tags": {
           "name": "La boulangère et le caviste",
+          "opening_hours": "Mo-Fr 07:00-19:00; PH off",
           "shop": "bakery"
         }
       },
@@ -913,6 +953,21 @@
           "check_date": "2025-11-21",
           "name": "Mia Alimentation",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10825124981,
+        "lat": 43.1272036,
+        "lon": 5.9292034,
+        "tags": {
+          "addr:housenumber": "170",
+          "addr:street": "Avenue Vauban",
+          "name": "La Tarte Tropezienne",
+          "opening_hours": "Mo-Su,PH 06:30-20:00",
+          "ref:FR:SIRET": "39474770300269",
+          "shop": "bakery",
+          "website": "https://www.latartetropezienne.fr/magasins-details?magasin=29"
         }
       },
       {
@@ -982,10 +1037,15 @@
         "lat": 43.1213713,
         "lon": 5.9312528,
         "tags": {
+          "addr:housenumber": "6",
+          "addr:street": "Place Gambetta",
           "name": "Inter Market",
           "opening_hours": "PH,Mo-Su 10:00-21:00",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "792963621",
           "ref:FR:SIRET": "79296362100018",
-          "shop": "convenience"
+          "shop": "convenience",
+          "source": "INSEE - 2026-09"
         }
       },
       {
@@ -1051,6 +1111,17 @@
         }
       },
       {
+        "type": "node",
+        "id": 14008518575,
+        "lat": 43.1116622,
+        "lon": 5.9387246,
+        "tags": {
+          "name": "La Joie de Lire",
+          "shop": "books",
+          "wheelchair": "yes"
+        }
+      },
+      {
         "type": "way",
         "id": 145321272,
         "center": {
@@ -1094,6 +1165,7 @@
           "addr:street": "Rue d'Antrechaus",
           "building": "apartments",
           "name": "Charlemagne Manga",
+          "ref:FR:RNB": "V47Z5H9MC613",
           "shop": "books",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
         }
@@ -1106,13 +1178,19 @@
           "lon": 5.9286493
         },
         "tags": {
+          "addr:housenumber": "6",
+          "addr:street": "Place d'Armes",
           "building": "yes",
+          "check_date": "2026-09-01",
           "indoor_seating": "yes",
           "name": "L'Atelier Original",
           "opening_hours": "Mo-Sa 05:30-19:30",
           "outdoor_seating": "yes",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "848749479",
+          "ref:FR:SIRET": "84874947900012",
           "shop": "bakery",
-          "source": "survey (2013-04)+cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+          "source": "INSEE - 2026-09"
         }
       },
       {
@@ -1142,6 +1220,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-09T08:38:16.004Z",
+  "fetchedAt": "2026-09-10T08:39:22.861Z",
   "staleDataWarning": false
 }

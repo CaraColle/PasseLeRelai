@@ -249,7 +249,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788944134729,
+      "timestamp": 1789030180322,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-07T09:13:51Z",
+      "timestamp_osm_base": "2026-09-10T08:48:11Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -450,7 +450,7 @@
           "brand": "CocciMarket",
           "brand:wikidata": "Q17561658",
           "name": "CocciMarket",
-          "opening_hours": "Mo-Sa 08:00-21:00, Su 09:00-21:00",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-21:00",
           "phone": "+33 4 11 83 45 88",
           "shop": "convenience"
         }
@@ -928,7 +928,7 @@
         "lon": 4.3506667,
         "tags": {
           "name": "Le Pantel",
-          "opening_hours": "Mo-Th 06:00-20:30, Fr-Sa 06:00-21:00, Su 07:00-13:00",
+          "opening_hours": "Mo-Th 06:00-20:30; Fr-Sa 06:00-21:00; Su 07:00-13:00",
           "shop": "kiosk"
         }
       },
@@ -1282,7 +1282,7 @@
           "addr:street": "Rue Pasteur",
           "description": "Boissons à emporter, Parking, Pain aux céréales, Pain de seigle, Pain au levain, Pain complet, Pain bio, Pain de mie.",
           "name": "Au fournil nîmois",
-          "opening_hours": "Mo-Fr 06:30-19:30, Sa 06:30-12:30",
+          "opening_hours": "Mo-Fr 06:30-19:30; Sa 06:30-12:30",
           "phone": "+33 4 66 21 79 09",
           "shop": "bakery",
           "website": "https://www.facebook.com/Au-Fournil-N%C3%AEmois-317631821720664"
@@ -1671,6 +1671,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-09T08:38:16.004Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-10T08:39:22.861Z",
+  "staleDataWarning": false
 }

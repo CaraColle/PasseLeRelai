@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788943096872,
+      "timestamp": 1789029565592,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-09T08:36:50Z",
+      "timestamp_osm_base": "2026-09-10T08:38:02Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -757,17 +757,6 @@
         "lon": 2.3102369,
         "tags": {
           "name": "Alimentation Générale",
-          "shop": "convenience",
-          "source": "survey"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1307645906,
-        "lat": 48.8478752,
-        "lon": 2.3121922,
-        "tags": {
-          "name": "Alimentation de Breteuil",
           "shop": "convenience",
           "source": "survey"
         }
@@ -4611,6 +4600,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-09T08:38:16.004Z",
+  "fetchedAt": "2026-09-10T08:39:22.861Z",
   "staleDataWarning": false
 }

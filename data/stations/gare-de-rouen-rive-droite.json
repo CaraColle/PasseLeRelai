@@ -233,7 +233,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788946197008,
+      "timestamp": 1789030242572,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -262,7 +262,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-15T15:22:01Z",
+      "timestamp_osm_base": "2026-09-10T08:49:11Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -396,13 +396,19 @@
         "lat": 49.4498543,
         "lon": 1.1036206,
         "tags": {
+          "addr:city": "Rouen",
           "addr:housenumber": "51",
+          "addr:postcode": "76000",
+          "addr:street": "Rue de Bihorel",
           "brand": "CocciMarket",
           "brand:wikidata": "Q90020480",
           "name": "CocciMarket",
+          "opening_hours": "Mo-Su 09:00-21:00",
           "operator": "Cocci Market",
+          "phone": "+33 2 35 89 66 18",
           "ref:FR:SIRET": "52487355100039",
-          "shop": "convenience"
+          "shop": "convenience",
+          "website": "https://www.coccinelle.fr/magasin/rouen-0"
         }
       },
       {
@@ -774,37 +780,6 @@
       },
       {
         "type": "node",
-        "id": 4597409125,
-        "lat": 49.4425519,
-        "lon": 1.0930924,
-        "tags": {
-          "addr:housenumber": "29",
-          "brand": "Utile",
-          "brand:wikidata": "Q2529029",
-          "brand:wikipedia": "en:Système U",
-          "contact:facebook": "https://www.facebook.com/Utile.EspaceDuPalais",
-          "currency:EUR": "yes",
-          "delivery": "yes",
-          "drive_through": "yes",
-          "internet_access": "wlan",
-          "internet_access:fee": "no",
-          "level": "0",
-          "name": "Utile",
-          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-13:00",
-          "operator": "Distri Rouen Palais",
-          "organic": "yes",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "phone": "+33 2 35 36 42 41",
-          "second_hand": "no",
-          "shop": "convenience",
-          "website": "https://www.magasins-u.com/",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 4669921807,
         "lat": 49.4374007,
         "lon": 1.1072451,
@@ -1001,7 +976,7 @@
           "phone": "+33 2 35 71 46 23",
           "ref:FR:SIRET": "90799962700017",
           "shop": "convenience",
-          "website": "https://www.spar.fr/"
+          "website": "https://petitcasino.casino.fr/stores/tz202/rouen-42-avenue-jacques-chastellain"
         }
       },
       {
@@ -1511,21 +1486,27 @@
         "lon": 1.0915223,
         "tags": {
           "contact:city": "Rouen",
+          "contact:email": "contact@librairie-funambules.com",
+          "contact:facebook": "https://www.facebook.com/Funambules-358205947579674/",
           "contact:housenumber": "55",
+          "contact:instagram": "https://www.instagram.com/funambuleslib/",
+          "contact:phone": "+33 2 32 12 61 72",
           "contact:postcode": "76000",
           "contact:street": "Rue Jeanne d'Arc",
+          "contact:twitter": "https://twitter.com/bdfunambules",
+          "contact:website": "https://www.canalbd.net/funambules",
           "delivery": "no",
-          "email": "funambuleslib@canalbd.net",
-          "name": "Librairie Funambules",
+          "name": "FUNAMBULES",
           "opening_hours": "Tu-Sa 10:00-13:00, 14:00-19:00",
           "payment:cheque": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
-          "phone": "+33 2 32 12 61 72",
           "ref:FR:SIRET": "75066111800018",
           "shop": "books",
-          "website": "https://www.canalbd.net/funambules"
+          "wheelchair": "yes"
         }
       },
       {
@@ -1553,20 +1534,26 @@
         "tags": {
           "books": "comic",
           "check_date": "2026-02-28",
+          "contact:city": "Rouen",
+          "contact:email": "augrandnullepart@orange.fr",
+          "contact:facebook": "https://www.facebook.com/AuGrandNullePart",
           "contact:housenumber": "102",
+          "contact:instagram": "https://www.instagram.com/augrandnullepart",
+          "contact:linkedin": "https://fr.linkedin.com/in/fred-au-grand-nulle-part-605ba1ba",
+          "contact:phone": "+33 2 35 98 01 84",
           "contact:postcode": "76000",
           "contact:street": "Rue du Général Leclerc",
+          "contact:website": "https://www.facebook.com/AuGrandNullePart",
           "delivery": "no",
-          "email": "augrandnullepart@orange.fr",
-          "facebook": "https://www.facebook.com/AuGrandNullePart",
-          "instagram": "https://www.instagram.com/augrandnullepart",
           "name": "Librairie Au Grand Nulle Part",
-          "opening_hours": "Mo-Sa 10:30-19:00; Su 11:00-18:00",
-          "phone": "+33 2 35 98 01 84",
+          "opening_hours": "Tu-Sa 11:00-19:00",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
           "ref:FR:SIRET": "44316455300010",
           "shop": "books",
-          "website": "https://www.librairie-augrandnullepart.fr/",
-          "wheelchair": "limited",
+          "wheelchair": "yes",
           "wheelchair:description:en": "Door at street level, 40% of the store is accessible (at street-level), the remaining require 2 steps.",
           "wheelchair:description:fr": "Porte accessible au niveau de la rue, 40% du magasin est au niveau de la rue, l'espace restant demandant de gravir 2 marches."
         }
@@ -1602,7 +1589,7 @@
           "name": "Luval",
           "old_name": "Luval",
           "opening_hours": "Mo-Sa 07:00-19:30; Su 07:00-19:00",
-          "outdoor_seating": "yes",
+          "outdoor_seating": "sidewalk",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -1916,6 +1903,17 @@
         }
       },
       {
+        "type": "node",
+        "id": 14072728077,
+        "lat": 49.4344799,
+        "lon": 1.0856307,
+        "tags": {
+          "name": "Que la night",
+          "shop": "convenience",
+          "survey:date": "2026-08-04"
+        }
+      },
+      {
         "type": "way",
         "id": 64750278,
         "center": {
@@ -1999,9 +1997,42 @@
           "website": "https://www.groupe-blachere.com/",
           "wheelchair": "yes"
         }
+      },
+      {
+        "type": "way",
+        "id": 1556444871,
+        "center": {
+          "lat": 49.4425725,
+          "lon": 1.093036
+        },
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "en:Système U",
+          "contact:facebook": "https://www.facebook.com/Utile.EspaceDuPalais",
+          "currency:EUR": "yes",
+          "delivery": "yes",
+          "drive_through": "yes",
+          "indoor": "room",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "level": "0",
+          "name": "Utile",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-13:00",
+          "operator": "Distri Rouen Palais",
+          "organic": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 35 36 42 41",
+          "second_hand": "no",
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/",
+          "wheelchair": "yes"
+        }
       }
     ]
   },
-  "fetchedAt": "2026-09-09T08:38:16.004Z",
+  "fetchedAt": "2026-09-10T08:39:22.861Z",
   "staleDataWarning": false
 }

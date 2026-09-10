@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788943619795,
+      "timestamp": 1789030002167,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-08T08:42:05Z",
+      "timestamp_osm_base": "2026-09-10T08:48:11Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1272,8 +1272,8 @@
       {
         "type": "node",
         "id": 13446663587,
-        "lat": 45.4347062,
-        "lon": 4.3891663,
+        "lat": 45.4347065,
+        "lon": 4.38876,
         "tags": {
           "books": "religion",
           "contact:email": "contact@librairie-culture-et-foi.com",
@@ -1310,6 +1310,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-09T08:38:16.004Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-10T08:39:22.861Z",
+  "staleDataWarning": false
 }

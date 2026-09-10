@@ -257,7 +257,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788946383355,
+      "timestamp": 1789030243812,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -286,7 +286,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-24T11:04:51Z",
+      "timestamp_osm_base": "2026-09-10T08:49:11Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -496,7 +496,8 @@
           "ref:FR:SIRET": "90241259200013",
           "shop": "bakery",
           "takeaway": "yes",
-          "wheelchair": "limited"
+          "toilets:wheelchair": "no",
+          "wheelchair": "no"
         }
       },
       {
@@ -511,9 +512,10 @@
           "brand:wikidata": "Q89913683",
           "name": "Monop'",
           "old_name": "Speedy",
-          "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-12:00",
+          "opening_hours": "Mo-Sa 07:30-21:00; Su 09:00-13:00",
           "ref:FR:SIRET": "94866700100028",
           "shop": "convenience",
+          "website": "https://www.monoprix.fr/2883.html",
           "wheelchair": "yes"
         }
       },
@@ -826,11 +828,13 @@
         "lat": 49.1912094,
         "lon": -0.3598411,
         "tags": {
-          "check_date": "2024-05-06",
+          "check_date": "2026-08-08",
+          "check_date:opening_hours": "2026-08-08",
           "contact:housenumber": "49",
           "contact:street": "Rue de la Délivrande",
           "indoor_seating": "no",
           "name": "Aux Délices d'Edimbourg",
+          "opening_hours": "Mo-Fr 06:30-19:30",
           "outdoor_seating": "yes",
           "phone": "+33 2 31 44 49 15",
           "ref:FR:SIRET": "81847671500029",
@@ -954,12 +958,16 @@
         "lat": 49.1824024,
         "lon": -0.3620795,
         "tags": {
-          "check_date": "2026-05-09",
+          "check_date": "2026-08-14",
+          "check_date:diet:gluten_free": "2026-08-14",
           "contact:housenumber": "104",
           "contact:street": "Boulevard Maréchal Leclerc",
+          "diet:gluten_free": "yes",
           "email": "contact@lamaisonflorent.fr",
           "name": "La Maison Florent",
           "opening_hours": "Mo-Sa 07:00-19:30",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "phone": "+33 2 31 50 06 06",
           "ref:FR:SIRET": "80238538500025",
           "shop": "bakery",
@@ -994,8 +1002,10 @@
           "contact:street": "Rue Saint-Michel",
           "name": "CocciMarket",
           "opening_hours": "PH,Mo-Su 08:00-21:30",
+          "phone": "+33 2 31 84 98 53",
           "ref:FR:SIRET": "82822518500010",
           "shop": "convenience",
+          "website": "https://www.coccinelle.fr/magasin/caen-7",
           "wheelchair": "yes"
         }
       },
@@ -1104,6 +1114,7 @@
           "phone": "+33 2 31 52 09 20",
           "ref:FR:SIRET": "52364875600022",
           "shop": "convenience",
+          "website": "https://www.coccinelle.fr/magasin/caen-6",
           "wheelchair": "limited"
         }
       },
@@ -1347,27 +1358,6 @@
       },
       {
         "type": "node",
-        "id": 12642229200,
-        "lat": 49.1830611,
-        "lon": -0.3573889,
-        "tags": {
-          "contact:email": "librairiegrevis@gmail.com",
-          "contact:facebook": "https://www.facebook.com/people/Editions-Grevis/100063970088755/",
-          "contact:housenumber": "1",
-          "contact:instagram": "https://www.instagram.com/editionsgrevis/",
-          "contact:mastodon": "https://mastodon.top/@editionsgrevis",
-          "contact:street": "Rue de la Miséricorde",
-          "contact:twitter": "https://x.com/Grevisedition",
-          "name": "Grevis",
-          "note": "Cas particulier : il s'agit du bureau de la maison d'édition du même nom mais qui organise de nombreux événement et ouvre une librairie (avec les livres édités) le dimanche. J'ai mis \"shop=books\" mais ce n'est peut être pas adapté. SIRET situé au siège so",
-          "opening_hours": "Su 10:00-14:00",
-          "ref:FR:SIRET": "83437382100026",
-          "shop": "books",
-          "website": "https://editionsgrevis.com/"
-        }
-      },
-      {
-        "type": "node",
         "id": 12736991388,
         "lat": 49.1750092,
         "lon": -0.3492425,
@@ -1483,6 +1473,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-09T08:38:16.004Z",
+  "fetchedAt": "2026-09-10T08:39:22.861Z",
   "staleDataWarning": false
 }

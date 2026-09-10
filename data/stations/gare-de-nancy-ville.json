@@ -245,7 +245,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1788946431019,
+      "timestamp": 1789030245778,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-15T15:22:01Z",
+      "timestamp_osm_base": "2026-09-10T08:49:11Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -371,18 +371,6 @@
       },
       {
         "type": "node",
-        "id": 1643027537,
-        "lat": 48.6978683,
-        "lon": 6.1787539,
-        "tags": {
-          "check_date": "2024-12-08",
-          "name": "Librairie Ancienne Dornier",
-          "shop": "books",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
-        }
-      },
-      {
-        "type": "node",
         "id": 1643073470,
         "lat": 48.6917392,
         "lon": 6.1829242,
@@ -390,22 +378,25 @@
           "books": "comics",
           "contact:city": "Nancy",
           "contact:email": "laparentheselib@canalbd.net",
+          "contact:facebook": "https://www.facebook.com/laparenthese54",
           "contact:housenumber": "19",
+          "contact:instagram": "https://www.instagram.com/la_parenthese_bd/",
           "contact:phone": "+33 3 83353963",
           "contact:postcode": "54000",
-          "contact:street": "Cour des Arts",
+          "contact:street": "Cour Arts",
+          "contact:website": "https://www.canalbd.net/la-parenthese",
           "name": "La Parenthèse",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
           "payment:american_express": "yes",
           "payment:cheque": "yes",
           "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "ref:FR:SIRET": "30098698100045",
           "shop": "books",
-          "website": "https://www.canalbd.net/la-parenthese",
-          "wheelchair": "limited"
+          "wheelchair": "yes"
         }
       },
       {
@@ -462,10 +453,9 @@
       {
         "type": "node",
         "id": 1975553475,
-        "lat": 48.6906624,
-        "lon": 6.1843197,
+        "lat": 48.6906695,
+        "lon": 6.1843635,
         "tags": {
-          "addr:housenumber": "19",
           "contact:email": "autre.rive.nancy@wanadoo.fr",
           "contact:facebook": "LAutre-Rive-Nancy-256540604378115",
           "contact:phone": "+33 3 83 30 63 29",
@@ -769,6 +759,8 @@
           "email": "nancy@equilivre.net",
           "name": "La Maison de la Bible",
           "opening_hours": "Tu-Sa 09:30-12:30,14:00-18:30",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "phone": "+33 3 83 35 08 97",
           "ref:FR:SIRET": "56206144000037",
           "shop": "books",
@@ -826,15 +818,25 @@
         "tags": {
           "books": "comics",
           "contact:city": "Nancy",
+          "contact:email": "atoutmanga@canalbd.net",
+          "contact:facebook": "https://www.facebook.com/atout.manga/",
           "contact:housenumber": "8",
+          "contact:instagram": "https://www.instagram.com/atout_manga/",
           "contact:phone": "+33 3 83 17 19 40",
           "contact:postcode": "54000",
           "contact:street": "Cour des Arts",
+          "contact:website": "https://www.canalbd.net/atout-manga/",
           "name": "Atout Manga",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-12:30, 13:30-19:00",
+          "payment:american_express": "yes",
+          "payment:cheque": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
           "ref:FR:SIRET": "30098698100052",
           "shop": "books",
-          "wheelchair": "no"
+          "wheelchair": "yes"
         }
       },
       {
@@ -884,22 +886,6 @@
           "shop": "books",
           "source": "survey",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5441089449,
-        "lat": 48.6886129,
-        "lon": 6.1847875,
-        "tags": {
-          "contact:housenumber": "29",
-          "contact:street": "Rue des Sœurs Macarons",
-          "name": "Le Cahier Bleu",
-          "opening_hours": "Tu-Sa 10:00-18:30",
-          "phone": "+33 3 83183564",
-          "ref:FR:SIRET": "53131639600021",
-          "shop": "books",
-          "source": "survey"
         }
       },
       {
@@ -1080,8 +1066,8 @@
       {
         "type": "node",
         "id": 7366818859,
-        "lat": 48.6931557,
-        "lon": 6.1826529,
+        "lat": 48.6931493,
+        "lon": 6.1826224,
         "tags": {
           "contact:housenumber": "1",
           "contact:street": "Place Stanislas",
@@ -1328,8 +1314,8 @@
       {
         "type": "node",
         "id": 11775608754,
-        "lat": 48.6909263,
-        "lon": 6.1842111,
+        "lat": 48.6909331,
+        "lon": 6.1842431,
         "tags": {
           "contact:housenumber": "9",
           "contact:street": "Rue du Pont Mouja",
@@ -1400,11 +1386,13 @@
         "lat": 48.702359,
         "lon": 6.1755208,
         "tags": {
+          "brand": "So.bio",
+          "brand:wikidata": "Q141195843",
           "bulk_purchase": "yes",
           "contact:housenumber": "47",
           "contact:street": "Rue du Faubourg des Trois-Maisons",
           "name": "So.bio",
-          "opening_hours": "Mo-Sa 08:30-20:00; Su 09:30-12:30",
+          "opening_hours": "Mo-Fr 08:30-20:00; Sa 09:30-20:00; Su 09:30-12:30",
           "organic": "only",
           "phone": "+33 7 85567664",
           "shop": "convenience",
@@ -1485,11 +1473,8 @@
         "lat": 48.6874431,
         "lon": 6.1847924,
         "tags": {
-          "addr:city": "Nancy",
-          "addr:housenumber": "116",
-          "addr:postcode": "54000",
-          "addr:street": "Rue Saint-Dizier",
           "name": "Le Cahier bleu",
+          "ref:FR:SIRET": "53131639600039",
           "shop": "books"
         }
       },
@@ -1499,11 +1484,19 @@
         "lat": 48.6917056,
         "lon": 6.185011,
         "tags": {
-          "addr:city": "Nancy",
-          "addr:housenumber": "49",
-          "addr:postcode": "54000",
-          "addr:street": "Rue Saint-Georges",
           "name": "St Georges Market",
+          "ref:FR:SIRET": "10463687300010",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14046675707,
+        "lat": 48.6981047,
+        "lon": 6.1783925,
+        "tags": {
+          "name": "Les Paniers du Primeur",
+          "ref:FR:SIRET": "88163561900029",
           "shop": "convenience"
         }
       },
@@ -1529,7 +1522,7 @@
           "ref:FR:SIRET": "31890659100439",
           "room": "shop",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/52-nancy-c.cial-st-sebastien"
+          "website": "https://www.briochedoree.fr/"
         }
       },
       {
@@ -1550,6 +1543,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-09T08:38:16.004Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-10T08:39:22.861Z",
+  "staleDataWarning": false
 }
