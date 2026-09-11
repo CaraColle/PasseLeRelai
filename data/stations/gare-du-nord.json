@@ -281,7 +281,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789029565590,
+      "timestamp": 1789115679195,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -301,7 +301,7 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-08-27T11:22:24Z",
+        "graph_date": "2026-08-28T12:16:53Z",
         "osm_date": "2026-08-17T00:00:02Z"
       }
     }
@@ -310,7 +310,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-10T08:38:02Z",
+      "timestamp_osm_base": "2026-09-11T08:33:50Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -6342,9 +6342,14 @@
         "lat": 48.8917253,
         "lon": 2.3499909,
         "tags": {
+          "indoor_seating": "no",
           "name": "La régale",
           "opening_hours": "Th-Tu 06:00-21:00",
-          "shop": "bakery"
+          "outdoor_seating": "no",
+          "shop": "bakery",
+          "takeaway": "only",
+          "wheelchair": "limited",
+          "wheelchair:description:fr": "Rampe présente mais beaucoup trop raide."
         }
       },
       {
@@ -7976,6 +7981,16 @@
         }
       },
       {
+        "type": "node",
+        "id": 14170623506,
+        "lat": 48.8901875,
+        "lon": 2.3498288,
+        "tags": {
+          "name": "Azalée",
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 48920136,
         "center": {
@@ -8299,6 +8314,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-10T08:39:22.861Z",
+  "fetchedAt": "2026-09-11T08:34:38.195Z",
   "staleDataWarning": false
 }

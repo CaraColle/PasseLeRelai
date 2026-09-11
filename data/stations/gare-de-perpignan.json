@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789030210136,
+      "timestamp": 1789116486799,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -241,7 +241,7 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-08-27T11:22:24Z",
+        "graph_date": "2026-08-28T12:16:53Z",
         "osm_date": "2026-08-17T00:00:02Z"
       }
     }
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-10T08:49:11Z",
+      "timestamp_osm_base": "2026-09-11T08:49:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1114,6 +1114,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-10T08:39:22.861Z",
+  "fetchedAt": "2026-09-11T08:34:38.195Z",
   "staleDataWarning": false
 }

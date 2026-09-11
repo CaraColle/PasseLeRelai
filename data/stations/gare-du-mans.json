@@ -205,7 +205,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789030182809,
+      "timestamp": 1789116246273,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -225,7 +225,7 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-08-27T11:22:24Z",
+        "graph_date": "2026-08-28T12:16:53Z",
         "osm_date": "2026-08-17T00:00:02Z"
       }
     }
@@ -234,7 +234,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-10T08:48:11Z",
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -249,6 +249,20 @@
           "opening_hours": "Mo 14:00-18:30; Tu-Fr 09:00-13:00,13:45-18:30; We 09:00-12:00,14:00-18:30; Sa 09:30-12:30,14:30-18:00",
           "ref:FR:SIRET": "39464533700020",
           "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 835350886,
+        "lat": 47.9920319,
+        "lon": 0.1945851,
+        "tags": {
+          "addr:city": "Le Mans",
+          "addr:housenumber": "39 bis",
+          "addr:postcode": "72000",
+          "addr:street": "Avenue Henri Lefeuvre",
+          "ref:FR:SIRET": "94428003100021",
+          "shop": "bakery"
         }
       },
       {
@@ -288,29 +302,6 @@
           "second_hand": "only",
           "shop": "books",
           "website": "https://www.lebibliovore.fr/"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1116651706,
-        "lat": 48.0005796,
-        "lon": 0.1985196,
-        "tags": {
-          "addr:floor": "0",
-          "addr:housenumber": "11",
-          "addr:street": "Rue Nationale",
-          "check_date": "2026-07-23",
-          "level": "0",
-          "name": "Mi Tierrita Latina",
-          "opening_hours": "Mo,Su off; Tu-Fr 10:00-15:00,16:00-19:00; Sa 10:00-19:00",
-          "origin": "latin_american",
-          "outdoor_seating": "yes",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "phone": "+33 6 27 81 49 91",
-          "ref:FR:SIRET": "98740075100036",
-          "shop": "convenience"
         }
       },
       {
@@ -369,25 +360,15 @@
         "lat": 48.0057771,
         "lon": 0.1970327,
         "tags": {
-          "addr:city": "Le Mans",
           "addr:housenumber": "13",
-          "addr:postcode": "72000",
           "addr:street": "Rue de la Barillerie",
-          "contact:email": "contact@libbulle.com",
-          "contact:facebook": "https://www.facebook.com/librairie.bulle/",
-          "contact:instagram": "https://www.instagram.com/librairie_bulle_officiel/",
-          "contact:phone": "+33243280623",
-          "contact:website": "https://www.librairie-bulle.fr/",
-          "name": "LIBRAIRIE BULLE",
+          "name": "Librairie Bulle!",
           "opening_hours": "Mo 13:00-19:00; Tu-Sa 10:00-19:00",
-          "payment:contactless": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "payment:mastercard": "yes",
+          "phone": "+33243280623",
           "ref:FR:SIRET": "32610976600021",
           "shop": "books",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
-          "wheelchair": "yes"
+          "website": "https://www.librairie-bulle.fr/"
         }
       },
       {
@@ -619,10 +600,8 @@
         "tags": {
           "check_date": "2025-05-06",
           "contact:phone": "+33 2 43 84 35 03",
-          "indoor_seating": "yes",
           "name": "Le Pain d'Or",
           "opening_hours": "06:30-21:00; We off",
-          "outdoor_seating": "no",
           "pastry": "yes",
           "ref:FR:SIRET": "91302979900016",
           "shop": "bakery"
@@ -943,7 +922,6 @@
           "contact:website": "https://www.magasins-u.com/magasin/superu-lemans",
           "drive_through": "only",
           "name": "Utile",
-          "opening_hours": "Mo-Sa 08:30-20:00; Su 09:00-12:45",
           "shop": "convenience"
         }
       },
@@ -953,11 +931,9 @@
         "lat": 48.0055322,
         "lon": 0.1931586,
         "tags": {
-          "check_date": "2026-09-06",
-          "check_date:opening_hours": "2026-09-06",
+          "check_date": "2025-05-05",
           "contact:website": "https://ximiti.eu/",
           "name": "Ximiti",
-          "opening_hours": "Mo-Su,PH 00:00-23:59",
           "ref:FR:SIRET": "91014902000018",
           "self_service": "only",
           "shop": "convenience"
@@ -980,11 +956,7 @@
         "lat": 47.9899849,
         "lon": 0.2069338,
         "tags": {
-          "check_date:opening_hours": "2026-07-02",
           "name": "Afghan Market",
-          "opening_hours": "Mo-Su 09:30-19:00",
-          "opening_hours:signed": "no",
-          "phone": "+33243187026",
           "ref:FR:SIRET": "92097567900019",
           "shop": "convenience"
         }
@@ -1071,9 +1043,7 @@
           "addr:postcode": "72000",
           "addr:street": "Place du Huit Mai 1945",
           "name": "Monop'daily",
-          "opening_hours": "Mo-Th 06:00-21:00; Fr 06:00-22:00; Sa 06:00-20:30; Su 08:00-22:30",
-          "shop": "convenience",
-          "website": "https://www.monoprix.fr/2971.html"
+          "shop": "convenience"
         }
       },
       {
@@ -1171,8 +1141,6 @@
         "lat": 48.0031418,
         "lon": 0.1967166,
         "tags": {
-          "brand": "Augustin",
-          "brand:wikidata": "Q130232585",
           "name": "Augustin",
           "opening_hours": "Mo-Fr 07:00-20:00; Sa 05:00-20:00; Su 05:00-13:00",
           "ref:FR:SIRET": "99092644600016",
@@ -1197,6 +1165,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-10T08:39:22.861Z",
+  "fetchedAt": "2026-09-11T08:34:38.195Z",
   "staleDataWarning": false
 }
