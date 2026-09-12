@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789029822119,
+      "timestamp": 1789201385187,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -257,7 +257,7 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-08-27T11:22:24Z",
+        "graph_date": "2026-08-28T12:16:53Z",
         "osm_date": "2026-08-17T00:00:02Z"
       }
     }
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-11T08:39:56Z",
+      "timestamp_osm_base": "2026-09-12T08:22:30Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -878,6 +878,7 @@
         "tags": {
           "breakfast": "yes",
           "contact:city": "Lille",
+          "contact:email": "lille.rihour@mamatte.fr",
           "contact:facebook": "https://www.facebook.com/mamatteboulangeriecafe",
           "contact:housenumber": "22",
           "contact:instagram": "https://www.instagram.com/mamatte.boulangeriecafe/",
@@ -1479,9 +1480,10 @@
         "tags": {
           "breakfast": "yes",
           "contact:city": "Lille",
+          "contact:email": "lille.rihour@mamatte.fr",
           "contact:facebook": "https://www.facebook.com/mamatteboulangeriecafe",
           "contact:housenumber": "35",
-          "contact:instagram": "https://www.instagram.com/mamatte.boulangeriecafe",
+          "contact:instagram": "https://www.instagram.com/mamatte.lille/",
           "contact:phone": "+33 3 20 40 05 70",
           "contact:postcode": "59800",
           "contact:street": "Place Rihour",
@@ -1725,6 +1727,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-11T08:34:38.195Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-12T08:22:17.628Z",
+  "staleDataWarning": false
 }

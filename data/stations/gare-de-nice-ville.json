@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789115855827,
+      "timestamp": 1789201369851,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-11T08:35:50Z",
+      "timestamp_osm_base": "2026-09-12T08:21:27Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -550,11 +550,14 @@
         "tags": {
           "brand": "Eric Kayser",
           "brand:wikidata": "Q99231745",
+          "check_date": "2026-09-12",
+          "check_date:opening_hours": "2026-09-12",
           "name": "Eric Kayser",
+          "opening_hours": "06:30-19:30",
           "pastry": "yes",
           "ref:FR:SIRET": "80770348300048",
           "shop": "bakery",
-          "website": "https://www.maison-kayser.com/gb/boulangeries/100004014-nice-malaussena.html"
+          "website": "https://maison-kayser.com/boulangerie/nice-malaussena/"
         }
       },
       {
@@ -1534,7 +1537,7 @@
           "opening_hours": "Tu-Sa 07:00-19:30; Su 07:00-13:30",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
-          "phone": "+33892316205",
+          "phone": "0 892 31 62 05",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "813624756",
           "ref:FR:SIRET": "81362475600017",
@@ -3004,6 +3007,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-11T08:34:38.195Z",
+  "fetchedAt": "2026-09-12T08:22:17.628Z",
   "staleDataWarning": false
 }

@@ -358,7 +358,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-11T08:47:02Z",
+      "timestamp_osm_base": "2026-09-12T08:22:30Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -912,27 +912,6 @@
       },
       {
         "type": "node",
-        "id": 5429064321,
-        "lat": 47.3948813,
-        "lon": 0.6833954,
-        "tags": {
-          "check_date:opening_hours": "2023-06-18",
-          "contact:city": "Tours",
-          "contact:fax": "+33 2 47 61 91 67",
-          "contact:housenumber": "69",
-          "contact:phone": "+33 2 47 61 91 76",
-          "contact:postcode": "37000",
-          "contact:street": "Rue du Commerce",
-          "name": "Imaginaute",
-          "opening_hours:signed": "no",
-          "ref:FR:SIRET": "51776766100021",
-          "shop": "books",
-          "strapline": "La librairie de l'imaginaire",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 5756662294,
         "lat": 47.3918057,
         "lon": 0.7018432,
@@ -1158,6 +1137,24 @@
           "was:name": "Destia",
           "website": "https://www.re-read.com/fr/libreria/re-read-tours/",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6412069603,
+        "lat": 47.3948552,
+        "lon": 0.6832426,
+        "tags": {
+          "check_date:opening_hours": "2023-06-18",
+          "fax": "+33 2 47 61 91 67",
+          "name": "Imaginaute",
+          "name:1996--2024": "Unithèque (et La Boîte à Livres de l’Étranger)",
+          "old_name": "Unithèque",
+          "opening_hours:signed": "no",
+          "phone": "+33 2 47 61 91 76",
+          "ref:FR:SIRET": "51776766100021",
+          "shop": "books",
+          "strapline": "La librairie de l'imaginaire"
         }
       },
       {
@@ -1470,6 +1467,21 @@
       },
       {
         "type": "node",
+        "id": 10983560075,
+        "lat": 47.3954369,
+        "lon": 0.6839138,
+        "tags": {
+          "check_date:opening_hours": "2026-05-03",
+          "contact:housenumber": "17",
+          "contact:street": "Rue Constantine",
+          "contact:tiktok": "https://www.tiktok.com/@sora.tours",
+          "name": "Sora",
+          "opening_hours:signed": "no",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 11135865889,
         "lat": 47.3823793,
         "lon": 0.7048975,
@@ -1703,21 +1715,6 @@
       },
       {
         "type": "node",
-        "id": 13790758760,
-        "lat": 47.3953974,
-        "lon": 0.6839292,
-        "tags": {
-          "check_date:opening_hours": "2026-05-03",
-          "contact:housenumber": "17",
-          "contact:street": "Rue Constantine",
-          "contact:tiktok": "https://www.tiktok.com/@sora.tours",
-          "name": "Sora",
-          "opening_hours:signed": "no",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 14125534719,
         "lat": 47.3855345,
         "lon": 0.6933824,
@@ -1855,6 +1852,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-11T08:34:38.195Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-12T08:22:17.628Z",
+  "staleDataWarning": true
 }
