@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789201368062,
+      "timestamp": 1789378781110,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -261,8 +261,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-08-28T12:16:53Z",
-        "osm_date": "2026-08-17T00:00:02Z"
+        "graph_date": "2026-09-11T12:08:56Z",
+        "osm_date": "2026-08-30T23:59:56Z"
       }
     }
   },
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-12T08:21:27Z",
+      "timestamp_osm_base": "2026-09-14T09:39:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1837,7 +1837,7 @@
           "brand": "La Mie Câline",
           "brand:wikidata": "Q3210704",
           "brand:wikipedia": "fr:La Mie câline",
-          "check_date": "2023-05-06",
+          "check_date": "2026-09-13",
           "contact:housenumber": "2",
           "contact:street": "Place Jeanne d'Arc",
           "cuisine": "sandwich",
@@ -3000,6 +3000,7 @@
         "lat": 43.6078263,
         "lon": 1.442097,
         "tags": {
+          "check_date:opening_hours": "2026-09-13",
           "contact:housenumber": "64",
           "contact:street": "Rue du Taur",
           "description": "Épicerie asiatique",
@@ -3366,9 +3367,11 @@
           "advertising:size": "(1.2*1.7)*6+(0.6*0.8)*4+(0.6*0.8)*4*2+(1.2*0.4)*2",
           "advertising:support": "street_furniture:newspaper_kiosk",
           "advertising:visibility": "street",
-          "check_date": "2025-12-24",
+          "check_date": "2026-09-13",
+          "check_date:opening_hours": "2026-09-13",
           "mapillary": "166297432076815",
-          "noname": "yes",
+          "name": "Kiosque L'Aurore",
+          "opening_hours": "We-Su 08:30-13:00, We-Sa 15:30-19:00",
           "shop": "kiosk",
           "source": "Toulouse Orthophotoplan 2015"
         }
@@ -3426,6 +3429,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-12T08:22:17.628Z",
+  "fetchedAt": "2026-09-14T09:34:24.146Z",
   "staleDataWarning": false
 }

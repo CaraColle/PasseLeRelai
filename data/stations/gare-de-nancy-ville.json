@@ -27,8 +27,12 @@
           "coordinates": [
             [
               [
-                6.166924,
-                48.690126
+                6.166966,
+                48.690139
+              ],
+              [
+                6.166271,
+                48.688964
               ],
               [
                 6.166051,
@@ -71,16 +75,24 @@
                 48.687791
               ],
               [
-                6.174274,
-                48.68854
+                6.174252,
+                48.688533
               ],
               [
-                6.175486,
-                48.690827
+                6.174294,
+                48.688613
               ],
               [
-                6.175429,
-                48.691031
+                6.174987,
+                48.689987
+              ],
+              [
+                6.175336,
+                48.690784
+              ],
+              [
+                6.175423,
+                48.691042
               ],
               [
                 6.17528,
@@ -107,8 +119,8 @@
                 48.691868
               ],
               [
-                6.166924,
-                48.690126
+                6.166966,
+                48.690139
               ]
             ]
           ],
@@ -129,8 +141,8 @@
           "coordinates": [
             [
               [
-                6.163648,
-                48.694057
+                6.163711,
+                48.693948
               ],
               [
                 6.160495,
@@ -173,24 +185,24 @@
                 48.684343
               ],
               [
-                6.176275,
-                48.684353
+                6.176274,
+                48.684352
               ],
               [
                 6.176807,
                 48.684916
               ],
               [
-                6.178633,
-                48.687581
+                6.178616,
+                48.687571
               ],
               [
-                6.179023,
-                48.688312
+                6.179015,
+                48.688309
               ],
               [
-                6.179478,
-                48.689573
+                6.179464,
+                48.689569
               ],
               [
                 6.180401,
@@ -229,12 +241,12 @@
                 48.695126
               ],
               [
-                6.16388,
-                48.694332
+                6.163936,
+                48.694229
               ],
               [
-                6.163648,
-                48.694057
+                6.163711,
+                48.693948
               ]
             ]
           ],
@@ -245,7 +257,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789116792495,
+      "timestamp": 1789381044604,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -265,8 +277,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-08-28T12:16:53Z",
-        "osm_date": "2026-08-17T00:00:02Z"
+        "graph_date": "2026-09-11T12:08:56Z",
+        "osm_date": "2026-08-30T23:59:56Z"
       }
     }
   },
@@ -274,7 +286,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-12T08:22:30Z",
+      "timestamp_osm_base": "2026-09-14T10:18:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -418,11 +430,13 @@
         "lon": 6.1787377,
         "tags": {
           "addr:housenumber": "16",
+          "check_date": "2026-09-12",
+          "check_date:opening_hours": "2026-09-12",
           "contact:phone": "+33 3 83273943",
           "level": "0",
           "name": "Maison Brandenberg",
           "network": "Campaillette",
-          "opening_hours": "Tu-Sa 06:45-19:00; Su 07:00-13:00; Mo off",
+          "opening_hours": "Tu-Sa 06:45-14:00, 16:00-19:00",
           "organic": "yes",
           "ref:FR:SIRET": "51009733000011",
           "shop": "bakery",
@@ -1543,6 +1557,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-12T08:22:17.628Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-14T09:34:24.146Z",
+  "staleDataWarning": false
 }

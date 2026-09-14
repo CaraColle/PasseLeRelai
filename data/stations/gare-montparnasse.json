@@ -145,7 +145,7 @@
                 48.844749
               ],
               [
-                2.312511,
+                2.31251,
                 48.843178
               ],
               [
@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789201338866,
+      "timestamp": 1789378465120,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -293,8 +293,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-08-28T12:16:53Z",
-        "osm_date": "2026-08-17T00:00:02Z"
+        "graph_date": "2026-09-11T12:08:56Z",
+        "osm_date": "2026-08-30T23:59:56Z"
       }
     }
   },
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-12T08:20:26Z",
+      "timestamp_osm_base": "2026-09-14T09:33:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2920,7 +2920,7 @@
           "phone": "+33 6 58 38 53 27",
           "shop": "convenience",
           "toilets": "no",
-          "website": "https://www.coccinelle.fr/Trouver_Un_Magasin/Details/coccimarket-city---easy/paris/5-rue-auguste-mie"
+          "website": "https://www.coccinelle.fr/magasin/paris-14eme"
         }
       },
       {
@@ -3315,8 +3315,10 @@
         "lat": 48.8425013,
         "lon": 2.3246375,
         "tags": {
-          "name": "Mini Super",
-          "shop": "convenience"
+          "name": "Exo Plus",
+          "opening_hours": "Mo-Su 00:00-02:00, 12:00-24:00",
+          "shop": "convenience",
+          "wheelchair": "yes"
         }
       },
       {
@@ -3449,6 +3451,9 @@
         "lat": 48.8469809,
         "lon": 2.331399,
         "tags": {
+          "addr:housenumber": "7",
+          "addr:street": "Rue de Fleurus",
+          "check_date": "2026-09-12",
           "name": "Bread & Roses",
           "opening_hours": "Tu-Su 10:00-19:00",
           "organic": "yes",
@@ -4602,6 +4607,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-12T08:22:17.628Z",
+  "fetchedAt": "2026-09-14T09:34:24.146Z",
   "staleDataWarning": false
 }

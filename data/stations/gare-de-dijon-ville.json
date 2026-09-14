@@ -9,7 +9,7 @@
     "bbox": [
       5.019843,
       47.318915,
-      5.033186,
+      5.033185,
       47.326854
     ],
     "features": [
@@ -125,12 +125,12 @@
                 47.32154
               ],
               [
-                5.033117,
-                47.321575
+                5.033112,
+                47.321568
               ],
               [
-                5.033186,
-                47.321928
+                5.033185,
+                47.321921
               ],
               [
                 5.033009,
@@ -193,7 +193,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789201401725,
+      "timestamp": 1789379613150,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -213,8 +213,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-08-28T12:16:53Z",
-        "osm_date": "2026-08-17T00:00:02Z"
+        "graph_date": "2026-09-11T12:08:56Z",
+        "osm_date": "2026-08-30T23:59:56Z"
       }
     }
   },
@@ -222,7 +222,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-12T08:22:30Z",
+      "timestamp_osm_base": "2026-09-14T09:58:41Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -547,6 +547,7 @@
         "lat": 47.3231577,
         "lon": 5.032805,
         "tags": {
+          "check_date": "2026-09-13",
           "name": "Maison Louot",
           "network": "Florentin",
           "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-15:00",
@@ -951,6 +952,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-12T08:22:17.628Z",
+  "fetchedAt": "2026-09-14T09:34:24.146Z",
   "staleDataWarning": false
 }

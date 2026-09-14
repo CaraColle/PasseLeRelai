@@ -8,7 +8,7 @@
     "type": "FeatureCollection",
     "bbox": [
       5.709402,
-      45.187064,
+      45.187093,
       5.719511,
       45.194291
     ],
@@ -121,12 +121,12 @@
                 45.189922
               ],
               [
-                5.713816,
-                45.187531
+                5.713798,
+                45.1875
               ],
               [
-                5.714758,
-                45.187064
+                5.714791,
+                45.187121
               ],
               [
                 5.71608,
@@ -138,7 +138,7 @@
               ],
               [
                 5.717312,
-                45.187808
+                45.187809
               ],
               [
                 5.719482,
@@ -157,8 +157,8 @@
                 45.191183
               ],
               [
-                5.719139,
-                45.19212
+                5.71914,
+                45.192117
               ],
               [
                 5.719133,
@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789201399138,
+      "timestamp": 1789379611632,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -221,8 +221,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-08-28T12:16:53Z",
-        "osm_date": "2026-08-17T00:00:02Z"
+        "graph_date": "2026-09-11T12:08:56Z",
+        "osm_date": "2026-08-30T23:59:56Z"
       }
     }
   },
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-12T08:22:30Z",
+      "timestamp_osm_base": "2026-09-14T09:56:34Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2764,6 +2764,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-12T08:22:17.628Z",
+  "fetchedAt": "2026-09-14T09:34:24.146Z",
   "staleDataWarning": false
 }

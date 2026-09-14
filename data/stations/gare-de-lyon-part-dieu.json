@@ -27,8 +27,8 @@
           "coordinates": [
             [
               [
-                4.85487,
-                45.760911
+                4.854846,
+                45.760908
               ],
               [
                 4.854345,
@@ -123,12 +123,12 @@
                 45.763365
               ],
               [
-                4.855588,
+                4.855589,
                 45.76171
               ],
               [
-                4.85487,
-                45.760911
+                4.854846,
+                45.760908
               ]
             ]
           ],
@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789201347981,
+      "timestamp": 1789378613082,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -313,8 +313,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-08-28T12:16:53Z",
-        "osm_date": "2026-08-17T00:00:02Z"
+        "graph_date": "2026-09-11T12:08:56Z",
+        "osm_date": "2026-08-30T23:59:56Z"
       }
     }
   },
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-12T08:21:27Z",
+      "timestamp_osm_base": "2026-09-14T09:38:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2145,6 +2145,7 @@
           "phone": "+33 4 37 72 92 66",
           "ref:FR:SIRET": "80163202700026",
           "shop": "bakery",
+          "smoking": "outside",
           "website": "https://maison-deschamps.com",
           "wheelchair": "no",
           "wikimedia_commons": "File:L'épicerie Les Délices d'ailleurs (Lyon), rue de Sèze.jpg"
@@ -2299,11 +2300,12 @@
           "addr:housenumber": "108",
           "addr:postcode": "69006",
           "addr:street": "Rue de Sèze",
-          "check_date:opening_hours": "2025-09-01",
+          "check_date:opening_hours": "2026-09-12",
           "name": "Librairie l'Astragale",
-          "opening_hours": "Tu-Sa 10:00-19:30; Su 10:00-13:00",
+          "opening_hours": "Su 10:00-13:00; Tu-Sa 10:00-19:00",
           "ref:FR:SIRET": "82058158500016",
-          "shop": "books"
+          "shop": "books",
+          "wheelchair": "no"
         }
       },
       {
@@ -2313,6 +2315,7 @@
         "lon": 4.8467694,
         "tags": {
           "name": "La Page Suivante",
+          "opening_hours": "Tu-Sa 10:00-19:00",
           "ref:FR:SIRET": "84155902400010",
           "shop": "books"
         }
@@ -3306,6 +3309,17 @@
         }
       },
       {
+        "type": "node",
+        "id": 14174901943,
+        "lat": 45.7690342,
+        "lon": 4.8525541,
+        "tags": {
+          "name": "La Bookery",
+          "opening_hours": "Tu-Sa 09:00-12:00,13:30-19:00",
+          "shop": "books"
+        }
+      },
+      {
         "type": "way",
         "id": 85023451,
         "center": {
@@ -3437,6 +3451,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-12T08:22:17.628Z",
+  "fetchedAt": "2026-09-14T09:34:24.146Z",
   "staleDataWarning": false
 }

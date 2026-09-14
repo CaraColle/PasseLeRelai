@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789201342953,
+      "timestamp": 1789378483129,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -257,8 +257,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-08-28T12:16:53Z",
-        "osm_date": "2026-08-17T00:00:02Z"
+        "graph_date": "2026-09-11T12:08:56Z",
+        "osm_date": "2026-08-30T23:59:56Z"
       }
     }
   },
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-12T08:21:27Z",
+      "timestamp_osm_base": "2026-09-14T09:38:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -4536,28 +4536,6 @@
       },
       {
         "type": "way",
-        "id": 356086527,
-        "center": {
-          "lat": 48.8446626,
-          "lon": 2.3732392
-        },
-        "tags": {
-          "check_date": "2025-12-31",
-          "check_date:opening_hours": "2025-12-31",
-          "description": "Librairie discount éphémère.",
-          "indoor": "room",
-          "level": "0",
-          "mapillary:S": "sKad434WFrHoEUZr9FBWIA",
-          "name": "Lyre",
-          "opening_hours:signed": "no",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "shop": "books",
-          "source:room": "plan archi"
-        }
-      },
-      {
-        "type": "way",
         "id": 374933908,
         "center": {
           "lat": 48.8298456,
@@ -4911,6 +4889,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-12T08:22:17.628Z",
+  "fetchedAt": "2026-09-14T09:34:24.146Z",
   "staleDataWarning": false
 }
