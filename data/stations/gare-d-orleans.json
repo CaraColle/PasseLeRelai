@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789380644691,
+      "timestamp": 1789464944352,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-14T10:16:02Z",
+      "timestamp_osm_base": "2026-09-15T09:36:57Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1152,6 +1152,16 @@
         }
       },
       {
+        "type": "node",
+        "id": 14180448191,
+        "lat": 47.9003188,
+        "lon": 1.9121165,
+        "tags": {
+          "name": "Asian Multishop",
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 114016518,
         "center": {
@@ -1200,6 +1210,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-14T09:34:24.146Z",
+  "fetchedAt": "2026-09-15T09:12:07.858Z",
   "staleDataWarning": false
 }

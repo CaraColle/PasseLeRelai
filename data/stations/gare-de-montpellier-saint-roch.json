@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-14T09:44:21Z",
+      "timestamp_osm_base": "2026-09-15T09:15:46Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2119,11 +2119,14 @@
         "lat": 43.6013716,
         "lon": 3.8922167,
         "tags": {
+          "addr:housenumber": "387",
+          "addr:street": "Rue du Moulin des Sept Cans",
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
-          "check_date": "2026-06-30",
+          "check_date": "2026-09-14",
           "check_date:opening_hours": "2026-06-30",
-          "name": "Utile",
+          "contact:website": "https://magasins.utile-upf.fr/410-utile-montpellier-7-cans",
+          "name": "Utile 7 Cans",
           "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-13:00, 16:00-20:00",
           "shop": "convenience",
           "wheelchair": "yes"
@@ -2549,6 +2552,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-14T09:34:24.146Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-15T09:12:07.858Z",
+  "staleDataWarning": true
 }

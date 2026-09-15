@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-14T09:56:34Z",
+      "timestamp_osm_base": "2026-09-15T09:27:39Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -326,9 +326,15 @@
         "lat": 43.1305517,
         "lon": 5.9264531,
         "tags": {
+          "addr:housenumber": "75",
+          "addr:street": "Avenue Émile Vincent",
           "name": "Mille et un Delices",
           "opening_hours": "Tu-Su 05:00-20:00",
-          "shop": "bakery"
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIREN": "828866772",
+          "ref:FR:SIRET": "82886677200019",
+          "shop": "bakery",
+          "source": "INSEE - 2026-09"
         }
       },
       {
@@ -965,8 +971,10 @@
           "addr:street": "Avenue Vauban",
           "name": "La Tarte Tropezienne",
           "opening_hours": "Mo-Su,PH 06:30-20:00",
+          "ref:FR:NAF": "10.71C",
           "ref:FR:SIRET": "39474770300269",
           "shop": "bakery",
+          "source": "INSEE - 2026-09",
           "website": "https://www.latartetropezienne.fr/magasins-details?magasin=29"
         }
       },
@@ -1220,6 +1228,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-14T09:34:24.146Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-15T09:12:07.858Z",
+  "staleDataWarning": true
 }

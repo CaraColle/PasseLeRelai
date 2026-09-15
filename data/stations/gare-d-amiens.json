@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-15T15:22:01Z",
+      "timestamp_osm_base": "2026-09-15T09:33:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -257,11 +257,21 @@
         "tags": {
           "addr:housenumber": "99",
           "addr:street": "Rue du Blamont",
-          "name": "La Gourmandise",
+          "name": "La Gourmandise du Blamont",
           "opening_hours": "Mo-Fr 07:00-13:30,15:30-19:00; Sa 07:00-12:30; Su off",
           "phone": "+33 3 22 91 42 31",
           "ref:FR:SIRET": "90868560500010",
           "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1241643213,
+        "lat": 49.8892795,
+        "lon": 2.2953643,
+        "tags": {
+          "name": "Froc",
+          "shop": "kiosk"
         }
       },
       {
@@ -288,7 +298,7 @@
           "phone": "+33 3 22 92 81 92",
           "ref:FR:SIRET": "44465668000899",
           "shop": "convenience",
-          "website": "https://www.monoprix.fr/",
+          "website": "https://www.monoprix.fr/1436.html",
           "wheelchair": "yes"
         }
       },
@@ -325,27 +335,34 @@
         "lon": 2.2977811,
         "tags": {
           "contact:city": "Amiens",
+          "contact:email": "bulleenstock80@gmail.com",
+          "contact:facebook": "https://www.facebook.com/Bulleenstock",
           "contact:housenumber": "4",
+          "contact:instagram": "https://www.instagram.com/bulleenstock/",
+          "contact:phone": "+33 3 22 91 50 10",
           "contact:postcode": "80000",
           "contact:street": "Rue du Marché Lanselles",
+          "contact:twitter": "https://twitter.com/@BulleEnStock",
+          "contact:website": "https://www.bulleenstock.com/",
+          "contact:youtube": "https://www.youtube.com/@bullestock9463",
           "delivery": "yes",
           "name": "Bulle en Stock Neuf Et Occasion",
-          "opening_hours": "Mo-Sa 10:00-19:30; Su 10:00-18:30",
+          "opening_hours": "Mo-Sa 10:00-19:30",
           "payment:american_express": "yes",
           "payment:cheque": "yes",
           "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:diners_club": "yes",
+          "payment:discover": "yes",
           "payment:discover_card": "yes",
           "payment:jcb": "yes",
           "payment:mastercard": "yes",
           "payment:unionpay": "yes",
           "payment:visa": "yes",
-          "phone": "+33 3 22 91 50 10",
           "ref:FR:SIRET": "43258329200011",
           "shop": "books",
-          "source": "Bing;DGFiP - Cadastre 2014",
-          "website": "https://www.bulleenstock.com/"
+          "source": "Bing;DGFiP - Cadastre 2014"
         }
       },
       {
@@ -359,11 +376,11 @@
           "brand": "Spar",
           "brand:wikidata": "Q610492",
           "name": "Spar",
-          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-20:00",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-21:00",
           "phone": "+33 3 22 43 19 85",
           "ref:FR:SIRET": "89890750600015",
           "shop": "convenience",
-          "website": "https://magasins.spar.fr/fr/s/spar-amiens-beauville"
+          "website": "https://spar.casino.fr/stores/tt829/amiens-287-boulevard-beauville"
         }
       },
       {
@@ -386,16 +403,28 @@
         "lon": 2.2972459,
         "tags": {
           "contact:city": "Amiens",
+          "contact:email": "serviceclients@librairiemartelle.com",
+          "contact:facebook": "https://www.facebook.com/libmartelle/",
           "contact:housenumber": "3",
+          "contact:instagram": "https://www.instagram.com/librairiemartelle/",
+          "contact:linkedin": "https://fr.linkedin.com/company/librairie-martelle",
           "contact:phone": "+33 3 22 71 54 54",
           "contact:postcode": "80000",
           "contact:street": "Rue des Vergeaux",
-          "contact:website": "http://www.librairiemartelle.com/",
+          "contact:tiktok": "https://www.tiktok.com/@librairiemartelle",
+          "contact:twitter": "https://twitter.com/libmartelle",
+          "contact:website": "https://www.librairiemartelle.com/",
+          "contact:youtube": "https://www.youtube.com/@librairiemartelle4303",
+          "delivery": "yes",
           "name": "Librairie Martelle",
           "opening_hours": "Mo-Sa 10:00-19:00",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "ref:FR:SIRET": "30107378900010",
           "shop": "books",
-          "survey:date": "2025-12-19"
+          "survey:date": "2025-12-19",
+          "wheelchair": "yes"
         }
       },
       {
@@ -423,21 +452,6 @@
           "name": "Table et Saveurs",
           "opening_hours": "Mo 14:00-19:15; Tu-Sa 09:30-19:15; Su 09:30-12:30",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3103831019,
-        "lat": 49.8923002,
-        "lon": 2.2976932,
-        "tags": {
-          "addr:housenumber": "8",
-          "addr:street": "Rue des Jacobins",
-          "name": "Tarterie des Jacobins",
-          "opening_hours": "Mo-Sa 07:00-19:00; Su off",
-          "phone": "+33 3 22 91 23 23",
-          "ref:FR:SIRET": "88328669200016",
-          "shop": "bakery"
         }
       },
       {
@@ -602,12 +616,12 @@
           "check_date": "2024-09-06",
           "internet_access": "no",
           "name": "Spar",
-          "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-13:00",
+          "opening_hours": "Mo-Th 08:00-24:00; Fr-Sa 00:00-01:00,08:00-24:00; Su 08:00-24:00",
           "payment:visa": "yes",
           "phone": "+33 962 573 676",
           "ref:FR:SIRET": "93168597800013",
           "shop": "convenience",
-          "website": "https://magasins.spar.fr/fr/s/spar-supermarche-amiens-jules-barni"
+          "website": "https://spar.casino.fr/stores/tl713/amiens-106-rue-jules-barni"
         }
       },
       {
@@ -1121,7 +1135,7 @@
           "addr:street": "Rue du Hocquet",
           "check_date": "2025-08-28",
           "name": "Canal Pain",
-          "opening_hours": "Tu,Fr 12:00-19:00; Sa 09:00-12:00",
+          "opening_hours": "Tu 12:00-18:00; We,Fr 12:00-19:00; Th 08:00-17:00; Sa 09:00-12:00",
           "operator": "Association Coopérative Amiénoise Boulangère",
           "payment:cash": "yes",
           "payment:coins": "yes",
@@ -1140,6 +1154,35 @@
           "ref:FR:SIRET": "92540867600011",
           "shop": "convenience",
           "survey:date": "2025-07-07"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14104286701,
+        "lat": 49.8975564,
+        "lon": 2.296172,
+        "tags": {
+          "name": "Jasmi Supermarché",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14134769001,
+        "lat": 49.895239,
+        "lon": 2.3062534,
+        "tags": {
+          "addr:housenumber": "36",
+          "addr:postcode": "80000",
+          "addr:street": "Rue des Augustins",
+          "check_date": "2026-08-30",
+          "check_date:opening_hours": "2026-08-30",
+          "level": "0",
+          "name": "Superette",
+          "note": "La devanture du magasin est toujours la devanture du magasin qui occupait ce bâtiment avant cette supérette (Stick-It Communication).",
+          "opening_hours": "Mo-Su 11:00-04:30",
+          "phone": "+33 6 51 93 35 89",
+          "shop": "convenience"
         }
       },
       {
@@ -1178,14 +1221,16 @@
           "indoor": "room",
           "level": "0",
           "name": "Monop'station",
+          "opening_hours": "Mo 05:30-20:45; Tu-Th 05:30-20:30; Fr 05:30-20:45; Sa-Su 07:00-12:45,14:30-19:15",
           "ref:FR:SIRET": "51049900700068",
           "room": "shop",
           "shop": "convenience",
-          "source": "survey 2015"
+          "source": "survey 2015",
+          "website": "https://www.monoprix.fr/2955.html"
         }
       }
     ]
   },
-  "fetchedAt": "2026-09-14T09:34:24.146Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-15T09:12:07.858Z",
+  "staleDataWarning": true
 }

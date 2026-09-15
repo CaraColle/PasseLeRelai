@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-14T09:41:21Z",
+      "timestamp_osm_base": "2026-09-15T09:15:46Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -889,30 +889,6 @@
           "shop": "convenience",
           "source:ref:FR": "INSEE - 2025-08",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2403551999,
-        "lat": 47.2151037,
-        "lon": -1.5547707,
-        "tags": {
-          "check_date": "2025-12-08",
-          "contact:facebook": "Librairie-Lautre-Rive-100054393526353",
-          "contact:housenumber": "21",
-          "contact:phone": "+33 2 40 89 30 76",
-          "contact:street": "Rue de la Paix",
-          "contact:website": "https://www.autrerive-librairie-nantes.fr",
-          "description": "Ouvrages bien-être et spiritualité",
-          "name": "L'Autre Rive",
-          "opening_hours": "Tu-Sa 10:00-19:00",
-          "ref:FR:NAF": "47.61Z",
-          "ref:FR:SIREN": "327402483",
-          "ref:FR:SIRET": "32740248300025",
-          "second_hand": "yes",
-          "shop": "books",
-          "source:ref": "INSEE - 2025-08",
-          "wheelchair": "no"
         }
       },
       {
@@ -2485,6 +2461,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-14T09:34:24.146Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-15T09:12:07.858Z",
+  "staleDataWarning": true
 }
