@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789378963222,
+      "timestamp": 1789549950912,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-15T09:19:55Z",
+      "timestamp_osm_base": "2026-09-16T09:11:55Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -378,11 +378,9 @@
         "lat": 48.5824918,
         "lon": 7.7439388,
         "tags": {
-          "addr:housenumber": "30",
-          "addr:street": "Rue du 22 Novembre",
           "check_date": "2025-11-14",
           "contact:facebook": "https://www.facebook.com/librairiekleberstrasbourg/",
-          "contact:housenumber": "1",
+          "contact:housenumber": "30",
           "contact:phone": "+33 3 88 15 78 88",
           "contact:street": "Rue des Francs-Bourgeois",
           "currency:XLT": "STUK",
@@ -1754,6 +1752,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-15T09:12:07.858Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-16T09:04:39.223Z",
+  "staleDataWarning": false
 }

@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789380411020,
+      "timestamp": 1789550957694,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-15T09:33:51Z",
+      "timestamp_osm_base": "2026-09-16T09:29:41Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -755,15 +755,20 @@
         "lat": 49.8956209,
         "lon": 2.3027049,
         "tags": {
-          "check_date": "2025-06-28",
+          "addr:city": "Amiens",
+          "addr:housenumber": "37",
+          "addr:postcode": "80000",
+          "addr:street": "Rue du Hocquet",
+          "check_date": "2026-09-15",
           "contact:city": "Amiens",
           "contact:housenumber": "37",
-          "contact:phone": "+33 3 22 92 23 52",
+          "contact:phone": "+33 9 50 06 23 52",
           "contact:postcode": "80000",
           "contact:street": "Rue du Hocquet",
           "contact:website": "http://librairiedulabyrinthe.fr/",
+          "email": "contact@librairiedulabyrinthe.fr",
           "name": "Librairie du Labyrinthe",
-          "opening_hours": "Tu-Fr,Su 11:00-12:30, Sa 10:00-12:30, Tu-Su 15:00-19:00",
+          "opening_hours": "Tu-Fr 11:00-12:30,14:00-19:00; Sa 10:00-13:00,14:00-19:00; Su 11:00-12:30,15:00-19:00",
           "ref:FR:SIRET": "34446512500039",
           "shop": "books",
           "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2015"
@@ -1187,6 +1192,30 @@
       },
       {
         "type": "way",
+        "id": 139395627,
+        "center": {
+          "lat": 49.8956678,
+          "lon": 2.3027357
+        },
+        "tags": {
+          "addr:city": "Amiens",
+          "addr:housenumber": "37",
+          "addr:postcode": "80000",
+          "addr:street": "Rue du Hocquet",
+          "building": "yes",
+          "check_date": "2026-09-15",
+          "email": "contact@librairiedulabyrinthe.fr",
+          "name": "Librairie du Labyrinthe",
+          "opening_hours": "Tu-Fr 11:00-12:30,14:00-19:00; Sa 10:00-13:00,14:00-19:00; Su 11:00-12:30,15:00-19:00",
+          "phone": "+33 9 50 06 23 52",
+          "ref:FR:SIRET": "34446512500039",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+          "website": "https://www.librairiedulabyrinthe.fr/"
+        }
+      },
+      {
+        "type": "way",
         "id": 140245776,
         "center": {
           "lat": 49.896469,
@@ -1231,6 +1260,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-15T09:12:07.858Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-16T09:04:39.223Z",
+  "staleDataWarning": false
 }

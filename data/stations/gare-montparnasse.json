@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789463529707,
+      "timestamp": 1789549480472,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-15T09:07:12Z",
+      "timestamp_osm_base": "2026-09-16T09:04:38Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2188,9 +2188,14 @@
         "lat": 48.8410783,
         "lon": 2.3083533,
         "tags": {
+          "addr:housenumber": "33",
+          "addr:street": "Rue des Volontaires",
+          "email": "la-cedille@orange.fr",
           "name": "La Cédille",
-          "opening_hours": "Tu-Sa 10:30-19:00",
-          "shop": "books"
+          "opening_hours": "Tu-Sa 10:30-14:30, 15:00-19:00",
+          "phone": "01 45 67 67 40",
+          "shop": "books",
+          "website": "https://www.librairielacedilleparis.com/"
         }
       },
       {
@@ -4607,6 +4612,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-15T09:12:07.858Z",
+  "fetchedAt": "2026-09-16T09:04:39.223Z",
   "staleDataWarning": false
 }

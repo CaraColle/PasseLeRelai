@@ -213,7 +213,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789379348022,
+      "timestamp": 1789550111099,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -242,7 +242,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-15T15:22:01Z",
+      "timestamp_osm_base": "2026-06-01T08:52:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -991,6 +991,24 @@
       },
       {
         "type": "node",
+        "id": 11540729308,
+        "lat": 49.4973435,
+        "lon": 0.1112912,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "1",
+          "addr:place": "Place Thiers",
+          "addr:postcode": "76600",
+          "cheese": "yes",
+          "contact:facebook": "https://www.facebook.com/p/Les-ins%C3%A9parables-LH-100083831117505",
+          "name": "Les Inséparables",
+          "ref:FR:SIRET": "91874020000020",
+          "shop": "bakery",
+          "website": "https://www.placeomarche.fr/artisans/les-inseparables-concept-2-en-1-la-boulangerie"
+        }
+      },
+      {
+        "type": "node",
         "id": 11794042262,
         "lat": 49.4960086,
         "lon": 0.1118835,
@@ -1090,6 +1108,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-15T09:12:07.858Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-16T09:04:39.223Z",
+  "staleDataWarning": false
 }

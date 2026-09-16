@@ -225,7 +225,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789378966964,
+      "timestamp": 1789550013247,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -254,7 +254,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-15T09:21:33Z",
+      "timestamp_osm_base": "2026-09-16T09:12:59Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -648,9 +648,11 @@
           "addr:street": "Avenue Alexis Capelle",
           "brand": "Ronde des Pains",
           "brand:wikidata": "Q3441707",
+          "contact:instagram": "lacollective_painsaulevain",
           "description": "Horaires d'ouverture : Du lundi au vendredi : de 7h à 14h et de 16h à 19h30 Samedi, dimanche : de 6h30 à 13h",
           "fixme": "Emplacement vacant",
-          "name": "Ronde des Pains",
+          "name": "La Collective Pain au Levain",
+          "opening_hours": "Mo 16:00-19:00; Tu-Fr 11:00-19:00",
           "shop": "bakery"
         }
       },
@@ -1535,6 +1537,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-15T09:12:07.858Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-16T09:04:39.223Z",
+  "staleDataWarning": false
 }
