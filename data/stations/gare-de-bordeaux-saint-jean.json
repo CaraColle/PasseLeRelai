@@ -225,7 +225,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789550013247,
+      "timestamp": 1789637128921,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -254,7 +254,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-16T09:12:59Z",
+      "timestamp_osm_base": "2026-09-17T09:25:29Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -812,8 +812,8 @@
       {
         "type": "node",
         "id": 7368308945,
-        "lat": 44.8371968,
-        "lon": -0.5712398,
+        "lat": 44.837205,
+        "lon": -0.5712419,
         "tags": {
           "addr:city": "Bordeaux",
           "addr:housenumber": "38",
@@ -830,6 +830,7 @@
           "ref:FR:SIRET": "80126197500016",
           "shop": "convenience",
           "source": "INSEE - 2025-03",
+          "survey:date": "2026-09-16",
           "website": "http://www.la-recharge.fr/",
           "wheelchair": "yes"
         }
@@ -947,12 +948,10 @@
       {
         "type": "node",
         "id": 9979197468,
-        "lat": 44.8375161,
-        "lon": -0.5705592,
+        "lat": 44.8374858,
+        "lon": -0.5705653,
         "tags": {
-          "addr:city": "Bordeaux",
           "addr:housenumber": "21",
-          "addr:postcode": "33000",
           "addr:street": "Rue Sainte-Colombe",
           "brand": "NOUS anti-gaspi",
           "brand:wikidata": "Q130144283",
@@ -961,6 +960,7 @@
           "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
           "phone": "+335 57 83 33 24",
           "shop": "convenience",
+          "survey:date": "2026-09-16",
           "website": "https://www.nousantigaspi.com/magasins/bordeaux/"
         }
       },
@@ -1410,6 +1410,22 @@
         }
       },
       {
+        "type": "node",
+        "id": 14185171029,
+        "lat": 44.8371113,
+        "lon": -0.5679083,
+        "tags": {
+          "addr:housenumber": "54",
+          "addr:street": "Rue de la Rousselle",
+          "email": "editionsdelacerise@gmail.com",
+          "name": "Les Éditions de la Cerise",
+          "phone": "+33 5 56 44 11 01",
+          "shop": "books",
+          "survey:date": "2026-09-16",
+          "website": "https://editionsdelacerise.com/"
+        }
+      },
+      {
         "type": "way",
         "id": 159270607,
         "center": {
@@ -1537,6 +1553,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-16T09:04:39.223Z",
+  "fetchedAt": "2026-09-17T09:13:06.658Z",
   "staleDataWarning": false
 }

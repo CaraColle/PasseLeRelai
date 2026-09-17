@@ -261,7 +261,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789551048522,
+      "timestamp": 1789638211528,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -290,7 +290,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-16T09:32:46Z",
+      "timestamp_osm_base": "2026-06-01T08:52:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -422,15 +422,15 @@
           "brand:website": "https://www.briochedoree.fr",
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche dorée",
-          "check_date:opening_hours": "2026-09-03",
+          "check_date:opening_hours": "2025-05-07",
           "contact:phone": "+33 3 81 82 21 40",
           "name": "Brioche Dorée",
           "official_name": "Brioche Dorée Besançon - 1, Place Du 8 Septembre",
-          "opening_hours": "Mo-Sa 07:30-19:30",
+          "opening_hours": "Mo-Sa 08:00-19:30",
           "operator": "Groupe Le Duff",
           "ref:FR:SIRET": "89884462600025",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/"
+          "website": "https://www.briochedoree.fr/restaurants/48-besancon-1-place-du-8-septembre"
         }
       },
       {
@@ -468,7 +468,7 @@
           "brand": "Fivel",
           "name": "La Fabuleuse Eclair",
           "opening_hours": "Tu-Sa 07:30-20:00",
-          "phone": "+33 3 81 48 02 99",
+          "phone": "+33381480299",
           "shop": "bakery"
         }
       },
@@ -547,6 +547,22 @@
       },
       {
         "type": "node",
+        "id": 2446646631,
+        "lat": 47.2375205,
+        "lon": 6.027822,
+        "tags": {
+          "addr:city": "Besançon",
+          "addr:housenumber": "11",
+          "addr:postcode": "25000",
+          "addr:street": "Rue François-Louis Bersot",
+          "name": "L'épicerie – Chez Loulou",
+          "opening_hours": "Su 10:00-13:00; Tu-Fr 10:00-13:00,15:30-19:30; Sa 10:00-13:00,13:30-19:30; Mo off",
+          "shop": "convenience",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
+        }
+      },
+      {
+        "type": "node",
         "id": 2813263410,
         "lat": 47.2350151,
         "lon": 6.0321153,
@@ -598,25 +614,12 @@
       },
       {
         "type": "node",
-        "id": 3206192562,
-        "lat": 47.23959,
-        "lon": 6.0187955,
+        "id": 3206192563,
+        "lat": 47.2396046,
+        "lon": 6.0188136,
         "tags": {
-          "name": "Mazar Market",
-          "phone": "+33 7 67 91 82 99",
-          "shop": "convenience",
-          "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3206252427,
-        "lat": 47.2389337,
-        "lon": 6.0179725,
-        "tags": {
-          "name": "Espace Som",
-          "shop": "convenience",
-          "wheelchair": "no"
+          "name": "Espace Tropical",
+          "shop": "books"
         }
       },
       {
@@ -875,10 +878,6 @@
         "lat": 47.236552,
         "lon": 6.0287907,
         "tags": {
-          "addr:city": "Besançon",
-          "addr:housenumber": "103",
-          "addr:postcode": "25000",
-          "addr:street": "Rue des Granges",
           "contact:email": "contact@pastaetpetitsplats.fr",
           "contact:facebook": "pastaetpetitsplats",
           "contact:instagram": "pastaetpetitsplats",
@@ -1035,16 +1034,6 @@
           "newsagent": "yes",
           "shop": "convenience",
           "tobacco": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 6295816455,
-        "lat": 47.2395716,
-        "lon": 6.0190552,
-        "tags": {
-          "noname": "yes",
-          "shop": "convenience"
         }
       },
       {
@@ -1272,7 +1261,6 @@
           "addr:housenumber": "31",
           "addr:postcode": "25000",
           "addr:street": "Rue François-Louis Bersot",
-          "name": "Mine de rien",
           "shop": "books"
         }
       },
@@ -1310,8 +1298,8 @@
           "addr:postcode": "25000",
           "addr:street": "Rue des Granges",
           "name": "Le Bibliovore",
-          "opening_hours": "Tu,Fr 10:00-13:00,14:30-19:00; Th 14:30-19:00; Sa 10:00-19:00",
-          "phone": "+33 3 70 88 94 39",
+          "opening_hours": "Tu,Fr 10:00-13:00,14:30-19:00; Th 14:30-19:00; Sa 1à:00-19:00",
+          "phone": "+33370889439",
           "ref:FR:SIRET": "92098085100017",
           "shop": "books",
           "website": "https://www.lebibliovore.fr/",
@@ -1472,7 +1460,6 @@
         "lon": 6.0350915,
         "tags": {
           "name": "Maison Christe",
-          "opening_hours": "Tu-Sa 07:00-12:30,16:00-19:00; Su 07:00-12:30",
           "ref:FR:SIRET": "51372676000038",
           "shop": "bakery"
         }
@@ -1497,15 +1484,9 @@
         "lat": 47.2340258,
         "lon": 6.0272147,
         "tags": {
-          "addr:city": "Besançon",
-          "addr:housenumber": "32",
-          "addr:postcode": "25000",
-          "addr:street": "Rue Ronchaux",
           "check_date:opening_hours": "2024-05-07",
           "name": "À la page",
-          "opening_hours": "Mo-Fr 09:00-12:00,14:00-19:00; Sa 09:00-12:00,14:00-18:00",
           "opening_hours:signed": "no",
-          "phone": "+33 3 81 61 91 80",
           "ref:FR:SIRET": "34107656000018",
           "shop": "books"
         }
@@ -1550,48 +1531,6 @@
         }
       },
       {
-        "type": "node",
-        "id": 13994940659,
-        "lat": 47.2397887,
-        "lon": 6.0194564,
-        "tags": {
-          "name": "Omeri market",
-          "phone": "+33 3 81 81 39 65",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13994940661,
-        "lat": 47.239627,
-        "lon": 6.0191459,
-        "tags": {
-          "name": "L’amandine",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13994940663,
-        "lat": 47.2394117,
-        "lon": 6.0185062,
-        "tags": {
-          "name": "Ariana",
-          "shop": "convenience",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 13994940668,
-        "lat": 47.2388226,
-        "lon": 6.0177954,
-        "tags": {
-          "name": "Maison bourbon",
-          "shop": "convenience"
-        }
-      },
-      {
         "type": "way",
         "id": 77026251,
         "center": {
@@ -1603,7 +1542,6 @@
           "brand:wikidata": "Q7937525",
           "building": "retail",
           "name": "Vival",
-          "opening_hours": "Mo-Su 08:30-22:00",
           "phone": "+33 3 81 88 48 22",
           "ref:FR:SIRET": "52115811300022",
           "shop": "convenience",
@@ -1613,6 +1551,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-16T09:04:39.223Z",
+  "fetchedAt": "2026-09-17T09:13:06.658Z",
   "staleDataWarning": false
 }

@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789550206146,
+      "timestamp": 1789637416898,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-05-06T03:25:00Z",
+      "timestamp_osm_base": "2026-09-17T09:30:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -296,17 +296,6 @@
           "opening_hours": "Mo-Th 07:15-16:00; Fr 07:15-15:30",
           "ref:FR:SIRET": "45156760600038",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 783867199,
-        "lat": 45.4403311,
-        "lon": 4.4048821,
-        "tags": {
-          "name": "Jouja Market",
-          "ref:FR:SIRET": "94004360700016",
-          "shop": "convenience"
         }
       },
       {
@@ -451,11 +440,22 @@
       },
       {
         "type": "node",
+        "id": 3461566937,
+        "lat": 45.4323539,
+        "lon": 4.3892077,
+        "tags": {
+          "name": "Chez Manyy",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 3609069258,
         "lat": 45.4389411,
         "lon": 4.392083,
         "tags": {
           "bulk_purchase": "yes",
+          "check_date:opening_hours": "2026-05-27",
           "contact:email": "contact@vracenvert.fr",
           "contact:facebook": "https://www.facebook.com/vracenvert",
           "contact:instagram": "https://www.instagram.com/vracenvert/",
@@ -474,10 +474,19 @@
         "lat": 45.4401122,
         "lon": 4.3889443,
         "tags": {
+          "addr:city": "Saint-Étienne",
+          "addr:housenumber": "22",
+          "addr:street": "Rue Louis Braille",
+          "books": "comic",
+          "check_date:opening_hours": "2026-05-10",
+          "description": "Librairie indépendante spécialisée en bandes dessinées.",
+          "email": "librairielesintrus@gmail.com",
           "name": "Les Intrus",
           "opening_hours": "Tu-Sa 10:00-19:00",
+          "phone": "+33 4 77 50 73 67",
           "ref:FR:SIRET": "97748103500011",
-          "shop": "books"
+          "shop": "books",
+          "website": "https://www.librairielesintrus.com/"
         }
       },
       {
@@ -498,7 +507,7 @@
         "lon": 4.3908836,
         "tags": {
           "name": "Halaby Market",
-          "ref:FR:SIRET": "92937346200019",
+          "ref:FR:SIRET": "10528641300015",
           "shop": "convenience"
         }
       },
@@ -567,7 +576,12 @@
         "tags": {
           "amenity": "cafe",
           "cafe": "board_game",
+          "contact:email": "levoyageur42000@gmail.com",
+          "contact:facebook": "https://www.facebook.com/people/Le-Voyageur/61557700950287/",
+          "contact:instagram": "https://www.instagram.com/levoyageur42/",
+          "contact:phone": "+33 6 83 84 67 53",
           "name": "Le Voyageur",
+          "opening_hours": "Tu-We 10:00-19:00; Th-Sa 10:00-01:00; Su 14:00-19:00",
           "ref:FR:SIRET": "98469008100018",
           "shop": "books",
           "website": "https://www.librairievoyageur.fr/"
@@ -708,6 +722,10 @@
         "tags": {
           "alt_name": "Nature Primeur",
           "name": "Au Cœur du Vrac",
+          "post_office": "post_partner",
+          "post_office:brand": "La Poste",
+          "post_office:brand:wikidata": "Q373724",
+          "ref:FR:LaPoste": "23412D",
           "ref:FR:SIRET": "83006794800018",
           "shop": "convenience",
           "website": "https://natureprimeur.fr/"
@@ -725,6 +743,7 @@
           "contact:phone": "+33 6 52 01 47 93",
           "name": "Le Pain du Loup",
           "opening_hours": "We-Fr 11:00-19:00",
+          "operator:type": "cooperative",
           "ref:FR:SIRET": "90432726900018",
           "shop": "bakery"
         }
@@ -766,15 +785,15 @@
       {
         "type": "node",
         "id": 6341209049,
-        "lat": 45.4392164,
-        "lon": 4.3963129,
+        "lat": 45.4392153,
+        "lon": 4.3963134,
         "tags": {
           "check_date": "2025-07-28",
           "contact:facebook": "https://www.facebook.com/people/OBLÉ-DORÉ-Boulangerie-Patisserie-14-place-Fourneyron-42000-Saint-Étienne/100054553955297/",
           "name": "Oblé Doré",
           "opening_hours": "Mo-Fr 06:00-18:45; Sa 07:00-14:00",
           "phone": "+33 6 77 51 60 12",
-          "ref:FR:SIRET": "45323139100013",
+          "ref:FR:SIRET": "10603939900014",
           "shop": "bakery"
         }
       },
@@ -831,16 +850,6 @@
       },
       {
         "type": "node",
-        "id": 7162420641,
-        "lat": 45.433952,
-        "lon": 4.3914033,
-        "tags": {
-          "noname": "yes",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 8247619926,
         "lat": 45.4273533,
         "lon": 4.3903815,
@@ -862,6 +871,19 @@
           "name": "Le Royal",
           "opening_hours:signed": "no",
           "ref:FR:SIRET": "93196664200015",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 9872482430,
+        "lat": 45.4494144,
+        "lon": 4.4024987,
+        "tags": {
+          "name:signed": "no",
+          "old_name": "R. Frécon",
+          "pastry": "yes",
+          "ref:FR:SIRET": "99534412400012",
           "shop": "bakery"
         }
       },
@@ -1040,8 +1062,10 @@
         "lat": 45.4300167,
         "lon": 4.3937083,
         "tags": {
+          "check_date:opening_hours": "2026-05-18",
           "name": "Au Bon Pain",
           "opening_hours": "Su-Fr 06:00-20:30",
+          "opening_hours:signed": "no",
           "shop": "bakery"
         }
       },
@@ -1098,7 +1122,6 @@
         "tags": {
           "contact:phone": "+33 7 71 93 10 00",
           "name": "Jumbo Alimentation",
-          "opening_hours": "12:00-22:00",
           "ref:FR:SIRET": "98349164800017",
           "shop": "convenience"
         }
@@ -1140,15 +1163,6 @@
           "contact:facebook": "https://www.facebook.com/p/Au-c%C5%93ur-du-Portugal-100076242156934/",
           "contact:phone": "+33 4 77 38 92 78",
           "name": "Au Coeur du Portugal",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12159391112,
-        "lat": 45.4463902,
-        "lon": 4.4067014,
-        "tags": {
           "shop": "convenience"
         }
       },
@@ -1201,18 +1215,6 @@
       },
       {
         "type": "node",
-        "id": 12464999448,
-        "lat": 45.436255,
-        "lon": 4.4120172,
-        "tags": {
-          "brand": "Proxi",
-          "brand:wikidata": "Q3408522",
-          "name": "Proxi",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 12521630304,
         "lat": 45.4355784,
         "lon": 4.3891315,
@@ -1257,29 +1259,20 @@
       },
       {
         "type": "node",
-        "id": 13092465600,
-        "lat": 45.4404401,
-        "lon": 4.3901017,
-        "tags": {
-          "name": "Épicerie de la Ville",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 13115326973,
         "lat": 45.4417191,
         "lon": 4.4130101,
         "tags": {
           "name": "Gusti & Sapori",
+          "origin": "italian",
           "shop": "convenience"
         }
       },
       {
         "type": "node",
         "id": 13446663587,
-        "lat": 45.4347062,
-        "lon": 4.3891663,
+        "lat": 45.4347065,
+        "lon": 4.38876,
         "tags": {
           "books": "religion",
           "contact:email": "contact@librairie-culture-et-foi.com",
@@ -1303,9 +1296,19 @@
           "ref:FR:SIRET": "92996415300019",
           "shop": "bakery"
         }
+      },
+      {
+        "type": "node",
+        "id": 13818217793,
+        "lat": 45.4455561,
+        "lon": 4.3980947,
+        "tags": {
+          "name": "Market Korner",
+          "shop": "convenience"
+        }
       }
     ]
   },
-  "fetchedAt": "2026-09-16T09:04:39.223Z",
+  "fetchedAt": "2026-09-17T09:13:06.658Z",
   "staleDataWarning": false
 }
