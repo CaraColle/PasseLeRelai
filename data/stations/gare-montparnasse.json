@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789636387576,
+      "timestamp": 1789721145829,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-17T09:11:56Z",
+      "timestamp_osm_base": "2026-09-18T08:44:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2101,24 +2101,6 @@
       },
       {
         "type": "node",
-        "id": 5273855835,
-        "lat": 48.850004,
-        "lon": 2.3232825,
-        "tags": {
-          "check_date:opening_hours": "2024-05-08",
-          "contact:phone": "+33 1 44398100",
-          "contact:website": "http://www.lagrandeepicerie.com/",
-          "name": "La Grande Épicerie de Paris",
-          "opening_hours": "Mo-Sa 08:30-21:00; Su 10:00-20:00",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "shop": "convenience",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 5280218322,
         "lat": 48.8414626,
         "lon": 2.3269235,
@@ -2818,7 +2800,7 @@
           "diet:halal": "yes",
           "fixme": "Les horaires et le numéro de téléphone diffèrent fortement de ceux notés sur la page web. À vérifier sur place ?",
           "name": "le marché d'à côté",
-          "opening_hours": "Mo-Sa 11:00-24:00",
+          "opening_hours": "Mo-Su 09:00-02:00",
           "payment:app": "yes",
           "payment:apple_pay": "yes",
           "payment:cards": "yes",
@@ -2829,7 +2811,7 @@
           "payment:prepaid_ticket": "yes",
           "phone": "+33 1 45 40 65 14",
           "shop": "convenience",
-          "website": "https://www.franprix.fr/supermarket/2196",
+          "website": "https://www.franprix.fr/magasins/2196/paris-13-rue-des-plantes",
           "wheelchair": "yes"
         }
       },
@@ -3006,7 +2988,7 @@
           "opening_hours": "Mo-Su 08:00-24:00",
           "phone": "+33 1 43 56 67 38",
           "shop": "convenience",
-          "website": "https://www.coccinelle.fr/Trouver_Un_Magasin/Details/coccinelle-express/paris/22-rue-st-amand",
+          "website": "https://www.coccinelle.fr/magasin/paris-15eme-3",
           "wheelchair": "yes"
         }
       },
@@ -4612,6 +4594,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-17T09:13:06.658Z",
+  "fetchedAt": "2026-09-18T08:45:45.136Z",
   "staleDataWarning": false
 }

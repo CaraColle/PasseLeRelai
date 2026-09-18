@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789636387806,
+      "timestamp": 1789721145840,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-17T09:11:56Z",
+      "timestamp_osm_base": "2026-09-18T08:44:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -539,7 +539,7 @@
         "tags": {
           "addr:housenumber": "7",
           "addr:street": "Boulevard de Bonne Nouvelle",
-          "check_date": "2026-05-22",
+          "check_date": "2026-09-18",
           "email": "contact.boulinier@gmail.com",
           "name": "Boulinier",
           "opening_hours": "Mo 14:00-20:00; Tu-Sa 10:00-20:00",
@@ -7678,24 +7678,6 @@
       },
       {
         "type": "node",
-        "id": 10049833040,
-        "lat": 48.8699166,
-        "lon": 2.3506625,
-        "tags": {
-          "addr:housenumber": "11",
-          "addr:postcode": "75002",
-          "addr:street": "Boulevard de Bonne Nouvelle",
-          "check_date": "2026-05-22",
-          "contact:facebook": "Artisanal-pastry-paris-11-bld-bonne-nouvelle-75002-110874417007843",
-          "name": "Boulange",
-          "opening_hours": "Mo-Su 07:00-20:00",
-          "ref:FR:SIRET": "55212495000015",
-          "shop": "bakery",
-          "website": "https://la-boulange-paris.eatbu.com/?lang=fr"
-        }
-      },
-      {
-        "type": "node",
         "id": 10221928777,
         "lat": 48.8648372,
         "lon": 2.3460734,
@@ -8665,7 +8647,7 @@
         "tags": {
           "addr:housenumber": "12",
           "addr:street": "Rue du Faubourg Poissonnière",
-          "check_date": "2026-05-27",
+          "check_date": "2026-09-18",
           "name": "La Parisienne",
           "opening_hours": "Mo-Sa 07:00-20:00; Su 07:00-14:30",
           "payment:cash": "yes",
@@ -9629,6 +9611,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-17T09:13:06.658Z",
+  "fetchedAt": "2026-09-18T08:45:45.136Z",
   "staleDataWarning": false
 }

@@ -222,7 +222,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-17T09:33:39Z",
+      "timestamp_osm_base": "2026-09-18T08:53:39Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -283,7 +283,9 @@
           "contact:housenumber": "33",
           "contact:postcode": "21000",
           "contact:street": "Rue Monge",
+          "indoor_seating": "no",
           "name": "Maison Roger",
+          "outdoor_seating": "yes",
           "pastry": "yes",
           "ref:FR:SIRET": "44313829200208",
           "shop": "bakery"
@@ -952,6 +954,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-17T09:13:06.658Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-18T08:45:45.136Z",
+  "staleDataWarning": true
 }

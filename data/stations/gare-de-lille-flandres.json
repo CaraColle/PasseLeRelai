@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-09-18T08:52:39Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -320,6 +320,26 @@
           "phone": "+33 3 20 97 89 95",
           "shop": "bakery",
           "takeaway": "only"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1643013159,
+        "lat": 50.6308138,
+        "lon": 3.0583173,
+        "tags": {
+          "branch": "Lille",
+          "brand": "NOUS anti-gaspi",
+          "brand:wikidata": "Q130144283",
+          "check_date": "2025-08-08",
+          "contact:facebook": "https://www.facebook.com/NOUSantigaspiLille/",
+          "email": "direction-lille@nousantigaspi.com",
+          "name": "NOUS anti-gaspi",
+          "opening_hours": "Mo-Sa 10:00-20:00",
+          "phone": "+33 3 20 40 25 85",
+          "shop": "convenience",
+          "website": "https://www.nousantigaspi.com/magasins/lille/",
+          "wheelchair": "limited"
         }
       },
       {
@@ -566,11 +586,11 @@
           "indoor_seating": "yes",
           "level": "0",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 08:00-20:00",
+          "opening_hours": "Mo-Sa 07:00-20:00",
           "outdoor_seating": "yes",
           "ref:FR:SIRET": "31890659102062",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/329-lille-c.cial-euralille"
+          "website": "https://www.briochedoree.fr/"
         }
       },
       {
@@ -625,29 +645,6 @@
           "second_hand": "yes",
           "shop": "books",
           "source": "survey"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5348005209,
-        "lat": 50.6349394,
-        "lon": 3.0644412,
-        "tags": {
-          "brand": "Brioche Dorée",
-          "brand:website": "https://www.briochedoree.fr",
-          "brand:wikidata": "Q2925606",
-          "brand:wikipedia": "fr:Brioche dorée",
-          "contact:phone": "+33 3 20 57 13 95",
-          "indoor_seating": "yes",
-          "name": "Brioche Dorée",
-          "opening_hours": "Mo-Fr 08:00-18:15; Sa 08:00-18:45",
-          "operator": "Groupe Le Duff",
-          "outdoor_seating": "yes",
-          "ref:FR:SIRET": "31890659101015",
-          "shop": "bakery",
-          "source": "survey",
-          "takeaway": "yes",
-          "website": "https://www.briochedoree.fr/restaurants/149-lille-13-rue-de-bethune"
         }
       },
       {
@@ -774,12 +771,12 @@
         "lat": 50.6356114,
         "lon": 3.0588461,
         "tags": {
+          "check_date": "2026-08-06",
           "contact:facebook": "https://www.facebook.com/maisonpapillon59/",
           "name": "Maison Papillon",
           "opening_hours": "Mo-Su 07:00-20:00",
           "ref:FR:SIRET": "81379900400011",
           "shop": "bakery",
-          "survey:date": "2018-12",
           "website": "https://boulangeriepapillon.fr",
           "wheelchair": "limited"
         }
@@ -844,6 +841,7 @@
           "check_date": "2025-07-18",
           "name": "CocciMarket",
           "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:30",
+          "phone": "+33 6 49 49 46 40",
           "shop": "convenience",
           "website": "https://www.coccinelle.fr/magasin/lille"
         }
@@ -878,11 +876,29 @@
         "lat": 50.6379914,
         "lon": 3.0681757,
         "tags": {
+          "breakfast": "yes",
+          "contact:city": "Lille",
+          "contact:email": "lille.rihour@mamatte.fr",
+          "contact:facebook": "https://www.facebook.com/mamatteboulangeriecafe",
+          "contact:housenumber": "22",
+          "contact:instagram": "https://www.instagram.com/mamatte.boulangeriecafe/",
+          "contact:phone": "+33 3 20 31 44 20",
+          "contact:postcode": "59800",
+          "contact:street": "Rue de Roubaix",
+          "contact:website": "https://boutiques.mamatte.fr/euralille/",
+          "cuisine": "tea;coffee_shop;sandwich",
+          "delivery": "yes",
+          "indoor_seating": "yes",
           "name": "Mamatte",
           "opening_hours": "Mo-Sa 07:30-19:00; Su 07:30-13:00",
-          "phone": "+33 3 20 31 44 20",
+          "pastry": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "91492967400010",
           "shop": "bakery",
-          "website": "https://www.mamatte.fr/"
+          "takeaway": "yes",
+          "wheelchair": "yes"
         }
       },
       {
@@ -982,6 +998,7 @@
           "brand:wikidata": "Q90020480",
           "name": "CocciMarket",
           "opening_hours": "Mo-Su 08:00-22:00",
+          "phone": "+33 9 62 58 00 42",
           "ref:FR:SIRET": "83070434200013",
           "shop": "convenience",
           "website": "https://www.coccinelle.fr/Trouver_Un_Magasin/Details/coccimarket/lille-fives/72-rue-eugene-jacquet"
@@ -1097,6 +1114,25 @@
       },
       {
         "type": "node",
+        "id": 8146592905,
+        "lat": 50.6287153,
+        "lon": 3.0593026,
+        "tags": {
+          "addr:city": "Lille",
+          "addr:housenumber": "214",
+          "addr:postcode": "59000",
+          "addr:street": "Rue de Solférino",
+          "books": "comic",
+          "check_date": "2026-06-17",
+          "contact:instagram": "librairie_derives",
+          "name": "Dérives",
+          "ref:FR:SIRET": "10119492600024",
+          "shop": "books",
+          "start_date": "2026-06-17"
+        }
+      },
+      {
+        "type": "node",
         "id": 8450790156,
         "lat": 50.6230266,
         "lon": 3.05711,
@@ -1104,6 +1140,17 @@
           "name": "Konea Guinee",
           "ref:FR:SIRET": "83230705200015",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8785613317,
+        "lat": 50.628685,
+        "lon": 3.0593649,
+        "tags": {
+          "name": "Dérives",
+          "opening_hours": "Tu-Fr 11:00-19:00; Mo 14:00-19:00; Sa 10:00-19:00",
+          "shop": "books"
         }
       },
       {
@@ -1431,11 +1478,33 @@
         "lat": 50.6355377,
         "lon": 3.063366,
         "tags": {
+          "breakfast": "yes",
+          "contact:city": "Lille",
+          "contact:email": "lille.rihour@mamatte.fr",
+          "contact:facebook": "https://www.facebook.com/mamatteboulangeriecafe",
+          "contact:housenumber": "35",
+          "contact:instagram": "https://www.instagram.com/mamatte.lille/",
+          "contact:phone": "+33 3 20 40 05 70",
+          "contact:postcode": "59800",
+          "contact:street": "Place Rihour",
+          "contact:tiktok": "https://www.tiktok.com/@mamatte.boulangerie",
+          "contact:website": "https://boutiques.mamatte.fr/lille-rihour/",
+          "contact:youtube": "https://www.youtube.com/channel/UCyzEWgnzTlp_zWYJtNAJSCg",
+          "cuisine": "tea;coffee_shop;sandwich",
+          "delivery": "yes",
+          "indoor_seating": "yes",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
           "name": "Mamatte",
-          "opening_hours": "Mo-Sa 07:00-20:00; Su 07:30-20:00",
-          "phone": "+33 3 20 40 05 70",
+          "opening_hours": "Mo-Su 07:00-20:00",
+          "pastry": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "91492967400010",
           "shop": "bakery",
-          "website": "https://www.mamatte.fr/"
+          "takeaway": "yes",
+          "wheelchair": "yes"
         }
       },
       {
@@ -1552,7 +1621,7 @@
         "tags": {
           "building": "retail",
           "building:levels": "4",
-          "check_date": "2023-12-28",
+          "check_date": "2026-08-17",
           "contact:city": "Lille",
           "contact:email": "bouquinerielille@oxfamfrance.org",
           "contact:housenumber": "19 ter",
@@ -1658,6 +1727,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-17T09:13:06.658Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-18T08:45:45.136Z",
+  "staleDataWarning": true
 }

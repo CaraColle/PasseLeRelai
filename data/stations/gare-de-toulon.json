@@ -278,7 +278,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-17T09:32:37Z",
+      "timestamp_osm_base": "2026-09-18T08:53:39Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -820,6 +820,7 @@
           "check_date": "2025-11-26",
           "name": "Brioche Dorée",
           "opening_hours": "Mo-Sa 07:00-18:30",
+          "phone": "+33 4 94 62 94 42",
           "shop": "bakery",
           "website": "https://www.briochedoree.fr/"
         }
@@ -1228,6 +1229,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-17T09:13:06.658Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-18T08:45:45.136Z",
+  "staleDataWarning": true
 }

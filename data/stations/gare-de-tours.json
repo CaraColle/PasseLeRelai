@@ -362,7 +362,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-17T09:38:46Z",
+      "timestamp_osm_base": "2026-09-18T08:55:42Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -670,7 +670,8 @@
           "ref:FR:SIRET": "91074109900014",
           "shop": "bakery",
           "takeaway": "only",
-          "wheelchair": "limited"
+          "wheelchair": "limited",
+          "wheelchair:description": "Bouton d'appel PMR, rampe manuelle dépliable à l'extérieur"
         }
       },
       {
@@ -1857,6 +1858,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-17T09:13:06.658Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-18T08:45:45.136Z",
+  "staleDataWarning": true
 }
