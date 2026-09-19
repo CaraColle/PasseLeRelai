@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789636739454,
+      "timestamp": 1789806840167,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-18T08:50:36Z",
+      "timestamp_osm_base": "2026-09-19T08:33:53Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2883,6 +2883,16 @@
         }
       },
       {
+        "type": "node",
+        "id": 14192112501,
+        "lat": 43.7025474,
+        "lon": 7.2637315,
+        "tags": {
+          "name": "Al Maruda",
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 140067357,
         "center": {
@@ -3007,6 +3017,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-18T08:45:45.136Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-19T08:32:18.857Z",
+  "staleDataWarning": false
 }

@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789638213494,
+      "timestamp": 1789807691478,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-18T09:00:51Z",
+      "timestamp_osm_base": "2026-09-19T08:50:17Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -679,6 +679,21 @@
           "opening_hours": "Tu,Th 14:00-19:00; Sa 15:00-19:00",
           "shop": "books",
           "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 3423826485,
+        "lat": 47.899782,
+        "lon": 1.9026556,
+        "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "5",
+          "addr:postcode": "45000",
+          "addr:street": "Rue du Cheval Rouge",
+          "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/64/b5/0e/fa/1d8d-49ef-99cd-21bd009ac71b.jpg",
+          "name": "La Procure",
+          "shop": "books"
         }
       },
       {
@@ -1210,6 +1225,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-18T08:45:45.136Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-19T08:32:18.857Z",
+  "staleDataWarning": false
 }

@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789721145829,
+      "timestamp": 1789806740535,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-18T08:44:36Z",
+      "timestamp_osm_base": "2026-09-19T08:31:50Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -366,16 +366,17 @@
       {
         "type": "node",
         "id": 418510261,
-        "lat": 48.8316269,
-        "lon": 2.3219796,
+        "lat": 48.8316689,
+        "lon": 2.3220071,
         "tags": {
           "check_date": "2026-08-23",
           "indoor_seating": "yes",
-          "name": "L'Atelier des merveilles",
+          "name": "L'Atelier des Merveilles",
           "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:00-19:00",
           "outdoor_seating": "no",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
+          "ref:FR:SIRET": "93322161600016",
           "shop": "bakery",
           "smoking": "no",
           "wheelchair": "yes"
@@ -2175,7 +2176,7 @@
           "email": "la-cedille@orange.fr",
           "name": "La Cédille",
           "opening_hours": "Tu-Sa 10:30-14:30, 15:00-19:00",
-          "phone": "01 45 67 67 40",
+          "phone": "+33 1 45 67 67 40",
           "shop": "books",
           "website": "https://www.librairielacedilleparis.com/"
         }
@@ -3991,10 +3992,11 @@
       {
         "type": "node",
         "id": 11808164267,
-        "lat": 48.8316023,
-        "lon": 2.3219384,
+        "lat": 48.8316154,
+        "lon": 2.3219563,
         "tags": {
-          "name:signed": "no",
+          "name": "Istiak",
+          "ref:FR:SIRET": "99126661000013",
           "shop": "convenience"
         }
       },
@@ -4594,6 +4596,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-18T08:45:45.136Z",
+  "fetchedAt": "2026-09-19T08:32:18.857Z",
   "staleDataWarning": false
 }

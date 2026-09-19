@@ -205,7 +205,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789721155320,
+      "timestamp": 1789806771031,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -234,7 +234,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-15T15:22:01Z",
+      "timestamp_osm_base": "2026-09-19T08:32:49Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -336,7 +336,7 @@
         "lat": 43.2957252,
         "lon": 5.3856606,
         "tags": {
-          "name": "Epicerie",
+          "name": "Coming Out",
           "self_service": "yes",
           "shop": "convenience"
         }
@@ -559,14 +559,17 @@
         "lat": 43.2955408,
         "lon": 5.3911784,
         "tags": {
+          "addr:housenumber": "77",
+          "addr:street": "Boulevard Eugène Pierre",
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "en:Système U",
-          "name": "Utile",
-          "opening_hours": "Mo-Sa 08:00-19:45; Su 08:30-12:45",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 08:15-19:45; Su 09:00-12:45",
           "operator": "Système U",
+          "phone": "+33 4 96 12 12 30",
           "shop": "convenience",
-          "website": "https://www.magasins-u.com/magasin/superu-marseillesaintpierre.m90249",
+          "website": "https://www.magasins-u.com/magasin/uexpress-marseille.m90174",
           "wheelchair": "no"
         }
       },
@@ -1014,12 +1017,12 @@
           "brand:wikidata": "Q7937525",
           "brand:wikipedia": "en:Vival (shop)",
           "name": "Vival",
-          "opening_hours": "Mo-Th 07:30-23:00; Fr-Sa 07:30-24:00; Su 07:30-23:00",
+          "opening_hours": "Mo-Su 07:30-23:00",
           "operator": "vival",
           "phone": "+33 4 84 33 61 21",
           "ref:FR:SIRET": "81372932400018",
           "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/s/vival-marseille-sainte"
+          "website": "https://vival.casino.fr/stores/e1765/marseille-65-rue-sainte"
         }
       },
       {
@@ -1130,7 +1133,7 @@
           "operator": "Vival",
           "phone": "+33 4 91 53 74 33",
           "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/vival-marseille-dame-du-mont"
+          "website": "https://vival.casino.fr/stores/e3347/marseille-06-26-place-notre-dame-du-mont"
         }
       },
       {
@@ -1504,7 +1507,7 @@
           "brand:wikipedia": "fr:Système U",
           "contact:website": "https://www.magasins-u.com/magasin/uexpress-marseillegrandrue",
           "name": "U Express",
-          "opening_hours": "Mo-Fr 08:15-20:00; Sa 08:30-20:00; Su 08:30-13:00",
+          "opening_hours": "Mo-Sa 08:30-20:00; Su 08:30-13:00",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "phone": "+33 4 91 90 34 26",
@@ -1922,6 +1925,7 @@
           "name": "Vival",
           "opening_hours": "Mo-Su 07:30-21:00",
           "shop": "convenience",
+          "website": "https://vival.casino.fr/stores/e1771/marseille-42-rue-edouard-delanglade",
           "wheelchair": "limited"
         }
       },
@@ -2060,7 +2064,7 @@
           "contact:phone": "+33 4 91 47 03 30",
           "email": "marseille.lodi@naturalia.fr",
           "name": "Naturalia",
-          "opening_hours": "Mo-Sa 09:00-20:00",
+          "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-12:45",
           "organic": "only",
           "shop": "convenience",
           "website": "https://magasins.naturalia.fr/naturalia/fr/store/france/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/marseille-lodi/3913"
@@ -2612,12 +2616,15 @@
         "lat": 43.2900551,
         "lon": 5.3743958,
         "tags": {
+          "addr:housenumber": "49",
+          "addr:street": "Cours Pierre Puget",
           "books": "manga",
           "name": "Tsundoku",
           "opening_hours": "Mo 14:00-20:00; Tu-Su 10:00-20:00",
           "ref:FR:SIRET": "91146696900019",
           "shop": "books",
-          "source": "INSEE - 2022-08"
+          "source": "INSEE - 2022-08",
+          "website": "https://www.tsundokulibrairie.fr/"
         }
       },
       {
@@ -2672,29 +2679,17 @@
       },
       {
         "type": "node",
-        "id": 10876292790,
-        "lat": 43.291566,
-        "lon": 5.3714237,
-        "tags": {
-          "brand": "Utile",
-          "brand:wikidata": "Q2529029",
-          "name": "Utile",
-          "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:00",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 10876292791,
         "lat": 43.2908976,
         "lon": 5.3717787,
         "tags": {
           "brand": "Spar",
           "brand:wikidata": "Q610492",
-          "check_date:opening_hours": "2025-09-23",
+          "check_date:opening_hours": "2026-09-03",
           "name": "Spar",
-          "opening_hours": "Mo-Sa 08:30-20:30; Su 09:00-13:00",
-          "shop": "convenience"
+          "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-14:00",
+          "shop": "convenience",
+          "website": "https://spar.casino.fr/stores/tz173/marseille-2-boulevard-de-la-corderie"
         }
       },
       {
@@ -2840,9 +2835,10 @@
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:30-22:30; Su 08:30-19:30",
+          "opening_hours": "Mo-Sa 08:30-22:45; Su 08:30-19:45",
           "ref:FR:SIRET": "44465668000709",
-          "shop": "convenience"
+          "shop": "convenience",
+          "website": "https://www.monoprix.fr/1821.html"
         }
       },
       {
@@ -2868,9 +2864,15 @@
         "lat": 43.3023732,
         "lon": 5.3938512,
         "tags": {
-          "contact:instagram": "azulil.editions",
-          "name": "Azulil",
-          "shop": "books"
+          "addr:housenumber": "16",
+          "addr:street": "Rue d'Anvers",
+          "check_date": "2026-09-02",
+          "contact:instagram": "maison.sz",
+          "email": "contact@maison-sz.com",
+          "name": "Maison Sz",
+          "phone": "+33 6 73 60 29 98",
+          "shop": "books",
+          "website": "http://www.maison-sz.com"
         }
       },
       {
@@ -2915,6 +2917,16 @@
         "lon": 5.3771753,
         "tags": {
           "name": "Bagalette",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12074330779,
+        "lat": 43.3142432,
+        "lon": 5.3690034,
+        "tags": {
+          "name": "Fournil des Docks",
           "shop": "bakery"
         }
       },
@@ -3352,6 +3364,17 @@
         }
       },
       {
+        "type": "node",
+        "id": 14100651201,
+        "lat": 43.3045658,
+        "lon": 5.3931021,
+        "tags": {
+          "check_date": "2026-08-17",
+          "name": "Supérette du Palais",
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 67697078,
         "center": {
@@ -3523,6 +3546,7 @@
           "building": "yes",
           "name": "vanille noire",
           "opening_hours": "Mo-Sa 12:00-19:00",
+          "power": "substation",
           "shop": "kiosk",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
         }
@@ -3541,7 +3565,7 @@
           "indoor": "room",
           "level": "0",
           "name": "Monop'Daily",
-          "opening_hours": "Tu-Th,Sa 06:30-20:00; Fr,Su,Mo 06:30-21:00",
+          "opening_hours": "Mo-Th 06:15-20:45; Fr 06:15-21:45; Sa 06:15-20:45; Su 06:15-21:45",
           "room": "shop",
           "shop": "convenience",
           "website": "https://www.monoprix.fr/1447.html",
@@ -3602,6 +3626,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-18T08:45:45.136Z",
+  "fetchedAt": "2026-09-19T08:32:18.857Z",
   "staleDataWarning": false
 }
