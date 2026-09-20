@@ -213,7 +213,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789806987803,
+      "timestamp": 1789895511485,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -242,7 +242,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-19T08:37:03Z",
+      "timestamp_osm_base": "2026-09-20T09:15:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -276,15 +276,6 @@
           "name": "Midi Minuit Alimentation",
           "ref:FR:SIRET": "83909184000018",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1866999903,
-        "lat": 49.4952948,
-        "lon": 0.1121731,
-        "tags": {
-          "shop": "kiosk"
         }
       },
       {
@@ -971,14 +962,17 @@
       {
         "type": "node",
         "id": 11794042262,
-        "lat": 49.4960086,
-        "lon": 0.1118835,
+        "lat": 49.4961243,
+        "lon": 0.1121231,
         "tags": {
           "addr:city": "Le Havre",
           "addr:country": "FR",
+          "addr:floor": "Niveau 1",
           "addr:housenumber": "22",
           "addr:postcode": "76600",
           "addr:street": "Rue Casimir Périer",
+          "check_date": "2026-09-19",
+          "level": "0",
           "name": "Maison Yvonne",
           "opening_hours": "Mo-Sa 09:30-19:30",
           "ref:FR:SIRET": "52377604500123",
@@ -1069,6 +1063,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-19T08:32:18.857Z",
+  "fetchedAt": "2026-09-20T09:04:25.938Z",
   "staleDataWarning": false
 }
