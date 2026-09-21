@@ -149,10 +149,6 @@
           "coordinates": [
             [
               [
-                0.688607,
-                47.395087
-              ],
-              [
                 0.685869,
                 47.391932
               ],
@@ -305,24 +301,16 @@
                 47.396256
               ],
               [
-                0.689474,
-                47.395556
+                0.689224,
+                47.395613
               ],
               [
-                0.689283,
-                47.395489
+                0.688885,
+                47.395492
               ],
               [
-                0.688947,
-                47.39536
-              ],
-              [
-                0.688684,
-                47.395175
-              ],
-              [
-                0.688607,
-                47.395087
+                0.685869,
+                47.391932
               ]
             ]
           ],
@@ -333,7 +321,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789896127248,
+      "timestamp": 1789984550402,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -353,8 +341,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-11T12:08:56Z",
-        "osm_date": "2026-08-30T23:59:56Z"
+        "graph_date": "2026-09-15T03:30:33Z",
+        "osm_date": "2026-09-07T00:00:04Z"
       }
     }
   },
@@ -1858,6 +1846,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-20T09:04:25.938Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-21T09:36:23.739Z",
+  "staleDataWarning": true
 }

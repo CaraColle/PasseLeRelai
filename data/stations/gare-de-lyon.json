@@ -9,7 +9,7 @@
     "bbox": [
       2.36495,
       48.839423,
-      2.381968,
+      2.382267,
       48.850933
     ],
     "features": [
@@ -77,6 +77,10 @@
               [
                 2.378169,
                 48.843271
+              ],
+              [
+                2.377632,
+                48.844369
               ],
               [
                 2.377114,
@@ -201,20 +205,12 @@
                 48.840168
               ],
               [
-                2.381952,
-                48.844184
+                2.382267,
+                48.843725
               ],
               [
-                2.381967,
-                48.84425
-              ],
-              [
-                2.381968,
-                48.844449
-              ],
-              [
-                2.381962,
-                48.844487
+                2.382185,
+                48.844343
               ],
               [
                 2.381445,
@@ -277,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789895066597,
+      "timestamp": 1789983384372,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -297,8 +293,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-11T12:08:56Z",
-        "osm_date": "2026-08-30T23:59:56Z"
+        "graph_date": "2026-09-15T03:30:33Z",
+        "osm_date": "2026-09-07T00:00:04Z"
       }
     }
   },
@@ -306,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-20T09:02:38Z",
+      "timestamp_osm_base": "2026-09-21T09:33:55Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -917,7 +913,7 @@
           "level": "0",
           "name": "CocciMarket",
           "opening_hours:signed": "no",
-          "phone": "+33 7 58 45 01 67",
+          "phone": "+33 6 95 60 46 08",
           "ref:FR:SIRET": "98520563200013",
           "shop": "convenience",
           "website": "https://www.coccinelle.fr/magasin/paris-12eme"
@@ -4071,6 +4067,7 @@
         "tags": {
           "name": "Lingam Épicerie",
           "opening_hours": "Mo-Su 09:30-02:00",
+          "ref:FR:SIRET": "98200125700012",
           "shop": "convenience"
         }
       },
@@ -4844,6 +4841,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-20T09:04:25.938Z",
+  "fetchedAt": "2026-09-21T09:36:23.739Z",
   "staleDataWarning": false
 }
