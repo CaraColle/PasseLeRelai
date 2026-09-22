@@ -290,7 +290,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-21T10:02:43Z",
+      "timestamp_osm_base": "2026-09-22T08:45:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -326,7 +326,7 @@
           "phone": "+33 3 63 35 03 65",
           "ref:FR:SIRET": "83960597900013",
           "shop": "convenience",
-          "website": "https://vival.casino.fr/stores/e1378"
+          "website": "https://vival.casino.fr/fr/stores/e1378"
         }
       },
       {
@@ -1608,11 +1608,11 @@
           "ref:FR:SIRET": "52115811300022",
           "shop": "convenience",
           "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
-          "website": "https://vival.casino.fr/stores/e1354"
+          "website": "https://vival.casino.fr/fr/stores/e1354"
         }
       }
     ]
   },
-  "fetchedAt": "2026-09-21T09:36:23.739Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-22T09:01:05.679Z",
+  "staleDataWarning": true
 }

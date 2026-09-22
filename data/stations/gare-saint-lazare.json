@@ -301,7 +301,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789983386209,
+      "timestamp": 1790067752438,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -330,7 +330,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-21T09:36:01Z",
+      "timestamp_osm_base": "2026-09-22T08:45:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -874,11 +874,12 @@
         "lat": 48.8780349,
         "lon": 2.3268217,
         "tags": {
-          "check_date": "2025-02-06",
+          "check_date": "2026-09-21",
+          "check_date:opening_hours": "2026-09-21",
           "check_date:smoking": "2025-02-06",
           "indoor_seating": "yes",
           "name": "Midoré",
-          "opening_hours": "Mo-Fr 06:45-20:00; Sa 08:00-19:00",
+          "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-19:00",
           "outdoor_seating": "no",
           "shop": "bakery",
           "smoking": "no",
@@ -3642,15 +3643,6 @@
       },
       {
         "type": "node",
-        "id": 11144335248,
-        "lat": 48.8812539,
-        "lon": 2.3269863,
-        "tags": {
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 11145818366,
         "lat": 48.8848903,
         "lon": 2.3115342,
@@ -4687,6 +4679,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-21T09:36:23.739Z",
+  "fetchedAt": "2026-09-22T09:01:05.679Z",
   "staleDataWarning": false
 }

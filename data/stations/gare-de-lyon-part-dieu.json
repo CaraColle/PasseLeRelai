@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789983479561,
+      "timestamp": 1790067842992,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-21T09:39:06Z",
+      "timestamp_osm_base": "2026-09-22T08:45:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1843,15 +1843,6 @@
       },
       {
         "type": "node",
-        "id": 4723082347,
-        "lat": 45.7647214,
-        "lon": 4.8638038,
-        "tags": {
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 4734348926,
         "lat": 45.7458395,
         "lon": 4.8641211,
@@ -1955,7 +1946,7 @@
           "brand": "Vival",
           "brand:wikidata": "Q7937525",
           "name": "Vival",
-          "opening_hours": "Mo-Su 08:00-24:00",
+          "opening_hours": "Mo-Su 09:00-24:00",
           "shop": "convenience"
         }
       },
@@ -3452,6 +3443,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-21T09:36:23.739Z",
+  "fetchedAt": "2026-09-22T09:01:05.679Z",
   "staleDataWarning": false
 }
