@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790067667238,
+      "timestamp": 1790154324047,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-22T08:45:51Z",
+      "timestamp_osm_base": "2026-09-23T09:03:02Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -491,6 +491,21 @@
           "name": "Supermarché Volta",
           "shop": "convenience",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 675848662,
+        "lat": 48.8641434,
+        "lon": 2.365819,
+        "tags": {
+          "addr:housenumber": "17",
+          "addr:postcode": "75003",
+          "addr:street": "Boulevard du Temple",
+          "contact:instagram": "chao_patisserie",
+          "name": "Chāo Patisserie",
+          "shop": "bakery",
+          "website": "https://www.chaopatisserie.fr/"
         }
       },
       {
@@ -729,6 +744,7 @@
           "contact:phone": "+33 1 40 36 92 40",
           "contact:postcode": "75010",
           "contact:street": "Rue du Faubourg Saint-Martin",
+          "diet:vegetarian": "yes",
           "name": "Délices du Faubourg",
           "opening_hours:signed": "no",
           "ref:FR:SIRET": "53159116200015",
@@ -9594,6 +9610,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-22T09:01:05.679Z",
+  "fetchedAt": "2026-09-23T09:05:23.247Z",
   "staleDataWarning": false
 }

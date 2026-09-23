@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1789985071065,
+      "timestamp": 1790155965277,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-24T11:04:51Z",
+      "timestamp_osm_base": "2026-09-23T09:30:31Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -384,13 +384,19 @@
         "lat": 49.4498543,
         "lon": 1.1036206,
         "tags": {
+          "addr:city": "Rouen",
           "addr:housenumber": "51",
+          "addr:postcode": "76000",
+          "addr:street": "Rue de Bihorel",
           "brand": "CocciMarket",
           "brand:wikidata": "Q90020480",
           "name": "CocciMarket",
+          "opening_hours": "Mo-Su 09:00-21:00",
           "operator": "Cocci Market",
+          "phone": "+33 2 35 89 66 18",
           "ref:FR:SIRET": "52487355100039",
-          "shop": "convenience"
+          "shop": "convenience",
+          "website": "https://www.coccinelle.fr/magasin/rouen-0"
         }
       },
       {
@@ -517,7 +523,7 @@
           "panoramax": "1626fb6a-2b4d-4330-92a7-610cf5d33356",
           "ref:FR:SIRET": "81213359300010",
           "shop": "convenience",
-          "website": "https://www.coccinelle.fr/Trouver_Un_Magasin/Details/coccinelle-express/rouen/9-rue-st-gervais"
+          "website": "https://www.coccinelle.fr/magasin/rouen"
         }
       },
       {
@@ -762,37 +768,6 @@
       },
       {
         "type": "node",
-        "id": 4597409125,
-        "lat": 49.4425519,
-        "lon": 1.0930924,
-        "tags": {
-          "addr:housenumber": "29",
-          "brand": "Utile",
-          "brand:wikidata": "Q2529029",
-          "brand:wikipedia": "en:Système U",
-          "contact:facebook": "https://www.facebook.com/Utile.EspaceDuPalais",
-          "currency:EUR": "yes",
-          "delivery": "yes",
-          "drive_through": "yes",
-          "internet_access": "wlan",
-          "internet_access:fee": "no",
-          "level": "0",
-          "name": "Utile",
-          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-13:00",
-          "operator": "Distri Rouen Palais",
-          "organic": "yes",
-          "payment:cash": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "phone": "+33 2 35 36 42 41",
-          "second_hand": "no",
-          "shop": "convenience",
-          "website": "https://www.magasins-u.com/",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 4669921807,
         "lat": 49.4374007,
         "lon": 1.1072451,
@@ -825,7 +800,7 @@
           "phone": "+33 2 35 88 94 83",
           "ref:FR:SIRET": "40255275600015",
           "shop": "convenience",
-          "website": "http://coccimarket.fr",
+          "website": "https://www.coccinelle.fr/magasin/rouen-3",
           "wheelchair": "yes"
         }
       },
@@ -966,7 +941,7 @@
           "phone": "+33 2 35 73 15 71",
           "ref:FR:SIRET": "84898213800010",
           "shop": "convenience",
-          "website": "https://www.coccinelle.fr/",
+          "website": "https://www.coccinelle.fr/magasin/rouen-1",
           "wheelchair": "no"
         }
       },
@@ -989,7 +964,7 @@
           "phone": "+33 2 35 71 46 23",
           "ref:FR:SIRET": "90799962700017",
           "shop": "convenience",
-          "website": "https://www.spar.fr/"
+          "website": "https://petitcasino.casino.fr/stores/tz202/rouen-42-avenue-jacques-chastellain"
         }
       },
       {
@@ -1025,6 +1000,7 @@
           "addr:housenumber": "54",
           "addr:postcode": "76000",
           "addr:street": "Rue de la Vicomte",
+          "check_date": "2026-09-14",
           "name": "Le Fournil Jeanne d'Arc",
           "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:30-20:00",
           "operator": "Patrick Judas",
@@ -1422,7 +1398,7 @@
           "addr:housenumber": "124",
           "addr:street": "Rue Jeanne d'Arc",
           "brand": "GAM",
-          "check_date": "2025-01-22",
+          "check_date": "2026-09-20",
           "check_date:opening_hours": "2024-05-24",
           "contact:housenumber": "124",
           "contact:street": "Rue Jeanne d'Arc",
@@ -1499,21 +1475,27 @@
         "lon": 1.0915223,
         "tags": {
           "contact:city": "Rouen",
+          "contact:email": "contact@librairie-funambules.com",
+          "contact:facebook": "https://www.facebook.com/Funambules-358205947579674/",
           "contact:housenumber": "55",
+          "contact:instagram": "https://www.instagram.com/funambuleslib/",
+          "contact:phone": "+33 2 32 12 61 72",
           "contact:postcode": "76000",
           "contact:street": "Rue Jeanne d'Arc",
+          "contact:twitter": "https://twitter.com/bdfunambules",
+          "contact:website": "https://www.canalbd.net/funambules",
           "delivery": "no",
-          "email": "funambuleslib@canalbd.net",
-          "name": "Librairie Funambules",
-          "opening_hours": "Tu-Sa 10:00-13:00, 14:00-19:00",
+          "name": "FUNAMBULES",
+          "opening_hours": "We-Sa 10:00-13:00,14:00-19:00",
           "payment:cheque": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
-          "phone": "+33 2 32 12 61 72",
           "ref:FR:SIRET": "75066111800018",
           "shop": "books",
-          "website": "https://www.canalbd.net/funambules"
+          "wheelchair": "yes"
         }
       },
       {
@@ -1541,20 +1523,26 @@
         "tags": {
           "books": "comic",
           "check_date": "2026-02-28",
+          "contact:city": "Rouen",
+          "contact:email": "augrandnullepart@orange.fr",
+          "contact:facebook": "https://www.facebook.com/AuGrandNullePart",
           "contact:housenumber": "102",
+          "contact:instagram": "https://www.instagram.com/augrandnullepart",
+          "contact:linkedin": "https://fr.linkedin.com/in/fred-au-grand-nulle-part-605ba1ba",
+          "contact:phone": "+33 2 35 98 01 84",
           "contact:postcode": "76000",
           "contact:street": "Rue du Général Leclerc",
+          "contact:website": "https://www.facebook.com/AuGrandNullePart",
           "delivery": "no",
-          "email": "augrandnullepart@orange.fr",
-          "facebook": "https://www.facebook.com/AuGrandNullePart",
-          "instagram": "https://www.instagram.com/augrandnullepart",
           "name": "Librairie Au Grand Nulle Part",
-          "opening_hours": "Mo-Sa 10:30-19:00; Su 11:00-18:00",
-          "phone": "+33 2 35 98 01 84",
+          "opening_hours": "Tu-Sa 11:00-19:00",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
           "ref:FR:SIRET": "44316455300010",
           "shop": "books",
-          "website": "https://www.librairie-augrandnullepart.fr/",
-          "wheelchair": "limited",
+          "wheelchair": "yes",
           "wheelchair:description:en": "Door at street level, 40% of the store is accessible (at street-level), the remaining require 2 steps.",
           "wheelchair:description:fr": "Porte accessible au niveau de la rue, 40% du magasin est au niveau de la rue, l'espace restant demandant de gravir 2 marches."
         }
@@ -1590,7 +1578,7 @@
           "name": "Luval",
           "old_name": "Luval",
           "opening_hours": "Mo-Sa 07:00-19:30; Su 07:00-19:00",
-          "outdoor_seating": "yes",
+          "outdoor_seating": "sidewalk",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -1904,6 +1892,17 @@
         }
       },
       {
+        "type": "node",
+        "id": 14072728077,
+        "lat": 49.4344799,
+        "lon": 1.0856307,
+        "tags": {
+          "name": "Que la night",
+          "shop": "convenience",
+          "survey:date": "2026-08-04"
+        }
+      },
+      {
         "type": "way",
         "id": 64750278,
         "center": {
@@ -1942,8 +1941,10 @@
         },
         "tags": {
           "access": "private",
+          "air_conditioning": "no",
           "brand": "Mozza & Co.",
           "indoor": "room",
+          "internet_access": "no",
           "level": "0",
           "name": "Mozza & Co.",
           "shop": "bakery"
@@ -1987,9 +1988,42 @@
           "website": "https://www.groupe-blachere.com/",
           "wheelchair": "yes"
         }
+      },
+      {
+        "type": "way",
+        "id": 1556444871,
+        "center": {
+          "lat": 49.4425725,
+          "lon": 1.093036
+        },
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "brand:wikipedia": "en:Système U",
+          "contact:facebook": "https://www.facebook.com/Utile.EspaceDuPalais",
+          "currency:EUR": "yes",
+          "delivery": "yes",
+          "drive_through": "yes",
+          "indoor": "room",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
+          "level": "0",
+          "name": "Utile",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-13:00",
+          "operator": "Distri Rouen Palais",
+          "organic": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 35 36 42 41",
+          "second_hand": "no",
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/",
+          "wheelchair": "yes"
+        }
       }
     ]
   },
-  "fetchedAt": "2026-09-22T09:01:05.679Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-23T09:05:23.247Z",
+  "staleDataWarning": false
 }
