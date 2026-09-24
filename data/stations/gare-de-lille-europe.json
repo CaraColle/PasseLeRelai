@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790154897870,
+      "timestamp": 1790240891600,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-22T08:45:51Z",
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -516,11 +516,11 @@
           "indoor_seating": "yes",
           "level": "0",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 07:00-20:00",
+          "opening_hours": "Mo-Sa 08:00-20:00",
           "outdoor_seating": "yes",
           "ref:FR:SIRET": "31890659102062",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/"
+          "website": "https://www.briochedoree.fr/restaurants/329-lille-c.cial-euralille"
         }
       },
       {
@@ -548,6 +548,29 @@
           "name": "Le bon grain",
           "opening_hours": "Mo-Th 06:30-20:00; Fr 06:30-13:00,14:00-20:00; Sa,Su 06:30-19:30",
           "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5348005209,
+        "lat": 50.6349394,
+        "lon": 3.0644412,
+        "tags": {
+          "brand": "Brioche Dorée",
+          "brand:website": "https://www.briochedoree.fr",
+          "brand:wikidata": "Q2925606",
+          "brand:wikipedia": "fr:Brioche dorée",
+          "contact:phone": "+33 3 20 57 13 95",
+          "indoor_seating": "yes",
+          "name": "Brioche Dorée",
+          "opening_hours": "Mo-Fr 08:00-18:15; Sa 08:00-18:45",
+          "operator": "Groupe Le Duff",
+          "outdoor_seating": "yes",
+          "ref:FR:SIRET": "31890659101015",
+          "shop": "bakery",
+          "source": "survey",
+          "takeaway": "yes",
+          "website": "https://www.briochedoree.fr/restaurants/149-lille-13-rue-de-bethune"
         }
       },
       {
@@ -672,7 +695,6 @@
           "check_date": "2025-07-18",
           "name": "CocciMarket",
           "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:30",
-          "phone": "+33 6 49 49 46 40",
           "shop": "convenience",
           "website": "https://www.coccinelle.fr/magasin/lille"
         }
@@ -683,29 +705,11 @@
         "lat": 50.6379914,
         "lon": 3.0681757,
         "tags": {
-          "breakfast": "yes",
-          "contact:city": "Lille",
-          "contact:email": "lille.rihour@mamatte.fr",
-          "contact:facebook": "https://www.facebook.com/mamatteboulangeriecafe",
-          "contact:housenumber": "22",
-          "contact:instagram": "https://www.instagram.com/mamatte.boulangeriecafe/",
-          "contact:phone": "+33 3 20 31 44 20",
-          "contact:postcode": "59800",
-          "contact:street": "Rue de Roubaix",
-          "contact:website": "https://boutiques.mamatte.fr/euralille/",
-          "cuisine": "tea;coffee_shop;sandwich",
-          "delivery": "yes",
-          "indoor_seating": "yes",
           "name": "Mamatte",
           "opening_hours": "Mo-Sa 07:30-19:00; Su 07:30-13:00",
-          "pastry": "yes",
-          "payment:contactless": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "ref:FR:SIRET": "91492967400010",
+          "phone": "+33 3 20 31 44 20",
           "shop": "bakery",
-          "takeaway": "yes",
-          "wheelchair": "yes"
+          "website": "https://www.mamatte.fr/"
         }
       },
       {
@@ -767,10 +771,9 @@
           "brand:wikidata": "Q90020480",
           "name": "CocciMarket",
           "opening_hours": "Mo-Su 08:00-22:00",
-          "phone": "+33 9 62 58 00 42",
           "ref:FR:SIRET": "83070434200013",
           "shop": "convenience",
-          "website": "https://www.coccinelle.fr/magasin/lille-fives"
+          "website": "https://www.coccinelle.fr/Trouver_Un_Magasin/Details/coccimarket/lille-fives/72-rue-eugene-jacquet"
         }
       },
       {
@@ -1201,33 +1204,11 @@
         "lat": 50.6355377,
         "lon": 3.063366,
         "tags": {
-          "breakfast": "yes",
-          "contact:city": "Lille",
-          "contact:email": "lille.rihour@mamatte.fr",
-          "contact:facebook": "https://www.facebook.com/mamatteboulangeriecafe",
-          "contact:housenumber": "35",
-          "contact:instagram": "https://www.instagram.com/mamatte.lille/",
-          "contact:phone": "+33 3 20 40 05 70",
-          "contact:postcode": "59800",
-          "contact:street": "Place Rihour",
-          "contact:tiktok": "https://www.tiktok.com/@mamatte.boulangerie",
-          "contact:website": "https://boutiques.mamatte.fr/lille-rihour/",
-          "contact:youtube": "https://www.youtube.com/channel/UCyzEWgnzTlp_zWYJtNAJSCg",
-          "cuisine": "tea;coffee_shop;sandwich",
-          "delivery": "yes",
-          "indoor_seating": "yes",
-          "internet_access": "wlan",
-          "internet_access:fee": "no",
           "name": "Mamatte",
-          "opening_hours": "Mo-Su 07:00-20:00",
-          "pastry": "yes",
-          "payment:contactless": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "ref:FR:SIRET": "91492967400010",
+          "opening_hours": "Mo-Sa 07:00-20:00; Su 07:30-20:00",
+          "phone": "+33 3 20 40 05 70",
           "shop": "bakery",
-          "takeaway": "yes",
-          "wheelchair": "yes"
+          "website": "https://www.mamatte.fr/"
         }
       },
       {
@@ -1340,7 +1321,7 @@
         "tags": {
           "building": "retail",
           "building:levels": "4",
-          "check_date": "2026-08-17",
+          "check_date": "2023-12-28",
           "contact:city": "Lille",
           "contact:email": "bouquinerielille@oxfamfrance.org",
           "contact:housenumber": "19 ter",
@@ -1392,8 +1373,8 @@
           "contact:housenumber": "51",
           "contact:postcode": "59000",
           "contact:street": "Rue du Buisson",
-          "name": "U Express Lille Buisson",
-          "opening_hours": "Mo-Fr 08:30-20:00; Su 09:00-12:30",
+          "name": "U Express",
+          "opening_hours": "Mo-Fr 08:30-12:30,15:00-20:00; Sa 08:30-20:00; Su 09:00-12:30",
           "operator": "Système U",
           "phone": "+33 3 20 55 25 93",
           "roof:shape": "flat",
@@ -1464,6 +1445,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-23T09:05:23.247Z",
+  "fetchedAt": "2026-09-24T08:59:56.731Z",
   "staleDataWarning": false
 }

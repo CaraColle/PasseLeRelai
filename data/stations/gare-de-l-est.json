@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790154324047,
+      "timestamp": 1790240397893,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-23T09:03:02Z",
+      "timestamp_osm_base": "2026-09-24T08:58:04Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -4741,16 +4741,18 @@
         "lat": 48.874199,
         "lon": 2.3551019,
         "tags": {
-          "check_date": "2026-03-15",
+          "check_date": "2026-09-23",
           "check_date:opening_hours": "2026-03-15",
           "contact:city": "Paris",
           "contact:housenumber": "93",
+          "contact:instagram": "urbanbakeryfamily",
           "contact:postcode": "75010",
           "contact:street": "Rue du Faubourg Saint-Denis",
           "indoor_seating": "no",
           "name": "Urban Bakery",
           "opening_hours": "Mo-Su 07:00-20:00",
           "outdoor_seating": "no",
+          "phone": "+331 42 63 04 48",
           "ref:FR:SIRET": "89915124500029",
           "shop": "bakery",
           "takeaway": "only"
@@ -7878,7 +7880,7 @@
         "tags": {
           "addr:housenumber": "54",
           "addr:street": "Rue du Faubourg du Temple",
-          "check_date": "2026-06-27",
+          "check_date": "2026-09-23",
           "contact:website": "https://www.mure.family/adresses-contact",
           "level": "0",
           "name": "Épicerie Mûre",
@@ -9610,6 +9612,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-23T09:05:23.247Z",
+  "fetchedAt": "2026-09-24T08:59:56.731Z",
   "staleDataWarning": false
 }
