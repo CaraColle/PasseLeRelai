@@ -105,8 +105,8 @@
           "coordinates": [
             [
               [
-                5.710107,
-                45.192064
+                5.710121,
+                45.192063
               ],
               [
                 5.709404,
@@ -117,7 +117,7 @@
                 45.190945
               ],
               [
-                5.710005,
+                5.710004,
                 45.189922
               ],
               [
@@ -165,12 +165,12 @@
                 45.192138
               ],
               [
-                5.717744,
-                45.19308
+                5.717754,
+                45.193078
               ],
               [
-                5.717432,
-                45.1932
+                5.717429,
+                45.193201
               ],
               [
                 5.716863,
@@ -189,8 +189,8 @@
                 45.192552
               ],
               [
-                5.710107,
-                45.192064
+                5.710121,
+                45.192063
               ]
             ]
           ],
@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790241117294,
+      "timestamp": 1790329170593,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -221,8 +221,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-15T03:30:33Z",
-        "osm_date": "2026-09-07T00:00:04Z"
+        "graph_date": "2026-09-20T06:31:34Z",
+        "osm_date": "2026-09-13T23:59:59Z"
       }
     }
   },
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-24T09:14:13Z",
+      "timestamp_osm_base": "2026-09-25T09:40:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1476,6 +1476,7 @@
         "lon": 5.721813,
         "tags": {
           "check_date": "2025-08-19",
+          "email": "tiendalatinagrenoble@gmail.com",
           "name": "Tienda Latina",
           "old_name": "Pédicures Podologues",
           "opening_hours": "Mo-Sa 10:30-19:30",
@@ -2773,6 +2774,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-24T08:59:56.731Z",
+  "fetchedAt": "2026-09-25T09:23:07.096Z",
   "staleDataWarning": false
 }

@@ -281,7 +281,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790240397767,
+      "timestamp": 1790328188294,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -301,8 +301,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-15T03:30:33Z",
-        "osm_date": "2026-09-07T00:00:04Z"
+        "graph_date": "2026-09-20T06:31:34Z",
+        "osm_date": "2026-09-13T23:59:59Z"
       }
     }
   },
@@ -310,7 +310,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-22T08:45:51Z",
+      "timestamp_osm_base": "2026-09-25T09:22:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -628,6 +628,7 @@
           "contact:phone": "+33 1 40 36 92 40",
           "contact:postcode": "75010",
           "contact:street": "Rue du Faubourg Saint-Martin",
+          "diet:vegetarian": "yes",
           "name": "Délices du Faubourg",
           "opening_hours:signed": "no",
           "ref:FR:SIRET": "53159116200015",
@@ -3903,16 +3904,18 @@
         "lat": 48.874199,
         "lon": 2.3551019,
         "tags": {
-          "check_date": "2026-03-15",
+          "check_date": "2026-09-23",
           "check_date:opening_hours": "2026-03-15",
           "contact:city": "Paris",
           "contact:housenumber": "93",
+          "contact:instagram": "urbanbakeryfamily",
           "contact:postcode": "75010",
           "contact:street": "Rue du Faubourg Saint-Denis",
           "indoor_seating": "no",
           "name": "Urban Bakery",
           "opening_hours": "Mo-Su 07:00-20:00",
           "outdoor_seating": "no",
+          "phone": "+331 42 63 04 48",
           "ref:FR:SIRET": "89915124500029",
           "shop": "bakery",
           "takeaway": "only"
@@ -7226,6 +7229,7 @@
           "addr:street": "Rue du Château d'Eau",
           "check_date": "2025-06-23",
           "contact:website": "https://www.lesresistants.fr/",
+          "email": "contact@lesresistants.fr",
           "name": "Les Résistants",
           "opening_hours": "Mo 12:00-15:00,16:00-20:00; Tu-Sa 10:00-20:00; Su 09:30-14:00",
           "ref:FR:SIRET": "90927259300015",
@@ -7579,6 +7583,16 @@
           "contact:postcode": "75010",
           "contact:street": "Rue du Faubourg Saint-Martin",
           "name": "F L’Épicerie",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13093015891,
+        "lat": 48.8692104,
+        "lon": 2.3601441,
+        "tags": {
+          "name": "Roy Exotique",
           "shop": "convenience"
         }
       },
@@ -8281,6 +8295,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-24T08:59:56.731Z",
+  "fetchedAt": "2026-09-25T09:23:07.096Z",
   "staleDataWarning": false
 }

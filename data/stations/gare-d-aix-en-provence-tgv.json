@@ -157,7 +157,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790241420226,
+      "timestamp": 1790329344623,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -177,8 +177,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-15T03:30:33Z",
-        "osm_date": "2026-09-07T00:00:04Z"
+        "graph_date": "2026-09-20T06:31:34Z",
+        "osm_date": "2026-09-13T23:59:59Z"
       }
     }
   },
@@ -231,6 +231,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-24T08:59:56.731Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-25T09:23:07.096Z",
+  "staleDataWarning": true
 }

@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790154628766,
+      "timestamp": 1790328650069,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -257,8 +257,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-15T03:30:33Z",
-        "osm_date": "2026-09-07T00:00:04Z"
+        "graph_date": "2026-09-20T06:31:34Z",
+        "osm_date": "2026-09-13T23:59:59Z"
       }
     }
   },
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-24T09:02:33Z",
+      "timestamp_osm_base": "2026-09-25T09:32:10Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1069,6 +1069,7 @@
           "contact:street": "Rue Général Leclerc de Hauteclocque",
           "contact:website": "https://www.siloe-nantes.fr",
           "description": "Librairie généraliste spécialisée dans la littérature religieuse, le christianisme et les grandes traditions.",
+          "email": "librairie@siloe-angers.fr",
           "name": "Librairie Siloë",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 09:30-19:00",
           "ref:FR:SIRET": "85780061900044",
@@ -2472,6 +2473,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-24T08:59:56.731Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-25T09:23:07.096Z",
+  "staleDataWarning": false
 }

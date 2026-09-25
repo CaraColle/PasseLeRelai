@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790240409600,
+      "timestamp": 1790328207416,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -257,8 +257,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-15T03:30:33Z",
-        "osm_date": "2026-09-07T00:00:04Z"
+        "graph_date": "2026-09-20T06:31:34Z",
+        "osm_date": "2026-09-13T23:59:59Z"
       }
     }
   },
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-22T08:45:51Z",
+      "timestamp_osm_base": "2026-09-25T09:28:04Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1506,10 +1506,14 @@
         "lat": 48.8556271,
         "lon": 2.3576313,
         "tags": {
+          "addr:housenumber": "1",
+          "addr:street": "Rue Tiron",
+          "check_date": "2026-09-24",
+          "check_date:opening_hours": "2026-09-24",
           "facebook": "https://www.facebook.com/aupetitversaillesdumarais/",
           "indoor_seating": "yes",
           "name": "Au petit Versailles du Marais",
-          "opening_hours": "Mo-Sa 08:00-20:00",
+          "opening_hours": "Mo-Sa 07:00-20:00",
           "outdoor_seating": "sidewalk",
           "shop": "bakery"
         }
@@ -4053,6 +4057,7 @@
         "tags": {
           "books": "antiquarian",
           "contact:phone": "+33 1 47 07 40 60",
+          "email": "librairie@hatchuel.com",
           "name": "Patrick Hatchuel",
           "opening_hours": "Mo-Fr 10:00-13:00,14:00-19:00 \"on appointment\"",
           "ref:FR:SIRET": "33160426400027",
@@ -4393,6 +4398,20 @@
           "opening_hours": "Mo-Sa 06:30-20:30",
           "shop": "bakery",
           "source": "survey"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14206821101,
+        "lat": 48.8559999,
+        "lon": 2.356568,
+        "tags": {
+          "addr:housenumber": "28",
+          "addr:postcode": "75005",
+          "addr:street": "Rue du Pont Louis-Philippe",
+          "name": "Fu Castella",
+          "shop": "bakery",
+          "website": "https://www.fucastella.com/"
         }
       },
       {
@@ -4889,6 +4908,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-24T08:59:56.731Z",
+  "fetchedAt": "2026-09-25T09:23:07.096Z",
   "staleDataWarning": false
 }

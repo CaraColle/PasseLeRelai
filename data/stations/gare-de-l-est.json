@@ -257,8 +257,8 @@
                 48.881748
               ],
               [
-                2.363203,
-                48.882637
+                2.363196,
+                48.882625
               ],
               [
                 2.361974,
@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790240397893,
+      "timestamp": 1790328188505,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -313,8 +313,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-15T03:30:33Z",
-        "osm_date": "2026-09-07T00:00:04Z"
+        "graph_date": "2026-09-20T06:31:34Z",
+        "osm_date": "2026-09-13T23:59:59Z"
       }
     }
   },
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-24T08:58:04Z",
+      "timestamp_osm_base": "2026-09-25T09:26:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1604,7 +1604,8 @@
           "check_date": "2025-10-25",
           "name": "La gamine de Paname",
           "opening_hours": "Mo-Sa 07:00-20:00",
-          "shop": "bakery"
+          "shop": "bakery",
+          "wheelchair": "yes"
         }
       },
       {
@@ -8483,6 +8484,7 @@
           "addr:street": "Rue du Château d'Eau",
           "check_date": "2025-06-23",
           "contact:website": "https://www.lesresistants.fr/",
+          "email": "contact@lesresistants.fr",
           "name": "Les Résistants",
           "opening_hours": "Mo 12:00-15:00,16:00-20:00; Tu-Sa 10:00-20:00; Su 09:30-14:00",
           "ref:FR:SIRET": "90927259300015",
@@ -8880,6 +8882,16 @@
           "contact:postcode": "75010",
           "contact:street": "Rue du Faubourg Saint-Martin",
           "name": "F L’Épicerie",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13093015891,
+        "lat": 48.8692104,
+        "lon": 2.3601441,
+        "tags": {
+          "name": "Roy Exotique",
           "shop": "convenience"
         }
       },
@@ -9612,6 +9624,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-24T08:59:56.731Z",
+  "fetchedAt": "2026-09-25T09:23:07.096Z",
   "staleDataWarning": false
 }

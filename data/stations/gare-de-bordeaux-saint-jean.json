@@ -10,7 +10,7 @@
       -0.565181,
       44.819319,
       -0.548486,
-      44.831554
+      44.831531
     ],
     "features": [
       {
@@ -83,16 +83,12 @@
                 44.828824
               ],
               [
-                -0.558495,
-                44.828474
+                -0.557576,
+                44.828603
               ],
               [
-                -0.559541,
-                44.828104
-              ],
-              [
-                -0.559682,
-                44.828026
+                -0.559678,
+                44.828024
               ],
               [
                 -0.56021,
@@ -117,8 +113,8 @@
           "coordinates": [
             [
               [
-                -0.564747,
-                44.828885
+                -0.564661,
+                44.828865
               ],
               [
                 -0.565055,
@@ -193,32 +189,24 @@
                 44.831442
               ],
               [
-                -0.558753,
-                44.831554
+                -0.558855,
+                44.831531
               ],
               [
-                -0.558927,
-                44.831539
+                -0.558953,
+                44.831517
               ],
               [
-                -0.561321,
-                44.83116
+                -0.561344,
+                44.831161
               ],
               [
-                -0.561448,
-                44.831106
+                -0.564582,
+                44.829217
               ],
               [
-                -0.563259,
-                44.83007
-              ],
-              [
-                -0.564668,
-                44.829236
-              ],
-              [
-                -0.564747,
-                44.828885
+                -0.564661,
+                44.828865
               ]
             ]
           ],
@@ -229,7 +217,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790154828422,
+      "timestamp": 1790328831906,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -249,8 +237,8 @@
       "engine": {
         "version": "9.10.0",
         "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-15T03:30:33Z",
-        "osm_date": "2026-09-07T00:00:04Z"
+        "graph_date": "2026-09-20T06:31:34Z",
+        "osm_date": "2026-09-13T23:59:59Z"
       }
     }
   },
@@ -258,7 +246,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-24T09:06:29Z",
+      "timestamp_osm_base": "2026-09-25T09:34:16Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1557,6 +1545,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-24T08:59:56.731Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-25T09:23:07.096Z",
+  "staleDataWarning": false
 }
