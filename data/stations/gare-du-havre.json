@@ -242,7 +242,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-25T09:38:20Z",
+      "timestamp_osm_base": "2026-05-31T22:37:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -276,6 +276,29 @@
           "name": "Midi Minuit Alimentation",
           "ref:FR:SIRET": "83909184000018",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1866999903,
+        "lat": 49.4952948,
+        "lon": 0.1121731,
+        "tags": {
+          "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1867204651,
+        "lat": 49.4923187,
+        "lon": 0.1246312,
+        "tags": {
+          "amenity": "restaurant",
+          "brand": "Marie Blachère",
+          "brand:wikidata": "Q62082410",
+          "brand:wikipedia": "fr:Marie Blachère",
+          "name": "Marie Blachère",
+          "shop": "bakery"
         }
       },
       {
@@ -589,7 +612,7 @@
           "addr:postcode": "76600",
           "addr:street": "Rue Casimir Delavigne",
           "name": "EpiCenter",
-          "opening_hours": "Tu-Su 09:00-24:00, Mo 10:00-24:00",
+          "opening_hours": "Mo-Su 10:00-00:00",
           "ref:FR:SIRET": "84392638700013",
           "shop": "convenience",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2014"
@@ -621,7 +644,6 @@
           "addr:housenumber": "7",
           "addr:postcode": "76600",
           "addr:street": "Cours de la République",
-          "check_date": "2026-09-03",
           "name": "Au fournil de la gare",
           "opening_hours": "Mo-Fr",
           "ref:FR:SIRET": "48196020100012",
@@ -714,6 +736,15 @@
       },
       {
         "type": "node",
+        "id": 6185591409,
+        "lat": 49.4931049,
+        "lon": 0.1394093,
+        "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 6185591437,
         "lat": 49.4931188,
         "lon": 0.1391115,
@@ -784,16 +815,15 @@
         "lat": 49.4937018,
         "lon": 0.123965,
         "tags": {
-          "contact:city": "Le Havre",
+          "addr:city": "Le Havre",
+          "addr:housenumber": "17",
+          "addr:postcode": "76600",
+          "addr:street": "Allée Aimé Césaire",
           "contact:email": "hatch@galeriedulivre.fr",
-          "contact:housenumber": "17",
-          "contact:instagram": "hatchgaleriedulivre",
-          "contact:postcode": "76600",
-          "contact:street": "Allée Aimé Césaire",
-          "contact:website": "https://galeriedulivre.fr/",
           "name": "Hatch",
-          "opening_hours": "We-Sa 11:00-18:00",
-          "shop": "books"
+          "opening_hours": "Tu-Sa 11:00-19:00",
+          "shop": "books",
+          "website": "https://galeriedulivre.fr/"
         }
       },
       {
@@ -961,18 +991,33 @@
       },
       {
         "type": "node",
+        "id": 11540729308,
+        "lat": 49.4973435,
+        "lon": 0.1112912,
+        "tags": {
+          "addr:city": "Le Havre",
+          "addr:housenumber": "1",
+          "addr:place": "Place Thiers",
+          "addr:postcode": "76600",
+          "cheese": "yes",
+          "contact:facebook": "https://www.facebook.com/p/Les-ins%C3%A9parables-LH-100083831117505",
+          "name": "Les Inséparables",
+          "ref:FR:SIRET": "91874020000020",
+          "shop": "bakery",
+          "website": "https://www.placeomarche.fr/artisans/les-inseparables-concept-2-en-1-la-boulangerie"
+        }
+      },
+      {
+        "type": "node",
         "id": 11794042262,
-        "lat": 49.4961243,
-        "lon": 0.1121231,
+        "lat": 49.4960086,
+        "lon": 0.1118835,
         "tags": {
           "addr:city": "Le Havre",
           "addr:country": "FR",
-          "addr:floor": "Niveau 1",
           "addr:housenumber": "22",
           "addr:postcode": "76600",
           "addr:street": "Rue Casimir Périer",
-          "check_date": "2026-09-19",
-          "level": "0",
           "name": "Maison Yvonne",
           "opening_hours": "Mo-Sa 09:30-19:30",
           "ref:FR:SIRET": "52377604500123",
@@ -1042,7 +1087,7 @@
           "amenity": "restaurant",
           "brand": "Marie Blachère",
           "brand:wikidata": "Q62082410",
-          "check_date": "2026-09-16",
+          "fixme": "toujours là ? (aucun trace sur le website)",
           "indoor": "room",
           "level": "0",
           "name": "Marie Blachère",
@@ -1063,6 +1108,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-25T09:23:07.096Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-26T09:07:30.351Z",
+  "staleDataWarning": true
 }
