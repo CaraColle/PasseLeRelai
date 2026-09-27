@@ -245,7 +245,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790329337250,
+      "timestamp": 1790503333776,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-15T15:22:01Z",
+      "timestamp_osm_base": "2026-09-27T10:05:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -446,7 +446,7 @@
           "brand": "CocciMarket",
           "brand:wikidata": "Q17561658",
           "name": "CocciMarket",
-          "opening_hours": "Mo-Sa 08:00-21:00, Su 09:00-21:00",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-21:00",
           "phone": "+33 4 11 83 45 88",
           "shop": "convenience"
         }
@@ -634,7 +634,7 @@
           "brand:wikidata": "Q7937525",
           "brand:wikipedia": "en:Vival (shop)",
           "name": "Vival",
-          "opening_hours": "Mo-Sa 08:00,12:00-16:00,19:30",
+          "opening_hours": "Mo-Sa 08:00-12:00,16:00-19:30",
           "phone": "+33 9 62 64 60 13",
           "shop": "convenience",
           "website": "https://www.vival.fr/"
@@ -924,7 +924,7 @@
         "lon": 4.3506667,
         "tags": {
           "name": "Le Pantel",
-          "opening_hours": "Mo-Th 06:00-20:30, Fr-Sa 06:00-21:00, Su 07:00-13:00",
+          "opening_hours": "Mo-Th 06:00-20:30; Fr-Sa 06:00-21:00; Su 07:00-13:00",
           "shop": "kiosk"
         }
       },
@@ -959,16 +959,6 @@
       },
       {
         "type": "node",
-        "id": 3714328124,
-        "lat": 43.8261866,
-        "lon": 4.3619295,
-        "tags": {
-          "name": "Épicerie solidaire",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 3942035389,
         "lat": 43.8192797,
         "lon": 4.350901,
@@ -978,8 +968,10 @@
           "brand:wikipedia": "fr:Marie Blachère",
           "check_date": "2025-06-10",
           "name": "Marie Blachère",
+          "phone": "+33 4 66 67 04 21",
           "ref:FR:SIRET": "47845579300396",
-          "shop": "bakery"
+          "shop": "bakery",
+          "website": "https://boulangeries.marieblachere.com/fr/france-FR/5049/marie-blachere-nimes/details"
         }
       },
       {
@@ -1088,22 +1080,6 @@
       },
       {
         "type": "node",
-        "id": 5672328594,
-        "lat": 43.8366382,
-        "lon": 4.3647904,
-        "tags": {
-          "addr:city": "Nîmes",
-          "addr:housenumber": "27",
-          "addr:postcode": "30000",
-          "addr:street": "Rue Roussy",
-          "name": "Mille Feuilles et Macarons",
-          "phone": "+33 4 66 29 87 84",
-          "ref:FR:SIRET": "79004322800036",
-          "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
         "id": 5949178010,
         "lat": 43.832977,
         "lon": 4.3590936,
@@ -1153,10 +1129,10 @@
           "brand": "Vival",
           "brand:wikidata": "Q7937525",
           "name": "Vival",
-          "opening_hours": "Mo-Fr 07:30-12:15,15:30-19:00; Sa 07:30-12:15; Su 09:00-12:00",
+          "opening_hours": "Mo-Fr 08:30-12:30,16:00-19:00; Sa-Su 08:30-13:00",
           "phone": "+33 4 66 23 21 02",
           "shop": "convenience",
-          "website": "https://www.vival.fr/"
+          "website": "https://vival.casino.fr/stores/tf179/nimes-16-rue-de-sauve"
         }
       },
       {
@@ -1196,16 +1172,6 @@
       },
       {
         "type": "node",
-        "id": 7092632939,
-        "lat": 43.8268814,
-        "lon": 4.3638313,
-        "tags": {
-          "name": "Tour Alimentation",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 7192331991,
         "lat": 43.8318055,
         "lon": 4.3514672,
@@ -1235,7 +1201,7 @@
           "addr:postcode": "30000",
           "addr:street": "Boulevard du Sergent Triaire",
           "name": "24 Cityshop",
-          "opening_hours": "24h/24 7J/7",
+          "opening_hours": "24/7",
           "shop": "convenience"
         }
       },
@@ -1312,7 +1278,7 @@
           "addr:street": "Rue Pasteur",
           "description": "Boissons à emporter, Parking, Pain aux céréales, Pain de seigle, Pain au levain, Pain complet, Pain bio, Pain de mie.",
           "name": "Au fournil nîmois",
-          "opening_hours": "Mo-Fr 06:30-19:30, Sa 06:30-12:30",
+          "opening_hours": "Mo-Fr 06:30-19:30; Sa 06:30-12:30",
           "phone": "+33 4 66 21 79 09",
           "shop": "bakery",
           "website": "https://www.facebook.com/Au-Fournil-N%C3%AEmois-317631821720664"
@@ -1595,7 +1561,7 @@
           "addr:postcode": "30000",
           "addr:street": "Rue Vincent Faïta",
           "name": "Masa Mama",
-          "opening_hours": "tu-fr 08:30-19:00 sa 08:30-13:30",
+          "opening_hours": "Tu-Fr 08:30-19:00; Sa 08:30-13:30",
           "phone": "+33951624683",
           "ref:FR:SIRET": "90066966400022",
           "shop": "bakery"
@@ -1701,6 +1667,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-26T09:07:30.351Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-27T09:49:15.721Z",
+  "staleDataWarning": false
 }

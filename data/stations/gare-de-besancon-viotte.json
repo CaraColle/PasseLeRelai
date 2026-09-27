@@ -261,7 +261,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790414760610,
+      "timestamp": 1790503803395,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -290,7 +290,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-26T09:26:06Z",
+      "timestamp_osm_base": "2026-09-27T10:11:04Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1416,16 +1416,6 @@
       },
       {
         "type": "node",
-        "id": 9779595527,
-        "lat": 47.2406762,
-        "lon": 6.0188744,
-        "tags": {
-          "name": "Les Épices du Comté",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 9832474661,
         "lat": 47.2537304,
         "lon": 6.0168735,
@@ -1613,6 +1603,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-26T09:07:30.351Z",
+  "fetchedAt": "2026-09-27T09:49:15.721Z",
   "staleDataWarning": false
 }
