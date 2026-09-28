@@ -217,7 +217,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790502858445,
+      "timestamp": 1790592436954,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -246,7 +246,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-27T09:56:00Z",
+      "timestamp_osm_base": "2026-09-28T10:50:24Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -593,10 +593,17 @@
         "lat": 44.8394587,
         "lon": -0.5706539,
         "tags": {
+          "addr:floor": "0",
           "addr:housenumber": "11",
           "addr:street": "Rue des Bahutiers",
-          "check_date": "2025-07-16",
+          "check_date": "2026-09-27",
+          "level": "0",
           "name": "GLLM - Guillaume",
+          "opening_hours": "08:00-20:00",
+          "payment:cash": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "793798646",
           "ref:FR:SIRET": "79379864600048",
@@ -1545,6 +1552,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-27T09:49:15.721Z",
+  "fetchedAt": "2026-09-28T10:35:08.423Z",
   "staleDataWarning": false
 }

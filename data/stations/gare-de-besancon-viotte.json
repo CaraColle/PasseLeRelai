@@ -261,7 +261,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790503803395,
+      "timestamp": 1790593637823,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -290,7 +290,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-27T10:11:04Z",
+      "timestamp_osm_base": "2026-09-28T11:08:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1273,6 +1273,7 @@
           "addr:postcode": "25000",
           "addr:street": "Rue François-Louis Bersot",
           "name": "Mine de rien",
+          "opening_hours": "We-Sa 10:00-19:00",
           "shop": "books"
         }
       },
@@ -1603,6 +1604,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-27T09:49:15.721Z",
+  "fetchedAt": "2026-09-28T10:35:08.423Z",
   "staleDataWarning": false
 }

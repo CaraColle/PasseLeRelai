@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790502556590,
+      "timestamp": 1790591709287,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-27T09:47:51Z",
+      "timestamp_osm_base": "2026-09-28T10:34:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3977,15 +3977,19 @@
         "lat": 48.8738117,
         "lon": 2.3512232,
         "tags": {
-          "check_date": "2025-09-04",
+          "check_date": "2026-09-27",
+          "check_date:opening_hours": "2026-09-27",
           "contact:city": "Paris",
           "contact:housenumber": "30",
           "contact:postcode": "75010",
           "contact:street": "Rue des Petites-Écuries",
           "name": "Easy Goo",
+          "opening_hours": "Tu-Sa 09:00-02:00; Mo 09:00-01:00; Su 12:00-00:00",
+          "phone": "+331 53 62 07 33",
           "ref:FR:SIRET": "89797178400011",
           "shop": "convenience",
           "source": "survey:16-01-28",
+          "website": "https://tteasygoo.com/",
           "wheelchair": "no"
         }
       },
@@ -9625,6 +9629,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-27T09:49:15.721Z",
+  "fetchedAt": "2026-09-28T10:35:08.423Z",
   "staleDataWarning": false
 }
