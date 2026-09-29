@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-28T10:45:20Z",
+      "timestamp_osm_base": "2026-09-29T10:33:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1538,7 +1538,7 @@
         "lat": 47.2166452,
         "lon": -1.5468813,
         "tags": {
-          "check_date": "2025-12-31",
+          "check_date": "2026-09-29",
           "contact:housenumber": "1",
           "contact:street": "Place de la Duchesse Anne",
           "level": "0",
@@ -1546,7 +1546,8 @@
           "opening_hours": "Mo-Fr 07:00-20:00; Sa 09:00-20:00",
           "phone": "+33 2 40 29 48 98",
           "shop": "kiosk",
-          "tobacco": "yes"
+          "tobacco": "yes",
+          "wheelchair": "yes"
         }
       },
       {
@@ -2285,7 +2286,7 @@
         "lon": -1.5459831,
         "tags": {
           "books": "comic;manga",
-          "check_date:opening_hours": "2026-06-07",
+          "check_date:opening_hours": "2026-09-29",
           "contact:email": "lacabaneabulles.nantes@gmail.com",
           "contact:housenumber": "17",
           "contact:instagram": "lacabaneabulles.nantes",
@@ -2297,7 +2298,8 @@
           "opening_hours:signed": "no",
           "ref:FR:SIRET": "35247508100019",
           "second_hand": "only",
-          "shop": "books"
+          "shop": "books",
+          "wheelchair": "no"
         }
       },
       {
@@ -2474,6 +2476,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-28T10:35:08.423Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-09-29T10:24:35.813Z",
+  "staleDataWarning": true
 }
