@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790591828389,
+      "timestamp": 1790763559359,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-29T10:32:01Z",
+      "timestamp_osm_base": "2026-09-30T10:20:09Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2297,7 +2297,8 @@
           "contact:housenumber": "15",
           "contact:street": "Rue Denfert-Rochereau",
           "level": "0",
-          "name": "Ytang",
+          "name": "Thong Minh Market",
+          "opening_hours": "Mo-Sa 09:00-19:30",
           "origin": "asian",
           "phone": "+33 5 67 11 08 04",
           "shop": "convenience"
@@ -2508,6 +2509,7 @@
           "contact:housenumber": "6",
           "contact:street": "Rue Denfert-Rochereau",
           "name": "Bangla Bazar",
+          "opening_hours": "Mo-Su 10:00-22:00",
           "phone": "+33562809636",
           "ref:FR:SIRET": "91421546200013",
           "shop": "convenience"
@@ -3017,6 +3019,7 @@
           "contact:housenumber": "18",
           "contact:street": "Rue de Bayard",
           "name": "Alimentation Balkanique",
+          "opening_hours": "Mo-Sa 10:00-18:30; Su 10:00-14:00",
           "outdoor_seating": "yes",
           "ref:FR:SIRET": "82502085200026",
           "shop": "convenience"
@@ -3245,7 +3248,8 @@
         "lat": 43.6080435,
         "lon": 1.4489575,
         "tags": {
-          "name": "Thông Minh Market",
+          "name": "Thông Minh Market 2",
+          "opening_hours": "Mo-Sa 09:00-19:30",
           "origin": "asian",
           "shop": "convenience"
         }
@@ -3432,6 +3436,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-29T10:24:35.813Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-30T10:17:20.748Z",
+  "staleDataWarning": false
 }

@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790592080291,
+      "timestamp": 1790763624719,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-29T10:33:01Z",
+      "timestamp_osm_base": "2026-09-30T10:24:13Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1595,8 +1595,14 @@
         "lat": 47.2171539,
         "lon": -1.5456128,
         "tags": {
+          "check_date": "2026-09-29",
+          "check_date:opening_hours": "2026-09-29",
+          "contact:housenumber": "15 bis",
+          "contact:street": "Allée Commandant Charcot",
           "name": "Bangla bazar",
-          "shop": "convenience"
+          "opening_hours:signed": "no",
+          "shop": "convenience",
+          "wheelchair": "yes"
         }
       },
       {
@@ -1712,6 +1718,22 @@
           "second_hand": "yes",
           "shop": "books",
           "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6010488589,
+        "lat": 47.2174081,
+        "lon": -1.5449821,
+        "tags": {
+          "check_date": "2026-09-29",
+          "contact:facebook": "Les-saveurs-indiennes-100064270080101",
+          "name": "Les saveurs Indiennes",
+          "opening_hours:signed": "no",
+          "ref:FR:SIRET": "82915073900029",
+          "shop": "convenience",
+          "was:craft": "electronics_repair",
+          "was:name": "Multi presse"
         }
       },
       {
@@ -2476,6 +2498,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-29T10:24:35.813Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-09-30T10:17:20.748Z",
+  "staleDataWarning": false
 }

@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790677476850,
+      "timestamp": 1790763441891,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-29T10:22:45Z",
+      "timestamp_osm_base": "2026-09-30T10:16:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -8179,8 +8179,18 @@
         "lat": 48.8769609,
         "lon": 2.3518357,
         "tags": {
-          "check_date": "2025-08-22",
+          "addr:city": "Paris",
+          "addr:housenumber": "59",
+          "addr:postcode": "75010",
+          "addr:street": "Rue de Chabrol",
+          "amenity": "post_office",
+          "check_date": "2026-09-29",
+          "check_date:opening_hours": "2026-09-29",
           "name": "AKM Exotique Market",
+          "opening_hours": "Tu-Th 10:30-00:00; Mo, Fr 10:30-23:30; Sa 11:00-00:00; Su 16:30-23:00",
+          "phone": "+33 98619983",
+          "post_office": "post_partner",
+          "post_office:brand": "Relais Pickup",
           "ref:FR:SIRET": "88529557600015",
           "shop": "convenience"
         }
@@ -9258,7 +9268,7 @@
         "lon": 2.3537715,
         "tags": {
           "check_date": "2026-07-21",
-          "name": "Alimentation Generale Julien",
+          "name": "Alimentation Générale Julien",
           "shop": "convenience"
         }
       },
@@ -9630,6 +9640,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-29T10:24:35.813Z",
+  "fetchedAt": "2026-09-30T10:17:20.748Z",
   "staleDataWarning": false
 }

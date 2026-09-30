@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790677476838,
+      "timestamp": 1790763441700,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-29T10:22:45Z",
+      "timestamp_osm_base": "2026-09-30T10:16:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2935,19 +2935,6 @@
       },
       {
         "type": "node",
-        "id": 7046303006,
-        "lat": 48.8555431,
-        "lon": 2.3713995,
-        "tags": {
-          "delivery": "only",
-          "description": "dark store",
-          "name": "Flink",
-          "note": "à tagguer comme entrepôt ? cf. https://www.banquedesterritoires.fr/dark-stores-le-conseil-detat-donne-raison-la-ville-de-paris",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 7343211161,
         "lat": 48.8585642,
         "lon": 2.3833068,
@@ -4842,6 +4829,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-29T10:24:35.813Z",
+  "fetchedAt": "2026-09-30T10:17:20.748Z",
   "staleDataWarning": false
 }
