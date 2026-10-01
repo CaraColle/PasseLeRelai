@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790763441891,
+      "timestamp": 1790851414694,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-09-30T10:16:05Z",
+      "timestamp_osm_base": "2026-10-01T10:45:50Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1088,7 +1088,7 @@
         "lat": 48.874744,
         "lon": 2.3554806,
         "tags": {
-          "check_date": "2023-04-22",
+          "check_date": "2026-09-29",
           "contact:city": "Paris",
           "contact:housenumber": "101",
           "contact:instagram": "patisseriemrjacques",
@@ -4070,7 +4070,7 @@
         "lat": 48.8765152,
         "lon": 2.3567208,
         "tags": {
-          "check_date": "2024-08-25",
+          "check_date": "2026-09-29",
           "chocolate": "no",
           "name": "Pains d'Amis",
           "opening_hours": "Mo-Su 06:00-22:00",
@@ -4512,7 +4512,7 @@
         "lat": 48.8777522,
         "lon": 2.3561944,
         "tags": {
-          "check_date": "2024-06-23",
+          "check_date": "2026-09-29",
           "contact:city": "Paris",
           "contact:housenumber": "139",
           "contact:postcode": "75010",
@@ -6224,6 +6224,7 @@
         "lat": 48.8775653,
         "lon": 2.3561398,
         "tags": {
+          "check_date": "2026-09-29",
           "name": "Satkora",
           "ref:FR:SIRET": "92943964400014",
           "shop": "convenience",
@@ -9640,6 +9641,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-09-30T10:17:20.748Z",
+  "fetchedAt": "2026-10-01T10:43:33.808Z",
   "staleDataWarning": false
 }
