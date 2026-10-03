@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790851827065,
+      "timestamp": 1791020581391,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-02T10:28:20Z",
+      "timestamp_osm_base": "2026-10-03T09:42:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2182,10 +2182,12 @@
           "brand:wikidata": "Q2904039",
           "brand:wikipedia": "fr:Biocoop",
           "bulk_purchase": "yes",
-          "check_date": "2024-10-26",
+          "check_date": "2026-09-30",
+          "check_date:opening_hours": "2026-09-21",
           "contact:city": "Nantes",
-          "contact:facebook": "https://www.facebook.com/Biocoop.nantescitedescongres",
+          "contact:facebook": "Biocoop.nantescitedescongres",
           "contact:housenumber": "20",
+          "contact:instagram": "biocoop.nantescitedescongres",
           "contact:phone": "+33 2 28 29 10 38",
           "contact:postcode": "44000",
           "contact:street": "Rue De Mayence",
@@ -2498,6 +2500,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-02T10:18:48.929Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-03T09:40:37.138Z",
+  "staleDataWarning": false
 }

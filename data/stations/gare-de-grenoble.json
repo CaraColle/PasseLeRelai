@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790852527571,
+      "timestamp": 1791020864397,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-02T10:38:25Z",
+      "timestamp_osm_base": "2026-10-03T09:52:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -258,6 +258,8 @@
           "contact:street": "Rue Lakanal",
           "name": "Les Modernes",
           "opening_hours": "Tu-Sa 10:00-13:00,14:00-19:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "phone": "+33 4 76 27 41 50",
           "ref:FR:SIRET": "49839203400019",
           "ref:vatin": "FR72498392034",
@@ -321,6 +323,8 @@
           "check_date": "2026-07-07",
           "name": "Épicerie Plus",
           "opening_hours": "Mo-Su 10:00-13:00,16:00-22:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "ref:FR:SIRET": "43377789300010",
           "shop": "convenience",
           "source": "survey",
@@ -1685,7 +1689,7 @@
           "addr:postcode": "38000",
           "addr:street": "Rue Condillac",
           "bulk_purchase": "only",
-          "check_date": "2024-09-21",
+          "check_date": "2026-10-02",
           "currency:EUR": "yes",
           "currency:XLT": "CARN",
           "email": "labonnepioche38@posteo.net",
@@ -1735,6 +1739,8 @@
           "contact:street": "Rue de Turenne",
           "name": "Épicerie Arax",
           "opening_hours": "Tu-Sa 09:00-12:00, 15:00-19:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "phone": "+33 4 76 87 23 37",
           "ref:FR:SIRET": "81207038100015",
           "shop": "convenience",
@@ -1758,6 +1764,8 @@
           "description": "Librairie et Jeux",
           "name": "La Cabane des Renards",
           "opening_hours": "Tu-Sa 10:00-13:00,14:30-18:30; Sa 10:00-12:00,15:00-18:30",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "ref:FR:SIRET": "97915419200012",
           "shop": "books",
           "source": "survey"
@@ -2776,6 +2784,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-02T10:18:48.929Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-03T09:40:37.138Z",
+  "staleDataWarning": false
 }

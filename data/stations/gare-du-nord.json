@@ -281,7 +281,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790936329885,
+      "timestamp": 1791020438181,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -310,7 +310,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-01T10:44:49Z",
+      "timestamp_osm_base": "2026-10-03T09:39:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2329,7 +2329,8 @@
           "name": "Union",
           "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-15:00",
           "operator": "Maëva Manchon et Charles Ye",
-          "shop": "bakery"
+          "shop": "bakery",
+          "website": "https://unionboulangerie.com"
         }
       },
       {
@@ -5346,7 +5347,7 @@
         "lon": 2.3510224,
         "tags": {
           "addr:floor": "0",
-          "check_date": "2026-07-22",
+          "check_date": "2026-10-02",
           "check_date:opening_hours": "2026-05-04",
           "contact:website": "https://mon-marche.fr",
           "level": "0",
@@ -8311,6 +8312,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-02T10:18:48.929Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-03T09:40:37.138Z",
+  "staleDataWarning": false
 }

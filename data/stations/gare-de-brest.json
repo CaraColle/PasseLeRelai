@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790852993297,
+      "timestamp": 1791021344540,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-02T10:44:36Z",
+      "timestamp_osm_base": "2026-10-03T09:57:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -299,18 +299,23 @@
           "brand": "La Mie Câline",
           "brand:wikidata": "Q3210704",
           "brand:wikipedia": "fr:La Mie câline",
+          "check_date": "2026-10-02",
           "check_date:opening_hours": "2025-09-18",
           "indoor_seating": "yes",
           "name": "La Mie Câline",
           "opening_hours": "Mo-Su 07:00-20:00",
           "outdoor_seating": "no",
-          "phone": "+33298801361",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 2 98 80 13 61",
           "ref:FR:NAF": "10.71B",
           "ref:FR:SIREN": "489660381",
           "ref:FR:SIRET": "48966038100018",
           "shop": "bakery",
           "source": "INSEE - 2025-06",
-          "website": "https://magasin.lamiecaline.com/magasin/brest-jean-jaures/146"
+          "website": "https://magasin.lamiecaline.com/magasin/brest-jean-jaures/146",
+          "wheelchair": "yes"
         }
       },
       {
@@ -489,8 +494,8 @@
         "tags": {
           "brand": "La Mie Câline",
           "brand:wikidata": "Q3210704",
-          "check_date": "2025-02-24",
-          "check_date:opening_hours": "2025-02-24",
+          "check_date": "2026-10-02",
+          "check_date:opening_hours": "2026-10-02",
           "contact:city": "Brest",
           "contact:facebook": "https://www.facebook.com/lamiecalinebrest/",
           "contact:housenumber": "5",
@@ -501,7 +506,7 @@
           "delivery:partner": "Uber Eats",
           "delivery:partner:wikidata": "Q21462723",
           "name": "La Mie Câline",
-          "opening_hours": "Mo-Fr 07:00-19:00; Sa,Su,PH 08:00-19:30",
+          "opening_hours": "Mo-Fr 07:00-19:30; Su 08:00-14:30; Sa off",
           "ref:FR:SIRET": "48965703100014",
           "shop": "bakery",
           "source": "survey",
@@ -1159,6 +1164,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-02T10:18:48.929Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-03T09:40:37.138Z",
+  "staleDataWarning": false
 }

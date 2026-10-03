@@ -321,7 +321,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1790853071314,
+      "timestamp": 1791021434146,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -350,7 +350,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-02T10:46:36Z",
+      "timestamp_osm_base": "2026-10-03T09:57:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1719,6 +1719,17 @@
         }
       },
       {
+        "type": "node",
+        "id": 14243882556,
+        "lat": 47.3927884,
+        "lon": 0.6802022,
+        "tags": {
+          "name": "Serpent de Lune",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "shop": "books"
+        }
+      },
+      {
         "type": "way",
         "id": 69796551,
         "center": {
@@ -1847,6 +1858,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-02T10:18:48.929Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-03T09:40:37.138Z",
+  "staleDataWarning": false
 }
