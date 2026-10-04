@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791020581391,
+      "timestamp": 1791109751950,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-03T09:42:05Z",
+      "timestamp_osm_base": "2026-10-04T10:30:45Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1952,14 +1952,15 @@
         "lat": 47.2123973,
         "lon": -1.5467796,
         "tags": {
+          "check_date": "2026-10-04",
+          "check_date:opening_hours": "2026-10-04",
           "contact:housenumber": "28",
           "contact:street": "Rue Fouré",
           "name": "maison régionale de l'architecture",
           "office": "association",
-          "opening_hours": "Jun 26-Sep 06: Tu-Su 13:00-19:00; Sep 06-Nov 28: Tu-Sa 14:00-18:00",
+          "opening_hours": "Tu-Fr 14:00-18:00",
           "ref:FR:SIRET": "48139397300047",
           "shop": "books",
-          "survey:date": "2024-06-25",
           "was:name": "Bionant’ Fouré",
           "was:shop": "greengrocer",
           "website": "https://www.ma-paysdelaloire.com/",
@@ -2182,8 +2183,8 @@
           "brand:wikidata": "Q2904039",
           "brand:wikipedia": "fr:Biocoop",
           "bulk_purchase": "yes",
-          "check_date": "2026-09-30",
-          "check_date:opening_hours": "2026-09-21",
+          "check_date": "2026-10-04",
+          "check_date:opening_hours": "2026-10-04",
           "contact:city": "Nantes",
           "contact:facebook": "Biocoop.nantescitedescongres",
           "contact:housenumber": "20",
@@ -2252,7 +2253,8 @@
         "lat": 47.2110681,
         "lon": -1.5453815,
         "tags": {
-          "check_date:opening_hours": "2025-09-20",
+          "check_date": "2026-10-04",
+          "check_date:opening_hours": "2026-10-04",
           "contact:city": "Nantes",
           "contact:email": "contact@boulangeriemata.fr",
           "contact:housenumber": "6",
@@ -2269,7 +2271,6 @@
           "produced_on_site": "yes",
           "ref:FR:SIRET": "91535306400016",
           "shop": "bakery",
-          "survey:date": "2025-09-20",
           "takeaway": "only",
           "wheelchair": "yes"
         }
@@ -2500,6 +2501,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-03T09:40:37.138Z",
+  "fetchedAt": "2026-10-04T10:24:52.388Z",
   "staleDataWarning": false
 }

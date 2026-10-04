@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791021344540,
+      "timestamp": 1791110382576,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-03T09:57:21Z",
+      "timestamp_osm_base": "2026-10-04T10:39:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -442,7 +442,8 @@
         "tags": {
           "air_conditioning": "yes",
           "automatic_door": "motion",
-          "check_date": "2026-08-27",
+          "check_date": "2026-10-03",
+          "check_date:diet:gluten_free": "2026-10-03",
           "contact:city": "Brest",
           "contact:facebook": "113748237159",
           "contact:housenumber": "4",
@@ -450,6 +451,7 @@
           "contact:postcode": "29200",
           "contact:street": "Rue Duquesne",
           "contact:twitter": "boulangeriebio",
+          "diet:gluten_free": "yes",
           "door": "sliding",
           "email": "contact@boulangerie.bio",
           "level": "0",
@@ -1164,6 +1166,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-03T09:40:37.138Z",
+  "fetchedAt": "2026-10-04T10:24:52.388Z",
   "staleDataWarning": false
 }

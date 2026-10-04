@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791020437875,
+      "timestamp": 1791109493359,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-03T09:39:05Z",
+      "timestamp_osm_base": "2026-10-04T10:23:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3267,7 +3267,7 @@
           "addr:street": "Rue Jeanne d'Arc",
           "brand": "So.bio",
           "brand:wikidata": "Q141195843",
-          "check_date": "2024-09-01",
+          "check_date": "2026-09-27",
           "name": "So.bio",
           "opening_hours": "Mo-Sa 09:30-20:30, Su 09:30-13:00",
           "operator": "So.bio",
@@ -4829,6 +4829,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-03T09:40:37.138Z",
+  "fetchedAt": "2026-10-04T10:24:52.388Z",
   "staleDataWarning": false
 }
