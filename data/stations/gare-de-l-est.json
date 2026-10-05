@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791109493975,
+      "timestamp": 1791198660101,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-04T10:25:36Z",
+      "timestamp_osm_base": "2026-10-05T11:12:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2215,10 +2215,16 @@
         "lat": 48.8769218,
         "lon": 2.3487061,
         "tags": {
-          "check_date": "2026-06-12",
+          "addr:floor": "0",
+          "addr:housenumber": "92",
+          "addr:street": "Rue La Fayette",
+          "check_date": "2026-10-04",
+          "level": "0",
           "name": "Le Fournil du Faubourg",
+          "opening_hours": "Tu-Sa 07:00-20:00; Su 07:30-19:00",
           "shop": "bakery",
-          "source": "survey:15-05-21"
+          "source": "survey:15-05-21",
+          "wheelchair": "no"
         }
       },
       {
@@ -2357,7 +2363,8 @@
           "check_date:opening_hours": "2026-09-29",
           "name": "Demain",
           "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-20:00",
-          "shop": "bakery"
+          "shop": "bakery",
+          "wheelchair": "yes"
         }
       },
       {
@@ -2978,7 +2985,7 @@
         "lat": 48.8772028,
         "lon": 2.350025,
         "tags": {
-          "check_date": "2026-03-29",
+          "check_date": "2026-10-04",
           "check_date:opening_hours": "2026-03-29",
           "contact:city": "Paris",
           "contact:facebook": "https://www.facebook.com/dimensionfantastique",
@@ -2991,7 +2998,7 @@
           "opening_hours": "Mo-Sa 11:00-19:00",
           "ref:FR:SIRET": "80845161100020",
           "shop": "books",
-          "wheelchair": "yes"
+          "wheelchair": "limited"
         }
       },
       {
@@ -9273,7 +9280,11 @@
         "lat": 48.875976,
         "lon": 2.3458783,
         "tags": {
-          "check_date": "2026-07-03",
+          "addr:floor": "0",
+          "addr:housenumber": "18",
+          "addr:street": "Rue Bleue",
+          "check_date": "2026-10-04",
+          "level": "0",
           "name": "Le Lys Bleu",
           "shop": "books"
         }
@@ -9657,6 +9668,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-04T10:24:52.388Z",
+  "fetchedAt": "2026-10-05T11:10:58.963Z",
   "staleDataWarning": false
 }

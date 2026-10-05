@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791109493673,
+      "timestamp": 1791198659902,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-04T10:23:36Z",
+      "timestamp_osm_base": "2026-10-05T11:11:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3785,6 +3785,7 @@
         "lat": 48.8490614,
         "lon": 2.3290227,
         "tags": {
+          "check_date": "2026-10-04",
           "name": "Secco",
           "opening_hours": "Mo-Sa 07:00-20:00; Jan 1,May 1 closed",
           "shop": "bakery",
@@ -4586,6 +4587,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-04T10:24:52.388Z",
+  "fetchedAt": "2026-10-05T11:10:58.963Z",
   "staleDataWarning": false
 }

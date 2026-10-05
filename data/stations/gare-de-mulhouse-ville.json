@@ -205,7 +205,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791110690469,
+      "timestamp": 1791200408020,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -234,7 +234,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-04T10:45:59Z",
+      "timestamp_osm_base": "2026-10-05T11:39:50Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -419,12 +419,14 @@
         "lat": 47.7487765,
         "lon": 7.3399885,
         "tags": {
-          "check_date": "2026-08-03",
+          "check_date": "2026-10-03",
+          "check_date:opening_hours": "2026-10-03",
           "contact:city": "Mulhouse",
           "contact:housenumber": "8B",
           "contact:postcode": "68100",
           "contact:street": "Rue du Moulin",
           "name": "47 degrés nord",
+          "opening_hours": "Mo-Sa 09:00-19:00",
           "ref:FR:SIRET": "75227561000026",
           "shop": "books",
           "website": "https://www.47degresnord.com/",
@@ -757,6 +759,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-04T10:24:52.388Z",
+  "fetchedAt": "2026-10-05T11:10:58.963Z",
   "staleDataWarning": false
 }
