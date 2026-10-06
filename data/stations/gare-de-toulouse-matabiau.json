@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-05T11:19:21Z",
+      "timestamp_osm_base": "2026-10-06T11:06:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1572,26 +1572,6 @@
           "shop": "bakery",
           "source": "survey",
           "takeaway": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2464788565,
-        "lat": 43.6014971,
-        "lon": 1.4403913,
-        "tags": {
-          "books": "comic",
-          "contact:housenumber": "5",
-          "contact:phone": "+33 5 62 27 23 49",
-          "contact:street": "Rue François Boyer-Fonfrède",
-          "email": "papivore.toulouse@gmail.com",
-          "name": "Le Papivore",
-          "opening_hours": "Tu-Sa 11:00-19:00",
-          "ref:FR:SIRET": "40076855200020",
-          "second_hand": "yes",
-          "shop": "books",
-          "source": "survey",
-          "website": "http://www.papivore-toulouse.fr/"
         }
       },
       {
@@ -3436,6 +3416,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-05T11:10:58.963Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-06T11:01:01.040Z",
+  "staleDataWarning": true
 }
