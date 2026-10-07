@@ -321,7 +321,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791286218033,
+      "timestamp": 1791371607492,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -350,7 +350,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-05T11:35:48Z",
+      "timestamp_osm_base": "2026-10-07T11:12:14Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -903,6 +903,17 @@
           "shop": "convenience",
           "source:opening_hours": "website",
           "website": "https://pleine-forme.net/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5429064321,
+        "lat": 47.3948813,
+        "lon": 0.6833954,
+        "tags": {
+          "name": "O'Shop World",
+          "note": "deménager au 71 de l'autre coté de la rue fin 2025 (novembre ou décembre)",
+          "shop": "convenience"
         }
       },
       {
@@ -1721,12 +1732,18 @@
       {
         "type": "node",
         "id": 14243882556,
-        "lat": 47.3927884,
-        "lon": 0.6802022,
+        "lat": 47.3927856,
+        "lon": 0.6802267,
         "tags": {
+          "contact:housenumber": "8",
+          "contact:instagram": "https://www.instagram.com/serpent_de_lune37/",
+          "contact:street": "Rue des Trois Écritoires",
+          "mobile": "+33 6 73 93 43 66",
           "name": "Serpent de Lune",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
-          "shop": "books"
+          "ref:FR:SIRET": "99262231600014",
+          "shop": "books",
+          "theme": "romance;fantasy"
         }
       },
       {
@@ -1858,6 +1875,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-06T11:01:01.040Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-07T10:51:07.770Z",
+  "staleDataWarning": false
 }
