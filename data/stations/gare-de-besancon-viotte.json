@@ -261,7 +261,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791371637094,
+      "timestamp": 1791458398815,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -290,7 +290,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-07T11:18:20Z",
+      "timestamp_osm_base": "2026-07-15T15:22:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -326,7 +326,7 @@
           "phone": "+33 3 63 35 03 65",
           "ref:FR:SIRET": "83960597900013",
           "shop": "convenience",
-          "website": "https://vival.casino.fr/fr/stores/e1378"
+          "website": "https://vival.casino.fr/stores/e1378"
         }
       },
       {
@@ -422,15 +422,15 @@
           "brand:website": "https://www.briochedoree.fr",
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche dorée",
-          "check_date:opening_hours": "2026-09-03",
+          "check_date:opening_hours": "2025-05-07",
           "contact:phone": "+33 3 81 82 21 40",
           "name": "Brioche Dorée",
           "official_name": "Brioche Dorée Besançon - 1, Place Du 8 Septembre",
-          "opening_hours": "Mo-Sa 07:30-19:30",
+          "opening_hours": "Mo-Sa 08:00-19:30",
           "operator": "Groupe Le Duff",
           "ref:FR:SIRET": "89884462600025",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/"
+          "website": "https://www.briochedoree.fr/restaurants/48-besancon-1-place-du-8-septembre"
         }
       },
       {
@@ -468,7 +468,7 @@
           "brand": "Fivel",
           "name": "La Fabuleuse Eclair",
           "opening_hours": "Tu-Sa 07:30-20:00",
-          "phone": "+33 3 81 48 02 99",
+          "phone": "+33381480299",
           "shop": "bakery"
         }
       },
@@ -875,10 +875,6 @@
         "lat": 47.236552,
         "lon": 6.0287907,
         "tags": {
-          "addr:city": "Besançon",
-          "addr:housenumber": "103",
-          "addr:postcode": "25000",
-          "addr:street": "Rue des Granges",
           "contact:email": "contact@pastaetpetitsplats.fr",
           "contact:facebook": "pastaetpetitsplats",
           "contact:instagram": "pastaetpetitsplats",
@@ -1272,8 +1268,6 @@
           "addr:housenumber": "31",
           "addr:postcode": "25000",
           "addr:street": "Rue François-Louis Bersot",
-          "name": "Mine de rien",
-          "opening_hours": "We-Sa 10:00-19:00",
           "shop": "books"
         }
       },
@@ -1311,8 +1305,8 @@
           "addr:postcode": "25000",
           "addr:street": "Rue des Granges",
           "name": "Le Bibliovore",
-          "opening_hours": "Tu,Fr 10:00-13:00,14:30-19:00; Th 14:30-19:00; Sa 10:00-19:00",
-          "phone": "+33 3 70 88 94 39",
+          "opening_hours": "Tu,Fr 10:00-13:00,14:30-19:00; Th 14:30-19:00; Sa 1à:00-19:00",
+          "phone": "+33370889439",
           "ref:FR:SIRET": "92098085100017",
           "shop": "books",
           "website": "https://www.lebibliovore.fr/",
@@ -1417,6 +1411,16 @@
       },
       {
         "type": "node",
+        "id": 9779595527,
+        "lat": 47.2406762,
+        "lon": 6.0188744,
+        "tags": {
+          "name": "Les Épices du Comté",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 9832474661,
         "lat": 47.2537304,
         "lon": 6.0168735,
@@ -1463,7 +1467,6 @@
         "lon": 6.0350915,
         "tags": {
           "name": "Maison Christe",
-          "opening_hours": "Tu-Sa 07:00-12:30,16:00-19:00; Su 07:00-12:30",
           "ref:FR:SIRET": "51372676000038",
           "shop": "bakery"
         }
@@ -1488,15 +1491,9 @@
         "lat": 47.2340258,
         "lon": 6.0272147,
         "tags": {
-          "addr:city": "Besançon",
-          "addr:housenumber": "32",
-          "addr:postcode": "25000",
-          "addr:street": "Rue Ronchaux",
           "check_date:opening_hours": "2024-05-07",
           "name": "À la page",
-          "opening_hours": "Mo-Fr 09:00-12:00,14:00-19:00; Sa 09:00-12:00,14:00-18:00",
           "opening_hours:signed": "no",
-          "phone": "+33 3 81 61 91 80",
           "ref:FR:SIRET": "34107656000018",
           "shop": "books"
         }
@@ -1594,16 +1591,15 @@
           "brand:wikidata": "Q7937525",
           "building": "retail",
           "name": "Vival",
-          "opening_hours": "Mo-Su 08:30-22:00",
           "phone": "+33 3 81 88 48 22",
           "ref:FR:SIRET": "52115811300022",
           "shop": "convenience",
           "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
-          "website": "https://vival.casino.fr/fr/stores/e1354"
+          "website": "https://vival.casino.fr/stores/e1354"
         }
       }
     ]
   },
-  "fetchedAt": "2026-10-07T10:51:07.770Z",
+  "fetchedAt": "2026-10-08T11:08:36.776Z",
   "staleDataWarning": false
 }

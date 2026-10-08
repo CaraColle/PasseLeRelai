@@ -301,7 +301,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791370279268,
+      "timestamp": 1791457720721,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -330,7 +330,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-07T10:52:54Z",
+      "timestamp_osm_base": "2026-10-08T11:08:02Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2623,7 +2623,10 @@
         "lon": 2.3188206,
         "tags": {
           "amenity": "fast_food",
-          "shop": "kiosk"
+          "indoor_seating": "no",
+          "outdoor_seating": "no",
+          "shop": "kiosk",
+          "takeaway": "only"
         }
       },
       {
@@ -2700,25 +2703,6 @@
           "name": "Sylvain Marie",
           "shop": "bakery",
           "survey:date": "2025-04-05"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7116649850,
-        "lat": 48.886908,
-        "lon": 2.3276738,
-        "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "2",
-          "addr:postcode": "75018",
-          "addr:street": "Rue Hégésippe Moreau",
-          "check_date": "2025-03-23",
-          "name": "La Vendimia d'Espagne",
-          "opening_hours": "Tu-Sa 10:00-14:00, 16:00-20:00",
-          "phone": "+33 1 60 36 57 03",
-          "ref:FR:SIRET": "80112163300029",
-          "shop": "convenience",
-          "website": "https://www.lavendimiadespagne.com/"
         }
       },
       {
@@ -4682,6 +4666,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-07T10:51:07.770Z",
+  "fetchedAt": "2026-10-08T11:08:36.776Z",
   "staleDataWarning": false
 }
