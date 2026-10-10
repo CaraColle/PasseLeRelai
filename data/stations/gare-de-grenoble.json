@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791544207229,
+      "timestamp": 1791628361142,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-07T11:07:11Z",
+      "timestamp_osm_base": "2026-10-10T10:32:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -900,6 +900,22 @@
           "survey:date": "2025-04-09",
           "toilets": "no",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2178484566,
+        "lat": 45.1871365,
+        "lon": 5.7119469,
+        "tags": {
+          "check_date": "2026-09-28",
+          "contact:housenumber": "11b",
+          "contact:street": "Rue Marx Dormoy",
+          "indoor_seating": "yes",
+          "name": "Meza Market",
+          "ref:FR:SIRET": "93526068700014",
+          "shop": "convenience",
+          "wheelchair": "no"
         }
       },
       {
@@ -1820,10 +1836,10 @@
           "branch": "Grenoble Vercors",
           "brand": "Vival",
           "brand:wikidata": "Q7937525",
-          "check_date": "2026-06-03",
-          "check_date:opening_hours": "2026-09-03",
+          "check_date": "2026-10-05",
+          "check_date:opening_hours": "2026-10-05",
           "name": "Vival",
-          "opening_hours": "Mo-Sa 08:00-19:00; Su 08:00-12:30,16:00-19:00",
+          "opening_hours": "Mo-Su 07:30-23:00",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -2784,6 +2800,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-09T11:07:35.046Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-10T10:25:15.834Z",
+  "staleDataWarning": false
 }

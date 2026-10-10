@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791544132168,
+      "timestamp": 1791628072692,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-08T11:11:20Z",
+      "timestamp_osm_base": "2026-07-28T02:16:18Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -619,6 +619,20 @@
       },
       {
         "type": "node",
+        "id": 599001308,
+        "lat": 43.607925,
+        "lon": 3.8739012,
+        "tags": {
+          "check_date": "2025-05-10",
+          "name": "Le Grain des Mots",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
+          "ref:FR:SIRET": "37935798100024",
+          "shop": "books",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
         "id": 599002150,
         "lat": 43.6066826,
         "lon": 3.8761383,
@@ -674,11 +688,44 @@
       },
       {
         "type": "node",
+        "id": 612094736,
+        "lat": 43.6087141,
+        "lon": 3.8764846,
+        "tags": {
+          "addr:housenumber": "1",
+          "addr:postcode": "34000",
+          "addr:street": "Rue Voltaire",
+          "contact:facebook": "entraitslibres",
+          "contact:instagram": "entraitslibres",
+          "email": "entraitslibres@gmail.com",
+          "name": "En Traits Libres",
+          "opening_hours": "Tu-Sa 11:00-20:00",
+          "phone": "+33 6 59 29 16 99",
+          "shop": "books",
+          "survey:date": "2023-04-27",
+          "website": "https://entraitslibres.wordpress.com/"
+        }
+      },
+      {
+        "type": "node",
         "id": 613529534,
         "lat": 43.6053397,
         "lon": 3.8838773,
         "tags": {
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 613529537,
+        "lat": 43.6054181,
+        "lon": 3.8839382,
+        "tags": {
+          "check_date": "2024-06-05",
+          "name": "Planch'a pain",
+          "name:fr": "Planch'a pain",
+          "ref:FR:SIRET": "84534514900015",
+          "shop": "bakery"
         }
       },
       {
@@ -734,15 +781,10 @@
         "lat": 43.605461,
         "lon": 3.8777004,
         "tags": {
-          "addr:housenumber": "7",
-          "addr:street": "Rue Durand",
-          "diet:vegan": "only",
           "name": "The Good Place",
-          "opening_hours": "Tu-Sa 10:00-12:00, 14:00-19:00",
-          "phone": "+33652240565",
+          "opening_hours": "Mo,Tu,Th-Sa 10:00-19:00; We 14:00-19:30",
           "ref:FR:SIRET": "92082666600017",
-          "shop": "convenience",
-          "website": "https://thegoodplacemtp.hiboutik.com/shop/"
+          "shop": "convenience"
         }
       },
       {
@@ -762,12 +804,12 @@
           "contact:phone": "+33 4 67 63 61 92",
           "indoor_seating": "yes",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Sa 08:00-19:00; Su 09:00-18:00",
+          "opening_hours": "Mo-Su 07:00-20:00",
           "outdoor_seating": "yes",
           "ref:FR:SIRET": "31890659101650",
           "shop": "bakery",
           "source": "survey 2015",
-          "website": "https://www.briochedoree.fr/",
+          "website": "https://www.briochedoree.fr/restaurants/17-montpellier-7-rue-des-loges",
           "wheelchair": "no"
         }
       },
@@ -789,11 +831,11 @@
           "entrance:step_count": "0",
           "entrance:width": "1.5",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-19:30",
+          "opening_hours": "Mo-Sa 07:30-19:00",
           "phone": "+33 4 67 58 00 20",
           "ref:FR:SIRET": "31890659101635",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/",
+          "website": "https://www.briochedoree.fr/restaurants/16-montpellier-c.cial-le-triangle",
           "wheelchair": "yes"
         }
       },
@@ -1216,13 +1258,13 @@
         "tags": {
           "brand": "Spar",
           "brand:wikidata": "Q610492",
-          "check_date:opening_hours": "2026-09-03",
+          "check_date:opening_hours": "2024-11-20",
           "name": "Spar",
-          "opening_hours": "Mo-Sa 08:30-12:30,15:30-19:30",
+          "opening_hours": "Mo-Sa 08:00-13:00,15:30-19:30",
           "operator": "Spar",
           "phone": "+33 4 67 85 73 04",
           "shop": "convenience",
-          "website": "https://spar.casino.fr/stores/e1236/montpellier-39-rue-de-l-acropole",
+          "website": "https://magasins.spar.fr/fr/s/spar-montpellier-place-faulquier",
           "wheelchair": "yes"
         }
       },
@@ -1283,10 +1325,9 @@
           "brand": "Spar",
           "brand:wikidata": "Q610492",
           "name": "Spar",
-          "opening_hours": "Mo-Sa 07:30-21:00; Su 09:00-21:00",
+          "opening_hours": "Mo-Sa 07:30-21:00; Su 09:00-13:00",
           "ref:FR:SIRET": "92814573900019",
           "shop": "convenience",
-          "website": "https://spar.casino.fr/stores/tl232/montpellier-28-boulevard-pasteur",
           "wheelchair": "yes"
         }
       },
@@ -1381,11 +1422,9 @@
         "tags": {
           "addr:housenumber": "1",
           "addr:street": "Boulevard de Strasbourg",
-          "instagram": "@boulangio",
           "name": "Boulan'Gio",
           "opening_hours": "Tu-Sa 10:00-19:00",
-          "shop": "bakery",
-          "survey:date": "2026-09-05"
+          "shop": "bakery"
         }
       },
       {
@@ -1977,11 +2016,11 @@
           "brand": "Spar",
           "brand:wikidata": "Q610492",
           "name": "Spar",
-          "opening_hours": "Mo-Sa 08:00-20:00",
+          "opening_hours": "Mo-Fr 08:00-19:00; Sa 09:00-19:00",
           "phone": "+33 4 67 02 13 27",
           "ref:FR:SIRET": "42826802341808",
           "shop": "convenience",
-          "website": "https://spar.casino.fr/stores/e3233/montpellier-4-place-du-marche-aux-fleurs"
+          "website": "https://magasins.spar.fr/fr/s/spar-marche-aux-fleurs"
         }
       },
       {
@@ -2102,7 +2141,6 @@
         "lat": 43.6089845,
         "lon": 3.8726726,
         "tags": {
-          "email": "librairie@l-opuscule.com",
           "name": "L'Opuscule",
           "opening_hours": "Tu-Sa 10:00-19:00",
           "phone": "+33 4 99 63 39 79",
@@ -2120,14 +2158,11 @@
         "lat": 43.6013716,
         "lon": 3.8922167,
         "tags": {
-          "addr:housenumber": "387",
-          "addr:street": "Rue du Moulin des Sept Cans",
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
-          "check_date": "2026-09-14",
+          "check_date": "2026-06-30",
           "check_date:opening_hours": "2026-06-30",
-          "contact:website": "https://magasins.utile-upf.fr/410-utile-montpellier-7-cans",
-          "name": "Utile 7 Cans",
+          "name": "Utile",
           "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-13:00, 16:00-20:00",
           "shop": "convenience",
           "wheelchair": "yes"
@@ -2314,8 +2349,6 @@
         "lat": 43.5959222,
         "lon": 3.8875912,
         "tags": {
-          "brand": "Festival des Pains",
-          "brand:wikidata": "Q3070334",
           "name": "Festival des pains",
           "opening_hours": "Mo,We-Fr 06:45-13:00; Sa,Su 07:00-12:30",
           "shop": "bakery",
@@ -2422,8 +2455,6 @@
         "lat": 43.6069305,
         "lon": 3.8865885,
         "tags": {
-          "brand": "La Panetière",
-          "brand:wikidata": "Q100712234",
           "contact:city": "Montpellier",
           "contact:housenumber": "427",
           "contact:phone": "+33 4 22 91 36 48",
@@ -2473,26 +2504,23 @@
         }
       },
       {
-        "type": "node",
-        "id": 14128677163,
-        "lat": 43.6053915,
-        "lon": 3.8747826,
+        "type": "way",
+        "id": 80734666,
+        "center": {
+          "lat": 43.6091668,
+          "lon": 3.882212
+        },
         "tags": {
-          "name": "Le Grain des Mots",
-          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
-          "ref:FR:SIRET": "37935798100024",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 14214108668,
-        "lat": 43.6109573,
-        "lon": 3.8758981,
-        "tags": {
-          "name": "L'Oeuf",
-          "shop": "bakery",
-          "survey:date": "2026-09-25"
+          "building": "yes",
+          "building:part": "no",
+          "check_date:opening_hours": "2023-11-11",
+          "height": "13",
+          "name": "Librairie Sauramps",
+          "opening_hours": "Mo-Sa 10:00-19:00",
+          "shop": "books",
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+          "wheelchair": "no",
+          "wheelchair:description": "marches"
         }
       },
       {
@@ -2561,21 +2589,9 @@
           "name": "Kiosque Verd Paradis",
           "shop": "kiosk"
         }
-      },
-      {
-        "type": "way",
-        "id": 1564770613,
-        "center": {
-          "lat": 43.6098136,
-          "lon": 3.8816233
-        },
-        "tags": {
-          "building": "yes",
-          "shop": "kiosk"
-        }
       }
     ]
   },
-  "fetchedAt": "2026-10-09T11:07:35.046Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-10T10:25:15.834Z",
+  "staleDataWarning": false
 }

@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791544120534,
+      "timestamp": 1791628027818,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-08T11:10:21Z",
+      "timestamp_osm_base": "2026-10-10T10:27:41Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1922,17 +1922,8 @@
         "lat": 43.6970565,
         "lon": 7.2648822,
         "tags": {
-          "addr:housenumber": "3",
-          "addr:street": "Rue Maccarani",
-          "email": "contact@multari.fr",
-          "name": "Multari",
-          "opening_hours": "Mo-Su 06:00-20:00",
-          "ref:FR:NAF": "56.10C",
-          "ref:FR:SIREN": "753921436",
-          "ref:FR:SIRET": "75392143600030",
-          "shop": "bakery",
-          "source": "INSEE - 2026-07",
-          "website": "https://www.multari.fr"
+          "name": "Carrément Bon",
+          "shop": "bakery"
         }
       },
       {
@@ -3013,6 +3004,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-09T11:07:35.046Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-10T10:25:15.834Z",
+  "staleDataWarning": false
 }

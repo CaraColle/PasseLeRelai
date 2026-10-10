@@ -209,7 +209,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791544089527,
+      "timestamp": 1791627985148,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -238,7 +238,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-24T11:04:51Z",
+      "timestamp_osm_base": "2026-10-10T10:25:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -285,7 +285,6 @@
         "lat": 43.2958354,
         "lon": 5.3909449,
         "tags": {
-          "addr:country": "FR",
           "name": "La Fournée de Provence",
           "opening_hours": "PH,Tu-Su 05:00-20:30",
           "shop": "bakery"
@@ -297,7 +296,6 @@
         "lat": 43.2943018,
         "lon": 5.3853146,
         "tags": {
-          "addr:country": "FR",
           "name": "Le Fournil de la Place",
           "ref:FR:SIRET": "45138277400011",
           "shop": "bakery"
@@ -340,7 +338,7 @@
         "lat": 43.2957252,
         "lon": 5.3856606,
         "tags": {
-          "name": "Epicerie",
+          "name": "Coming Out",
           "self_service": "yes",
           "shop": "convenience"
         }
@@ -563,14 +561,17 @@
         "lat": 43.2955408,
         "lon": 5.3911784,
         "tags": {
+          "addr:housenumber": "77",
+          "addr:street": "Boulevard Eugène Pierre",
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "en:Système U",
-          "name": "Utile",
-          "opening_hours": "Mo-Sa 08:00-19:45; Su 08:30-12:45",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 08:15-19:45; Su 09:00-12:45",
           "operator": "Système U",
+          "phone": "+33 4 96 12 12 30",
           "shop": "convenience",
-          "website": "https://www.magasins-u.com/magasin/superu-marseillesaintpierre.m90249",
+          "website": "https://www.magasins-u.com/magasin/uexpress-marseille.m90174",
           "wheelchair": "no"
         }
       },
@@ -580,7 +581,6 @@
         "lat": 43.2959093,
         "lon": 5.3905878,
         "tags": {
-          "addr:country": "FR",
           "name": "La fournée d'Eugène",
           "outdoor_seating": "yes",
           "shop": "bakery"
@@ -618,7 +618,6 @@
         "lat": 43.2916607,
         "lon": 5.3719911,
         "tags": {
-          "addr:country": "FR",
           "name": "La Paline",
           "ref:FR:SIRET": "82405982800015",
           "shop": "bakery"
@@ -682,7 +681,6 @@
         "lat": 43.300385,
         "lon": 5.371024,
         "tags": {
-          "addr:country": "FR",
           "indoor_seating": "yes",
           "name": "Les Minots de République",
           "outdoor_seating": "yes",
@@ -696,7 +694,6 @@
         "lon": 5.377064,
         "tags": {
           "addr:city": "Marseille",
-          "addr:country": "FR",
           "brand": "La Mie Câline",
           "brand:wikidata": "Q3210704",
           "brand:wikipedia": "fr:La Mie câline",
@@ -784,7 +781,6 @@
         "lat": 43.3011226,
         "lon": 5.3835591,
         "tags": {
-          "addr:country": "FR",
           "name": "Pain Doré",
           "ref:FR:SIRET": "84006377000019",
           "shop": "bakery"
@@ -796,7 +792,6 @@
         "lat": 43.2918727,
         "lon": 5.393426,
         "tags": {
-          "addr:country": "FR",
           "name": "Fournil Saint-Pierre",
           "shop": "bakery",
           "wheelchair": "yes"
@@ -808,7 +803,6 @@
         "lat": 43.2924645,
         "lon": 5.3840945,
         "tags": {
-          "addr:country": "FR",
           "brand": "Florentin",
           "name": "Le Fournil d'Alice",
           "shop": "bakery"
@@ -832,7 +826,6 @@
         "lat": 43.303343,
         "lon": 5.366254,
         "tags": {
-          "addr:country": "FR",
           "name": "Le fournil du port",
           "shop": "bakery"
         }
@@ -902,7 +895,6 @@
         "lat": 43.2915026,
         "lon": 5.3846734,
         "tags": {
-          "addr:country": "FR",
           "name": "Le fournil de la place",
           "name:oc": "La Glorieta de la plaça",
           "shop": "bakery",
@@ -956,7 +948,6 @@
         "lat": 43.3046924,
         "lon": 5.3757997,
         "tags": {
-          "addr:country": "FR",
           "check_date": "2026-02-12",
           "name": "Fournil le Racati",
           "ref:FR:SIRET": "83774447300013",
@@ -969,7 +960,6 @@
         "lat": 43.2921694,
         "lon": 5.384116,
         "tags": {
-          "addr:country": "FR",
           "name": "Le Fournil du Mont",
           "opening_hours": "Mo,Tu,Th-Sa 06:30-20:00",
           "ref:FR:SIRET": "52474633600014",
@@ -1000,7 +990,6 @@
         "lat": 43.292459,
         "lon": 5.374857,
         "tags": {
-          "addr:country": "FR",
           "name": "Le fournil des Rois",
           "ref:FR:SIRET": "94428938800026",
           "shop": "bakery"
@@ -1018,12 +1007,12 @@
           "brand:wikidata": "Q7937525",
           "brand:wikipedia": "en:Vival (shop)",
           "name": "Vival",
-          "opening_hours": "Mo-Th 07:30-23:00; Fr-Sa 07:30-24:00; Su 07:30-23:00",
+          "opening_hours": "Mo-Su 07:30-23:00",
           "operator": "vival",
           "phone": "+33 4 84 33 61 21",
           "ref:FR:SIRET": "81372932400018",
           "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/s/vival-marseille-sainte"
+          "website": "https://vival.casino.fr/stores/e1765/marseille-65-rue-sainte"
         }
       },
       {
@@ -1043,7 +1032,6 @@
         "lat": 43.3040981,
         "lon": 5.3675484,
         "tags": {
-          "addr:country": "FR",
           "name": "Le fournil de la République",
           "opening_hours": "Mo-Sa 06:30-20:00",
           "shop": "bakery",
@@ -1069,7 +1057,6 @@
         "lat": 43.3018073,
         "lon": 5.379527,
         "tags": {
-          "addr:country": "FR",
           "name:signed": "no",
           "shop": "bakery",
           "source": "survey",
@@ -1099,7 +1086,6 @@
         "lat": 43.2998715,
         "lon": 5.3844735,
         "tags": {
-          "addr:country": "FR",
           "addr:housenumber": "1",
           "addr:postcode": "13001",
           "addr:street": "Rue de la Grande Armée",
@@ -1134,7 +1120,7 @@
           "operator": "Vival",
           "phone": "+33 4 91 53 74 33",
           "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/vival-marseille-dame-du-mont"
+          "website": "https://vival.casino.fr/stores/e3347/marseille-06-26-place-notre-dame-du-mont"
         }
       },
       {
@@ -1144,7 +1130,6 @@
         "lon": 5.3795177,
         "tags": {
           "addr:city": "Marseille",
-          "addr:country": "FR",
           "addr:housenumber": "1",
           "addr:postcode": "13001",
           "addr:street": "Place du Marché des Capucins",
@@ -1508,7 +1493,7 @@
           "brand:wikipedia": "fr:Système U",
           "contact:website": "https://www.magasins-u.com/magasin/uexpress-marseillegrandrue",
           "name": "U Express",
-          "opening_hours": "Mo-Fr 08:15-20:00; Sa 08:30-20:00; Su 08:30-13:00",
+          "opening_hours": "Mo-Sa 08:30-20:00; Su 08:30-13:00",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "phone": "+33 4 91 90 34 26",
@@ -1926,6 +1911,7 @@
           "name": "Vival",
           "opening_hours": "Mo-Su 07:30-21:00",
           "shop": "convenience",
+          "website": "https://vival.casino.fr/stores/e1771/marseille-42-rue-edouard-delanglade",
           "wheelchair": "limited"
         }
       },
@@ -2064,7 +2050,7 @@
           "contact:phone": "+33 4 91 47 03 30",
           "email": "marseille.lodi@naturalia.fr",
           "name": "Naturalia",
-          "opening_hours": "Mo-Sa 09:00-20:00",
+          "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-12:45",
           "organic": "only",
           "shop": "convenience",
           "website": "https://magasins.naturalia.fr/naturalia/fr/store/france/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/marseille-lodi/3913"
@@ -2679,29 +2665,17 @@
       },
       {
         "type": "node",
-        "id": 10876292790,
-        "lat": 43.291566,
-        "lon": 5.3714237,
-        "tags": {
-          "brand": "Utile",
-          "brand:wikidata": "Q2529029",
-          "name": "Utile",
-          "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:00",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 10876292791,
         "lat": 43.2908976,
         "lon": 5.3717787,
         "tags": {
           "brand": "Spar",
           "brand:wikidata": "Q610492",
-          "check_date:opening_hours": "2025-09-23",
+          "check_date:opening_hours": "2026-09-03",
           "name": "Spar",
-          "opening_hours": "Mo-Sa 08:30-20:30; Su 09:00-13:00",
-          "shop": "convenience"
+          "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-14:00",
+          "shop": "convenience",
+          "website": "https://spar.casino.fr/stores/tz173/marseille-2-boulevard-de-la-corderie"
         }
       },
       {
@@ -2847,9 +2821,10 @@
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:30-22:30; Su 08:30-19:30",
+          "opening_hours": "Mo-Sa 08:30-22:45; Su 08:30-19:45",
           "ref:FR:SIRET": "44465668000709",
-          "shop": "convenience"
+          "shop": "convenience",
+          "website": "https://www.monoprix.fr/1821.html"
         }
       },
       {
@@ -2875,9 +2850,15 @@
         "lat": 43.3023732,
         "lon": 5.3938512,
         "tags": {
-          "contact:instagram": "azulil.editions",
-          "name": "Azulil",
-          "shop": "books"
+          "addr:housenumber": "16",
+          "addr:street": "Rue d'Anvers",
+          "check_date": "2026-09-02",
+          "contact:instagram": "maison.sz",
+          "email": "contact@maison-sz.com",
+          "name": "Maison Sz",
+          "phone": "+33 6 73 60 29 98",
+          "shop": "books",
+          "website": "http://www.maison-sz.com"
         }
       },
       {
@@ -2922,6 +2903,16 @@
         "lon": 5.3771753,
         "tags": {
           "name": "Bagalette",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12074330779,
+        "lat": 43.3142432,
+        "lon": 5.3690034,
+        "tags": {
+          "name": "Fournil des Docks",
           "shop": "bakery"
         }
       },
@@ -2975,6 +2966,16 @@
           "name": "Fedea Exotic Store",
           "ref:FR:SIRET": "98521192900015",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12120576995,
+        "lat": 43.2949169,
+        "lon": 5.3816613,
+        "tags": {
+          "name": "Maison M",
+          "shop": "bakery"
         }
       },
       {
@@ -3305,6 +3306,7 @@
           "addr:housenumber": "6",
           "addr:postcode": "13001",
           "addr:street": "Rue Saint-Saëns",
+          "diet:gluten_free": "limited",
           "name": "Pain Pan",
           "shop": "bakery"
         }
@@ -3356,6 +3358,17 @@
           "payment:debit_cards": "yes",
           "shop": "bakery",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14100651201,
+        "lat": 43.3045658,
+        "lon": 5.3931021,
+        "tags": {
+          "check_date": "2026-08-17",
+          "name": "Supérette du Palais",
+          "shop": "convenience"
         }
       },
       {
@@ -3530,6 +3543,7 @@
           "building": "yes",
           "name": "vanille noire",
           "opening_hours": "Mo-Sa 12:00-19:00",
+          "power": "substation",
           "shop": "kiosk",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
         }
@@ -3548,7 +3562,7 @@
           "indoor": "room",
           "level": "0",
           "name": "Monop'Daily",
-          "opening_hours": "Tu-Th,Sa 06:30-20:00; Fr,Su,Mo 06:30-21:00",
+          "opening_hours": "Mo-Th 06:15-20:45; Fr 06:15-21:45; Sa 06:15-20:45; Su 06:15-21:45",
           "room": "shop",
           "shop": "convenience",
           "website": "https://www.monoprix.fr/1447.html",
@@ -3609,6 +3623,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-09T11:07:35.046Z",
+  "fetchedAt": "2026-10-10T10:25:15.834Z",
   "staleDataWarning": false
 }

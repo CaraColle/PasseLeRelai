@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791544098423,
+      "timestamp": 1791627990200,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-07-15T15:22:01Z",
+      "timestamp_osm_base": "2026-10-10T10:26:34Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -336,8 +336,9 @@
           "brand": "Avia",
           "brand:wikidata": "Q300147",
           "brand:wikipedia": "de:Avia International",
-          "check_date": "2024-06-28",
+          "check_date": "2026-07-17",
           "compressed_air": "yes",
+          "email": "avialbert@yahoo.com",
           "fuel:diesel": "yes",
           "fuel:e10": "yes",
           "fuel:octane_95": "yes",
@@ -345,6 +346,7 @@
           "name": "Avia",
           "opening_hours": "24/7",
           "operator": "Avia",
+          "phone": "+33 4 78 54 28 84",
           "ref:FR:SIRET": "35286063902674",
           "ref:FR:prix-carburants": "69003012",
           "shop": "convenience",
@@ -429,7 +431,7 @@
           "name": "Vival",
           "opening_hours": "Mo-Fr 08:00-24:00; Sa-Su 00:00-02:00,08:00-24:00",
           "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/vival-lyon-part-dieu"
+          "website": "https://vival.casino.fr/stores/e1351/lyon-63-rue-de-la-part-dieu"
         }
       },
       {
@@ -518,7 +520,6 @@
         "lon": 4.8685291,
         "tags": {
           "addr:city": "Villeurbanne",
-          "addr:country": "FR",
           "addr:housenumber": "2",
           "addr:postcode": "69100",
           "addr:street": "Avenue Roger Salengro",
@@ -571,6 +572,7 @@
           "check_date:opening_hours": "2026-03-15",
           "contact:email": "commandes@epicerie-equitable.com",
           "contact:phone": "+33 4 37 28 07 71",
+          "harassment_prevention": "ask_angela",
           "level": "0",
           "name": "L'Epicerie Equitable",
           "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-14:00",
@@ -679,7 +681,7 @@
         "tags": {
           "indoor_seating": "yes",
           "name": "Bake house",
-          "opening_hours": "Mo-Fr 06:00-19:45; Su 06:00-13:30",
+          "opening_hours": "Su-Fr 06:00-19:45",
           "outdoor_seating": "yes",
           "ref:FR:SIRET": "33764501400024",
           "shop": "bakery"
@@ -807,8 +809,9 @@
         "tags": {
           "brand": "Vival",
           "brand:wikidata": "Q7937525",
-          "check_date:opening_hours": "2026-07-10",
+          "check_date:opening_hours": "2026-09-01",
           "name": "Vival",
+          "opening_hours": "Mo-Su 00:00-01:00,08:00-24:00",
           "opening_hours:signed": "no",
           "ref:FR:SIRET": "90781250700016",
           "shop": "convenience",
@@ -894,7 +897,7 @@
           "addr:housenumber": "104",
           "addr:street": "Cours Émile Zola",
           "air_conditioning": "yes",
-          "check_date:opening_hours": "2025-06-09",
+          "check_date:opening_hours": "2026-07-26",
           "contact:instagram": "lettresacroquer",
           "email": "lettresacroquer@orange.fr",
           "level": "0",
@@ -937,13 +940,13 @@
         "tags": {
           "brand": "Spar",
           "brand:wikidata": "Q610492",
-          "check_date:opening_hours": "2025-07-07",
+          "check_date:opening_hours": "2026-09-03",
           "name": "Spar",
           "opening_hours": "Mo-Su 07:00-24:00",
           "operator": "Spar",
           "ref:FR:SIRET": "49128309900035",
           "shop": "convenience",
-          "website": "https://https://spar.casino.fr",
+          "website": "https://spar.casino.fr/stores/tz378/lyon-140-avenue-thiers",
           "wheelchair": "yes"
         }
       },
@@ -970,7 +973,7 @@
         "tags": {
           "check_date": "2025-04-12",
           "contact:phone": "+33 4 78 62 35 55",
-          "name": "La Miche Au Vieux Four",
+          "name": "Au Vieux Four",
           "opening_hours": "Mo-Fr 06:00-20:00, Sa 06:00-14:00,15:00-20:00",
           "ref:FR:SIRET": "52363676900011",
           "shop": "bakery"
@@ -1116,9 +1119,9 @@
           "brand": "U Express",
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "en:Système U",
-          "check_date:opening_hours": "2025-04-02",
+          "check_date:opening_hours": "2026-09-02",
           "name": "U Express",
-          "opening_hours": "Mo-Sa 08:30-20:30; Su 09:00-13:00",
+          "opening_hours": "Mo-Sa 08:30-20:30; Su 08:30-12:30",
           "operator": "Système U",
           "phone": "+33 4 37 24 21 92",
           "shop": "convenience",
@@ -1138,7 +1141,7 @@
           "bulk_purchase": "yes",
           "contact:facebook": "https://www.facebook.com/Lavieclaire",
           "name": "La Vie Claire",
-          "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-12:30",
+          "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-12:00",
           "organic": "only",
           "phone": "+33 4 72 74 26 30",
           "ref:FR:SIRET": "63200001401454",
@@ -1231,8 +1234,10 @@
         "lat": 45.7710409,
         "lon": 4.8615432,
         "tags": {
+          "check_date": "2026-08-14",
+          "check_date:opening_hours": "2026-08-14",
           "name": "Express City",
-          "opening_hours": "Mo-Fr 09:00-24:00, Sa 10:00-24:00, Su 10:00-22:00",
+          "opening_hours": "Mo-Su 12:00-00:00",
           "ref:FR:SIRET": "52477990700012",
           "shop": "convenience",
           "wheelchair": "yes"
@@ -1259,9 +1264,9 @@
         "tags": {
           "brand": "Vival",
           "brand:wikidata": "Q7937525",
-          "check_date:opening_hours": "2025-03-16",
+          "check_date:opening_hours": "2026-09-03",
           "name": "Vival",
-          "opening_hours": "Mo-Su 08:00-05:00",
+          "opening_hours": "Mo-Su 00:00-05:00,08:00-24:00",
           "ref:FR:SIRET": "80249033400025",
           "shop": "convenience",
           "wheelchair": "yes"
@@ -1402,16 +1407,17 @@
       {
         "type": "node",
         "id": 2600858737,
-        "lat": 45.7500882,
-        "lon": 4.8478284,
+        "lat": 45.7495615,
+        "lon": 4.8477561,
         "tags": {
           "addr:city": "Lyon",
-          "addr:housenumber": "16",
+          "addr:housenumber": "20",
           "addr:postcode": "69007",
           "addr:street": "Rue de la Madeleine",
           "check_date:opening_hours": "2026-03-15",
           "contact:facebook": "librairielamadeleine",
           "email": "librairielamadeleine@gmail.com",
+          "harassment_prevention": "ask_angela",
           "level": "0",
           "name": "Librairie La Madeleine",
           "opening_hours": "Tu-Sa 09:30-19:00; Su 10:00-13:00",
@@ -1706,8 +1712,8 @@
       {
         "type": "node",
         "id": 3932075051,
-        "lat": 45.770744,
-        "lon": 4.8628476,
+        "lat": 45.7707938,
+        "lon": 4.8628518,
         "tags": {
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
@@ -1735,6 +1741,7 @@
           "phone": "+33 4 72 37 00 32",
           "ref:FR:SIRET": "39353467200034",
           "shop": "bakery",
+          "smoking": "no",
           "website": "https://www.maison-kayser.com/",
           "wheelchair": "limited"
         }
@@ -1811,7 +1818,7 @@
         "lat": 45.762591,
         "lon": 4.8449661,
         "tags": {
-          "check_date:opening_hours": "2025-06-16",
+          "check_date:opening_hours": "2026-07-18",
           "name": "Daniel Boinon",
           "opening_hours": "Mo-Fr 06:30-20:00; Sa 06:30-19:00",
           "ref:FR:SIRET": "38776551400022",
@@ -1938,7 +1945,7 @@
           "brand": "Vival",
           "brand:wikidata": "Q7937525",
           "name": "Vival",
-          "opening_hours": "Mo-Su 08:00-24:00",
+          "opening_hours": "Mo-Su 09:00-24:00",
           "shop": "convenience"
         }
       },
@@ -2104,11 +2111,11 @@
           "brand": "Vival",
           "brand:wikidata": "Q7937525",
           "name": "Vival",
-          "opening_hours": "Mo-Su 08:00-22:00",
+          "opening_hours": "Mo-Su 00:00-01:00,08:00-24:00",
           "phone": "+33 9 52 25 63 37",
           "ref:FR:SIRET": "85033391500013",
           "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/vival-lyon-maurice-flandin",
+          "website": "https://vival.casino.fr/stores/e0770/lyon-82-rue-maurice-flandin",
           "wheelchair": "yes"
         }
       },
@@ -2118,14 +2125,17 @@
         "lat": 45.7688864,
         "lon": 4.8552106,
         "tags": {
+          "indoor_seating": "yes",
           "name": "Maison Deschamps",
           "opening_hours": "Mo-Sa 07:00-19:00; Su 07:00-13:00",
+          "outdoor_seating": "yes",
           "payment:cash": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "phone": "+33 4 37 72 92 66",
           "ref:FR:SIRET": "80163202700026",
           "shop": "bakery",
+          "smoking": "outside",
           "website": "https://maison-deschamps.com",
           "wheelchair": "no",
           "wikimedia_commons": "File:L'épicerie Les Délices d'ailleurs (Lyon), rue de Sèze.jpg"
@@ -2138,7 +2148,7 @@
         "lon": 4.8738521,
         "tags": {
           "name": "Euro Exo",
-          "opening_hours": "Mo-Su 10:00-0:00",
+          "opening_hours": "Mo-Su 10:00-24:00",
           "origin": "african",
           "phone": "+33 9 50 72 30 41",
           "ref:FR:SIRET": "83446772200015",
@@ -2240,7 +2250,9 @@
         "lat": 45.7705722,
         "lon": 4.8652696,
         "tags": {
+          "check_date": "2026-08-30",
           "check_date:opening_hours": "2026-03-22",
+          "email": "zola@boulangeriechezjules.fr",
           "indoor_seating": "yes",
           "name": "Chez Jules",
           "opening_hours": "Mo-Sa 06:45-20:00; Su,PH 07:00-19:00",
@@ -2278,11 +2290,12 @@
           "addr:housenumber": "108",
           "addr:postcode": "69006",
           "addr:street": "Rue de Sèze",
-          "check_date:opening_hours": "2025-09-01",
+          "check_date:opening_hours": "2026-09-12",
           "name": "Librairie l'Astragale",
-          "opening_hours": "Tu-Sa 10:00-19:30; Su 10:00-13:00",
+          "opening_hours": "Su 10:00-13:00; Tu-Sa 10:00-19:00",
           "ref:FR:SIRET": "82058158500016",
-          "shop": "books"
+          "shop": "books",
+          "wheelchair": "no"
         }
       },
       {
@@ -2291,9 +2304,16 @@
         "lat": 45.7711631,
         "lon": 4.8467694,
         "tags": {
+          "addr:housenumber": "66",
+          "addr:street": "66",
+          "contact:facebook": "https://www.facebook.com/profile.php?id=100051669085351",
+          "contact:street": "Rue Duguesclin",
           "name": "La Page Suivante",
+          "opening_hours": "Tu-Sa 10:00-19:00",
           "ref:FR:SIRET": "84155902400010",
-          "shop": "books"
+          "ref:vatin": "FR78841559024",
+          "shop": "books",
+          "website": "https://lapagesuivante.com/"
         }
       },
       {
@@ -2328,10 +2348,10 @@
         "tags": {
           "addr:housenumber": "1",
           "addr:street": "rue Rebatel",
-          "check_date": "2025-11-10",
+          "check_date": "2026-07-17",
           "internet_access": "no",
           "name": "Maison Marie",
-          "opening_hours": "Mo-Sa 06:00-20:00; Su 07:00-16:00",
+          "opening_hours": "Mo-Sa 06:00-20:00; Su 07:00-16:00; PH 07:00-14:00; SH 07:00-14:00",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "phone": "+33 4 81 91 01 21",
@@ -2488,7 +2508,7 @@
           "brand": "Vival",
           "brand:wikidata": "Q7937525",
           "name": "Vival",
-          "opening_hours": "Mo-Su 09:00-01:00",
+          "opening_hours": "Mo-Su 00:00-01:00,09:00-24:00",
           "ref:FR:SIRET": "91334160800010",
           "shop": "convenience"
         }
@@ -2521,10 +2541,10 @@
           "brand:wikidata": "Q7937525",
           "contact:phone": "+33954046046",
           "name": "Vival",
-          "opening_hours": "Mo-Su 07:30-24:00",
+          "opening_hours": "24/7",
           "ref:FR:SIRET": "88011377400017",
           "shop": "convenience",
-          "website": "https://magasins.vival.fr/fr/vival-lyon-duguesclin"
+          "website": "https://vival.casino.fr/stores/e0743/lyon-165-rue-du-guesclin"
         }
       },
       {
@@ -2533,7 +2553,7 @@
         "lat": 45.7640505,
         "lon": 4.8483451,
         "tags": {
-          "check_date:opening_hours": "2025-04-11",
+          "check_date:opening_hours": "2026-07-16",
           "contact:email": "commande.pain.tisserie@gmail.com",
           "contact:phone": "+33437249699",
           "name": "Pain-tisserie",
@@ -2582,7 +2602,7 @@
           "brand:wikidata": "Q7937525",
           "brand:wikipedia": "en:Vival (shop)",
           "name": "Vival",
-          "opening_hours": "Mo-Su 07:00-01:00",
+          "opening_hours": "Mo-Th 00:00-01:00,07:00-24:00; Fr-Sa 00:00-03:00,07:00-24:00; Su 00:00-01:00,07:00-24:00",
           "ref:FR:SIRET": "82000268100030",
           "shop": "convenience"
         }
@@ -2833,6 +2853,7 @@
         "lat": 45.7566147,
         "lon": 4.8478803,
         "tags": {
+          "alt_name": "Maison soudanaise",
           "check_date": "2026-04-26",
           "name": "Bazar Sudanese House",
           "origin": "african",
@@ -2931,7 +2952,8 @@
           "brand:wikidata": "Q610492",
           "name": "Spar Express",
           "opening_hours": "Mo-Su 07:00-23:00",
-          "shop": "convenience"
+          "shop": "convenience",
+          "website": "https://spar.casino.fr/stores/tz530/villeurbanne-4-cours-tolstoi"
         }
       },
       {
@@ -2940,7 +2962,7 @@
         "lat": 45.7722603,
         "lon": 4.8664104,
         "tags": {
-          "check_date": "2023-12-26",
+          "check_date": "2026-07-18",
           "name": "Market",
           "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-15:00",
           "phone": "+33 6 52 74 51 75",
@@ -3008,6 +3030,7 @@
         "lat": 45.7651701,
         "lon": 4.8444148,
         "tags": {
+          "check_date:opening_hours": "2026-07-21",
           "contact:email": "commande.pain-tisserie@gmail.com",
           "contact:phone": "+33437728353",
           "name": "Pain-tisserie",
@@ -3022,12 +3045,18 @@
         "lon": 4.8447605,
         "tags": {
           "contact:email": "contact@biblionautique.com",
-          "contact:phone": "+33427116662",
-          "name": "Biblionautique",
+          "contact:housenumber": "34",
+          "contact:phone": "+33 4 27 11 66 62",
+          "contact:street": "Rue Cuvier",
+          "description": "Librairie spécialisée dans le nautisme et la nature.",
+          "name": "Les Biblios",
+          "opening_hours": "Tu-Sa 09:45-13:30,14:30-19:00",
+          "operator": "Biblionautique",
           "ref:FR:SIRET": "80494634100026",
+          "ref:vatin": "FR76804946341",
           "shop": "books",
           "subject": "ocean",
-          "website": "https://www.biblionautique.com"
+          "website": "https://www.lesbiblios.com"
         }
       },
       {
@@ -3095,7 +3124,7 @@
           "brand": "Vival",
           "brand:wikidata": "Q7937525",
           "name": "Vival",
-          "opening_hours": "Mo-Su 07:00-01:00",
+          "opening_hours": "Mo-Th 00:00-01:00,07:00-24:00; Fr-Sa 00:00-02:00,07:00-24:00; Su 00:00-01:00,07:00-24:00",
           "shop": "convenience"
         }
       },
@@ -3209,10 +3238,12 @@
         "lon": 4.8586562,
         "tags": {
           "check_date": "2026-01-15",
+          "check_date:opening_hours": "2026-10-02",
           "level": "-1",
           "name": "Monop’ Daily",
-          "opening_hours": "Mo-Fr 06:00-20:00; Sa 07:00-19:00",
-          "shop": "convenience"
+          "opening_hours": "Mo,Tu 06:00-19:00; We,Th 07:00-19:00; Fr 06:00-20:00; Sa 09:00-14:00",
+          "shop": "convenience",
+          "website": "https://www.monoprix.fr/2665.html"
         }
       },
       {
@@ -3222,6 +3253,19 @@
         "lon": 4.8712412,
         "tags": {
           "name": "Rita",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13277815184,
+        "lat": 45.763639,
+        "lon": 4.8703833,
+        "tags": {
+          "air_conditioning": "yes",
+          "name": "Asie City",
+          "opening_hours": "09:30-21:00",
+          "ref:FR:SIRET": "88862401200033",
           "shop": "convenience"
         }
       },
@@ -3256,8 +3300,21 @@
           "brand": "U Express",
           "brand:wikidata": "Q2529029",
           "name": "U Express",
+          "opening_hours": "Mo-Sa 07:30-21:00; Su 08:00-13:00",
           "ref:FR:SIRET": "79514577000025",
-          "shop": "convenience"
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/magasin/uexpress-lyonsully"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14174901943,
+        "lat": 45.7690342,
+        "lon": 4.8525541,
+        "tags": {
+          "name": "La Bookery",
+          "opening_hours": "Tu-Sa 09:00-12:00,13:30-19:00",
+          "shop": "books"
         }
       },
       {
@@ -3270,7 +3327,7 @@
         "tags": {
           "brand": "La Panetière",
           "brand:wikidata": "Q100712234",
-          "check_date:opening_hours": "2024-04-13",
+          "check_date:opening_hours": "2026-07-18",
           "indoor_seating": "yes",
           "name": "La Panetière",
           "opening_hours": "Mo-Fr 07:00-20:00; Su 07:00-14:00",
@@ -3367,11 +3424,11 @@
           "level": "2",
           "name": "Brioche Dorée",
           "official_name": "Brioche Dorée Lyon - C.cial Part Dieu Niveau 0",
-          "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:30-20:00",
+          "opening_hours": "Mo-Sa 09:30-20:00",
           "phone": "+33 4 78 62 36 30",
           "ref:FR:SIRET": "31890659100942",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/94-lyon-c.cial-part-dieu-niveau-0"
+          "website": "https://www.briochedoree.fr/"
         }
       },
       {
@@ -3392,6 +3449,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-09T11:07:35.046Z",
+  "fetchedAt": "2026-10-10T10:25:15.834Z",
   "staleDataWarning": false
 }

@@ -301,7 +301,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791544069193,
+      "timestamp": 1791627935152,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -330,7 +330,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-08T11:08:02Z",
+      "timestamp_osm_base": "2026-10-10T10:24:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2039,6 +2039,7 @@
           "name": "Librairie La Procure",
           "opening_hours": "Mo-Fr 10:00-19:30, Sa 10:00-19:00",
           "shop": "books",
+          "website": "https://www.laprocure.com/",
           "wheelchair": "no"
         }
       },
@@ -2365,7 +2366,6 @@
         "lon": 2.3204864,
         "tags": {
           "addr:city": "Paris",
-          "addr:country": "FR",
           "addr:housenumber": "100",
           "addr:postcode": "75017",
           "addr:street": "Rue Legendre",
@@ -4666,6 +4666,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-09T11:07:35.046Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-10T10:25:15.834Z",
+  "staleDataWarning": false
 }

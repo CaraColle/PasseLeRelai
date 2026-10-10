@@ -245,7 +245,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791458141602,
+      "timestamp": 1791628455867,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-07T11:10:12Z",
+      "timestamp_osm_base": "2026-10-10T10:33:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -285,7 +285,6 @@
         "lon": 4.3705847,
         "tags": {
           "addr:city": "Nîmes",
-          "addr:country": "FR",
           "addr:housenumber": "49",
           "addr:postcode": "30000",
           "addr:street": "Rue Richelieu",
@@ -302,7 +301,6 @@
         "lat": 43.8413102,
         "lon": 4.366826,
         "tags": {
-          "addr:country": "FR",
           "name": "Du Soleil et des Pains",
           "ref:FR:SIRET": "83973889500011",
           "shop": "bakery"
@@ -362,7 +360,6 @@
         "lat": 43.8411926,
         "lon": 4.3753003,
         "tags": {
-          "addr:country": "FR",
           "brand": "Ronde des Pains",
           "brand:wikidata": "Q3441707",
           "brand:wikipedia": "fr:Ronde des Pains",
@@ -423,7 +420,6 @@
         "lon": 4.3652802,
         "tags": {
           "addr:city": "Nîmes",
-          "addr:country": "FR",
           "addr:housenumber": "19",
           "addr:postcode": "30000",
           "addr:street": "Rue Notre-Dame",
@@ -467,7 +463,6 @@
         "lat": 43.8232227,
         "lon": 4.3513863,
         "tags": {
-          "addr:country": "FR",
           "name": "La Pétrie",
           "shop": "bakery"
         }
@@ -586,7 +581,6 @@
         "lon": 4.3590585,
         "tags": {
           "addr:city": "Nîmes",
-          "addr:country": "FR",
           "addr:housenumber": "6bis",
           "addr:postcode": "30000",
           "addr:street": "Rue des Halles",
@@ -647,7 +641,6 @@
         "lon": 4.35031,
         "tags": {
           "addr:city": "Nîmes",
-          "addr:country": "FR",
           "addr:housenumber": "2",
           "addr:postcode": "30900",
           "addr:street": "Rue Henri Esperandieu",
@@ -729,7 +722,6 @@
         "lat": 43.8417645,
         "lon": 4.3614998,
         "tags": {
-          "addr:country": "FR",
           "name": "Rangueil",
           "ref:FR:SIRET": "83135149900015",
           "shop": "bakery"
@@ -847,7 +839,6 @@
         "lon": 4.3510488,
         "tags": {
           "addr:city": "Nîmes",
-          "addr:country": "FR",
           "addr:housenumber": "15",
           "addr:postcode": "30900",
           "addr:street": "Avenue Jean Jaurès",
@@ -864,7 +855,6 @@
         "lat": 43.8211057,
         "lon": 4.3557859,
         "tags": {
-          "addr:country": "FR",
           "name": "Fournil de l'Europe",
           "shop": "bakery"
         }
@@ -1510,15 +1500,6 @@
       },
       {
         "type": "node",
-        "id": 11077618661,
-        "lat": 43.8394637,
-        "lon": 4.3618453,
-        "tags": {
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 11078824786,
         "lat": 43.835382,
         "lon": 4.3562932,
@@ -1667,6 +1648,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-09T11:07:35.046Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-10T10:25:15.834Z",
+  "staleDataWarning": false
 }

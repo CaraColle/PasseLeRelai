@@ -321,7 +321,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791458254614,
+      "timestamp": 1791628557702,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -350,7 +350,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-07T11:12:14Z",
+      "timestamp_osm_base": "2026-10-10T10:35:56Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -487,6 +487,7 @@
         "tags": {
           "addr:city": "Tours",
           "addr:postcode": "37000",
+          "check_date:opening_hours": "2026-10-09",
           "contact:city": "Tours",
           "contact:email": "info@boitealivres.com",
           "contact:facebook": "https://www.facebook.com/librairielaboitealivres/",
@@ -700,6 +701,7 @@
         "lon": 0.6807714,
         "tags": {
           "name": "Le Livre",
+          "opening_hours": "Tu-Sa 10:00-19:30; Mo 14:00-19:30",
           "ref:FR:SIRET": "39288701400034",
           "shop": "books",
           "website": "https://www.librairielelivre.com/"
@@ -712,6 +714,7 @@
         "lon": 0.680379,
         "tags": {
           "name": "Monster Market",
+          "opening_hours": "Mo-Su 12:00-02:00",
           "shop": "convenience"
         }
       },
@@ -1875,6 +1878,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-09T11:07:35.046Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-10T10:25:15.834Z",
+  "staleDataWarning": false
 }
