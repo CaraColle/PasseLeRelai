@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791628701437,
+      "timestamp": 1791715700167,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-10T10:37:59Z",
+      "timestamp_osm_base": "2026-10-11T10:48:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1508,6 +1508,52 @@
       },
       {
         "type": "node",
+        "id": 8069459905,
+        "lat": 49.4411094,
+        "lon": 1.0878385,
+        "tags": {
+          "contact:housenumber": "64",
+          "contact:street": "Rue du Général Giraud",
+          "instagram": "cest_la_r_barber",
+          "name": "C'est la R Market",
+          "ref:FR:SIRET": "98139830800016",
+          "shop": "convenience",
+          "source": "INSEE - 06/2019",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8870190160,
+        "lat": 49.4399332,
+        "lon": 1.0906936,
+        "tags": {
+          "books": "comic",
+          "check_date": "2026-02-28",
+          "contact:city": "Rouen",
+          "contact:email": "augrandnullepart@orange.fr",
+          "contact:facebook": "https://www.facebook.com/AuGrandNullePart/",
+          "contact:housenumber": "66",
+          "contact:instagram": "https://www.instagram.com/augrandnullepart/",
+          "contact:phone": "+33 2 35 98 01 84",
+          "contact:postcode": "76000",
+          "contact:street": "Rue Jeanne d'Arc",
+          "contact:website": "https://www.facebook.com/AuGrandNullePart",
+          "name": "Librairie Au Grand Nulle Part",
+          "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-19:30",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "ref:FR:SIRET": "44316455300010",
+          "shop": "books",
+          "wheelchair": "yes",
+          "wheelchair:description:en": "Door at street level, 40% of the store is accessible (at street-level), the remaining require 2 steps.",
+          "wheelchair:description:fr": "Porte accessible au niveau de la rue, 40% du magasin est au niveau de la rue, l'espace restant demandant de gravir 2 marches."
+        }
+      },
+      {
+        "type": "node",
         "id": 9354252258,
         "lat": 49.4398593,
         "lon": 1.099524,
@@ -1981,6 +2027,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-10T10:25:15.834Z",
+  "fetchedAt": "2026-10-11T10:36:31.948Z",
   "staleDataWarning": false
 }

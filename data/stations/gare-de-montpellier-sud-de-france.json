@@ -169,7 +169,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791628109692,
+      "timestamp": 1791715185643,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -198,7 +198,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-06-01T08:52:28Z",
+      "timestamp_osm_base": "2026-10-11T10:39:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -239,12 +239,12 @@
           "outdoor_seating": "yes",
           "ref:FR:SIRET": "31890659102583",
           "shop": "bakery",
-          "website": "https://www.briochedoree.fr/restaurants/614-montpellier-c.cial-odysseum",
+          "website": "https://www.briochedoree.fr/",
           "wheelchair": "yes"
         }
       }
     ]
   },
-  "fetchedAt": "2026-10-10T10:25:15.834Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-11T10:36:31.948Z",
+  "staleDataWarning": false
 }

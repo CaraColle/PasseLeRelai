@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791628587717,
+      "timestamp": 1791715564847,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-10T10:35:56Z",
+      "timestamp_osm_base": "2026-10-11T10:45:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -550,26 +550,6 @@
           "internet_access:fee": "no",
           "name": "Grain de Farine",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2763561823,
-        "lat": 45.843274,
-        "lon": 1.2731184,
-        "tags": {
-          "addr:housenumber": "100",
-          "addr:street": "Rue Aristide Briand",
-          "contact:phone": "+33 5 55 71 15 58",
-          "name": "La Brégeroise",
-          "opening_hours": "Mo-Sa 07:00-13:00,15:00-19:00",
-          "payment:cash": "yes",
-          "payment:visa": "yes",
-          "ref:FR:NAF": "1071C",
-          "ref:FR:SIREN": "788739910",
-          "ref:FR:SIRET": "78873991000016",
-          "shop": "bakery",
-          "source": "INSEE - 2025-01"
         }
       },
       {
@@ -1412,6 +1392,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-10T10:25:15.834Z",
+  "fetchedAt": "2026-10-11T10:36:31.948Z",
   "staleDataWarning": false
 }
