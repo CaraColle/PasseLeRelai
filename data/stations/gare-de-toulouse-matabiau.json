@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791715084564,
+      "timestamp": 1791805455593,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-11T10:38:06Z",
+      "timestamp_osm_base": "2026-10-12T11:42:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1560,7 +1560,7 @@
           "brand": "La Panetière",
           "brand:wikidata": "Q100712234",
           "breakfast": "yes",
-          "check_date": "2024-10-19",
+          "check_date": "2026-10-10",
           "check_date:opening_hours": "2024-10-19",
           "contact:city": "Toulouse",
           "contact:facebook": "https://www.facebook.com/profile.php?id=61569803001002",
@@ -3430,6 +3430,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-11T10:36:31.948Z",
+  "fetchedAt": "2026-10-12T11:39:44.049Z",
   "staleDataWarning": false
 }

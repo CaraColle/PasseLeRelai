@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791715005565,
+      "timestamp": 1791805272215,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-11T10:36:06Z",
+      "timestamp_osm_base": "2026-10-12T11:42:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2746,9 +2746,10 @@
         "lat": 48.8567925,
         "lon": 2.3613111,
         "tags": {
-          "check_date": "2024-04-01",
+          "check_date": "2026-10-11",
           "contact:city": "Paris",
           "contact:housenumber": "17 bis",
+          "contact:instagram": "lamouetterieuseparis",
           "contact:postcode": "75004",
           "contact:street": "Rue Pavée",
           "name": "La Mouette Rieuse",
@@ -4898,6 +4899,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-11T10:36:31.948Z",
+  "fetchedAt": "2026-10-12T11:39:44.049Z",
   "staleDataWarning": false
 }

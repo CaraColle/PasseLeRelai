@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791715641275,
+      "timestamp": 1791806239378,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-10T10:36:58Z",
+      "timestamp_osm_base": "2026-10-12T12:04:16Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -755,6 +755,7 @@
           "contact:housenumber": "4",
           "contact:street": "Place Saint-Nicolas",
           "name": "Le Comptoir Irlandais",
+          "opening_hours": "Mo 14:00-19:00; Tu,We 10:00-13:00,14:00-19:00; Th-Sa 10:00-19:00",
           "phone": "+33 3 87 74 71 16",
           "ref:FR:SIRET": "38524664000176",
           "shop": "convenience",
@@ -1644,6 +1645,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-11T10:36:31.948Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-12T11:39:44.049Z",
+  "staleDataWarning": false
 }

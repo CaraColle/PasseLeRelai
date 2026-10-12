@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791715432599,
+      "timestamp": 1791805818943,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-11T10:43:16Z",
+      "timestamp_osm_base": "2026-10-12T11:52:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1420,13 +1420,11 @@
         "lat": 45.1857607,
         "lon": 5.7059177,
         "tags": {
-          "addr:city": "Grenoble",
-          "addr:housenumber": "29",
-          "addr:postcode": "38000",
-          "addr:street": "Rue Ampère",
           "brand": "La Talemelerie",
           "brand:wikidata": "Q130214384",
-          "check_date": "2024-05-20",
+          "check_date": "2026-09-28",
+          "contact:housenumber": "29",
+          "contact:street": "Rue Ampère",
           "level": "0",
           "name": "La Talemelerie",
           "opening_hours": "Mo-Fr 06:30-19:00; Sa 07:00-13:30",
@@ -1735,7 +1733,7 @@
         "lat": 45.185612,
         "lon": 5.7059108,
         "tags": {
-          "check_date": "2025-02-10",
+          "check_date": "2026-09-28",
           "name": "Alimentation Générale",
           "opening_hours": "PH,Mo-Su 10:00-01:00",
           "ref:FR:SIRET": "10287967300014",
@@ -2254,19 +2252,6 @@
           "name": "Épicerie Foch Ferrié",
           "opening_hours:signed": "no",
           "ref:FR:SIRET": "49920134100066",
-          "shop": "convenience",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 7237085785,
-        "lat": 45.1855273,
-        "lon": 5.7059024,
-        "tags": {
-          "check_date": "2025-02-10",
-          "name": "Gourmet Ampère",
-          "opening_hours": "Tu-Sa 10:00-14:00,16:30-19:30",
           "shop": "convenience",
           "wheelchair": "limited"
         }
@@ -2800,6 +2785,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-11T10:36:31.948Z",
+  "fetchedAt": "2026-10-12T11:39:44.049Z",
   "staleDataWarning": false
 }
