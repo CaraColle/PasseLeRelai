@@ -201,7 +201,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791805629085,
+      "timestamp": 1791892057043,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-12T11:48:50Z",
+      "timestamp_osm_base": "2026-10-13T11:54:35Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -833,6 +833,7 @@
           "addr:street": "Rue de Vesle",
           "breakfast": "yes",
           "capacity": "200",
+          "contact:email": "reims@mamatte.fr",
           "contact:instagram": "https://www.instagram.com/mamatte.reims/",
           "contact:phone": "+33 3 26 02 60 82",
           "contact:website": "https://boutiques.mamatte.fr/reims-centre-erlon/",
@@ -858,6 +859,7 @@
           "start_date": "2024-08-27",
           "takeaway": "yes",
           "toilets:wheelchair": "yes",
+          "website:menu": "https://www.canva.com/design/DAGOq9cJ5hM/YCUqnVDQR16f_iYmIvdrkw/view?utlId=h8fe552d6be",
           "wheelchair": "yes"
         }
       },
@@ -995,6 +997,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-12T11:39:44.049Z",
+  "fetchedAt": "2026-10-13T11:25:10.141Z",
   "staleDataWarning": false
 }

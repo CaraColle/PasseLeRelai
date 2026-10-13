@@ -209,7 +209,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791805364575,
+      "timestamp": 1791891076758,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -238,7 +238,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-12T11:42:51Z",
+      "timestamp_osm_base": "2026-10-13T11:31:56Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1985,6 +1985,22 @@
       },
       {
         "type": "node",
+        "id": 7357224758,
+        "lat": 43.2901965,
+        "lon": 5.3664609,
+        "tags": {
+          "addr:street": "Rue d'Endoume",
+          "brand": "Monop'",
+          "brand:wikidata": "Q89913683",
+          "contact:housenumber": "35",
+          "name": "Monop'",
+          "old_name": "Epicerie Fiorentina",
+          "shop": "convenience",
+          "source": "INSEE - 2026-06"
+        }
+      },
+      {
+        "type": "node",
         "id": 7359870395,
         "lat": 43.2946408,
         "lon": 5.3871043,
@@ -3623,6 +3639,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-12T11:39:44.049Z",
+  "fetchedAt": "2026-10-13T11:25:10.141Z",
   "staleDataWarning": false
 }

@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-12T11:44:51Z",
+      "timestamp_osm_base": "2026-10-13T11:44:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1831,6 +1831,7 @@
           "brand:website": "https://www.lamiecaline.com",
           "brand:wikidata": "Q3210704",
           "brand:wikipedia": "fr:La Mie câline",
+          "check_date": "2026-10-10",
           "fax": "+33 2 51 84 01 23",
           "indoor_seating": "no",
           "name": "La Mie Câline",
@@ -1838,7 +1839,6 @@
           "outdoor_seating": "pedestrian_zone",
           "phone": "+33 2 40 89 43 10",
           "shop": "bakery",
-          "survey:date": "2024-08-29",
           "takeaway": "only",
           "website": "https://magasin.lamiecaline.com/magasin/nantes-cassard/281",
           "wheelchair": "yes"
@@ -2039,9 +2039,9 @@
           "charity": "yes",
           "contact:city": "Nantes",
           "contact:email": "nantes.ecologie@free.fr",
-          "contact:facebook": "https://www.facebook.com/nantesecologie",
+          "contact:facebook": "nantesecologie",
           "contact:housenumber": "2",
-          "contact:instagram": "https://www.instagram.com/nanteseco",
+          "contact:instagram": "nanteseco",
           "contact:phone": "+33 2 51 82 78 30",
           "contact:postcode": "44000",
           "contact:street": "Allée Baco",
@@ -2500,6 +2500,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-12T11:39:44.049Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-13T11:25:10.141Z",
+  "staleDataWarning": true
 }

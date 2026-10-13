@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791805368660,
+      "timestamp": 1791891079811,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-12T11:42:51Z",
+      "timestamp_osm_base": "2026-10-13T11:33:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3234,6 +3234,26 @@
       },
       {
         "type": "node",
+        "id": 12716765252,
+        "lat": 45.7503471,
+        "lon": 4.8454292,
+        "tags": {
+          "addr:city": "Lyon",
+          "addr:housenumber": "31",
+          "addr:postcode": "69007",
+          "addr:street": "Rue de la Thibaudière",
+          "check_date": "2026-10-12",
+          "check_date:opening_hours": "2026-10-12",
+          "contact:facebook": "lemarchelyonnais",
+          "contact:instagram": "lemarchelyonnais",
+          "email": "contact@lemarchelyonnais.fr",
+          "name": "Le marché lyonnais",
+          "ref:FR:SIRET": "91759657900065",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 13256133928,
         "lat": 45.7608122,
         "lon": 4.8586562,
@@ -3453,6 +3473,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-12T11:39:44.049Z",
+  "fetchedAt": "2026-10-13T11:25:10.141Z",
   "staleDataWarning": false
 }
