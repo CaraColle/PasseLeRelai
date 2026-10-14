@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791805458546,
+      "timestamp": 1791969653150,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-13T11:42:26Z",
+      "timestamp_osm_base": "2026-10-14T09:19:53Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1195,8 +1195,6 @@
         "lat": 43.695662,
         "lon": 7.2721484,
         "tags": {
-          "addr:housenumber": "8",
-          "addr:street": "Rue Saint-François de Paule",
           "amenity": "cafe",
           "check_date": "2026-02-05",
           "name": "Jeannot",
@@ -1207,7 +1205,6 @@
           "ref:FR:SIREN": "815311006",
           "ref:FR:SIRET": "81531100600010",
           "shop": "bakery",
-          "source": "INSEE - 2026-07",
           "website": "https://www.boulangeriejeannot.com/",
           "wheelchair": "no"
         }
@@ -1876,14 +1873,11 @@
         "lat": 43.6966506,
         "lon": 7.2603048,
         "tags": {
-          "addr:housenumber": "19",
-          "addr:street": "Rue Meyerbeer",
           "check_date": "2025-03-02",
           "name": "Matrioshka",
           "ref:FR:NAF": "47.11B",
           "ref:FR:SIRET": "90043464800029",
-          "shop": "convenience",
-          "source": "INSEE - 2026-07"
+          "shop": "convenience"
         }
       },
       {
@@ -1954,12 +1948,9 @@
         "lat": 43.695831,
         "lon": 7.2596173,
         "tags": {
-          "addr:housenumber": "46",
-          "addr:street": "Rue de France",
           "coffee": "yes",
           "cuisine": "salad;sandwich;coffee_shop",
           "email": "contact@biobrod.fr",
-          "name": "Bio Brod",
           "opening_hours": "Mo-Fr 07:30-20:00;Sa 07:30-15:00;Su off",
           "organic": "yes",
           "outdoor_seating": "yes",
@@ -1968,7 +1959,6 @@
           "ref:FR:SIREN": "911120095",
           "ref:FR:SIRET": "91112009500011",
           "shop": "bakery",
-          "source": "INSEE - 2026-07",
           "website": "https://www.biobrod.fr/"
         }
       },
@@ -3004,6 +2994,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-13T11:25:10.141Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-14T09:17:32.962Z",
+  "staleDataWarning": false
 }

@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791805455593,
+      "timestamp": 1791969651415,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-12T11:42:51Z",
+      "timestamp_osm_base": "2026-10-14T09:18:48Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1985,6 +1985,8 @@
         "lat": 43.6044589,
         "lon": 1.4531791,
         "tags": {
+          "check_date": "2026-10-12",
+          "check_date:opening_hours": "2026-10-12",
           "contact:housenumber": "31",
           "contact:street": "Rue de la Colombette",
           "diet:halal": "no",
@@ -1992,13 +1994,13 @@
           "email": "contact@aupetitjapon.fr",
           "name": "Au petit Japon",
           "note": "Épicerie fine, arts de la table, textile, décoration.",
-          "opening_hours": "Tu-Sa 10:00-12:30,14:00-19:00",
+          "opening_hours": "Mo-Fr 10:30-12:30, 14:00-19:00; Sa 10:30-13:00, 14:00-18:00",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "phone": "+33 5 31 22 52 23",
           "ref:FR:SIRET": "90853818400015",
           "shop": "convenience",
-          "website": "www.aupetitjapon.fr",
+          "website": "http://www.aupetitjapon.fr",
           "wheelchair": "limited"
         }
       },
@@ -3430,6 +3432,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-13T11:25:10.141Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-14T09:17:32.962Z",
+  "staleDataWarning": false
 }

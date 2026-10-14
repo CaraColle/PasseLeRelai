@@ -286,7 +286,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-13T12:24:06Z",
+      "timestamp_osm_base": "2026-10-14T09:56:34Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -408,6 +408,7 @@
           "payment:visa": "yes",
           "ref:FR:SIRET": "30098698100045",
           "shop": "books",
+          "website:orders": "https://www.canalbd.net/la-parenthese/",
           "wheelchair": "yes"
         }
       },
@@ -1376,8 +1377,8 @@
       {
         "type": "node",
         "id": 11799491866,
-        "lat": 48.6890092,
-        "lon": 6.1830491,
+        "lat": 48.6890012,
+        "lon": 6.1830553,
         "tags": {
           "brand": "Naturalia",
           "brand:wikidata": "Q3337081",
@@ -1385,12 +1386,12 @@
           "bulk_purchase": "yes",
           "changing_table": "no",
           "contact:housenumber": "9",
-          "contact:phone": "+33 3 83357305",
+          "contact:phone": "+33 3 83 35 73 05",
           "contact:street": "Place Charles III",
           "contact:website": "https://magasins.naturalia.fr/naturalia/fr/store/france/grand-est/meurthe-et-moselle/nancy/nancy/3939",
           "level": "0",
           "name": "Naturalia",
-          "opening_hours": "Mo-Sa 09:00-20:00, Su closed",
+          "opening_hours": "Mo-Sa 09:00-20:00; Su off",
           "organic": "only",
           "payment:cash": "yes",
           "payment:debit_cards": "yes",
@@ -1573,6 +1574,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-13T11:25:10.141Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-14T09:17:32.962Z",
+  "staleDataWarning": true
 }

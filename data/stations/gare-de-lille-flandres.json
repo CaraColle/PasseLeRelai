@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791892036266,
+      "timestamp": 1791969850216,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-13T11:48:29Z",
+      "timestamp_osm_base": "2026-10-14T09:23:02Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -898,6 +898,7 @@
           "ref:FR:SIRET": "91492967400010",
           "shop": "bakery",
           "takeaway": "yes",
+          "website:menu": "https://www.mamatte.fr/les-boutiques/",
           "wheelchair": "yes"
         }
       },
@@ -1504,6 +1505,7 @@
           "ref:FR:SIRET": "91492967400010",
           "shop": "bakery",
           "takeaway": "yes",
+          "website:menu": "https://www.canva.com/design/DAGOqv4owmY/Liuph4eT3P8es2GaokSreQ/view?utlId=h00fcab193c",
           "wheelchair": "yes"
         }
       },
@@ -1737,6 +1739,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-13T11:25:10.141Z",
+  "fetchedAt": "2026-10-14T09:17:32.962Z",
   "staleDataWarning": false
 }

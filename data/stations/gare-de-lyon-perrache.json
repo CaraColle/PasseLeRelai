@@ -257,7 +257,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791805451998,
+      "timestamp": 1791969563920,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -286,7 +286,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-12T11:42:51Z",
+      "timestamp_osm_base": "2026-10-14T09:18:48Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -475,6 +475,8 @@
           "name": "Marché U",
           "opening_hours": "Mo-Sa 08:00-20:15; Su 09:00-13:00",
           "operator": "Système U",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "314406166",
           "ref:FR:SIRET": "31440616600012",
           "shop": "convenience",
           "survey:date": "2023-08-19",
@@ -726,6 +728,8 @@
           "contact:website": "https://www.magasins-u.com/magasin/uexpress-lyoncourmont",
           "name": "U Express",
           "opening_hours": "Mo-Sa 08:00-21:00; Su 08:00-13:00",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "454027863",
           "ref:FR:SIRET": "45402786300025",
           "shop": "convenience"
         }
@@ -1195,6 +1199,27 @@
       },
       {
         "type": "node",
+        "id": 6208181996,
+        "lat": 45.7499387,
+        "lon": 4.8388102,
+        "tags": {
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "check_date": "2026-03-15",
+          "check_date:opening_hours": "2026-09-02",
+          "contact:website": "https://www.magasins-u.com/magasin/uexpress-lyonuniversite",
+          "name": "U Express Lyon Université",
+          "opening_hours": "Mo-Sa 08:30-20:30; Su 09:00-13:00",
+          "phone": "+33 4 72 72 13 01",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "434007423",
+          "ref:FR:SIRET": "43400742300024",
+          "shop": "convenience",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
         "id": 6423443514,
         "lat": 45.7488512,
         "lon": 4.8389425,
@@ -1216,12 +1241,14 @@
         "lat": 45.7541542,
         "lon": 4.8323559,
         "tags": {
-          "brand": "U Express",
+          "brand": "Utile",
           "brand:wikidata": "Q2529029",
           "check_date": "2025-03-13",
           "check_date:opening_hours": "2025-03-13",
-          "name": "U Express",
+          "name": "Utile",
           "opening_hours": "Mo-Fr 07:30-20:00; Sa 08:00-20:00; Su 09:00-12:30",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "400717310",
           "ref:FR:SIRET": "40071731000017",
           "shop": "convenience",
           "source": "survey",
@@ -1389,6 +1416,27 @@
           "opening_hours": "Mo-Su 07:30-21:00",
           "ref:FR:SIRET": "34782592900016",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6988046244,
+        "lat": 45.7512222,
+        "lon": 4.8308357,
+        "tags": {
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "check_date:opening_hours": "2023-10-28",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 08:00-20:15; Su 09:00-13:00",
+          "phone": "+33 4 78 37 39 62",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "314406166",
+          "ref:FR:SIRET": "31440616600046",
+          "shop": "convenience",
+          "survey:date": "2023-08-19",
+          "website": "https://www.magasins-u.com/magasin/uexpress-lyon2eme",
+          "wheelchair": "yes"
         }
       },
       {
@@ -1814,6 +1862,26 @@
       },
       {
         "type": "node",
+        "id": 8938686592,
+        "lat": 45.753097,
+        "lon": 4.8294895,
+        "tags": {
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-13:00",
+          "payment:cards": "yes",
+          "payment:cash": "yes",
+          "phone": "+33 4 37 23 57 58",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "493191290",
+          "ref:FR:SIRET": "49319129000011",
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/magasin/uexpress-lyonrempartsdainay"
+        }
+      },
+      {
+        "type": "node",
         "id": 9064288289,
         "lat": 45.7421095,
         "lon": 4.8402707,
@@ -2142,6 +2210,9 @@
           "brand:wikidata": "Q2529029",
           "name": "U Express",
           "opening_hours": "Mo-Sa 07:00-20:00; Su 08:30-13:00",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "939875035",
+          "ref:FR:SIRET": "93987503500015",
           "shop": "convenience",
           "website": "https://www.magasins-u.com/magasin/uexpress-lyonsaintjust"
         }
@@ -2228,6 +2299,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-13T11:25:10.141Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-14T09:17:32.962Z",
+  "staleDataWarning": false
 }

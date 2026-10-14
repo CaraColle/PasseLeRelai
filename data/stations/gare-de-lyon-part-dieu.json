@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791891079811,
+      "timestamp": 1791969560346,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-13T11:33:01Z",
+      "timestamp_osm_base": "2026-10-14T09:18:48Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -368,6 +368,8 @@
           "brand:wikipedia": "fr:Système U",
           "name": "Utile",
           "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-13:00",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "405239336",
           "ref:FR:SIRET": "40523933600010",
           "shop": "convenience",
           "website": "https://magasins.utile-upf.fr/129-utile-lyon-seze"
@@ -453,6 +455,27 @@
       },
       {
         "type": "node",
+        "id": 534114171,
+        "lat": 45.761829,
+        "lon": 4.8465007,
+        "tags": {
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "check_date:opening_hours": "2025-09-18",
+          "contact:website": "https://www.magasins-u.com/magasin/uexpress-lyon3bonnel",
+          "name": "U Express",
+          "newspaper": "yes",
+          "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-13:00",
+          "operator": "Système U",
+          "phone": "+33 4 37 23 68 80",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "489289801",
+          "ref:FR:SIRET": "48928980100024",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 565481663,
         "lat": 45.7524321,
         "lon": 4.8685309,
@@ -495,6 +518,28 @@
           "produced_on_site": "yes",
           "ref:FR:SIRET": "85391984300021",
           "shop": "bakery",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1006896769,
+        "lat": 45.7561817,
+        "lon": 4.8473158,
+        "tags": {
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "check_date": "2026-01-20",
+          "check_date:opening_hours": "2026-01-20",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 08:30-20:30; Su 09:00-13:00",
+          "operator": "Système U",
+          "phone": "+33 4 37 45 45 35",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "489500124",
+          "ref:FR:SIRET": "48950012400024",
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/magasin/uexpress-saxevendome",
           "wheelchair": "yes"
         }
       },
@@ -783,6 +828,9 @@
           "diet:halal": "yes",
           "name": "Utile",
           "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-13:00",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "810288480",
+          "ref:FR:SIRET": "81028848000017",
           "shop": "convenience"
         }
       },
@@ -990,6 +1038,9 @@
           "brand:wikidata": "Q2529029",
           "name": "Utile",
           "opening_hours": "Mo-Su 08:00-20:00",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "831122155",
+          "ref:FR:SIRET": "83112215500011",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -1006,6 +1057,8 @@
           "check_date:opening_hours": "2026-07-08",
           "name": "Utile",
           "opening_hours": "Mo-Sa 07:00-21:00; Su 08:30-13:00",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "573750619",
           "ref:FR:SIRET": "57375061901508",
           "shop": "convenience"
         }
@@ -1124,6 +1177,9 @@
           "opening_hours": "Mo-Sa 08:30-20:30; Su 08:30-12:30",
           "operator": "Système U",
           "phone": "+33 4 37 24 21 92",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "518502604",
+          "ref:FR:SIRET": "51850260400029",
           "shop": "convenience",
           "website": "https://www.magasins-u.com/magasin/uexpress-lyon6emevilleurbanne"
         }
@@ -1399,7 +1455,9 @@
           "name": "U Express",
           "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-13:00",
           "phone": "+33 4 72 13 02 37",
-          "ref:FR:SIRET": "79807888700014",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "752512525",
+          "ref:FR:SIRET": "75251252500029",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -1721,6 +1779,8 @@
           "check_date:opening_hours": "2026-07-06",
           "name": "Utile",
           "opening_hours": "Mo-Sa 07:00-21:00; Su 09:00-13:00",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "573750619",
           "ref:FR:SIRET": "57375061901060",
           "shop": "convenience",
           "wheelchair": "yes"
@@ -2901,6 +2961,9 @@
           "check_date": "2026-02-05",
           "name": "Utile",
           "opening_hours": "Mo-Sa 07:30-20:30; Su 08:30-13:00",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "573750619",
+          "ref:FR:SIRET": "57375061903181",
           "shop": "convenience"
         }
       },
@@ -3022,6 +3085,24 @@
           "ref:FR:SIRET": "75295989000068",
           "shop": "bakery",
           "smoking": "outside",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10965863105,
+        "lat": 45.7569469,
+        "lon": 4.8562615,
+        "tags": {
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "check_date": "2026-01-14",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 07:00-21:00; Su 08:30-13:00",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "898262126",
+          "ref:FR:SIRET": "89826212600011",
+          "shop": "convenience",
           "wheelchair": "yes"
         }
       },
@@ -3325,6 +3406,8 @@
           "brand:wikidata": "Q2529029",
           "name": "U Express",
           "opening_hours": "Mo-Sa 07:30-21:00; Su 08:00-13:00",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "795145770",
           "ref:FR:SIRET": "79514577000025",
           "shop": "convenience",
           "website": "https://www.magasins-u.com/magasin/uexpress-lyonsully"
@@ -3473,6 +3556,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-13T11:25:10.141Z",
+  "fetchedAt": "2026-10-14T09:17:32.962Z",
   "staleDataWarning": false
 }

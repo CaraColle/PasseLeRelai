@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-13T11:59:47Z",
+      "timestamp_osm_base": "2026-10-14T09:29:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -512,6 +512,38 @@
           "shop": "bakery",
           "takeaway": "only",
           "website": "https://www.latalemelerie.com/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 898871427,
+        "lat": 45.1851012,
+        "lon": 5.7168274,
+        "tags": {
+          "addr:city": "Grenoble",
+          "addr:housenumber": "17",
+          "addr:postcode": "38000",
+          "addr:street": "Avenue de Vizille",
+          "air_conditioning": "yes",
+          "automatic_door": "yes",
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "check_date": "2026-04-21",
+          "check_date:opening_hours": "2025-12-06",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 08:00-20:00; Su 08:00-13:00",
+          "operator": "Système U",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "phone": "+33 4 76 84 67 44",
+          "ref:FR:NAF": "47.29Z",
+          "ref:FR:SIREN": "800542573",
+          "ref:FR:SIRET": "80054257300012",
+          "shop": "convenience",
+          "toilets:wheelchair": "no",
+          "website": "https://www.magasins-u.com/magasin/uexpress-grenoblevizille",
           "wheelchair": "yes"
         }
       },
@@ -1150,6 +1182,8 @@
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "530440262",
           "ref:FR:SIRET": "53044026200018",
           "shop": "convenience",
           "source": "survey",
@@ -1816,6 +1850,8 @@
           "name": "Utile",
           "opening_hours": "Mo-Sa 08:00-20:00; Su 08:30-13:00",
           "operator": "Système U",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "883409237",
           "ref:FR:SIRET": "88340923700012",
           "shop": "convenience",
           "wheelchair": "yes"
@@ -2785,6 +2821,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-13T11:25:10.141Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-14T09:17:32.962Z",
+  "staleDataWarning": true
 }

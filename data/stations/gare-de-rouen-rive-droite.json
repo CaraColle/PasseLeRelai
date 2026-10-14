@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-13T12:17:57Z",
+      "timestamp_osm_base": "2026-10-14T09:55:30Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2024,9 +2024,22 @@
           "website": "https://www.magasins-u.com/",
           "wheelchair": "yes"
         }
+      },
+      {
+        "type": "way",
+        "id": 1568013415,
+        "center": {
+          "lat": 49.463014,
+          "lon": 1.0806792
+        },
+        "tags": {
+          "indoor": "room",
+          "level": "1",
+          "shop": "bakery"
+        }
       }
     ]
   },
-  "fetchedAt": "2026-10-13T11:25:10.141Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-14T09:17:32.962Z",
+  "staleDataWarning": true
 }

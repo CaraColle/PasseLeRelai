@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-13T11:55:37Z",
+      "timestamp_osm_base": "2026-10-14T09:29:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -733,6 +733,23 @@
       },
       {
         "type": "node",
+        "id": 5806428187,
+        "lat": 45.4371434,
+        "lon": 4.4115795,
+        "tags": {
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "name": "U Express Saint-Étienne",
+          "opening_hours": "Mo-Sa 08:30-20:00; Su 08:30-12:30",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "800016784",
+          "ref:FR:SIRET": "80001678400020",
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/magasin/uexpress-saintetiennemontplaisir.m66204"
+        }
+      },
+      {
+        "type": "node",
         "id": 5846566034,
         "lat": 45.439379,
         "lon": 4.3886942,
@@ -1010,6 +1027,8 @@
           "contact:website": "https://www.capsud-utile.fr/magasin-utile-st-etienne-st-jean-m141.php",
           "name": "Utile",
           "opening_hours": "Mo-Sa 07:30-20:00; Su 09:00-13:00",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "573750619",
           "ref:FR:SIRET": "57375061903165",
           "shop": "convenience"
         }
@@ -1322,6 +1341,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-13T11:25:10.141Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-14T09:17:32.962Z",
+  "staleDataWarning": true
 }
