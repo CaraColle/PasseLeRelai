@@ -205,7 +205,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791893737473,
+      "timestamp": 1792055913401,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -234,7 +234,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-14T09:53:28Z",
+      "timestamp_osm_base": "2026-10-15T09:21:50Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -408,8 +408,10 @@
           "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
+          "phone": "+33 3 89 45 33 62",
           "ref:FR:SIRET": "80970502300012",
           "shop": "bakery",
+          "website": "https://www.lamiecaline.com/boutiques/mulhouse/",
           "wheelchair": "yes"
         }
       },
@@ -759,6 +761,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-14T09:17:32.962Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-15T08:52:01.206Z",
+  "staleDataWarning": false
 }

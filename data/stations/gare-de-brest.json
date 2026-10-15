@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791893109724,
+      "timestamp": 1792055542603,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-14T09:41:20Z",
+      "timestamp_osm_base": "2026-10-15T09:13:47Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -407,7 +407,7 @@
         "tags": {
           "addr:city": "Brest",
           "air_conditioning": "no",
-          "check_date": "2026-08-19",
+          "check_date": "2026-10-14",
           "check_date:diet:gluten_free": "2026-08-19",
           "check_date:opening_hours": "2026-05-14",
           "diet:gluten_free": "no",
@@ -420,6 +420,7 @@
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "ref:FR:SIRET": "79517679100015",
+          "reusable_packaging:offer": "no",
           "shop": "bakery",
           "takeaway": "only",
           "wheelchair": "yes"
@@ -453,7 +454,7 @@
         "tags": {
           "air_conditioning": "yes",
           "automatic_door": "motion",
-          "check_date": "2026-10-03",
+          "check_date": "2026-10-14",
           "check_date:diet:gluten_free": "2026-10-03",
           "contact:city": "Brest",
           "contact:facebook": "113748237159",
@@ -476,6 +477,8 @@
           "phone": "+33 2 19 00 52 05",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIRET": "81300766300038",
+          "reusable_packaging:accept": "yes",
+          "reusable_packaging:offer": "no",
           "shop": "bakery",
           "source": "INSEE - 2026-01",
           "website": "https://boulangerie.bio/",
@@ -520,6 +523,7 @@
           "delivery:partner:wikidata": "Q21462723",
           "name": "La Mie Câline",
           "opening_hours": "Mo-Fr 07:00-19:30; Su 08:00-14:30; Sa off",
+          "phone": "+33 2 98 43 36 32",
           "ref:FR:SIRET": "48965703100014",
           "shop": "bakery",
           "source": "survey",
@@ -1178,6 +1182,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-14T09:17:32.962Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-15T08:52:01.206Z",
+  "staleDataWarning": false
 }

@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791969454055,
+      "timestamp": 1792054322321,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-14T09:17:51Z",
+      "timestamp_osm_base": "2026-10-15T08:54:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -6537,6 +6537,17 @@
       },
       {
         "type": "node",
+        "id": 6652816686,
+        "lat": 48.883904,
+        "lon": 2.3737648,
+        "tags": {
+          "name": "Marché Jaurès 19",
+          "ref:FR:SIRET": "91308165900017",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 6707642919,
         "lat": 48.8889875,
         "lon": 2.3466053,
@@ -9668,6 +9679,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-14T09:17:32.962Z",
+  "fetchedAt": "2026-10-15T08:52:01.206Z",
   "staleDataWarning": false
 }

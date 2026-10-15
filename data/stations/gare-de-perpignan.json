@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791893365949,
+      "timestamp": 1792055705225,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-14T09:48:24Z",
+      "timestamp_osm_base": "2026-10-15T09:16:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -863,7 +863,9 @@
           "brand:wikidata": "Q3210704",
           "name": "La Mie Câline",
           "opening_hours": "Mo-Su 06:30-19:45",
-          "shop": "bakery"
+          "phone": "+33 4 68 57 60 33",
+          "shop": "bakery",
+          "website": "https://www.lamiecaline.com/boutiques/perpignan/"
         }
       },
       {
@@ -1114,6 +1116,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-14T09:17:32.962Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-15T08:52:01.206Z",
+  "staleDataWarning": false
 }

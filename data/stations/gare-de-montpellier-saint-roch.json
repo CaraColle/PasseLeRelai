@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791969657889,
+      "timestamp": 1792054794660,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-14T09:23:02Z",
+      "timestamp_osm_base": "2026-10-15T09:01:25Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1733,8 +1733,10 @@
           "check_date": "2025-02-05",
           "name": "La Mie Câline",
           "opening_hours": "Mo-Sa 07:00-20:00",
+          "phone": "+33 4 99 67 78 26",
           "ref:FR:SIRET": "88442627100018",
           "shop": "bakery",
+          "website": "https://www.lamiecaline.com/boutiques/montpellier-observatoire/",
           "wheelchair": "limited"
         }
       },
@@ -2478,7 +2480,9 @@
           "name": "Le Grain des Mots",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
           "ref:FR:SIRET": "37935798100024",
-          "shop": "books"
+          "shop": "books",
+          "survey:date": "2026-10-14",
+          "website": "https://legraindesmots.com/"
         }
       },
       {
@@ -2573,6 +2577,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-14T09:17:32.962Z",
+  "fetchedAt": "2026-10-15T08:52:01.206Z",
   "staleDataWarning": false
 }

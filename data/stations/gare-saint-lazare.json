@@ -301,7 +301,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1791969456735,
+      "timestamp": 1792054429283,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -330,7 +330,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-14T09:17:51Z",
+      "timestamp_osm_base": "2026-10-15T08:55:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -790,7 +790,7 @@
         "tags": {
           "addr:housenumber": "46",
           "addr:street": "Rue des Petits Champs",
-          "check_date": "2026-03-12",
+          "check_date": "2026-10-15",
           "check_date:opening_hours": "2026-03-12",
           "contact:city": "Paris",
           "contact:housenumber": "46",
@@ -2610,6 +2610,7 @@
           "addr:housenumber": "1",
           "addr:postcode": "75002",
           "addr:street": "Rue Volney",
+          "check_date": "2026-10-15",
           "name": "Au Coin Gourmand",
           "phone": "+33149260791",
           "shop": "bakery",
@@ -3181,7 +3182,7 @@
           "addr:housenumber": "11",
           "addr:postcode": "75002",
           "addr:street": "Rue Monsigny",
-          "check_date": "2025-12-12",
+          "check_date": "2026-10-15",
           "level": "0",
           "name": "Book-off Quatre Septembre",
           "opening_hours": "Mo-Fr 11:00-19:30; Sa 10:00-19:30",
@@ -4666,6 +4667,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-14T09:17:32.962Z",
+  "fetchedAt": "2026-10-15T08:52:01.206Z",
   "staleDataWarning": false
 }
