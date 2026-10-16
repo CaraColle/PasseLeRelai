@@ -257,7 +257,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792055075505,
+      "timestamp": 1792140959914,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -286,7 +286,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-15T09:05:33Z",
+      "timestamp_osm_base": "2026-10-16T08:56:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1793,6 +1793,8 @@
           "name": "La tête enfarinée",
           "opening_hours": "Tu-Sa 08:00-18:30",
           "organic": "only",
+          "ref:FR:NAF": "10.71C",
+          "ref:FR:SIRET": "50202229600029",
           "shop": "bakery",
           "wheelchair": "limited"
         }
@@ -2100,6 +2102,26 @@
         }
       },
       {
+        "type": "node",
+        "id": 14140198401,
+        "lat": 48.10977,
+        "lon": -1.6830578,
+        "tags": {
+          "amenity": "cafe",
+          "contact:city": "Rennes",
+          "contact:housenumber": "19",
+          "contact:postcode": "35000",
+          "contact:street": "Quai Lamennais",
+          "name": "Le Quartier Littéraire",
+          "opening_hours": "Tu-Su 10:00-19:00",
+          "phone": "+33651280081",
+          "ref:FR:NAF": "47.61Z",
+          "ref:FR:SIRET": "10936456200016",
+          "shop": "books",
+          "website": "https://www.lequartierlitteraire.fr"
+        }
+      },
+      {
         "type": "way",
         "id": 44018171,
         "center": {
@@ -2234,6 +2256,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-15T08:52:01.206Z",
+  "fetchedAt": "2026-10-16T08:45:07.524Z",
   "staleDataWarning": false
 }

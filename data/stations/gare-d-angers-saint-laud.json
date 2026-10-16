@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792055363410,
+      "timestamp": 1792141190280,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-14T09:33:10Z",
+      "timestamp_osm_base": "2026-10-16T09:00:35Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -422,20 +422,6 @@
           "ref:FR:SIRET": "90306021800216",
           "shop": "convenience",
           "source": "INSEE - 2026-05"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3583777533,
-        "lat": 47.469576,
-        "lon": -0.5554274,
-        "tags": {
-          "check_date": "2026-05-02",
-          "check_date:opening_hours": "2026-05-02",
-          "name": "La petite bouquinerie",
-          "opening_hours": "Tu-Fr 11:00-18:00; Sa 10:00-19:00",
-          "ref:FR:SIRET": "87933313600023",
-          "shop": "books"
         }
       },
       {
@@ -750,11 +736,13 @@
           "check_date:opening_hours": "2026-01-28",
           "name": "La Mie Câline",
           "opening_hours": "Mo-Su,PH 06:00-20:00",
+          "phone": "+33 2 41 48 87 95",
           "ref:FR:NAF": "10.71B",
           "ref:FR:SIREN": "823808365",
           "ref:FR:SIRET": "82380836500014",
           "shop": "bakery",
-          "source": "INSEE - 2026-05"
+          "source": "INSEE - 2026-05",
+          "website": "https://www.lamiecaline.com/boutiques/angers-foch/"
         }
       },
       {
@@ -1357,6 +1345,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-15T08:52:01.206Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-16T08:45:07.524Z",
+  "staleDataWarning": false
 }

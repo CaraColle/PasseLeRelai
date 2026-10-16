@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792054322299,
+      "timestamp": 1792140308219,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-15T08:52:18Z",
+      "timestamp_osm_base": "2026-10-16T08:45:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3868,6 +3868,16 @@
       },
       {
         "type": "node",
+        "id": 11300571529,
+        "lat": 48.8363553,
+        "lon": 2.3201078,
+        "tags": {
+          "name": "Marché de l'Ouest",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 11349888523,
         "lat": 48.8422147,
         "lon": 2.3303375,
@@ -4586,6 +4596,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-15T08:52:01.206Z",
+  "fetchedAt": "2026-10-16T08:45:07.524Z",
   "staleDataWarning": false
 }
