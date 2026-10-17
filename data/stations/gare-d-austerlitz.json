@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792140391949,
+      "timestamp": 1792225022030,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-16T08:48:20Z",
+      "timestamp_osm_base": "2026-10-17T08:18:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3226,7 +3226,7 @@
           "addr:housenumber": "9",
           "addr:postcode": "75005",
           "addr:street": "Rue de Mirbel",
-          "check_date": "2025-09-01",
+          "check_date": "2026-10-17",
           "check_date:opening_hours": "2025-09-01",
           "level": "0",
           "name": "Bulles en vrac",
@@ -4901,6 +4901,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-16T08:45:07.524Z",
+  "fetchedAt": "2026-10-17T08:15:43.237Z",
   "staleDataWarning": false
 }

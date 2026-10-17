@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-15T09:16:51Z",
+      "timestamp_osm_base": "2026-10-17T08:38:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1069,7 +1069,7 @@
         "lat": 49.119051,
         "lon": 6.1773205,
         "tags": {
-          "check_date": "2023-05-01",
+          "check_date": "2026-10-15",
           "contact:housenumber": "10",
           "contact:street": "Rue Taison",
           "contact:website": "https://lacourdesgrands.blog/",
@@ -1645,6 +1645,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-16T08:45:07.524Z",
+  "fetchedAt": "2026-10-17T08:15:43.237Z",
   "staleDataWarning": true
 }

@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792054756160,
+      "timestamp": 1792225277067,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-16T08:52:21Z",
+      "timestamp_osm_base": "2026-10-17T08:21:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -294,7 +294,6 @@
         "tags": {
           "check_date": "2026-02-16",
           "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:housenumber": "12",
           "contact:phone": "+33 2 40 35 58 78",
           "contact:postcode": "44000",
@@ -402,7 +401,6 @@
         "tags": {
           "check_date": "2026-07-07",
           "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:housenumber": "150",
           "contact:instagram": "https://www.instagram.com/painsetmerveilles/",
           "contact:postcode": "44000",
@@ -471,7 +469,6 @@
         "lon": -1.5503235,
         "tags": {
           "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:housenumber": "43",
           "contact:postcode": "44000",
           "contact:street": "Chaussée de la Madeleine",
@@ -593,7 +590,6 @@
           "brand:wikidata": "Q130232721",
           "check_date": "2025-11-06",
           "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:housenumber": "5",
           "contact:postcode": "44000",
           "contact:street": "Rue des Carmes",
@@ -682,7 +678,6 @@
         "tags": {
           "check_date": "2025-11-06",
           "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:housenumber": "14",
           "contact:postcode": "44000",
           "contact:street": "Rue de Verdun",
@@ -839,7 +834,6 @@
           "check_date": "2025-12-08",
           "check_date:opening_hours": "2025-12-08",
           "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:housenumber": "2",
           "contact:postcode": "44000",
           "contact:street": "Rue Belle-Image",
@@ -1029,7 +1023,6 @@
           "check_date": "2026-02-16",
           "chocolate": "yes",
           "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:facebook": "https://www.facebook.com/maisonbecam.nantes.verdun",
           "contact:housenumber": "19",
           "contact:phone": "+33 2 40 47 18 38",
@@ -1061,7 +1054,6 @@
           "books": "religion",
           "check_date": "2026-01-26",
           "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:facebook": "https://www.facebook.com/siloe.librairie.nantes",
           "contact:housenumber": "3",
           "contact:phone": "+33 2 40 89 11 18",
@@ -1087,7 +1079,6 @@
           "books": "children",
           "check_date": "2026-02-16",
           "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:facebook": "https://www.facebook.com/les-enfants-terribles-120664378033418/",
           "contact:housenumber": "17",
           "contact:phone": "+33 2 51 82 02 15",
@@ -1154,7 +1145,6 @@
           "check_date": "2025-08-21",
           "check_date:opening_hours": "2025-08-21",
           "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:housenumber": "10",
           "contact:postcode": "44000",
           "contact:street": "Quai Turenne",
@@ -1290,7 +1280,6 @@
         "tags": {
           "check_date": "2024-02-28",
           "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:housenumber": "20",
           "contact:postcode": "44200",
           "contact:street": "Rue Petite Biesse",
@@ -2234,7 +2223,6 @@
         "lon": -1.5485359,
         "tags": {
           "contact:city": "Nantes",
-          "contact:country": "FR",
           "contact:housenumber": "43",
           "contact:phone": "+33 7 82 38 78 66",
           "contact:postcode": "44200",
@@ -2500,6 +2488,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-16T08:45:07.524Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-17T08:15:43.237Z",
+  "staleDataWarning": false
 }

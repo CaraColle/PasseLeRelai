@@ -350,7 +350,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-15T09:13:47Z",
+      "timestamp_osm_base": "2026-10-17T08:36:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -914,8 +914,13 @@
         "lat": 47.3948813,
         "lon": 0.6833954,
         "tags": {
+          "contact:housenumber": "69",
+          "contact:instagram": "https://www.instagram.com/oshopworldtours/",
+          "contact:street": "Rue du Commerce",
           "name": "O'Shop World",
-          "note": "deménager au 71 de l'autre coté de la rue fin 2025 (novembre ou décembre)",
+          "note": "Imaginaute a déménagé au 71 de la même rue fin 2025 (novembre ou décembre)",
+          "old_name:--2025": "Imaginaute",
+          "ref:FR:SIRET": "90926471500022",
           "shop": "convenience"
         }
       },
@@ -1273,6 +1278,7 @@
           "contact:housenumber": "61",
           "contact:postcode": "37000",
           "contact:street": "Rue du Commerce",
+          "fixme": "déménagé au 69 de la même rue à l'automne 2026 ?",
           "name": "O'Shop",
           "panoramax": "5892c90b-f2e1-4efd-af93-0ad5d5c5750d",
           "ref:FR:SIRET": "82870684600015",
@@ -1710,7 +1716,10 @@
         "lat": 47.3855345,
         "lon": 0.6933824,
         "tags": {
+          "contact:housenumber": "42",
+          "contact:street": "Rue Chalmel",
           "name": "Helgo Exotique",
+          "ref:FR:SIRET": "99943706400010",
           "shop": "convenience"
         }
       },
@@ -1860,6 +1869,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-16T08:45:07.524Z",
+  "fetchedAt": "2026-10-17T08:15:43.237Z",
   "staleDataWarning": true
 }

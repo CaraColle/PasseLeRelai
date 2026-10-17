@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792140820475,
+      "timestamp": 1792225386031,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-16T08:54:26Z",
+      "timestamp_osm_base": "2026-10-17T08:23:49Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -646,7 +646,6 @@
           "check_date": "2025-07-19",
           "check_date:opening_hours": "2023-06-24",
           "contact:city": "Strasbourg",
-          "contact:country": "FR",
           "contact:fax": "+33 3 88 16 58 84",
           "contact:housenumber": "31",
           "contact:phone": "+33 3 88 16 58 79",
@@ -1185,11 +1184,11 @@
           "brand:wikidata": "Q3210704",
           "check_date": "2026-07-29",
           "name": "La Mie Câline",
-          "opening_hours": "Mo-Su 07:00-20:00",
+          "opening_hours": "Mo-Su 06:00-20:00",
           "phone": "+33 3 88 35 30 94",
           "ref:FR:SIRET": "78926721800020",
           "shop": "bakery",
-          "website": "https://lamiecaline.com/magasin/strasbourg/323"
+          "website": "https://www.lamiecaline.com/boutiques/strasbourg/"
         }
       },
       {
@@ -1762,6 +1761,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-16T08:45:07.524Z",
+  "fetchedAt": "2026-10-17T08:15:43.237Z",
   "staleDataWarning": false
 }

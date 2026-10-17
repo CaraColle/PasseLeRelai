@@ -301,7 +301,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792140349381,
+      "timestamp": 1792224982599,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -330,7 +330,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-16T08:47:16Z",
+      "timestamp_osm_base": "2026-10-17T08:17:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -368,6 +368,7 @@
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche Dorée",
           "contact:phone": "+33 1 44 69 32 70",
+          "level": "0",
           "name": "Brioche Dorée",
           "opening_hours": "Mo-Sa 07:00-20:00; Su 07:00-19:00",
           "operator": "Groupe Le Duff",
@@ -1877,6 +1878,7 @@
         "lon": 2.3209381,
         "tags": {
           "name": "Aux Pains d'Émile",
+          "opening_hours": "Mo-Sa 07:00-20:00",
           "shop": "bakery"
         }
       },
@@ -4667,6 +4669,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-16T08:45:07.524Z",
+  "fetchedAt": "2026-10-17T08:15:43.237Z",
   "staleDataWarning": false
 }

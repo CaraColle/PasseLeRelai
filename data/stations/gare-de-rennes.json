@@ -257,7 +257,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792140959914,
+      "timestamp": 1792225507685,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -286,7 +286,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-16T08:56:36Z",
+      "timestamp_osm_base": "2026-10-17T08:26:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1066,6 +1066,8 @@
           "addr:street": "Rue Saint-Hélier",
           "name": "Épicerie Saint-Hélier",
           "opening_hours": "Mo-Su 06:30-12:30",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "91374847100038",
           "shop": "convenience"
         }
       },
@@ -1482,7 +1484,7 @@
           "diet:vegetarian": "no",
           "drive_through": "no",
           "name": "La Mie Câline",
-          "opening_hours": "Mo-Fr 06:30-20:00; Sa 07:00-19:30",
+          "opening_hours": "Mo-Fr 06:30-20:00; Sa 06:30-19:00; Su 06:30-18:30",
           "outdoor_seating": "no",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
@@ -1492,7 +1494,7 @@
           "shop": "bakery",
           "smoking": "outside",
           "takeaway": "only",
-          "website": "https://www.lamiecaline.com/",
+          "website": "https://www.lamiecaline.com/boutiques/rennes/",
           "wheelchair": "yes"
         }
       },
@@ -2256,6 +2258,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-16T08:45:07.524Z",
+  "fetchedAt": "2026-10-17T08:15:43.237Z",
   "staleDataWarning": false
 }
