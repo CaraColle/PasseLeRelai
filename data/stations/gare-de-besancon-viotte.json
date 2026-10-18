@@ -290,7 +290,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-17T08:39:19Z",
+      "timestamp_osm_base": "2026-10-18T08:56:29Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -615,6 +615,7 @@
         "lon": 6.0179725,
         "tags": {
           "name": "Espace Som",
+          "ref:FR:SIRET": "98956317600019",
           "shop": "convenience",
           "wheelchair": "no"
         }
@@ -1118,6 +1119,7 @@
           "name": "L'Ilot Bouquinerie d'Anvers",
           "opening_hours": "Tu-Fr 09:00-12:00,14:00-18:45; Sa 09:00-12:00,14:00-18:30",
           "phone": "+33381822340",
+          "ref:FR:SIRET": "34396823600046",
           "shop": "books",
           "website": "https://www.bouquinerie-d-anvers.fr/"
         }
@@ -1274,6 +1276,7 @@
           "addr:street": "Rue François-Louis Bersot",
           "name": "Mine de rien",
           "opening_hours": "We-Sa 10:00-19:00",
+          "ref:FR:SIRET": "79994367500022",
           "shop": "books"
         }
       },
@@ -1548,6 +1551,7 @@
         "tags": {
           "name": "Omeri market",
           "phone": "+33 3 81 81 39 65",
+          "ref:FR:SIRET": "82840494700016",
           "shop": "convenience"
         }
       },
@@ -1604,6 +1608,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-17T08:15:43.237Z",
+  "fetchedAt": "2026-10-18T08:32:52.055Z",
   "staleDataWarning": true
 }

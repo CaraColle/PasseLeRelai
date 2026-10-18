@@ -274,7 +274,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-17T08:33:11Z",
+      "timestamp_osm_base": "2026-10-18T08:49:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -730,24 +730,21 @@
       {
         "type": "node",
         "id": 680265375,
-        "lat": 43.8390289,
-        "lon": 4.3554492,
+        "lat": 43.8390378,
+        "lon": 4.355453,
         "tags": {
-          "addr:city": "Nîmes",
-          "addr:housenumber": "12",
-          "addr:postcode": "30000",
-          "addr:street": "Boulevard Alphonse Daudet",
-          "contact:facebook": "https://www.facebook.com/AuxLettresDeMonMoulin",
-          "description": "Littérature adulte et jeunesse de plus de 10000 références, Rencontres auteurs pour \"Les soirées aux lettres\". Livres numériques disponibles.",
-          "email": "auxlettresdemonmoulin@orange.fr",
-          "name": "Librairie Aux Lettres de mon Moulin",
-          "opening_hours": "Tu-Fr 09:00-12:30,14:00-19:00; Sa 10:00-12:30,14:00-19:00",
+          "contact:facebook": "https://www.facebook.com/p/La-librairie-des-deux-places-N%C3%AEmes-61587020897439",
+          "contact:housenumber": "12",
+          "contact:street": "Boulevard Alphonse Daudet",
+          "email": "contact@lalibrairiedesdeuxplaces.fr",
+          "name": "Librairie des Deux Places",
+          "opening_hours": "Mo 10:00-13:00,14:00-19:00; Tu-Sa 10:00-19:00",
           "phone": "+33 4 66 67 21 58",
-          "ref:FR:SIRET": "43138214200021",
+          "ref:FR:SIRET": "89039292100031",
           "ref:vatin": "FR83431382142",
           "shop": "books",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-          "website": "https://www.auxlettresdemonmoulin.com/"
+          "website": "https://www.lalibrairiedesdeuxplaces.fr/"
         }
       },
       {
@@ -1648,6 +1645,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-17T08:15:43.237Z",
+  "fetchedAt": "2026-10-18T08:32:52.055Z",
   "staleDataWarning": true
 }

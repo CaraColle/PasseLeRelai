@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-17T08:21:51Z",
+      "timestamp_osm_base": "2026-10-18T08:39:19Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1535,7 +1535,7 @@
         "tags": {
           "addr:housenumber": "26",
           "addr:street": "Rue Benoit Bunico",
-          "check_date": "2024-12-07",
+          "check_date": "2026-10-17",
           "check_date:opening_hours": "2024-12-07",
           "name": "Epicerie",
           "opening_hours": "Mo-Su 08:00-23:00",
@@ -1615,7 +1615,7 @@
         "tags": {
           "addr:housenumber": "26",
           "addr:street": "Rue de la Préfecture",
-          "check_date": "2026-06-04",
+          "check_date": "2026-10-17",
           "name": "Épicerie Provençale",
           "opening_hours": "Mo-Su 08:00-00:30",
           "ref:FR:NAF": "47.19B",
@@ -2994,6 +2994,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-17T08:15:43.237Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-18T08:32:52.055Z",
+  "staleDataWarning": true
 }

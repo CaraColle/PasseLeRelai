@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-17T08:20:50Z",
+      "timestamp_osm_base": "2026-10-18T08:38:16Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -374,6 +374,7 @@
           "opening_hours": "Tu-Sa 07:30-19:00; Su 08:00-14:00",
           "organic": "yes",
           "outdoor_seating": "yes",
+          "ref:FR:SIRET": "10574274600016",
           "shop": "bakery"
         }
       },
@@ -591,6 +592,7 @@
           "name": "Au bon quignon",
           "opening_hours": "Mo-Sa 06:30-19:30; Su 06:30-13:00",
           "outdoor_seating": "no",
+          "ref:FR:SIRET": "75071312500011",
           "shop": "bakery",
           "smoking": "no",
           "source": "GrandToulouse",
@@ -714,6 +716,7 @@
           "opening_hours": "Mo-Sa 07:30-20:00",
           "organic": "yes",
           "phone": "+33 5 61 44 48 93",
+          "ref:FR:SIRET": "48774374200081",
           "shop": "bakery",
           "was:name": "Domaine des Longchamps",
           "was:shop": "convenience"
@@ -732,6 +735,7 @@
           "name": "Second Petit Déjeuner",
           "opening_hours": "Tu-Sa 09:30-19:00; Su 09:30-14:00",
           "phone": "+33 5 61 06 72 02",
+          "ref:FR:SIRET": "99057039200011",
           "shop": "books"
         }
       },
@@ -1443,6 +1447,7 @@
           "addr:street": "Sainte Ursule",
           "name": "Ombres blanches - librairie internationale",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00; Su off",
+          "ref:FR:SIRET": "30430694700090",
           "shop": "books"
         }
       },
@@ -1785,6 +1790,7 @@
           "name": "Vival",
           "opening_hours": "Mo-Th 08:30-13:00,15:00-21:30; Fr,Sa 08:30-13:00,15:00-22:00; Su 08:30-21:30",
           "phone": "+33 9 80 64 52 42",
+          "ref:FR:SIRET": "81841955800015",
           "shop": "convenience",
           "website": "https://vival.casino.fr/fr/stores/e2377"
         }
@@ -1849,21 +1855,6 @@
           "source": "survey",
           "website": "https://www.lamiecaline.com/boutiques/toulouse-jeanne-darc/",
           "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3440754924,
-        "lat": 43.6098777,
-        "lon": 1.4440005,
-        "tags": {
-          "contact:housenumber": "65",
-          "contact:street": "Boulevard de Strasbourg",
-          "description": "Snacks - Boulangerie - Pizzas",
-          "name": "F",
-          "ref:FR:SIRET": "49078940100018",
-          "shop": "bakery",
-          "source": "survey"
         }
       },
       {
@@ -1979,6 +1970,7 @@
         "tags": {
           "name": "Etoile de nuit",
           "opening_hours": "Mo-Fr 19:00-02:00; Sa 19:00-03:00; Su 17:00-02:00",
+          "ref:FR:SIRET": "94492123800019",
           "shop": "convenience"
         }
       },
@@ -2300,6 +2292,7 @@
           "opening_hours": "Mo-Sa 09:00-19:30",
           "origin": "asian",
           "phone": "+33 5 67 11 08 04",
+          "ref:FR:SIRET": "79390495400054",
           "shop": "convenience"
         }
       },
@@ -2781,6 +2774,7 @@
           "check_date": "2025-07-11",
           "contact:housenumber": "69",
           "contact:street": "Boulevard Lazare Carnot",
+          "name": "Épicerie",
           "shop": "convenience"
         }
       },
@@ -3438,6 +3432,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-17T08:15:43.237Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-18T08:32:52.055Z",
+  "staleDataWarning": true
 }

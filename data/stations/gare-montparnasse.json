@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-17T08:15:50Z",
+      "timestamp_osm_base": "2026-10-18T08:33:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1460,7 +1460,7 @@
         "lat": 48.8477911,
         "lon": 2.3189782,
         "tags": {
-          "check_date": "2025-10-10",
+          "check_date": "2026-10-17",
           "contact:city": "Paris",
           "contact:housenumber": "70",
           "contact:postcode": "75007",
@@ -1476,7 +1476,7 @@
         "lat": 48.8481452,
         "lon": 2.3197595,
         "tags": {
-          "check_date": "2025-10-10",
+          "check_date": "2026-10-17",
           "contact:city": "Paris",
           "contact:housenumber": "60",
           "contact:postcode": "75007",
@@ -1956,7 +1956,7 @@
         "lat": 48.8482673,
         "lon": 2.3200267,
         "tags": {
-          "check_date": "2025-10-10",
+          "check_date": "2026-10-17",
           "name": "Secco",
           "name:fr": "Secco",
           "opening_hours": "Mo-Sa 07:00-20:00; Jan 01 closed; May 01 closed",
@@ -1991,6 +1991,7 @@
         "lat": 48.8471306,
         "lon": 2.3322848,
         "tags": {
+          "check_date": "2026-10-17",
           "check_date:opening_hours": "2025-11-28",
           "name": "Librairie Giraud-Badin",
           "opening_hours:signed": "no",
@@ -2081,6 +2082,22 @@
           "name": "Le Panier d'Or",
           "organic": "yes",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 5079608826,
+        "lat": 48.8406828,
+        "lon": 2.3342439,
+        "tags": {
+          "addr:housenumber": "151b",
+          "addr:street": "Boulevard du Montparnasse",
+          "level": "0",
+          "name": "L'Échappée",
+          "old_name": "Méli-Mélo",
+          "ref:FR:SIRET": "99237098100019",
+          "shop": "bakery",
+          "wheelchair": "no"
         }
       },
       {
@@ -2451,6 +2468,7 @@
         "lat": 48.847469,
         "lon": 2.3300374,
         "tags": {
+          "check_date": "2026-10-17",
           "name": "Bopain",
           "shop": "bakery"
         }
@@ -2721,6 +2739,7 @@
           "branch": "Paris Assas",
           "brand": "U Express",
           "brand:wikidata": "Q2529029",
+          "check_date": "2026-10-17",
           "level": "0",
           "name": "U Express",
           "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-12:30",
@@ -3428,7 +3447,7 @@
         "tags": {
           "addr:housenumber": "7",
           "addr:street": "Rue de Fleurus",
-          "check_date": "2026-09-12",
+          "check_date": "2026-10-17",
           "name": "Bread & Roses",
           "opening_hours": "Tu-Su 10:00-19:00",
           "organic": "yes",
@@ -3678,6 +3697,7 @@
         "lat": 48.8498837,
         "lon": 2.3282352,
         "tags": {
+          "check_date": "2026-10-17",
           "name": "Au Verger d'Assas",
           "opening_hours": "Tu-Su 09:00-01:00, Fr-Sa 09:00-02:00",
           "shop": "convenience"
@@ -4030,19 +4050,6 @@
       },
       {
         "type": "node",
-        "id": 11950573764,
-        "lat": 48.8483826,
-        "lon": 2.320706,
-        "tags": {
-          "brand": "Monop'",
-          "brand:wikidata": "Q89913683",
-          "name": "Monop'",
-          "opening_hours": "Mo-Sa 07:00-21:00, Su 08:00-21:00",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 11954525181,
         "lat": 48.8462768,
         "lon": 2.3194526,
@@ -4213,6 +4220,7 @@
         "lat": 48.8468175,
         "lon": 2.3303531,
         "tags": {
+          "check_date": "2026-10-17",
           "name": "La Belle Épicerie",
           "opening_hours": "Mo-Sa 10:00-14:30,16:30-20:00",
           "shop": "convenience"
@@ -4402,7 +4410,7 @@
         "tags": {
           "brand": "Eric Kayser",
           "brand:wikidata": "Q99231745",
-          "check_date": "2025-10-10",
+          "check_date": "2026-10-17",
           "contact:housenumber": "1",
           "contact:street": "Boulevard du Montparnasse",
           "indoor": "room",
@@ -4596,6 +4604,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-17T08:15:43.237Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-18T08:32:52.055Z",
+  "staleDataWarning": true
 }

@@ -222,7 +222,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-17T08:31:06Z",
+      "timestamp_osm_base": "2026-10-18T08:48:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -784,6 +784,18 @@
       },
       {
         "type": "node",
+        "id": 6273604336,
+        "lat": 47.3161096,
+        "lon": 5.0335243,
+        "tags": {
+          "name": "Épicerie Kone",
+          "operator": "EI Aminata Koné",
+          "ref:FR:SIRET": "92133376100036",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 6445673289,
         "lat": 47.3255548,
         "lon": 5.0356965,
@@ -955,6 +967,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-17T08:15:43.237Z",
+  "fetchedAt": "2026-10-18T08:32:52.055Z",
   "staleDataWarning": true
 }

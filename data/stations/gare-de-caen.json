@@ -298,7 +298,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-17T08:42:31Z",
+      "timestamp_osm_base": "2026-10-18T08:58:34Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -358,6 +358,21 @@
           "ref:FR:SIRET": "39523108700010",
           "shop": "bakery",
           "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1635263192,
+        "lat": 49.1766313,
+        "lon": -0.3520289,
+        "tags": {
+          "check_date": "2025-04-02",
+          "contact:housenumber": "12",
+          "contact:street": "Rue de la Gare",
+          "name": "Ariana Supermarché",
+          "old_name": "Vélo Oxygen - Sport 2 Roues",
+          "ref:FR:SIRET": "99524697200013",
+          "shop": "convenience"
         }
       },
       {
@@ -567,20 +582,19 @@
         "lat": 49.1906933,
         "lon": -0.354429,
         "tags": {
-          "addr:city": "Caen",
-          "addr:housenumber": "34",
-          "addr:postcode": "14000",
           "branch": "Super La Poste",
           "brand": "Proxi",
           "brand:wikidata": "Q3408522",
           "check_date": "2023-12-06",
           "contact:email": "proxisuper.closherbert@orange.fr",
           "contact:facebook": "https://www.facebook.com/Proxiclosherbert/",
+          "contact:housenumber": "34",
+          "contact:street": "Rue du Clos Herbert",
           "description": "Supérette et dépôt La Poste",
           "name": "Proxi",
           "opening_hours": "Mo-Sa 08:00-13:00, 14:00-20:00; Su 08:00-12:00",
           "phone": "+33 2 31 47 33 78",
-          "ref:FR:SIRET": "88967898300012",
+          "ref:FR:SIRET": "10703207000016",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -1480,6 +1494,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-17T08:15:43.237Z",
+  "fetchedAt": "2026-10-18T08:32:52.055Z",
   "staleDataWarning": true
 }

@@ -310,7 +310,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-17T08:15:50Z",
+      "timestamp_osm_base": "2026-10-18T08:33:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -7439,7 +7439,8 @@
           "phone": "+33 1 42 36 28 55",
           "ref:FR:SIRET": "84166072300013",
           "shop": "bakery",
-          "website": "https://boulangerielaparisienne.com"
+          "website": "https://boulangerielaparisienne.com",
+          "wikidata": "Q139695901"
         }
       },
       {
@@ -8336,6 +8337,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-17T08:15:43.237Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-18T08:32:52.055Z",
+  "staleDataWarning": true
 }

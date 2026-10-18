@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-17T08:24:56Z",
+      "timestamp_osm_base": "2026-10-18T08:44:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1192,7 +1192,7 @@
           "contact:phone": "+33 3 20 55 11 78",
           "contact:website": "https://www.ateliersaveursmadeleine.com/",
           "name": "Atelier des Saveurs",
-          "opening_hours": "Mo,Tu,Th,Fr,Sa 07:00-13:30,14:30-19:30; Su 07:00-13:00",
+          "opening_hours": "Su 07:00-13:00; Mo-Sa 07:00-19:30",
           "shop": "bakery"
         }
       },
@@ -1479,6 +1479,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-17T08:15:43.237Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-18T08:32:52.055Z",
+  "staleDataWarning": true
 }
