@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792225226645,
+      "timestamp": 1792402836238,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-18T08:39:19Z",
+      "timestamp_osm_base": "2026-10-19T09:42:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1886,8 +1886,6 @@
         "lat": 43.6972882,
         "lon": 7.2614412,
         "tags": {
-          "addr:housenumber": "7",
-          "addr:street": "Rue Dalpozzo",
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
           "check_date": "2025-03-19",
@@ -2807,8 +2805,6 @@
         "lat": 43.6972049,
         "lon": 7.260312,
         "tags": {
-          "addr:housenumber": "25",
-          "addr:street": "Rue Meyerbeer",
           "amenity": "cafe",
           "indoor_seating": "yes",
           "name": "La Base",
@@ -2817,8 +2813,7 @@
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "990233090",
           "ref:FR:SIRET": "99023309000028",
-          "shop": "bakery",
-          "source": "INSEE - 2026-07"
+          "shop": "bakery"
         }
       },
       {
@@ -2994,6 +2989,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-18T08:32:52.055Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-19T09:35:45.121Z",
+  "staleDataWarning": false
 }

@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792225119680,
+      "timestamp": 1792402702299,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-18T08:37:11Z",
+      "timestamp_osm_base": "2026-10-19T09:40:03Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2546,21 +2546,6 @@
       },
       {
         "type": "node",
-        "id": 7412328315,
-        "lat": 45.7456113,
-        "lon": 4.8648269,
-        "tags": {
-          "contact:email": "misenpage.guret@wanadoo.fr",
-          "contact:phone": "+33 472786688",
-          "contact:website": "https://www.misenpage.fr/",
-          "name": "Librairie Mise en Page",
-          "opening_hours": "Tu-Fr 09:30-19:30; Sa 09:30-12:30,14:30-19:00",
-          "ref:FR:SIRET": "41212695500019",
-          "shop": "books"
-        }
-      },
-      {
-        "type": "node",
         "id": 7551897547,
         "lat": 45.7527804,
         "lon": 4.8530313,
@@ -3556,6 +3541,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-18T08:32:52.055Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-19T09:35:45.121Z",
+  "staleDataWarning": false
 }

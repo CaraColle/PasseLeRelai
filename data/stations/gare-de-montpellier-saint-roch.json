@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792225320241,
+      "timestamp": 1792402922599,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-18T08:40:19Z",
+      "timestamp_osm_base": "2026-10-19T09:43:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -393,9 +393,12 @@
           "brand": "Marie Blachère",
           "brand:wikidata": "Q62082410",
           "check_date:opening_hours": "2024-06-24",
+          "indoor_seating": "no",
           "name": "Marie Blachère",
           "opening_hours:signed": "no",
+          "outdoor_seating": "no",
           "shop": "bakery",
+          "takeaway": "only",
           "wheelchair": "no",
           "wikipedia": "fr:Marie Blachère"
         }
@@ -765,6 +768,7 @@
           "outdoor_seating": "yes",
           "ref:FR:SIRET": "31890659101650",
           "shop": "bakery",
+          "smoking": "no",
           "source": "survey 2015",
           "website": "https://www.briochedoree.fr/",
           "wheelchair": "no"
@@ -1280,6 +1284,7 @@
         "tags": {
           "brand": "Spar",
           "brand:wikidata": "Q610492",
+          "diet:gluten_free": "yes",
           "name": "Spar",
           "opening_hours": "Mo-Sa 07:30-21:00; Su 09:00-21:00",
           "ref:FR:SIRET": "92814573900019",
@@ -2457,16 +2462,20 @@
           "addr:city": "Montpellier",
           "addr:postcode": "34000",
           "addr:street": "Boulevard des Arceaux",
-          "check_date": "2026-06-22",
+          "check_date": "2026-10-18",
           "check_date:opening_hours": "2026-06-22",
+          "check_date:smoking": "2026-10-18",
+          "indoor_seating": "yes",
           "name": "Paing",
           "opening_hours": "Mo-Sa 07:30-19:00; Su 07:30-17:30",
           "organic": "yes",
+          "outdoor_seating": "yes",
           "payment:cards": "yes",
           "payment:cash": "yes",
           "payment:coins": "yes",
           "ref:FR:SIRET": "99171569900013",
           "shop": "bakery",
+          "smoking": "outside",
           "website": "https://www.instagram.com/paing.boulangerie/",
           "wheelchair": "yes"
         }
@@ -2577,6 +2586,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-18T08:32:52.055Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-19T09:35:45.121Z",
+  "staleDataWarning": false
 }

@@ -209,7 +209,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792225072591,
+      "timestamp": 1792402668848,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -238,7 +238,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-18T08:36:05Z",
+      "timestamp_osm_base": "2026-10-19T09:39:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1578,18 +1578,6 @@
           "phone": "+33952482967",
           "ref:FR:SIRET": "93300741100012",
           "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
-        "id": 5122241522,
-        "lat": 43.2949139,
-        "lon": 5.3801955,
-        "tags": {
-          "contact:housenumber": "39",
-          "contact:street": "Rue d'Aubagne",
-          "name": "Le Cèdre du Liban",
-          "shop": "bakery"
         }
       },
       {
@@ -3639,6 +3627,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-18T08:32:52.055Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-19T09:35:45.121Z",
+  "staleDataWarning": false
 }
