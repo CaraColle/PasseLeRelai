@@ -298,7 +298,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-19T10:00:51Z",
+      "timestamp_osm_base": "2026-07-28T02:16:18Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -358,21 +358,6 @@
           "ref:FR:SIRET": "39523108700010",
           "shop": "bakery",
           "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 1635263192,
-        "lat": 49.1766313,
-        "lon": -0.3520289,
-        "tags": {
-          "check_date": "2025-04-02",
-          "contact:housenumber": "12",
-          "contact:street": "Rue de la Gare",
-          "name": "Ariana Supermarché",
-          "old_name": "Vélo Oxygen - Sport 2 Roues",
-          "ref:FR:SIRET": "99524697200013",
-          "shop": "convenience"
         }
       },
       {
@@ -457,7 +442,7 @@
           "phone": "+33 2 31 52 01 02",
           "ref:FR:SIRET": "82307239200017",
           "shop": "convenience",
-          "website": "https://www.coccinelle.fr/magasin/caen"
+          "website": "https://www.coccinelle.fr/"
         }
       },
       {
@@ -523,8 +508,7 @@
           "ref:FR:SIRET": "90241259200013",
           "shop": "bakery",
           "takeaway": "yes",
-          "toilets:wheelchair": "no",
-          "wheelchair": "no"
+          "wheelchair": "limited"
         }
       },
       {
@@ -539,10 +523,9 @@
           "brand:wikidata": "Q89913683",
           "name": "Monop'",
           "old_name": "Speedy",
-          "opening_hours": "Mo-Sa 07:30-21:00; Su 09:00-13:00",
+          "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-12:00",
           "ref:FR:SIRET": "94866700100028",
           "shop": "convenience",
-          "website": "https://www.monoprix.fr/2883.html",
           "wheelchair": "yes"
         }
       },
@@ -582,19 +565,20 @@
         "lat": 49.1906933,
         "lon": -0.354429,
         "tags": {
+          "addr:city": "Caen",
+          "addr:housenumber": "34",
+          "addr:postcode": "14000",
           "branch": "Super La Poste",
           "brand": "Proxi",
           "brand:wikidata": "Q3408522",
           "check_date": "2023-12-06",
           "contact:email": "proxisuper.closherbert@orange.fr",
           "contact:facebook": "https://www.facebook.com/Proxiclosherbert/",
-          "contact:housenumber": "34",
-          "contact:street": "Rue du Clos Herbert",
           "description": "Supérette et dépôt La Poste",
           "name": "Proxi",
           "opening_hours": "Mo-Sa 08:00-13:00, 14:00-20:00; Su 08:00-12:00",
           "phone": "+33 2 31 47 33 78",
-          "ref:FR:SIRET": "10703207000016",
+          "ref:FR:SIRET": "88967898300012",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -605,10 +589,10 @@
         "lat": 49.190584,
         "lon": -0.3535792,
         "tags": {
-          "contact:city": "Caen",
-          "contact:housenumber": "26",
-          "contact:postcode": "14000",
-          "contact:street": "Rue du Clos Herbert",
+          "addr:city": "Caen",
+          "addr:housenumber": "26",
+          "addr:postcode": "14000",
+          "addr:street": "Rue du Clos Herbert",
           "name": "Le bon goût du Pain",
           "ref:FR:SIRET": "83438890200019",
           "shop": "bakery"
@@ -854,13 +838,11 @@
         "lat": 49.1912094,
         "lon": -0.3598411,
         "tags": {
-          "check_date": "2026-08-08",
-          "check_date:opening_hours": "2026-08-08",
+          "check_date": "2024-05-06",
           "contact:housenumber": "49",
           "contact:street": "Rue de la Délivrande",
           "indoor_seating": "no",
           "name": "Aux Délices d'Edimbourg",
-          "opening_hours": "Mo-Fr 06:30-19:30",
           "outdoor_seating": "yes",
           "phone": "+33 2 31 44 49 15",
           "ref:FR:SIRET": "81847671500029",
@@ -984,16 +966,12 @@
         "lat": 49.1824024,
         "lon": -0.3620795,
         "tags": {
-          "check_date": "2026-08-14",
-          "check_date:diet:gluten_free": "2026-08-14",
+          "check_date": "2026-05-09",
           "contact:housenumber": "104",
           "contact:street": "Boulevard Maréchal Leclerc",
-          "diet:gluten_free": "yes",
           "email": "contact@lamaisonflorent.fr",
           "name": "La Maison Florent",
           "opening_hours": "Mo-Sa 07:00-19:30",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
           "phone": "+33 2 31 50 06 06",
           "ref:FR:SIRET": "80238538500025",
           "shop": "bakery",
@@ -1028,10 +1006,8 @@
           "contact:street": "Rue Saint-Michel",
           "name": "CocciMarket",
           "opening_hours": "PH,Mo-Su 08:00-21:30",
-          "phone": "+33 2 31 84 98 53",
           "ref:FR:SIRET": "82822518500010",
           "shop": "convenience",
-          "website": "https://www.coccinelle.fr/magasin/caen-7",
           "wheelchair": "yes"
         }
       },
@@ -1140,7 +1116,6 @@
           "phone": "+33 2 31 52 09 20",
           "ref:FR:SIRET": "52364875600022",
           "shop": "convenience",
-          "website": "https://www.coccinelle.fr/magasin/caen-6",
           "wheelchair": "limited"
         }
       },
@@ -1150,7 +1125,8 @@
         "lat": 49.1843227,
         "lon": -0.3600188,
         "tags": {
-          "addr:housenumber": "15",
+          "contact:housenumber": "15",
+          "contact:street": "Avenue de la Libération",
           "name": "Generale Market",
           "ref:FR:SIRET": "83001603600014",
           "shop": "convenience"
@@ -1383,6 +1359,27 @@
       },
       {
         "type": "node",
+        "id": 12642229200,
+        "lat": 49.1830611,
+        "lon": -0.3573889,
+        "tags": {
+          "contact:email": "librairiegrevis@gmail.com",
+          "contact:facebook": "https://www.facebook.com/people/Editions-Grevis/100063970088755/",
+          "contact:housenumber": "1",
+          "contact:instagram": "https://www.instagram.com/editionsgrevis/",
+          "contact:mastodon": "https://mastodon.top/@editionsgrevis",
+          "contact:street": "Rue de la Miséricorde",
+          "contact:twitter": "https://x.com/Grevisedition",
+          "name": "Grevis",
+          "note": "Cas particulier : il s'agit du bureau de la maison d'édition du même nom mais qui organise de nombreux événement et ouvre une librairie (avec les livres édités) le dimanche. J'ai mis \"shop=books\" mais ce n'est peut être pas adapté. SIRET situé au siège so",
+          "opening_hours": "Su 10:00-14:00",
+          "ref:FR:SIRET": "83437382100026",
+          "shop": "books",
+          "website": "https://editionsgrevis.com/"
+        }
+      },
+      {
+        "type": "node",
         "id": 12736991388,
         "lat": 49.1750092,
         "lon": -0.3492425,
@@ -1409,22 +1406,26 @@
         }
       },
       {
-        "type": "node",
-        "id": 14169458569,
-        "lat": 49.1914315,
-        "lon": -0.3382221,
+        "type": "way",
+        "id": 155686359,
+        "center": {
+          "lat": 49.1914165,
+          "lon": -0.338225
+        },
         "tags": {
-          "check_date": "2024-12-01",
-          "contact:city": "Caen",
-          "contact:housenumber": "60",
-          "contact:postcode": "14000",
-          "contact:street": "Avenue Georges Clemenceau",
+          "addr:city": "Caen",
+          "addr:housenumber": "60",
+          "addr:postcode": "14000",
+          "addr:street": "Avenue Georges Clemenceau",
+          "building": "yes",
+          "check_date": "2023-12-06",
+          "contact:phone": "+33 2 31944142",
+          "contact:website": "http://www.lefournildemathilde.fr/",
           "name": "Le Fournil de Mathilde",
           "opening_hours": "Mo-Sa 06:30-20:00",
-          "phone": "+33 2 31 94 41 42",
           "ref:FR:SIRET": "41925167300036",
           "shop": "bakery",
-          "website": "http://www.lefournildemathilde.fr/"
+          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
         }
       },
       {
@@ -1494,6 +1495,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-19T09:35:45.121Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-20T09:07:35.011Z",
+  "staleDataWarning": true
 }
