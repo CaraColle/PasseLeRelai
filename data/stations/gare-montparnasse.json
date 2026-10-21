@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792487256034,
+      "timestamp": 1792573640165,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-20T09:08:21Z",
+      "timestamp_osm_base": "2026-10-21T09:11:19Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -619,7 +619,8 @@
           "name": "Fournil Didot",
           "old_name": "Retrodor",
           "phone": "+33 1 56 08 22 76",
-          "shop": "bakery"
+          "shop": "bakery",
+          "wikidata": "Q139695902"
         }
       },
       {
@@ -794,7 +795,8 @@
           "check_date": "2025-06-19",
           "name": "La Fournée d'Augustine",
           "opening_hours": "Mo-Sa 07:30-20:00",
-          "shop": "bakery"
+          "shop": "bakery",
+          "wikidata": "Q139695877"
         }
       },
       {
@@ -861,10 +863,15 @@
         "lat": 48.8378234,
         "lon": 2.307814,
         "tags": {
+          "heritage": "3",
+          "heritage:operator": "mhs",
+          "mhs:inscription_date": "1984-05-23",
           "name": "Maison Breteau",
           "opening_hours": "Mo-Sa 07:00-20:00",
+          "ref:mhs": "PA00086648",
           "shop": "bakery",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+          "source:heritage": "Ministère de la Culture - 2026-09",
           "wikidata": "Q22922165"
         }
       },
@@ -1294,7 +1301,8 @@
           "name": "La Parisienne",
           "opening_hours": "Th-Tu 07:00-20:00",
           "shop": "bakery",
-          "wheelchair": "no"
+          "wheelchair": "no",
+          "wikidata": "Q139695892"
         }
       },
       {
@@ -1311,7 +1319,8 @@
           "payment:debit_cards": "yes",
           "shop": "bakery",
           "smoking": "no",
-          "wheelchair": "yes"
+          "wheelchair": "yes",
+          "wikidata": "Q139695889"
         }
       },
       {
@@ -3523,6 +3532,16 @@
       },
       {
         "type": "node",
+        "id": 9987912663,
+        "lat": 48.8557484,
+        "lon": 2.3252193,
+        "tags": {
+          "name": "THE FRENCH BASTARDS",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
         "id": 9988047841,
         "lat": 48.8556334,
         "lon": 2.3256454,
@@ -4605,6 +4624,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-20T09:07:35.011Z",
+  "fetchedAt": "2026-10-21T09:07:19.280Z",
   "staleDataWarning": false
 }

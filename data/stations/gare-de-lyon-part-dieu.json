@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792487401007,
+      "timestamp": 1792573986589,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-20T09:12:21Z",
+      "timestamp_osm_base": "2026-10-21T09:14:19Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1864,7 +1864,7 @@
           "bulk_purchase": "yes",
           "contact:facebook": "Lavieclaire",
           "name": "La Vie Claire",
-          "opening_hours": "Mo-Sa 09:00-20:00; Su 09:30-12:30",
+          "opening_hours": "Mo-Sa 09:00-19:30; Su 09:00-12:30",
           "organic": "only",
           "phone": "+33 4 72 43 04 43",
           "ref:FR:SIRET": "63200001401595",
@@ -3410,6 +3410,16 @@
         }
       },
       {
+        "type": "node",
+        "id": 14303058008,
+        "lat": 45.7564383,
+        "lon": 4.8462555,
+        "tags": {
+          "name": "Avenue Market",
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 85023451,
         "center": {
@@ -3541,6 +3551,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-20T09:07:35.011Z",
+  "fetchedAt": "2026-10-21T09:07:19.280Z",
   "staleDataWarning": false
 }

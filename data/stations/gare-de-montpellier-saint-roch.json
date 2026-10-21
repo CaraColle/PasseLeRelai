@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792402922599,
+      "timestamp": 1792574225788,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-20T09:15:26Z",
+      "timestamp_osm_base": "2026-10-21T09:17:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1573,9 +1573,13 @@
           "addr:housenumber": "20",
           "addr:postcode": "34000",
           "addr:street": "Rue Jacques Coeur",
+          "currency:EUR": "yes",
+          "currency:XLT": "GRNE",
           "name": "La Géosphère",
           "old_name": "Librairie des 5 Continents",
           "opening_hours": "Tu-Fr 10:00-13:30,14:30-19:00; Sa 10:00-19:00",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
           "phone": "+33 4 99 06 86 29",
           "ref:FR:SIRET": "83325321400013",
           "shop": "books",
@@ -2533,9 +2537,14 @@
           "addr:street": "Rue du Bras de Fer",
           "building": "yes",
           "contact:facebook": "https://www.facebook.com/fiersdelettres/",
+          "currency:EUR": "yes",
+          "currency:XLT": "GRNE",
           "internet_access": "wlan",
           "name": "Fiers de Lettres",
           "opening_hours": "Tu-Sa 10:00-19:00; Mo 14:00-19:00",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "payment:contactless:XLT-GRNE": "yes",
           "phone": "+33 4 34 81 54 48",
           "ref:FR:SIRET": "83808149500015",
           "ref:vatin": "FR35838081495",
@@ -2586,6 +2595,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-20T09:07:35.011Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-21T09:07:19.280Z",
+  "staleDataWarning": false
 }

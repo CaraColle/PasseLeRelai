@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792403584953,
+      "timestamp": 1792575034467,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-20T09:27:50Z",
+      "timestamp_osm_base": "2026-10-21T09:32:27Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -786,17 +786,20 @@
           "addr:housenumber": "13",
           "addr:street": "Rue Louis Pasteur",
           "bulk_purchase": "only",
+          "check_date": "2026-10-20",
           "check_date:opening_hours": "2026-04-13",
+          "email": "lesbocauxdana@gmail.com",
           "facebook": "epiceriesansemballage",
           "name": "Les bocaux d'Ana",
           "opening_hours": "Tu-Sa 09:30-19:30; Su 09:30-13:30",
           "organic": "yes",
+          "phone": "+33 6 28 12 55 83",
           "ref:FR:NAF": "47.11B",
           "ref:FR:SIREN": "878025287",
           "ref:FR:SIRET": "87802528700011",
           "shop": "convenience",
           "source": "INSEE - 2025-07",
-          "website": "https://www.lesbocauxdana.bzh"
+          "website": "https://bocauxdana.wixsite.com/-bzh"
         }
       },
       {
@@ -1184,6 +1187,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-20T09:07:35.011Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-21T09:07:19.280Z",
+  "staleDataWarning": false
 }

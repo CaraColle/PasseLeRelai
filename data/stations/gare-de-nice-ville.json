@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792402836238,
+      "timestamp": 1792574122498,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-20T09:13:26Z",
+      "timestamp_osm_base": "2026-10-21T09:16:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -277,6 +277,8 @@
           "contact:postcode": "06000",
           "name": "Utile",
           "opening_hours": "Mo-Sa 07:30-20:30; Su 09:00-20:30",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "573750619",
           "ref:FR:SIRET": "57375061900070",
           "shop": "convenience"
         }
@@ -291,6 +293,8 @@
           "brand:wikidata": "Q2529029",
           "name": "Utile",
           "opening_hours": "Mo-Su 07:00-21:00",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "573750619",
           "ref:FR:SIRET": "57375061900104",
           "shop": "convenience"
         }
@@ -308,6 +312,29 @@
           "ref:FR:SIRET": "44465668001095",
           "shop": "convenience",
           "website": "https://www.monoprix.fr/2196.html"
+        }
+      },
+      {
+        "type": "node",
+        "id": 360364359,
+        "lat": 43.7138311,
+        "lon": 7.2503728,
+        "tags": {
+          "brand": "Utile",
+          "brand:wikidata": "Q2529029",
+          "check_date:opening_hours": "2022-11-01",
+          "contact:city": "Nice",
+          "contact:housename": "Super U",
+          "contact:housenumber": "175",
+          "contact:postcode": "06100",
+          "contact:street": "Avenue de Pessicart",
+          "name": "Utile",
+          "opening_hours": "Mo-Sa 07:30-20:00; Su 08:00-13:00",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "992768283",
+          "ref:FR:SIRET": "99276828300010",
+          "shop": "convenience",
+          "wheelchair": "yes"
         }
       },
       {
@@ -456,6 +483,9 @@
           "check_date": "2023-06-27",
           "name": "Utile",
           "opening_hours": "07:30-20:00",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "487714826",
+          "ref:FR:SIRET": "48771482600012",
           "shop": "convenience"
         }
       },
@@ -469,6 +499,8 @@
           "brand:wikidata": "Q2529029",
           "brand:wikipedia": "fr:Système U",
           "name": "Utile",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "573750619",
           "ref:FR:SIRET": "57375061901789",
           "shop": "convenience"
         }
@@ -778,6 +810,9 @@
           "opening_hours": "Mo-Su 08:00-21:00; Su 09:00-13:00",
           "operator": "Système U",
           "phone": "+33 4 93 87 49 53",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "411288459",
+          "ref:FR:SIRET": "41128845900026",
           "shop": "convenience",
           "website": "https://www.magasins-u.com/magasin/uexpress-nicebaquis"
         }
@@ -822,6 +857,8 @@
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
           "name": "Utile",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "573750619",
           "ref:FR:SIRET": "57375061902480",
           "shop": "convenience"
         }
@@ -968,6 +1005,9 @@
           "brand:wikipedia": "fr:Système U",
           "name": "Utile",
           "opening_hours": "Mo-Th,Fr,Sa 07:00-20:30; Su 08:00-20:30",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "790080733",
+          "ref:FR:SIRET": "79008073300013",
           "shop": "convenience",
           "website": "https://magasins.utile-upf.fr/170-utile-nice-foncet"
         }
@@ -1164,6 +1204,9 @@
           "brand": "Utile",
           "brand:wikidata": "Q2529029",
           "name": "Utile",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "573750619",
+          "ref:FR:SIRET": "57375061901359",
           "shop": "convenience"
         }
       },
@@ -1567,6 +1610,24 @@
       },
       {
         "type": "node",
+        "id": 7876966844,
+        "lat": 43.6951875,
+        "lon": 7.2566119,
+        "tags": {
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 08:30-20:30; Su 08:30-20:00",
+          "phone": "+33 4 92 00 91 30",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "752382572",
+          "ref:FR:SIRET": "75238257200028",
+          "shop": "convenience",
+          "website": "https://www.magasins-u.com/magasin/uexpress-nicefrance.m9054"
+        }
+      },
+      {
+        "type": "node",
         "id": 7876966855,
         "lat": 43.6947049,
         "lon": 7.2541408,
@@ -1891,6 +1952,8 @@
           "check_date": "2025-03-19",
           "name": "Utile",
           "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-13:00",
+          "ref:FR:NAF": "47.11C",
+          "ref:FR:SIREN": "573750619",
           "ref:FR:SIRET": "57375061901391",
           "shop": "convenience"
         }
@@ -2213,6 +2276,9 @@
           "name": "Utile",
           "opening_hours": "Mo-Sa 07:30-20:30, Su 09:00-13:00",
           "phone": "+33 4 93 85 47 30",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "483412706",
+          "ref:FR:SIRET": "48341270600028",
           "shop": "convenience"
         }
       },
@@ -2914,6 +2980,9 @@
           "payment:cash": "yes",
           "payment:debit_cards": "yes",
           "phone": "+33 4 93 51 76 27",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "440005981",
+          "ref:FR:SIRET": "44000598100012",
           "shop": "convenience",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
           "wheelchair": "yes"
@@ -2989,6 +3058,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-20T09:07:35.011Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-21T09:07:19.280Z",
+  "staleDataWarning": false
 }
