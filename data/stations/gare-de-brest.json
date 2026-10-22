@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792575034467,
+      "timestamp": 1792661522334,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-21T09:32:27Z",
+      "timestamp_osm_base": "2026-10-22T09:32:55Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -783,23 +783,35 @@
         "lat": 48.386514,
         "lon": -4.4921412,
         "tags": {
-          "addr:housenumber": "13",
-          "addr:street": "Rue Louis Pasteur",
+          "automatic_door": "no",
           "bulk_purchase": "only",
-          "check_date": "2026-10-20",
+          "check_date": "2026-10-21",
           "check_date:opening_hours": "2026-04-13",
+          "contact:city": "Brest",
+          "contact:housenumber": "13",
+          "contact:phone": "+33 6 28 12 55 83",
+          "contact:postcode": "29200",
+          "contact:street": "Rue Louis Pasteur",
+          "door": "hinged",
+          "door:wings": "1",
           "email": "lesbocauxdana@gmail.com",
           "facebook": "epiceriesansemballage",
+          "level": "0",
           "name": "Les bocaux d'Ana",
           "opening_hours": "Tu-Sa 09:30-19:30; Su 09:30-13:30",
           "organic": "yes",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "phone": "+33 6 28 12 55 83",
           "ref:FR:NAF": "47.11B",
           "ref:FR:SIREN": "878025287",
           "ref:FR:SIRET": "87802528700011",
           "shop": "convenience",
           "source": "INSEE - 2025-07",
-          "website": "https://bocauxdana.wixsite.com/-bzh"
+          "stroller": "yes",
+          "website": "https://bocauxdana.wixsite.com/-bzh",
+          "wheelchair": "limited"
         }
       },
       {
@@ -945,12 +957,17 @@
         "lat": 48.3905053,
         "lon": -4.4822745,
         "tags": {
-          "addr:city": "Brest",
-          "addr:housenumber": "4b",
-          "addr:postcode": "29200",
-          "addr:street": "Rue Yves Collet",
-          "check_date": "2024-09-03",
+          "automatic_door": "no",
+          "check_date": "2026-10-21",
+          "contact:city": "Brest",
+          "contact:facebook": "misterpepin",
+          "contact:housenumber": "4 bis",
+          "contact:postcode": "29200",
+          "contact:street": "Rue Yves Collet",
+          "door": "hinged",
+          "door:wings": "1",
           "email": "contactmisterpepin@gmail.com",
+          "level": "0",
           "name": "Mister Pépin",
           "opening_hours": "Tu-Sa 09:30-19:00",
           "payment:cash": "yes",
@@ -958,7 +975,8 @@
           "phone": "+33 7 61 30 38 63",
           "ref:FR:SIRET": "88366533300026",
           "shop": "convenience",
-          "source": "local knowledge"
+          "source": "local knowledge",
+          "wheelchair": "no"
         }
       },
       {
@@ -1187,6 +1205,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-21T09:07:19.280Z",
+  "fetchedAt": "2026-10-22T09:09:52.071Z",
   "staleDataWarning": false
 }

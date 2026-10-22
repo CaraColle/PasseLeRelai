@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792575634222,
+      "timestamp": 1792661972860,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-21T09:41:36Z",
+      "timestamp_osm_base": "2026-10-22T09:43:16Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -345,10 +345,10 @@
         "lat": 47.8998753,
         "lon": 1.906588,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "277",
-          "addr:postcode": "45000",
-          "addr:street": "Rue de Bourgogne",
+          "contact:city": "Orléans",
+          "contact:housenumber": "277",
+          "contact:postcode": "45000",
+          "contact:street": "Rue de Bourgogne",
           "description": "AMA ALIMENTATION",
           "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/be/71/fe/4d/b875-4afb-8211-f8939848ef9d.jpg",
           "name": "Epcerie AMA",
@@ -621,10 +621,10 @@
         "lat": 47.9007201,
         "lon": 1.9171568,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "31",
-          "addr:postcode": "45000",
-          "addr:street": "Rue de Bourgogne",
+          "contact:city": "Orléans",
+          "contact:housenumber": "31",
+          "contact:postcode": "45000",
+          "contact:street": "Rue de Bourgogne",
           "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/ca/ec/22/d9/547b-448d-afbf-f9cb1cca8775.jpg",
           "name": "Épicerie Saint-Aignan",
           "ref:FR:NAF": "47.11B",
@@ -656,10 +656,10 @@
         "lat": 47.8999228,
         "lon": 1.9071781,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "261",
-          "addr:postcode": "45000",
-          "addr:street": "Rue de Bourgogne",
+          "contact:city": "Orléans",
+          "contact:housenumber": "261",
+          "contact:postcode": "45000",
+          "contact:street": "Rue de Bourgogne",
           "name": "Au Cœur du Monde",
           "opening_hours": "Tu,Th 14:00-19:00; Sa 15:00-19:00",
           "shop": "books",
@@ -838,9 +838,10 @@
         "lat": 47.9190475,
         "lon": 1.895329,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "9",
-          "addr:postcode": "45000",
+          "contact:city": "Orléans",
+          "contact:housenumber": "9",
+          "contact:postcode": "45000",
+          "contact:street": "Place de la Nouvelle Orléans",
           "name": "Frédéric & Céline Carro",
           "ref:FR:SIRET": "48858643900017",
           "shop": "bakery"
@@ -902,12 +903,12 @@
         "lat": 47.8984043,
         "lon": 1.9070055,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "5",
-          "addr:postcode": "45000",
-          "addr:street": "Rue du Petit Puits",
+          "contact:city": "Orléans",
           "contact:facebook": "https://www.facebook.com/epicerieroseetleon/",
+          "contact:housenumber": "5",
           "contact:instagram": "https://www.instagram.com/roseetleonlegardemanger/",
+          "contact:postcode": "45000",
+          "contact:street": "Rue du Petit Puits",
           "delivery": "yes",
           "email": "orleans@roseetleon.com",
           "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/02/df/c8/8e/4d6b-41af-a360-aa5eb49b693d.jpg",
@@ -994,13 +995,13 @@
         "lat": 47.8982371,
         "lon": 1.9064296,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "5",
-          "addr:postcode": "45000",
-          "addr:street": "Rue au Lin",
+          "contact:city": "Orléans",
           "contact:email": "contact@epis-pop.fr",
           "contact:facebook": "https://www.facebook.com/Epispop/",
+          "contact:housenumber": "5",
           "contact:instagram": "https://www.instagram.com/epispop/",
+          "contact:postcode": "45000",
+          "contact:street": "Rue au Lin",
           "description": "COALESCENCE",
           "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/8b/f1/e7/b6/6a2a-45b3-af33-1033c8613554.jpg",
           "name": "Epis Pop",
@@ -1218,6 +1219,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-21T09:07:19.280Z",
+  "fetchedAt": "2026-10-22T09:09:52.071Z",
   "staleDataWarning": false
 }
