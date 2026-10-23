@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792660867718,
+      "timestamp": 1792746902573,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-22T09:22:41Z",
+      "timestamp_osm_base": "2026-10-23T09:16:14Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1098,23 +1098,6 @@
       },
       {
         "type": "node",
-        "id": 5190858436,
-        "lat": 48.5816447,
-        "lon": 7.7387337,
-        "tags": {
-          "addr:city": "Strasbourg",
-          "addr:housenumber": "4",
-          "addr:postcode": "67000",
-          "addr:street": "Quai Turckheim",
-          "name": "Au Coin Littéraire",
-          "ref:FR:SIRET": "80809083100021",
-          "shop": "books",
-          "source": "survey",
-          "source:date": "2017"
-        }
-      },
-      {
-        "type": "node",
         "id": 5338688758,
         "lat": 48.5814225,
         "lon": 7.7442309,
@@ -1761,6 +1744,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-22T09:09:52.071Z",
+  "fetchedAt": "2026-10-23T09:06:14.867Z",
   "staleDataWarning": false
 }

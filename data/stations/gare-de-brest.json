@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792661522334,
+      "timestamp": 1792748019324,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-22T09:32:55Z",
+      "timestamp_osm_base": "2026-10-23T09:36:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -377,11 +377,29 @@
         "lat": 48.3922027,
         "lon": -4.4799605,
         "tags": {
+          "automatic_door": "motion",
+          "check_date": "2026-10-23",
+          "contact:city": "Brest",
+          "contact:facebook": "https://www.facebook.com/BaguetteTradition-100075978377522/",
+          "contact:housenumber": "38",
+          "contact:instagram": "baguette.et.tradition",
+          "contact:phone": "+33 2 98 44 56 38",
+          "contact:postcode": "29200",
+          "contact:street": "Rue Yves Collet",
+          "dog": "no",
+          "door": "sliding",
+          "door:wings": "2",
+          "indoor_seating": "no",
           "name": "Baguette et tradition",
           "opening_hours": "Mo-Fr 07:00-14:00,15:30-19:00; Sa 07:00-15:00; Su off",
           "operator": "Henri Garoche",
+          "outdoor_seating": "no",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "ref:FR:SIRET": "89316394900017",
-          "shop": "bakery"
+          "shop": "bakery",
+          "wheelchair": "yes"
         }
       },
       {
@@ -785,7 +803,7 @@
         "tags": {
           "automatic_door": "no",
           "bulk_purchase": "only",
-          "check_date": "2026-10-21",
+          "check_date": "2026-10-23",
           "check_date:opening_hours": "2026-04-13",
           "contact:city": "Brest",
           "contact:housenumber": "13",
@@ -807,6 +825,9 @@
           "ref:FR:NAF": "47.11B",
           "ref:FR:SIREN": "878025287",
           "ref:FR:SIRET": "87802528700011",
+          "reusable_packaging:accept": "only",
+          "reusable_packaging:offer": "no",
+          "second_hand": "no",
           "shop": "convenience",
           "source": "INSEE - 2025-07",
           "stroller": "yes",
@@ -1205,6 +1226,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-22T09:09:52.071Z",
+  "fetchedAt": "2026-10-23T09:06:14.867Z",
   "staleDataWarning": false
 }

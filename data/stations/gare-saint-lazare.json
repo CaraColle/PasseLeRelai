@@ -301,7 +301,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792660223919,
+      "timestamp": 1792746412768,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -330,7 +330,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-22T09:12:33Z",
+      "timestamp_osm_base": "2026-10-23T09:08:11Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1719,7 +1719,7 @@
         "lat": 48.8776695,
         "lon": 2.3160713,
         "tags": {
-          "check_date": "2026-01-20",
+          "check_date": "2026-10-22",
           "name": "E. Kayser",
           "opening_hours": "Mo-Sa 06:30-20:15",
           "phone": "+33 1 45 22 70 30",
@@ -4671,6 +4671,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-22T09:09:52.071Z",
+  "fetchedAt": "2026-10-23T09:06:14.867Z",
   "staleDataWarning": false
 }
