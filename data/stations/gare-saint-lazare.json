@@ -301,7 +301,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792746412768,
+      "timestamp": 1792831262384,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -330,7 +330,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-23T09:08:11Z",
+      "timestamp_osm_base": "2026-10-24T08:41:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1066,6 +1066,7 @@
         "lat": 48.8824497,
         "lon": 2.3233157,
         "tags": {
+          "check_date": "2026-10-22",
           "name": "O'Batignolles",
           "opening_hours": "Mo-Fr 06:30-20:15; Sa 06:30-20:00",
           "shop": "bakery"
@@ -1548,6 +1549,7 @@
         "lat": 48.882628,
         "lon": 2.3241332,
         "tags": {
+          "check_date": "2026-10-22",
           "contact:city": "Paris",
           "contact:housenumber": "33",
           "contact:phone": "+33 1 45 22 73 00",
@@ -4671,6 +4673,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-23T09:06:14.867Z",
+  "fetchedAt": "2026-10-24T08:39:16.641Z",
   "staleDataWarning": false
 }

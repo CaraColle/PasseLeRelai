@@ -286,7 +286,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-23T09:43:01Z",
+      "timestamp_osm_base": "2026-10-24T09:10:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -706,6 +706,7 @@
           "description": "Épicerie exotique",
           "name": "YokaFric",
           "opening_hours": "Mo 14:00-19:00; Tu-Fr 09:00-12:30,14:30-19:00; Sa 09:00-19:00; Su 09:00-13:00",
+          "ref:FR:SIRET": "84229117100010",
           "shop": "convenience",
           "source": "survey",
           "wheelchair": "no"
@@ -1575,6 +1576,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-23T09:06:14.867Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-24T08:39:16.641Z",
+  "staleDataWarning": true
 }

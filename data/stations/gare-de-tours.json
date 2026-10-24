@@ -350,7 +350,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-23T09:36:51Z",
+      "timestamp_osm_base": "2026-10-24T08:57:52Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -433,6 +433,22 @@
           "ref:FR:SIRET": "53413855700010",
           "shop": "bakery",
           "wheelchair": "limited"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1098883210,
+        "lat": 47.3764435,
+        "lon": 0.6941662,
+        "tags": {
+          "contact:housenumber": "185",
+          "contact:street": "Avenue de Grammont",
+          "name": "Han",
+          "opening_hours": "Mo-Fr 07:00-13:30, 16:00-18:45; Sa 07:30-13:00",
+          "pastry": "yes",
+          "phone": "+33 2 47 05 13 64",
+          "ref:FR:SIRET": "49011829600022",
+          "shop": "bakery"
         }
       },
       {
@@ -1869,6 +1885,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-23T09:06:14.867Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-24T08:39:16.641Z",
+  "staleDataWarning": true
 }

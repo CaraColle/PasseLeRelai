@@ -230,7 +230,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-23T09:26:28Z",
+      "timestamp_osm_base": "2026-10-24T08:49:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -936,6 +936,31 @@
       },
       {
         "type": "way",
+        "id": 649269719,
+        "center": {
+          "lat": 49.2617184,
+          "lon": 4.0189698
+        },
+        "tags": {
+          "addr:housenumber": "108",
+          "branch": "Reims Courcelles",
+          "brand": "U Express",
+          "brand:wikidata": "Q2529029",
+          "building": "yes",
+          "building:levels": "1",
+          "contact:website": "https://www.magasins-u.com/magasin/uexpress-reimscourcelles",
+          "level": "0",
+          "name": "U Express",
+          "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-13:00",
+          "phone": "+33326882404",
+          "ref:FR:NAF": "47.11D",
+          "ref:FR:SIREN": "341907210",
+          "ref:FR:SIRET": "34190721000023",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "way",
         "id": 757438516,
         "center": {
           "lat": 49.2542211,
@@ -997,6 +1022,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-23T09:06:14.867Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-24T08:39:16.641Z",
+  "staleDataWarning": true
 }

@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792746375401,
+      "timestamp": 1792831157510,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-23T09:06:06Z",
+      "timestamp_osm_base": "2026-10-24T08:40:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3407,6 +3407,18 @@
       },
       {
         "type": "node",
+        "id": 9877588006,
+        "lat": 48.8451501,
+        "lon": 2.325344,
+        "tags": {
+          "contact:instagram": "bopain.paris",
+          "name": "Bopain",
+          "ref:FR:SIRET": "95221982200022",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
         "id": 9877619397,
         "lat": 48.8448599,
         "lon": 2.3241432,
@@ -4624,6 +4636,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-23T09:06:14.867Z",
+  "fetchedAt": "2026-10-24T08:39:16.641Z",
   "staleDataWarning": false
 }

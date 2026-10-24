@@ -286,7 +286,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-23T09:25:26Z",
+      "timestamp_osm_base": "2026-10-24T08:49:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1471,8 +1471,15 @@
         "lat": 48.1123567,
         "lon": -1.676178,
         "tags": {
+          "contact:city": "Rennes",
+          "contact:housenumber": "10",
+          "contact:instagram": "aubledexotique",
           "contact:phone": "+33 7 46 15 94 67",
+          "contact:postcode": "35000",
+          "contact:street": "Rue Victor Hugo",
           "name": "Au Bled exotique",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "10784903600010",
           "shop": "convenience"
         }
       },
@@ -2277,6 +2284,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-23T09:06:14.867Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-24T08:39:16.641Z",
+  "staleDataWarning": true
 }

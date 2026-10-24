@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-23T09:41:01Z",
+      "timestamp_osm_base": "2026-10-24T09:05:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -601,10 +601,10 @@
         "lat": 47.9002386,
         "lon": 1.9098294,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "216",
-          "addr:postcode": "45000",
-          "addr:street": "Rue de Bourgogne",
+          "contact:city": "Orléans",
+          "contact:housenumber": "216",
+          "contact:postcode": "45000",
+          "contact:street": "Rue de Bourgogne",
           "image": "https://panoramax.openstreetmap.fr/images/bf/7f/4b/41/d387-4caa-9eec-2f3aed357808.jpg",
           "name": "La Boîte à Livres",
           "opening_hours": "Tu-Sa 10:00-12:30,14:00-19:00",
@@ -689,10 +689,10 @@
         "lat": 47.8994683,
         "lon": 1.9059216,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "42",
-          "addr:postcode": "45000",
-          "addr:street": "Place du Châtelet",
+          "contact:city": "Orléans",
+          "contact:housenumber": "42",
+          "contact:postcode": "45000",
+          "contact:street": "Place du Châtelet",
           "name": "L'Epi des Halles",
           "phone": "+33 238626226",
           "ref:FR:SIRET": "91324958700019",
@@ -764,11 +764,11 @@
         "lat": 47.8985389,
         "lon": 1.9048066,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "15",
-          "addr:postcode": "45000",
-          "addr:street": "Place du Châtelet",
+          "contact:city": "Orléans",
           "contact:email": "lefournilduchatelet@hotmail.com",
+          "contact:housenumber": "15",
+          "contact:postcode": "45000",
+          "contact:street": "Place du Châtelet",
           "name": "Le Fournil du Châtelet",
           "opening_hours": "Th-Tu 07:30-20:00",
           "payment:credit_cards": "yes",
@@ -783,10 +783,10 @@
         "lat": 47.8986464,
         "lon": 1.906117,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "39",
-          "addr:postcode": "45000",
-          "addr:street": "Place du Châtelet",
+          "contact:city": "Orléans",
+          "contact:housenumber": "39",
+          "contact:postcode": "45000",
+          "contact:street": "Place du Châtelet",
           "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/14/78/c0/31/fee1-4c8b-9f7e-ae0ae5181198.jpg",
           "name": "Legend Bd",
           "opening_hours": "Mo 14:00-19:00; Tu-Fr 10:00-19:00; Sa 10:00-19:30",
@@ -948,9 +948,9 @@
         "lat": 47.8988878,
         "lon": 1.9062256,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:postcode": "45000",
-          "addr:street": "Halles Châtelet",
+          "contact:city": "Orléans",
+          "contact:postcode": "45000",
+          "contact:street": "Halles Châtelet",
           "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/ba/4f/52/21/7015-4614-ad1f-e04805cd2530.jpg",
           "indoor_seating": "yes",
           "mapillary": "1009853053059344",
@@ -1130,10 +1130,10 @@
         "lat": 47.9078683,
         "lon": 1.9015989,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "8",
-          "addr:postcode": "45000",
-          "addr:street": "Place Gambetta",
+          "contact:city": "Orléans",
+          "contact:housenumber": "8",
+          "contact:postcode": "45000",
+          "contact:street": "Place Gambetta",
           "description": ": JUBERT ALIMENTATION",
           "image": "https://panoramax.openstreetmap.fr/images/ed/ad/95/93/5255-497b-b61b-7bdbb63d0830.jpg",
           "name": "Jubert Alimentation",
@@ -1219,6 +1219,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-23T09:06:14.867Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-24T08:39:16.641Z",
+  "staleDataWarning": true
 }
