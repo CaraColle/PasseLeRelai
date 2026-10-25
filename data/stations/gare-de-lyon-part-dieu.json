@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792831377137,
+      "timestamp": 1792918822963,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-24T08:43:38Z",
+      "timestamp_osm_base": "2026-10-25T09:01:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -669,6 +669,7 @@
         "lon": 4.8541845,
         "tags": {
           "addr:postcode": "69007",
+          "diet:halal": "yes",
           "name": "Olea Market",
           "old_name": "Tannourine",
           "opening_hours": "Mo-Sa 10:00-19:30",
@@ -2221,6 +2222,7 @@
         "lat": 45.7500405,
         "lon": 4.8515014,
         "tags": {
+          "check_date": "2026-10-24",
           "facebook": "https://www.facebook.com/jusquicilyon",
           "name": "Jusqu’ici",
           "opening_hours": "Fr 14:00-18:00",
@@ -3551,6 +3553,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-24T08:39:16.641Z",
+  "fetchedAt": "2026-10-25T08:57:00.513Z",
   "staleDataWarning": false
 }
