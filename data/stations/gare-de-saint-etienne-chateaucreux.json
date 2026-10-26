@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792919415258,
+      "timestamp": 1793008668847,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-25T09:11:35Z",
+      "timestamp_osm_base": "2026-10-26T10:00:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -993,16 +993,6 @@
       },
       {
         "type": "node",
-        "id": 11033394107,
-        "lat": 45.4302503,
-        "lon": 4.3934393,
-        "tags": {
-          "name": "Alimentation Générale A.Durafour",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 11051036397,
         "lat": 45.4280173,
         "lon": 4.3904818,
@@ -1088,6 +1078,16 @@
           "opening_hours": "Su-Fr 06:00-20:30",
           "opening_hours:signed": "no",
           "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11795041540,
+        "lat": 45.4307975,
+        "lon": 4.3932222,
+        "tags": {
+          "noname": "yes",
+          "shop": "convenience"
         }
       },
       {
@@ -1341,6 +1341,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-25T08:57:00.513Z",
+  "fetchedAt": "2026-10-26T09:43:05.865Z",
   "staleDataWarning": false
 }

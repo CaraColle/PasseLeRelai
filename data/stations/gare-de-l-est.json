@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792918621906,
+      "timestamp": 1793007787384,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-25T08:58:31Z",
+      "timestamp_osm_base": "2026-10-26T09:45:50Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2363,10 +2363,15 @@
         "lat": 48.8823962,
         "lon": 2.3709039,
         "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "3",
+          "addr:postcode": "75019",
+          "addr:street": "Avenue Secrétan",
           "check_date:opening_hours": "2026-09-29",
           "name": "Demain",
-          "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-20:00",
+          "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-14:00",
           "shop": "bakery",
+          "website": "https://demainboulangerie.fr",
           "wheelchair": "yes"
         }
       },
@@ -2407,6 +2412,20 @@
           "check_date:opening_hours": "2026-01-11",
           "name": "La Mie Sâveurs",
           "opening_hours:signed": "no",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2957829270,
+        "lat": 48.8776486,
+        "lon": 2.3697143,
+        "tags": {
+          "disused:brand": "Kiloutou",
+          "disused:brand:wikidata": "Q3196672",
+          "disused:name": "Kiloutou",
+          "disused:shop": "tool_hire",
+          "name": "Firmin",
           "shop": "bakery"
         }
       },
@@ -4265,10 +4284,15 @@
           "addr:housenumber": "142",
           "addr:postcode": "75011",
           "addr:street": "Avenue Parmentier",
-          "check_date": "2026-06-28",
+          "check_date": "2026-10-25",
+          "check_date:opening_hours": "2026-10-25",
+          "indoor_seating": "no",
           "name": "Les Délices de Parmentier",
+          "opening_hours": "Mo-Sa 07:00-20:30",
+          "outdoor_seating": "no",
           "ref:FR:SIRET": "50925588100013",
           "shop": "bakery",
+          "takeaway": "only",
           "wheelchair": "limited"
         }
       },
@@ -8778,13 +8802,13 @@
       {
         "type": "node",
         "id": 12839755115,
-        "lat": 48.8675708,
-        "lon": 2.3509209,
+        "lat": 48.8675168,
+        "lon": 2.3510731,
         "tags": {
           "addr:floor": "0",
           "addr:housenumber": "18",
           "addr:street": "Rue du Caire",
-          "check_date": "2026-01-28",
+          "check_date": "2026-10-26",
           "level": "0",
           "name": "L'écrit du Regard",
           "ref:FR:SIRET": "99216501900017",
@@ -9280,8 +9304,13 @@
         "tags": {
           "addr:floor": "0",
           "check_date": "2026-09-01",
+          "contact:city": "Paris",
+          "contact:housenumber": "10",
+          "contact:postcode": "75010",
+          "contact:street": "Rue d'Enghien",
           "level": "0",
           "name": "J. Duvinage",
+          "ref:FR:SIRET": "49192570700029",
           "shop": "books",
           "wheelchair": "limited"
         }
@@ -9356,6 +9385,22 @@
         "tags": {
           "name": "Azalée",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14319529512,
+        "lat": 48.8697197,
+        "lon": 2.3532675,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "24",
+          "addr:postcode": "75010",
+          "addr:street": "Boulevard Saint-Denis",
+          "name": "DEMAIN",
+          "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-14:00",
+          "shop": "bakery",
+          "website": "https://demainboulangerie.fr/"
         }
       },
       {
@@ -9705,6 +9750,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-25T08:57:00.513Z",
+  "fetchedAt": "2026-10-26T09:43:05.865Z",
   "staleDataWarning": false
 }

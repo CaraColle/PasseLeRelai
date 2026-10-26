@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792918975861,
+      "timestamp": 1793008236705,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-25T09:05:35Z",
+      "timestamp_osm_base": "2026-10-26T09:51:50Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2053,16 +2053,13 @@
         "lat": 43.6971089,
         "lon": 7.2617349,
         "tags": {
-          "addr:housenumber": "20",
-          "addr:street": "Rue de la Buffa",
           "facebook": "https://www.facebook.com/Auxdelicesdelabuffa/",
           "name": "Aux Délices de la Buffa",
-          "opening_hours": "Mo-Fr 07:00-18:00;Sa 07:00-13:00;Su off",
+          "opening_hours": "Mo-Fr 07:00-17:00;Sa 07:00-13:00;Su off",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "843235623",
           "ref:FR:SIRET": "84323562300017",
-          "shop": "bakery",
-          "source": "INSEE - 2026-07"
+          "shop": "bakery"
         }
       },
       {
@@ -2854,9 +2851,10 @@
       {
         "type": "node",
         "id": 13342188579,
-        "lat": 43.6979265,
-        "lon": 7.2617338,
+        "lat": 43.6979321,
+        "lon": 7.2617316,
         "tags": {
+          "amenity": "cafe",
           "name": "Le Country Store",
           "shop": "bakery"
         }
@@ -3068,6 +3066,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-25T08:57:00.513Z",
+  "fetchedAt": "2026-10-26T09:43:05.865Z",
   "staleDataWarning": false
 }

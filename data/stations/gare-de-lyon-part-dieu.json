@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1792918822963,
+      "timestamp": 1793008058395,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-25T09:01:36Z",
+      "timestamp_osm_base": "2026-10-26T09:49:49Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3137,6 +3137,7 @@
           "name": "Fournil Alma",
           "opening_hours": "Tu-Fr 09:00-19:00; Sa 09:00-13:30",
           "organic": "yes",
+          "payment:cards": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "phone": "+339 81 88 71 61",
@@ -3422,6 +3423,16 @@
         }
       },
       {
+        "type": "node",
+        "id": 14318154700,
+        "lat": 45.7594062,
+        "lon": 4.8593715,
+        "tags": {
+          "name": "Lyre",
+          "shop": "books"
+        }
+      },
+      {
         "type": "way",
         "id": 85023451,
         "center": {
@@ -3553,6 +3564,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-25T08:57:00.513Z",
+  "fetchedAt": "2026-10-26T09:43:05.865Z",
   "staleDataWarning": false
 }
