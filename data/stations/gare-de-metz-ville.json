@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793009402730,
+      "timestamp": 1793095154020,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-26T10:11:09Z",
+      "timestamp_osm_base": "2026-10-27T10:00:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1185,9 +1185,13 @@
         "lat": 49.1058106,
         "lon": 6.1688145,
         "tags": {
+          "contact:email": "info@vin8.fr",
           "contact:housenumber": "28",
+          "contact:phone": "+33 3 87 22 86 61",
           "contact:street": "Rue Clovis",
+          "contact:website": "https://vin8.fr/",
           "name": "Vin 8",
+          "opening_hours": "Tu-Sa 10:00-22:00; Su 10:00-13:00",
           "ref:FR:SIRET": "88192821200011",
           "shop": "convenience"
         }
@@ -1393,6 +1397,7 @@
         "lon": 6.1766572,
         "tags": {
           "contact:housenumber": "5",
+          "contact:phone": "+33 3 87 74 48 44",
           "contact:street": "Rue des Jardins",
           "name": "Librairie Moresi",
           "ref:FR:SIRET": "53893898600014",
@@ -1645,6 +1650,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-26T09:43:05.865Z",
+  "fetchedAt": "2026-10-27T09:36:33.857Z",
   "staleDataWarning": false
 }

@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793008058395,
+      "timestamp": 1793093927993,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-26T09:49:49Z",
+      "timestamp_osm_base": "2026-10-27T09:38:54Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2050,23 +2050,6 @@
       },
       {
         "type": "node",
-        "id": 5492173240,
-        "lat": 45.7682723,
-        "lon": 4.8490178,
-        "tags": {
-          "amenity": "restaurant",
-          "name": "Le café de Chloé",
-          "opening_hours": "Mo-Fr 07:30-22:00",
-          "phone": "+33 4 78 24 03 60",
-          "shop": "books",
-          "source": "survey",
-          "toilets:wheelchair": "no",
-          "website": "https://le-cafe-de-chloe.business.site/",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 5604816976,
         "lat": 45.7733554,
         "lon": 4.8666896,
@@ -3564,6 +3547,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-26T09:43:05.865Z",
+  "fetchedAt": "2026-10-27T09:36:33.857Z",
   "staleDataWarning": false
 }

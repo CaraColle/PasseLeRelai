@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793007787384,
+      "timestamp": 1793093795077,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-26T09:45:50Z",
+      "timestamp_osm_base": "2026-10-27T09:36:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3737,14 +3737,14 @@
           "atm": "yes",
           "brand": "NOUS anti-gaspi",
           "brand:wikidata": "Q130144283",
-          "check_date": "2026-06-12",
+          "check_date": "2026-10-27",
           "contact:city": "Paris",
           "contact:housenumber": "44",
           "contact:postcode": "75010",
           "contact:street": "Rue du Faubourg Poissonnière",
           "description": "Anciennement :  LCL",
           "email": "direction-parispoissonniere@nousantigaspi.com",
-          "name": "NOUS anti-gaspi",
+          "name": "Nous anti-gaspi",
           "opening_hours": "Su-Fr 10:00-20:00; Sa 10:00-13:00",
           "phone": "+33 1 47 70 11 17",
           "shop": "convenience",
@@ -4633,7 +4633,8 @@
         "lat": 48.8639644,
         "lon": 2.3560478,
         "tags": {
-          "check_date": "2026-06-16",
+          "check_date": "2026-10-26",
+          "check_date:opening_hours": "2026-10-26",
           "contact:city": "Paris",
           "contact:email": "contact@monepicerieparis.fr",
           "contact:housenumber": "31",
@@ -4644,7 +4645,7 @@
           "diet:vegan": "only",
           "level": "0",
           "name": "Mon Épicerie Paris",
-          "opening_hours": "Tu-Sa 11:00-20:00",
+          "opening_hours": "Mo-Sa 10:30-20:00",
           "ref:FR:SIRET": "82811918000010",
           "shop": "convenience",
           "wheelchair": "no"
@@ -4992,7 +4993,7 @@
           "addr:floor": "0",
           "addr:housenumber": "135",
           "addr:street": "Boulevard de Sébastopol",
-          "check_date": "2026-02-10",
+          "check_date": "2026-10-27",
           "level": "0",
           "name": "Sebastopol Market",
           "ref:FR:SIRET": "82057133900010",
@@ -9253,19 +9254,6 @@
       },
       {
         "type": "node",
-        "id": 13727880830,
-        "lat": 48.8802539,
-        "lon": 2.3544692,
-        "tags": {
-          "indoor_seating": "no",
-          "name": "Aux Merreilleux",
-          "outdoor_seating": "no",
-          "shop": "bakery",
-          "takeaway": "only"
-        }
-      },
-      {
-        "type": "node",
         "id": 13844176145,
         "lat": 48.8851403,
         "lon": 2.3474008,
@@ -9601,6 +9589,23 @@
       },
       {
         "type": "way",
+        "id": 403883873,
+        "center": {
+          "lat": 48.8802757,
+          "lon": 2.3545045
+        },
+        "tags": {
+          "indoor": "room",
+          "indoor_seating": "no",
+          "level": "0",
+          "name": "Aux Merveilleux",
+          "outdoor_seating": "no",
+          "shop": "bakery",
+          "takeaway": "only"
+        }
+      },
+      {
+        "type": "way",
         "id": 403889828,
         "center": {
           "lat": 48.8815899,
@@ -9750,6 +9755,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-26T09:43:05.865Z",
+  "fetchedAt": "2026-10-27T09:36:33.857Z",
   "staleDataWarning": false
 }
