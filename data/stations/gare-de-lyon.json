@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793093794680,
+      "timestamp": 1793182875214,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-27T09:34:35Z",
+      "timestamp_osm_base": "2026-10-28T10:20:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1044,9 +1044,12 @@
         "lon": 2.3778976,
         "tags": {
           "check_date": "2024-03-10",
+          "indoor_seating": "no",
           "name": "Blé & Miel",
           "opening_hours": "06:00-23:00; Th closed",
-          "shop": "bakery"
+          "outdoor_seating": "no",
+          "shop": "bakery",
+          "takeaway": "only"
         }
       },
       {
@@ -4829,6 +4832,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-27T09:36:33.857Z",
+  "fetchedAt": "2026-10-28T10:21:14.429Z",
   "staleDataWarning": false
 }

@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793008301375,
+      "timestamp": 1793183182650,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-27T09:43:02Z",
+      "timestamp_osm_base": "2026-10-28T10:27:40Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1010,15 +1010,6 @@
           "ref:FR:SIRET": "40896742000022",
           "shop": "books",
           "website": "https://www.canalbd.net/azimuts"
-        }
-      },
-      {
-        "type": "node",
-        "id": 674054923,
-        "lat": 43.6085095,
-        "lon": 3.8678271,
-        "tags": {
-          "shop": "bakery"
         }
       },
       {
@@ -2487,9 +2478,13 @@
       {
         "type": "node",
         "id": 14128677163,
-        "lat": 43.6053915,
-        "lon": 3.8747826,
+        "lat": 43.6054452,
+        "lon": 3.8746311,
         "tags": {
+          "addr:city": "Montpellier",
+          "addr:housenumber": "2",
+          "addr:postcode": "34000",
+          "addr:street": "Cours Gambetta",
           "name": "Le Grain des Mots",
           "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
           "ref:FR:SIRET": "37935798100024",
@@ -2595,6 +2590,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-27T09:36:33.857Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-28T10:21:14.429Z",
+  "staleDataWarning": false
 }

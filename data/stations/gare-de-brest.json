@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793094985734,
+      "timestamp": 1793183999429,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-27T09:57:16Z",
+      "timestamp_osm_base": "2026-10-28T10:41:59Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1113,10 +1113,12 @@
         "lat": 48.4012489,
         "lon": -4.4693906,
         "tags": {
-          "addr:city": "Brest",
-          "addr:housenumber": "250",
-          "addr:postcode": "29200",
-          "addr:street": "Rue Jean Jaurès",
+          "check_date": "2026-10-27",
+          "contact:city": "Brest",
+          "contact:housenumber": "250",
+          "contact:phone": "+33 7 58 22 92 18",
+          "contact:postcode": "29200",
+          "contact:street": "Rue Jean Jaurès",
           "name": "La Roberto - Épicerie Roumaine",
           "ref:FR:SIRET": "84858329000012",
           "shop": "convenience"
@@ -1164,14 +1166,15 @@
         "lat": 48.4011358,
         "lon": -4.4695624,
         "tags": {
-          "addr:city": "Brest",
-          "addr:housenumber": "246",
-          "addr:postcode": "29200",
-          "addr:street": "Rue Jean Jaurès",
-          "name": "Épicerie Carthage",
-          "opening_hours": "09:00-23:30; Sa 09:00-00:00",
-          "phone": "+33768487548",
-          "ref:FR:SIRET": "84244303800034",
+          "check_date": "2026-10-27",
+          "contact:city": "Brest",
+          "contact:housenumber": "246",
+          "contact:postcode": "29200",
+          "contact:street": "Rue Jean Jaurès",
+          "name": "Au goût du monde",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIREN": "988469029",
+          "ref:FR:SIRET": "98846902900017",
           "shop": "convenience"
         }
       },
@@ -1232,6 +1235,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-27T09:36:33.857Z",
+  "fetchedAt": "2026-10-28T10:21:14.429Z",
   "staleDataWarning": false
 }

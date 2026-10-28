@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793008271228,
+      "timestamp": 1793183142336,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-27T09:42:01Z",
+      "timestamp_osm_base": "2026-10-28T10:26:35Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1920,22 +1920,6 @@
       },
       {
         "type": "node",
-        "id": 6287480272,
-        "lat": 47.2133958,
-        "lon": -1.5540363,
-        "tags": {
-          "check_date": "2026-06-03",
-          "contact:housenumber": "3",
-          "contact:street": "Rue Kervégan",
-          "opening_hours:signed": "no",
-          "shop": "convenience",
-          "was:name": "Aperouest",
-          "wheelchair": "limited",
-          "wheelchair:description": "Seuil de 1 cm à l'entrée et porte battante ouvrant vers l'intérieur"
-        }
-      },
-      {
-        "type": "node",
         "id": 6488818790,
         "lat": 47.2123973,
         "lon": -1.5467796,
@@ -2488,6 +2472,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-27T09:36:33.857Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-10-28T10:21:14.429Z",
+  "staleDataWarning": false
 }
