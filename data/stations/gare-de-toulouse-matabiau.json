@@ -241,7 +241,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793183076879,
+      "timestamp": 1793357225166,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-28T10:25:34Z",
+      "timestamp_osm_base": "2026-10-30T10:47:48Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2114,11 +2114,14 @@
           "contact:housenumber": "59",
           "contact:phone": "+33 5 34 28 01 58",
           "contact:street": "Rue de la Concorde",
+          "indoor_seating": "no",
           "name": "Maison Concorde",
           "opening_hours": "Tu-Fr 09:00-14:00,16:00-19:30; Sa 09:00-14:00",
           "organic": "yes",
+          "outdoor_seating": "no",
           "ref:FR:SIRET": "99081094700012",
           "shop": "bakery",
+          "takeaway": "only",
           "was:amenity": "restaurant",
           "was:name": "Kaï wok"
         }
@@ -3422,6 +3425,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-28T10:21:14.429Z",
+  "fetchedAt": "2026-10-30T10:42:32.646Z",
   "staleDataWarning": false
 }

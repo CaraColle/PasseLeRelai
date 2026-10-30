@@ -321,7 +321,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793184029653,
+      "timestamp": 1793358267889,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -350,7 +350,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-28T10:41:59Z",
+      "timestamp_osm_base": "2026-10-30T11:06:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1157,16 +1157,23 @@
         "lat": 47.3948552,
         "lon": 0.6832426,
         "tags": {
-          "check_date:opening_hours": "2023-06-18",
-          "fax": "+33 2 47 61 91 67",
+          "addr:city": "Tours",
+          "addr:housenumber": "71",
+          "addr:postcode": "37000",
+          "addr:street": "Rue du Commerce",
+          "check_date:opening_hours": "2026-10-29",
+          "contact:facebook": "https://www.facebook.com/Imaginaute",
+          "email": "contact@imaginaute.com",
           "name": "Imaginaute",
           "name:1996--2024": "Unithèque (et La Boîte à Livres de l’Étranger)",
           "old_name": "Unithèque",
+          "opening_hours": "Tu-Sa 10:00-12:30,13:30-19:00; Mo,Su off",
           "opening_hours:signed": "no",
           "phone": "+33 2 47 61 91 76",
           "ref:FR:SIRET": "51776766100021",
           "shop": "books",
-          "strapline": "La librairie de l'imaginaire"
+          "strapline": "La librairie de l'imaginaire",
+          "website": "https://www.imaginaute.com/"
         }
       },
       {
@@ -1885,6 +1892,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-28T10:21:14.429Z",
+  "fetchedAt": "2026-10-30T10:42:32.646Z",
   "staleDataWarning": false
 }

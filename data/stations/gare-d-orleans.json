@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793184302474,
+      "timestamp": 1793358562468,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-28T10:46:00Z",
+      "timestamp_osm_base": "2026-10-30T11:12:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -285,11 +285,11 @@
         "lat": 47.9162783,
         "lon": 1.9006242,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "3",
-          "addr:postcode": "45000",
-          "addr:street": "Passage de la Rapé",
           "amenity": "fast_food",
+          "contact:city": "Orléans",
+          "contact:housenumber": "3",
+          "contact:postcode": "45000",
+          "contact:street": "Passage de la Rapé",
           "cuisine": "sandwich",
           "mapillary": "424785272266432",
           "name": "Le Fournil de Coligny",
@@ -305,16 +305,23 @@
         "lat": 47.9022529,
         "lon": 1.9048114,
         "tags": {
+          "addr:city": "Orléans",
+          "addr:housenumber": "15",
+          "addr:postcode": "45000",
+          "addr:street": "Place du Martroi",
           "check_date:opening_hours": "2025-01-15",
           "contact:city": "Orléans",
+          "contact:facebook": "https://www.facebook.com/profile.php?id=100042074305163",
           "contact:housenumber": "15",
           "contact:postcode": "45000",
           "contact:street": "Place du Martroi",
           "mapillary": "1227245361049980",
           "name": "Chantelivre",
-          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-12:30,14:00-19:00",
+          "opening_hours": "Mo 14:00-19:00; Tu-Sa 10:00-19:00",
           "ref:FR:SIRET": "51302541100010",
+          "ref:vatin": "FR40513025411",
           "shop": "books",
+          "website": "https://www.chantelivre-orleans.com/",
           "wheelchair": "yes"
         }
       },
@@ -495,11 +502,11 @@
         "lat": 47.9005021,
         "lon": 1.902849,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "9",
-          "addr:postcode": "45000",
-          "addr:street": "Rue du Cheval Rouge",
+          "contact:city": "Orléans",
           "contact:facebook": "https://fr-fr.facebook.com/MaisonNadal",
+          "contact:housenumber": "9",
+          "contact:postcode": "45000",
+          "contact:street": "Rue du Cheval Rouge",
           "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/97/18/ea/c9/074b-4d52-b45a-1c28797f33a9.jpg",
           "name": "Maison Nadal",
           "opening_hours": "Tu-Sa 07:00-19:30",
@@ -672,12 +679,12 @@
         "lat": 47.899782,
         "lon": 1.9026556,
         "tags": {
-          "addr:city": "Orléans",
-          "addr:housenumber": "5",
-          "addr:postcode": "45000",
-          "addr:street": "Rue du Cheval Rouge",
           "brand": "La Procure",
           "brand:wikidata": "Q3211977",
+          "contact:city": "Orléans",
+          "contact:housenumber": "5",
+          "contact:postcode": "45000",
+          "contact:street": "Rue du Cheval Rouge",
           "image": "https://panoramax-storage-public-fast.s3.gra.perf.cloud.ovh.net/main-pictures/64/b5/0e/fa/1d8d-49ef-99cd-21bd009ac71b.jpg",
           "name": "La Procure",
           "shop": "books"
@@ -1219,6 +1226,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-28T10:21:14.429Z",
+  "fetchedAt": "2026-10-30T10:42:32.646Z",
   "staleDataWarning": false
 }
