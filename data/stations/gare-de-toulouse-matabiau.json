@@ -270,7 +270,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-30T10:47:48Z",
+      "timestamp_osm_base": "2026-10-31T10:16:09Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -664,7 +664,7 @@
           "contact:street": "Place Dominique Martin Dupuy",
           "description": "Boulangerie bio, artisanale et familiale",
           "name": "La Halle aux Pains",
-          "opening_hours": "Mo-Fr 07:00-20:00; Su 07:00-20:00",
+          "opening_hours": "Mo-Fr 07:00-20:00; Sa-Su 07:00-20:00",
           "phone": "+33 5 62 73 08 45",
           "ref:FR:SIRET": "42945656900012",
           "shop": "bakery",
@@ -3425,6 +3425,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-30T10:42:32.646Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-10-31T10:11:31.177Z",
+  "staleDataWarning": true
 }

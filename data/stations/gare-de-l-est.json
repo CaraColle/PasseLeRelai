@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793356954146,
+      "timestamp": 1793441492101,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-30T10:44:41Z",
+      "timestamp_osm_base": "2026-10-31T10:12:03Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3875,7 +3875,7 @@
           "addr:floor": "0",
           "addr:housenumber": "179",
           "addr:street": "Rue Saint-Denis",
-          "check_date": "2026-03-17",
+          "check_date": "2026-10-30",
           "indoor_seating": "no",
           "level": "0",
           "name": "The French Bastards",
@@ -9757,6 +9757,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-30T10:42:32.646Z",
+  "fetchedAt": "2026-10-31T10:11:31.177Z",
   "staleDataWarning": false
 }
