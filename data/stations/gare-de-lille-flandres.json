@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793357542528,
+      "timestamp": 1793531540298,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-31T10:20:21Z",
+      "timestamp_osm_base": "2026-11-01T11:16:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -438,7 +438,7 @@
         "lat": 50.6262327,
         "lon": 3.0639612,
         "tags": {
-          "check_date": "2023-04-10",
+          "check_date": "2026-10-31",
           "contact:city": "Lille",
           "contact:housenumber": "4",
           "contact:phone": "+33 3 62 65 74 94",
@@ -1759,6 +1759,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-31T10:11:31.177Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-01T11:01:32.325Z",
+  "staleDataWarning": false
 }

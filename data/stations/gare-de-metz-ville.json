@@ -253,7 +253,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793358485514,
+      "timestamp": 1793532435012,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -282,7 +282,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-31T10:32:31Z",
+      "timestamp_osm_base": "2026-11-01T11:28:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1308,6 +1308,18 @@
       },
       {
         "type": "node",
+        "id": 10048696522,
+        "lat": 49.1085146,
+        "lon": 6.1693262,
+        "tags": {
+          "name": "L'Épicentre",
+          "ref:FR:SIRET": "10933804600013",
+          "shop": "convenience",
+          "source": "survey"
+        }
+      },
+      {
+        "type": "node",
         "id": 10106057297,
         "lat": 49.1245855,
         "lon": 6.1648237,
@@ -1671,6 +1683,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-31T10:11:31.177Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-01T11:01:32.325Z",
+  "staleDataWarning": false
 }

@@ -209,7 +209,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793441595951,
+      "timestamp": 1793531028701,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -238,7 +238,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-10-31T10:14:07Z",
+      "timestamp_osm_base": "2026-11-01T11:05:11Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1933,6 +1933,8 @@
           "opening_hours": "Mo-Fr 10:00-19:00",
           "operator:type": "cooperative",
           "organic": "only",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "phone": "+33 4 91 37 44 30",
           "ref:FR:SIRET": "94269308600012",
           "shop": "bakery"
@@ -3646,6 +3648,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-10-31T10:11:31.177Z",
+  "fetchedAt": "2026-11-01T11:01:32.325Z",
   "staleDataWarning": false
 }
