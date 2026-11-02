@@ -321,7 +321,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793532282832,
+      "timestamp": 1793623192305,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -350,7 +350,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-01T11:25:36Z",
+      "timestamp_osm_base": "2026-11-02T12:46:47Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1435,11 +1435,13 @@
         "lat": 47.3959166,
         "lon": 0.690876,
         "tags": {
+          "check_date:opening_hours": "2026-11-01",
           "contact:city": "Tours",
           "contact:housenumber": "97",
           "contact:postcode": "37000",
           "contact:street": "Rue Colbert",
           "name": "L’épicerie du Coin",
+          "opening_hours:signed": "no",
           "ref:FR:SIRET": "48365993400010",
           "shop": "convenience"
         }
@@ -1892,6 +1894,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-01T11:01:32.325Z",
+  "fetchedAt": "2026-11-02T11:59:48.936Z",
   "staleDataWarning": false
 }

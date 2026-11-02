@@ -257,7 +257,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793531620925,
+      "timestamp": 1793621907920,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -286,7 +286,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-01T11:17:21Z",
+      "timestamp_osm_base": "2026-11-02T12:24:35Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -938,6 +938,8 @@
           "addr:housenumber": "16",
           "addr:postcode": "35000",
           "addr:street": "Rue des Fossés",
+          "brand": "La Procure",
+          "brand:wikidata": "Q3211977",
           "brand:wikipedia": "fr:La Procure",
           "delivery": "yes",
           "drive_through": "no",
@@ -1083,6 +1085,8 @@
           "addr:housenumber": "11",
           "addr:postcode": "35000",
           "addr:street": "Rue de la Monnaie",
+          "brand": "Augustin",
+          "brand:wikidata": "Q130232585",
           "name": "Augustin",
           "opening_hours": "Mo-Sa 08:00-19:00",
           "ref:FR:NAF": "56.10C",
@@ -1218,9 +1222,10 @@
           "indoor_seating": "yes",
           "name": "Le Fournil de Broceliande",
           "opening_hours": "Mo-Fr 07:00-19:30; PH off",
-          "operator": "Norab",
+          "operator": "SARL Indigo",
           "outdoor_seating": "no",
-          "ref:FR:SIRET": "49390882600016",
+          "ref:FR:NAF": "56.10C",
+          "ref:FR:SIRET": "79322129200063",
           "shop": "bakery",
           "wheelchair": "yes",
           "wheelchair:description": "Accessible en faisant appel au commerçant (rampe amovible)"
@@ -1330,6 +1335,8 @@
           "addr:housenumber": "21",
           "addr:postcode": "35000",
           "addr:street": "Place du Colombier",
+          "brand": "Augustin",
+          "brand:wikidata": "Q130232585",
           "indoor_seating": "yes",
           "name": "Augustin",
           "opening_hours": "Mo-Sa 07:00-20:00",
@@ -2291,6 +2298,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-01T11:01:32.325Z",
+  "fetchedAt": "2026-11-02T11:59:48.936Z",
   "staleDataWarning": false
 }

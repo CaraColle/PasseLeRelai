@@ -217,7 +217,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793531495568,
+      "timestamp": 1793621527935,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -246,7 +246,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-01T11:15:20Z",
+      "timestamp_osm_base": "2026-11-02T12:17:24Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -648,6 +648,7 @@
           "brand": "Ronde des Pains",
           "brand:wikidata": "Q3441707",
           "contact:instagram": "lacollective_painsaulevain",
+          "currency:XLT": "GEMM",
           "description": "Horaires d'ouverture : Du lundi au vendredi : de 7h à 14h et de 16h à 19h30 Samedi, dimanche : de 6h30 à 13h",
           "fixme": "Emplacement vacant",
           "name": "La Collective Pain au Levain",
@@ -667,6 +668,7 @@
           "addr:street": "Rue Camille Sauvageau",
           "bulk_purchase": "only",
           "contact:facebook": "https://www.facebook.com/epicerietista/",
+          "currency:XLT": "GEMM",
           "name": "Tista",
           "organic": "yes",
           "ref:FR:NAF": "47.11B",
@@ -895,6 +897,7 @@
           "addr:housenumber": "6",
           "addr:postcode": "33800",
           "addr:street": "Rue Jules Guesde",
+          "currency:XLT": "GEMM",
           "email": "accueil@epicerie-solidaire.fr",
           "name": "L'épicerie Solidaire",
           "shop": "convenience",
@@ -1303,6 +1306,7 @@
         "tags": {
           "addr:housenumber": "48",
           "addr:street": "Rue de la Compagnie du Midi",
+          "currency:XLT": "GEMM",
           "email": "bonjour@lecopin.fr",
           "name": "L'Éco Pin",
           "opening_hours": "Tu-Sa 10:00-14:00,16:00-19:30; Su-Mo off",
@@ -1552,6 +1556,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-01T11:01:32.325Z",
+  "fetchedAt": "2026-11-02T11:59:48.936Z",
   "staleDataWarning": false
 }

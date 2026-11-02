@@ -237,7 +237,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793530981453,
+      "timestamp": 1793620934728,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -266,7 +266,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-01T11:04:08Z",
+      "timestamp_osm_base": "2026-11-02T12:05:19Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2197,10 +2197,12 @@
         "lat": 48.8456969,
         "lon": 2.3708882,
         "tags": {
+          "addr:floor": "0",
           "brand:wikidata": "Q99231745",
-          "check_date": "2025-10-03",
+          "check_date": "2026-11-01",
           "check_date:opening_hours": "2025-10-03",
           "indoor_seating": "yes",
+          "level": "0",
           "name": "Éric Kayser",
           "opening_hours": "Mo-Sa 06:30-20:00",
           "opening_hours:url": "https://www.maison-kayser.com/fr/boulangeries/100001017-gare-de-lyon.html",
@@ -2461,13 +2463,15 @@
         "lon": 2.3551794,
         "tags": {
           "addr:city": "Paris",
+          "addr:floor": "0",
           "addr:housenumber": "5",
           "addr:postcode": "75005",
           "addr:street": "Boulevard Saint-Germain",
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
           "brand:wikipedia": "fr:Monoprix (France)",
-          "check_date": "2026-05-16",
+          "check_date": "2026-11-01",
+          "level": "0",
           "name": "Monop'",
           "opening_hours": "Mo-Sa 07:30-23:00; Su 09:00-22:00",
           "shop": "convenience",
@@ -4123,10 +4127,12 @@
         "lat": 48.845332,
         "lon": 2.3706067,
         "tags": {
-          "check_date": "2025-12-28",
+          "addr:floor": "0",
+          "check_date": "2026-11-01",
           "check_date:opening_hours": "2025-12-28",
           "cuisine": "sandwich",
           "indoor_seating": "yes",
+          "level": "0",
           "name": "Délices de la gare",
           "opening_hours:signed": "no",
           "outdoor_seating": "yes",
@@ -4390,7 +4396,7 @@
           "name": "Maison Claire",
           "opening_hours": "Mo-Sa 06:30-20:30",
           "phone": "+33 1 40 21 10 49",
-          "ref:FR:siret": "93479505500011",
+          "ref:FR:SIRET": "93479505500011",
           "shop": "bakery",
           "source": "survey"
         }
@@ -4853,6 +4859,7 @@
         "tags": {
           "building": "yes",
           "building:levels": "1",
+          "check_date": "2026-11-01",
           "name:signed": "no",
           "shop": "kiosk"
         }
@@ -4903,6 +4910,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-01T11:01:32.325Z",
+  "fetchedAt": "2026-11-02T11:59:48.936Z",
   "staleDataWarning": false
 }

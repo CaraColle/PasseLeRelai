@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793532510196,
+      "timestamp": 1793623897810,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-01T11:31:46Z",
+      "timestamp_osm_base": "2026-11-02T12:56:59Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -676,8 +676,8 @@
       {
         "type": "node",
         "id": 3423826485,
-        "lat": 47.899782,
-        "lon": 1.9026556,
+        "lat": 47.8997905,
+        "lon": 1.9026516,
         "tags": {
           "brand": "La Procure",
           "brand:wikidata": "Q3211977",
@@ -1226,6 +1226,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-01T11:01:32.325Z",
+  "fetchedAt": "2026-11-02T11:59:48.936Z",
   "staleDataWarning": false
 }

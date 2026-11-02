@@ -209,7 +209,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793531028701,
+      "timestamp": 1793620966041,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -238,7 +238,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-01T11:05:11Z",
+      "timestamp_osm_base": "2026-11-02T12:06:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1927,6 +1927,7 @@
           "addr:postcode": "13006",
           "addr:street": "Rue de Lodi",
           "contact:email": "contact@sudsudest.fr",
+          "contact:instagram": "https://www.instagram.com/sudsudestboulangerie/",
           "contact:website": "https://sudsudest.fr",
           "description": "Boulangerie artisanale, biologique et coopérative",
           "name": "SUD·SUD·EST",
@@ -1937,7 +1938,10 @@
           "payment:debit_cards": "yes",
           "phone": "+33 4 91 37 44 30",
           "ref:FR:SIRET": "94269308600012",
-          "shop": "bakery"
+          "reusable_packaging:accept": "yes",
+          "reusable_packaging:offer": "yes",
+          "shop": "bakery",
+          "wheelchair": "yes"
         }
       },
       {
@@ -3648,6 +3652,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-01T11:01:32.325Z",
+  "fetchedAt": "2026-11-02T11:59:48.936Z",
   "staleDataWarning": false
 }
