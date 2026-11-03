@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793624167220,
+      "timestamp": 1793707877204,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-02T13:00:02Z",
+      "timestamp_osm_base": "2026-11-03T12:12:46Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1479,7 +1479,7 @@
           "contact:website": "https://www.canalbd.net/funambules",
           "delivery": "no",
           "name": "Funambules",
-          "opening_hours": "Tu-Sa 10:00-13:00,14:00-19:00",
+          "opening_hours": "Tu-Sa 10:00-13:00,14:00-19:00; 2026 Nov 11 10:00-13:00,14:00-19:00; 2026 Dec 24,2026 Dec 31 10:00-17:00; 2026 Dec 25 off; 2027 Jan 01 off",
           "payment:cheque": "yes",
           "payment:contactless": "yes",
           "payment:credit_cards": "yes",
@@ -2049,6 +2049,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-02T11:59:48.936Z",
+  "fetchedAt": "2026-11-03T11:37:44.370Z",
   "staleDataWarning": false
 }

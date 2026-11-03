@@ -281,7 +281,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793620790004,
+      "timestamp": 1793705865241,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -310,7 +310,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-02T12:01:10Z",
+      "timestamp_osm_base": "2026-11-03T11:40:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2892,6 +2892,7 @@
           "organic": "no",
           "outdoor_seating": "yes",
           "pastry": "yes",
+          "ref:FR:SIRET": "42407342700017",
           "shop": "bakery",
           "source": "survey",
           "wheelchair": "limited"
@@ -2928,6 +2929,7 @@
           "contact:street": "Rue du Faubourg Saint-Denis",
           "level": "0",
           "name": "A.K.R. Cash & Carry",
+          "ref:FR:SIRET": "93061421900010",
           "shop": "convenience",
           "source": "survey 09-2022"
         }
@@ -5281,16 +5283,17 @@
           "check_date": "2025-12-07",
           "contact:city": "Paris",
           "contact:housenumber": "29 ter",
-          "contact:phone": "+33140278863",
+          "contact:phone": "+33 1 40 27 88 63",
           "contact:postcode": "75010",
           "contact:street": "Rue du Château d'Eau",
+          "contact:website": "https://www.univers-bd.fr/",
           "name": "Univers BD",
           "opening_hours": "Tu-Fr 11:00-19:30; Sa 11:00-20:00",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
-          "shop": "books",
-          "website": "https://www.univers-bd.fr/"
+          "ref:FR:SIRET": "10603646000025",
+          "shop": "books"
         }
       },
       {
@@ -7911,7 +7914,12 @@
         "lon": 2.351906,
         "tags": {
           "check_date": "2026-05-22",
+          "contact:city": "Paris",
+          "contact:housenumber": "10 bis",
+          "contact:postcode": "75010",
+          "contact:street": "Boulevard de Bonne Nouvelle",
           "name": "Mina Market",
+          "ref:FR:SIRET": "99509689800011",
           "shop": "convenience"
         }
       },
@@ -8386,6 +8394,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-02T11:59:48.936Z",
+  "fetchedAt": "2026-11-03T11:37:44.370Z",
   "staleDataWarning": false
 }
