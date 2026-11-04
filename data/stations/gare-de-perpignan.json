@@ -221,7 +221,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793707680284,
+      "timestamp": 1793794627910,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -250,7 +250,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-03T12:08:45Z",
+      "timestamp_osm_base": "2026-11-04T12:19:35Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1031,6 +1031,28 @@
         }
       },
       {
+        "type": "node",
+        "id": 14345699686,
+        "lat": 42.6968536,
+        "lon": 2.9025451,
+        "tags": {
+          "name": "Épicerie Nico Phuket",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14345699687,
+        "lat": 42.6968256,
+        "lon": 2.9026276,
+        "tags": {
+          "craft": "caterer",
+          "name": "Fournil",
+          "phone": "+33 7 81 48 47 20",
+          "shop": "bakery"
+        }
+      },
+      {
         "type": "way",
         "id": 81671193,
         "center": {
@@ -1117,6 +1139,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-03T11:37:44.370Z",
+  "fetchedAt": "2026-11-04T11:51:36.510Z",
   "staleDataWarning": false
 }

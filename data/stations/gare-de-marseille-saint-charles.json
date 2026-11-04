@@ -209,7 +209,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793706114777,
+      "timestamp": 1793793217071,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -238,7 +238,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-03T11:43:08Z",
+      "timestamp_osm_base": "2026-11-04T11:54:10Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3401,6 +3401,23 @@
         }
       },
       {
+        "type": "node",
+        "id": 14348280201,
+        "lat": 43.2999817,
+        "lon": 5.3860802,
+        "tags": {
+          "addr:housenumber": "11",
+          "addr:postcode": "13001",
+          "addr:street": "Rue Frédéric Chevillon",
+          "check_date": "2026-11-04",
+          "check_date:opening_hours": "2026-11-04",
+          "name": "Mimiche",
+          "opening_hours": "Sa 09:00-13:00",
+          "shop": "bakery",
+          "website": "https://www.instagram.com/mimiche.marseille?xtok=anVmZWczaml3eDh3"
+        }
+      },
+      {
         "type": "way",
         "id": 67697078,
         "center": {
@@ -3652,6 +3669,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-03T11:37:44.370Z",
+  "fetchedAt": "2026-11-04T11:51:36.510Z",
   "staleDataWarning": false
 }
