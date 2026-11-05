@@ -193,7 +193,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793794080493,
+      "timestamp": 1793880355300,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -222,7 +222,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-04T12:10:28Z",
+      "timestamp_osm_base": "2026-11-05T12:06:37Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -516,17 +516,6 @@
           "opening_hours": "Tu-Sa 07:00-13:30,15:00-19:00; Su 07:00-13:30",
           "ref:FR:SIRET": "85213440200019",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3146107929,
-        "lat": 47.3243895,
-        "lon": 5.0290396,
-        "tags": {
-          "name": "City Market",
-          "ref:FR:SIRET": "98953694100010",
-          "shop": "convenience"
         }
       },
       {
@@ -929,6 +918,7 @@
         "lon": 5.0108332,
         "tags": {
           "name": "Mon marché tendance",
+          "ref:FR:SIRET": "79162852200041",
           "shop": "convenience"
         }
       },
@@ -977,6 +967,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-04T11:51:36.510Z",
+  "fetchedAt": "2026-11-05T11:52:14.551Z",
   "staleDataWarning": false
 }

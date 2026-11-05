@@ -281,7 +281,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793793097584,
+      "timestamp": 1793879535792,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -310,7 +310,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-04T11:52:05Z",
+      "timestamp_osm_base": "2026-11-05T11:52:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1849,7 +1849,7 @@
         "lat": 48.8683036,
         "lon": 2.365428,
         "tags": {
-          "check_date": "2026-06-27",
+          "check_date": "2026-11-04",
           "check_date:smoking": "2025-10-01",
           "contact:city": "Paris",
           "contact:email": "peches-normands@wanadoo.fr",
@@ -8394,6 +8394,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-04T11:51:36.510Z",
+  "fetchedAt": "2026-11-05T11:52:14.551Z",
   "staleDataWarning": false
 }

@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793793097390,
+      "timestamp": 1793879535443,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-04T11:51:07Z",
+      "timestamp_osm_base": "2026-11-05T11:51:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3080,17 +3080,18 @@
         "lat": 48.8417279,
         "lon": 2.3311153,
         "tags": {
-          "addr:city": "Paris",
-          "addr:housenumber": "125",
-          "addr:postcode": "75006",
-          "addr:street": "Boulevard du Montparnasse",
-          "check_date": "2026-08-02",
+          "check_date": "2026-11-04",
+          "contact:housenumber": "125",
+          "contact:street": "Boulevard du Montparnasse",
           "level": "0",
           "name": "Librairie Tschann",
-          "opening_hours": "Mo-We 10:00-20:00, Th-Sa 10:00-22:00, Su 10:00-19:00",
+          "opening_hours": "Mo-We 10:00-20:00; Th-Sa 10:00-22:00; Su 10:00-19:00",
           "phone": "+33 1 43 35 42 05",
+          "ref:FR:SIRET": "55206077400015",
+          "ref:vatin": "FR66552060774",
           "shop": "books",
           "wheelchair": "no",
+          "wikidata": "Q53379297",
           "wikipedia": "fr:Tschann (librairie)"
         }
       },
@@ -4615,6 +4616,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-04T11:51:36.510Z",
+  "fetchedAt": "2026-11-05T11:52:14.551Z",
   "staleDataWarning": false
 }

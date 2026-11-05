@@ -301,7 +301,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793793134310,
+      "timestamp": 1793879565609,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -330,7 +330,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-04T11:53:10Z",
+      "timestamp_osm_base": "2026-11-05T11:53:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3235,15 +3235,6 @@
       },
       {
         "type": "node",
-        "id": 8895180440,
-        "lat": 48.8610359,
-        "lon": 2.3201594,
-        "tags": {
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 9295462705,
         "lat": 48.8906386,
         "lon": 2.3198328,
@@ -4172,6 +4163,15 @@
         }
       },
       {
+        "type": "node",
+        "id": 14351470991,
+        "lat": 48.8610293,
+        "lon": 2.3201359,
+        "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 53823596,
         "center": {
@@ -4307,6 +4307,7 @@
         },
         "tags": {
           "building": "kiosk",
+          "check_date": "2026-11-05",
           "shop": "kiosk",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
         }
@@ -4675,6 +4676,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-04T11:51:36.510Z",
+  "fetchedAt": "2026-11-05T11:52:14.551Z",
   "staleDataWarning": false
 }

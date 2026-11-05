@@ -293,7 +293,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793793097517,
+      "timestamp": 1793879535795,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -322,7 +322,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-04T11:52:05Z",
+      "timestamp_osm_base": "2026-11-05T11:52:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -808,7 +808,7 @@
         "lat": 48.8670376,
         "lon": 2.3734423,
         "tags": {
-          "check_date": "2026-04-21",
+          "check_date": "2026-11-04",
           "description": "Librairie indépendante",
           "name": "Les Guetteurs De Vent",
           "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00,14:00-18:00",
@@ -2012,7 +2012,7 @@
         "lat": 48.8683036,
         "lon": 2.365428,
         "tags": {
-          "check_date": "2026-06-27",
+          "check_date": "2026-11-04",
           "check_date:smoking": "2025-10-01",
           "contact:city": "Paris",
           "contact:email": "peches-normands@wanadoo.fr",
@@ -6540,7 +6540,7 @@
         "lat": 48.8709559,
         "lon": 2.3727433,
         "tags": {
-          "check_date": "2024-08-01",
+          "check_date": "2026-11-04",
           "contact:city": "Paris",
           "contact:housenumber": "180",
           "contact:postcode": "75010",
@@ -7762,6 +7762,7 @@
         "lat": 48.8710505,
         "lon": 2.3726753,
         "tags": {
+          "check_date": "2026-11-04",
           "check_date:opening_hours": "2026-10-23",
           "indoor_seating": "no",
           "name": "TransPain",
@@ -8784,6 +8785,7 @@
         "lat": 48.8715345,
         "lon": 2.37204,
         "tags": {
+          "check_date": "2026-11-04",
           "contact:city": "Paris",
           "contact:housenumber": "191",
           "contact:instagram": "boulangerie.gonfle",
@@ -9768,6 +9770,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-04T11:51:36.510Z",
+  "fetchedAt": "2026-11-05T11:52:14.551Z",
   "staleDataWarning": false
 }

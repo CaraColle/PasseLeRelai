@@ -229,7 +229,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793793345024,
+      "timestamp": 1793879746434,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -258,7 +258,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-04T11:56:14Z",
+      "timestamp_osm_base": "2026-11-05T11:56:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1872,6 +1872,7 @@
         "lat": 43.6976616,
         "lon": 7.2706754,
         "tags": {
+          "check_date": "2026-11-05",
           "name": "Flamme et fumee",
           "ref:FR:SIRET": "30964604000019",
           "shop": "kiosk"
@@ -2121,6 +2122,7 @@
         "lon": 7.2645311,
         "tags": {
           "name": "Le Floride",
+          "opening_hours": "Mo-Sa 07:00-20:00",
           "shop": "kiosk"
         }
       },
@@ -2131,6 +2133,7 @@
         "lon": 7.2644131,
         "tags": {
           "name": "DOM",
+          "opening_hours": "Mo-Sa 07:00-19:00; Su 07:00-13:30",
           "pastry": "yes",
           "ref:FR:SIRET": "82416842100025",
           "shop": "bakery"
@@ -3057,6 +3060,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-04T11:51:36.510Z",
+  "fetchedAt": "2026-11-05T11:52:14.551Z",
   "staleDataWarning": false
 }

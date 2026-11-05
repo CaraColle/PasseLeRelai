@@ -273,7 +273,7 @@
     "metadata": {
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "service": "isochrones",
-      "timestamp": 1793793429300,
+      "timestamp": 1793879812438,
       "query": {
         "profile": "foot-walking",
         "profileName": "foot-walking",
@@ -302,7 +302,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-04T11:58:18Z",
+      "timestamp_osm_base": "2026-11-05T11:57:28Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1198,24 +1198,6 @@
           "name": "Épicerie des Consuls",
           "opening_hours": "Mo-Th 08:00-21:00; Fr 08:00-21:00; Sa 10:00-21:00; Su 13:00-21:00",
           "shop": "convenience",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
-        "id": 832449201,
-        "lat": 43.605763,
-        "lon": 3.891821,
-        "tags": {
-          "brand": "Spar",
-          "brand:wikidata": "Q610492",
-          "check_date:opening_hours": "2026-09-03",
-          "name": "Spar",
-          "opening_hours": "Mo-Sa 08:30-12:30,15:30-19:30",
-          "operator": "Spar",
-          "phone": "+33 4 67 85 73 04",
-          "shop": "convenience",
-          "website": "https://spar.casino.fr/stores/e1236/montpellier-39-rue-de-l-acropole",
           "wheelchair": "yes"
         }
       },
@@ -2478,6 +2460,19 @@
       },
       {
         "type": "node",
+        "id": 13912194401,
+        "lat": 43.6088023,
+        "lon": 3.8787999,
+        "tags": {
+          "email": "m.bretzels@gmail.com",
+          "name": "M. Bretzels",
+          "phone": "+33 6 88 99 44 66",
+          "shop": "bakery",
+          "website": "https://www.mbretzels.fr/"
+        }
+      },
+      {
+        "type": "node",
         "id": 14128677163,
         "lat": 43.6054452,
         "lon": 3.8746311,
@@ -2591,6 +2586,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-04T11:51:36.510Z",
+  "fetchedAt": "2026-11-05T11:52:14.551Z",
   "staleDataWarning": false
 }
