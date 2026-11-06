@@ -5,7 +5,6 @@
     "lng": 5.7141
   },
   "isochrones": {
-    "type": "FeatureCollection",
     "bbox": [
       5.709402,
       45.187093,
@@ -14,15 +13,6 @@
     ],
     "features": [
       {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 300,
-          "center": [
-            5.714071431951537,
-            45.19129337692755
-          ]
-        },
         "geometry": {
           "coordinates": [
             [
@@ -89,18 +79,18 @@
             ]
           ],
           "type": "Polygon"
-        }
-      },
-      {
-        "type": "Feature",
+        },
         "properties": {
-          "group_index": 0,
-          "value": 600,
           "center": [
             5.714071431951537,
             45.19129337692755
-          ]
+          ],
+          "group_index": 0,
+          "value": 300
         },
+        "type": "Feature"
+      },
+      {
         "geometry": {
           "coordinates": [
             [
@@ -121,7 +111,7 @@
                 45.189922
               ],
               [
-                5.713798,
+                5.713791,
                 45.1875
               ],
               [
@@ -195,22 +185,28 @@
             ]
           ],
           "type": "Polygon"
-        }
+        },
+        "properties": {
+          "center": [
+            5.714071431951537,
+            45.19129337692755
+          ],
+          "group_index": 0,
+          "value": 600
+        },
+        "type": "Feature"
       }
     ],
     "metadata": {
-      "attribution": "openrouteservice.org | OpenStreetMap contributors",
-      "service": "isochrones",
-      "timestamp": 1793880312493,
       "query": {
-        "profile": "foot-walking",
-        "profileName": "foot-walking",
         "locations": [
           [
             5.7141,
             45.1913
           ]
         ],
+        "profile": "foot-walking",
+        "profileName": "foot-walking",
         "range": [
           300,
           600
@@ -218,19 +214,24 @@
         "range_type": "time",
         "units": "m"
       },
+      "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
-        "version": "9.10.0",
-        "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-20T06:31:34Z",
-        "osm_date": "2026-09-13T23:59:59Z"
-      }
-    }
+        "build_date": "2026-10-14T07:31:58Z",
+        "graph_date": "2026-10-14T14:17:59Z",
+        "osm_date": "2026-10-11T00:00:00Z",
+        "version": "10.1.0"
+      },
+      "service": "isochrones",
+      "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
+      "timestamp": 1793966906607
+    },
+    "type": "FeatureCollection"
   },
   "shops": {
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-05T12:06:37Z",
+      "timestamp_osm_base": "2026-11-06T12:09:56Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2809,6 +2810,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-05T11:52:14.551Z",
+  "fetchedAt": "2026-11-06T11:49:15.873Z",
   "staleDataWarning": false
 }

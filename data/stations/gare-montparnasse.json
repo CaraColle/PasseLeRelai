@@ -5,7 +5,6 @@
     "lng": 2.321
   },
   "isochrones": {
-    "type": "FeatureCollection",
     "bbox": [
       2.311824,
       48.834052,
@@ -14,15 +13,6 @@
     ],
     "features": [
       {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 300,
-          "center": [
-            2.3210149003132567,
-            48.841232359074375
-          ]
-        },
         "geometry": {
           "coordinates": [
             [
@@ -125,18 +115,18 @@
             ]
           ],
           "type": "Polygon"
-        }
-      },
-      {
-        "type": "Feature",
+        },
         "properties": {
-          "group_index": 0,
-          "value": 600,
           "center": [
             2.3210149003132567,
             48.841232359074375
-          ]
+          ],
+          "group_index": 0,
+          "value": 300
         },
+        "type": "Feature"
+      },
+      {
         "geometry": {
           "coordinates": [
             [
@@ -267,22 +257,28 @@
             ]
           ],
           "type": "Polygon"
-        }
+        },
+        "properties": {
+          "center": [
+            2.3210149003132567,
+            48.841232359074375
+          ],
+          "group_index": 0,
+          "value": 600
+        },
+        "type": "Feature"
       }
     ],
     "metadata": {
-      "attribution": "openrouteservice.org | OpenStreetMap contributors",
-      "service": "isochrones",
-      "timestamp": 1793879535443,
       "query": {
-        "profile": "foot-walking",
-        "profileName": "foot-walking",
         "locations": [
           [
             2.321,
             48.8412
           ]
         ],
+        "profile": "foot-walking",
+        "profileName": "foot-walking",
         "range": [
           300,
           600
@@ -290,19 +286,24 @@
         "range_type": "time",
         "units": "m"
       },
+      "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
-        "version": "9.10.0",
-        "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-20T06:31:34Z",
-        "osm_date": "2026-09-13T23:59:59Z"
-      }
-    }
+        "build_date": "2026-10-14T07:31:58Z",
+        "graph_date": "2026-10-14T14:17:59Z",
+        "osm_date": "2026-10-11T00:00:00Z",
+        "version": "10.1.0"
+      },
+      "service": "isochrones",
+      "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
+      "timestamp": 1793965756831
+    },
+    "type": "FeatureCollection"
   },
   "shops": {
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-05T11:51:21Z",
+      "timestamp_osm_base": "2026-11-06T11:50:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2701,7 +2702,7 @@
         "lat": 48.8405993,
         "lon": 2.3304115,
         "tags": {
-          "check_date": "2023-05-27",
+          "check_date": "2026-11-05",
           "contact:city": "Paris",
           "contact:housenumber": "215",
           "contact:postcode": "75014",
@@ -3847,7 +3848,9 @@
         "lat": 48.8404592,
         "lon": 2.3277177,
         "tags": {
+          "check_date:opening_hours": "2026-11-05",
           "name": "Albin Michel",
+          "opening_hours:signed": "no",
           "shop": "books"
         }
       },
@@ -4353,6 +4356,22 @@
       },
       {
         "type": "way",
+        "id": 399966254,
+        "center": {
+          "lat": 48.8410393,
+          "lon": 2.3209334
+        },
+        "tags": {
+          "brand": "Brioche Dorée",
+          "brand:wikidata": "Q2925606",
+          "indoor": "room",
+          "level": "0",
+          "name": "Brioche Dorée",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "way",
         "id": 409279724,
         "center": {
           "lat": 48.8403507,
@@ -4389,26 +4408,6 @@
           "operator": "Groupe Le Duff",
           "shop": "bakery",
           "website": "https://www.briochedoree.fr/",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "way",
-        "id": 654569075,
-        "center": {
-          "lat": 48.8404118,
-          "lon": 2.3209795
-        },
-        "tags": {
-          "brand": "Millie's Cookies",
-          "brand:wikidata": "Q1935533",
-          "indoor": "room",
-          "level": "2",
-          "name": "Millie's Cookies",
-          "opening_hours": "Mo-Th,Sa 06:30-20:00; Fr 06:00-20:30; Su 07:00-20:30",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "shop": "bakery",
           "wheelchair": "yes"
         }
       },
@@ -4502,22 +4501,6 @@
           "building": "yes",
           "name:signed": "no",
           "shop": "kiosk"
-        }
-      },
-      {
-        "type": "way",
-        "id": 1023663131,
-        "center": {
-          "lat": 48.8332568,
-          "lon": 2.3327394
-        },
-        "tags": {
-          "building": "yes",
-          "check_date": "2024-09-15",
-          "name": "Le kiosque de Paris",
-          "shop": "kiosk",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2022",
-          "wheelchair": "yes"
         }
       },
       {
@@ -4616,6 +4599,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-05T11:52:14.551Z",
+  "fetchedAt": "2026-11-06T11:49:15.873Z",
   "staleDataWarning": false
 }

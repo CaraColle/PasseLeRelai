@@ -5,7 +5,6 @@
     "lng": -0.5563
   },
   "isochrones": {
-    "type": "FeatureCollection",
     "bbox": [
       -0.565181,
       44.819319,
@@ -14,15 +13,6 @@
     ],
     "features": [
       {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 300,
-          "center": [
-            -0.5563008436846719,
-            44.82559778162759
-          ]
-        },
         "geometry": {
           "coordinates": [
             [
@@ -97,23 +87,23 @@
             ]
           ],
           "type": "Polygon"
-        }
-      },
-      {
-        "type": "Feature",
+        },
         "properties": {
-          "group_index": 0,
-          "value": 600,
           "center": [
             -0.5563008436846719,
             44.82559778162759
-          ]
+          ],
+          "group_index": 0,
+          "value": 300
         },
+        "type": "Feature"
+      },
+      {
         "geometry": {
           "coordinates": [
             [
               [
-                -0.564661,
+                -0.564657,
                 44.828865
               ],
               [
@@ -201,32 +191,38 @@
                 44.831161
               ],
               [
-                -0.564582,
-                44.829217
+                -0.564579,
+                44.829216
               ],
               [
-                -0.564661,
+                -0.564657,
                 44.828865
               ]
             ]
           ],
           "type": "Polygon"
-        }
+        },
+        "properties": {
+          "center": [
+            -0.5563008436846719,
+            44.82559778162759
+          ],
+          "group_index": 0,
+          "value": 600
+        },
+        "type": "Feature"
       }
     ],
     "metadata": {
-      "attribution": "openrouteservice.org | OpenStreetMap contributors",
-      "service": "isochrones",
-      "timestamp": 1793879916821,
       "query": {
-        "profile": "foot-walking",
-        "profileName": "foot-walking",
         "locations": [
           [
             -0.5563,
             44.8256
           ]
         ],
+        "profile": "foot-walking",
+        "profileName": "foot-walking",
         "range": [
           300,
           600
@@ -234,19 +230,24 @@
         "range_type": "time",
         "units": "m"
       },
+      "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
-        "version": "9.10.0",
-        "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-20T06:31:34Z",
-        "osm_date": "2026-09-13T23:59:59Z"
-      }
-    }
+        "build_date": "2026-10-14T07:31:58Z",
+        "graph_date": "2026-10-14T14:17:59Z",
+        "osm_date": "2026-10-11T00:00:00Z",
+        "version": "10.1.0"
+      },
+      "service": "isochrones",
+      "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
+      "timestamp": 1793966518809
+    },
+    "type": "FeatureCollection"
   },
   "shops": {
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-05T12:00:33Z",
+      "timestamp_osm_base": "2026-11-06T12:03:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -645,12 +646,8 @@
           "addr:housenumber": "112",
           "addr:postcode": "33130",
           "addr:street": "Avenue Alexis Capelle",
-          "brand": "Ronde des Pains",
-          "brand:wikidata": "Q3441707",
           "contact:instagram": "lacollective_painsaulevain",
           "currency:XLT": "GEMM",
-          "description": "Horaires d'ouverture : Du lundi au vendredi : de 7h à 14h et de 16h à 19h30 Samedi, dimanche : de 6h30 à 13h",
-          "fixme": "Emplacement vacant",
           "name": "La Collective Pain au Levain",
           "opening_hours": "Mo 16:00-19:00; Tu-Fr 11:00-19:00",
           "shop": "bakery"
@@ -1556,6 +1553,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-05T11:52:14.551Z",
+  "fetchedAt": "2026-11-06T11:49:15.873Z",
   "staleDataWarning": false
 }

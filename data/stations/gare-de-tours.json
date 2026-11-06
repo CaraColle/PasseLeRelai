@@ -5,24 +5,14 @@
     "lng": 0.6939
   },
   "isochrones": {
-    "type": "FeatureCollection",
     "bbox": [
       0.683666,
-      47.382683,
+      47.382684,
       0.703609,
       47.396306
     ],
     "features": [
       {
-        "type": "Feature",
-        "properties": {
-          "group_index": 0,
-          "value": 300,
-          "center": [
-            0.6939296999396563,
-            47.38941512365806
-          ]
-        },
         "geometry": {
           "coordinates": [
             [
@@ -111,8 +101,8 @@
                 47.390841
               ],
               [
-                0.693502,
-                47.393098
+                0.693509,
+                47.393087
               ],
               [
                 0.691388,
@@ -133,18 +123,18 @@
             ]
           ],
           "type": "Polygon"
-        }
-      },
-      {
-        "type": "Feature",
+        },
         "properties": {
-          "group_index": 0,
-          "value": 600,
           "center": [
             0.6939296999396563,
             47.38941512365806
-          ]
+          ],
+          "group_index": 0,
+          "value": 300
         },
+        "type": "Feature"
+      },
+      {
         "geometry": {
           "coordinates": [
             [
@@ -197,23 +187,23 @@
                 47.383775
               ],
               [
-                0.69328,
-                47.383186
+                0.693269,
+                47.383187
               ],
               [
                 0.696069,
                 47.382703
               ],
               [
-                0.696282,
-                47.382683
+                0.696283,
+                47.382684
               ],
               [
                 0.696639,
                 47.382708
               ],
               [
-                0.696655,
+                0.696654,
                 47.382711
               ],
               [
@@ -261,24 +251,24 @@
                 47.392884
               ],
               [
-                0.701551,
-                47.393053
+                0.701513,
+                47.393034
               ],
               [
                 0.698249,
-                47.393835
+                47.393837
               ],
               [
                 0.695226,
                 47.395314
               ],
               [
-                0.694718,
+                0.694717,
                 47.395562
               ],
               [
                 0.693706,
-                47.395881
+                47.39588
               ],
               [
                 0.692659,
@@ -297,8 +287,8 @@
                 47.396282
               ],
               [
-                0.691607,
-                47.396255
+                0.691608,
+                47.396256
               ],
               [
                 0.689224,
@@ -315,22 +305,28 @@
             ]
           ],
           "type": "Polygon"
-        }
+        },
+        "properties": {
+          "center": [
+            0.6939296999396563,
+            47.38941512365806
+          ],
+          "group_index": 0,
+          "value": 600
+        },
+        "type": "Feature"
       }
     ],
     "metadata": {
-      "attribution": "openrouteservice.org | OpenStreetMap contributors",
-      "service": "isochrones",
-      "timestamp": 1793880602076,
       "query": {
-        "profile": "foot-walking",
-        "profileName": "foot-walking",
         "locations": [
           [
             0.6939,
             47.3894
           ]
         ],
+        "profile": "foot-walking",
+        "profileName": "foot-walking",
         "range": [
           300,
           600
@@ -338,19 +334,24 @@
         "range_type": "time",
         "units": "m"
       },
+      "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
-        "version": "9.10.0",
-        "build_date": "2026-08-13T11:53:14Z",
-        "graph_date": "2026-09-20T06:31:34Z",
-        "osm_date": "2026-09-13T23:59:59Z"
-      }
-    }
+        "build_date": "2026-10-14T07:31:58Z",
+        "graph_date": "2026-10-14T14:17:59Z",
+        "osm_date": "2026-10-11T00:00:00Z",
+        "version": "10.1.0"
+      },
+      "service": "isochrones",
+      "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
+      "timestamp": 1793967466572
+    },
+    "type": "FeatureCollection"
   },
   "shops": {
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-05T12:11:37Z",
+      "timestamp_osm_base": "2026-11-06T12:21:02Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1894,6 +1895,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-05T11:52:14.551Z",
+  "fetchedAt": "2026-11-06T11:49:15.873Z",
   "staleDataWarning": false
 }
