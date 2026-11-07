@@ -267,7 +267,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-06T12:17:58Z",
+      "timestamp_osm_base": "2026-11-07T11:12:22Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -882,7 +882,8 @@
           "opening_hours:signed": "yes",
           "phone": "+33 2 98 43 35 58",
           "ref:FR:SIRET": "33408120500026",
-          "shop": "books"
+          "shop": "books",
+          "website": "https://www.nouvelleculture-esoterisme-brest.fr/"
         }
       },
       {
@@ -907,7 +908,7 @@
         "lon": -4.4910247,
         "tags": {
           "addr:housenumber": "39",
-          "addr:street": "Rue",
+          "addr:street": "Rue Traverse",
           "name": "Pâtisserie Lallemand",
           "opening_hours": "Mo-Sa 08:30-19:00; Su 08:30-12:30",
           "phone": "+33 2 98 44 27 12",
@@ -952,7 +953,8 @@
           "check_date": "2024-02-25",
           "name": "Sapristi",
           "shop": "books",
-          "website": "https://www.leprojetsapristi.org"
+          "website": "https://www.leprojetsapristi.org",
+          "wheelchair": "yes"
         }
       },
       {
@@ -972,7 +974,8 @@
           "ref:FR:SIRET": "83229391400020",
           "shop": "bakery",
           "source": "INSEE - 2025-07",
-          "website": "https://www.lefourdebabel.fr"
+          "website": "https://www.lefourdebabel.fr",
+          "wheelchair": "yes"
         }
       },
       {
@@ -1232,6 +1235,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-06T11:49:15.873Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-11-07T10:52:49.246Z",
+  "staleDataWarning": true
 }

@@ -215,7 +215,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1793966930372
+      "timestamp": 1794049565992
     },
     "type": "FeatureCollection"
   },
@@ -223,7 +223,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-06T12:13:59Z",
+      "timestamp_osm_base": "2026-11-07T11:09:22Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -639,20 +639,6 @@
       },
       {
         "type": "node",
-        "id": 4405348063,
-        "lat": 47.3098713,
-        "lon": 5.0131935,
-        "tags": {
-          "brand": "Proxi",
-          "brand:wikidata": "Q3408522",
-          "brand:wikipedia": "fr:Proxi",
-          "name": "Proxi",
-          "ref:FR:SIRET": "39309375200011",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 4519540480,
         "lat": 47.3234284,
         "lon": 5.0308598,
@@ -968,6 +954,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-06T11:49:15.873Z",
+  "fetchedAt": "2026-11-07T10:52:49.246Z",
   "staleDataWarning": false
 }

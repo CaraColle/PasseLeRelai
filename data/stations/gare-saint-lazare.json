@@ -323,7 +323,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1793965920667
+      "timestamp": 1794048800884
     },
     "type": "FeatureCollection"
   },
@@ -331,7 +331,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-06T11:55:36Z",
+      "timestamp_osm_base": "2026-11-07T10:55:02Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1797,23 +1797,6 @@
           "start_date": "1801",
           "wheelchair": "limited",
           "wikidata": "Q109358847"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3980826540,
-        "lat": 48.865069,
-        "lon": 2.3318365,
-        "tags": {
-          "contact:city": "Paris",
-          "contact:housenumber": "302",
-          "contact:phone": "+33 1 42 60 58 61",
-          "contact:postcode": "75001",
-          "contact:street": "Rue Saint-Honoré",
-          "name": "Yannick Martin",
-          "ref:FR:SIRET": "40259751200027",
-          "shop": "bakery",
-          "wheelchair": "yes"
         }
       },
       {
@@ -4053,7 +4036,7 @@
         "lon": 2.3367167,
         "tags": {
           "check_date": "2025-04-29",
-          "name": "Le Grenier À Pain",
+          "name": "Le Grenier à Pain",
           "ref:FR:SIRET": "53131660200014",
           "shop": "bakery",
           "wikidata": "Q139695883;Q139695891"
@@ -4677,6 +4660,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-06T11:49:15.873Z",
+  "fetchedAt": "2026-11-07T10:52:49.246Z",
   "staleDataWarning": false
 }
