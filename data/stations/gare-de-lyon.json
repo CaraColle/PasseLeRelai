@@ -295,7 +295,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794048770278
+      "timestamp": 1794135752735
     },
     "type": "FeatureCollection"
   },
@@ -303,7 +303,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-07T10:52:01Z",
+      "timestamp_osm_base": "2026-11-08T11:02:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -778,7 +778,7 @@
           "addr:housenumber": "171b",
           "addr:postcode": "75011",
           "addr:street": "Boulevard Voltaire",
-          "check_date": "2026-04-23",
+          "check_date": "2026-11-07",
           "contact:email": "contact@alivrouvert.fr",
           "contact:facebook": "https://www.facebook.com/Alivrouvertnews",
           "contact:instagram": "https://www.instagram.com/alivrouvert/",
@@ -789,7 +789,6 @@
           "opening_hours": "Mo-Sa 10:00-19:00",
           "phone": "+33 9 52 65 38 67",
           "shop": "books",
-          "survey:date": "2024-10-18",
           "vending": "books;games;gifts",
           "website": "http://www.alivrouvert.fr/",
           "wheelchair": "limited"
@@ -1202,7 +1201,7 @@
         "lat": 48.8545765,
         "lon": 2.3857016,
         "tags": {
-          "check_date": "2023-10-18",
+          "check_date": "2026-11-07",
           "noname": "yes",
           "shop": "kiosk"
         }
@@ -1288,7 +1287,7 @@
           "addr:housenumber": "119",
           "addr:postcode": "75011",
           "addr:street": "Boulevard Voltaire",
-          "check_date": "2024-09-22",
+          "check_date": "2026-11-07",
           "name": "Re-Read",
           "old_name": "Pharmacie Sébag",
           "opening_hours": "Mo-Sa 10:00-19:30",
@@ -4837,6 +4836,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-07T10:52:49.246Z",
+  "fetchedAt": "2026-11-08T11:02:31.874Z",
   "staleDataWarning": false
 }

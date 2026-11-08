@@ -259,7 +259,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1793967360532
+      "timestamp": 1794136774657
     },
     "type": "FeatureCollection"
   },
@@ -267,7 +267,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-07T11:12:22Z",
+      "timestamp_osm_base": "2026-11-08T11:20:26Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -718,7 +718,8 @@
           "opening_hours": "Tu-Sa 10:00-19:00; Mo 13:30-19:00",
           "operator": "librairie Dialogues",
           "ref:FR:SIRET": "43001319300023",
-          "shop": "books"
+          "shop": "books",
+          "website": "https://www.lesenfants.fr/"
         }
       },
       {
@@ -1235,6 +1236,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-07T10:52:49.246Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-08T11:02:31.874Z",
+  "staleDataWarning": false
 }

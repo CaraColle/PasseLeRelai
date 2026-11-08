@@ -323,7 +323,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794048924594
+      "timestamp": 1794135902644
     },
     "type": "FeatureCollection"
   },
@@ -331,7 +331,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-07T10:56:03Z",
+      "timestamp_osm_base": "2026-11-08T11:06:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2703,6 +2703,24 @@
       },
       {
         "type": "node",
+        "id": 7934864443,
+        "lat": 45.7697964,
+        "lon": 4.8565554,
+        "tags": {
+          "check_date": "2026-11-07",
+          "email": "bonjour@moello.fr",
+          "instagram": "moello_boulangerie",
+          "name": "Moello",
+          "opening_hours": "Mo-Su,PH 07:00-20:00",
+          "phone": "+33 4 72 14 44 54",
+          "shop": "bakery",
+          "start_date": "2026-11-07",
+          "website": "https://moello.fr/",
+          "wheelchair": "no"
+        }
+      },
+      {
+        "type": "node",
         "id": 8024622588,
         "lat": 45.7693515,
         "lon": 4.8495016,
@@ -3557,6 +3575,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-07T10:52:49.246Z",
+  "fetchedAt": "2026-11-08T11:02:31.874Z",
   "staleDataWarning": false
 }
