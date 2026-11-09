@@ -251,7 +251,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794136395189
+      "timestamp": 1794228745382
     },
     "type": "FeatureCollection"
   },
@@ -259,7 +259,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-08T11:14:04Z",
+      "timestamp_osm_base": "2026-11-09T12:56:35Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -542,7 +542,11 @@
         "lat": 45.4363592,
         "lon": 4.3896058,
         "tags": {
+          "check_date": "2026-11-09",
+          "check_date:opening_hours": "2026-11-09",
           "name": "Au Gruau Lorrain",
+          "opening_hours": "Mo-Fr 07:00-19:30; Sa 07:00-19:00",
+          "phone": "+33 4 77 32 78 95",
           "ref:FR:SIRET": "81520490400016",
           "shop": "bakery"
         }
@@ -1232,6 +1236,7 @@
           "check_date:opening_hours": "2025-03-19",
           "name": "AFG Market",
           "opening_hours:signed": "no",
+          "ref:FR:SIRET": "97859276400028",
           "shop": "convenience"
         }
       },
@@ -1355,6 +1360,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-08T11:02:31.874Z",
+  "fetchedAt": "2026-11-09T12:31:23.518Z",
   "staleDataWarning": false
 }

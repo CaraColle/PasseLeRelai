@@ -291,7 +291,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794137173645
+      "timestamp": 1794229954458
     },
     "type": "FeatureCollection"
   },
@@ -299,7 +299,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-08T11:26:36Z",
+      "timestamp_osm_base": "2026-11-09T13:13:50Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -441,6 +441,23 @@
           "ref:FR:SIRET": "40805917800025",
           "shop": "kiosk",
           "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
+        "id": 1635369013,
+        "lat": 49.1743202,
+        "lon": -0.3326215,
+        "tags": {
+          "contact:facebook": "https://www.facebook.com/p/Boulangerie-p%C3%A2tisserie-Rustic-filles-61592665978688/",
+          "contact:housenumber": "75",
+          "contact:street": "Avenue de Rouen",
+          "name": "Rustic' & Filles",
+          "old_name": "Boulangerie Thouret",
+          "opening_hours": "Mo-Sa 06:30-19:00; Su 06:30-13:30; We off",
+          "phone": "+33 9 88 51 36 51",
+          "ref:FR:SIRET": "10816292600019",
+          "shop": "bakery"
         }
       },
       {
@@ -1495,6 +1512,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-08T11:02:31.874Z",
+  "fetchedAt": "2026-11-09T12:31:23.518Z",
   "staleDataWarning": false
 }

@@ -295,7 +295,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794135752735
+      "timestamp": 1794227484284
     },
     "type": "FeatureCollection"
   },
@@ -303,7 +303,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-08T11:02:06Z",
+      "timestamp_osm_base": "2026-11-09T12:32:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -540,12 +540,16 @@
         "lat": 48.8466612,
         "lon": 2.3868559,
         "tags": {
+          "check_date": "2026-11-08",
           "facebook": "https://www.facebook.com/auvieuxmoulin12/",
+          "indoor_seating": "yes",
           "name": "Au Vieux Moulin",
-          "opening_hours": "Sa-Th 06:30-21:00",
+          "opening_hours": "Mo-Th,Sa-Su 06:30-20:30",
+          "outdoor_seating": "yes",
           "phone": "+33 1 43 43 14 67",
           "ref:FR:SIRET": "49008366400022",
-          "shop": "bakery"
+          "shop": "bakery",
+          "wheelchair": "no"
         }
       },
       {
@@ -1408,6 +1412,23 @@
           "name": "Agalya",
           "ref:FR:SIRET": "53095929500011",
           "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 2145864876,
+        "lat": 48.8470414,
+        "lon": 2.3872131,
+        "tags": {
+          "amenity": "fast_food",
+          "check_date": "2026-11-08",
+          "cuisine": "sandwich",
+          "name": "Paris-Brest",
+          "opening_hours:signed": "no",
+          "produced_on_site": "no",
+          "ref:FR:SIRET": "92094825400015",
+          "shop": "bakery",
+          "wheelchair": "no"
         }
       },
       {
@@ -4836,6 +4857,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-08T11:02:31.874Z",
+  "fetchedAt": "2026-11-09T12:31:23.518Z",
   "staleDataWarning": false
 }

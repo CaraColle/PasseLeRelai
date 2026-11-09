@@ -227,7 +227,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794136615113
+      "timestamp": 1794229227852
     },
     "type": "FeatureCollection"
   },
@@ -235,7 +235,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-08T11:18:21Z",
+      "timestamp_osm_base": "2026-11-09T13:02:44Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -318,17 +318,19 @@
       {
         "type": "node",
         "id": 1127012313,
-        "lat": 48.0001396,
-        "lon": 0.198986,
+        "lat": 48.0001452,
+        "lon": 0.1989854,
         "tags": {
           "check_date": "2024-10-13",
           "internet_access": "no",
           "name": "Rythm' n BD",
           "opening_hours": "Mo,Su off; Tu-Fr 10:00-18:30; Sa 10:00-19:00",
+          "operator": "Joël CHATEAU",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "phone": "+33 2 43 57 77 64",
+          "ref:FR:SIRET": "81236857900015",
           "shop": "books"
         }
       },
@@ -1209,6 +1211,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-08T11:02:31.874Z",
+  "fetchedAt": "2026-11-09T12:31:23.518Z",
   "staleDataWarning": false
 }
