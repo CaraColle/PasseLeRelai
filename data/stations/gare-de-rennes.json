@@ -291,7 +291,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-08T11:12:09Z",
+      "timestamp_osm_base": "2026-11-10T12:23:30Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1933,9 +1933,14 @@
         "lat": 48.1038684,
         "lon": -1.6773064,
         "tags": {
+          "contact:city": "Rennes",
+          "contact:housenumber": "14",
+          "contact:postcode": "35000",
+          "contact:street": "Rue de l'Alma",
           "name": "Afghan Market",
           "opening_hours": "Th-Tu 10:00-23:00; We 10:00-13:30,15:20-23:00",
-          "ref:FR:SIRET": "88918273900025",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "93964695600010",
           "shop": "convenience"
         }
       },
@@ -2303,6 +2308,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-09T12:31:23.518Z",
+  "fetchedAt": "2026-11-10T12:06:39.715Z",
   "staleDataWarning": true
 }

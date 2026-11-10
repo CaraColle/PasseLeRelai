@@ -259,7 +259,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794227638463
+      "timestamp": 1794312461488
     },
     "type": "FeatureCollection"
   },
@@ -267,7 +267,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-09T12:35:05Z",
+      "timestamp_osm_base": "2026-11-10T12:10:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3277,20 +3277,6 @@
       },
       {
         "type": "node",
-        "id": 8840327600,
-        "lat": 48.8574989,
-        "lon": 2.357656,
-        "tags": {
-          "check_date": "2025-07-29",
-          "indoor_seating": "yes",
-          "name": "Saveurs de pain",
-          "outdoor_seating": "yes",
-          "shop": "bakery",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 8944210369,
         "lat": 48.8337023,
         "lon": 2.3634202,
@@ -4912,6 +4898,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-09T12:31:23.518Z",
+  "fetchedAt": "2026-11-10T12:06:39.715Z",
   "staleDataWarning": false
 }
