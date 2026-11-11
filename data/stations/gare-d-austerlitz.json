@@ -8,7 +8,7 @@
     "bbox": [
       2.354623,
       48.836853,
-      2.373168,
+      2.373399,
       48.848582
     ],
     "features": [
@@ -61,12 +61,12 @@
                 48.840223
               ],
               [
-                2.368535,
-                48.842134
+                2.368835,
+                48.842295
               ],
               [
-                2.367055,
-                48.845148
+                2.368665,
+                48.842612
               ],
               [
                 2.366877,
@@ -163,28 +163,24 @@
                 48.837573
               ],
               [
-                2.371994,
-                48.838632
+                2.372302,
+                48.838438
               ],
               [
-                2.372207,
-                48.838922
+                2.372489,
+                48.83872
               ],
               [
-                2.372245,
-                48.839099
+                2.37334,
+                48.841019
               ],
               [
-                2.373168,
-                48.84397
+                2.373399,
+                48.843842
               ],
               [
-                2.372274,
-                48.845702
-              ],
-              [
-                2.371307,
-                48.84754
+                2.37336,
+                48.844276
               ],
               [
                 2.371117,
@@ -253,13 +249,13 @@
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
         "build_date": "2026-10-14T07:31:58Z",
-        "graph_date": "2026-10-14T14:17:59Z",
-        "osm_date": "2026-10-11T00:00:00Z",
+        "graph_date": "2026-11-09T17:59:09Z",
+        "osm_date": "2026-11-08T00:00:00Z",
         "version": "10.1.0"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794312461488
+      "timestamp": 1794397440077
     },
     "type": "FeatureCollection"
   },
@@ -267,7 +263,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-10T12:10:21Z",
+      "timestamp_osm_base": "2026-11-11T11:45:35Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -4898,6 +4894,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-10T12:06:39.715Z",
+  "fetchedAt": "2026-11-11T11:40:43.426Z",
   "staleDataWarning": false
 }

@@ -17,20 +17,16 @@
           "coordinates": [
             [
               [
-                4.854356,
-                45.759647
-              ],
-              [
                 4.854351,
-                45.759617
+                45.759618
               ],
               [
-                4.854339,
-                45.759521
+                4.854381,
+                45.759259
               ],
               [
-                4.854385,
-                45.759164
+                4.854458,
+                45.75918
               ],
               [
                 4.855945,
@@ -45,12 +41,12 @@
                 45.757281
               ],
               [
-                4.858831,
+                4.858829,
                 45.757042
               ],
               [
-                4.858855,
-                45.757043
+                4.858848,
+                45.757042
               ],
               [
                 4.859973,
@@ -105,8 +101,8 @@
                 45.763725
               ],
               [
-                4.857267,
-                45.763365
+                4.857274,
+                45.763366
               ],
               [
                 4.855589,
@@ -117,8 +113,8 @@
                 45.760903
               ],
               [
-                4.854356,
-                45.759647
+                4.854351,
+                45.759618
               ]
             ]
           ],
@@ -167,8 +163,12 @@
                 45.758811
               ],
               [
-                4.85189,
-                45.757123
+                4.850012,
+                45.758243
+              ],
+              [
+                4.851874,
+                45.757117
               ],
               [
                 4.855779,
@@ -179,8 +179,8 @@
                 45.753945
               ],
               [
-                4.859345,
-                45.753379
+                4.859342,
+                45.753378
               ],
               [
                 4.859431,
@@ -247,7 +247,7 @@
                 45.767031
               ],
               [
-                4.858045,
+                4.858046,
                 45.767192
               ],
               [
@@ -317,13 +317,13 @@
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
         "build_date": "2026-10-14T07:31:58Z",
-        "graph_date": "2026-10-14T14:17:59Z",
-        "osm_date": "2026-10-11T00:00:00Z",
+        "graph_date": "2026-11-09T17:59:09Z",
+        "osm_date": "2026-11-08T00:00:00Z",
         "version": "10.1.0"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794312617293
+      "timestamp": 1794397588792
     },
     "type": "FeatureCollection"
   },
@@ -331,7 +331,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-10T12:12:21Z",
+      "timestamp_osm_base": "2026-11-11T11:48:42Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3575,6 +3575,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-10T12:06:39.715Z",
+  "fetchedAt": "2026-11-11T11:40:43.426Z",
   "staleDataWarning": false
 }

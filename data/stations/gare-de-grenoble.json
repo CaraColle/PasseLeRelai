@@ -7,8 +7,8 @@
   "isochrones": {
     "bbox": [
       5.709402,
-      45.187093,
-      5.719511,
+      45.1871,
+      5.719484,
       45.194291
     ],
     "features": [
@@ -95,8 +95,8 @@
           "coordinates": [
             [
               [
-                5.710121,
-                45.192063
+                5.710107,
+                45.192064
               ],
               [
                 5.709404,
@@ -104,31 +104,31 @@
               ],
               [
                 5.709402,
-                45.190945
+                45.190947
               ],
               [
-                5.710004,
-                45.189922
+                5.710005,
+                45.189925
               ],
               [
-                5.713791,
+                5.713795,
                 45.1875
               ],
               [
-                5.714791,
-                45.187121
+                5.714792,
+                45.187123
               ],
               [
-                5.71608,
-                45.187093
+                5.716073,
+                45.1871
               ],
               [
-                5.716407,
-                45.187244
+                5.716397,
+                45.187257
               ],
               [
                 5.717312,
-                45.187809
+                45.18781
               ],
               [
                 5.719482,
@@ -139,32 +139,28 @@
                 45.189417
               ],
               [
-                5.719511,
-                45.190827
+                5.71921,
+                45.191763
               ],
               [
-                5.719457,
-                45.191183
+                5.719141,
+                45.192116
               ],
               [
-                5.71914,
-                45.192117
-              ],
-              [
-                5.719133,
+                5.719134,
                 45.192138
               ],
               [
-                5.717754,
-                45.193078
+                5.717765,
+                45.193074
               ],
               [
-                5.717429,
-                45.193201
+                5.717425,
+                45.193203
               ],
               [
-                5.716863,
-                45.193383
+                5.716854,
+                45.193387
               ],
               [
                 5.713748,
@@ -179,8 +175,8 @@
                 45.192552
               ],
               [
-                5.710121,
-                45.192063
+                5.710107,
+                45.192064
               ]
             ]
           ],
@@ -217,13 +213,13 @@
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
         "build_date": "2026-10-14T07:31:58Z",
-        "graph_date": "2026-10-14T14:17:59Z",
-        "osm_date": "2026-10-11T00:00:00Z",
+        "graph_date": "2026-11-09T17:59:09Z",
+        "osm_date": "2026-11-08T00:00:00Z",
         "version": "10.1.0"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794228976715
+      "timestamp": 1794398548561
     },
     "type": "FeatureCollection"
   },
@@ -231,7 +227,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-10T12:26:36Z",
+      "timestamp_osm_base": "2026-11-11T12:06:02Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2772,6 +2768,7 @@
           "addr:street": "Boulevard Maréchal Foch",
           "amenity": "charging_station",
           "building": "retail",
+          "check_date:socket": "2026-11-10",
           "compressed_air": "yes",
           "diff:ref:FR:RNB": "splitted",
           "name": "Wash",
@@ -2779,6 +2776,7 @@
           "ref:FR:RNB": "XX93T97G9VE3",
           "roof:shape": "flat",
           "shop": "kiosk",
+          "socket:type2_combo": "11",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
           "vacuum_cleaner": "yes"
         }
@@ -2810,6 +2808,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-10T12:06:39.715Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "staleDataWarning": false
 }

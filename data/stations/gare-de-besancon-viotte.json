@@ -7,9 +7,9 @@
   "isochrones": {
     "bbox": [
       6.014936,
-      47.236991,
+      47.236967,
       6.034414,
-      47.248639
+      47.248637
     ],
     "features": [
       {
@@ -175,12 +175,12 @@
                 47.237148
               ],
               [
-                6.024817,
-                47.237026
+                6.024708,
+                47.23706
               ],
               [
-                6.02748,
-                47.236991
+                6.02736,
+                47.236967
               ],
               [
                 6.031917,
@@ -227,12 +227,12 @@
                 47.248423
               ],
               [
-                6.021467,
-                47.248639
+                6.021469,
+                47.248637
               ],
               [
-                6.020626,
-                47.248238
+                6.020628,
+                47.248233
               ],
               [
                 6.018676,
@@ -277,13 +277,13 @@
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
         "build_date": "2026-10-14T07:31:58Z",
-        "graph_date": "2026-10-14T14:17:59Z",
-        "osm_date": "2026-10-11T00:00:00Z",
+        "graph_date": "2026-11-09T17:59:09Z",
+        "osm_date": "2026-11-08T00:00:00Z",
         "version": "10.1.0"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794314038552
+      "timestamp": 1794399422901
     },
     "type": "FeatureCollection"
   },
@@ -291,7 +291,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-10T12:35:48Z",
+      "timestamp_osm_base": "2026-11-11T12:20:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1257,6 +1257,16 @@
       },
       {
         "type": "node",
+        "id": 7191389404,
+        "lat": 47.2433896,
+        "lon": 6.0304912,
+        "tags": {
+          "name": "Mini Marcket",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 7191793320,
         "lat": 47.2356457,
         "lon": 6.0237575,
@@ -1609,6 +1619,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-10T12:06:39.715Z",
+  "fetchedAt": "2026-11-11T11:40:43.426Z",
   "staleDataWarning": false
 }

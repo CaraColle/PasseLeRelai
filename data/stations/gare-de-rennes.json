@@ -6,7 +6,7 @@
   },
   "isochrones": {
     "bbox": [
-      -1.682155,
+      -1.682157,
       48.096174,
       -1.663139,
       48.110069
@@ -139,20 +139,20 @@
                 48.106422
               ],
               [
-                -1.680922,
-                48.104047
+                -1.680925,
+                48.104046
               ],
               [
-                -1.682145,
-                48.101544
+                -1.682147,
+                48.101549
               ],
               [
-                -1.682155,
-                48.101495
+                -1.682157,
+                48.1015
               ],
               [
-                -1.68202,
-                48.101319
+                -1.682021,
+                48.101325
               ],
               [
                 -1.6796,
@@ -180,7 +180,7 @@
               ],
               [
                 -1.670282,
-                48.096919
+                48.09692
               ],
               [
                 -1.665689,
@@ -195,19 +195,31 @@
                 48.104004
               ],
               [
-                -1.66379,
+                -1.663791,
                 48.105651
               ],
               [
-                -1.665757,
-                48.107222
+                -1.664918,
+                48.10655
+              ],
+              [
+                -1.66556,
+                48.107032
+              ],
+              [
+                -1.665704,
+                48.107121
+              ],
+              [
+                -1.666596,
+                48.107527
               ],
               [
                 -1.671245,
                 48.109541
               ],
               [
-                -1.673787,
+                -1.673788,
                 48.110069
               ],
               [
@@ -277,13 +289,13 @@
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
         "build_date": "2026-10-14T07:31:58Z",
-        "graph_date": "2026-10-14T14:17:59Z",
-        "osm_date": "2026-10-11T00:00:00Z",
+        "graph_date": "2026-11-09T17:59:09Z",
+        "osm_date": "2026-11-08T00:00:00Z",
         "version": "10.1.0"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794228514792
+      "timestamp": 1794398227511
     },
     "type": "FeatureCollection"
   },
@@ -291,7 +303,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-10T12:23:30Z",
+      "timestamp_osm_base": "2026-11-11T12:00:54Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -534,9 +546,9 @@
         "lat": 48.1170721,
         "lon": -1.6807473,
         "tags": {
-          "addr:housenumber": "60",
-          "addr:street": "Rue de Saint-Malo",
           "check_date:opening_hours": "2026-05-30",
+          "contact:housenumber": "60",
+          "contact:street": "Rue de Saint-Malo",
           "level": "0",
           "mapillary": "1228445414761487",
           "mapillary:0": "555887209806555",
@@ -547,7 +559,8 @@
           "panoramax:0": "0c0f07b9-5bae-4d67-b53d-4673dd70a25d",
           "panoramax:1": "70487581-c4cb-497d-80e6-92a37f506069",
           "phone": "+33954406936",
-          "ref:FR:SIRET": "80340079500016",
+          "ref:FR:NAF": "47.11B",
+          "ref:FR:SIRET": "98107828000014",
           "shop": "convenience"
         }
       },
@@ -2308,6 +2321,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-10T12:06:39.715Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "staleDataWarning": false
 }

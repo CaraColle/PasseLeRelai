@@ -123,8 +123,8 @@
                 49.48935
               ],
               [
-                0.119481,
-                49.487738
+                0.119482,
+                49.487739
               ],
               [
                 0.124934,
@@ -229,13 +229,13 @@
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
         "build_date": "2026-10-14T07:31:58Z",
-        "graph_date": "2026-10-14T14:17:59Z",
-        "osm_date": "2026-10-11T00:00:00Z",
+        "graph_date": "2026-11-09T17:59:09Z",
+        "osm_date": "2026-11-08T00:00:00Z",
         "version": "10.1.0"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794228708189
+      "timestamp": 1794398303551
     },
     "type": "FeatureCollection"
   },
@@ -243,7 +243,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-10T12:24:33Z",
+      "timestamp_osm_base": "2026-11-11T12:01:57Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -640,14 +640,14 @@
         "lat": 49.4925707,
         "lon": 0.1237632,
         "tags": {
-          "addr:city": "Le Havre",
-          "addr:housenumber": "7",
-          "addr:postcode": "76600",
-          "addr:street": "Cours de la République",
           "check_date": "2026-09-03",
+          "contact:city": "Le Havre",
+          "contact:housenumber": "7",
+          "contact:postcode": "76600",
+          "contact:street": "Cours de la République",
           "name": "Au fournil de la gare",
           "opening_hours": "Mo-Fr",
-          "ref:FR:SIRET": "48196020100012",
+          "ref:FR:SIRET": "99196869400018",
           "shop": "bakery"
         }
       },
@@ -1086,6 +1086,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-10T12:06:39.715Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "staleDataWarning": false
 }
