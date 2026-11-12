@@ -259,7 +259,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794397804291
+      "timestamp": 1794485847500
     },
     "type": "FeatureCollection"
   },
@@ -267,7 +267,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T11:53:50Z",
+      "timestamp_osm_base": "2026-11-12T12:18:38Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1372,7 +1372,9 @@
           "brand:wikidata": "Q89913683",
           "check_date": "2026-09-06",
           "check_date:opening_hours": "2026-08-29",
+          "contact:city": "Nantes",
           "contact:housenumber": "1",
+          "contact:postcode": "44200",
           "contact:street": "Boulevard de la Prairie au Duc",
           "contact:website": "https://www.monoprix.fr/2818.html",
           "name": "Monop'",
@@ -1731,7 +1733,8 @@
         "lat": 47.2150256,
         "lon": -1.5513983,
         "tags": {
-          "check_date:opening_hours": "2026-05-01",
+          "check_date": "2026-11-11",
+          "check_date:opening_hours": "2026-11-11",
           "collection_times": "Tu-Sa 10:00-18:00 \"Sur rendez-vous\"",
           "contact:facebook": "labouquinerienantaise/",
           "contact:housenumber": "7",
@@ -2473,6 +2476,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
   "staleDataWarning": false
 }

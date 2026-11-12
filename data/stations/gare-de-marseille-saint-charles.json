@@ -231,7 +231,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794397471322
+      "timestamp": 1794485648252
     },
     "type": "FeatureCollection"
   },
@@ -239,7 +239,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T11:47:38Z",
+      "timestamp_osm_base": "2026-11-12T12:15:37Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1483,9 +1483,22 @@
           "addr:housenumber": "7",
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33491196200",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
+          "contact:website": "https://www.monoprix.fr/1810.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
+          "cuisine": "sandwich",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:00-23:55; Su 08:00-20:00",
-          "phone": "+33491196200",
+          "opening_hours": "Mo-Sa 08:30-23:45; Su 08:30-19:45",
+          "payment:american_express": "yes",
+          "payment:credit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
           "ref:FR:SIRET": "44465668000758",
           "shop": "convenience"
         }
@@ -1998,12 +2011,15 @@
         "lat": 43.2901965,
         "lon": 5.3664609,
         "tags": {
+          "addr:city": "Marseille 7e Arrondissement",
+          "addr:housenumber": "35",
+          "addr:postcode": "13007",
           "addr:street": "Rue d'Endoume",
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
-          "contact:housenumber": "35",
           "name": "Monop'",
           "old_name": "Epicerie Fiorentina",
+          "opening_hours": "Mo-Sa 08:00-21:00; Su 08:30-21:00",
           "shop": "convenience",
           "source": "INSEE - 2026-06"
         }
@@ -2847,14 +2863,30 @@
         "lat": 43.29835,
         "lon": 5.3837703,
         "tags": {
+          "addr:city": "Marseille 1er Arrondissement",
+          "addr:housenumber": "134",
           "addr:postcode": "13001",
+          "addr:street": "La Canebière",
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33 4 91 20 20 00",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
+          "contact:website": "https://www.monoprix.fr/1821.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
+          "cuisine": "sandwich",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:30-22:45; Su 08:30-19:45",
+          "opening_hours": "Mo-Th 08:30-21:45; Fr-Sa 08:30-22:45; Su 08:30-19:45",
+          "payment:american_express": "yes",
+          "payment:credit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
           "ref:FR:SIRET": "44465668000709",
-          "shop": "convenience",
-          "website": "https://www.monoprix.fr/1821.html"
+          "shop": "convenience"
         }
       },
       {
@@ -3670,6 +3702,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
   "staleDataWarning": false
 }

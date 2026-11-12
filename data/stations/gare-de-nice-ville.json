@@ -251,7 +251,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794397751382
+      "timestamp": 1794485802447
     },
     "type": "FeatureCollection"
   },
@@ -259,7 +259,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T11:52:51Z",
+      "timestamp_osm_base": "2026-11-12T12:18:38Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -308,11 +308,29 @@
         "tags": {
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
+          "contact:city": "Nice",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
+          "contact:housenumber": "15",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33 4 92 00 78 20",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
+          "contact:postcode": "06000",
+          "contact:street": "Place Massena",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
+          "contact:website": "https://www.monoprix.fr/2196.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
+          "cuisine": "sandwich",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:00-23:00; Su 09:00-21:45",
+          "opening_hours": "Mo-Sa 08:00-23:55; Su 09:00-21:55",
+          "payment:american_express": "yes",
+          "payment:credit_cards": "yes",
+          "payment:jcb": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
           "ref:FR:SIRET": "44465668001095",
-          "shop": "convenience",
-          "website": "https://www.monoprix.fr/2196.html"
+          "shop": "convenience"
         }
       },
       {
@@ -619,6 +637,7 @@
           "addr:housenumber": "10",
           "addr:street": "Boulevard Tzarewitch",
           "name": "L'Impériale",
+          "opening_hours": "Mo-Sa 06:00-19:30",
           "ref:FR:NAF": "10.71D",
           "ref:FR:SIREN": "397482597",
           "ref:FR:SIRET": "39748259700028",
@@ -987,6 +1006,7 @@
           "addr:housenumber": "44 bis",
           "addr:street": "Boulevard Gambetta",
           "name": "My Bakery",
+          "opening_hours": "Mo-Su,PH 06:00-21:00",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "989285929",
           "ref:FR:SIRET": "98928592900018",
@@ -2234,8 +2254,10 @@
         "tags": {
           "addr:housenumber": "73",
           "addr:street": "Boulevard Gambetta",
-          "check_date": "2025-08-01",
+          "check_date": "2026-11-11",
+          "check_date:opening_hours": "2026-11-11",
           "name": "Les Boulanges",
+          "opening_hours": "Mo-Sa 07:00-19:30",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIRET": "91482423000033",
           "shop": "bakery",
@@ -2855,10 +2877,16 @@
         "tags": {
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
+          "contact:city": "Nice",
+          "contact:housenumber": "7",
+          "contact:postcode": "06300",
+          "contact:street": "Rue Alexandre Mari",
+          "contact:website": "https://www.monoprix.fr/3018.html",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-20:00",
-          "shop": "convenience",
-          "website": "https://www.monoprix.fr/3018.html"
+          "opening_hours": "Mo-Sa 07:00-22:00; Su 10:00-20:00",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
+          "shop": "convenience"
         }
       },
       {
@@ -3054,6 +3082,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
   "staleDataWarning": false
 }

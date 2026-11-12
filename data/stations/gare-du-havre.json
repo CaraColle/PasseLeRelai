@@ -235,7 +235,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794398303551
+      "timestamp": 1794486353114
     },
     "type": "FeatureCollection"
   },
@@ -243,7 +243,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T12:01:57Z",
+      "timestamp_osm_base": "2026-11-12T12:27:53Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -863,6 +863,7 @@
           "addr:street": "Cours de la République",
           "name": "Tony Market",
           "opening_hours": "Mo-Sa 09:00-20:00; Su 10:00-18:00",
+          "ref:FR:SIRET": "80870165000034",
           "shop": "convenience"
         }
       },
@@ -1086,6 +1087,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
   "staleDataWarning": false
 }

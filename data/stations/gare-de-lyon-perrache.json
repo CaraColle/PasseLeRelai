@@ -275,7 +275,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794397624577
+      "timestamp": 1794485733405
     },
     "type": "FeatureCollection"
   },
@@ -283,7 +283,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T11:50:47Z",
+      "timestamp_osm_base": "2026-11-12T12:16:37Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -929,12 +929,28 @@
         "tags": {
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
+          "contact:city": "Lyon 2e Arrondissement",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
+          "contact:housenumber": "19",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33 4 72 31 31 20",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
+          "contact:postcode": "69002",
+          "contact:street": "Place Bellecour",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
+          "contact:website": "https://www.monoprix.fr/1985.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
+          "cuisine": "sandwich",
           "diet:gluten_free": "yes",
           "name": "Monop'",
           "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-20:50",
+          "payment:american_express": "yes",
+          "payment:credit_cards": "yes",
+          "payment:visa": "yes",
           "ref:FR:SIRET": "44465668000865",
-          "shop": "convenience",
-          "website": "https://www.monoprix.fr/1985.html"
+          "shop": "convenience"
         }
       },
       {
@@ -2304,6 +2320,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
   "staleDataWarning": false
 }

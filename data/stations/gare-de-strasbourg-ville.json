@@ -267,7 +267,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794398031953
+      "timestamp": 1794485977262
     },
     "type": "FeatureCollection"
   },
@@ -1752,6 +1752,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
+  "staleDataWarning": true
 }

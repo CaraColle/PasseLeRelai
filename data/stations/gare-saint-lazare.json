@@ -323,7 +323,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794397408805
+      "timestamp": 1794485574698
     },
     "type": "FeatureCollection"
   },
@@ -331,7 +331,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T11:45:35Z",
+      "timestamp_osm_base": "2026-11-12T12:13:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -834,7 +834,7 @@
           "delivery": "yes",
           "internet_access": "no",
           "name": "Bulles en tête",
-          "opening_hours": "Mo-Sa 10:00-20:00",
+          "opening_hours": "Mo-Sa 10:00-20:00; 2026 Dec 24 09:00-18:00",
           "operator": "Nakache Jean-Pierre",
           "payment:american_express": "yes",
           "payment:cash": "yes",
@@ -1994,14 +1994,28 @@
           "brand:wikipedia": "fr:Monoprix (France)",
           "check_date": "2026-08-24",
           "contact:city": "Paris",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
           "contact:housenumber": "9",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33 1 42 86 61 54",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
           "contact:postcode": "75001",
           "contact:street": "Boulevard de la Madeleine",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
+          "contact:website": "https://www.monoprix.fr/1368.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
+          "cuisine": "sandwich",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 07:45-23:50; Su 07:45-20:00",
+          "opening_hours": "Mo-Sa 07:45-23:45; Su 09:00-22:45",
+          "payment:american_express": "yes",
+          "payment:credit_cards": "yes",
+          "payment:jcb": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
           "ref:FR:SIRET": "98956057800027",
           "shop": "convenience",
-          "website": "https://www.monoprix.fr/1368.html",
           "wheelchair": "yes"
         }
       },
@@ -2406,10 +2420,24 @@
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
           "brand:wikipedia": "fr:Monoprix (France)",
+          "contact:city": "Paris 8e Arrondissement",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
+          "contact:housenumber": "3",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33 1 43 87 24 50",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
+          "contact:postcode": "75008",
+          "contact:street": "Rue d'Edimbourg",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
+          "contact:website": "https://www.monoprix.fr/2016.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
+          "cuisine": "sandwich",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 07:30-23:00; Su 09:00-21:00",
+          "opening_hours": "Mo-Sa 07:30-23:00; Su 09:00-23:00",
+          "payment:credit_cards": "yes",
           "shop": "convenience",
-          "website": "https://www.monoprix.fr/2016.html",
           "wheelchair": "yes"
         }
       },
@@ -4660,6 +4688,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
   "staleDataWarning": false
 }

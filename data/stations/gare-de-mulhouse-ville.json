@@ -227,7 +227,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794399614997
+      "timestamp": 1794487445062
     },
     "type": "FeatureCollection"
   },
@@ -235,7 +235,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T12:21:05Z",
+      "timestamp_osm_base": "2026-11-12T12:47:08Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -723,6 +723,19 @@
         }
       },
       {
+        "type": "node",
+        "id": 14368262501,
+        "lat": 47.7499502,
+        "lon": 7.3282365,
+        "tags": {
+          "addr:housenumber": "14",
+          "addr:street": "Avenue Aristide Briand",
+          "check_date": "2026-11-11",
+          "name": "Florentin",
+          "shop": "bakery"
+        }
+      },
+      {
         "type": "way",
         "id": 1165663362,
         "center": {
@@ -762,6 +775,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
   "staleDataWarning": false
 }

@@ -291,7 +291,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794399685113
+      "timestamp": 1794487581859
     },
     "type": "FeatureCollection"
   },
@@ -299,7 +299,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T12:23:09Z",
+      "timestamp_osm_base": "2026-11-12T12:48:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -555,12 +555,21 @@
           "addr:street": "Avenue du 6 Juin",
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33 2 31 85 31 31",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
+          "contact:website": "https://www.monoprix.fr/2195.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
           "name": "Monop'",
           "old_name": "Speedy",
           "opening_hours": "Mo-Sa 07:30-21:00; Su 09:00-13:00",
+          "payment:credit_cards": "yes",
           "ref:FR:SIRET": "94866700100028",
           "shop": "convenience",
-          "website": "https://www.monoprix.fr/2883.html",
           "wheelchair": "yes"
         }
       },
@@ -1512,6 +1521,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
   "staleDataWarning": false
 }

@@ -255,7 +255,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794397440077
+      "timestamp": 1794485620996
     },
     "type": "FeatureCollection"
   },
@@ -263,7 +263,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T11:45:35Z",
+      "timestamp_osm_base": "2026-11-12T12:14:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2377,13 +2377,26 @@
           "brand:wikidata": "Q89913683",
           "brand:wikipedia": "fr:Monoprix (France)",
           "check_date": "2026-05-12",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33 1 48 07 70 80",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
+          "contact:website": "https://www.monoprix.fr/1508.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
+          "cuisine": "sandwich",
           "level": "0",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 07:00-23:50; Su 08:00-13:00",
+          "opening_hours": "Mo-Sa 07:00-24:00; Su 08:00-23:00",
           "organic": "yes",
+          "payment:american_express": "yes",
+          "payment:credit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
           "shop": "convenience",
           "toilets": "no",
-          "website": "https://www.monoprix.fr/1508.html",
           "wheelchair": "yes"
         }
       },
@@ -2469,11 +2482,21 @@
           "brand:wikidata": "Q89913683",
           "brand:wikipedia": "fr:Monoprix (France)",
           "check_date": "2026-11-01",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33 1 42 38 03 50",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
+          "contact:website": "https://www.monoprix.fr/2023.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
+          "cuisine": "sandwich",
           "level": "0",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 07:30-23:00; Su 09:00-22:00",
+          "opening_hours": "Mo-Sa 07:30-23:00; Su 09:00-23:00",
+          "payment:credit_cards": "yes",
           "shop": "convenience",
-          "website": "https://www.monoprix.fr/2023.html",
           "wheelchair": "yes"
         }
       },
@@ -4894,6 +4917,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
   "staleDataWarning": false
 }

@@ -227,7 +227,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794398842237
+      "timestamp": 1794486920050
     },
     "type": "FeatureCollection"
   },
@@ -235,7 +235,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T12:11:03Z",
+      "timestamp_osm_base": "2026-11-12T12:38:03Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -383,7 +383,7 @@
           "contact:phone": "+33243280623",
           "contact:website": "https://www.librairie-bulle.fr/",
           "name": "Librairie Bulle",
-          "opening_hours": "Mo 13:00-19:00; Tu-Sa 10:00-19:00",
+          "opening_hours": "Mo 13:00-19:00; Tu-Sa 10:00-19:00; 2026 Dec 24,2026 Dec 31 10:00-18:00; 2026 Dec 25 off; 2027 Jan 01 off",
           "payment:contactless": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -1212,6 +1212,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
   "staleDataWarning": false
 }

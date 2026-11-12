@@ -315,7 +315,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794397244342
+      "timestamp": 1794485481557
     },
     "type": "FeatureCollection"
   },
@@ -323,7 +323,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T11:44:34Z",
+      "timestamp_osm_base": "2026-11-12T12:13:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -775,13 +775,25 @@
           "brand:wikipedia": "fr:Monoprix (France)",
           "check_date": "2024-11-05",
           "contact:city": "Paris",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
           "contact:housenumber": "22",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33 1 53 72 83 90",
           "contact:postcode": "75010",
           "contact:street": "Rue Louis Blanc",
-          "contact:website": "https://www.monoprix.fr/2195.html",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://x.com/monoprix",
+          "contact:website": "https://www.monoprix.fr/2894.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
+          "cuisine": "sandwich",
           "name": "Monop'",
           "old_name": "Pôle Emploi",
-          "opening_hours": "Mo-Fr 07:00-23:50; Sa 07:30-23:50; Su 08:00-21:00",
+          "opening_hours": "Mo-Sa 07:30-23:50; Su 09:00-21:00",
+          "payment:american_express": "yes",
+          "payment:credit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
           "ref:FR:SIRET": "95314802000035",
           "shop": "convenience",
           "source": "survey 05/2018",
@@ -1294,10 +1306,11 @@
         "lon": 2.3613291,
         "tags": {
           "contact:city": "Paris",
-          "contact:housenumber": "6",
+          "contact:housenumber": "4",
           "contact:postcode": "75010",
           "contact:street": "Place Jacques Bonsergent",
           "name": "Primeur LW",
+          "ref:FR:SIRET": "91863478300016",
           "shop": "convenience"
         }
       },
@@ -2089,6 +2102,7 @@
           "indoor_seating": "no",
           "name": "Au bel arôme",
           "outdoor_seating": "no",
+          "ref:FR:SIRET": "53881702400010",
           "shop": "bakery",
           "source": "survey 2013",
           "takeaway": "only",
@@ -2905,6 +2919,7 @@
           "contact:postcode": "75010",
           "contact:street": "Rue du Faubourg du Temple",
           "name": "Alimentation République",
+          "ref:FR:SIRET": "94380942600027",
           "shop": "convenience"
         }
       },
@@ -2920,6 +2935,7 @@
           "contact:postcode": "75010",
           "contact:street": "Rue du Faubourg du Temple",
           "name": "H.A.",
+          "ref:FR:SIRET": "51892852800018",
           "shop": "bakery"
         }
       },
@@ -8507,14 +8523,23 @@
           "brand:wikidata": "Q89913683",
           "check_date": "2026-08-18",
           "contact:city": "Paris",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
           "contact:housenumber": "40",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
           "contact:phone": "+33 1 44 63 70 71",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
           "contact:postcode": "75010",
           "contact:street": "Rue Lucien Sampaix",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
           "contact:website": "https://www.monoprix.fr/2692.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
           "name": "Monop'",
           "official_name": "Monop Villemin",
-          "opening_hours": "Mo-Sa 08:00-20:00",
+          "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-13:00",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "ref:FR:SIRET": "44465668001228",
           "shop": "convenience"
         }
@@ -9759,6 +9784,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
   "staleDataWarning": false
 }

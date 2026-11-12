@@ -223,7 +223,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794399237967
+      "timestamp": 1794487273060
     },
     "type": "FeatureCollection"
   },
@@ -231,7 +231,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T12:18:06Z",
+      "timestamp_osm_base": "2026-11-12T12:42:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -289,17 +289,25 @@
           "brand:website": "https://www.monoprix.fr/",
           "brand:wikidata": "Q89913683",
           "brand:wikipedia": "fr:Monoprix (France)",
-          "contact:city": "Amiens",
-          "contact:housenumber": "28",
-          "contact:postcode": "80000",
-          "contact:street": "Rue de Noyon",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33 3 22 92 81 92",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
+          "contact:website": "https://www.monoprix.fr/1436.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
+          "cuisine": "sandwich",
           "name": "Monop'",
           "opening_hours": "Mo-Sa 07:30-21:50; Su 08:00-19:50",
           "operator": "Noyondis",
-          "phone": "+33 3 22 92 81 92",
+          "payment:american_express": "yes",
+          "payment:credit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
           "ref:FR:SIRET": "44465668000899",
           "shop": "convenience",
-          "website": "https://www.monoprix.fr/1436.html",
           "wheelchair": "yes"
         }
       },
@@ -1262,6 +1270,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-11T11:40:43.426Z",
+  "fetchedAt": "2026-11-12T12:11:20.044Z",
   "staleDataWarning": false
 }
