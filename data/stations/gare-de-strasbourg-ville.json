@@ -275,7 +275,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-11T11:55:51Z",
+      "timestamp_osm_base": "2026-11-13T12:02:48Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -370,8 +370,10 @@
           "addr:postcode": "67000",
           "addr:street": "Place de la Gare",
           "check_date": "2025-03-17",
+          "indoor_seating": "yes",
           "name": "Les Mains Dans la Farine",
           "operator": "Hotel Vandome",
+          "outdoor_seating": "yes",
           "shop": "bakery",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
           "wheelchair": "no"
@@ -782,11 +784,24 @@
           "brand:wikidata": "Q89913683",
           "brand:wikipedia": "fr:Monoprix (France)",
           "check_date": "2024-07-21",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33 3 90 20 24 00",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
+          "contact:website": "https://www.monoprix.fr/1842.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
+          "cuisine": "sandwich",
           "name": "Monop'",
           "opening_hours": "Mo-Sa 07:00-21:50; Su 09:00-12:45",
+          "payment:american_express": "yes",
+          "payment:credit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
           "shop": "convenience",
           "source": "survey",
-          "website": "https://www.monoprix.fr/1842.html",
           "wheelchair": "yes"
         }
       },
@@ -1752,6 +1767,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-12T12:11:20.044Z",
+  "fetchedAt": "2026-11-13T11:52:05.930Z",
   "staleDataWarning": true
 }
