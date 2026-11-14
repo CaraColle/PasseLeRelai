@@ -223,7 +223,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794572293785
+      "timestamp": 1794656011754
     },
     "type": "FeatureCollection"
   },
@@ -231,7 +231,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-13T12:18:59Z",
+      "timestamp_osm_base": "2026-11-14T11:34:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -299,11 +299,14 @@
           "contact:website": "https://www.monoprix.fr/1436.html",
           "contact:youtube": "https://www.youtube.com/@monoprix",
           "cuisine": "sandwich",
+          "delivery": "yes",
           "name": "Monop'",
           "opening_hours": "Mo-Sa 07:30-21:50; Su 08:00-19:50",
           "operator": "Noyondis",
           "payment:american_express": "yes",
+          "payment:contactless": "yes",
           "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "ref:FR:SIRET": "44465668000899",
@@ -1270,6 +1273,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-13T11:52:05.930Z",
+  "fetchedAt": "2026-11-14T11:12:40.932Z",
   "staleDataWarning": false
 }

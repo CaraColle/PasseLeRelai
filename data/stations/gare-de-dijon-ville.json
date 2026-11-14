@@ -215,7 +215,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794486596056
+      "timestamp": 1794655710567
     },
     "type": "FeatureCollection"
   },
@@ -223,7 +223,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-13T12:10:52Z",
+      "timestamp_osm_base": "2026-11-14T11:29:16Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -940,20 +940,23 @@
           "addr:street": "Rue du Chapitre",
           "building": "detached",
           "building:levels": "2",
+          "indoor_seating": "no",
           "name": "Le Chapitre de Mélanie",
           "opening_hours": "Sa 06:00-19:30; Su 06:00-13:00; Tu-Fr 06:00-13:00,15:00-19:30",
+          "outdoor_seating": "yes",
           "payment:cards": "yes",
           "payment:cash": "yes",
           "phone": "+33 3 80 41 01 95",
           "ref:FR:SIRET": "82780618300014",
           "roof:levels": "0",
           "shop": "bakery",
+          "smoking": "separated",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
           "wheelchair": "no"
         }
       }
     ]
   },
-  "fetchedAt": "2026-11-13T11:52:05.930Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-14T11:12:40.932Z",
+  "staleDataWarning": false
 }

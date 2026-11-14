@@ -263,7 +263,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794486632100
+      "timestamp": 1794655748879
     },
     "type": "FeatureCollection"
   },
@@ -271,7 +271,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-13T12:11:53Z",
+      "timestamp_osm_base": "2026-11-14T11:30:18Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -779,7 +779,7 @@
         "lat": 47.4522309,
         "lon": -0.5555656,
         "tags": {
-          "check_date": "2023-11-25",
+          "check_date": "2026-11-14",
           "indoor_seating": "yes",
           "name": "Délices d'Ophélie",
           "outdoor_seating": "yes",
@@ -1346,6 +1346,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-13T11:52:05.930Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-14T11:12:40.932Z",
+  "staleDataWarning": false
 }

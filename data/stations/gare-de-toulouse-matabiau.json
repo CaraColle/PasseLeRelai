@@ -263,7 +263,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794485761325
+      "timestamp": 1794655136795
     },
     "type": "FeatureCollection"
   },
@@ -271,7 +271,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-13T11:57:27Z",
+      "timestamp_osm_base": "2026-11-14T11:20:04Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -3306,8 +3306,12 @@
         "lat": 43.5978946,
         "lon": 1.4433286,
         "tags": {
-          "name": "Epicerie Des Carmes",
-          "shop": "convenience"
+          "contact:housenumber": "17",
+          "contact:street": "Rue des Polinaires",
+          "name": "Epicerie des Carmes",
+          "ref:FR:SIRET": "44784835900017",
+          "shop": "convenience",
+          "website": "https://epiceriedes-carmes.eatbu.com/"
         }
       },
       {
@@ -3426,6 +3430,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-13T11:52:05.930Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-14T11:12:40.932Z",
+  "staleDataWarning": false
 }

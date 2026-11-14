@@ -231,7 +231,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794570824164
+      "timestamp": 1794654948917
     },
     "type": "FeatureCollection"
   },
@@ -239,7 +239,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-13T11:55:20Z",
+      "timestamp_osm_base": "2026-11-14T11:18:02Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1493,14 +1493,18 @@
           "contact:website": "https://www.monoprix.fr/1810.html",
           "contact:youtube": "https://www.youtube.com/@monoprix",
           "cuisine": "sandwich",
+          "delivery": "yes",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:30-23:45; Su 08:30-19:45",
+          "opening_hours": "Mo-Sa 08:30-22:45; Su 09:00-22:45",
           "payment:american_express": "yes",
+          "payment:contactless": "yes",
           "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "ref:FR:SIRET": "44465668000758",
-          "shop": "convenience"
+          "shop": "convenience",
+          "wheelchair": "yes"
         }
       },
       {
@@ -2017,6 +2021,8 @@
           "addr:street": "Rue d'Endoume",
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
+          "contact:phone": "+33 4 49 23 18 76",
+          "contact:website": "https://www.monoprix.fr/",
           "name": "Monop'",
           "old_name": "Epicerie Fiorentina",
           "opening_hours": "Mo-Sa 08:00-21:00; Su 08:30-21:00",
@@ -2879,14 +2885,18 @@
           "contact:website": "https://www.monoprix.fr/1821.html",
           "contact:youtube": "https://www.youtube.com/@monoprix",
           "cuisine": "sandwich",
+          "delivery": "yes",
           "name": "Monop'",
           "opening_hours": "Mo-Th 08:30-21:45; Fr-Sa 08:30-22:45; Su 08:30-19:45",
           "payment:american_express": "yes",
+          "payment:contactless": "yes",
           "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "ref:FR:SIRET": "44465668000709",
-          "shop": "convenience"
+          "shop": "convenience",
+          "wheelchair": "yes"
         }
       },
       {
@@ -3702,6 +3712,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-13T11:52:05.930Z",
+  "fetchedAt": "2026-11-14T11:12:40.932Z",
   "staleDataWarning": false
 }

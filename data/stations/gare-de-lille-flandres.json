@@ -255,7 +255,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794486057385
+      "timestamp": 1794655384766
     },
     "type": "FeatureCollection"
   },
@@ -263,7 +263,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-13T12:04:48Z",
+      "timestamp_osm_base": "2026-11-14T11:24:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -840,7 +840,8 @@
           "opening_hours": "Mo-Sa 08:00-20:30; Su 09:00-20:30",
           "phone": "+33 6 49 49 46 40",
           "shop": "convenience",
-          "website": "https://www.coccinelle.fr/magasin/lille"
+          "website": "https://www.coccinelle.fr/magasin/lille",
+          "wheelchair": "no"
         }
       },
       {
@@ -1761,6 +1762,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-13T11:52:05.930Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-14T11:12:40.932Z",
+  "staleDataWarning": false
 }

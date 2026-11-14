@@ -255,7 +255,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794570790346
+      "timestamp": 1794654897570
     },
     "type": "FeatureCollection"
   },
@@ -263,7 +263,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-13T11:55:20Z",
+      "timestamp_osm_base": "2026-11-14T11:17:02Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2369,7 +2369,7 @@
         "lat": 48.8540785,
         "lon": 2.3708946,
         "tags": {
-          "addr:city": "Paris",
+          "addr:city": "Paris 11eme Arrondissement",
           "addr:housenumber": "9",
           "addr:postcode": "75011",
           "addr:street": "Rue de la Roquette",
@@ -2387,12 +2387,15 @@
           "contact:website": "https://www.monoprix.fr/1508.html",
           "contact:youtube": "https://www.youtube.com/@monoprix",
           "cuisine": "sandwich",
+          "delivery": "yes",
           "level": "0",
           "name": "Monop'",
           "opening_hours": "Mo-Sa 07:00-24:00; Su 08:00-23:00",
           "organic": "yes",
           "payment:american_express": "yes",
+          "payment:contactless": "yes",
           "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "shop": "convenience",
@@ -2473,7 +2476,7 @@
         "lat": 48.8492522,
         "lon": 2.3551794,
         "tags": {
-          "addr:city": "Paris",
+          "addr:city": "Paris 5eme Arrondissement",
           "addr:floor": "0",
           "addr:housenumber": "5",
           "addr:postcode": "75005",
@@ -2492,10 +2495,13 @@
           "contact:website": "https://www.monoprix.fr/2023.html",
           "contact:youtube": "https://www.youtube.com/@monoprix",
           "cuisine": "sandwich",
+          "delivery": "yes",
           "level": "0",
           "name": "Monop'",
           "opening_hours": "Mo-Sa 07:30-23:00; Su 09:00-23:00",
+          "payment:contactless": "yes",
           "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -4917,6 +4923,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-13T11:52:05.930Z",
+  "fetchedAt": "2026-11-14T11:12:40.932Z",
   "staleDataWarning": false
 }

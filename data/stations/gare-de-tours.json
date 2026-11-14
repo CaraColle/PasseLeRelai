@@ -343,7 +343,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794572093062
+      "timestamp": 1794655947439
     },
     "type": "FeatureCollection"
   },
@@ -351,7 +351,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-13T12:18:02Z",
+      "timestamp_osm_base": "2026-11-14T11:33:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -662,20 +662,21 @@
         "lat": 47.3932086,
         "lon": 0.6931745,
         "tags": {
-          "check_date": "2026-06-20",
+          "check_date": "2026-11-11",
+          "check_date:opening_hours": "2026-11-11",
           "contact:city": "Tours",
           "contact:housenumber": "23",
           "contact:postcode": "37000",
           "contact:street": "Rue Bernard Palissy",
-          "fixme": "préciser dans opening_hours : les jours féries c'est les mêmes horaires que le dimanche (et fermé le lundi mais quid si jour férié le lundi ...)",
           "indoor_seating": "no",
           "name": "Vinci (La Pétrie)",
-          "opening_hours": "Tu-Sa 07:00-20:00; Su 07:00-19:30",
+          "opening_hours": "07:00-19:30",
           "outdoor_seating": "no",
           "panoramax": "845157d6-f228-4393-a94a-0a4e60fc6f13",
           "panoramax:0": "f2eb1740-f152-48fd-8522-c5800410a0e6",
           "ref:FR:SIRET": "91074109900014",
           "shop": "bakery",
+          "source:opening_hours": "vitrine (nouveaux horaires)",
           "takeaway": "only",
           "wheelchair": "limited",
           "wheelchair:description": "Bouton d'appel PMR, rampe manuelle dépliable à l'extérieur"
@@ -1897,6 +1898,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-13T11:52:05.930Z",
+  "fetchedAt": "2026-11-14T11:12:40.932Z",
   "staleDataWarning": false
 }

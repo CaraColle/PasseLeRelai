@@ -303,7 +303,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794570726983
+      "timestamp": 1794654761970
     },
     "type": "FeatureCollection"
   },
@@ -311,7 +311,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-13T11:52:20Z",
+      "timestamp_osm_base": "2026-11-14T11:13:59Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -646,7 +646,7 @@
           "brand:wikidata": "Q89913683",
           "brand:wikipedia": "fr:Monoprix (France)",
           "check_date": "2024-11-05",
-          "contact:city": "Paris",
+          "contact:city": "Paris 10eme Arrondissement",
           "contact:facebook": "https://www.facebook.com/Monoprix",
           "contact:housenumber": "22",
           "contact:instagram": "https://www.instagram.com/monoprix",
@@ -659,11 +659,14 @@
           "contact:website": "https://www.monoprix.fr/2894.html",
           "contact:youtube": "https://www.youtube.com/@monoprix",
           "cuisine": "sandwich",
+          "delivery": "yes",
           "name": "Monop'",
           "old_name": "Pôle Emploi",
           "opening_hours": "Mo-Sa 07:30-23:50; Su 09:00-21:00",
           "payment:american_express": "yes",
+          "payment:contactless": "yes",
           "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "ref:FR:SIRET": "95314802000035",
@@ -7195,7 +7198,7 @@
           "brand": "Monop'",
           "brand:wikidata": "Q89913683",
           "check_date": "2026-08-18",
-          "contact:city": "Paris",
+          "contact:city": "Paris 10eme Arrondissement",
           "contact:facebook": "https://www.facebook.com/Monoprix",
           "contact:housenumber": "40",
           "contact:instagram": "https://www.instagram.com/monoprix",
@@ -7208,13 +7211,16 @@
           "contact:twitter": "https://twitter.com/monoprix",
           "contact:website": "https://www.monoprix.fr/2692.html",
           "contact:youtube": "https://www.youtube.com/@monoprix",
+          "delivery": "yes",
           "name": "Monop'",
           "official_name": "Monop Villemin",
           "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-13:00",
+          "payment:contactless": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "ref:FR:SIRET": "44465668001228",
-          "shop": "convenience"
+          "shop": "convenience",
+          "wheelchair": "yes"
         }
       },
       {
@@ -8061,6 +8067,24 @@
         }
       },
       {
+        "type": "node",
+        "id": 14373693351,
+        "lat": 48.8952342,
+        "lon": 2.3623547,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "2",
+          "addr:postcode": "75018",
+          "addr:street": "Place Pierre Mac Orlan",
+          "brand": "CocciMarket",
+          "brand:wikidata": "Q90020480",
+          "name": "CocciMarket",
+          "opening_hours": "Mo-Su 08:00-22:30",
+          "shop": "convenience",
+          "website": "https://www.coccinelle.fr/magasin/paris-18eme-4"
+        }
+      },
+      {
         "type": "way",
         "id": 48920136,
         "center": {
@@ -8401,6 +8425,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-13T11:52:05.930Z",
+  "fetchedAt": "2026-11-14T11:12:40.932Z",
   "staleDataWarning": false
 }

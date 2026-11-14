@@ -259,7 +259,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794485847500
+      "timestamp": 1794655221634
     },
     "type": "FeatureCollection"
   },
@@ -267,7 +267,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-13T11:59:35Z",
+      "timestamp_osm_base": "2026-11-14T11:21:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1374,6 +1374,7 @@
           "check_date:opening_hours": "2026-08-29",
           "contact:city": "Nantes",
           "contact:housenumber": "1",
+          "contact:phone": "+33 7 49 40 20 46",
           "contact:postcode": "44200",
           "contact:street": "Boulevard de la Prairie au Duc",
           "contact:website": "https://www.monoprix.fr/2818.html",
@@ -2476,6 +2477,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-13T11:52:05.930Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-14T11:12:40.932Z",
+  "staleDataWarning": false
 }

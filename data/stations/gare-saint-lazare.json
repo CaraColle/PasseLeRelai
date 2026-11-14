@@ -323,7 +323,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794570756471
+      "timestamp": 1794654856335
     },
     "type": "FeatureCollection"
   },
@@ -331,7 +331,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-13T11:54:19Z",
+      "timestamp_osm_base": "2026-11-14T11:17:02Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -792,7 +792,7 @@
         "tags": {
           "addr:housenumber": "46",
           "addr:street": "Rue des Petits Champs",
-          "check_date": "2026-10-15",
+          "check_date": "2026-11-13",
           "check_date:opening_hours": "2026-03-12",
           "contact:city": "Paris",
           "contact:housenumber": "46",
@@ -804,7 +804,7 @@
           "email": "opera@kioko.fr",
           "name": "Kioko",
           "note": "Supermarché japonais",
-          "opening_hours": "Sa 11:00-20:00; Su, Tu-Fr 11:00-19:00",
+          "opening_hours": "Mo off; Tu-Sa 10:00-20:00; Su 11:00-19:00",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
@@ -2007,10 +2007,13 @@
           "contact:website": "https://www.monoprix.fr/1368.html",
           "contact:youtube": "https://www.youtube.com/@monoprix",
           "cuisine": "sandwich",
+          "delivery": "yes",
           "name": "Monop'",
           "opening_hours": "Mo-Sa 07:45-23:45; Su 09:00-22:45",
           "payment:american_express": "yes",
+          "payment:contactless": "yes",
           "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "payment:jcb": "yes",
           "payment:mastercard": "yes",
           "payment:visa": "yes",
@@ -2434,9 +2437,12 @@
           "contact:website": "https://www.monoprix.fr/2016.html",
           "contact:youtube": "https://www.youtube.com/@monoprix",
           "cuisine": "sandwich",
+          "delivery": "yes",
           "name": "Monop'",
           "opening_hours": "Mo-Sa 07:30-23:00; Su 09:00-23:00",
+          "payment:contactless": "yes",
           "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -4688,6 +4694,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-13T11:52:05.930Z",
+  "fetchedAt": "2026-11-14T11:12:40.932Z",
   "staleDataWarning": false
 }
