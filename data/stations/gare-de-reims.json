@@ -223,7 +223,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794655487159
+      "timestamp": 1794744148626
     },
     "type": "FeatureCollection"
   },
@@ -231,7 +231,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-14T11:26:06Z",
+      "timestamp_osm_base": "2026-11-15T12:04:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -549,9 +549,6 @@
         "lat": 49.2518139,
         "lon": 4.0325336,
         "tags": {
-          "addr:housenumber": "46",
-          "addr:postcode": "51100",
-          "addr:street": "Rue Chanzy",
           "contact:city": "Reims",
           "contact:housenumber": "46",
           "contact:phone": "+33 3 26 88 39 69",
@@ -560,6 +557,8 @@
           "email": "la-belle-image@wanadoo.fr",
           "name": "La Belle Image",
           "opening_hours": "Tu-Sa 10:00-13:00,14:30-19:00",
+          "ref:FR:SIRET": "44855124200010",
+          "ref:vatin": "FR92448551242",
           "shop": "books",
           "website": "https://la-belle-image.fr/"
         }
@@ -1040,6 +1039,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-14T11:12:40.932Z",
+  "fetchedAt": "2026-11-15T11:45:13.767Z",
   "staleDataWarning": false
 }

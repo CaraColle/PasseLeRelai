@@ -275,7 +275,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794655085744
+      "timestamp": 1794743290008
     },
     "type": "FeatureCollection"
   },
@@ -283,7 +283,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-14T11:20:04Z",
+      "timestamp_osm_base": "2026-11-15T11:52:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -981,6 +981,7 @@
         "lat": 45.7626783,
         "lon": 4.8277901,
         "tags": {
+          "check_date": "2026-11-14",
           "description": "Livres anciens et d'occasion",
           "name": "Librairie Diogène",
           "opening_hours": "Mo-Sa 10:00-19:00; Su 11:00-19:00",
@@ -2324,6 +2325,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-14T11:12:40.932Z",
+  "fetchedAt": "2026-11-15T11:45:13.767Z",
   "staleDataWarning": false
 }

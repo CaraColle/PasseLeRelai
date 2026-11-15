@@ -259,7 +259,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794655221634
+      "timestamp": 1794743449348
     },
     "type": "FeatureCollection"
   },
@@ -267,7 +267,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-14T11:21:06Z",
+      "timestamp_osm_base": "2026-11-15T11:55:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -509,28 +509,6 @@
           "shop": "bakery",
           "was:name": "Fournil Bossard",
           "wheelchair": "no"
-        }
-      },
-      {
-        "type": "node",
-        "id": 2258874077,
-        "lat": 47.2161595,
-        "lon": -1.5551042,
-        "tags": {
-          "amenity": "cafe",
-          "check_date": "2026-07-12",
-          "contact:housenumber": "14",
-          "contact:instagram": "kook_nantes",
-          "contact:street": "Rue des Carmes",
-          "contact:website": "https://kookbakery.com",
-          "cuisine": "coffee_shop",
-          "name": "Køok",
-          "note": "Ouverture annoncée en novembre 2026 sur le site web",
-          "opening_hours": "off \"En travaux\"",
-          "shop": "bakery",
-          "was:name": "Jean-Claude Biguine",
-          "was:shop": "hairdresser",
-          "wheelchair": "yes"
         }
       },
       {
@@ -2477,6 +2455,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-14T11:12:40.932Z",
+  "fetchedAt": "2026-11-15T11:45:13.767Z",
   "staleDataWarning": false
 }

@@ -231,7 +231,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794654948917
+      "timestamp": 1794743224538
     },
     "type": "FeatureCollection"
   },
@@ -239,7 +239,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-14T11:18:02Z",
+      "timestamp_osm_base": "2026-11-15T11:47:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -368,7 +368,11 @@
         "lat": 43.2969685,
         "lon": 5.3715154,
         "tags": {
+          "addr:housenumber": "7",
+          "addr:street": "Rue Bonneterie",
           "name": "La Panetteria",
+          "opening_hours": "Mo-Su 06:00-21:00",
+          "phone": "04 91 93 27 82",
           "shop": "bakery"
         }
       },
@@ -3712,6 +3716,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-14T11:12:40.932Z",
+  "fetchedAt": "2026-11-15T11:45:13.767Z",
   "staleDataWarning": false
 }

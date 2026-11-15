@@ -227,7 +227,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794655810326
+      "timestamp": 1794744763178
     },
     "type": "FeatureCollection"
   },
@@ -235,7 +235,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-14T11:31:20Z",
+      "timestamp_osm_base": "2026-11-15T12:13:38Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -255,12 +255,17 @@
       {
         "type": "node",
         "id": 1116600162,
-        "lat": 48.0008044,
-        "lon": 0.1982666,
+        "lat": 48.0007585,
+        "lon": 0.1983352,
         "tags": {
+          "addr:city": "Le Mans",
+          "addr:housenumber": "7 bis",
+          "addr:postcode": "72000",
+          "addr:street": "Rue Nationale",
           "check_date:opening_hours": "2026-10-16",
           "contact:phone": "+33 2 43 24 78 06",
           "name": "L'Art du Pain",
+          "official_name": "Société Gauthier",
           "opening_hours": "Mo-Sa 07:00-19:30",
           "pastry": "yes",
           "payment:credit_cards": "yes",
@@ -1212,6 +1217,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-14T11:12:40.932Z",
+  "fetchedAt": "2026-11-15T11:45:13.767Z",
   "staleDataWarning": false
 }

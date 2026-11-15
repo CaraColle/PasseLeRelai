@@ -295,7 +295,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794655450132
+      "timestamp": 1794743982949
     },
     "type": "FeatureCollection"
   },
@@ -303,7 +303,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-14T11:25:06Z",
+      "timestamp_osm_base": "2026-11-15T12:03:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1173,10 +1173,7 @@
           "addr:street": "Avenue Sergent Maginot",
           "name": "Au champ des possibles",
           "opening_hours": "Mo,Fr 14:00-19:30",
-          "shop": "books",
-          "source:addr": "Rennes Métropole",
-          "source:addr:housenumber:ref": "74128",
-          "source:addr:version": "2016-04-01"
+          "shop": "books"
         }
       },
       {
@@ -2321,6 +2318,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-14T11:12:40.932Z",
+  "fetchedAt": "2026-11-15T11:45:13.767Z",
   "staleDataWarning": false
 }

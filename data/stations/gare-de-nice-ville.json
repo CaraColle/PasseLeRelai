@@ -251,7 +251,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794655183909
+      "timestamp": 1794743353436
     },
     "type": "FeatureCollection"
   },
@@ -259,7 +259,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-14T11:20:04Z",
+      "timestamp_osm_base": "2026-11-15T11:55:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -972,15 +972,12 @@
         "lat": 43.6956928,
         "lon": 7.2584121,
         "tags": {
-          "addr:housenumber": "7",
-          "addr:street": "Rue de Rivoli",
           "name": "Moulin de Flor",
           "opening_hours": "Mo-Su 07:00-19:30",
           "ref:FR:NAF": "10.71B",
           "ref:FR:SIREN": "805010949",
           "ref:FR:SIRET": "80501094900016",
-          "shop": "bakery",
-          "source": "INSEE - 2026-07"
+          "shop": "bakery"
         }
       },
       {
@@ -2973,6 +2970,16 @@
         }
       },
       {
+        "type": "node",
+        "id": 14379789046,
+        "lat": 43.6956079,
+        "lon": 7.2568385,
+        "tags": {
+          "name": "Les Palmiers",
+          "shop": "kiosk"
+        }
+      },
+      {
         "type": "way",
         "id": 140067357,
         "center": {
@@ -3088,6 +3095,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-14T11:12:40.932Z",
+  "fetchedAt": "2026-11-15T11:45:13.767Z",
   "staleDataWarning": false
 }
