@@ -303,7 +303,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794743114741
+      "timestamp": 1794831961422
     },
     "type": "FeatureCollection"
   },
@@ -311,7 +311,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-15T11:45:16Z",
+      "timestamp_osm_base": "2026-11-16T12:27:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -4147,22 +4147,23 @@
         "lon": 2.3690408,
         "tags": {
           "branch": "Kelbongoo",
-          "check_date": "2026-06-27",
-          "check_date:opening_hours": "2026-04-03",
+          "check_date": "2026-11-15",
+          "check_date:opening_hours": "2026-11-15",
           "contact:city": "Paris",
           "contact:housenumber": "3 bis",
           "contact:postcode": "75010",
           "contact:street": "Rue Bichat",
           "internet_access": "no",
           "level": "0",
-          "name": "Pribon",
-          "opening_hours": "We,Fr 16:00-20:00",
+          "name": "PRIBON Bichat",
+          "opening_hours": "Tu-Sa 10:00-20:00",
           "organic": "only",
+          "phone": "01 89 71 99 75",
           "second_hand": "no",
           "shop": "convenience",
           "stroller": "yes",
           "toilets": "no",
-          "website": "https://www.kelbongoo.com/",
+          "website": "http://pribon.org",
           "wheelchair": "yes"
         }
       },
@@ -6158,6 +6159,7 @@
           "brand": "Biocoop",
           "brand:wikidata": "Q2904039",
           "brand:wikipedia": "fr:Biocoop",
+          "check_date": "2026-11-15",
           "contact:city": "Paris",
           "contact:housenumber": "4",
           "contact:phone": "+33 1 40 38 61 08",
@@ -8425,6 +8427,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-15T11:45:13.767Z",
+  "fetchedAt": "2026-11-16T12:26:00.356Z",
   "staleDataWarning": false
 }

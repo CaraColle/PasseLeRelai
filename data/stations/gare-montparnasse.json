@@ -295,7 +295,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794743114767
+      "timestamp": 1794831961440
     },
     "type": "FeatureCollection"
   },
@@ -303,7 +303,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-15T11:45:16Z",
+      "timestamp_osm_base": "2026-11-16T12:27:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1036,14 +1036,16 @@
           "brand": "Biocoop",
           "brand:wikidata": "Q2904039",
           "bulk_purchase": "yes",
-          "check_date:opening_hours": "2022-11-13",
+          "check_date": "2026-11-15",
+          "check_date:opening_hours": "2026-11-15",
+          "email": "equipe.alesia@ruchebiocoop.com",
           "name": "Biocoop",
-          "opening_hours": "Mo 14:30-20:00; Tu-Sa 10:00-20:00; Su 10:00-13:00",
+          "opening_hours": "Mo 14:00-20:00; Tu-Sa 10:00-20:00; Su 10:00-13:00",
           "operator": "Biocoop",
           "organic": "only",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
-          "phone": "+33 9 50 90 45 33",
+          "phone": "+33 1 77 06 54 88",
           "shop": "convenience",
           "website": "https://ruchebiocoop.com/",
           "wheelchair": "yes"
@@ -4632,6 +4634,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-15T11:45:13.767Z",
+  "fetchedAt": "2026-11-16T12:26:00.356Z",
   "staleDataWarning": false
 }

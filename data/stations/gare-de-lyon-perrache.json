@@ -275,7 +275,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794743290008
+      "timestamp": 1794832204812
     },
     "type": "FeatureCollection"
   },
@@ -283,7 +283,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-15T11:52:21Z",
+      "timestamp_osm_base": "2026-11-16T12:31:07Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -486,13 +486,17 @@
         "lat": 45.7483398,
         "lon": 4.8392996,
         "tags": {
+          "addr:street": "Rue Sébastien Gryphe",
           "alt_name": "3 petits pois",
           "bulk_purchase": "only",
+          "check_date": "2026-11-16",
           "contact:facebook": "3petitspois",
           "contact:housenumber": "124",
+          "contact:instagram": "3ptits_pois",
           "description": "independant organic grocery",
+          "email": "contact@3ptitspois.fr",
           "harassment_prevention": "ask_angela",
-          "name": "3 ptits pois",
+          "name": "3 P’tits Pois",
           "opening_hours": "Mo-We,Fr 10:00-19:30; Th 10:00-13:00,15:00-19:30; Sa 10:00-19:00",
           "organic": "only",
           "phone": "+33 9 54 18 54 64",
@@ -2325,6 +2329,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-15T11:45:13.767Z",
+  "fetchedAt": "2026-11-16T12:26:00.356Z",
   "staleDataWarning": false
 }

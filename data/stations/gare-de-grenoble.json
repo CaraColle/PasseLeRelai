@@ -219,7 +219,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794744336951
+      "timestamp": 1794833167624
     },
     "type": "FeatureCollection"
   },
@@ -227,7 +227,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-15T12:11:37Z",
+      "timestamp_osm_base": "2026-11-16T12:51:45Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2437,9 +2437,14 @@
         "tags": {
           "check_date": "2026-07-08",
           "check_date:opening_hours": "2025-05-08",
+          "contact:facebook": "https://www.facebook.com/librairaicafelacaverne/",
+          "contact:housenumber": "11",
+          "contact:street": "Rue Montorge",
           "name": "La Caverne",
           "opening_hours": "Tu-Sa 09:30-19:00",
+          "phone": "+33 4 76 26 41 82",
           "ref:FR:SIRET": "91010099900010",
+          "ref:vatin": "FR68910100999",
           "shop": "books",
           "wheelchair": "limited"
         }
@@ -2753,6 +2758,7 @@
           "addr:street": "Rue Jean-Jacques Rousseau",
           "name": "L'entre-image",
           "opening_hours": "Tu-Sa 11:00-19:00",
+          "ref:FR:SIRET": "91787515500025",
           "shop": "books"
         }
       },
@@ -2808,6 +2814,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-15T11:45:13.767Z",
+  "fetchedAt": "2026-11-16T12:26:00.356Z",
   "staleDataWarning": false
 }
