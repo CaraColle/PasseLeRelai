@@ -263,7 +263,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-16T12:29:06Z",
+      "timestamp_osm_base": "2026-11-17T12:49:20Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -520,16 +520,14 @@
         "lon": 2.3645635,
         "tags": {
           "amenity": "fuel",
-          "brand": "BP",
-          "brand:wikidata": "Q152057",
-          "brand:wikipedia": "fr:BP (entreprise)",
+          "brand": "Esso",
+          "brand:wikidata": "Q867662",
           "compressed_air": "yes",
           "fuel:diesel": "yes",
           "fuel:e10": "yes",
           "fuel:octane_98": "yes",
-          "name": "BP",
+          "name": "Esso",
           "opening_hours": "24/7",
-          "operator": "BP",
           "ref:FR:prix-carburants": "75013028",
           "shop": "convenience",
           "source": "Ministère de l'Economie, de l'Industrie et du Numérique - 03/2020",
@@ -4924,6 +4922,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-16T12:26:00.356Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-11-17T12:46:21.350Z",
+  "staleDataWarning": true
 }
