@@ -119,8 +119,8 @@
           "coordinates": [
             [
               [
-                1.085889,
-                49.453014
+                1.08578,
+                49.452955
               ],
               [
                 1.0848,
@@ -139,7 +139,7 @@
                 49.445496
               ],
               [
-                1.090576,
+                1.090577,
                 49.442287
               ],
               [
@@ -191,16 +191,16 @@
                 49.455312
               ],
               [
-                1.087407,
-                49.453919
+                1.087395,
+                49.453968
               ],
               [
-                1.0861,
-                49.453247
+                1.085977,
+                49.453257
               ],
               [
-                1.085889,
-                49.453014
+                1.08578,
+                49.452955
               ]
             ]
           ],
@@ -236,14 +236,14 @@
       },
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
-        "build_date": "2026-10-14T07:31:58Z",
-        "graph_date": "2026-11-09T17:59:09Z",
-        "osm_date": "2026-11-08T00:00:00Z",
-        "version": "10.1.0"
+        "build_date": "2026-11-18T10:33:03Z",
+        "graph_date": "2026-11-16T00:26:59Z",
+        "osm_date": "2026-11-15T00:00:00Z",
+        "version": "10.1.1"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794834377102
+      "timestamp": 1795007365792
     },
     "type": "FeatureCollection"
   },
@@ -251,7 +251,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-17T13:17:43Z",
+      "timestamp_osm_base": "2026-11-18T13:12:30Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2045,6 +2045,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-17T12:46:21.350Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-18T12:39:38.546Z",
+  "staleDataWarning": false
 }

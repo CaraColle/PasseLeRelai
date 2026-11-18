@@ -271,7 +271,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-17T12:53:21Z",
+      "timestamp_osm_base": "2026-11-18T12:46:13Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -892,15 +892,16 @@
         "lat": 43.606131,
         "lon": 1.4446021,
         "tags": {
+          "contact:facebook": "https://www.facebook.com/COMPTOIRDUREVE/",
           "contact:housenumber": "34",
+          "contact:instagram": "https://www.instagram.com/comptoirdureve/",
           "contact:street": "Rue Charles de Rémusat",
-          "name": "Comptoir du rêve",
-          "opening_hours": "Mo 09:30-12:00,13:30-17:30; Tu 13:30-17:30; We-Fr 09:30-12:00,13:30-17:30",
-          "ref:FR:SIRET": "77568534003300",
+          "contact:tiktok": "https://vm.tiktok.com/ZGJsW7DWR/",
+          "description": "Romantasy",
+          "name": "Comptoir du Rêve",
+          "ref:FR:SIRET": "48402431000084",
           "shop": "books",
-          "source": "survey",
-          "website": "https://www.lamutuellegenerale.fr/agences/la-mutuelle-generale-toulouse-31000.html",
-          "wheelchair": "yes"
+          "website": "https://www.librairiecomptoirdureve.fr/"
         }
       },
       {
@@ -915,8 +916,9 @@
           "contact:instagram": "https://www.instagram.com/comptoirdureve/",
           "contact:street": "Rue Charles de Rémusat",
           "contact:tiktok": "https://www.tiktok.com/@comptoirdurevetoulouse",
+          "description": "Comics",
           "email": "comptoirdurevetoulouse@gmail.com",
-          "name": "Comptoir du rêve Litterature",
+          "name": "Comptoir du Rêve",
           "opening_hours": "Mo-Sa 10:00-19:00",
           "payment:cash": "yes",
           "payment:cb": "yes",
@@ -1326,7 +1328,6 @@
           "opening_hours": "Mo-Fr 06:00-21:00",
           "organic": "no",
           "outdoor_seating": "yes",
-          "ref:FR:SIRET": "79926530100017",
           "shop": "bakery"
         }
       },
@@ -2337,15 +2338,15 @@
         "lat": 43.6066259,
         "lon": 1.4449166,
         "tags": {
-          "books": "comic",
+          "books": "manga",
           "contact:facebook": "https://www.facebook.com/COMPTOIRDUREVE/",
           "contact:housenumber": "40",
           "contact:instagram": "https://www.instagram.com/comptoirdureve/",
           "contact:street": "Rue Charles de Rémusat",
           "contact:tiktok": "https://www.tiktok.com/@comptoirdurevetoulouse",
-          "description": "Librairie spécialisée manga, vends BD manga et comics d'occasion",
+          "description": "Manga",
           "email": "comptoirdurevetoulouse@gmail.com",
-          "name": "Comptoir du rêve Manga",
+          "name": "Comptoir du Rêve",
           "opening_hours": "Mo-Sa 10:00-12:30,13:30-19:00",
           "payment:cash": "yes",
           "payment:cb": "yes",
@@ -2838,8 +2839,8 @@
       {
         "type": "node",
         "id": 8755223134,
-        "lat": 43.6066815,
-        "lon": 1.4449535,
+        "lat": 43.6066701,
+        "lon": 1.4449436,
         "tags": {
           "books": "comic",
           "contact:facebook": "https://www.facebook.com/COMPTOIRDUREVE/",
@@ -2881,15 +2882,14 @@
           "contact:instagram": "https://www.instagram.com/comptoirdureve/",
           "contact:street": "Rue Charles de Rémusat",
           "contact:tiktok": "https://www.tiktok.com/@comptoirdurevetoulouse",
-          "description": "librairie spécialisée BD",
+          "description": "Bande Dessinées",
           "email": "comptoirdurevetoulouse@gmail.com",
-          "name": "Comptoir du Rêve BD",
+          "name": "Comptoir du Rêve",
           "opening_hours": "Tu-Sa 10:00-19:00; Mo 10:00-12:30,13:30-19:00",
           "payment:cash": "yes",
           "payment:cb": "yes",
           "payment:visa": "yes",
           "phone": "+33 5 61 23 11 79",
-          "ref:FR:SIRET": "48402431000076",
           "shop": "books",
           "was:name": "Dolce & Gabbana",
           "was:shop": "clothes",
@@ -3430,6 +3430,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-17T12:46:21.350Z",
+  "fetchedAt": "2026-11-18T12:39:38.546Z",
   "staleDataWarning": true
 }

@@ -308,14 +308,14 @@
       },
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
-        "build_date": "2026-10-14T07:31:58Z",
-        "graph_date": "2026-11-09T17:59:09Z",
-        "osm_date": "2026-11-08T00:00:00Z",
-        "version": "10.1.0"
+        "build_date": "2026-11-18T10:33:03Z",
+        "graph_date": "2026-11-16T00:26:59Z",
+        "osm_date": "2026-11-15T00:00:00Z",
+        "version": "10.1.1"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794831961599
+      "timestamp": 1795005579642
     },
     "type": "FeatureCollection"
   },
@@ -323,7 +323,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-17T12:48:20Z",
+      "timestamp_osm_base": "2026-11-18T12:41:10Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -536,7 +536,7 @@
         "lat": 48.8618685,
         "lon": 2.3510527,
         "tags": {
-          "check_date": "2026-05-19",
+          "check_date": "2026-11-18",
           "indoor_seating": "no",
           "name": "Maison Hubert",
           "opening_hours": "Su closed",
@@ -6723,10 +6723,13 @@
         "lat": 48.864807,
         "lon": 2.3503363,
         "tags": {
-          "check_date": "2026-06-04",
+          "addr:floor": "0",
+          "check_date": "2026-11-17",
+          "level": "0",
           "name": "O'Shop Châtelet",
           "opening_hours": "09:00-02:00",
-          "shop": "convenience"
+          "shop": "convenience",
+          "wheelchair": "no"
         }
       },
       {
@@ -6927,6 +6930,17 @@
         "tags": {
           "name": "Le maltais rouge",
           "shop": "books"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7815953594,
+        "lat": 48.8636404,
+        "lon": 2.3486012,
+        "tags": {
+          "check_date": "2026-11-17",
+          "name": "Asia Shop",
+          "shop": "convenience"
         }
       },
       {
@@ -7157,19 +7171,25 @@
         "lon": 2.3520925,
         "tags": {
           "addr:city": "Paris",
+          "addr:floor": "0",
           "addr:housenumber": "175",
           "addr:postcode": "75003",
           "addr:street": "Rue Saint-Martin",
           "books": "comic",
-          "check_date": "2025-10-30",
+          "check_date": "2026-11-18",
           "contact:city": "Paris",
           "contact:housenumber": "175",
           "contact:phone": "+33 1 42 74 34 74",
           "contact:postcode": "75003",
           "contact:street": "Rue Saint-Martin",
           "contact:website": "https://www.canalbd.net/super-heros",
+          "level": "0",
           "name": "Canal BD - Librairie Super Héros",
           "opening_hours": "Mo-Sa 11:30-20:00",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:visa": "yes",
           "shop": "books",
           "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
           "wheelchair": "limited"
@@ -9792,6 +9812,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-17T12:46:21.350Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-18T12:39:38.546Z",
+  "staleDataWarning": false
 }
