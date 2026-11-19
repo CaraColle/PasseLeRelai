@@ -323,7 +323,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795005621791
+      "timestamp": 1795091563164
     },
     "type": "FeatureCollection"
   },
@@ -331,7 +331,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-18T12:42:11Z",
+      "timestamp_osm_base": "2026-11-19T12:36:08Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -4260,22 +4260,6 @@
       },
       {
         "type": "way",
-        "id": 54186301,
-        "center": {
-          "lat": 48.8704791,
-          "lon": 2.3241523
-        },
-        "tags": {
-          "building": "yes",
-          "name": "Kiosque Culture",
-          "opening_hours": "Tu 12:30-16:00; We-Sa 12:30-19:30",
-          "shop": "kiosk",
-          "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-          "website": "https://www.kiosqueculture.com"
-        }
-      },
-      {
-        "type": "way",
         "id": 54572741,
         "center": {
           "lat": 48.8715377,
@@ -4694,6 +4678,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-18T12:39:38.546Z",
+  "fetchedAt": "2026-11-19T12:29:59.678Z",
   "staleDataWarning": false
 }

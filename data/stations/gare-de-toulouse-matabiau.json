@@ -187,8 +187,8 @@
                 43.614359
               ],
               [
-                1.458756,
-                43.61499
+                1.458755,
+                43.614991
               ],
               [
                 1.454723,
@@ -256,14 +256,14 @@
       },
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
-        "build_date": "2026-10-14T07:31:58Z",
-        "graph_date": "2026-11-09T17:59:09Z",
-        "osm_date": "2026-11-08T00:00:00Z",
-        "version": "10.1.0"
+        "build_date": "2026-11-18T10:33:03Z",
+        "graph_date": "2026-11-16T00:26:59Z",
+        "osm_date": "2026-11-15T00:00:00Z",
+        "version": "10.1.1"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794832240228
+      "timestamp": 1795091867834
     },
     "type": "FeatureCollection"
   },
@@ -271,7 +271,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-18T12:46:13Z",
+      "timestamp_osm_base": "2026-11-19T12:39:08Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -659,7 +659,7 @@
           "addr:housenumber": "7",
           "addr:postcode": "31000",
           "addr:street": "Place Dominique Martin Dupuy",
-          "check_date": "2024-11-17",
+          "check_date": "2026-11-18",
           "contact:housenumber": "7",
           "contact:instagram": "http://instagram.com/lahalleauxpains?igshid=OGQ5ZDc2ODk2ZA==",
           "contact:street": "Place Dominique Martin Dupuy",
@@ -2091,7 +2091,6 @@
           "contact:street": "Avenue Honoré Serres",
           "name": "L'épicerie de nuit",
           "opening_hours": "19:00-02:00",
-          "ref:FR:SIRET": "79283933400010",
           "shop": "convenience"
         }
       },
@@ -3430,6 +3429,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-18T12:39:38.546Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-19T12:29:59.678Z",
+  "staleDataWarning": false
 }

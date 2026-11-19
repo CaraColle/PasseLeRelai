@@ -244,14 +244,14 @@
       },
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
-        "build_date": "2026-10-14T07:31:58Z",
+        "build_date": "2026-11-18T10:33:03Z",
         "graph_date": "2026-11-16T00:26:59Z",
         "osm_date": "2026-11-15T00:00:00Z",
-        "version": "10.1.0"
+        "version": "10.1.1"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1794919899734
+      "timestamp": 1795091906041
     },
     "type": "FeatureCollection"
   },
@@ -259,7 +259,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-18T12:46:13Z",
+      "timestamp_osm_base": "2026-11-19T12:40:10Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2606,17 +2606,14 @@
       {
         "type": "node",
         "id": 12422060989,
-        "lat": 43.7015404,
-        "lon": 7.2626242,
+        "lat": 43.7015428,
+        "lon": 7.2626403,
         "tags": {
-          "addr:housenumber": "4 ter",
-          "addr:street": "Avenue Durante",
           "name": "Mini Market",
           "ref:FR:NAF": "47.11B",
           "ref:FR:SIREN": "928167113",
           "ref:FR:SIRET": "92816711300010",
-          "shop": "convenience",
-          "source": "INSEE - 2026-07"
+          "shop": "convenience"
         }
       },
       {
@@ -3095,6 +3092,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-18T12:39:38.546Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-19T12:29:59.678Z",
+  "staleDataWarning": false
 }

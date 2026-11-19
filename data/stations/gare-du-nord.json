@@ -303,7 +303,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795005579624
+      "timestamp": 1795091400779
     },
     "type": "FeatureCollection"
   },
@@ -311,7 +311,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-18T12:39:06Z",
+      "timestamp_osm_base": "2026-11-19T12:32:04Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2622,7 +2622,7 @@
           "addr:floor": "0",
           "brand": "Eric Kayser",
           "brand:wikidata": "Q99231745",
-          "check_date": "2026-03-16",
+          "check_date": "2026-11-19",
           "indoor_seating": "no",
           "level": "0",
           "name": "Eric Kayser",
@@ -7193,40 +7193,6 @@
       },
       {
         "type": "node",
-        "id": 11682533822,
-        "lat": 48.8735182,
-        "lon": 2.3619885,
-        "tags": {
-          "brand": "Monop'",
-          "brand:wikidata": "Q89913683",
-          "check_date": "2026-08-18",
-          "contact:city": "Paris 10eme Arrondissement",
-          "contact:facebook": "https://www.facebook.com/Monoprix",
-          "contact:housenumber": "40",
-          "contact:instagram": "https://www.instagram.com/monoprix",
-          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
-          "contact:phone": "+33 1 44 63 70 71",
-          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
-          "contact:postcode": "75010",
-          "contact:street": "Rue Lucien Sampaix",
-          "contact:tiktok": "https://www.tiktok.com/@monoprix",
-          "contact:twitter": "https://twitter.com/monoprix",
-          "contact:website": "https://www.monoprix.fr/2692.html",
-          "contact:youtube": "https://www.youtube.com/@monoprix",
-          "delivery": "yes",
-          "name": "Monop'",
-          "official_name": "Monop Villemin",
-          "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-13:00",
-          "payment:contactless": "yes",
-          "payment:credit_cards": "yes",
-          "payment:debit_cards": "yes",
-          "ref:FR:SIRET": "44465668001228",
-          "shop": "convenience",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 11703681286,
         "lat": 48.8691555,
         "lon": 2.3637341,
@@ -8427,6 +8393,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-18T12:39:38.546Z",
+  "fetchedAt": "2026-11-19T12:29:59.678Z",
   "staleDataWarning": false
 }
