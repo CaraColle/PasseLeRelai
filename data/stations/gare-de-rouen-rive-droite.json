@@ -243,7 +243,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795093374759
+      "timestamp": 1795180066650
     },
     "type": "FeatureCollection"
   },
@@ -251,7 +251,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-19T13:03:53Z",
+      "timestamp_osm_base": "2026-11-20T13:11:05Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1474,7 +1474,7 @@
           "contact:website": "https://www.canalbd.net/funambules",
           "delivery": "no",
           "name": "Funambules",
-          "opening_hours": "Tu-We 10:00-13:00,14:00-19:00; Th 13:00-19:00; Fr-Sa 10:00-13:00,14:00-19:00; 2026 Nov 11 10:00-13:00,14:00-19:00; 2026 Dec 24,2026 Dec 31 10:00-17:00; 2026 Dec 25 off; 2027 Jan 01 off",
+          "opening_hours": "Tu-Sa 10:00-13:00,14:00-19:00; 2026 Dec 24,2026 Dec 31 10:00-17:00; 2026 Dec 25 off; 2027 Jan 01 off",
           "payment:cheque": "yes",
           "payment:contactless": "yes",
           "payment:credit_cards": "yes",
@@ -2045,6 +2045,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-19T12:29:59.678Z",
+  "fetchedAt": "2026-11-20T12:30:03.746Z",
   "staleDataWarning": false
 }

@@ -259,7 +259,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-19T12:40:10Z",
+      "timestamp_osm_base": "2026-11-20T12:43:50Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -889,11 +889,9 @@
       {
         "type": "node",
         "id": 2024661358,
-        "lat": 43.7045433,
-        "lon": 7.2648869,
+        "lat": 43.7045385,
+        "lon": 7.2648909,
         "tags": {
-          "contact:housenumber": "1",
-          "contact:street": "Rue de Belgique",
           "name": "Deniz Alimentation",
           "ref:FR:SIRET": "81376403200013",
           "shop": "convenience"
@@ -2551,6 +2549,16 @@
       },
       {
         "type": "node",
+        "id": 12208507677,
+        "lat": 43.7042256,
+        "lon": 7.2651825,
+        "tags": {
+          "name": "Brunet",
+          "shop": "bakery"
+        }
+      },
+      {
+        "type": "node",
         "id": 12216731178,
         "lat": 43.7039302,
         "lon": 7.270524,
@@ -3092,6 +3100,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-19T12:29:59.678Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-11-20T12:30:03.746Z",
+  "staleDataWarning": true
 }

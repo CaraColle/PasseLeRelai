@@ -323,7 +323,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795091563164
+      "timestamp": 1795177844567
     },
     "type": "FeatureCollection"
   },
@@ -331,7 +331,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-19T12:36:08Z",
+      "timestamp_osm_base": "2026-11-20T12:36:36Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1422,10 +1422,10 @@
           "addr:housenumber": "9",
           "addr:postcode": "75018",
           "addr:street": "Rue Hégésippe Moreau",
-          "check_date": "2025-03-23",
+          "check_date": "2026-11-19",
           "name": "Comme en Pologne",
           "name:fr": "Comme en Pologne",
-          "opening_hours": "Tu-Sa 11:00-20:00; Su 11:00-15:00",
+          "opening_hours": "Tu-Fr 11:00-15:00,16:00-20:00; Sa 11:00-19:00",
           "phone": "+33 1 44 70 98 81",
           "shop": "convenience",
           "source": "local_knowledge",
@@ -4121,6 +4121,28 @@
       },
       {
         "type": "node",
+        "id": 13875149062,
+        "lat": 48.8859836,
+        "lon": 2.3264773,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "40",
+          "addr:postcode": "75018",
+          "addr:street": "Avenue de Clichy",
+          "name": "Les Saisonniers - La Fourche",
+          "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-13:00",
+          "organic": "yes",
+          "payment:app": "yes",
+          "payment:cards": "yes",
+          "payment:cash": "yes",
+          "payment:contactless": "yes",
+          "shop": "convenience",
+          "website": "https://les-saisonniers.fr/",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "node",
         "id": 13875248482,
         "lat": 48.8820691,
         "lon": 2.332727,
@@ -4186,6 +4208,35 @@
         "lat": 48.8610293,
         "lon": 2.3201359,
         "tags": {
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14395915901,
+        "lat": 48.8867177,
+        "lon": 2.3278651,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "14",
+          "addr:postcode": "75018",
+          "addr:street": "Rue Cavallotti",
+          "name": "Alimentation Cavalloti",
+          "opening_hours": "Mo-Th 08:00-23:00; Fr,Sa 08:00-00:00; Su 09:30-23:00",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14395915903,
+        "lat": 48.8861219,
+        "lon": 2.326738,
+        "tags": {
+          "addr:city": "Paris",
+          "addr:housenumber": "5",
+          "addr:postcode": "75018",
+          "addr:street": "Rue Ganneron",
+          "name": "ABS Mini Market",
           "shop": "convenience"
         }
       },
@@ -4678,6 +4729,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-19T12:29:59.678Z",
+  "fetchedAt": "2026-11-20T12:30:03.746Z",
   "staleDataWarning": false
 }

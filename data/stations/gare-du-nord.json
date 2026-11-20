@@ -303,7 +303,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795091400779
+      "timestamp": 1795177804469
     },
     "type": "FeatureCollection"
   },
@@ -311,7 +311,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-19T12:32:04Z",
+      "timestamp_osm_base": "2026-11-20T12:30:34Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2701,12 +2701,24 @@
           "brand:wikidata": "Q89913683",
           "brand:wikipedia": "fr:Monoprix (France)",
           "check_date": "2024-08-25",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
+          "contact:instagram": "https://www.instagram.com/monoprix",
+          "contact:linkedin": "https://www.linkedin.com/company/monoprix/",
+          "contact:phone": "+33 1 42 46 69 40",
+          "contact:pinterest": "https://www.pinterest.fr/monoprix/",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/monoprix",
           "contact:website": "https://www.monoprix.fr/1442.html",
+          "contact:youtube": "https://www.youtube.com/@monoprix",
+          "cuisine": "sandwich",
+          "delivery": "yes",
           "name": "Monop'",
           "official_name": "Monop Franz Liszt Paris",
           "opening_hours": "Mo-Sa 07:30-23:00; Su 09:00-23:00",
           "operator": "Zouari Moëz Alexandre",
-          "phone": "+33 1 42 46 69 40",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
           "shop": "convenience",
           "source": "local_knowledge",
           "wheelchair": "yes"
@@ -5393,12 +5405,16 @@
         "lon": 2.3510224,
         "tags": {
           "addr:floor": "0",
-          "check_date": "2026-10-02",
+          "check_date": "2026-11-20",
           "check_date:opening_hours": "2026-05-04",
           "contact:website": "https://mon-marche.fr",
           "level": "0",
           "name": "Mon Marché",
           "opening_hours": "Mo-Sa 08:30-22:30; Su 08:30-12:30",
+          "payment:cash": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:visa": "yes",
           "shop": "convenience",
           "wheelchair": "yes"
         }
@@ -8393,6 +8409,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-19T12:29:59.678Z",
+  "fetchedAt": "2026-11-20T12:30:03.746Z",
   "staleDataWarning": false
 }

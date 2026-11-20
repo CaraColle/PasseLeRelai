@@ -295,7 +295,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795091400592
+      "timestamp": 1795177804429
     },
     "type": "FeatureCollection"
   },
@@ -303,7 +303,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-19T12:31:04Z",
+      "timestamp_osm_base": "2026-11-20T12:29:35Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1539,9 +1539,11 @@
         "lat": 48.8317316,
         "lon": 2.3684804,
         "tags": {
-          "check_date:opening_hours": "2022-09-06",
+          "check_date": "2026-11-20",
+          "check_date:opening_hours": "2026-11-20",
           "level": "0",
           "name": "La Saveur du Pain",
+          "opening_hours": "Mo-Su 07:00-20:00",
           "opening_hours:signed": "no",
           "ref:FR:SIRET": "78897990400018",
           "shop": "bakery",
@@ -4878,6 +4880,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-19T12:29:59.678Z",
+  "fetchedAt": "2026-11-20T12:30:03.746Z",
   "staleDataWarning": false
 }

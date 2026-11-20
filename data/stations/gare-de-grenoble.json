@@ -219,7 +219,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795092555853
+      "timestamp": 1795179097198
     },
     "type": "FeatureCollection"
   },
@@ -227,7 +227,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-19T12:52:36Z",
+      "timestamp_osm_base": "2026-11-20T12:53:52Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1032,7 +1032,7 @@
           "name": "L'épicerie du monde",
           "old_name": "Mekkiya",
           "opening_hours:signed": "no",
-          "ref:FR:SIRET": "84483939900020",
+          "ref:FR:SIRET": "94201992800012",
           "shop": "convenience",
           "source": "survey",
           "wheelchair": "no"
@@ -2268,21 +2268,6 @@
       },
       {
         "type": "node",
-        "id": 6710522985,
-        "lat": 45.1810722,
-        "lon": 5.7226788,
-        "tags": {
-          "check_date": "2024-12-17",
-          "check_date:opening_hours": "2024-12-17",
-          "name": "Épicerie Foch Ferrié",
-          "opening_hours:signed": "no",
-          "ref:FR:SIRET": "49920134100066",
-          "shop": "convenience",
-          "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
         "id": 7363564586,
         "lat": 45.1879166,
         "lon": 5.7178119,
@@ -2814,6 +2799,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-19T12:29:59.678Z",
+  "fetchedAt": "2026-11-20T12:30:03.746Z",
   "staleDataWarning": false
 }

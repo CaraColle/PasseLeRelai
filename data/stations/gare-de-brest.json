@@ -259,7 +259,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795092986190
+      "timestamp": 1795179556947
     },
     "type": "FeatureCollection"
   },
@@ -267,7 +267,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-19T12:56:43Z",
+      "timestamp_osm_base": "2026-11-20T13:00:01Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -290,14 +290,17 @@
         "lat": 48.3926788,
         "lon": -4.4819779,
         "tags": {
-          "addr:housenumber": "45",
-          "addr:postcode": "29200",
-          "addr:street": "Rue Jean Jaurès",
           "brand": "La Mie Câline",
           "brand:wikidata": "Q3210704",
           "brand:wikipedia": "fr:La Mie câline",
           "check_date": "2026-10-02",
           "check_date:opening_hours": "2025-09-18",
+          "contact:city": "Brest",
+          "contact:housenumber": "45",
+          "contact:phone": "+33 2 98 80 13 61",
+          "contact:postcode": "29200",
+          "contact:street": "Rue Jean Jaurès",
+          "contact:website": "https://www.lamiecaline.com/boutiques/brest-jean-jaures/",
           "indoor_seating": "yes",
           "name": "La Mie Câline",
           "opening_hours": "Mo-Fr,Su 07:00-20:00; Sa off",
@@ -305,13 +308,11 @@
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
-          "phone": "+33 2 98 80 13 61",
-          "ref:FR:NAF": "10.71B",
+          "ref:FR:NAF": "47.24Y",
           "ref:FR:SIREN": "489660381",
           "ref:FR:SIRET": "48966038100018",
           "shop": "bakery",
           "source": "INSEE - 2025-06",
-          "website": "https://www.lamiecaline.com/boutiques/brest-jean-jaures/",
           "wheelchair": "yes"
         }
       },
@@ -1236,6 +1237,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-19T12:29:59.678Z",
+  "fetchedAt": "2026-11-20T12:30:03.746Z",
   "staleDataWarning": false
 }
