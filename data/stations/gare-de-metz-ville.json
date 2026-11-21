@@ -275,7 +275,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795179764001
+      "timestamp": 1795268528269
     },
     "type": "FeatureCollection"
   },
@@ -283,7 +283,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-19T13:01:51Z",
+      "timestamp_osm_base": "2026-07-28T02:16:18Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -367,7 +367,7 @@
           "addr:street": "Rue Winston Churchill",
           "air_conditioning": "no",
           "changing_table": "no",
-          "check_date": "2026-11-07",
+          "check_date": "2024-10-26",
           "contact:instagram": "https://www.instagram.com/TABAC_LE_SMILEY",
           "internet_access": "no",
           "level": "0",
@@ -427,7 +427,7 @@
           "internet_access": "no",
           "level": "0",
           "name": "Brioche Dorée",
-          "opening_hours": "Mo-Fr 07:30-19:00; Sa 07:30-19:30",
+          "opening_hours": "Mo-Sa 07:30-19:00",
           "operator": "Groupe Le Duff",
           "outdoor_seating": "no",
           "payment:cash": "yes",
@@ -616,6 +616,7 @@
         "lat": 49.1080641,
         "lon": 6.1702034,
         "tags": {
+          "addr:floor": "0",
           "check_date": "2025-05-14",
           "contact:email": "latelierdupain57000@gmail.com",
           "contact:facebook": "https://www.facebook.com/latelierdupain.metz/",
@@ -650,7 +651,7 @@
         "lat": 49.121044,
         "lon": 6.1752422,
         "tags": {
-          "check_date": "2026-08-07",
+          "check_date": "2026-04-21",
           "name": "L'Ami du Pain",
           "opening_hours": "Mo-Fr 07:00-19:00",
           "ref:FR:SIRET": "44149178400019",
@@ -705,23 +706,6 @@
       },
       {
         "type": "node",
-        "id": 4064068344,
-        "lat": 49.1053146,
-        "lon": 6.1740482,
-        "tags": {
-          "contact:housenumber": "77",
-          "contact:street": "Rue aux Arènes",
-          "name": "Le P'tit Pain du Sablon",
-          "operator": "EI Sebastien SACRE",
-          "ref:FR:SIRET": "51465087800028",
-          "shop": "bakery",
-          "was:name": "Diplomates",
-          "was:ref:FR:SIRET": "81970017000015",
-          "was:shop": "tobacco"
-        }
-      },
-      {
-        "type": "node",
         "id": 4091440147,
         "lat": 49.113358,
         "lon": 6.1784925,
@@ -755,7 +739,6 @@
           "contact:housenumber": "4",
           "contact:street": "Place Saint-Nicolas",
           "name": "Le Comptoir Irlandais",
-          "opening_hours": "Mo 14:00-19:00; Tu,We 10:00-13:00,14:00-19:00; Th-Sa 10:00-19:00",
           "phone": "+33 3 87 74 71 16",
           "ref:FR:SIRET": "38524664000176",
           "shop": "convenience",
@@ -772,11 +755,9 @@
           "contact:facebook": "MaisonBlond",
           "contact:housenumber": "20",
           "contact:street": "Rue du Neufbourg",
-          "indoor_seating": "yes",
           "name": "Maison Blond",
           "opening_hours": "Mo-Fr 06:30-19:30; Sa-Su 07:30-12:30; PH 08:00-12:00",
           "operator": "JAMI",
-          "outdoor_seating": "no",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "520891029",
           "ref:FR:SIRET": "52089102900016",
@@ -813,7 +794,6 @@
         "lat": 49.1142858,
         "lon": 6.1838523,
         "tags": {
-          "name": "Saveur d'Afrique",
           "shop": "convenience",
           "source": "survey"
         }
@@ -867,15 +847,10 @@
         "lat": 49.114493,
         "lon": 6.1756459,
         "tags": {
-          "contact:email": "contact@sestrasbooklovecoffee.fr",
           "contact:housenumber": "4",
-          "contact:instagram": "librairie_sestrasbooks",
-          "contact:phone": "+33 3 87 38 45 44",
           "contact:street": "Rue Saint-Gengoulf",
-          "contact:website": "https://www.sestrasbooklovecoffee.fr/",
-          "description": "Librairie spécialisée romance & fantasy",
           "name": "Sestra’s Books Love & Coffee",
-          "opening_hours": "Tu-Sa 10:00-18:30",
+          "opening_hours": "Tu-Fr 10:00-18:30; Sa 10:00-19:00",
           "ref:FR:NAF": "47.61Z",
           "ref:FR:SIRET": "94261794500012",
           "ref:vatin": "FR43942617945",
@@ -983,8 +958,8 @@
       {
         "type": "node",
         "id": 4999535326,
-        "lat": 49.1201343,
-        "lon": 6.1697045,
+        "lat": 49.1201069,
+        "lon": 6.169731,
         "tags": {
           "check_date": "2024-11-29",
           "contact:housenumber": "14",
@@ -1024,13 +999,8 @@
         "lon": 6.1797372,
         "tags": {
           "books": "religion",
-          "contact:email": "office@catholique-metz.fr",
-          "contact:housenumber": "10",
           "contact:phone": "+33 3 87 74 17 28",
-          "contact:street": "Rue de la Gendarmerie",
-          "contact:website": "https://metz.catholique.fr/librairie-de-loffice-catechetique/",
           "name": "Librairie de l'office Cathechétique",
-          "opening_hours": "Mo-Fr 09:00-11:45,13:30-18:00; Sa 10:00-11:45,13:30-17:00",
           "shop": "books",
           "source": "survey"
         }
@@ -1075,7 +1045,7 @@
         "lat": 49.119051,
         "lon": 6.1773205,
         "tags": {
-          "check_date": "2026-10-15",
+          "check_date": "2023-05-01",
           "contact:housenumber": "10",
           "contact:street": "Rue Taison",
           "contact:website": "https://lacourdesgrands.blog/",
@@ -1090,10 +1060,9 @@
       {
         "type": "node",
         "id": 5836332008,
-        "lat": 49.1066275,
-        "lon": 6.1823935,
+        "lat": 49.1066482,
+        "lon": 6.1823472,
         "tags": {
-          "check_date": "2026-08-22",
           "contact:housenumber": "2",
           "contact:place": "CC Muse",
           "contact:street": "Rue des Messageries",
@@ -1187,17 +1156,25 @@
       },
       {
         "type": "node",
+        "id": 7636660769,
+        "lat": 49.1172119,
+        "lon": 6.1848551,
+        "tags": {
+          "shop": "convenience",
+          "was:craft": "brewery",
+          "was:name": "La Mère Fouettard",
+          "was:shop": "alcohol"
+        }
+      },
+      {
+        "type": "node",
         "id": 7722402976,
         "lat": 49.1058106,
         "lon": 6.1688145,
         "tags": {
-          "contact:email": "info@vin8.fr",
           "contact:housenumber": "28",
-          "contact:phone": "+33 3 87 22 86 61",
           "contact:street": "Rue Clovis",
-          "contact:website": "https://vin8.fr/",
           "name": "Vin 8",
-          "opening_hours": "Tu-Sa 10:00-22:00; Su 10:00-13:00",
           "ref:FR:SIRET": "88192821200011",
           "shop": "convenience"
         }
@@ -1209,7 +1186,6 @@
         "lon": 6.1705052,
         "tags": {
           "name": "Aux petits choux",
-          "opening_hours": "Mo-Fr 06:30-19:00; Sa 07:00-13:00",
           "ref:FR:SIRET": "98915246700019",
           "shop": "bakery"
         }
@@ -1297,24 +1273,12 @@
         "tags": {
           "check_date:opening_hours": "2024-10-16",
           "contact:housenumber": "7",
-          "contact:phone": "+33 3 54 21 14 99",
           "contact:street": "Rue Pasteur",
           "cuisine": "asian",
           "name": "Jin Ling",
           "opening_hours": "Mo 14:00-19:00; Tu,Th 10:00-19:00; Fr,Sa 10:00-19:30",
+          "phone": "+33 3 54 21 14 99",
           "ref:FR:SIRET": "83898901000023",
-          "shop": "convenience",
-          "source": "survey"
-        }
-      },
-      {
-        "type": "node",
-        "id": 10048696522,
-        "lat": 49.1085146,
-        "lon": 6.1693262,
-        "tags": {
-          "name": "L'Épicentre",
-          "ref:FR:SIRET": "10933804600013",
           "shop": "convenience",
           "source": "survey"
         }
@@ -1415,24 +1379,10 @@
         "lon": 6.1766572,
         "tags": {
           "contact:housenumber": "5",
-          "contact:phone": "+33 3 87 74 48 44",
           "contact:street": "Rue des Jardins",
           "name": "Librairie Moresi",
           "ref:FR:SIRET": "53893898600014",
           "shop": "books"
-        }
-      },
-      {
-        "type": "node",
-        "id": 11129181693,
-        "lat": 49.1229792,
-        "lon": 6.1797657,
-        "tags": {
-          "name": "Mini Market Metz",
-          "ref:FR:SIRET": "93765434100026",
-          "shop": "convenience",
-          "was:name": "Figa e Mimosa",
-          "was:shop": "florist"
         }
       },
       {
@@ -1467,7 +1417,6 @@
         "lon": 6.1723821,
         "tags": {
           "name": "Exotique Etoile",
-          "ref:FR:SIRET": "10101322500020",
           "shop": "convenience"
         }
       },
@@ -1565,21 +1514,6 @@
       },
       {
         "type": "node",
-        "id": 13136666627,
-        "lat": 49.1184843,
-        "lon": 6.1738116,
-        "tags": {
-          "contact:housenumber": "6",
-          "contact:street": "En Nexirue",
-          "description": "Produits africains",
-          "name": "Dame Kanté Exotique",
-          "ref:FR:SIRET": "93267878200024",
-          "shop": "convenience",
-          "survey:date": "2026-10-28"
-        }
-      },
-      {
-        "type": "node",
         "id": 13137118920,
         "lat": 49.1178594,
         "lon": 6.1806122,
@@ -1669,22 +1603,9 @@
           "ref:FR:SIRET": "88445724300027",
           "shop": "convenience"
         }
-      },
-      {
-        "type": "node",
-        "id": 14057222061,
-        "lat": 49.1025954,
-        "lon": 6.1633315,
-        "tags": {
-          "name": "Ahmadi Market",
-          "opening_hours": "Mo-Su 07:00-21:00",
-          "ref:FR:SIRET": "10567335400012",
-          "shop": "convenience",
-          "wheelchair": "no"
-        }
       }
     ]
   },
-  "fetchedAt": "2026-11-20T12:30:03.746Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-21T12:06:52.314Z",
+  "staleDataWarning": false
 }
