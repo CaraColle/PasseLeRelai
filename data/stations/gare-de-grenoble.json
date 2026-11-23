@@ -219,7 +219,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795353202095
+      "timestamp": 1795443643143
     },
     "type": "FeatureCollection"
   },
@@ -227,7 +227,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-20T12:53:52Z",
+      "timestamp_osm_base": "2026-11-23T14:27:29Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -554,8 +554,8 @@
           "addr:housenumber": "14",
           "addr:postcode": "38000",
           "addr:street": "Allée Henri Frenay",
-          "check_date": "2025-05-25",
-          "check_date:opening_hours": "2025-05-25",
+          "check_date": "2026-11-21",
+          "check_date:opening_hours": "2026-11-21",
           "name": "La ferme de Bonne",
           "opening_hours": "We-Fr 09:00-19:00; Sa 09:00-18:00",
           "phone": "+33 4 76 43 34 46",
@@ -2042,6 +2042,16 @@
       },
       {
         "type": "node",
+        "id": 4526139490,
+        "lat": 45.1817468,
+        "lon": 5.7281546,
+        "tags": {
+          "name": "Bull Shop",
+          "shop": "convenience"
+        }
+      },
+      {
+        "type": "node",
         "id": 4527996317,
         "lat": 45.1801767,
         "lon": 5.7176619,
@@ -2799,6 +2809,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-22T12:17:14.622Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-23T14:01:23.957Z",
+  "staleDataWarning": false
 }

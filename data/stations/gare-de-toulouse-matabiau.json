@@ -263,7 +263,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795350904331
+      "timestamp": 1795442835661
     },
     "type": "FeatureCollection"
   },
@@ -271,7 +271,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-20T12:41:50Z",
+      "timestamp_osm_base": "2026-11-23T14:11:19Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2427,7 +2427,7 @@
           "contact:place": "Marché Victor Hugo",
           "level": "0",
           "name": "La Grange des Pains",
-          "opening_hours": "Tu-Sa 07:00-13:30",
+          "opening_hours": "Tu-Th 07:00-13:15; Fr-Su 07:00-13:30",
           "ref:FR:SIRET": "95329119200029",
           "shop": "bakery",
           "was:name": "Boulangerie Cadenet"
@@ -3067,20 +3067,6 @@
       },
       {
         "type": "node",
-        "id": 10591384798,
-        "lat": 43.6255726,
-        "lon": 1.4391542,
-        "tags": {
-          "cuisine": "sandwich",
-          "name": "Pierre & Marie",
-          "opening_hours": "Mo-Su 07:00-20:00",
-          "phone": "+33 5 61 33 19 07",
-          "shop": "bakery",
-          "wheelchair": "yes"
-        }
-      },
-      {
-        "type": "node",
         "id": 11445806828,
         "lat": 43.6098937,
         "lon": 1.4513819,
@@ -3324,6 +3310,17 @@
         }
       },
       {
+        "type": "node",
+        "id": 14409313772,
+        "lat": 43.6120343,
+        "lon": 1.4571774,
+        "tags": {
+          "name": "Épicerie des Champs Élysées",
+          "opening_hours": "Su-Fr 19:00-02:00, Sa 19:00-03:00",
+          "shop": "convenience"
+        }
+      },
+      {
         "type": "way",
         "id": 238802652,
         "center": {
@@ -3429,6 +3426,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-22T12:17:14.622Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-23T14:01:23.957Z",
+  "staleDataWarning": false
 }

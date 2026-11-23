@@ -303,7 +303,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795349835403
+      "timestamp": 1795442484895
     },
     "type": "FeatureCollection"
   },
@@ -311,7 +311,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-20T12:30:34Z",
+      "timestamp_osm_base": "2026-11-23T14:01:03Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1514,13 +1514,19 @@
         "lat": 48.8716938,
         "lon": 2.3429662,
         "tags": {
+          "branch": "Grand Boulevards",
+          "brand:wikidata": "Q138313533",
           "check_date": "2026-02-04",
+          "contact:housenumber": "2",
+          "contact:phone": "+33 1 86 04 73 47",
+          "contact:street": "Boulevard Montmartre",
           "diet:vegan": "only",
+          "dog": "yes",
           "name": "Land&Monkeys",
           "opening_hours": "Mo-Su 07:30-20:00",
+          "outdoor_seating": "sidewalk",
           "shop": "bakery",
-          "source": "survey",
-          "website": "https://www.land-and-monkeys.com"
+          "website": "https://www.land-and-monkeys.com/boulangerie/grands-boulevards/"
         }
       },
       {
@@ -2692,7 +2698,7 @@
         "lat": 48.8777403,
         "lon": 2.3521842,
         "tags": {
-          "addr:city": "Paris",
+          "addr:city": "Paris 10eme Arrondissement",
           "addr:housenumber": "118",
           "addr:postcode": "75010",
           "addr:street": "Rue La Fayette",
@@ -3167,13 +3173,14 @@
           "check_date": "2026-05-15",
           "level": "0",
           "name": "Koozo Mart",
-          "opening_hours": "Tu-Su 10:30-20:30",
+          "opening_hours": "Mo-Su 10:30-20:30",
           "payment:cash": "yes",
           "payment:credit_cards": "yes",
           "payment:debit_cards": "yes",
           "payment:visa": "yes",
           "ref:FR:SIRET": "98452593100015",
           "shop": "convenience",
+          "website": "https://koozomart.com/",
           "wheelchair": "yes"
         }
       },
@@ -4139,13 +4146,16 @@
           "addr:housenumber": "35",
           "addr:postcode": "75002",
           "addr:street": "Rue des Petits Carreaux",
-          "check_date": "2026-06-19",
-          "check_date:opening_hours": "2023-10-16",
+          "check_date": "2026-11-21",
+          "check_date:opening_hours": "2026-11-21",
           "contact:email": "contact@petite-egypte.fr",
+          "contact:facebook": "petiteegypte",
+          "contact:instagram": "librairie_petite_egypte",
           "contact:phone": "+33 1 47 03 34 30",
           "contact:website": "https://www.petite-egypte.fr/",
+          "level": "0",
           "name": "Petite Égypte",
-          "opening_hours": "Mo 12:00-19:00; Tu-Sa 10:00-20:00; Su 10:00-14:00",
+          "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-14:00",
           "ref:FR:SIRET": "81764652400014",
           "ref:vatin": "FR92817646524",
           "shop": "books",
@@ -8409,6 +8419,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-22T12:17:14.622Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-23T14:01:23.957Z",
+  "staleDataWarning": false
 }

@@ -251,7 +251,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795351063972
+      "timestamp": 1795442929616
     },
     "type": "FeatureCollection"
   },
@@ -259,7 +259,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-20T12:43:50Z",
+      "timestamp_osm_base": "2026-11-23T14:11:19Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2534,17 +2534,14 @@
       {
         "type": "node",
         "id": 12091922237,
-        "lat": 43.7025648,
-        "lon": 7.2643781,
+        "lat": 43.7025643,
+        "lon": 7.2643949,
         "tags": {
-          "addr:housenumber": "15",
-          "addr:street": "Rue d'Italie",
           "name": "Épicerie provençale",
           "ref:FR:NAF": "47.11B",
           "ref:FR:SIREN": "829481449",
           "ref:FR:SIRET": "82948144900017",
-          "shop": "convenience",
-          "source": "INSEE - 2026-07"
+          "shop": "convenience"
         }
       },
       {
@@ -3100,6 +3097,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-22T12:17:14.622Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-23T14:01:23.957Z",
+  "staleDataWarning": false
 }

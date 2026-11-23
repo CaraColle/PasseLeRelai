@@ -215,7 +215,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795353389928
+      "timestamp": 1795443717598
     },
     "type": "FeatureCollection"
   },
@@ -223,7 +223,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-19T12:52:36Z",
+      "timestamp_osm_base": "2026-11-23T14:27:29Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -486,7 +486,7 @@
         "tags": {
           "check_date": "2026-08-27",
           "name": "Cocorico Darcy",
-          "opening_hours": "Mo-Su 9:00-0:00",
+          "opening_hours": "Mo-Su 09:00-00:00",
           "ref:FR:SIRET": "43509589800019",
           "shop": "convenience"
         }
@@ -957,6 +957,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-22T12:17:14.622Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-23T14:01:23.957Z",
+  "staleDataWarning": false
 }

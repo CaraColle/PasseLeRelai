@@ -259,7 +259,7 @@
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795354331082
+      "timestamp": 1795444298564
     },
     "type": "FeatureCollection"
   },
@@ -267,7 +267,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-20T13:00:01Z",
+      "timestamp_osm_base": "2026-11-23T14:37:35Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -410,7 +410,7 @@
           "level": "0",
           "name": "Le Fournil de Siam",
           "opening_hours": "Tu-Sa 07:00-19:00",
-          "ref:FR:SIRET": "51032692900039",
+          "ref:FR:SIRET": "10839736500017",
           "shop": "bakery",
           "wheelchair": "no"
         }
@@ -614,9 +614,14 @@
         "lat": 48.3914591,
         "lon": -4.4832159,
         "tags": {
-          "addr:housenumber": "11",
-          "addr:street": "Rue Saint-Saëns",
           "books": "comic",
+          "check_date": "2026-10-04",
+          "contact:facebook": "excalibullelibrairie",
+          "contact:housenumber": "11",
+          "contact:instagram": "excalibulle",
+          "contact:phone": "+33 2 98 46 50 80",
+          "contact:street": "Rue Saint-Saëns",
+          "contact:website": "https://www.excalibulle.com/",
           "name": "Excalibulle",
           "opening_hours": "Tu-Sa 10:00-19:00",
           "phone": "+33 2 98 46 50 80",
@@ -625,7 +630,6 @@
           "ref:FR:SIRET": "40920228000031",
           "shop": "books",
           "source": "INSEE - 2025-07",
-          "website": "https://www.excalibulle.com/",
           "wheelchair": "no"
         }
       },
@@ -1237,6 +1241,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-22T12:17:14.622Z",
-  "staleDataWarning": true
+  "fetchedAt": "2026-11-23T14:01:23.957Z",
+  "staleDataWarning": false
 }
