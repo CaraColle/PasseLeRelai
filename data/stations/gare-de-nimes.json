@@ -261,13 +261,13 @@
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
         "build_date": "2026-11-18T10:33:03Z",
-        "graph_date": "2026-11-16T00:26:59Z",
-        "osm_date": "2026-11-15T00:00:00Z",
+        "graph_date": "2026-11-23T01:03:39Z",
+        "osm_date": "2026-11-22T00:00:00Z",
         "version": "10.1.1"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795444070138
+      "timestamp": 1795532457498
     },
     "type": "FeatureCollection"
   },
@@ -275,7 +275,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-23T14:30:32Z",
+      "timestamp_osm_base": "2026-11-24T15:06:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1646,6 +1646,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-23T14:01:23.957Z",
+  "fetchedAt": "2026-11-24T14:33:24.854Z",
   "staleDataWarning": false
 }

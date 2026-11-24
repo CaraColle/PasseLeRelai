@@ -41,8 +41,8 @@
                 43.701414
               ],
               [
-                7.264523,
-                43.70244
+                7.26451,
+                43.702457
               ],
               [
                 7.266013,
@@ -141,6 +141,10 @@
               [
                 7.253931,
                 43.700615
+              ],
+              [
+                7.256134,
+                43.6994
               ],
               [
                 7.258049,
@@ -245,13 +249,13 @@
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
         "build_date": "2026-11-18T10:33:03Z",
-        "graph_date": "2026-11-16T00:26:59Z",
-        "osm_date": "2026-11-15T00:00:00Z",
+        "graph_date": "2026-11-23T01:03:39Z",
+        "osm_date": "2026-11-22T00:00:00Z",
         "version": "10.1.1"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795442929616
+      "timestamp": 1795531324725
     },
     "type": "FeatureCollection"
   },
@@ -259,7 +263,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-23T14:11:19Z",
+      "timestamp_osm_base": "2026-11-24T14:46:00Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1752,17 +1756,14 @@
       {
         "type": "node",
         "id": 9380199322,
-        "lat": 43.7034872,
-        "lon": 7.2644462,
+        "lat": 43.703492,
+        "lon": 7.2644616,
         "tags": {
-          "addr:housenumber": "25",
-          "addr:street": "Rue d'Angleterre",
           "name": "La Goulette",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "441723988",
           "ref:FR:SIRET": "44172398800016",
-          "shop": "bakery",
-          "source": "INSEE - 2026-07"
+          "shop": "bakery"
         }
       },
       {
@@ -2492,11 +2493,9 @@
       {
         "type": "node",
         "id": 12091917787,
-        "lat": 43.7031429,
-        "lon": 7.264045,
+        "lat": 43.7031498,
+        "lon": 7.2640385,
         "tags": {
-          "addr:housenumber": "16",
-          "addr:street": "Rue de Suisse",
           "name": "Le Message",
           "ref:FR:SIRET": "41815906700010",
           "shop": "books",
@@ -2506,29 +2505,14 @@
       {
         "type": "node",
         "id": 12091919724,
-        "lat": 43.703239,
-        "lon": 7.2645163,
+        "lat": 43.7032317,
+        "lon": 7.2645116,
         "tags": {
-          "addr:housenumber": "23",
-          "addr:street": "Rue d'Angleterre",
           "name": "Market Sultan",
           "opening_hours": "Mo-Sa 09:00-13:00",
           "ref:FR:SIRET": "50461710100028",
           "shop": "convenience",
           "wheelchair": "limited"
-        }
-      },
-      {
-        "type": "node",
-        "id": 12091922232,
-        "lat": 43.7018826,
-        "lon": 7.2627163,
-        "tags": {
-          "addr:housenumber": "6",
-          "addr:street": "Avenue Durante",
-          "name": "Alim Durante",
-          "ref:FR:SIRET": "98193802000014",
-          "shop": "convenience"
         }
       },
       {
@@ -3097,6 +3081,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-23T14:01:23.957Z",
+  "fetchedAt": "2026-11-24T14:33:24.854Z",
   "staleDataWarning": false
 }

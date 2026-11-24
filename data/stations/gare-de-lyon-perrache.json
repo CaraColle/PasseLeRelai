@@ -223,11 +223,11 @@
                 45.75504
               ],
               [
-                4.825329,
-                45.754551
+                4.825213,
+                45.754505
               ],
               [
-                4.820056,
+                4.820058,
                 45.753156
               ],
               [
@@ -269,13 +269,13 @@
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
         "build_date": "2026-11-18T10:33:03Z",
-        "graph_date": "2026-11-16T00:26:59Z",
-        "osm_date": "2026-11-15T00:00:00Z",
+        "graph_date": "2026-11-23T01:03:39Z",
+        "osm_date": "2026-11-22T00:00:00Z",
         "version": "10.1.1"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795442730171
+      "timestamp": 1795531254149
     },
     "type": "FeatureCollection"
   },
@@ -2343,6 +2343,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-23T14:01:23.957Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-11-24T14:33:24.854Z",
+  "staleDataWarning": true
 }

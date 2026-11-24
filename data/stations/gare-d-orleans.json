@@ -245,13 +245,13 @@
       "attribution": "openrouteservice.org | OpenStreetMap contributors",
       "engine": {
         "build_date": "2026-11-18T10:33:03Z",
-        "graph_date": "2026-11-16T00:26:59Z",
-        "osm_date": "2026-11-15T00:00:00Z",
+        "graph_date": "2026-11-23T01:03:39Z",
+        "osm_date": "2026-11-22T00:00:00Z",
         "version": "10.1.1"
       },
       "service": "isochrones",
       "system_message": "Please note that the URL api.openrouteservice.org has been deprecated. All information available at ask.openrouteservice.org",
-      "timestamp": 1795444942221
+      "timestamp": 1795533211681
     },
     "type": "FeatureCollection"
   },
@@ -259,7 +259,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-23T14:45:56Z",
+      "timestamp_osm_base": "2026-11-24T15:18:15Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -514,23 +514,6 @@
           "phone": "+33 238546407",
           "ref:FR:SIRET": "51858957700015",
           "shop": "bakery"
-        }
-      },
-      {
-        "type": "node",
-        "id": 3043586934,
-        "lat": 47.9044546,
-        "lon": 1.9027285,
-        "tags": {
-          "contact:city": "Orléans",
-          "contact:housenumber": "55",
-          "contact:postcode": "45000",
-          "contact:street": "Rue Bannier",
-          "name": "Le Fournil du 55",
-          "opening_hours": "Tu-Fr 07:00-19:30; Sa 07:30-19:30; Su 07:30-13:00; Mo closed",
-          "phone": "+33 238620603",
-          "shop": "bakery",
-          "wheelchair": "no"
         }
       },
       {
@@ -1227,6 +1210,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-23T14:01:23.957Z",
+  "fetchedAt": "2026-11-24T14:33:24.854Z",
   "staleDataWarning": false
 }
