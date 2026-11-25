@@ -263,7 +263,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-24T14:39:54Z",
+      "timestamp_osm_base": "2026-11-25T13:58:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -2174,9 +2174,8 @@
           "addr:postcode": "75012",
           "addr:street": "Rue de Lyon",
           "check_date": "2026-11-21",
-          "mobile": "+33 603764170",
           "name": "La Sirène",
-          "phone": "+33603764170",
+          "phone": "+33 6 03 76 41 70",
           "ref:FR:SIRET": "41900603600018",
           "shop": "books",
           "wheelchair": "limited"
@@ -4939,6 +4938,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-24T14:33:24.854Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-11-25T13:53:27.015Z",
+  "staleDataWarning": true
 }

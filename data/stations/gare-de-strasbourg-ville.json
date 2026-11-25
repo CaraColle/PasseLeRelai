@@ -275,7 +275,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-24T14:50:02Z",
+      "timestamp_osm_base": "2026-11-25T14:15:19Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1086,8 +1086,8 @@
           "contact:street": "Rue Fossé des Tanneurs",
           "contact:website": "https://www.canalbd.net/ca-va-buller",
           "delivery": "yes",
-          "name": "Ca va Buller",
-          "opening_hours": "Mo-Sa 10:00-19:00",
+          "name": "Ça va Buller",
+          "opening_hours": "Mo-Sa 10:00-19:00; Su 09:00-18:30",
           "operator": "Canal BD",
           "payment:american_express": "yes",
           "payment:cash": "only",
@@ -1770,6 +1770,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-24T14:33:24.854Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-11-25T13:53:27.015Z",
+  "staleDataWarning": true
 }

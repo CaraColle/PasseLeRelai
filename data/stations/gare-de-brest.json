@@ -267,7 +267,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-24T15:09:05Z",
+      "timestamp_osm_base": "2026-11-25T14:35:33Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -403,8 +403,8 @@
       {
         "type": "node",
         "id": 738042292,
-        "lat": 48.3859348,
-        "lon": -4.4907876,
+        "lat": 48.3859399,
+        "lon": -4.4907817,
         "tags": {
           "check_date": "2025-05-04",
           "level": "0",
@@ -466,8 +466,8 @@
       {
         "type": "node",
         "id": 738932379,
-        "lat": 48.3900891,
-        "lon": -4.4900539,
+        "lat": 48.3900987,
+        "lon": -4.4900713,
         "tags": {
           "air_conditioning": "yes",
           "automatic_door": "motion",
@@ -522,8 +522,8 @@
       {
         "type": "node",
         "id": 1353814451,
-        "lat": 48.3894499,
-        "lon": -4.4903053,
+        "lat": 48.3894501,
+        "lon": -4.4903312,
         "tags": {
           "brand": "La Mie Câline",
           "brand:wikidata": "Q3210704",
@@ -576,8 +576,8 @@
       {
         "type": "node",
         "id": 1685815171,
-        "lat": 48.3865547,
-        "lon": -4.4900038,
+        "lat": 48.3865675,
+        "lon": -4.4899783,
         "tags": {
           "contact:city": "Brest",
           "contact:facebook": "https://www.facebook.com/mademoisellechoubrest/",
@@ -741,8 +741,8 @@
       {
         "type": "node",
         "id": 4240023052,
-        "lat": 48.3870575,
-        "lon": -4.4901664,
+        "lat": 48.3870508,
+        "lon": -4.4901539,
         "tags": {
           "addr:street": "Rue de Siam",
           "air_conditioning": "yes",
@@ -895,8 +895,8 @@
       {
         "type": "node",
         "id": 8558106176,
-        "lat": 48.3875499,
-        "lon": -4.4899971,
+        "lat": 48.3875588,
+        "lon": -4.4900115,
         "tags": {
           "books": "manga",
           "check_date:opening_hours": "2026-04-07",
@@ -910,8 +910,8 @@
       {
         "type": "node",
         "id": 9935876865,
-        "lat": 48.3860724,
-        "lon": -4.4910247,
+        "lat": 48.3860811,
+        "lon": -4.4910185,
         "tags": {
           "addr:housenumber": "39",
           "addr:street": "Rue Traverse",
@@ -942,8 +942,8 @@
       {
         "type": "node",
         "id": 10003014846,
-        "lat": 48.3877762,
-        "lon": -4.4900801,
+        "lat": 48.3877831,
+        "lon": -4.4900605,
         "tags": {
           "name": "Librairie Dialogues - Retrait des commandes internet",
           "opening_hours": "Tu-Sa 10:00-13:00,14:00-19:00",
@@ -966,8 +966,8 @@
       {
         "type": "node",
         "id": 10624184093,
-        "lat": 48.3868798,
-        "lon": -4.492361,
+        "lat": 48.3868807,
+        "lon": -4.4923549,
         "tags": {
           "check_date": "2024-02-25",
           "contact:housenumber": "51",
@@ -1015,8 +1015,8 @@
       {
         "type": "node",
         "id": 11171587083,
-        "lat": 48.3858753,
-        "lon": -4.4896102,
+        "lat": 48.3858868,
+        "lon": -4.4896235,
         "tags": {
           "contact:facebook": "https://www.facebook.com/Galerie.Antinoe",
           "contact:housenumber": "30",
@@ -1241,6 +1241,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-24T14:33:24.854Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-11-25T13:53:27.015Z",
+  "staleDataWarning": true
 }

@@ -239,7 +239,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-24T14:40:54Z",
+      "timestamp_osm_base": "2026-11-25T14:00:06Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1499,7 +1499,7 @@
           "cuisine": "sandwich",
           "delivery": "yes",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:30-22:45; Su 09:00-22:45",
+          "opening_hours": "Mo-Sa 07:30-23:00; Su 08:30-23:00",
           "payment:american_express": "yes",
           "payment:contactless": "yes",
           "payment:credit_cards": "yes",
@@ -2891,7 +2891,7 @@
           "cuisine": "sandwich",
           "delivery": "yes",
           "name": "Monop'",
-          "opening_hours": "Mo-Th 08:30-21:45; Fr-Sa 08:30-22:45; Su 08:30-19:45",
+          "opening_hours": "Mo-Th 07:30-22:00; Fr-Sa 07:30-23:00; Su 08:30-22:00; 2026 Dec 24 08:00-19:00; 2026 Dec 25 08:00-20:00; 2026 Dec 31-2027 Jan 01 08:00-20:00",
           "payment:american_express": "yes",
           "payment:contactless": "yes",
           "payment:credit_cards": "yes",
@@ -3383,8 +3383,10 @@
           "addr:postcode": "13001",
           "addr:street": "Rue Saint-Saëns",
           "diet:gluten_free": "limited",
-          "name": "Pain Pan",
-          "shop": "bakery"
+          "name": "Pain Pan !",
+          "opening_hours": "Tu-Sa 07:00-19:00; Su 08:00-13:00",
+          "shop": "bakery",
+          "website": "https://painpan.fr/"
         }
       },
       {
@@ -3716,6 +3718,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-24T14:33:24.854Z",
-  "staleDataWarning": false
+  "fetchedAt": "2026-11-25T13:53:27.015Z",
+  "staleDataWarning": true
 }
