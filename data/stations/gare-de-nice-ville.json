@@ -263,7 +263,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-24T14:46:00Z",
+      "timestamp_osm_base": "2026-11-26T13:40:26Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1087,8 +1087,6 @@
         "lat": 43.705129,
         "lon": 7.2645926,
         "tags": {
-          "addr:housenumber": "1",
-          "addr:street": "Avenue Thiers",
           "indoor_seating": "no",
           "name": "La Pétrie de la Gare",
           "opening_hours": "We-Mo 06:30-19:30",
@@ -1097,7 +1095,6 @@
           "ref:FR:SIREN": "798359600",
           "ref:FR:SIRET": "79835960000029",
           "shop": "bakery",
-          "source": "INSEE - 2026-07",
           "wheelchair": "limited"
         }
       },
@@ -2184,11 +2181,9 @@
       {
         "type": "node",
         "id": 11136692065,
-        "lat": 43.7040976,
-        "lon": 7.264479,
+        "lat": 43.7041121,
+        "lon": 7.2644649,
         "tags": {
-          "addr:housenumber": "31",
-          "addr:street": "Rue d'Angleterre",
           "description": "Librairie spécialisée en Bande Dessinée",
           "email": "nice@bdfugue.com",
           "name": "BD Fugue",
@@ -2197,7 +2192,6 @@
           "ref:FR:SIREN": "479805319",
           "ref:FR:SIRET": "47980531900015",
           "shop": "books",
-          "source": "INSEE - 2026-07",
           "wheelchair": "yes"
         }
       },
@@ -2482,16 +2476,6 @@
       },
       {
         "type": "node",
-        "id": 12091917786,
-        "lat": 43.7049561,
-        "lon": 7.2646033,
-        "tags": {
-          "name": "Grocer",
-          "shop": "convenience"
-        }
-      },
-      {
-        "type": "node",
         "id": 12091917787,
         "lat": 43.7031498,
         "lon": 7.2640385,
@@ -2649,6 +2633,16 @@
         "tags": {
           "name": "Pégase",
           "shop": "kiosk"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12685554701,
+        "lat": 43.7044824,
+        "lon": 7.2636365,
+        "tags": {
+          "name": "Azurea Magasin",
+          "shop": "convenience"
         }
       },
       {
@@ -3081,6 +3075,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-25T13:53:27.015Z",
+  "fetchedAt": "2026-11-26T13:32:43.055Z",
   "staleDataWarning": true
 }

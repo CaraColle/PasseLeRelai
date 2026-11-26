@@ -323,7 +323,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-25T13:55:04Z",
+      "timestamp_osm_base": "2026-11-26T13:35:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -9670,6 +9670,22 @@
       },
       {
         "type": "way",
+        "id": 402687387,
+        "center": {
+          "lat": 48.8764871,
+          "lon": 2.3594715
+        },
+        "tags": {
+          "indoor": "room",
+          "level": "-1",
+          "name": "Monop' daily",
+          "shop": "convenience",
+          "toilets": "no",
+          "wheelchair": "yes"
+        }
+      },
+      {
+        "type": "way",
         "id": 403883873,
         "center": {
           "lat": 48.8802757,
@@ -9836,6 +9852,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-25T13:53:27.015Z",
+  "fetchedAt": "2026-11-26T13:32:43.055Z",
   "staleDataWarning": true
 }

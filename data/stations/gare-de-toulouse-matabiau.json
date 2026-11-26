@@ -271,7 +271,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-24T14:45:00Z",
+      "timestamp_osm_base": "2026-11-26T13:39:22Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -878,8 +878,10 @@
           "contact:street": "Rue d'Alsace-Lorraine",
           "cuisine": "sandwich",
           "drink:coffee": "yes",
+          "indoor_seating": "yes",
           "name": "Les Fournils de France",
           "opening_hours": "Mo-Sa 06:30-20:00",
+          "outdoor_seating": "no",
           "ref:FR:SIRET": "83326252000012",
           "shop": "bakery",
           "was:name": "Gem's",
@@ -1097,6 +1099,7 @@
           "diet:halal": "yes",
           "name": "Shop Halal",
           "official_name": "Shop Hallal Proxim Halal",
+          "opening_hours": "Mo-Sa 09:30-19:30; Su 10:00-13:00",
           "ref:FR:SIRET": "52110662500010",
           "shop": "convenience",
           "source": "survey",
@@ -3426,6 +3429,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-25T13:53:27.015Z",
+  "fetchedAt": "2026-11-26T13:32:43.055Z",
   "staleDataWarning": true
 }

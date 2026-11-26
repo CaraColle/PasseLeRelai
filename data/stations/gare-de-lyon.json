@@ -303,7 +303,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-25T13:54:06Z",
+      "timestamp_osm_base": "2026-11-26T13:32:21Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -4199,28 +4199,6 @@
       },
       {
         "type": "node",
-        "id": 12438469351,
-        "lat": 48.8450485,
-        "lon": 2.3735698,
-        "tags": {
-          "brand": "Eric Kayser",
-          "brand:wikidata": "Q99231745",
-          "check_date": "2025-12-31",
-          "check_date:opening_hours": "2025-12-31",
-          "cuisine": "sandwich",
-          "level": "1",
-          "name": "Eric Kayser",
-          "opening_hours": "Mo-Th 06:00-20:00; Fr-Su 06:00-20:30",
-          "pastry": "yes",
-          "ref:FR:SIRET": "53470477000302",
-          "shop": "bakery",
-          "source": "survey 2024",
-          "takeaway": "only",
-          "website": "https://www.garesetconnexions.sncf/fr/gares-services/paris-gare-lyon/services-commerces/eric-kayser"
-        }
-      },
-      {
-        "type": "node",
         "id": 12789644429,
         "lat": 48.8575384,
         "lon": 2.3602246,
@@ -4887,9 +4865,44 @@
           "check_date": "2026-06-17",
           "shop": "kiosk"
         }
+      },
+      {
+        "type": "way",
+        "id": 1584536711,
+        "center": {
+          "lat": 48.8450483,
+          "lon": 2.3735771
+        },
+        "tags": {
+          "air_conditioning": "yes",
+          "amenity": "fast_food",
+          "brand": "Eric Kayser",
+          "brand:wikidata": "Q99231745",
+          "check_date": "2025-12-31",
+          "check_date:diet:vegetarian": "2026-01-11",
+          "check_date:opening_hours": "2025-12-31",
+          "cuisine": "sandwich",
+          "diet:vegetarian": "yes",
+          "ele": "38",
+          "indoor": "room",
+          "indoor_seating": "yes",
+          "level": "1",
+          "name": "Eric Kayser",
+          "opening_hours": "Mo-Th 06:00-20:00; Fr-Su 06:00-20:30",
+          "outdoor_seating": "no",
+          "pastry": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "ref": "919196",
+          "ref:FR:SIRET": "53470477000302",
+          "shop": "bakery",
+          "source": "survey 2024",
+          "takeaway": "only",
+          "website": "https://www.garesetconnexions.sncf/fr/gares-services/paris-gare-lyon/services-commerces/eric-kayser"
+        }
       }
     ]
   },
-  "fetchedAt": "2026-11-25T13:53:27.015Z",
+  "fetchedAt": "2026-11-26T13:32:43.055Z",
   "staleDataWarning": true
 }
