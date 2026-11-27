@@ -231,7 +231,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-26T14:06:02Z",
+      "timestamp_osm_base": "2026-11-27T14:07:18Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -311,6 +311,7 @@
           "payment:visa": "yes",
           "ref:FR:SIRET": "44465668000899",
           "shop": "convenience",
+          "website:orders": "https://courses.monoprix.fr/content/campagne-acq?esl-k=sem-google%7Cnx%7Cc%7Cm%7Ck%7Cp%7Ct%7Cdc%7Ca20492255477%7Cg20492255477&gclsrc=aw.ds",
           "wheelchair": "yes"
         }
       },
@@ -1273,6 +1274,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-26T13:32:43.055Z",
+  "fetchedAt": "2026-11-27T13:29:16.707Z",
   "staleDataWarning": true
 }

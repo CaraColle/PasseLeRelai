@@ -263,7 +263,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-26T13:40:26Z",
+      "timestamp_osm_base": "2026-11-27T13:39:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -337,7 +337,8 @@
           "payment:mastercard": "yes",
           "payment:visa": "yes",
           "ref:FR:SIRET": "44465668001095",
-          "shop": "convenience"
+          "shop": "convenience",
+          "website:orders": "https://www.monoprix.fr/"
         }
       },
       {
@@ -2154,16 +2155,13 @@
         "lat": 43.7026786,
         "lon": 7.2626655,
         "tags": {
-          "addr:housenumber": "10 bis",
-          "addr:street": "Avenue Durante",
           "indoor_seating": "yes",
           "name": "La Clémentine",
           "outdoor_seating": "yes",
           "ref:FR:NAF": "10.71C",
           "ref:FR:SIREN": "830218178",
           "ref:FR:SIRET": "83021817800010",
-          "shop": "bakery",
-          "source": "INSEE - 2026-07"
+          "shop": "bakery"
         }
       },
       {
@@ -3075,6 +3073,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-26T13:32:43.055Z",
+  "fetchedAt": "2026-11-27T13:29:16.707Z",
   "staleDataWarning": true
 }

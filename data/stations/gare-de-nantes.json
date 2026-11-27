@@ -267,7 +267,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-26T13:41:27Z",
+      "timestamp_osm_base": "2026-11-27T13:40:48Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -306,6 +306,25 @@
           "shop": "convenience",
           "wheelchair": "limited",
           "wheelchair:description:fr": "Porte étroite à battant ouvrant vers l'intérieur"
+        }
+      },
+      {
+        "type": "node",
+        "id": 476296092,
+        "lat": 47.2152035,
+        "lon": -1.5558867,
+        "tags": {
+          "brand": "Ppo Ppo Mart",
+          "check_date": "2026-11-25",
+          "contact:housenumber": "14",
+          "contact:street": "Rue de la Barillerie",
+          "name": "Ppo Ppo Mart",
+          "opening_hours": "off \"En travaux\"",
+          "ref:FR:SIRET": "99463228900017",
+          "shop": "convenience",
+          "was:amenity": "bank",
+          "was:name": "CIC",
+          "wheelchair": "limited"
         }
       },
       {
@@ -1351,13 +1370,27 @@
           "check_date": "2026-09-06",
           "check_date:opening_hours": "2026-08-29",
           "contact:city": "Nantes",
+          "contact:facebook": "https://www.facebook.com/Monoprix",
           "contact:housenumber": "1",
-          "contact:phone": "+33 7 49 40 20 46",
+          "contact:instagram": "https://www.instagram.com/monoprix/",
+          "contact:phone": "+33 2 44 51 24 35",
           "contact:postcode": "44200",
           "contact:street": "Boulevard de la Prairie au Duc",
+          "contact:tiktok": "https://www.tiktok.com/@monoprix",
+          "contact:twitter": "https://twitter.com/Monoprix",
           "contact:website": "https://www.monoprix.fr/2818.html",
+          "contact:youtube": "https://www.youtube.com/channel/UCUFmvsGtcpYpEBoW04rm5Gw",
+          "delivery": "yes",
+          "internet_access": "wlan",
+          "internet_access:fee": "no",
           "name": "Monop'",
-          "opening_hours": "Mo-Sa 08:30-21:00; Su 09:30-20:00",
+          "opening_hours": "Mo-Th 08:30-21:00; Fr 08:30-20:00; Sa 08:30-21:00; Su 09:30-20:00",
+          "payment:american_express": "yes",
+          "payment:contactless": "yes",
+          "payment:credit_cards": "yes",
+          "payment:debit_cards": "yes",
+          "payment:mastercard": "yes",
+          "payment:visa": "yes",
           "ref:FR:SIRET": "44465668001236",
           "shop": "convenience",
           "wheelchair": "yes"
@@ -2391,11 +2424,13 @@
           "brand:website": "https://www.briochedoree.fr",
           "brand:wikidata": "Q2925606",
           "brand:wikipedia": "fr:Brioche Dorée",
-          "check_date": "2026-06-21",
+          "check_date": "2026-11-26",
+          "check_date:diet:gluten_free": "2026-11-26",
           "contact:city": "Nantes",
           "contact:phone": "+33 2 40 20 60 95",
           "contact:street": "Boulevard du Général de Gaulle",
           "cuisine": "sandwich;pastry",
+          "diet:gluten_free": "no",
           "indoor": "room",
           "indoor_seating": "yes",
           "level": "1",
@@ -2457,6 +2492,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-26T13:32:43.055Z",
+  "fetchedAt": "2026-11-27T13:29:16.707Z",
   "staleDataWarning": true
 }

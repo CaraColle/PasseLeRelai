@@ -271,7 +271,7 @@
     "version": 0.6,
     "generator": "Overpass API 0.7.62.11 87bfad18",
     "osm3s": {
-      "timestamp_osm_base": "2026-11-26T13:39:22Z",
+      "timestamp_osm_base": "2026-11-27T13:36:51Z",
       "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
     },
     "elements": [
@@ -1869,10 +1869,6 @@
         "lat": 43.599838,
         "lon": 1.4442571,
         "tags": {
-          "addr:city": "Toulouse",
-          "addr:housenumber": "7",
-          "addr:postcode": "31000",
-          "addr:street": "Place de la Trinité",
           "branch": "Trinité Toulouse",
           "brand": "Biocoop",
           "brand:wikidata": "Q2904039",
@@ -3318,8 +3314,11 @@
         "lat": 43.6120343,
         "lon": 1.4571774,
         "tags": {
+          "contact:housenumber": "4",
+          "contact:street": "Rue des Champs Élysées",
           "name": "Épicerie des Champs Élysées",
           "opening_hours": "Su-Fr 19:00-02:00, Sa 19:00-03:00",
+          "ref:FR:SIRET": "92524204200016",
           "shop": "convenience"
         }
       },
@@ -3429,6 +3428,6 @@
       }
     ]
   },
-  "fetchedAt": "2026-11-26T13:32:43.055Z",
+  "fetchedAt": "2026-11-27T13:29:16.707Z",
   "staleDataWarning": true
 }
